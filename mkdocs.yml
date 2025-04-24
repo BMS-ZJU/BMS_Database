@@ -1,0 +1,199 @@
+site_name: 基础医学学习网站
+site_url: https://GuChL9/github.io/site-test/
+site_description: 基础医学学习网站
+repo_name: ZJU-BMS
+repo_url: https://github.com/GuChL9/site-test
+edit_uri: tree/master/docs
+
+theme:
+#  logo: images/ZJUBMS.png
+  logo: images/logo_white.png
+  name: material
+  language: 'zh'
+  favicon: images/ZJUBMS.png
+
+  #主题切换
+  palette:
+
+    # 日间模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # 夜间模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+
+
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    #- navigation.indexes
+    - navigation.path
+    - navigation.expand
+    #- navigation.sections
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+    - content.code.annotate    
+    - content.action.edit
+
+  custom_dir: overrides
+
+nav:
+  - 首页:
+    - index.md
+  - 紫金港速通:
+    - freshman/index.md
+  - 专业必修课程:
+    - mandatory/index.md
+    - 生物类: 
+      - 医学生命基础: mandatory/medical_life_fundamentals/index.md
+      - 医学科学素养Ⅰ: mandatory/medical_research_literacy_1/index.md
+      - 医学科学英语基础: mandatory/essential_english_for_medicial_sciences/index.md
+      - 细胞与生物分子Ⅰ: mandatory/molecular_cell_biology_1/index.md
+      - 细胞与生物分子Ⅱ: mandatory/molecular_cell_biology_2/index.md
+      - 遗传与发育Ⅰ: mandatory/genetics_and_developmental_biology_1/index.md
+      - 基础医学科学研究技能Ⅰ: mandatory/basic_techniques_in_medical_sciences_1/index.md
+      - 遗传与发育Ⅱ: mandatory/genetics_and_developmental_biology_2/index.md
+    - 基础医学类:
+      - 人体结构与功能学: mandatory/structure_and_function_of_the_human_body/index.md
+      - 感染与免疫学: mandatory/infectious_diseases_and_immunity/index.md
+      - 疾病基础: mandatory/the_basis_for_human_diseases/index.md
+      - 基础药理学: mandatory/basic_pharmacology/index.md
+      - 神经科学: mandatory/neuroscience/index.md
+    - 公共卫生与预防医学类:
+      - 实验动物与伦理学: mandatory/experimental_animals_and_ethics/index.md
+      - 医学科学素养Ⅱ: mandatory/medical_science_literacy_2/index.md
+      - 临床流行病学与循证医学: mandatory/clinical_epidemiology_and_evidence_based_medicine/index.md
+    - 临床医学类:
+      - 重要疾病的临床与研究Ⅰ: mandatory/human_diseases_from_clinic_to_research_1/index.md
+      - 重要疾病的临床与研究Ⅱ: mandatory/human_diseases_from_clinic_to_research_2/index.md
+      - 重要疾病的临床与研究Ⅲ: mandatory/human_diseases_from_clinic_to_research_3/index.md
+    - 交叉性课程:
+      - 医学生物物理学: mandatory/medical_biophysics/index.md
+      - 医学大数据与应用: mandatory/medical_big_data_and_application/index.md
+      - 脑与脑机融合: mandatory/brain_and_brain_machine_integrated_systems/index.md
+    - 实践教学环节:
+      - 基础医学科学研究技能Ⅱ: mandatory/basic_techniques_in_medical_sciences_2/index.md
+      - 基础医学科研实践: mandatory/medical_research_practice/index.md
+      - 基础医学教育见习: mandatory/educational_probation_of_basis_medicine/index.md
+      - 临床实习: mandatory/clinical_practice/index.md
+
+  # 以下课程英文注释未改
+  - 专业选修课程:
+    - elective/index.md
+    - 感染与免疫学方向:
+      - 微生物学与免疫学前沿技术: elective/microbiology_and_immunology_frontier_technologies/index.md
+      - 重要传染病的防治基础: elective/important_infectious_disease_prevention_and_treatment_basis/index.md
+      - 临床免疫学: elective/clinical_immunology/index.md
+    - 分子肿瘤方向:
+      - 肿瘤生物学: elective/tumor_biology/index.md
+      - 肿瘤研究策略与应用: elective/tumor_research_strategy_and_application/index.md
+      - 临床肿瘤学概论: elective/clinical_oncology_introduction/index.md
+    - 专业选修:
+      - 物理化学: elective/physical_chemistry/index.md
+      - 法理学: elective/jurisprudence/index.md
+      - 管理学: elective/management/index.md
+      - 教育统计学: elective/educational_statistics/index.md
+      - 卫生学: elective/hygiene/index.md
+      - 演化医学理论及应用: elective/evolutionary_medicine_theory_and_application/index.md
+      - 教育心理学: elective/educational_psychology/index.md
+      - 卫生事业管理: elective/health_administration/index.md
+      - 医学伦理学与卫生法学: elective/medical_ethics_and_health_law/index.md
+      - 法医学: elective/forensic_medicine/index.md
+      - 新药研发: elective/new_drug_development/index.md
+      - 卫生毒理学: elective/health_toxicology/index.md
+      - 全球环境改变与人类健康: elective/global_environmental_change_and_human_health/index.md
+      - 医学人工智能: elective/artificial_intelligence_in_medicine/index.md
+      - 社会医学(乙): elective/social_medicine_b/index.md
+      - 环境卫生学: elective/environmental_health/index.md
+      - 营养与食品卫生学: elective/nutrition_and_food_hygiene/index.md
+  - 本科生轮转: 
+    - rotation/rotation.md
+  - 政策收集:
+    - policy/index.md
+  - 资源收集:
+    - 专业必修:
+      - 交叉性课程:
+        - 医学生物物理学:
+          - 2022-2023 期末测试: mandatory/medical_biophysics/preview/2022_to_2023/final_exam.md
+          - 2023-2024 期末测试: mandatory/medical_biophysics/preview/2023_to_2024/final_exam.md
+          - 2024-2025 期末测试: mandatory/medical_biophysics/preview/2024_to_2025/final_exam.md
+  - 飞跃专题:
+    - fly/index.md
+  - 后记:
+    - postscript/postscript.md
+
+
+#这个地方是页面最下方放友情链接的，需要一个图标icon和一个链接link
+extra:
+  social:
+    - icon: material/web-check
+      link: https://bms.zju.edu.cn/
+
+#这个是版权横幅
+copyright: Copyright &copy; 2024-2025 基础医学飞跃手册编委会
+
+markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+  - md_in_html
+  # - meta # 支持Markdown文件上方自定义标题标签等
+  - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
+  - pymdownx.arithmatex: # latex支持
+      generic: true
+  - toc:
+      permalink: true # 固定标题位置为当前位置
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+      linenums: true # 显示行号
+      # auto_title: true # 显示编程语言名称
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+
+# katex
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  
+# 统一设置样式
+extra_css:
+  - css/styles.css
+  - https://unpkg.com/katex@0/dist/katex.min.css #katex
+
