@@ -1,0 +1,124 @@
+/*以下为占比表*/
+.percentage-table {
+    max-width: 100%;
+    overflow-x: auto;
+}
+.percentage-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.percentage-table td {
+    padding: 8px 0px;
+    font-size: 0.9em;
+    color:rgb(0, 0, 0);
+}
+.first-column {
+    width: 120px; /* 固定宽度 */
+    white-space: nowrap; /* 防止文本换行 */
+}
+.second-column {
+    width: 50px;
+    white-space: nowrap;
+}
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/*以上为占比表*/
+
+/*以下为资源表*/
+.resource-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.resource-table thead {
+    background:rgb(193, 219, 248);;
+    color: black;
+}
+.resource-table th {
+    padding: 12px 20px;
+    text-align: middle;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+}
+.resource-table tbody tr {
+    border-bottom: 1px solid #e5e7eb;
+    transition: background-color 0.2s;
+}
+.resource-table tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+.resource-table tbody tr:hover {
+    background-color: #f1f5f9;
+}
+.resource-table td {
+    padding: 12px 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 0.83em;
+    color: #374151;
+}
+.resource-table tbody tr:last-child {
+    border-bottom: none;
+}
+/*以上为资源表*/
+
+/*以下为旋转棍*/
+.link-divider {
+    display: inline-flex;
+    align-items: center;
+}
+.divider {
+    color: #ddd;
+    margin: 0 8px;
+    transition: all 0.3s;
+    vertical-align: middle; /* 垂直居中 */
+    font-family: "Source Han Sans", "Noto Sans", sans-serif; /* 使用合适的字体 */
+    font-size: 1em; /* 确保与汉字一致 */
+    transform-origin: center; /* 旋转中心点 */
+}
+.link-divider:hover .divider {
+    color: #666;
+    transform: rotate(360deg);
+}
+/*以上为旋转棍*/
+
+
+.badges {
+    margin-top: -2em;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+  }
+  .is-badge, .labor-badge {
+    background-color: #FF862F;
+    color: #161616;
+  }
+  .cs-badge, .general-badge {
+    background-color: #29ABCA;
+    color: #161616;
+  }
+  .ai-badge, .cross-badge {
+    background-color: #FC6255;
+    color: #161616;
+  }
+  [data-md-color-scheme="default"] .is-badge,
+  [data-md-color-scheme="default"] .cs-badge,
+  [data-md-color-scheme="default"] .ai-badge {
+    color: #FFFFFF;
+  }
+
