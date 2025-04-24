@@ -1,8 +1,8 @@
 site_name: 基础医学学习网站
-site_url: https://GuChL9/github.io/site-test/
+site_url: https://BMS-ZJU/github.io/BMS_Database/
 site_description: 基础医学学习网站
-repo_name: ZJU-BMS
-repo_url: https://github.com/GuChL9/site-test
+repo_name: BMS-ZJU
+repo_url: https://BMS-ZJU/ggithub.io/BMS_Database/
 edit_uri: tree/master/docs
 
 theme:
