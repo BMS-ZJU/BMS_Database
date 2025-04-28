@@ -4,13 +4,15 @@ title: 医学生物物理学 期末测试 2022-2023学年
 
 <center>
 
-# **2022-2023学年 医学生物物理学 期末测试**
-<p style="font-size: 13px">
-基础医学专业课 回忆卷
-</p>
-<p style="font-size: 13px">
+<h1 style="color: black">
+<b>2022-2023学年 医学生物物理学 期末测试</b>
+</h1>
+
+<p style="font-size: 0.9em; margin: -1.5em">
+基础医学专业课 回忆卷<br>
 本卷为全中文，共配置 30 道题目。满分 100 分，时间 2 小时
 </p>
+
 </center>
 
 ---
