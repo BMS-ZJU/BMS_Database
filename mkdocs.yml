@@ -1,8 +1,8 @@
 site_name: 基础医学学习网站
-site_url: https://BMS-ZJU/github.io/BMS_Database/
+site_url: https://BMS-ZJU.github.io/BMS_Database/
 site_description: 基础医学学习网站
 repo_name: BMS-ZJU
-repo_url: https://BMS-ZJU/ggithub.io/BMS_Database/
+repo_url: https://github.com/BMS-ZJU/BMS_Database
 edit_uri: tree/master/docs
 
 theme:
@@ -102,29 +102,38 @@ nav:
       - 肿瘤研究策略与应用: elective/tumor_research_strategy_and_application/index.md
       - 临床肿瘤学概论: elective/clinical_oncology_introduction/index.md
     - 专业选修:
-      - 物理化学: elective/physical_chemistry/index.md
-      - 法理学: elective/jurisprudence/index.md
-      - 管理学: elective/management/index.md
-      - 教育统计学: elective/educational_statistics/index.md
-      - 卫生学: elective/hygiene/index.md
       - 演化医学理论及应用: elective/evolutionary_medicine_theory_and_application/index.md
-      - 教育心理学: elective/educational_psychology/index.md
-      - 卫生事业管理: elective/health_administration/index.md
+      - 物理化学: elective/physical_chemistry/index.md
+      - 科学写作与表达: elective/academic_writing_and_presentation/index.md
+      - 概率论与数理统计: elective/probability_and_mathematical_statistic/index.md
+      - 医工信交叉前沿进展: elective/advances_at_the_intersection_of_medicine_engineering_and_information_technology/index.md
+      - 医学统计学: elective/clinical_medicine_statistics/index.md
+      - 法理学: elective/jurisprudence/index.md
+      - 组学与精准医学前言导论: elective/introduction_to_multi_omics_and_precision_medicine/index.md
+      - 管理学: elective/fundamentals_of_management/index.md
+      - 教育统计学: elective/educational_statistics/index.md
+      - 预防医学: elective/preventive_medicine/index.md
       - 医学伦理学与卫生法学: elective/medical_ethics_and_health_law/index.md
+      - 卫生学: elective/clinical_hygiene/index.md
+      - 卫生事业管理: elective/health_management/index.md
+      - 教育心理学: elective/educational_psychology/index.md
       - 法医学: elective/forensic_medicine/index.md
-      - 新药研发: elective/new_drug_development/index.md
+      - 新药研发: elective/new_drug_research_and_development/index.md
+      - 全球环境改变与人类健康: elective/global_environmental_changes_and_human_health/index.md
       - 卫生毒理学: elective/health_toxicology/index.md
-      - 全球环境改变与人类健康: elective/global_environmental_change_and_human_health/index.md
       - 医学人工智能: elective/artificial_intelligence_in_medicine/index.md
       - 社会医学(乙): elective/social_medicine_b/index.md
-      - 环境卫生学: elective/environmental_health/index.md
-      - 营养与食品卫生学: elective/nutrition_and_food_hygiene/index.md
+      - 环境卫生学: elective/environmental_health_science/index.md
+      - 营养与食品卫生学: elective/nutriology_and_food_hygiene/index.md
   - 本科生轮转: 
     - rotation/rotation.md
   - 政策收集:
     - policy/index.md
   - 资源收集:
     - 专业必修:
+      - 生物类:
+        - 医学生命基础:
+          - 2024-2025 期末测试: mandatory/medical_life_fundamentals/preview/2024_to_2025/final_exam.md
       - 交叉性课程:
         - 医学生物物理学:
           - 2022-2023 期末测试: mandatory/medical_biophysics/preview/2022_to_2023/final_exam.md
