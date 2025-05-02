@@ -1,5 +1,7 @@
 # 课程一览
 
+本页面课程全部**必须修读**
+
 ### 生物类
 
 <div style="text-align: center" markdown="1">

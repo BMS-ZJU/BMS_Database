@@ -130,15 +130,22 @@ nav:
   - 政策收集:
     - policy/index.md
   - 资源收集:
-    - 专业必修:
+    - 专业必修课程:
       - 生物类:
         - 医学生命基础:
           - 2024-2025 期末测试: mandatory/medical_life_fundamentals/preview/2024_to_2025/final_exam.md
+        - 遗传与发育Ⅱ:
+          - 2023-2024 期末测试: mandatory/genetics_and_developmental_biology_2/preview/2023_to_2024/final_exam.md
+          - 2024-2025 期末测试: mandatory/genetics_and_developmental_biology_2/preview/2024_to_2025/final_exam.md
       - 交叉性课程:
         - 医学生物物理学:
           - 2022-2023 期末测试: mandatory/medical_biophysics/preview/2022_to_2023/final_exam.md
           - 2023-2024 期末测试: mandatory/medical_biophysics/preview/2023_to_2024/final_exam.md
           - 2024-2025 期末测试: mandatory/medical_biophysics/preview/2024_to_2025/final_exam.md
+    - 专业选修课程:
+      - 分子肿瘤方向:
+        - 肿瘤生物学:
+          - 2024-2025 期末测试: elective/tumor_biology/preview/2024_to_2025/final_exam.md
   - 飞跃专题:
     - fly/index.md
   - 后记:

@@ -5,7 +5,7 @@ title: 医学生物物理学 期末测试 2022-2023学年
 <center>
 
 <h1 style="color: black">
-<b>2022-2023学年 医学生物物理学 期末测试</b>
+<b>$2022$ - $2023$ 学年 医学生物物理学 期末测试</b>
 </h1>
 
 <p style="font-size: 0.9em; margin: -1.5em">
