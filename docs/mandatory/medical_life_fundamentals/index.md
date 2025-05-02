@@ -86,7 +86,7 @@
                 <td>2024-2025学年 期末测试 回忆卷</td>
                 <td>历年卷</td>
                 <td><a href="https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E5%9B%9E%E5%BF%86%E5%8D%B7.html">点此跳转</a></td>
-                <td><span class="link-divider"><a href="./preview/2024_to_2025/24-25医学生命基础回忆卷">查看</a><span class="divider">丨</span><a href="./download/24-25医学生命基础回忆卷.pdf" download>保存</a></span></td>
+                <td><span class="link-divider"><a href="./preview/2024_to_2025/final_exam">查看</a><span class="divider">丨</span><a href="./download/2024_to_2025_medical_life_fundamentals.pdf" download>保存</a></span></td>
             </tr>
         </tbody>
     </table>

@@ -21,6 +21,8 @@
 
 <div style="text-align: center" markdown="1">
 
+| 课程名称 | 学分 | 建议学年学期 | 资料情况 |
+|:--|:--|:--|:--:|
 |[人体结构与功能学](structure_and_function_of_the_human_body/index.md)|6.0|二（春夏）|较完善✅|
 |[感染与免疫学](infectious_diseases_and_immunity/index.md)|5.0|三（秋冬）|无|
 |[疾病基础](the_basis_for_human_diseases/index.md)|6.0|三（秋冬）|无|
