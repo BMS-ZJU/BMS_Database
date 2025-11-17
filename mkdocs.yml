@@ -1,4 +1,4 @@
-site_name: 基础医学学习网站
+site_name: BMS_Database
 site_url: https://BMS-ZJU.github.io/BMS_Database/
 site_description: 基础医学学习网站
 repo_name: BMS-ZJU
@@ -55,6 +55,9 @@ nav:
     - index.md
   - 紫金港速通:
     - freshman/index.md
+    - 选课: freshman/course_selection.md
+    - 教材预定: freshman/textbook.md
+    - 对外交流: freshman/external_exchange.md
   - 专业必修课程:
     - mandatory/index.md
     - 生物类: 
@@ -126,7 +129,7 @@ nav:
       - 环境卫生学: elective/environmental_health_science/index.md
       - 营养与食品卫生学: elective/nutriology_and_food_hygiene/index.md
   - 本科生轮转: 
-    - rotation/rotation.md
+    - rotation/index.md
   - 政策收集:
     - policy/index.md
   - 资源收集:
@@ -134,22 +137,52 @@ nav:
       - 生物类:
         - 医学生命基础:
           - 2024-2025 期末测试: mandatory/medical_life_fundamentals/preview/2024_to_2025/final_exam.md
+        - 细胞与生物分子Ⅱ:
+          - 2024-2025 小测: mandatory/molecular_cell_biology_2/preview/2024_to_2025/quiz.md
+          - 2024-2025 小测: mandatory/molecular_cell_biology_2/preview/2025_to_2026/quiz.md
+          - 2024-2025 期末测试: mandatory/molecular_cell_biology_2/preview/2024_to_2025/final_exam.md
         - 遗传与发育Ⅱ:
           - 2023-2024 期末测试: mandatory/genetics_and_developmental_biology_2/preview/2023_to_2024/final_exam.md
           - 2024-2025 期末测试: mandatory/genetics_and_developmental_biology_2/preview/2024_to_2025/final_exam.md
+      - 基础医学类:
+        - 人体结构与功能学:
+          - 2024-2025 期末测试: mandatory/structure_and_function_of_the_human_body/preview/2024_to_2025/final_exam.md
+      - 公共卫生与预防医学类:
+        - 医学科学素养Ⅱ:
+          - 2025-2026 练习1: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/exercise1.md
+          - 2025-2026 练习2: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/exercise2.md
+          - 2025-2026 小测1: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/quiz1_ques.md
+          - 2025-2026 小测1（含答案）: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/quiz1_ans.md
+          - 2025-2026 小测2: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/quiz2_ques.md
+          - 2025-2026 小测2（含答案）: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/quiz2_ans.md
+          - 2025-2026 小测3: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/quiz3_ques.md
+          - 2025-2026 小测3（含答案）: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/quiz3_ans.md
+          - 2025-2026 小测4: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/quiz4.md
+          - 2025-2026 小测4（补考版）: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/quiz4_makeup.md
+          - 2025-2026 小测5: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/quiz5.md
+          - 2025-2026 例题: mandatory/medical_science_literacy_2/preview/2025_to_2026/quiz/examples.md
+          - 2025-2026 期末测试: mandatory/medical_science_literacy_2/preview/2025_to_2026/final_exam.md
       - 交叉性课程:
         - 医学生物物理学:
           - 2022-2023 期末测试: mandatory/medical_biophysics/preview/2022_to_2023/final_exam.md
           - 2023-2024 期末测试: mandatory/medical_biophysics/preview/2023_to_2024/final_exam.md
           - 2024-2025 期末测试: mandatory/medical_biophysics/preview/2024_to_2025/final_exam.md
+        - 医学大数据与应用:
+          - 2024-2025 期末测试: mandatory/medical_big_data_and_application/preview/2024_to_2025/final_exam.md
+        - 脑与脑机融合: 
+          - 2024-2025 期末测试: mandatory/brain_and_brain_machine_integrated_systems/preview/2024_to_2025/final_exam.md
+          - 题目示例: mandatory/brain_and_brain_machine_integrated_systems/preview/2024_to_2025/example.md
     - 专业选修课程:
       - 分子肿瘤方向:
         - 肿瘤生物学:
           - 2024-2025 期末测试: elective/tumor_biology/preview/2024_to_2025/final_exam.md
+      - 物理化学:
+        - 2024-2025秋冬 期中测试: elective/physical_chemistry/preview/2024_to_2025/mid_exam.md
+    - 错误页面: error.md
   - 飞跃专题:
     - fly/index.md
-  - 后记:
-    - postscript/postscript.md
+#  - 后记:
+#    - postscript/postscript.md
 
 
 #这个地方是页面最下方放友情链接的，需要一个图标icon和一个链接link

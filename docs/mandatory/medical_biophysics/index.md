@@ -4,8 +4,7 @@
 <span class="badge is-badge">交叉性课程</span>
 </div>
 
-线下理论课
-全中文
+线下理论课，全中文
 
 ## 课程介绍
 
@@ -134,13 +133,13 @@
                 <td>笔记2-谷雨桦</td>
                 <td>笔记</td>
                 <td>无</td>
-                <td><span class="link-divider"><a href="preview/note/note2_gyh.pdf">查看</a><span class="divider">丨</span><a href="download/medical_biophysics_note2_gyh.pdf" download>保存</a></span></td>
+                <td><span class="link-divider"><a href="download/medical_biophysics_note2_gyh.pdf">查看</a><span class="divider">丨</span><a href="download/medical_biophysics_note2_gyh.pdf" download>保存</a></span></td>
             </tr>
             <tr>
                 <td>核磁共振笔记-袁玉振</td>
                 <td>笔记</td>
                 <td>无</td>
-                <td><span class="link-divider"><a href="preview/note/note_yyz.pdf">查看</a><span class="divider">丨</span><a href="download/NMR_note_yyz.pdf" download>保存</a></span></td>
+                <td><span class="link-divider"><a href="download/NMR_note_yyz.pdf">查看</a><span class="divider">丨</span><a href="download/NMR_note_yyz.pdf" download>保存</a></span></td>
             </tr>
             <tr>
                 <td>2022-2023学年 期末测试 回忆卷</td>
@@ -165,7 +164,3 @@
 </div>
 
 ## 学习经验
-
-**23级 高世晨** 
-
-> 第一个学习建议
