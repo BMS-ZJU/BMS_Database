@@ -17,6 +17,10 @@
     width: 120px; /* 固定宽度 */
     white-space: nowrap; /* 防止文本换行 */
 }
+.first-column-structure-and-function {
+    width: 200px; /* 固定宽度 */
+    white-space: nowrap; /* 防止文本换行 */
+}
 .second-column {
     width: 50px;
     white-space: nowrap;

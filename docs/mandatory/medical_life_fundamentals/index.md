@@ -39,13 +39,11 @@
 
 ## 教材信息
 
-**参考教材：** Campbell Biology (第12版) Lisa A. Urry / Michael L. Cain / Steven A. Wasserman / Peter V. Minorsky / Rebecca Orr 
+**参考教材：** Campbell Biology (第12版)
 
 课程与教材关系不大，仅供参考使用。
 
 ## 分数构成
-
-本课程分数构成特殊，总占比为110%，最终成绩按百分制折算。
 
 === "2024-2025学年"
 
@@ -69,6 +67,8 @@
         </tbody>
     </table>
 
+    本学年分数构成特殊，总占比为110%，最终成绩按百分制折算。
+
 ## 学习资源
 
 <div class="table-container">
@@ -82,6 +82,12 @@
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <td>2021-2022学年 期末测试 历年卷</td>
+                <td>历年卷</td>
+                <td>钉钉群</td>
+                <td>无</td>
+            </tr>
             <tr>
                 <td>2024-2025学年 期末测试 回忆卷</td>
                 <td>历年卷</td>
