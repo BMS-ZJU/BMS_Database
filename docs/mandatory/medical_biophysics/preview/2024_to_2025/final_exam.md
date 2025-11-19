@@ -239,7 +239,7 @@ title: 医学生物物理学 期末测试 2024-2025学年
     （$1$）推测该特定膜结构最可能属于哪种膜，并解释依据  
     （$2$）结合该膜结构的功能，分析其在维持细胞内外环境稳态中发挥的作用  
 
-    ![题图4-2](4-2.png){: style="display: block; margin: 0 auto; max-width: 80%; height: auto;"}
+    ![题图4-2](4-2.png){: style="display: block; margin: 0 auto; max-width: 100%; height: auto;"}
 
     <br><br><br><br>
 
