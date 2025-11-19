@@ -123,7 +123,7 @@
                     <td><a href="./preview/2024_to_2025/quiz">查看</a></td>
                 </tr>
                 <tr>
-                    <td>2025-2026秋冬 小测</td>
+                    <td>2025-2026秋冬 小测（未更完）</td>
                     <td>历年卷</td>
                     <td>无</td>
                     <td><a href="./preview/2025_to_2026/quiz">查看</a></td>
