@@ -129,6 +129,12 @@
                     <td><a href="./preview/2025_to_2026/quiz">查看</a></td>
                 </tr>
                 <tr>
+                    <td>2023-2024秋冬 期末 回忆卷</td>
+                    <td>历年卷</td>
+                    <td><a href="https://www.cc98.org/topic/5803521">CC98</a></td>
+                    <td><a href="./preview/2023_to_2024/final_exam">查看</a></td>
+                </tr>
+                <tr>
                     <td>2024-2025秋冬 期末 回忆卷</td>
                     <td>历年卷</td>
                     <td><a href="https://www.cc98.org/topic/6087340">CC98</a></td>
