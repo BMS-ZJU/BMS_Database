@@ -320,9 +320,9 @@ title: 人体结构与功能学 期末测试 2024-2025学年
 2. Because of the hot weather, a students drank a bottle of water (500 mL) in a short time.  
 (1) What change will occur in the osmotic pressure（渗透压）of the students' urine compared with normal drinking water?  
 (2) In the figure below, AQP means 水通道蛋白, based on the figure, explain the mechanism of the change.  
-<center>
 
-<img src="3.2.png" alt="题图3.2" width="350">
-
-</center>
-<br><br><br>
+    ![题图3-2](3-2.png){: style="display: block; margin: 0 auto; max-width: 70%; height: auto;"}
+    
+    
+    
+    <br><br><br>
