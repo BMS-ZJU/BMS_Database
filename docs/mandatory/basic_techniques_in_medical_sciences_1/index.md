@@ -107,7 +107,7 @@
                 <tr>
                     <td>实验步骤与知识点 密码: Fya2</td>
                     <td>笔记</td>
-                    <td><span class="link-divider"><a href="https://space.dingtalk.com/s/gwHPAAAAAlpHf-ICzr0pu14D2gAgYzc4Y2M2NjY3MDAyNGMwYjlhOTYxNWRkYjUxMWI4NjU 密码: Fya2">查看</a><span class="divider">|</span><a href="https://space.dingtalk.com/s/gwHPAAAAAlpHf-ICzr0pu14D2gAgYzc4Y2M2NjY3MDAyNGMwYjlhOTYxNWRkYjUxMWI4NjU 密码: Fya2">保存</a></span></td>
+                    <td><span class="link-divider"><a href="https://space.dingtalk.com/s/gwHPAAAAAlpHf-ICzr0pu14D2gAgYzc4Y2M2NjY3MDAyNGMwYjlhOTYxNWRkYjUxMWI4NjU 密码: Fya2">查看</a><span class="divider">|</span>Ctrl+P 保存</span></td>
                     <td>无</td>
                 </tr>
                 <tr>

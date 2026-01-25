@@ -66,13 +66,13 @@
                     <td>2023-2024夏 期末 回忆卷</td>
                     <td>历年卷</td>
                     <td><a href="https://www.cc98.org/topic/5876395">CC98</a></td>
-                    <td><span class="link-divider"><a href="./preview/2023_to_2024/final_exam">查看</a><span class="divider">|</span><a href="./download/2023_to_2024_genetics_and_developmental_biology_2_final_exam.pdf" download>保存</a></span></td>
+                    <td><span class="link-divider"><a href="./preview/2023_to_2024/final_exam">查看</a><span class="divider">|</span>Ctrl+P 保存</span></td>
                 </tr>
                 <tr>
                     <td>2024-2025夏 期末 回忆卷</td>
                     <td>历年卷</td>
                     <td><a href="https://www.cc98.org/topic/6160115">CC98</a></td>
-                    <td><span class="link-divider"><a href="./preview/2024_to_2025/final_exam">查看</a><span class="divider">|</span><a href="./download/2024_to_2025_genetics_and_developmental_biology_2_final_exam.pdf" download>保存</a></span></td>
+                    <td><span class="link-divider"><a href="./preview/2024_to_2025/final_exam">查看</a><span class="divider">|</span>Ctrl+P 保存</span></td>
                 </tr>
                 <tr>
                     <td>考试资料</td>
