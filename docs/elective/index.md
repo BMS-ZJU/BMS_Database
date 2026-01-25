@@ -4,7 +4,7 @@
 
 ### 专业方向课程
 
-- 强基计划班的同学**必须**在以下两个方向中选择一个方向修读
+- 强基计划班的同学**必须**在以下两个方向中修读 6 学分
 - 求是科学班的同学可以自由选择其中的课程作为**专业选修学分**
 
 === "感染与免疫学方向"
@@ -86,7 +86,7 @@
         |[法理学](jurisprudence/index.md)|3.0|二(春夏)|无|
         |[管理学](fundamentals_of_management/index.md)|3.0|二(春夏)|无|
         |[教育统计学](educational_statistics/index.md)|2.0|二(夏)|无|
-        |[卫生学](clinical_hygiene/index.md)|2.0|二(夏)|无|
+        |[卫生学（已停开）](clinical_hygiene/index.md)|2.0|二(夏)|无|
         |[演化医学理论及应用](evolutionary_medicine_theory_and_application/index.md)|2.0|二(夏)|无|
         |[教育心理学](educational_psychology/index.md)|2.0|三(春)|无|
         |[卫生事业管理](health_management/index.md)|1.5|三(春)|无|
@@ -120,7 +120,7 @@
         |[法理学](jurisprudence/index.md)|3.0|二(春夏)|无|
         |[管理学](fundamentals_of_management/index.md)|3.0|二(春夏)|无|
         |[教育统计学](educational_statistics/index.md)|2.0|二(夏)|无|
-        |[卫生学](clinical_hygiene/index.md)|2.0|二(夏)|无|
+        |[卫生学（已停开）](clinical_hygiene/index.md)|2.0|二(夏)|无|
         |[卫生事业管理](health_management/index.md)|1.5|三(春)|无|
         |[医学伦理学与卫生法学](medical_ethics_and_health_law/index.md)|1.5|三(春)|无|
         |[教育心理学](educational_psychology/index.md)|2.0|三(春)|无|
