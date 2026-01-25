@@ -451,6 +451,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
 <br>
 
 44. A 57-year-old woman has experienced an increasing feeling of fullness in her neck along with a 3-kg (7-lb) weight loss over the past 3 months. On physical examination, there is a firm, fixed mass in a $3\times5$ cm area in the right side of the neck. A CT scan shows a solid infiltrating mass in the region of the right lobe of the thyroid gland. A biopsy of the mass is performed and the microscopic appearance is shown in the figure. All areas of the tumor have similar morphology. Which of the following terms best describes this neoplasm?  
+   ![题图3-44](3-44.png){: style="display: block; margin: 0 auto; max-width: 50%; height: auto;"}
     *单选题，1分*  
     **A.** Anaplastic  
     **B.** Apoptotic  
@@ -460,7 +461,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：A  
 <br>
 
-45. A 69-year-old man has noted a chronic cough for the past 3 months. On physical examination, there is mild stridor (喘鸣) on inspiration over the right lung. A chest radiograph shows a 5-cm right hilar (肺门) lung mass, and a fine-needle aspiration biopsy (活检) specimen of the mass shows cells consistent with squamous cell carcinoma. If staging of this neoplasm is denoted as T2N1M1, which of the following findings is most likely in this man?  
+1.  A 69-year-old man has noted a chronic cough for the past 3 months. On physical examination, there is mild stridor (喘鸣) on inspiration over the right lung. A chest radiograph shows a 5-cm right hilar (肺门) lung mass, and a fine-needle aspiration biopsy (活检) specimen of the mass shows cells consistent with squamous cell carcinoma. If staging of this neoplasm is denoted as T2N1M1, which of the following findings is most likely in this man?  
     *单选题，1分*  
     **A.** Brain metastases  
     **B.** Elevated corticotropin level  
@@ -470,7 +471,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：A  
 <br>
 
-46. 肿瘤性增生与炎性增生的根本区别是  
+1.  肿瘤性增生与炎性增生的根本区别是  
     *单选题，1分*  
     **A.** 生长快  
     **B.** 有核分裂像  
@@ -480,7 +481,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：D  
 <br>
 
-47. 下列哪项最能概括心功能不全的本质?  
+1.  下列哪项最能概括心功能不全的本质?  
     *单选题，1分*  
     **A.** 心脏射血分数降低  
     **B.** 心率增快但搏出量减少  
@@ -490,7 +491,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：C  
 <br>
 
-48. 心功能不全时交感-肾上腺髓质系统激活的直接结果是:  
+1.  心功能不全时交感-肾上腺髓质系统激活的直接结果是:  
     *单选题，1分*  
     **A.** 心率减慢  
     **B.** 外周血管舒张  
@@ -500,7 +501,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：D  
 <br>
 
-49. 以下哪项不属于心功能不全时机体快速启动的功能性调整?  
+1.  以下哪项不属于心功能不全时机体快速启动的功能性调整?  
     *单选题，1分*  
     **A.** 红细胞增多  
     **B.** 心肌收缩力增强  
@@ -510,7 +511,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：A  
 <br>
 
-50. 长期压力负荷导致的心室改变为:  
+1.  长期压力负荷导致的心室改变为:  
     *单选题，1分*  
     **A.** 离心性肥大  
     **B.** 向心性肥大  
@@ -520,7 +521,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：B  
 <br>
 
-51. 长期容量负荷下,心肌纤维:  
+1.  长期容量负荷下,心肌纤维:  
     *单选题，1分*  
     **A.** 并联增生  
     **B.** 缩短变粗  
@@ -530,7 +531,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：C  
 <br>
 
-52. 心肌收缩功能降低的直接原因不包括:  
+1.  心肌收缩功能降低的直接原因不包括:  
     *单选题，1分*  
     **A.** 心室顺应性显著改善  
     **B.** 心肌收缩蛋白数量减少  
@@ -540,7 +541,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：A  
 <br>
 
-53. 兴奋-收缩耦联障碍的关键因素是:  
+1.  兴奋-收缩耦联障碍的关键因素是:  
     *单选题，1分*  
     **A.** 心肌细胞数量过度增加  
     **B.** 心脏传导速度显著加快  
@@ -550,7 +551,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：E  
 <br>
 
-54. 心排血量减少的直接后果是:  
+1.  心排血量减少的直接后果是:  
     *单选题，1分*  
     **A.** 动脉系统灌注不足  
     **B.** 静脉回流显著增加  
@@ -560,7 +561,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：A  
 <br>
 
-55. 体循环静脉淤血主要发生于?  
+1.  体循环静脉淤血主要发生于?  
     *单选题，1分*  
     **A.** 左心衰竭  
     **B.** 右心衰竭  
@@ -570,7 +571,7 @@ title: 疾病基础 小测 3（含答案） 2025-2026学年
     正确答案：B  
 <br>
 
-56. 夜间阵发性呼吸困难的加重机制不包括:  
+1.  夜间阵发性呼吸困难的加重机制不包括:  
     *单选题，1分*  
     **A.** 平卧后肺淤血加重  
     **B.** 入睡后迷走神经兴奋  

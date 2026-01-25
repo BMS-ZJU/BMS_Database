@@ -20,7 +20,7 @@ title: 疾病基础 小测 4（含答案） 2025-2026学年
 ---
 
 
-1. A 50-year-old man has a 2-year history of angina pectoris that occurs during exercise. On physical examination, his blood pressure is elevated.  
+1. A 50-year-old man has a 2-year history of angina pectoris that occurs during exercise. On physical examination, his blood pressure is 135/75 mm Hg, and his heart rate is 79/min and slightly irregular. Coronary angiography shows a fixed 75% narrowing of the anterior descending branch of the left coronary artery. He has several risk factors for atherosclerosis: smoking, hypertension, and hypercholesterolemia. Which of the following is the earliest event resulting from the effects of these factors?  
    *单选题，1分*  
    **A.** Alteration in vasomotor tone regulation  
    **B.** Conversion of smooth muscle cells to foam cells  
@@ -120,7 +120,7 @@ title: 疾病基础 小测 4（含答案） 2025-2026学年
     正确答案：B  
 <br>
 
-11. A 66-year-old man has had cough and worsening shortness of breath for 3 years. On examination, there is...  
+11. A 66-year-old man has had cough and worsening short¬ness of breath for 3 years. On examination, there is dullness to percussion at both lung bases and poorly audible breath sounds. On physical examination, pulse is 77/min and BP is 110/80 mm Hg. He does not have anginal pain. His liver span is increased to 14 cm. He has pitting edema to his knees. Jugular venous distention is noted while lying down. Which of the following is most likely causing his heart disease?  
     *单选题，1分*  
     **A.** Coronary atherosclerosis  
     **B.** Essential hypertension  
