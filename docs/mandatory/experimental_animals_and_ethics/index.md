@@ -98,7 +98,7 @@
                     <td>2024-2025秋 期末 回忆卷</td>
                     <td>历年卷</td>
                     <td>无</td>
-                    <td><span class="link-divider"><a href="./preview/2024_to_2025/final_exam.docx">查看</a><span class="divider">|</span><a href="./download/2024_to_2025_experimental_animals_and_ethics.docx" download>保存</a></span></td>
+                    <td><span class="link-divider"><a href="./preview/2024_to_2025/final_exam.docx">查看</a><span class="divider">|</span>Ctrl+P 保存</span></td>
                 </tr>
             </tbody>
         </table>

@@ -145,19 +145,19 @@
                 <td>2022-2023学年 期末测试 回忆卷</td>
                 <td>历年卷</td>
                 <td><a href="https://www.cc98.org/topic/5601224">CC98</a></td>
-                <td><span class="link-divider"><a href="preview/2022_to_2023/final_exam">查看</a><span class="divider">丨</span><a href="download/2022_to_2023_medical_biophysics_final_exam.pdf" download>保存</a></span></td>
+                <td><span class="link-divider"><a href="preview/2022_to_2023/final_exam">查看</a><span class="divider">丨</span>Ctrl+P 保存</span></td>
             </tr>
             <tr>
                 <td>2023-2024学年 期末测试 回忆卷</td>
                 <td>历年卷</td>
                 <td><a href="https://www.cc98.org/topic/5876361">CC98</a></td>
-                <td><span class="link-divider"><a href="preview/2023_to_2024/final_exam">查看</a><span class="divider">丨</span><a href="download/2023_to_2024_medical_biophysics_final_exam.pdf" download>保存</a></span></td>
+                <td><span class="link-divider"><a href="preview/2023_to_2024/final_exam">查看</a><span class="divider">丨</span>Ctrl+P 保存</span></td>
             </tr>
             <tr>
                 <td>2024-2025学年 期末测试 回忆卷</td>
                 <td>历年卷</td>
                 <td><a href="https://www.cc98.org/topic/6167461">CC98</a></td>
-                <td><span class="link-divider"><a href="./preview/2024_to_2025/final_exam">查看</a><span class="divider">丨</span><a href="download/2024_to_2025_medical_biophysics_final_exam.pdf" download>保存</a></span></td>
+                <td><span class="link-divider"><a href="./preview/2024_to_2025/final_exam">查看</a><span class="divider">丨</span>Ctrl+P 保存</span></td>
             </tr>
         </tbody>
     </table>

@@ -72,7 +72,7 @@
                     <td>2024-2025夏 期末 回忆卷</td>
                     <td>历年卷</td>
                     <td><a href="https://www.cc98.org/topic/6223307">CC98</a></td>
-                    <td><span class="link-divider"><a href="./preview/2024_to_2025/final_exam">查看</a><span class="divider">|</span><a href="../../error">保存</a></span></td>
+                    <td><span class="link-divider"><a href="./preview/2024_to_2025/final_exam">查看</a><span class="divider">|</span>Ctrl+P 保存</span></td>
                 </tr>
             </tbody>
         </table>
