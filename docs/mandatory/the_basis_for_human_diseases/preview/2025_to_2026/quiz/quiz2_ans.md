@@ -1,0 +1,793 @@
+---
+title: 疾病基础 小测 2（含答案） 2025-2026学年
+---
+
+<center>
+
+<h1 style="color: black">
+<b>$2025$ - $2026$ 学年 疾病基础 小测 2（含答案）</b>
+</h1>
+
+<p style="font-size: 13px">
+基础医学专业课 线上小测<br>
+测试时间: 2025.10.24 09:00 - 2025.10.26 23:59, 答题限时: 120 分钟, 允许尝试次数: 1
+<br>
+原卷中英文分布与该卷相同, 答案为标准答案, 共 77 道题目, 满分 77 分
+</p>
+
+</center>
+
+---
+
+
+1. An 11-year-old child falls and cuts his hand. The wound becomes infected. Bacteria extend into the extracellular matrix around capillaries. In the inflammatory response to this infection, which of the following cells removes the bacteria?  
+   *单选题，1分*  
+   **A.** B lymphocyte  
+   **B.** Fibroblast  
+   **C.** Macrophage  
+   **D.** Mast cell  
+   **E.** T lymphocyte  
+   正确答案：C  
+<br>
+
+2. A year-old man had worsening right ventricular failure for the past 5 years. For the past 4 days, he has had fever and increasing dyspnea. A chest radiograph shows an accumulation of fluid in the pleural spaces. Fluid obtained by thoracentesis has a specific gravity of 1.030 and contains degenerating neutrophils. The most likely cause of this fluid accumulation is due to changes in which of the following?  
+   *单选题，1分*  
+   **A.** Colloid osmotic pressure  
+   **B.** Leukocytic diapedesis  
+   **C.** Lymphatic pressure  
+   **D.** Renal sodium retention.  
+   **E.** Vascular permeability  
+   正确答案：E  
+<br>
+
+3. A 5-year-old child has a history of recurrent bacterial infections, including pneumonia. Analysis of leukocytes collected from the peripheral blood shows a deficiency in myeloperoxidase. A reduction in which of the following processes is the most likely cause of this child's increased susceptibility to infections?  
+   *单选题，1分*  
+   **A.** Hydrogen peroxide (H2O2) elaboration  
+   **B.** Hydroxy-halide radical (HOCI-) formation  
+   **C.** Failure of migration resulting from complement deficiency  
+   **D.** Phagocytic cell oxygen consumption  
+   **E.** Prostaglandin production  
+   正确答案：B  
+<br>
+
+4. In an experiment, neutrophils collected from peripheral blood are analyzed for a "burst" of oxygen consumption. This respiratory burst is an essential step for which of the following events in an acute inflammatory response?  
+   *单选题，1分*  
+   **A.** Attachment to endothelial cells  
+   **B.** Generation of microbicidal activity  
+   **C.** Increased production in bone marrow  
+   **D.** Opsonization of bacteria  
+   **E.** Phagocytosis of bacteria  
+   正确答案：B  
+<br>
+
+5. A 4-year-old girl has had numerous infections with Staphylococcus aureus since infancy. Genetic testing shows a defect leading to a lack of ẞ2 integrin production. Which of the following abnormalities of neutrophil function is most likely responsible for these clinical symptoms?  
+   *单选题，1分*  
+   **A.** Decreased generation of hydroxy-halide radicals (HOCI-)  
+   **B.** Diminished phagocytosis of bacteria opsonized with IgG  
+   **C.** Failure of migration to the site of infection  
+   **D.** Inadequate adhesion on cytokine-activated endothelium.  
+   **E.** Reduced respiratory burst after phagocytosis  
+   正确答案：D  
+<br>
+
+6. In an experiment, T lymphocytes from peripheral blood are placed in a medium that preserves their function. The lymphocytes are activated by contact with antigen and incubated for 4 hours. The supernatant fluid is collected and is found to contain a substance that is a major stimulator of monocytes and macrophages. Which of the following substances released into this fluid medium is most likely to stimulate macrophages?  
+   *单选题，1分*  
+   **A.** Histamine  
+   **B.** Interferon-y  
+   **C.** Leukotriene B4  
+   **D.** Nitric oxide  
+   **E.** Phospholipase C  
+   **F.** Tumor necrosis factor (TNF)  
+   正确答案：B  
+<br>
+
+7. A 35-year-old man has had increasing dyspnea for the past 24 hours. A chest radiograph shows large, bilateral pleural effusions. Thoracentesis yields 500 mL of slightly cloudy yellow fluid from the right pleural cavity. Cytologic examination of the fluid shows many neutrophils, but no lymphocytes or RBCs. Which of the following mechanisms contributes most to the pleural fluid accumulation?  
+   *单选题，1分*  
+   **A.** Arteriolar vasoconstriction  
+   **B.** Endothelial contraction  
+   **C.** Inhibition of platelet adherence  
+   **D.** Lymphatic obstruction  
+   **E.** Neutrophil release of lysosomes  
+   正确答案：B  
+<br>
+
+8. A 35-year-old woman takes acetylsalicylic acid (aspirin) for arthritis. Although her joint pain is reduced with this therapy, the inflammatory process continues. The aspirin therapy alleviates her pain mainly through reduction in the synthesis of which of the following mediators?  
+   *单选题，1分*  
+   **A.** Complement C1q  
+   **B.** Histamine  
+   **C.** Leukotriene E4  
+   **D.** Nitric oxide  
+   **E.** Prostaglandins  
+   正确答案：E  
+<br>
+
+9. A 68-year-old man has had worsening shortness of breath for the past week. On physical examination, his temperature is $38.3^{\circ}C$ On percussion, there is dullness over the left lung fields. Thoracentesis performed on the left pleural cavity yields 800 mL of cloudy yellow fluid that has a WBC count of $2500/mm3$ with 98% neutrophils and 2% lymphocytes. A Gram stain of the fluid shows gram-positive cocci in clusters. Which of the following terms best describes the process occurring in his left pleural cavity?  
+   *单选题，1分*  
+   **A.** Abscess  
+   **B.** Chronic inflammation  
+   **C.** Edema  
+   **D.** Fibrinous inflammation  
+   **E.** Purulent exudate  
+   **F.** Serous effusion  
+   正确答案：E  
+<br>
+
+10. 以变质为主的炎症,其实质细胞的主要变化是  
+    *单选题，1分*  
+    **A.** 增生和再生  
+    **B.** 萎缩和变性  
+    **C.** 变性和坏死  
+    **D.** 增生和变性  
+    **E.** 坏死和萎缩  
+    正确答案：C  
+<br>
+
+11. 下列哪项与炎症渗出液无关  
+    *单选题，1分*  
+    **A.** 血管通透性增高  
+    **B.** 液体比重高  
+    **C.** 液体静置后凝固  
+    **D.** 液体内含纤维蛋白  
+    **E.** 液体内含极少细胞  
+    正确答案：E  
+<br>
+
+12. 在过敏反应炎症中,组胺来源于  
+    *单选题，1分*  
+    **A.** 嗜酸性粒细胞  
+    **B.** 淋巴细胞  
+    **C.** 浆细胞  
+    **D.** 肥大细胞  
+    **E.** 单核细胞  
+    正确答案：D  
+<br>
+
+13. 急性炎症时引起组织肿胀的主要原因是  
+    *单选题，1分*  
+    **A.** 组织增生  
+    **B.** 动脉扩张  
+    **C.** 静脉阻塞  
+    **D.** 富含蛋白的液体进入组织间隙  
+    **E.** 小静脉痉挛  
+    正确答案：D  
+<br>
+
+14. 较多嗜酸性粒细胞浸润见于  
+    *单选题，1分*  
+    **A.** 伤寒杆菌感染  
+    **B.** 变态反应或寄生虫感染  
+    **C.** 乙脑病毒感染  
+    **D.** 溶血性链球菌感染  
+    **E.** 葡萄球菌感染  
+    正确答案：B  
+<br>
+
+15. 以下不具防御作用的反应是  
+    *单选题，1分*  
+    **A.** 纤维蛋白渗出  
+    **B.** 白细胞游出  
+    **C.** 炎性增生  
+    **D.** 红细胞漏出  
+    **E.** 血浆渗出  
+    正确答案：D  
+<br>
+
+16. 急性炎症时最早出现的血管反应是  
+    *单选题，1分*  
+    **A.** 细动脉扩张充血  
+    **B.** 细动脉和毛细血管扩张  
+    **C.** 毛细血管扩张  
+    **D.** 细动脉、细静脉和毛细血管扩张  
+    **E.** 细动脉收缩  
+    正确答案：E  
+<br>
+
+17. 炎症液体渗出的主要原因是  
+    *单选题，1分*  
+    **A.** 血管内流体静压升高  
+    **B.** 血管内胶体渗透压下降  
+    **C.** 组织净水压升高  
+    **D.** 血管壁通透性升高  
+    **E.** 组织胶体渗透压升高  
+    正确答案：D  
+<br>
+
+18. 炎症血管通透性增高的因素应除外  
+    *单选题，1分*  
+    **A.** 内皮细胞间隙增大  
+    **B.** 内皮细胞变性坏死  
+    **C.** 内皮细胞穿胞作用增强  
+    **D.** 新毛细血管高通透性  
+    **E.** 血管平滑肌收缩  
+    正确答案：E  
+<br>
+
+19. 慢性炎症病灶内浸润的炎细胞主要是  
+    *单选题，1分*  
+    **A.** 单核和淋巴细胞  
+    **B.** 中性粒细胞和浆细胞  
+    **C.** 嗜酸性和嗜碱性粒细胞  
+    **D.** 淋巴和嗜碱性粒细胞  
+    **E.** 中性粒细胞和嗜酸性粒细胞  
+    正确答案：A  
+<br>
+
+20. 下列哪项不符合一般急性炎症的特点  
+    *单选题，1分*  
+    **A.** 病程数天至1个月  
+    **B.** 血管扩张充血,组织水肿明显  
+    **C.** 组织增生反应显著  
+    **D.** 中性粒细胞浸润为主  
+    **E.** 变质、渗出较明显  
+    正确答案：C  
+<br>
+
+21. 炎症局部疼痛的主要原因是  
+    *单选题，1分*  
+    **A.** 细胞增生压迫神经末稍  
+    **B.** 静脉阻塞  
+    **C.** 局部充血  
+    **D.** 渗出物压迫及炎症介质作用  
+    **E.** 组织变性坏死  
+    正确答案：D  
+<br>
+
+22. 下列哪一种细胞合成免疫球蛋白  
+    *单选题，1分*  
+    **A.** 单核细胞  
+    **B.** T淋巴细胞  
+    **C.** 浆细胞  
+    **D.** 中性粒细胞  
+    **E.** 嗜酸性粒细胞  
+    正确答案：C  
+<br>
+
+23. 钩端螺旋体病属下列哪种类型炎症  
+    *单选题，1分*  
+    **A.** 浆液性炎  
+    **B.** 化脓性炎  
+    **C.** 蜂窝织炎  
+    **D.** 增生性炎  
+    **E.** 出血性炎  
+    正确答案：E  
+<br>
+
+24. 炎症中疼痛与下列哪项介质有关  
+    *单选题，1分*  
+    **A.** 组胺  
+    **B.** 5-羟色胺  
+    **C.** 前列腺素  
+    **D.** 白细胞三烯  
+    **E.** 补体成分  
+    正确答案：C  
+<br>
+
+25. 炎症局部组织的基本病变是  
+    *单选题，1分*  
+    **A.** 红、肿、热、痛和功能障碍  
+    **B.** 组织充血及渗出物形成  
+    **C.** 组织内炎细胞浸润及增生  
+    **D.** 变质、渗出和增生  
+    **E.** 组织细胞的变性、坏死  
+    正确答案：D  
+<br>
+
+26. 金黄色葡萄球菌感染常引起  
+    *单选题，1分*  
+    **A.** 脓性卡他性炎  
+    **B.** 蜂窝织炎  
+    **C.** 纤维蛋白性炎  
+    **D.** 出血性炎  
+    **E.** 脓肿  
+    正确答案：E  
+<br>
+
+27. 溶血性链球菌感染常引起  
+    *单选题，1分*  
+    **A.** 脓性卡他性炎  
+    **B.** 蜂窝织炎  
+    **C.** 纤维蛋白性炎  
+    **D.** 出血性炎  
+    **E.** 脓肿  
+    正确答案：B  
+<br>
+
+28. 下述属于出血性炎症的疾病是  
+    *单选题，1分*  
+    **A.** 病毒性肝炎  
+    **B.** 肠阿米巴病  
+    **C.** 流行性脑脊髓膜炎  
+    **D.** 鼠疫  
+    **E.** 丹毒  
+    正确答案：D  
+<br>
+
+29. 下列哪项病变不是浆液性炎  
+    *单选题，1分*  
+    **A.** 胸膜炎积液  
+    **B.** 早期感冒黏膜炎  
+    **C.** 肾盂积水  
+    **D.** 昆虫毒素引起的皮下水肿  
+    **E.** 皮肤Ⅱ度烧伤水疱  
+    正确答案：C  
+<br>
+
+30. 纤维素性炎症的好发部位应除外  
+    *单选题，1分*  
+    **A.** 心包膜  
+    **B.** 腹膜  
+    **C.** 皮下  
+    **D.** 结肠黏膜  
+    **E.** 支气管黏膜  
+    正确答案：C  
+<br>
+
+31. 以下哪项是水排出的主要调节机制?  
+    *单选题，1分*  
+    **A.** 渴感  
+    **B.** 醛固酮系统  
+    **C.** 甲状旁腺激素  
+    **D.** 心房钠尿肽  
+    **E.** 抗利尿激素  
+    正确答案：E  
+<br>
+
+32. 低渗性脱水时血清钠水平和血浆渗透压怎么改变?  
+    *单选题，1分*  
+    **A.** 血清钠水平升高和血浆渗透压升高  
+    **B.** 血清钠水平升高和血浆渗透压降低  
+    **C.** 血清钠水平降低和血浆渗透压升高  
+    **D.** 血清钠水平降低和血浆渗透压降低  
+    **E.** 血清钠水平和血浆渗透压都不变  
+    正确答案：D  
+<br>
+
+33. 以下哪种情况可能导致低渗性脱水?  
+    *单选题，1分*  
+    **A.** 使用排钠性利尿剂  
+    **B.** 过度通气  
+    **C.** 过度饮水  
+    **D.** 重度糖尿病  
+    **E.** 原发性醛固酮增多症  
+    正确答案：A  
+<br>
+
+34. 高渗性脱水时水、钠改变的特点是  
+    *单选题，1分*  
+    **A.** 失水少于失钠  
+    **B.** 失水多于失钠  
+    **C.** 失水等于失钠  
+    **D.** 以水中毒为主  
+    **E.** 以盐中毒为主  
+    正确答案：B  
+<br>
+
+35. 高渗性脱水时,哪种体液成分减少最明显?  
+    *单选题，1分*  
+    **A.** 血浆  
+    **B.** 组织间液  
+    **C.** 第三间隙液  
+    **D.** 细胞内液  
+    **E.** 淋巴液  
+    正确答案：D  
+<br>
+
+36. 以下哪种水、钠代谢紊乱会造成脑细胞脱水?  
+    *单选题，1分*  
+    **A.** 水肿  
+    **B.** 水中毒  
+    **C.** 低血钠性体液容量减少  
+    **D.** 低血钠性体液容量增加  
+    **E.** 高血钠性体液容量减少  
+    正确答案：E  
+<br>
+
+37. 下列哪一项是导致水肿的原因?  
+    *单选题，1分*  
+    **A.** 血浆胶体渗透压升高  
+    **B.** 组织胶体渗透压降低  
+    **C.** 毛细血管静水压升高  
+    **D.** 毛细血管通透性降低  
+    **E.** 淋巴回流增加  
+    正确答案：C  
+<br>
+
+38. 急性低钾血症的情况下,神经肌肉的兴奋性会如何变化?  
+    *单选题，1分*  
+    **A.** 静息电位绝对值减小,兴奋性减小  
+    **B.** 静息电位绝对值减小,兴奋性增加  
+    **C.** 静息电位绝对值减小,兴奋性先增加后减小  
+    **D.** 静息电位绝对值增大,兴奋性增加  
+    **E.** 静息电位绝对值增大,兴奋性减小  
+    正确答案：E  
+<br>
+
+39. 急性重度高钾血症的情况下,心肌的兴奋性会如何变化?  
+    *单选题，1分*  
+    **A.** 显著增高  
+    **B.** 显著降低  
+    **C.** 先增高后降低  
+    **D.** 先降低后增高  
+    **E.** 不发生变化  
+    正确答案：B  
+<br>
+
+40. 患者,男,40岁,因持续头痛和疲劳到医院就诊。患者有长期未控制的糖尿病病史,并且最近几天经常感到口渴,尿量明显增多。体检发现患者皮肤粘膜干燥,血液检查显示血钠浓度155 mmol/L,血糖水平显著升高,血浆渗透压320 mmol/L。该患者水钠相关的调节机制最可能发生哪种变化?  
+    *单选题，1分*  
+    **A.** ADH和醛固酮分泌均降低  
+    **B.** ADH分泌增加而醛固酮分泌降低  
+    **C.** ADH和醛固酮分泌均增加  
+    **D.** ADH分泌增加而醛固酮分泌不变  
+    **E.** ADH分泌不变而醛固酮分泌增加  
+    正确答案：C  
+<br>
+
+41. 以下哪项是水排出的主要调节机制?  
+    *单选题，1分*  
+    **A.** 渴感  
+    **B.** 醛固酮系统  
+    **C.** 甲状旁腺激素  
+    **D.** 心房钠尿肽  
+    **E.** 抗利尿激素  
+    正确答案：E  
+<br>
+
+42. 低渗性脱水时血清钠水平和血浆渗透压怎么改变?  
+    *单选题，1分*  
+    **A.** 血清钠水平升高和血浆渗透压升高  
+    **B.** 血清钠水平升高和血浆渗透压降低  
+    **C.** 血清钠水平降低和血浆渗透压升高  
+    **D.** 血清钠水平降低和血浆渗透压降低  
+    **E.** 血清钠水平和血浆渗透压都不变  
+    正确答案：D  
+<br>
+
+43. 以下哪种情况可能导致低滲性脫水?  
+    *单选题，1分*  
+    **A.** 使用排钠性利尿剂  
+    **B.** 过度通气  
+    **C.** 过度饮水  
+    **D.** 重度糖尿病  
+    **E.** 原发性醛固酮增多症  
+    正确答案：A  
+<br>
+
+44. 高滲性脫水时水、钠改变的特点是  
+    *单选题，1分*  
+    **A.** 失水少于失钠  
+    **B.** 失水多于失钠  
+    **C.** 失水等于失钠  
+    **D.** 以水中毒为主  
+    **E.** 以盐中毒为主  
+    正确答案：B  
+<br>
+
+45. 高渗性脱水时,哪种体液成分减少最明显?  
+    *单选题，1分*  
+    **A.** 血浆  
+    **B.** 组织间液  
+    **C.** 第三间隙液  
+    **D.** 细胞内液  
+    **E.** 淋巴液  
+    正确答案：D  
+<br>
+
+46. 以下哪种水、钠代谢紊乱会造成脑细胞脱水?  
+    *单选题，1分*  
+    **A.** 水肿  
+    **B.** 水中毒  
+    **C.** 低血钠性体液容量减少  
+    **D.** 低血钠性体液容量增加  
+    **E.** 高血钠性体液容量减少  
+    正确答案：E  
+<br>
+
+47. 下列哪一项是导致水肿的原因?  
+    *单选题，1分*  
+    **A.** 血浆胶体渗透压升高  
+    **B.** 组织胶体渗透压降低  
+    **C.** 毛细血管静水压升高  
+    **D.** 毛细血管通透性降低  
+    **E.** 淋巴回流增加  
+    正确答案：C  
+<br>
+
+48. 急性低钾血症的情况下,神经肌肉的兴奋性会如何变化?  
+    *单选题，1分*  
+    **A.** 静息电位绝对值减小,兴奋性减小  
+    **B.** 静息电位绝对值减小,兴奋性增加  
+    **C.** 静息电位绝对值减小,兴奋性先增加后减小  
+    **D.** 静息电位绝对值增大,兴奋性增加  
+    **E.** 静息电位绝对值增大,兴奋性减小  
+    正确答案：E  
+<br>
+
+49. 急性重度高钾血症的情况下,心肌的兴奋性会如何变化?  
+    *单选题，1分*  
+    **A.** 显著增高  
+    **B.** 显著降低  
+    **C.** 先增高后降低  
+    **D.** 先降低后增高  
+    **E.** 不发生变化  
+    正确答案：B  
+<br>
+
+50. 患者,男,40岁,因持续头痛和疲劳到医院就诊。患者有长期未控制的糖尿病病史,并且最近几天经常感到口渴,尿量明显增多。体检发现患者皮肤粘膜干燥,血液检查显示血钠浓度155 mmol/L,血糖水平显著升高,血浆渗透压320 mmol/L。该患者水钠相关的调节机制最可能发生哪种变化?  
+    *单选题，1分*  
+    **A.** ADH和醛固酮分泌均降低  
+    **B.** ADH分泌增加而醛固酮分泌降低  
+    **C.** ADH和醛固酮分泌均增加  
+    **D.** ADH分泌增加而醛固酮分泌不变  
+    **E.** ADH分泌不变而醛固酮分泌增加  
+    正确答案：C  
+<br>
+
+51. 酸碱平衡调节的主要机制中,启动最快的是  
+    *单选题，1分*  
+    **A.** 呼吸调节  
+    **B.** 肾的调节  
+    **C.** 神经内分泌调节  
+    **D.** 组织细胞调节  
+    **E.** 血液缓冲系统调节  
+    正确答案：E  
+<br>
+
+52. 以下哪个酸碱指标主要反映血浆中固定酸的含量?  
+    *单选题，1分*  
+    **A.** PH  
+    **B.** PaCO2  
+    **C.** AB  
+    **D.** AG  
+    **E.** BE  
+    正确答案：D  
+<br>
+
+53. 代谢性酸中毒时机体的主要代偿机制是  
+    *单选题，1分*  
+    **A.** 增加肺泡通气量  
+    **B.** 细胞内外离子交换  
+    **C.** 细胞内缓冲  
+    **D.** 血浆碳酸氢盐缓冲系统进行缓冲  
+    **E.** 肾小管泌H+增加、重吸收HCO3-增加  
+    正确答案：A  
+<br>
+
+54. 剧烈呕吐患者引起代谢性碱中毒,其发生机制不包括下列哪一项?  
+    *单选题，1分*  
+    **A.** 氢离子丢失  
+    **B.** 氯离子丢失  
+    **C.** 体液丢失  
+    **D.** 钠离子丢失  
+    **E.** 钾离子丢失  
+    正确答案：D  
+<br>
+
+55. 反常性碱性尿常见于以下哪种酸碱平衡紊乱?  
+    *单选题，1分*  
+    **A.** 代谢性酸中毒  
+    **B.** 呼吸性酸中毒  
+    **C.** 代谢性碱中毒  
+    **D.** 呼吸性碱中毒  
+    **E.** 混合性酸中毒  
+    正确答案：A  
+<br>
+
+56. 通气过度患者引起酸碱平衡紊乱时的原发性变化是  
+    *单选题，1分*  
+    **A.** 固定酸减少  
+    **B.** HCO3-浓度升高  
+    **C.** HCO3-浓度降低  
+    **D.** CO2排出过多  
+    **E.** 动脉血pH升高  
+    正确答案：D  
+<br>
+
+57. 慢性呼吸性酸中毒的主要代偿机制是  
+    *单选题，1分*  
+    **A.** 呼吸调节  
+    **B.** 肾的调节  
+    **C.** 血液缓冲系统调节  
+    **D.** 组织细胞调节  
+    **E.** 中枢调节  
+    正确答案：B  
+<br>
+
+58. 氧反常现象主要表现为?  
+    *单选题，1分*  
+    **A.** 低氧不影响细胞损伤  
+    **B.** 再供氧使组织损伤加重  
+    **C.** 高氧保护缺血组织  
+    **D.** 氧气清除自由基  
+    **E.** 氧分压降低恢复正常  
+    正确答案：B  
+<br>
+
+59. 再灌注时自由基生成的主要来源不包括:  
+    *单选题，1分*  
+    **A.** 线粒体电子传递链  
+    **B.** 微粒体P450系统  
+    **C.** 呼吸爆发  
+    **D.** 黄嘌呤氧化酶  
+    **E.** 核糖体蛋白合成  
+    正确答案：E  
+<br>
+
+60. 下列哪种自由基被认为是最活跃、危害最大的?  
+    *单选题，1分*  
+    **A.** 超氧阴离子  
+    **B.** 过氧化氢  
+    **C.** 羟自由基  
+    **D.** 过氧亚硝基阴离子  
+    **E.** 一氧化氮  
+    正确答案：C  
+<br>
+
+61. 自由基引起细胞膜结构损伤的主要机制是:  
+    *单选题，1分*  
+    **A.** 增加细胞膜刚性  
+    **B.** 抑制膜受体表达  
+    **C.** 发生膜脂质过氧化  
+    **D.** 抑制钙泵活性  
+    **E.** 增加钠泵活性  
+    正确答案：C  
+<br>
+
+62. 缺血-再灌注时导致细胞内钙超载的主要机制不包括:  
+    *单选题，1分*  
+    **A.** Na-Ca交换异常  
+    **B.** 受体介导钙通道开放  
+    **C.** 生物膜损伤  
+    **D.** 细胞膜电位稳定  
+    **E.** 内质网Ca释放增加  
+    正确答案：D  
+<br>
+
+63. 缺血-再灌注时钠钙交换(NCX)反向转运发生的主要原因是:  
+    *单选题，1分*  
+    **A.** 细胞内Na 浓度升高,驱动Ca流入  
+    **B.** 细胞外Na 浓度升高,驱动Ca² 排出  
+    **C.** 细胞内Ca浓度降低,促进Na 进入  
+    **D.** 线粒体功能增强,驱动Ca 排出  
+    **E.** 细胞膜去极化导致Na*外流  
+    正确答案：A  
+<br>
+
+64. 钙超载引起的细胞损伤不包括:  
+    *单选题，1分*  
+    **A.** 激活磷脂酶破坏膜结构  
+    **B.** 激活ATP酶消耗能量  
+    **C.** 激活核酸内切酶损伤DNA  
+    **D.** 线粒体功能障碍  
+    **E.** 抑制自由基产生  
+    正确答案：E  
+<br>
+
+65. 心肌顿抑指的是?  
+    *单选题，1分*  
+    **A.** 心肌舒缩功能障碍  
+    **B.** 心律加快  
+    **C.** 心肌细胞增生  
+    **D.** 血管扩张  
+    **E.** 心肌缺血改善  
+    正确答案：A  
+<br>
+
+66. 脑缺血-再灌注损伤的主要机制是?  
+    *单选题，1分*  
+    **A.** 外周血管广泛扩张  
+    **B.** 免疫系统功能抑制  
+    **C.** 血脑屏障作用增强  
+    **D.** 兴奋性氨基酸毒性  
+    **E.** 线粒体活动减少  
+    正确答案：D  
+<br>
+
+67. 缺血-再灌注损伤发生机制中的启动因素是?  
+    *单选题，1分*  
+    **A.** 氧反常  
+    **B.** 钙反常  
+    **C.** 自由基增多  
+    **D.** 细胞内钙超载  
+    **E.** 炎症反应过度激活  
+    正确答案：C  
+<br>
+
+68. 以下哪项是休克发生的共同发病环节  
+    *单选题，1分*  
+    **A.** 血容量减少  
+    **B.** 血管床容量增加  
+    **C.** 心泵功能障碍  
+    **D.** 有效循环血量减少  
+    **E.** 细胞和组织严重缺氧  
+    正确答案：D  
+<br>
+
+69. 血管源性休克的始动环节是  
+    *单选题，1分*  
+    **A.** 血容量减少  
+    **B.** 血管床容量增加  
+    **C.** 心泵功能障碍  
+    **D.** 有效循环血量减少  
+    **E.** 细胞和组织严重缺氧  
+    正确答案：B  
+<br>
+
+70. 微循环的营养通路主要指  
+    *单选题，1分*  
+    **A.** 微动脉→动静脉短路→微静脉  
+    **B.** 微动脉→后微动脉→直捷通路→微静脉  
+    **C.** 微动脉 后微动脉→真毛细血管→微静脉  
+    **D.** 微动脉动静脉短路→真毛细血管→微静脉  
+    **E.** 微动脉→后微动脉→直捷通路→真毛细血管→微静脉  
+    正确答案：C  
+<br>
+
+71. 以下关于微循环缺血期的描述错误的是  
+    *单选题，1分*  
+    **A.** 微动脉收缩  
+    **B.** 微静脉收缩  
+    **C.** 毛细血管前阻力增加  
+    **D.** 直捷通路关闭  
+    **E.** 微循环血液流速减慢  
+    正确答案：D  
+<br>
+
+72. 休克早期全身血液的灌流量情况是  
+    *单选题，1分*  
+    **A.** 皮肤血流量维持相对正常  
+    **B.** 骨骼肌血流量显著增多  
+    **C.** 心脑血液供应得到保证  
+    **D.** 肾血流量维持不变  
+    **E.** 肝脾开始大量储血  
+    正确答案：C  
+<br>
+
+73. 休克早期“自身输血”作用的机制是  
+    *单选题，1分*  
+    **A.** 血流重分布  
+    **B.** 阻力血管收缩  
+    **C.** 阻力血管扩张  
+    **D.** 毛细血管前阻力大于后阻力  
+    **E.** 容量血管和肝脾储血器官收缩  
+    正确答案：E  
+<br>
+
+74. 微循环淤血期微循环灌流特点是  
+    *单选题，1分*  
+    **A.** 多灌少流,灌大于流  
+    **B.** 少灌多流,灌少于流  
+    **C.** 少灌少流、灌大于流  
+    **D.** 少灌少流、灌少于流  
+    **E.** 不灌不流,灌流瘀滞  
+    正确答案：A  
+<br>
+
+75. 脓毒症休克早期的高动力型休克的主要特点是  
+    *单选题，1分*  
+    **A.** 心排血量减少、外周阻力增高  
+    **B.** 心排血量减少、外周阻力减少  
+    **C.** 心排血量减少、外周阻力不变  
+    **D.** 心排血量增高、外周阻力增高  
+    **E.** 心排血量增高、外周阻力减少  
+    正确答案：E  
+<br>
+
+76. 休克时细胞膜的变化导致的水、电解质分布异常不包括  
+    *单选题，1分*  
+    **A.** 细胞内高钾  
+    **B.** 细胞内高钙  
+    **C.** 细胞内高钠  
+    **D.** 细胞水肿  
+    **E.** 细胞钠水潴留  
+    正确答案：A  
+<br>
+
+77. 休克时机体发生酸中毒的主要机制不包括  
+    *单选题，1分*  
+    **A.** 缺氧导致乳酸生成增多  
+    **B.** 低血压导致肺通气量下降  
+    **C.** 肝功能受损影响乳酸转化  
+    **D.** 肌细胞无氧糖酵解增強  
+    **E.** 肾功能受损减少排酸  
+    正确答案：B  
+<br>
