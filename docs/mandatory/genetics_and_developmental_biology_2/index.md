@@ -4,90 +4,106 @@
 <span class="badge is-badge">生物类课程</span>
 </div>
 
-线下理论课 + 讨论课 全中文
+线下理论课与讨论课，主要讲授发育部分
 
-## 课程介绍
+## 分数构成
 
-本课程与 [遗传与发育Ⅰ](../genetics_and_developmental_biology_1/index.md) 互补，主要讲解**发育**部分
+=== "2024-2025 学年"
 
-每周 2 次课，每次 3 学时。前面课程都是理论讲解，夹带一些讨论部分。最后 4 次课是课题解决型学习（PBL），每 2 次课一个主题，需要制作 PPT 或在黑板上画海报，课后需要提交一个摘要
+    <table class="percentage-table">
+        <tbody>
+            <tr>
+                <td class="first-column"><b>课堂表现</b></td>
+                <td class="second-column">30%</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><b>PBL</b></td>
+                <td>30%</td>
+                <td>两个主题，每个主题安排两次课；课后提交不少于 250 词的 Abstract 和不少于 750 词的 Report</td>
+            </tr>
+            <tr>
+                <td><b>期末考试</b></td>
+                <td>40%</td>
+                <td>开卷</td>
+            </tr>
+        </tbody>
+    </table>
 
-## 预修要求
+> 以上为 2024-2025 学年的记录，之后学年的考核方式应以课程组通知为准。
 
-**无**
+## 学习重点
 
-## 课程信息
+遗传与发育Ⅱ与[遗传与发育Ⅰ](../genetics_and_developmental_biology_1/index.md)互补，主要讲发育部分。前面的课程以理论讲解为主，中间会穿插讨论；最后四次课为课题解决型学习（PBL），每两次课完成一个主题，需要制作 PPT 或在黑板上绘制海报，并在课后提交摘要和报告。
 
-**参考教材：** 《Developmentalbiology,11th》
+两份期末回忆卷都以开放式写作为主。题目会把发育生物学与人工智能、疾病防治、药物研发或科学史结合，重点不只是复述知识，还需要提出问题、组织理由或设计实验。
 
-**推荐教材：** 《发育生物学》
+## 学习方法
 
-## 课程成绩组成及要求：
+=== "理论课"
 
-=== "2024-2025学年"
+    课程 PPT 以英文为主，部分教师也会使用英文授课。平时不必把每个细节都整理成孤立的名词，可以优先梳理发育过程中的基本概念、重要科学发现、常见研究方法，以及这些知识与疾病研究之间的联系。
 
-    <body>
-        <table class="percentage-table">
-            <tbody>
-                <tr>
-                    <td class = "first-column"><b>课堂表现</b></td>
-                    <td class = "second-column">30%</td>
-                    <td> </td>
-                </tr>
-                <tr>
-                    <td><b>PBL</b></td>
-                    <td>30%</td>
-                    <td>两次，每次两次课，课后需提交 Abstract( ≥ 250 words )、Report( ≥ 750 words )</td>
-                </tr>
-                <tr>
-                    <td><b>期末考试</b></td>
-                    <td>40%</td>
-                    <td>开卷</td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
+=== "PBL"
+
+    PBL 占总评 30%，与期末考试的开放式表达也有联系。准备展示时，可以明确科学问题、已有知识、拟采用的方法、预期结果和意义，并保留一份可以继续修改的文字稿，便于完成课后 Abstract 和 Report。
+
+=== "期末复习"
+
+    2023-2024 学年的记录允许使用不联网、仅用于查看资料的电脑；2024-2025 学年则记录为允许携带纸质资料。开卷方式可能变化，不能直接沿用往年安排。
+
+    复习资料适合按主题整理，而不是简单堆放 PPT。可以为人工智能、发育生物学重要发现、疾病与药物研发等方向准备课程概念、案例和自己的观点，同时练习在字数限制内形成完整论述。
 
 ## 学习资源
 
-<body>
-    <div class="table-container">
-        <table class="resource-table">
-            <thead>
-                <tr>
-                    <th>资源名称</th>
-                    <th>资源类型</th>
-                    <th>友链资源</th>
-                    <th>本站资源</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2023-2024夏 期末 回忆卷</td>
-                    <td>历年卷</td>
-                    <td><a href="https://www.cc98.org/topic/5876395">CC98</a></td>
-                    <td><span class="link-divider"><a href="./preview/2023_to_2024/final_exam">查看</a><span class="divider">|</span>Ctrl+P 保存</span></td>
-                </tr>
-                <tr>
-                    <td>2024-2025夏 期末 回忆卷</td>
-                    <td>历年卷</td>
-                    <td><a href="https://www.cc98.org/topic/6160115">CC98</a></td>
-                    <td><span class="link-divider"><a href="./preview/2024_to_2025/final_exam">查看</a><span class="divider">|</span>Ctrl+P 保存</span></td>
-                </tr>
-                <tr>
-                    <td>考试资料</td>
-                    <td>资料</td>
-                    <td>钉钉群</td>
-                    <td>无</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</body>
+<div class="table-container">
+    <table class="resource-table">
+        <thead>
+            <tr>
+                <th>资源名称</th>
+                <th>资源类型</th>
+                <th>友链资源</th>
+                <th>本站资源</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2024-2025 学年夏学期期末回忆卷</td>
+                <td>历年卷</td>
+                <td><a href="https://www.cc98.org/topic/6160115">CC98</a></td>
+                <td><a href="exams/2024-2025-final-exam-recall.md">查看</a></td>
+            </tr>
+            <tr>
+                <td>2023-2024 学年夏学期期末回忆卷</td>
+                <td>历年卷</td>
+                <td><a href="https://www.cc98.org/topic/5876395">CC98</a></td>
+                <td><a href="exams/2023-2024-final-exam-recall.md">查看</a></td>
+            </tr>
+            <tr>
+                <td>课程考试资料</td>
+                <td>课程资料</td>
+                <td>钉钉群</td>
+                <td>无</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
->*如果您发现这里的资源损坏或链接失效，请首先查看本站中的<a href="../../error">常见问题解答</a>，倘若仍然无法解决问题，请联系网站管理员。*
+## 往届经验
 
-## 经验分享
+> 课程主要讲发育部分，部分教师会使用英文授课，PPT 也以英文为主。理解课程内容并不轻松，但近两年的期末考试都是开放式写作，对理解和创新能力的要求高于对细节记忆的要求。课程需要发言，但到课氛围比较轻松，老师也很亲切。
 
-> 主要讲发育部分，部分老师会用英文上课，但 PPT 都是全英的。听懂学会不太容易，但好在考试不太难。考试形式比较前卫，这两年都是写作题，只对理解和创新能力的考察比较深，对知识的考察很浅，只需大致知道发育中的一些概念即可（甚至不知道也行）
-课程需要发言但不卷到课，氛围比较轻松，老师也很亲切，很有梗。
+以上为往届同学的个人感受，不代表所有教师和学年的课程情况。
+
+## 课程信息
+
+- **预修要求：** 无
+- **参考教材：** *Developmental Biology*（第 11 版）
+- **推荐教材：** 《发育生物学》
+
+## 尚待补充
+
+- 课程组发布的正式考核通知；
+- PBL 的具体主题、分组方式和评分标准；
+- 各教师的授课范围；
+- 最新学年的开卷资料要求。

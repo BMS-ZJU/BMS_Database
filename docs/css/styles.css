@@ -126,3 +126,22 @@
     color: #FFFFFF;
   }
 
+/* 小测答案：桌面端悬停显示，所有设备均可点击展开 */
+.quiz-answer {
+  margin: 0.35rem 0 0.9rem;
+  border-left: 3px solid var(--md-primary-fg-color);
+  padding-left: 0.75rem;
+}
+
+.quiz-answer summary {
+  color: var(--md-primary-fg-color);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media (hover: hover) {
+  .quiz-answer:not([open]):hover > :not(summary) {
+    display: block !important;
+  }
+}
+
