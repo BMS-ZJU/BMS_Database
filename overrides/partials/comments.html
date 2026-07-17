@@ -16,12 +16,12 @@
           async>
   </script>
   <script>
-    var giscus = document.querySelector("script[src*=giscus]")
+    const giscus = document.querySelector("script[src*=giscus]")
 
     // Set palette on initial load
-    var palette = __md_get("__palette")
+    const palette = __md_get("__palette")
     if (palette && typeof palette.color === "object") {
-      var theme = palette.color.scheme === "slate"
+      const theme = palette.color.scheme === "slate"
         ? "transparent_dark"
         : "light"
 
@@ -31,16 +31,20 @@
 
     // Register event handlers after documented loaded
     document.addEventListener("DOMContentLoaded", function() {
-      var ref = document.querySelector("[data-md-component=palette]")
+      const ref = document.querySelector("[data-md-component=palette]")
+      if (!ref) return
+
       ref.addEventListener("change", function() {
-        var palette = __md_get("__palette")
+        const palette = __md_get("__palette")
         if (palette && typeof palette.color === "object") {
-          var theme = palette.color.scheme === "slate"
+          const theme = palette.color.scheme === "slate"
             ? "transparent_dark"
             : "light"
 
           // Instruct Giscus to change theme
-          var frame = document.querySelector(".giscus-frame")
+          const frame = document.querySelector(".giscus-frame")
+          if (!frame) return
+
           frame.contentWindow.postMessage(
             { giscus: { setConfig: { theme } } },
             "https://giscus.app"
