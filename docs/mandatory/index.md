@@ -26,10 +26,10 @@
 | 课程名称 | 学分 | 建议学年学期 | 资料情况 |
 |:--|:--|:--|:--:|
 |[人体结构与功能学](structure_and_function_of_the_human_body/index.md)|6.0|二（春夏）|较完善✅|
-|[感染与免疫学](infectious_diseases_and_immunity/index.md)|5.0|三（秋冬）|无|
-|[疾病基础](the_basis_for_human_diseases/index.md)|6.0|三（秋冬）|无|
-|[基础药理学](basic_pharmacology/index.md)|3.0|三（春夏）|无|
-|[神经科学](neuroscience/index.md)|3.0|三（春夏）|无|
+|[感染与免疫学](infectious_diseases_and_immunity/index.md)|5.0|三（秋冬）|已整理✅|
+|[疾病基础](the_basis_for_human_diseases/index.md)|6.0|三（秋冬）|较完善✅|
+|[基础药理学](basic_pharmacology/index.md)|3.0|三（春夏）|已整理✅|
+|[神经科学](neuroscience/index.md)|3.0|三（春夏）|已整理✅|
 
 </div>
 
@@ -41,7 +41,7 @@
 |:--|:--|:--|:--:|
 |[实验动物与伦理学](experimental_animals_and_ethics/index.md)|2.0|二（秋）|较完善✅|
 |[医学科学素养Ⅱ](medical_science_literacy_2/index.md)|2.0|三（秋）|较完善✅|
-|[临床流行病学与循证医学](clinical_epidemiology_and_evidence_based_medicine/index.md)|3.0|三（秋冬）|无|
+|[临床流行病学与循证医学](clinical_epidemiology_and_evidence_based_medicine/index.md)|3.0|三（秋冬）|已整理✅|
 
 </div>
 
@@ -75,9 +75,9 @@
 
 | 课程名称 | 学分 | 建议学年学期 | 资料情况 |
 |:--|:--|:--|:--:|
-|[基础医学科学研究技能Ⅱ](basic_techniques_in_medical_sciences_1/index.md)|1.0|二（春夏）|较完善✅|
-|[基础医学科研实践](medical_research_practice/index.md)|4.0|三（春）|无|
-|[基础医学教育见习](educational_probation_of_basis_medicine/index.md)|4.0|三（夏）|无|
+|[基础医学科学研究技能Ⅱ](basic_techniques_in_medical_sciences_2/index.md)|1.0|二（春夏）|较完善✅|
+|[基础医学科研实践](medical_research_practice/index.md)|4.0|三（春）|较完善✅|
+|[基础医学教育见习](educational_probation_of_basis_medicine/index.md)|4.0|三（夏）|较完善✅|
 |[临床实习](clinical_practice/index.md)|6.0|四（夏）|无|
 
 </div>

@@ -212,12 +212,20 @@ nav:
       - 重要传染病的防治基础: elective/important_infectious_disease_prevention_and_treatment_basis/index.md
       - 临床免疫学: elective/clinical_immunology/index.md
     - 分子肿瘤方向:
-      - 肿瘤生物学: elective/tumor_biology/index.md
+      - 肿瘤生物学:
+        - 课程主页: elective/tumor_biology/index.md
+        - 考试资料:
+          - 考试资料总览: elective/tumor_biology/exams/index.md
+          - 2024-2025 期末回忆卷: elective/tumor_biology/exams/2024-2025-final-exam-recall.md
       - 肿瘤研究策略与应用: elective/tumor_research_strategy_and_application/index.md
       - 临床肿瘤学概论: elective/clinical_oncology_introduction/index.md
     - 专业选修:
       - 演化医学理论及应用: elective/evolutionary_medicine_theory_and_application/index.md
-      - 物理化学: elective/physical_chemistry/index.md
+      - 物理化学:
+        - 课程主页: elective/physical_chemistry/index.md
+        - 考试资料:
+          - 考试资料总览: elective/physical_chemistry/exams/index.md
+          - 2024-2025 秋冬期中回忆卷: elective/physical_chemistry/exams/2024-2025-midterm-recall.md
       - 科学写作与表达: elective/academic_writing_and_presentation/index.md
       - 概率论与数理统计: elective/probability_and_mathematical_statistic/index.md
       - 医工信交叉前沿进展: elective/advances_at_the_intersection_of_medicine_engineering_and_information_technology/index.md
@@ -244,12 +252,6 @@ nav:
   - 政策收集:
     - policy/index.md
   - 资源收集:
-    - 专业选修课程:
-      - 分子肿瘤方向:
-        - 肿瘤生物学:
-          - 2024-2025 期末测试: elective/tumor_biology/preview/2024_to_2025/final_exam.md
-      - 物理化学:
-        - 2024-2025秋冬 期中测试: elective/physical_chemistry/preview/2024_to_2025/mid_exam.md
     - 错误页面: error.md
   - 飞跃专题:
     - fly/index.md
