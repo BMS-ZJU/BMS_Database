@@ -1,35 +1,26 @@
-site_name: BMS_Database
+site_name: BMS Database
 site_url: https://BMS-ZJU.github.io/BMS_Database/
 site_description: 基础医学学习网站
-repo_name: BMS-ZJU
+repo_name: BMS-ZJU/BMS_Database
 repo_url: https://github.com/BMS-ZJU/BMS_Database
-edit_uri: tree/master/docs
+edit_uri: edit/main/docs/
 
 theme:
-#  logo: images/ZJUBMS.png
-  logo: images/logo_white.png
   name: material
-  language: 'zh'
+  language: zh
+  logo: images/logo_white.png
   favicon: images/ZJUBMS.png
-
-  #主题切换
   palette:
-
-    # 日间模式
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/weather-sunny
-        name: Switch to dark mode
-
-    # 夜间模式
+        name: 切换到深色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/weather-night
-        name: Switch to system preference
-
-
+        name: 切换到浅色模式
   features:
     - navigation.instant
     - navigation.instant.prefetch
@@ -37,15 +28,11 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.top
-    #- navigation.indexes
     - navigation.path
-    - navigation.expand
-    #- navigation.sections
     - search.suggest
     - search.highlight
     - search.share
     - navigation.footer
-    - content.code.annotate    
     - content.action.edit
 
   custom_dir: overrides
@@ -204,7 +191,6 @@ nav:
         - 说课与试讲: mandatory/educational_probation_of_basis_medicine/assessment/trial-teaching.md
       - 临床实习: mandatory/clinical_practice/index.md
 
-  # 以下课程英文注释未改
   - 专业选修课程:
     - elective/index.md
     - 感染与免疫学方向:
@@ -231,7 +217,7 @@ nav:
       - 医工信交叉前沿进展: elective/advances_at_the_intersection_of_medicine_engineering_and_information_technology/index.md
       - 医学统计学: elective/clinical_medicine_statistics/index.md
       - 法理学: elective/jurisprudence/index.md
-      - 组学与精准医学前言导论: elective/introduction_to_multi_omics_and_precision_medicine/index.md
+      - 组学与精准医学前沿导论: elective/introduction_to_multi_omics_and_precision_medicine/index.md
       - 管理学: elective/fundamentals_of_management/index.md
       - 教育统计学: elective/educational_statistics/index.md
       - 预防医学: elective/preventive_medicine/index.md
@@ -255,27 +241,21 @@ nav:
     - 错误页面: error.md
   - 飞跃专题:
     - fly/index.md
-#  - 后记:
-#    - postscript/postscript.md
 
-
-#这个地方是页面最下方放友情链接的，需要一个图标icon和一个链接link
 extra:
   social:
     - icon: material/web-check
       link: https://bms.zju.edu.cn/
 
-#这个是版权横幅
-copyright: Copyright &copy; 2024-2025 基础医学飞跃手册编委会
+copyright: Copyright &copy; 2024-2026 基础医学飞跃手册编委会
 
-markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/ 和 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/
+markdown_extensions:
   - abbr
   - attr_list
   - admonition
   - def_list
   - footnotes
   - md_in_html
-  # - meta # 支持Markdown文件上方自定义标题标签等
   - pymdownx.caret
   - pymdownx.betterem
   - pymdownx.critic
@@ -290,16 +270,14 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
       custom_fences:
         - name: mermaid
           class: mermaid
-          format:
-            !!python/name:pymdownx.superfences.fence_code_format # 代码块高亮插件
-  - pymdownx.arithmatex: # latex支持
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
       generic: true
   - toc:
-      permalink: true # 固定标题位置为当前位置
-  - pymdownx.highlight: # 代码块高亮
+      permalink: true
+  - pymdownx.highlight:
       anchor_linenums: true
-      linenums: true # 显示行号
-      # auto_title: true # 显示编程语言名称
+      linenums: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -308,15 +286,11 @@ markdown_extensions: #详见https://squidfunk.github.io/mkdocs-material/setup/ex
   - pymdownx.tasklist:
       custom_checkbox: true
 
-
-# katex
 extra_javascript:
   - javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
-  
-# 统一设置样式
 extra_css:
   - css/styles.css
-  - https://unpkg.com/katex@0/dist/katex.min.css #katex
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
