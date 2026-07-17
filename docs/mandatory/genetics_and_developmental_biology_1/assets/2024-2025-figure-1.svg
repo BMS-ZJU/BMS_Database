@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 1 草图</title>
+  <desc id="desc">横轴为增强子与启动子之间的核苷酸数，纵轴为 mRNA 表达水平；图中在 40 和 110 附近标出两个数据点。</desc>
+  <rect width="720" height="420" fill="white"/>
+  <line x1="100" y1="330" x2="660" y2="330" stroke="#555" stroke-width="2"/>
+  <line x1="100" y1="330" x2="100" y2="50" stroke="#555" stroke-width="2"/>
+  <line x1="100" y1="330" x2="660" y2="80" stroke="#4472c4" stroke-width="3"/>
+  <circle cx="100" cy="330" r="5" fill="#4472c4"/>
+  <circle cx="660" cy="80" r="5" fill="#4472c4"/>
+  <text x="100" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">40</text>
+  <text x="660" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">110</text>
+  <text x="380" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="17">nucleotides between promoter and enhancer</text>
+  <text x="30" y="190" transform="rotate(-90 30 190)" text-anchor="middle" font-family="Arial, sans-serif" font-size="17">mRNA expression level</text>
+</svg>
