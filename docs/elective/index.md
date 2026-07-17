@@ -27,7 +27,7 @@
     |:--|:--|:--|:--:|
     |[肿瘤生物学](tumor_biology/index.md)|2.0|二（春）|较完善✅|
     |[肿瘤研究策略与应用](tumor_research_strategy_and_application/index.md)|2.0|二（夏）|无|
-    |[临床肿瘤学概论](clinical_oncology_introduction/index.md)|2.0|二（夏）|无|
+    |[临床肿瘤学概论](clinical_oncology_introduction/index.md)|2.0|二（夏）|已整理✅|
 
     </div>
 
@@ -50,15 +50,15 @@
         |[医工信交叉前沿进展](advances_at_the_intersection_of_medicine_engineering_and_information_technology/index.md)|2.0|二（秋冬）|无|
         |[医学统计学](clinical_medicine_statistics/index.md)|2.0|二（春）|无|
         |[法理学](jurisprudence/index.md)|3.0|二（春夏）|无|
-        |[组学与精准医学前言导论](introduction_to_multi_omics_and_precision_medicine/index.md)|3.0|二（春夏）|无|
+        |[组学与精准医学前沿导论](introduction_to_multi_omics_and_precision_medicine/index.md)|3.0|二（春夏）|已整理✅|
         |[管理学](fundamentals_of_management/index.md)|3.0|二（春夏）|无|
-        |[教育统计学](educational_statistics/index.md)|2.0|二（夏）|无|
+        |[教育统计学](educational_statistics/index.md)|2.0|二（夏）|已整理✅|
         |[预防医学](preventive_medicine/index.md)|2.0|二（夏）|无|
         |[医学伦理学与卫生法学](medical_ethics_and_health_law/index.md)|1.5|三（春）|无|
         |[卫生事业管理](health_management/index.md)|1.5|三（春）|无|
         |[教育心理学](educational_psychology/index.md)|2.0|三（春）|无|
-        |[法医学](forensic_medicine/index.md)|1.5|三（夏）|无|
-        |[新药研发](new_drug_research_and_development/index.md)|1.5|三（夏）|无|
+        |[法医学](forensic_medicine/index.md)|1.5|三（夏）|已整理✅|
+        |[新药研发](new_drug_research_and_development/index.md)|1.5|三（夏）|已整理✅|
         |[全球环境改变与人类健康](global_environmental_changes_and_human_health/index.md)|1.5|四（冬）|无|
         |[卫生毒理学](health_toxicology/index.md)|3.5|四（冬）|无|
         |[医学人工智能](artificial_intelligence_in_medicine/index.md)|2.0|四（春）|无|
@@ -85,14 +85,14 @@
         |[物理化学](physical_chemistry/index.md)|4.0|一(春夏)|较完善✅|
         |[法理学](jurisprudence/index.md)|3.0|二(春夏)|无|
         |[管理学](fundamentals_of_management/index.md)|3.0|二(春夏)|无|
-        |[教育统计学](educational_statistics/index.md)|2.0|二(夏)|无|
+        |[教育统计学](educational_statistics/index.md)|2.0|二(夏)|已整理✅|
         |[卫生学（已停开）](clinical_hygiene/index.md)|2.0|二(夏)|无|
         |[演化医学理论及应用](evolutionary_medicine_theory_and_application/index.md)|2.0|二(夏)|无|
         |[教育心理学](educational_psychology/index.md)|2.0|三(春)|无|
         |[卫生事业管理](health_management/index.md)|1.5|三(春)|无|
         |[医学伦理学与卫生法学](medical_ethics_and_health_law/index.md)|1.5|三(春)|无|
-        |[法医学](forensic_medicine/index.md)|1.5|三(夏)|无|
-        |[新药研发](new_drug_research_and_development/index.md)|1.5|三(夏)|无|
+        |[法医学](forensic_medicine/index.md)|1.5|三(夏)|已整理✅|
+        |[新药研发](new_drug_research_and_development/index.md)|1.5|三(夏)|已整理✅|
         |[卫生毒理学](health_toxicology/index.md)|3.5|四(冬)|无|
         |[全球环境改变与人类健康](global_environmental_changes_and_human_health/index.md)|1.5|四(冬)|无|
         |[医学人工智能](artificial_intelligence_in_medicine/index.md)|2.0|四(春)|无|
@@ -119,13 +119,13 @@
         |[物理化学](physical_chemistry/index.md)|4.0|一(春夏)|较完善✅|
         |[法理学](jurisprudence/index.md)|3.0|二(春夏)|无|
         |[管理学](fundamentals_of_management/index.md)|3.0|二(春夏)|无|
-        |[教育统计学](educational_statistics/index.md)|2.0|二(夏)|无|
+        |[教育统计学](educational_statistics/index.md)|2.0|二(夏)|已整理✅|
         |[卫生学（已停开）](clinical_hygiene/index.md)|2.0|二(夏)|无|
         |[卫生事业管理](health_management/index.md)|1.5|三(春)|无|
         |[医学伦理学与卫生法学](medical_ethics_and_health_law/index.md)|1.5|三(春)|无|
         |[教育心理学](educational_psychology/index.md)|2.0|三(春)|无|
-        |[法医学](forensic_medicine/index.md)|1.5|三(夏)|无|
-        |[新药研发](new_drug_research_and_development/index.md)|1.5|三(夏)|无|
+        |[法医学](forensic_medicine/index.md)|1.5|三(夏)|已整理✅|
+        |[新药研发](new_drug_research_and_development/index.md)|1.5|三(夏)|已整理✅|
         |[卫生毒理学](health_toxicology/index.md)|3.5|四(冬)|无|
         |[全球环境改变与人类健康](global_environmental_changes_and_human_health/index.md)|1.5|四(冬)|无|
         |[医学人工智能](artificial_intelligence_in_medicine/index.md)|2.0|四(春)|无|
