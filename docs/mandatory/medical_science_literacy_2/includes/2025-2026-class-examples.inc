@@ -1,22 +1,5 @@
----
-title: 医学科学素养Ⅱ 大题示例 2025-2026学年
----
-
-<center>
-
-<h1 style="color: black">
-<b>$2025$ - $2026$ 学年 医学科学素养Ⅱ 大题示例</b>
-</h1>
-
-<p style="font-size: 13px">
-基础医学专业课 课堂讲解<br>
-2025.10.9, 不计分, 不作考勤
-</p>
-
-</center>
-
----
-
+> **时间：** 2025.10.9  
+> **性质：** 课堂讲解 · 不计分 · 不作考勤
 
 一、 A study measures the blood pressure of 10 patients before and after a new treatment. The blood pressure readings (in mmHg) are as follows:
 
@@ -32,13 +15,10 @@ Perform a paired t-test to determine if the treatment has a significant effect o
 | Difference     | 3.2    | 1.40               |
 
 1. Is this a one-tailed test or two-tailed test?
-<br><br>
 
 1. What are the degrees of freedom?
-<br><br>
 
 1. Please perform the test and draw a conclusion (alpha = 0.05).
-<br><br>
 
 ---
 
@@ -60,7 +40,6 @@ Perform a paired t-test to determine if the treatment has a significant effect o
 Sample statistics:
 - $\bar{x}_1 = 87.95$, $\bar{x}_2 = 85.19$
 - $s_1^2 = 32.38$, $s_2^2 = 31.18$
-<br><br>
 
 ---
 
@@ -73,13 +52,10 @@ Sample statistics:
 | C            | 6, 7, 6, 6, 7, 5, 6, 5, 5 | 5.89 | 0.78 |
 
 1. What hypothesis testing method should be used?  
-<br><br>
 
 2. What are the degrees of freedom?  
-<br><br>
 
 3. Please perform the test and draw a conclusion (alpha = 0.05).
-<br><br>
 
 ---
 
@@ -92,7 +68,6 @@ Sample statistics:
 | Total          | 120     | 100        | 220   |
 
 1. What are the degrees of freedom?  
-<br><br>
 
 2. Please fill in the following table with the expected frequencies (keep two decimals):
 
@@ -100,10 +75,8 @@ Sample statistics:
 |----------------|---------|------------|
 | Tomatoes       |         |            |
 | No Tomatoes    |         |            |
-<br><br>
 
 3. Please perform the Chi-square test and draw a conclusion (alpha = 0.05).
-<br><br>
 
 ---
 
@@ -135,10 +108,7 @@ Here is the data:
 
 
 1. What hypothesis method should be applied to find out whether the two exams are equally difficult or not?  
-<br><br>
 
 2. What are the degrees of freedom?  
-<br><br>
 
 3. Please test the hypotheses and draw a conclusion (alpha = 0.01).
-<br><br>

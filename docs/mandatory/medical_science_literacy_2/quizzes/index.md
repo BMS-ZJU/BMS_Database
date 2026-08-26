@@ -1,9 +1,31 @@
-# 医学科学素养Ⅱ练习与小测资料
+---
+comments: false
+hide:
+  - toc
+---
 
-以下均为 2025-2026 学年材料。为避免页面过多，原有资料按“练习与课堂示例”“线上小测”“线下小测”合并展示；题目和答案内容仍按原材料保留。
+# 医学科学素养Ⅱ练习与小测
 
-2025 年秋学期第 1 周周一为 9 月 15 日。三次线上小测分别从第 4、5、6 周的周末开放至下一周周一；两次线下小测安排在第 7—8 周。具体日期和周次见[课程主页](../index.md)。
+现有材料来自 2025-2026 学年秋学期，按练习、线上计分小测和线下计分小测合并整理。各次开放时间与课程安排见[课程主页](../index.md)。
 
-- [不计分练习与课堂示例](practice-and-examples.md)：练习 1、练习 2 和课堂大题示例
-- [线上计分小测](online-quizzes.md)：小测 1—3，使用原有含答案版本
-- [线下计分小测](offline-quizzes.md)：小测 4、小测 4 补考和小测 5
+<div class="grid cards course-resource-grid" markdown>
+
+-   **2025-2026 学年秋学期不计分练习与课堂示例** <span class="course-resource-detail">练习 1、练习 2 和课堂大题示例</span>
+
+    ---
+
+    [查看练习](practice-and-examples.md)
+
+-   **2025-2026 学年秋学期线上计分小测** <span class="course-resource-detail">小测 1—3 及答案</span>
+
+    ---
+
+    [查看小测](online-quizzes.md)
+
+-   **2025-2026 学年秋学期线下计分小测** <span class="course-resource-detail">小测 4、小测 4 补考和小测 5</span>
+
+    ---
+
+    [查看小测](offline-quizzes.md)
+
+</div>

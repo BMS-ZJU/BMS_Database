@@ -93,7 +93,7 @@
 .badges {
   margin-top: -2em;
 }
-  
+
 .badge {
   display: inline-block;
   padding: 0.2em 0.4em;
@@ -123,7 +123,7 @@
   color: #FFFFFF;
 }
 
-/* 小测答案：桌面端悬停显示，所有设备均可点击展开 */
+/* 小测答案：桌面端由 quiz-answers.js 支持悬停，所有设备均可点击展开 */
 .quiz-answer {
   margin: 0.35rem 0 0.9rem;
   border-left: 3px solid var(--md-primary-fg-color);
@@ -136,9 +136,191 @@
   font-weight: 600;
 }
 
-@media (hover: hover) {
-  .quiz-answer:not([open]):hover > :not(summary) {
-    display: block !important;
+.md-typeset .quiz-figure {
+  display: block;
+  max-width: min(100%, 32rem);
+  height: auto;
+  margin: 1rem auto;
+}
+
+/* 回忆卷题目间距：选择题适度分隔，大题使用更宽的阅读节奏 */
+.md-typeset .exam-section--choice + ol > li,
+.md-typeset .exam-section--choice + p + ol > li,
+.md-typeset .exam-section--choice + p + p + ol > li,
+.md-typeset .exam-section--choice + p + .admonition + ol > li,
+.md-typeset .exam-section--choice + p + .admonition + .admonition + ol > li,
+.md-typeset .exam-question-list--choice > li {
+  margin-bottom: 1.1rem;
+}
+
+.md-typeset .exam-section--short + ol > li,
+.md-typeset .exam-section--short + p + ol > li,
+.md-typeset .exam-section--short + p + p + ol > li,
+.md-typeset .exam-section--short + p + .admonition + ol > li,
+.md-typeset .exam-section--short + p + .admonition + .admonition + ol > li {
+  margin-bottom: 1.65rem;
+}
+
+.md-typeset .exam-section--analysis + ol > li,
+.md-typeset .exam-section--analysis + p + ol > li,
+.md-typeset .exam-section--analysis + p + p + ol > li,
+.md-typeset .exam-section--analysis + p + .admonition + ol > li,
+.md-typeset .exam-section--analysis + p + .admonition + .admonition + ol > li {
+  margin-bottom: 2.2rem;
+}
+
+.md-typeset .exam-section + ol > li:last-child,
+.md-typeset .exam-section + p + ol > li:last-child,
+.md-typeset .exam-section + p + p + ol > li:last-child,
+.md-typeset .exam-section + p + .admonition + ol > li:last-child,
+.md-typeset .exam-section + p + .admonition + .admonition + ol > li:last-child,
+.md-typeset .exam-question-list > li:last-child {
+  margin-bottom: 0;
+}
+
+/* 课程资料索引：用紧凑的单列卡片呈现试卷、小测、讨论课和笔记入口 */
+.md-typeset .course-resource-grid {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.65rem;
+  margin: 1.35rem 0 0.4rem;
+}
+
+.md-typeset .grid.cards.course-resource-grid > ul {
+  margin: 0;
+}
+
+.md-typeset .course-resource-grid > ul > li {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.65rem 1.2rem;
+  min-height: 0;
+  margin: 0;
+  padding: 0.85rem 1rem 0.85rem 1.1rem;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-left: 0.2rem solid var(--md-primary-fg-color);
+  border-radius: 0.4rem;
+  background-color: var(--md-default-bg-color);
+  box-shadow: 0 0.08rem 0.35rem rgb(0 0 0 / 5%);
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.md-typeset .course-resource-grid > ul > li:hover,
+.md-typeset .course-resource-grid > ul > li:focus-within {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0.18rem 0.55rem rgb(0 0 0 / 9%);
+}
+
+.md-typeset .course-resource-grid > ul > li > p {
+  margin: 0;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:first-child {
+  min-width: 0;
+  line-height: 1.45;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:first-child strong {
+  color: var(--md-default-fg-color);
+  font-size: 0.88rem;
+  font-weight: 650;
+}
+
+.md-typeset .course-resource-grid .course-resource-detail {
+  display: block;
+  margin-top: 0.16rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.md-typeset .course-resource-grid .exam-resource-tag {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.08em 0.48em;
+  border-radius: 999px;
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--md-default-fg-color--light);
+  font-size: 0.62rem;
+  font-weight: 650;
+  line-height: 1.55;
+  vertical-align: 0.12em;
+}
+
+.md-typeset .course-resource-grid > ul > li > hr {
+  display: none;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:last-child a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.35em 0.68em;
+  border-radius: 999px;
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-size: 0.72rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:last-child a:only-child::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 0.4rem;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:last-child a::after {
+  content: "→";
+  transition: transform 160ms ease;
+}
+
+.md-typeset .course-resource-grid > ul > li:hover > p:last-child a::after,
+.md-typeset .course-resource-grid > ul > li:focus-within > p:last-child a::after {
+  transform: translateX(0.14rem);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .course-resource-grid > ul > li {
+  box-shadow: 0 0.08rem 0.35rem rgb(0 0 0 / 18%);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .course-resource-grid > ul > li > p:last-child a {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+@media screen and (max-width: 44.984375em) {
+  /* 深层课程页面仅保留“课程 > 当前栏目”，避免长面包屑被挤成逐字竖排 */
+  .md-path__item:nth-last-child(n + 4):first-child,
+  .md-path__item:nth-last-child(n + 3):nth-child(2) {
+    display: none;
+  }
+
+  .md-typeset .course-resource-grid {
+    margin-top: 1rem;
+  }
+
+  .md-typeset .course-resource-grid > ul > li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.55rem;
+    padding: 0.8rem 0.85rem;
+  }
+
+  .md-typeset .course-resource-grid > ul > li > p:last-child {
+    justify-content: flex-start;
+    white-space: normal;
   }
 }
 

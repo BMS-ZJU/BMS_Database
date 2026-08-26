@@ -1,0 +1,256 @@
+# BMS Database 课程名称与目录映射
+#
+# 用途：后续维护任务收到中文课程名时，先用本文件定位正式课程目录。
+# chinese_name / english_name 来自浙江大学教务网“课程信息查看”；
+# course_code 由本地 2020—2026 级基础医学培养方案核对，用于排除同名课程。
+# path 是 E:\BMS_Database\docs 下的现有相对目录，不随英文名自动改名。
+#
+# 核对日期：2026-08-26
+# 教务网字段只做了首尾空白清理，不对官方英文名自行润色。
+
+version: 1
+verified_on: 2026-08-26
+sources:
+  curriculum: E:\Codex\BMS_Database\tasks\2026-08-26-navigation-classification-audit\extracted
+  english_names: 浙江大学教务网 > 培养方案 > 课程信息查看
+
+courses:
+  - category: mandatory
+    path: mandatory/medical_life_fundamentals
+    course_code: MED1001M
+    legacy_course_code: "18198100"
+    chinese_name: 医学生命基础
+    english_name: Medical Life Fundamentals
+  - category: mandatory
+    path: mandatory/medical_research_literacy_1
+    course_code: MED1003M
+    legacy_course_code: "72120380"
+    chinese_name: 医学科学素养Ⅰ
+    english_name: Medical Research Literacy Ⅰ
+  - category: mandatory
+    path: mandatory/essential_english_for_medical_sciences
+    course_code: MED1005M
+    legacy_course_code: "72190040"
+    chinese_name: 医学科学英语基础
+    english_name: Essential English For Medical Sciences
+  - category: mandatory
+    path: mandatory/molecular_cell_biology_1
+    course_code: MED2039M
+    legacy_course_code: "18122790"
+    chinese_name: 细胞与生物分子Ⅰ
+    english_name: Molecular Cell Biology Ⅰ(Cell Biology)
+  - category: mandatory
+    path: mandatory/molecular_cell_biology_2
+    course_code: MED2019M
+    legacy_course_code: "18122800"
+    chinese_name: 细胞与生物分子Ⅱ
+    english_name: Molecular Cell Biology Ⅱ(Biochemistry)
+  - category: mandatory
+    path: mandatory/genetics_and_developmental_biology_1
+    course_code: MED2020M
+    legacy_course_code: "18122810"
+    chinese_name: 遗传与发育Ⅰ
+    english_name: Genetics & Developmental Biology Ⅰ
+  - category: mandatory
+    path: mandatory/basic_techniques_in_medical_sciences_1
+    course_code: MED1028M
+    legacy_course_code: "18122950"
+    chinese_name: 基础医学科学研究技能Ⅰ
+    english_name: Basic Techniques In Medical SciencesⅠ
+  - category: mandatory
+    path: mandatory/genetics_and_developmental_biology_2
+    course_code: MED2030M
+    legacy_course_code: "18122820"
+    chinese_name: 遗传与发育Ⅱ
+    english_name: Genetics & Developmental Biology Ⅱ
+  - category: mandatory
+    path: mandatory/structure_and_function_of_the_human_body
+    course_code: MED2035M
+    legacy_course_code: "18122830"
+    chinese_name: 人体结构与功能学
+    english_name: Structure And Function Of The Human Body
+  - category: mandatory
+    path: mandatory/infectious_diseases_and_immunity
+    course_code: MED3055M
+    legacy_course_code: "18122840"
+    chinese_name: 感染与免疫学
+    english_name: Infectious Diseases  & Immunity
+  - category: mandatory
+    path: mandatory/the_basis_for_human_diseases
+    course_code: MED3047M
+    legacy_course_code: "18122930"
+    chinese_name: 疾病基础
+    english_name: The Basis For Human Diseases - Pathology And Pathophysiology
+  - category: mandatory
+    path: mandatory/basic_pharmacology
+    course_code: MED3056M
+    legacy_course_code: "18122940"
+    chinese_name: 基础药理学
+    english_name: Basic Pharmacology
+  - category: mandatory
+    path: mandatory/neuroscience
+    course_code: MED2303M
+    legacy_course_code: "72120420"
+    chinese_name: 神经科学
+    english_name: Neuroscience
+  - category: mandatory
+    path: mandatory/experimental_animals_and_ethics
+    course_code: MED2302M
+    legacy_course_code: "72120450"
+    chinese_name: 实验动物与伦理学
+    english_name: Experimental Animals And Ethics
+  - category: mandatory
+    path: mandatory/medical_science_literacy_2
+    course_code: MED3045M
+    legacy_course_code: "72120401"
+    chinese_name: 医学科学素养Ⅱ
+    english_name: Medical Science Literacy Ⅱ
+  - category: mandatory
+    path: mandatory/clinical_epidemiology_and_evidence_based_medicine
+    course_code: MED4423M
+    legacy_course_code: "73120120"
+    chinese_name: 临床流行病学与循证医学
+    english_name: Clinical Epidemiology And Evidence-Based Medicine
+  - category: mandatory
+    path: mandatory/human_diseases_from_clinic_to_research_1
+    course_code: MED4069M
+    legacy_course_code: "72120480"
+    chinese_name: 重要疾病的临床与研究Ⅰ
+    english_name: "Human Diseases: From Clinic To Research Ⅰ"
+  - category: mandatory
+    path: mandatory/human_diseases_from_clinic_to_research_2
+    course_code: MED4068M
+    legacy_course_code: "72120510"
+    chinese_name: 重要疾病的临床与研究Ⅱ
+    english_name: "Human Diseases: From Clinic To Research Ⅱ"
+  - category: mandatory
+    path: mandatory/human_diseases_from_clinic_to_research_3
+    course_code: MED4062M
+    legacy_course_code: "18122921"
+    chinese_name: 重要疾病的临床与研究Ⅲ
+    english_name: "Human Diseases: From Clinic To Research Ⅲ"
+  - category: mandatory
+    path: mandatory/medical_biophysics
+    course_code: MED2031M
+    legacy_course_code: "72120390"
+    chinese_name: 医学生物物理学
+    english_name: Medical Biophysics
+  - category: mandatory
+    path: mandatory/medical_big_data_and_application
+    course_code: MED2010M
+    legacy_course_code: "72120440"
+    chinese_name: 医学大数据与应用
+    english_name: Medical Big Data And Application
+  - category: mandatory
+    path: mandatory/brain_and_brain_machine_integrated_systems
+    course_code: MED2304M
+    legacy_course_code: "72120430"
+    chinese_name: 脑与脑机融合
+    english_name: Brain And Brain-Machine Integrated Systems
+    notes: 教务网另有同名 MED2304M1；当前本地培养方案使用 MED2304M。
+  - category: mandatory
+    path: mandatory/basic_techniques_in_medical_sciences_2
+    course_code: MED2011M
+    legacy_course_code: "72120490"
+    chinese_name: 基础医学科学研究技能Ⅱ
+    english_name: Basic Techniques In Medical Sciences Ⅱ
+  - category: mandatory
+    path: mandatory/medical_research_practice
+    course_code: MED3052M
+    legacy_course_code: "72188060"
+    chinese_name: 基础医学科研实践
+    english_name: Medical Research Practice
+  - category: mandatory
+    path: mandatory/educational_probation_of_basic_medicine
+    course_code: MED3061M
+    legacy_course_code: "72188070"
+    chinese_name: 基础医学教育见习
+    english_name: Educational Probation of Basic Medicine
+  - category: mandatory
+    path: mandatory/clinical_practice
+    course_code: MED4066M
+    legacy_course_code: "72188030"
+    chinese_name: 临床实习
+    english_name: Clinical Practice
+    notes: 教务网有多门同名课程；按基础医学系及本地培养方案课程代码选取。
+
+  - category: elective
+    path: elective/advanced_technology_in_microbiology_and_immunology
+    course_code: MED4064M
+    legacy_course_code: "72120590"
+    chinese_name: 微生物学与免疫学前沿技术
+    english_name: Advanced Technology In Microbiology And Immunology
+  - category: elective
+    path: elective/clinical_immunology
+    course_code: MED4063M
+    legacy_course_code: "18197061"
+    chinese_name: 临床免疫学
+    english_name: Clinical Immunology
+  - category: elective
+    path: elective/cancer_biology
+    course_code: MED2040M
+    legacy_course_code: "72120530"
+    chinese_name: 肿瘤生物学
+    english_name: Cancer Biology
+  - category: elective
+    path: elective/strategy_and_application_in_cancer_research
+    course_code: MED3048M
+    legacy_course_code: "72120550"
+    chinese_name: 肿瘤研究策略与应用
+    english_name: Strategy And Application In Cancer Research
+  - category: elective
+    path: elective/introduction_to_clinical_oncology
+    course_code: MED2012M
+    legacy_course_code: "72120580"
+    chinese_name: 临床肿瘤学概论
+    english_name: Introduction To Clinical Oncology
+  - category: elective
+    path: elective/physical_chemistry
+    course_code: CHEM2001F
+    legacy_course_code: "061B9030"
+    chinese_name: 物理化学
+    english_name: Physical Chemistry
+  - category: elective
+    path: elective/introduction_to_multi_omics_and_precision_medicine
+    course_code: MED2587M
+    legacy_course_code: ""
+    chinese_name: 组学与精准医学前沿导论
+    english_name: Introduction to Multi-Omics and Precision Medicine
+  - category: elective
+    path: elective/educational_statistics
+    course_code: EDU2007M
+    legacy_course_code: "03123590"
+    chinese_name: 教育统计学
+    english_name: Educational Statistics
+  - category: elective
+    path: elective/medical_ethics_and_health_law
+    course_code: MED2412M
+    legacy_course_code: "73120070"
+    chinese_name: 医学伦理学与卫生法学
+    english_name: Medical Ethics & Health Law
+  - category: elective
+    path: elective/health_management
+    course_code: MED4411M
+    legacy_course_code: "18120571"
+    chinese_name: 卫生事业管理
+    english_name: Health Management
+  - category: elective
+    path: elective/forensic_medicine
+    course_code: MED2021M
+    legacy_course_code: "18121850"
+    chinese_name: 法医学
+    english_name: Forensic Medicine
+  - category: elective
+    path: elective/new_drug_research_and_development
+    course_code: MED3057M
+    legacy_course_code: "18198000"
+    chinese_name: 新药研发
+    english_name: New Drug Research & Development
+  - category: elective
+    path: elective/social_medicine_b
+    course_code: MED2426M
+    legacy_course_code: "18120444"
+    chinese_name: 社会医学（乙）
+    english_name: Social Medicine(B)
+    aliases:
+      - 社会医学(乙)

@@ -1,21 +1,31 @@
-# 医学生物物理学课程笔记
+---
+comments: false
+hide:
+  - toc
+---
 
-## 谷雨桦笔记 1
+# 医学生物物理学笔记
 
-共 15 页，按教师和主题整理，覆盖绪论、计算生物学、膜生物物理、线粒体、自由基、荧光标记、核磁共振、冷冻电镜、单分子技术和电生理等内容。原始 DOCX 已另有一份版式完整的 PDF 预览。
+三份笔记均由往届同学整理，作者姓名按原文件名保留。使用时请结合当年课件核对。
 
-[查看 PDF](files/medical-biophysics-note-1-gyh.pdf)
+<div class="grid cards course-resource-grid" markdown>
 
-## 谷雨桦笔记 2
+-   **谷雨桦笔记 1** <span class="course-resource-detail">15 页 · 绪论、计算生物学、膜生物物理、线粒体、成像与电生理等</span>
 
-共 38 页，包含较多课件截图、结构图和正文笔记，覆盖计算生物学、蛋白质结构、生物膜、跨膜运输、线粒体等内容。
+    ---
 
-[查看 PDF](files/medical-biophysics-note-2-gyh.pdf)
+    [查看 PDF](files/medical-biophysics-note-1-gyh.pdf)
 
-## 袁玉振核磁共振笔记
+-   **谷雨桦笔记 2** <span class="course-resource-detail">38 页 · 计算生物学、蛋白质结构、生物膜、跨膜运输与线粒体等</span>
 
-共 8 页，集中整理核磁共振基本原理、化学位移、标量耦合、偶极耦合以及 COSY、NOESY 谱等内容，含公式和谱图。
+    ---
 
-[查看 PDF](files/nmr-note-yyz.pdf)
+    [查看 PDF](files/medical-biophysics-note-2-gyh.pdf)
 
-> 三份笔记均为往届同学整理，作者姓名按原文件名保留。笔记可能存在个人理解或年度差异，使用时应与课程课件核对。
+-   **袁玉振核磁共振笔记** <span class="course-resource-detail">8 页 · 核磁共振原理、耦合与二维谱</span>
+
+    ---
+
+    [查看 PDF](files/nmr-note-yyz.pdf)
+
+</div>

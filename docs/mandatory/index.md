@@ -10,7 +10,7 @@
 |:--|:--|:--|:--:|
 |[医学生命基础](medical_life_fundamentals/index.md)|2.5|一（秋冬）|较完善✅|
 |[医学科学素养Ⅰ](medical_research_literacy_1/index.md)|1.0|一（春）|较完善✅|
-|[医学科学英语基础](essential_english_for_medicial_sciences/index.md)|1.0|一（夏）|较完善✅|
+|[医学科学英语基础](essential_english_for_medical_sciences/index.md)|1.0|一（夏）|较完善✅|
 |[细胞与生物分子Ⅰ](molecular_cell_biology_1/index.md)|3.0|二（秋）|较完善✅|
 |[细胞与生物分子Ⅱ](molecular_cell_biology_2/index.md)|5.0|二（秋冬）|较完善✅|
 |[遗传与发育Ⅰ](genetics_and_developmental_biology_1/index.md)|3.0|二（冬）|较完善✅|
@@ -77,7 +77,7 @@
 |:--|:--|:--|:--:|
 |[基础医学科学研究技能Ⅱ](basic_techniques_in_medical_sciences_2/index.md)|1.0|二（春夏）|较完善✅|
 |[基础医学科研实践](medical_research_practice/index.md)|4.0|三（春）|较完善✅|
-|[基础医学教育见习](educational_probation_of_basis_medicine/index.md)|4.0|三（夏）|较完善✅|
+|[基础医学教育见习](educational_probation_of_basic_medicine/index.md)|4.0|三（夏）|较完善✅|
 |[临床实习](clinical_practice/index.md)|6.0|四（夏）|无|
 
 </div>

@@ -12,19 +12,10 @@
 
     <table class="percentage-table">
         <tbody>
-            <tr>
-                <td class="first-column"><b>课程作业</b></td>
-                <td class="second-column">20%</td>
-                <td>教学大纲中列有此项，往届同学记录实际未单独安排</td>
-            </tr>
-            <tr>
-                <td><b>发言和展示</b></td>
-                <td>20%</td>
-                <td>学期末进行一次小组展示，提问可以加分</td>
-            </tr>
+            <tr><td class="first-column"><b>平时成绩</b></td><td class="second-column">20%</td><td>包括考勤和小组展示</td></tr>
             <tr>
                 <td><b>期末考试</b></td>
-                <td>60%</td>
+                <td>80%</td>
                 <td>闭卷</td>
             </tr>
         </tbody>
@@ -34,25 +25,14 @@
 
     <table class="percentage-table">
         <tbody>
-            <tr>
-                <td class="first-column"><b>课程作业</b></td>
-                <td class="second-column">20%</td>
-                <td>教学大纲中列有此项，往届同学记录实际未单独安排</td>
-            </tr>
-            <tr>
-                <td><b>发言和展示</b></td>
-                <td>20%</td>
-                <td>学期末进行一次小组展示，提问可以加分</td>
-            </tr>
+            <tr><td class="first-column"><b>平时成绩</b></td><td class="second-column">20%</td><td>包括考勤和小组展示</td></tr>
             <tr>
                 <td><b>期末考试</b></td>
-                <td>60%</td>
+                <td>80%</td>
                 <td>闭卷</td>
             </tr>
         </tbody>
     </table>
-
-> 以上比例来自课程主页保存的教学大纲摘录；课程作业的实际安排与大纲记录不完全一致，之后学年应以课程组通知为准。
 
 ## 学习重点
 
@@ -89,15 +69,9 @@
         <tbody>
             <tr>
                 <td>2024-2025 学年秋学期期末回忆卷</td>
-                <td>历年卷</td>
+                <td>回忆卷</td>
                 <td>无</td>
                 <td><a href="exams/2024-2025-final-exam-recall.md">查看</a></td>
-            </tr>
-            <tr>
-                <td>往届电子笔记</td>
-                <td>课程笔记</td>
-                <td>钉钉群、<a href="https://www.cc98.org/topic/6344262">CC98</a></td>
-                <td>无</td>
             </tr>
         </tbody>
     </table>
@@ -105,7 +79,7 @@
 
 ## 往届经验
 
-**23 级某同学**
+**23 匿名**
 
 > 几乎不点名，但到课人数过少时会点名。有一次展示，除此之外没有太多任务。学期末会建立微信群发送 PPT 供复习。期末考试有一定难度，选择题和判断题考得比较细，但包括大题在内，内容都来自 PPT。复习时需要特别注意常用模式动物和实验技术等内容。
 
@@ -113,7 +87,6 @@
 
 > 把 PPT 整理、总结后再背诵，几乎所有题目都可以作答。大题与历年卷重合的内容较多。
 
-以上为往届同学的个人经历。点名、资料发放和考试情况可能随学年变化。
 
 ## 课程信息
 
@@ -121,8 +94,3 @@
 - **参考教材：** 秦川《实验动物学》
 
 ## 尚待补充
-
-- 课程组发布的正式考核通知；
-- 课程作业在不同学年的实际安排；
-- 小组展示的选题范围与评分方式；
-- 不同教师的授课范围。
