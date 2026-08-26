@@ -1,23 +1,5 @@
----
-title: 医学科学素养Ⅱ 小测5 2025-2026学年
----
-
-<center>
-
-<h1 style="color: black">
-<b>$2025$ - $2026$ 学年 医学科学素养Ⅱ 小测5</b>
-</h1>
-
-<p style="font-size: 13px">
-基础医学专业课 线下小测<br>
-测试时间: 2025.11.6 16:20 - 2025.11.6 17:30
-<br>
-原卷中英文分布与该卷相同, 共 2 道题目, 满分 100 分
-</p>
-
-</center>
-
----
+> **时间：** 2025.11.6 16:20 - 2025.11.6 17:30  
+> **题量：** 2 题 · 100 分
 
 1. A researcher wants to test whether **mean systolic blood pressure (SBP)** differs among **three groups** of adults following different diets using one-way ANOVA:
 
@@ -30,7 +12,6 @@ title: 医学科学素养Ⅱ 小测5 2025-2026学年
     Please perform the test and draw a conclusion (alpha = 0.05).  
     (<u><b>keep two-decimals during your calculation</b></u>)
 
-    <br><br>
 
     ---
 

@@ -1,18 +1,18 @@
-# 2025-2026 学年医学科学素养Ⅱ线上小测
+# 2025-2026 学年秋学期医学科学素养Ⅱ线上小测
 
-本页合并收录前三次线上计分小测，采用原有含答案版本。原材料中的题目、选项、答案和可能存在的重复或笔误均未自行修正。
+本页合并收录前三次线上计分小测，答案汇总见页末。
 
 ## 小测 1
 
---8<-- "docs/mandatory/medical_science_literacy_2/includes/2025-2026-online-quiz-01.inc:21:"
+--8<-- "docs/mandatory/medical_science_literacy_2/includes/2025-2026-online-quiz-01.inc"
 
 ## 小测 2
 
---8<-- "docs/mandatory/medical_science_literacy_2/includes/2025-2026-online-quiz-02.inc:21:"
+--8<-- "docs/mandatory/medical_science_literacy_2/includes/2025-2026-online-quiz-02.inc"
 
 ## 小测 3
 
---8<-- "docs/mandatory/medical_science_literacy_2/includes/2025-2026-online-quiz-03.inc:21:"
+--8<-- "docs/mandatory/medical_science_literacy_2/includes/2025-2026-online-quiz-03.inc"
 
 ## 答案汇总
 

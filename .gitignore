@@ -1,1 +1,16 @@
-site
+# Generated site output
+/site/
+
+# Local source and reference directories
+/TuringCourses-master/
+/update/
+
+# Local maintenance context
+/.agents/
+/.codex/
+/AGENTS.md
+/ROADMAP.md
+/HANDOFF.md
+/CONTRIBUTING.md
+/requirements.txt
+/docs/_templates/

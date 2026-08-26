@@ -1,23 +1,5 @@
----
-title: 医学科学素养Ⅱ 小测4（补考） 2025-2026学年
----
-
-<center>
-
-<h1 style="color: black">
-<b>$2025$ - $2026$ 学年 医学科学素养Ⅱ 小测4（补考）</b>
-</h1>
-
-<p style="font-size: 13px">
-基础医学专业课 线下小测<br>
-测试时间: 2025.11.6 13:25 - 2025.11.6 17:30
-<br>
-原卷中英文分布与该卷相同, 共 2 道题目, 满分 100 分
-</p>
-
-</center>
-
----
+> **时间：** 2025.11.6 13:25 - 2025.11.6 17:30  
+> **题量：** 2 题 · 100 分
 
 1. A study was conducted to investigate the effect of a new medication on systolic blood pressure. Blood pressure was measured for 8 patients before and after taking the medication:
 
@@ -34,8 +16,7 @@ title: 医学科学素养Ⅱ 小测4（补考） 2025-2026学年
 
     Please determine if the medication has a significant effect on **changing** blood pressure at alpha = 0.01.
 
-    <br><br>
- 
+
     ---
 
 
@@ -55,4 +36,3 @@ title: 医学科学素养Ⅱ 小测4（补考） 2025-2026学年
     |---------------|--------------|------------|
     | Smoker        |              |            |
     | Non-smoker    |              |            |
-

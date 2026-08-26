@@ -1,84 +1,52 @@
-<h1 id="2022-2023-i">2022-2023 学年冬学期遗传与发育Ⅰ期末回忆</h1>
+---
+title: 遗传与发育Ⅰ 2022-2023 学年冬学期期末回忆卷
+---
 
-<h2 id="_1">选择题</h2>
+# 2022-2023 学年冬学期遗传与发育Ⅰ期末回忆卷
 
-<p>关于 DNA 甲基化。</p>
+!!! info "回忆卷说明"
 
-<p>四个选项分别为 DNMT1、DNMT3a、DNMT3b、DNMT3L。</p>
+    本页依据考后回忆整理，不提供参考答案。原记录只保留了部分题目，未注明完整题量和分值。
 
-<h2 id="_2">名词解释</h2>
+---
 
-<ol>
-<li>NGS</li>
-<li>core histone</li>
-<li>miRNA</li>
-<li>原肠运动</li>
-<li>Carrier（Aa）</li>
-<li>proband</li>
-<li>选择系数 s</li>
-<li>遗传漂变</li>
-</ol>
+## 一、单项选择题 {: .exam-section .exam-section--choice }
 
-<h2 id="_3">简答题</h2>
+1. 关于 DNA 甲基化。
 
-<ol>
-<li>写出几个模式生物的优缺点。</li>
-<li>由 gene 到 protein 的 biological steps。</li>
-<li>DNA、RNA 产物产生（转录）的信息。</li>
-</ol>
+    **A.** DNMT1  
+    **B.** DNMT3a  
+    **C.** DNMT3b  
+    **D.** DNMT3L
 
-<p>Consanguinity of parents<br>
-Dysfunctional enzymes<br>
-R or D inheritance pattern</p>
+## 二、名词解释 {: .exam-section .exam-section--short }
 
+1. NGS
 
+2. Core histone
 
+3. miRNA
 
+4. 原肠运动
 
+5. Carrier（Aa）
 
+6. Proband
 
+7. 选择系数 $s$
 
+8. 遗传漂变
 
+## 三、简答题 {: .exam-section .exam-section--short }
 
+1. 写出几个模式生物的优缺点。
 
+2. 由 gene 到 protein 的 biological steps。
 
-  
-<h2 id="__comments">评论</h2>
-  
-<script src="https://giscus.app/client.js" data-repo="BMS-ZJU/BMS_Database" data-repo-id="R_kgDOOe-BqA" data-category="General" data-category-id="DIC_kwDOOe-BqM4CpsoM" data-mapping="pathname" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async>
-  </script>
-  
-<script>
-    var giscus = document.querySelector("script[src*=giscus]")
+3. DNA、RNA 产物产生（转录）的信息。
 
-    // Set palette on initial load
-    var palette = __md_get("__palette")
-    if (palette && typeof palette.color === "object") {
-      var theme = palette.color.scheme === "slate"
-        ? "transparent_dark"
-        : "light"
+*原回忆在简答题后另有以下三行文字，但未说明对应题号或具体关系，内容归属无法确认：*
 
-      // Instruct Giscus to set theme
-      giscus.setAttribute("data-theme", theme) 
-    }
-
-    // Register event handlers after documented loaded
-    document.addEventListener("DOMContentLoaded", function() {
-      var ref = document.querySelector("[data-md-component=palette]")
-      ref.addEventListener("change", function() {
-        var palette = __md_get("__palette")
-        if (palette && typeof palette.color === "object") {
-          var theme = palette.color.scheme === "slate"
-            ? "transparent_dark"
-            : "light"
-
-          // Instruct Giscus to change theme
-          var frame = document.querySelector(".giscus-frame")
-          frame.contentWindow.postMessage(
-            { giscus: { setConfig: { theme } } },
-            "https://giscus.app"
-          )
-        }
-      })
-    })
-  </script>
+- Consanguinity of parents
+- Dysfunctional enzymes
+- R or D inheritance pattern

@@ -1,7 +1,17 @@
+---
+comments: false
+hide:
+  - toc
+---
+
 # 物理化学考试资料
 
-## 2024-2025 学年秋冬学期
+<div class="grid cards course-resource-grid" markdown>
 
-- [期中回忆卷（站内预览）](2024-2025-midterm-recall.md)
+-   **2024-2025 学年秋冬学期 · 期中回忆卷**
 
-回忆卷可能存在记录不完整或表述存疑之处，复习时应以当年课程课件、教材和考试通知为准。
+    ---
+
+    [查看资料](2024-2025-midterm-recall.md)
+
+</div>

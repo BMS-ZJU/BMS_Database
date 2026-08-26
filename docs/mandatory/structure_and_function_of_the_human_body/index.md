@@ -101,7 +101,7 @@
         </thead>
         <tbody>
             <tr>
-                <td>2024-2025 学年期末回忆卷</td>
+                <td>2024-2025 学年春夏学期期末回忆卷</td>
                 <td>历年卷</td>
                 <td><a href="https://www.cc98.org/topic/6221622">CC98</a></td>
                 <td><a href="exams/2024-2025-final-exam-recall/">查看</a></td>
@@ -110,7 +110,7 @@
                 <td>2022-2023 学年期末回忆卷</td>
                 <td>历年卷</td>
                 <td><a href="https://www.cc98.org/topic/5644560">CC98</a></td>
-                <td>无</td>
+                <td><a href="exams/2022-2023-final-exam-recall/">查看</a></td>
             </tr>
             <tr>
                 <td>2024-2025 学年解剖学小测</td>
