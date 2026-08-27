@@ -3,13 +3,14 @@
 # 用途：后续维护任务收到中文课程名时，先用本文件定位正式课程目录。
 # chinese_name / english_name 来自浙江大学教务网“课程信息查看”；
 # course_code 由本地 2020—2026 级基础医学培养方案核对，用于排除同名课程。
-# path 是 E:\BMS_Database\docs 下的现有相对目录，不随英文名自动改名。
+# path 是 E:\BMS_Database\docs 下的现有相对目录，不随英文名自动改名；
+# 尚未建立课程页面的课程统一放在 curriculum_only_courses，path 为 null。
 #
-# 核对日期：2026-08-26
+# 核对日期：2026-08-27
 # 教务网字段只做了首尾空白清理，不对官方英文名自行润色。
 
 version: 1
-verified_on: 2026-08-26
+verified_on: 2026-08-27
 sources:
   curriculum: E:\Codex\BMS_Database\tasks\2026-08-26-navigation-classification-audit\extracted
   english_names: 浙江大学教务网 > 培养方案 > 课程信息查看
@@ -254,3 +255,584 @@ courses:
     english_name: Social Medicine(B)
     aliases:
       - 社会医学(乙)
+
+# 以下课程来自 2020—2026 级基础医学培养方案，但目前没有独立课程页面。
+# 教务网暂时查不到的课程也保留映射，并标注截至查询日期尚无开课记录；这不表示未来不会开课。
+curriculum_only_courses:
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: LAW1002F
+    legacy_course_code: "021A0011"
+    curriculum_course_codes: ["021A0010"]
+    chinese_name: 法理学
+    english_name: Jurisprudence
+    notes: 旧培养方案代码与教务网对应旧代码末位不同，按同名课程记录，代码关系待核。
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MGMT1001F
+    legacy_course_code: "201A0020"
+    chinese_name: 管理学
+    english_name: Fundamentals of Management
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED1312M
+    legacy_course_code: "18198020"
+    chinese_name: 科学写作与表达
+    english_name: Academic Writing And Presentation
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: EDU2008M
+    legacy_course_code: "03120281"
+    chinese_name: 教育心理学
+    english_name: Educational Psychology
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED3042M
+    legacy_course_code: "72120460"
+    chinese_name: 干细胞与再生医学
+    english_name: Stem Cell And Regenerative Medicine
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED4065M
+    legacy_course_code: "72120600"
+    chinese_name: 基因、环路与行为
+    english_name: Gene, Circuit, and Behavior
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED5070M
+    legacy_course_code: "72120610"
+    chinese_name: 神经系统疾病的分子基础
+    english_name: The Molecular Basis Of Neurologic Diseases
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED4405M
+    legacy_course_code: "18120542"
+    chinese_name: 卫生毒理学
+    english_name: Health Toxicology
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED2422M
+    legacy_course_code: "18122030"
+    chinese_name: 全球环境改变与人类健康
+    english_name: Global Environmental Changes And Human Health
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED5075M
+    legacy_course_code: "72120540"
+    chinese_name: 神经建模与数据分析
+    english_name: Neural Modeling And Data Analysis
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED5073M
+    legacy_course_code: "72120560"
+    chinese_name: 生物医学工程学概论
+    english_name: Introduction To Biomedical Engineering
+  - curriculum_roles: [professional_direction, professional_elective]
+    path: null
+    course_code: MED4067M
+    legacy_course_code: "72120570"
+    chinese_name: 重要传染病的防治基础
+    english_name: The Basis For The Control And Prevention Of Important Infectious Diseases
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: BME3016M
+    legacy_course_code: "15192460"
+    chinese_name: 医学人工智能
+    english_name: Artificial Intelligence In Medicine
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED5074M
+    legacy_course_code: "72120520"
+    chinese_name: 衰老生物学导论
+    english_name: Introduction To Aging
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED4401M
+    legacy_course_code: "73120090"
+    chinese_name: 环境卫生学
+    english_name: Environmental Health Science
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED4404M
+    legacy_course_code: "73120100"
+    chinese_name: 营养与食品卫生学
+    english_name: Nutriology And Food Hygiene
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: CS0400G
+    legacy_course_code: "2114N001"
+    chinese_name: 人工智能初步
+    english_name: Introduction to Artificial Intelligence
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED1085M
+    legacy_course_code: ""
+    curriculum_course_codes: [MED1004M, "18198090"]
+    chinese_name: 演化医学理论及应用
+    english_name: Principle and application of evolutionary medicine
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MATH2432F
+    legacy_course_code: "061B9090"
+    chinese_name: 概率论与数理统计
+    english_name: Probability and Mathematical Statistics
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED2588M
+    legacy_course_code: ""
+    chinese_name: 医工信交叉前沿进展
+    english_name: Advances at the intersection of medicine, engineering and information technology
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED2424M
+    legacy_course_code: "18120700"
+    chinese_name: 医学统计学
+    english_name: Clinical Medicine Statistics
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED2425M
+    legacy_course_code: "18198460"
+    chinese_name: 预防医学
+    english_name: Preventive Medicine
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: CHEM1002F
+    legacy_course_code: "771B0030"
+    chinese_name: 分析化学（乙）
+    english_name: Analytical Chemistry (Ⅱ)
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MATH1233G
+    legacy_course_code: "821T0200"
+    chinese_name: 线性代数（乙）
+    english_name: Linear Algebra (B)
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: MED2087M
+    legacy_course_code: ""
+    chinese_name: 演化发育生物学与医学
+    english_name: Evolutionary Developmentary Biology and Medicine
+  - curriculum_roles: [cross_disciplinary]
+    path: null
+    course_code: MED2084M
+    legacy_course_code: ""
+    chinese_name: 医工交叉融合中的人工智能
+    english_name: Artificial Intelligence in Medical-Engineering Interdisciplinary Integration
+  - curriculum_roles: [professional_elective, cross_disciplinary]
+    path: null
+    course_code: MED2086M
+    legacy_course_code: ""
+    chinese_name: 医工交叉融合中的人工智能（进阶）
+    english_name: Artificial Intelligence in Medical-Engineering Interdisciplinary Integration (Advanced Level)
+  - curriculum_roles: [professional_elective, cross_disciplinary]
+    path: null
+    course_code: MED2088M
+    legacy_course_code: ""
+    chinese_name: 医工交叉融合中的人工智能（高阶）
+    english_name: Artificial Intelligence in Medical-Engineering Interdisciplinary Integration (High Level)
+
+  - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: MED0665G
+    legacy_course_code: "1816N007"
+    chinese_name: 公共卫生导论
+    english_name: An Introduction on Public Health
+  - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: MED0672G
+    legacy_course_code: "7316N003"
+    chinese_name: 生活中的统计学
+    english_name: Statistics in daily life
+  - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: MED0664G
+    legacy_course_code: "1816N006"
+    chinese_name: 健康与免疫
+    english_name: Immunity and health
+  - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: MED0668G
+    legacy_course_code: "1816N012"
+    chinese_name: 实用营养与保健
+    english_name: Applied nutrition and health care
+  - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: MED0662G
+    legacy_course_code: "1816N003"
+    chinese_name: 营养与健康之艺术
+    english_name: The art of nutrition and health
+  - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: MED2408M
+    legacy_course_code: "18197130"
+    chinese_name: 医学心理学
+    english_name: Medical Psychology
+  - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: MED0462G
+    legacy_course_code: "7314N001"
+    chinese_name: 数智驱动的健康科学
+    english_name: Health Science in the Era of Digital Intelligence
+  - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: MED4413M
+    legacy_course_code: "18198060"
+    chinese_name: 公共卫生基本技能
+    english_name: Basic Skills Of Public Health
+  - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: MED4407M
+    legacy_course_code: "73120111"
+    chinese_name: 儿少卫生学
+    english_name: Child And Adolescent Health
+  - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: MED4409M
+    legacy_course_code: "18120561"
+    chinese_name: 卫生监督
+    english_name: Health Supervision
+  - curriculum_roles: [transition_direction_undergraduate, pharmacy]
+    path: null
+    course_code: PHAR3002M
+    legacy_course_code: "19120631"
+    chinese_name: 药理学
+    english_name: Pharmacology
+  - curriculum_roles: [transition_direction_undergraduate, pharmacy]
+    path: null
+    course_code: PHAR3008M
+    legacy_course_code: "19120171"
+    chinese_name: 药物化学
+    english_name: Medicinal Chemistry
+  - curriculum_roles: [transition_direction_undergraduate, pharmacy]
+    path: null
+    course_code: PHAR3005M
+    legacy_course_code: "19120474"
+    chinese_name: 药物分析学
+    english_name: Pharmaceutical Analysis
+  - curriculum_roles: [transition_direction_undergraduate, pharmacy]
+    path: null
+    course_code: PHAR3013M
+    legacy_course_code: "19120101"
+    chinese_name: 药剂学
+    english_name: Pharmaceutics
+  - curriculum_roles: [transition_direction_undergraduate, pharmacy]
+    path: null
+    course_code: PHAR4003M
+    legacy_course_code: "19120140"
+    chinese_name: 药事管理
+    english_name: Pharmacy Administration
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: "03120261"
+    chinese_name: 教育统计与测量
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: "18120590"
+    chinese_name: 卫生学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [professional_elective]
+    path: null
+    course_code: "72190030"
+    chinese_name: 专业英语阅读与写作
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811128"
+    chinese_name: 神经系统疾病的分子基础
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1812060"
+    chinese_name: 高级病理生理学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811127"
+    chinese_name: 系统神经科学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811129"
+    chinese_name: 神经建模与数据分析
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1814071"
+    chinese_name: 干细胞再生医学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811126"
+    chinese_name: 衰老生物学导论
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811008"
+    chinese_name: 药理学专题
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811125"
+    chinese_name: 生物医学工程学概论
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "0500010"
+    chinese_name: 研究生学术英语能力提升
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811106"
+    chinese_name: 研究生科研技能训练Ⅳ（科研规范与动物伦理）
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811107"
+    chinese_name: 研究生科研技能训练Ⅴ（大型仪器原理与操作）
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811108"
+    chinese_name: 研究生学术素养
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1812074"
+    chinese_name: 分子医学Ⅱ
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811103"
+    chinese_name: 研究生科研技能训练Ⅰ（科研文献阅读与科研论文写作）
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811104"
+    chinese_name: 研究生科研技能训练Ⅱ（科学交流与科研项目申报）
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1811105"
+    chinese_name: 研究生科研技能训练Ⅲ（组学与大数据分析）
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, basic_medicine]
+    path: null
+    course_code: "1814087"
+    chinese_name: 人工智能与机器学习
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: "1812066"
+    chinese_name: 高级医学统计学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: "1822016"
+    chinese_name: 临床科研设计与循证医学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: "1811114"
+    chinese_name: 大数据健康科学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: "1811058"
+    chinese_name: 卫生经济学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: "1812076"
+    chinese_name: 领导力与医学伦理
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: "1821027"
+    chinese_name: 高级毒理学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: "1821030"
+    chinese_name: 社会医学和卫生事业管理学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: "1821034"
+    chinese_name: 高级营养与食品卫生学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: "1811057"
+    chinese_name: 高级流行病学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, public_health_and_preventive_medicine]
+    path: null
+    course_code: "1823002"
+    chinese_name: 医院管理学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1912005"
+    chinese_name: 高等药物化学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1912032"
+    chinese_name: 现代中药学概论及实验技术
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1912044"
+    chinese_name: 现代药理学实验技术
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1912051"
+    chinese_name: 高等分子生物学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1912052"
+    chinese_name: 高等药物分析学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1913047"
+    chinese_name: 药物代谢学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1913080"
+    chinese_name: 药物递送器件：创新与转化
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1912003"
+    chinese_name: 新药发现理论与实践
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1912054"
+    chinese_name: 药物科学前沿
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1913074"
+    chinese_name: 先进制药技术
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1923066"
+    chinese_name: 药物基因组学与生物信息学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1913011"
+    chinese_name: 分子生物药剂学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1913039"
+    chinese_name: 现代药理学进展
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1913056"
+    chinese_name: 现代有机合成化学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+  - curriculum_roles: [transition_direction_graduate, pharmacy]
+    path: null
+    course_code: "1913049"
+    chinese_name: 药物信息学
+    english_name: null
+    offering_status: not_offered_as_of_2026-08-27
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名

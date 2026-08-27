@@ -324,3 +324,287 @@
   }
 }
 
+/* 中立课程资料库：课程归属由培养方案决定，此处只呈现已有资料 */
+.md-typeset .course-catalog-toolbar {
+  margin: 1.35rem 0 0.8rem;
+  padding: 0.85rem 1rem;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.45rem;
+  background-color: var(--md-code-bg-color);
+}
+
+.md-typeset .course-catalog-toolbar > label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+  font-weight: 650;
+}
+
+.md-typeset .course-catalog-search-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.md-typeset .course-catalog-search-row input {
+  width: 100%;
+  min-width: 0;
+  padding: 0.52rem 0.68rem;
+  border: 0.05rem solid var(--md-default-fg-color--lighter);
+  border-radius: 0.35rem;
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: 0.78rem;
+  outline: none;
+}
+
+.md-typeset .course-catalog-search-row input:focus {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 0.12rem var(--md-accent-fg-color--transparent);
+}
+
+.md-typeset .course-catalog-count {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+.md-typeset .course-catalog-group {
+  margin: 1.45rem 0 1.8rem;
+}
+
+.md-typeset .course-catalog-group[hidden] {
+  display: none;
+}
+
+.md-typeset .course-catalog-group > h2 {
+  margin-bottom: 0.65rem;
+}
+
+.md-typeset .course-catalog-group-note {
+  margin: -0.15rem 0 0.7rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.68rem;
+}
+
+.md-typeset .course-catalog {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.md-typeset .course-catalog-item {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.72rem 0.82rem;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-left: 0.16rem solid var(--md-primary-fg-color);
+  border-radius: 0.38rem;
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  box-shadow: 0 0.06rem 0.28rem rgb(0 0 0 / 4%);
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.md-typeset .course-catalog-item[hidden] {
+  display: none;
+}
+
+.md-typeset a.course-catalog-item:hover,
+.md-typeset a.course-catalog-item:focus-visible {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0.15rem 0.45rem rgb(0 0 0 / 9%);
+}
+
+.md-typeset .course-catalog-item--unavailable {
+  border-left-color: var(--md-default-fg-color--lighter);
+  background-color: var(--md-code-bg-color);
+  box-shadow: none;
+}
+
+.md-typeset .course-catalog-name {
+  overflow-wrap: anywhere;
+  font-size: 0.82rem;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.md-typeset .course-catalog-status {
+  display: inline-block;
+  margin-left: 0.38rem;
+  padding: 0.05rem 0.26rem;
+  border-radius: 0.22rem;
+  background-color: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  font-size: 0.48rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  vertical-align: 0.08rem;
+  white-space: nowrap;
+}
+
+.md-typeset .course-catalog-meta {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.65rem;
+  line-height: 1.45;
+}
+
+.md-typeset .course-catalog-empty {
+  margin: 1.2rem 0;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background-color: var(--md-code-bg-color);
+  color: var(--md-default-fg-color--light);
+  text-align: center;
+}
+
+/* 培养方案：保留两层选择，减少提示框和重复卡片的视觉重量 */
+.md-typeset .curriculum-lead {
+  margin-bottom: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.78rem;
+  line-height: 1.7;
+}
+
+.md-typeset .curriculum-context {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  margin: 0.75rem 0 1.25rem;
+  border-block: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .curriculum-context p {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0.62rem 0.7rem;
+  font-size: 0.65rem;
+  line-height: 1.55;
+}
+
+.md-typeset .curriculum-context p + p {
+  border-left: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .curriculum-context strong {
+  color: var(--md-primary-fg-color);
+  white-space: nowrap;
+}
+
+.md-typeset .curriculum-context span {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .curriculum-plan-summary {
+  margin: 0.7rem 0 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  font-size: 0.7rem;
+  line-height: 1.65;
+}
+
+.md-typeset .curriculum-plan-marker {
+  display: none;
+}
+
+.md-typeset .curriculum-section-note {
+  margin: -0.35rem 0 1.1rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.64rem;
+  line-height: 1.6;
+}
+
+.md-typeset .curriculum-course-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 0.9rem;
+  margin: 0.55rem 0 1.1rem;
+  border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .curriculum-course-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+  gap: 0.1rem;
+  padding: 0.48rem 0.18rem;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+}
+
+.md-typeset .curriculum-course-item--available:hover,
+.md-typeset .curriculum-course-item--available:focus-visible {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-typeset .curriculum-course-item span {
+  overflow-wrap: anywhere;
+  font-size: 0.72rem;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.md-typeset .curriculum-course-item--available > span {
+  color: var(--md-typeset-a-color);
+}
+
+.md-typeset .curriculum-course-status {
+  display: inline-block;
+  margin-left: 0.38rem;
+  padding: 0.05rem 0.26rem;
+  border-radius: 0.22rem;
+  background-color: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  font-size: 0.48rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  vertical-align: 0.08rem;
+  white-space: nowrap;
+}
+
+.md-typeset .curriculum-course-item small {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.58rem;
+  line-height: 1.45;
+  text-align: left;
+  white-space: normal;
+}
+
+@media screen and (max-width: 59.984375em) {
+  .md-typeset .curriculum-context,
+  .md-typeset .curriculum-course-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .md-typeset .curriculum-context p + p {
+    border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+    border-left: 0;
+  }
+}
+
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .course-catalog-search-row,
+  .md-typeset .course-catalog {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .md-typeset .course-catalog-count {
+    justify-self: start;
+  }
+
+  .md-typeset .curriculum-course-status {
+    vertical-align: 0.06rem;
+  }
+}
+
