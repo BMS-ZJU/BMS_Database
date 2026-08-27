@@ -12,6 +12,9 @@
 
     const items = Array.from(catalog.querySelectorAll("[data-course-search]"));
     const groups = Array.from(catalog.querySelectorAll("[data-course-group]"));
+    const unavailableGroups = Array.from(
+      catalog.querySelectorAll("[data-course-unavailable-group]")
+    );
     const count = document.querySelector("[data-course-count]");
     const empty = document.querySelector("[data-course-empty]");
 
@@ -29,6 +32,21 @@
         group.hidden = !Array.from(group.querySelectorAll("[data-course-search]")).some(
           (item) => !item.hidden
         );
+      });
+
+      unavailableGroups.forEach((details) => {
+        const hasMatch = Array.from(details.querySelectorAll("[data-course-search]")).some(
+          (item) => !item.hidden
+        );
+        details.hidden = query ? !hasMatch : false;
+
+        if (query && hasMatch && !details.open) {
+          details.dataset.courseSearchOpened = "true";
+          details.open = true;
+        } else if (!query && details.dataset.courseSearchOpened === "true") {
+          details.open = false;
+          delete details.dataset.courseSearchOpened;
+        }
       });
 
       if (count) {
@@ -105,9 +123,35 @@
     updateCurriculumToc();
   };
 
+  const stripCreditFromToc = () => {
+    // 右侧目录由标题生成，会把标题里 <span> 的学分文本一并纳入；
+    // 这里去掉每条目录末尾的学分，让目录只保留课程/章节名。
+    const creditPattern =
+      /\s*(?:选择其中一个模块修读[，,]?)?(?:至少修读|推荐修读|修读|共)\s*[\d.]+\s*学分\s*$/;
+    document
+      .querySelectorAll(".md-sidebar--secondary .md-nav--secondary .md-nav__link")
+      .forEach((link) => {
+        const ellipsis = link.querySelector(".md-ellipsis");
+        if (!ellipsis) return;
+        const cleaned = ellipsis.textContent.replace(creditPattern, "");
+        if (cleaned !== ellipsis.textContent) {
+          ellipsis.textContent = cleaned;
+        }
+      });
+    document
+      .querySelectorAll(".md-sidebar--secondary .md-nav--secondary nav.md-nav")
+      .forEach((nav) => {
+        const label = nav.getAttribute("aria-label");
+        if (label) {
+          nav.setAttribute("aria-label", label.replace(creditPattern, ""));
+        }
+      });
+  };
+
   const initialize = () => {
     initCourseCatalog();
     initCurriculumToc();
+    stripCreditFromToc();
   };
 
   if (typeof document$ !== "undefined") {
