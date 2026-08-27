@@ -5,13 +5,16 @@ comments: false
 
 # 课程资料
 
-左侧导航保留已有课程页面；正文按 2026 级建议修读学年整理，只在往届方案中出现的课程归入“历年课程”。已有本站页面的课程可点击进入，没有页面的课程保留课程号并标为“暂无资料”。课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请到[培养方案](../curricula/index.md)中查看。
+课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请到[培养方案](../curricula/index.md)中查看。因此，本页按 2026 级建议修读学年整理，不再给课程贴固定分类；只在往届方案中出现的课程归入“历年课程”。已有本站页面的课程可点击进入，没有页面的课程保留课程号并标为“暂无资料”。
 
 <div class="course-catalog-toolbar">
   <label for="course-catalog-search">查找课程</label>
   <div class="course-catalog-search-row">
     <input id="course-catalog-search" type="search" placeholder="输入课程名、课程号或英文名" autocomplete="off" data-course-search-input>
-    <span class="course-catalog-count" data-course-count>137 门课程</span>
+    <span class="course-catalog-counts">
+      <span class="course-catalog-count" data-course-count>139 门课程</span>
+      <small>39 门有资料 · 100 门暂无资料</small>
+    </span>
   </div>
 </div>
 
@@ -23,11 +26,7 @@ comments: false
 
 ## 大一
 
-<div class="course-catalog">
-  <a class="course-catalog-item" data-course-search="物理化学 CHEM2001F Physical Chemistry 考试" href="../elective/physical_chemistry/">
-    <span class="course-catalog-name">物理化学</span>
-    <span class="course-catalog-meta">CHEM2001F · 考试</span>
-  </a>
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 3">
   <a class="course-catalog-item" data-course-search="医学生命基础 MED1001M Medical Life Fundamentals 考试" href="../mandatory/medical_life_fundamentals/">
     <span class="course-catalog-name">医学生命基础</span>
     <span class="course-catalog-meta">MED1001M · 考试</span>
@@ -36,18 +35,31 @@ comments: false
     <span class="course-catalog-name">医学科学素养Ⅰ</span>
     <span class="course-catalog-meta">MED1003M · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学科学英语基础 MED1005M Essential English For Medical Sciences" href="../mandatory/essential_english_for_medical_sciences/">
-    <span class="course-catalog-name">医学科学英语基础</span>
-    <span class="course-catalog-meta">MED1005M · 课程主页</span>
+  <a class="course-catalog-item" data-course-search="医学科学素养Ⅱ 医学科学素养II MED3045M Medical Science Literacy 考试 小测 练习" href="../mandatory/medical_science_literacy_2/">
+    <span class="course-catalog-name">医学科学素养Ⅱ</span>
+    <span class="course-catalog-meta">MED3045M · 考试 · 小测</span>
   </a>
   <a class="course-catalog-item" data-course-search="基础医学科学研究技能Ⅰ 基础医学科学研究技能I MED1028M Basic Techniques In Medical Sciences 考试" href="../mandatory/basic_techniques_in_medical_sciences_1/">
     <span class="course-catalog-name">基础医学科学研究技能Ⅰ</span>
     <span class="course-catalog-meta">MED1028M · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学科学素养Ⅱ 医学科学素养II MED3045M Medical Science Literacy 考试 小测 练习" href="../mandatory/medical_science_literacy_2/">
-    <span class="course-catalog-name">医学科学素养Ⅱ</span>
-    <span class="course-catalog-meta">MED3045M · 考试 · 小测</span>
+  <a class="course-catalog-item" data-course-search="医学科学英语基础 MED1005M Essential English For Medical Sciences" href="../mandatory/essential_english_for_medical_sciences/">
+    <span class="course-catalog-name">医学科学英语基础</span>
+    <span class="course-catalog-meta">MED1005M · 课程主页</span>
   </a>
+  <a class="course-catalog-item" data-course-search="物理化学 CHEM2001F Physical Chemistry 考试" href="../elective/physical_chemistry/">
+    <span class="course-catalog-name">物理化学</span>
+    <span class="course-catalog-meta">CHEM2001F · 考试</span>
+  </a>
+</div>
+
+<details class="course-catalog-unavailable" data-course-unavailable-group>
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>3 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 2">
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医工交叉融合中的人工智能 MED2084M Artificial Intelligence in Medical-Engineering Interdisciplinary Integration MED2084M">
+    <span class="course-catalog-name">医工交叉融合中的人工智能<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED2084M</span>
+  </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="线性代数（乙） MATH1233G Linear Algebra (B) MATH1233G">
     <span class="course-catalog-name">线性代数（乙）<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MATH1233G</span>
@@ -56,11 +68,8 @@ comments: false
     <span class="course-catalog-name">演化医学理论及应用<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MED1085M</span>
   </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医工交叉融合中的人工智能 MED2084M Artificial Intelligence in Medical-Engineering Interdisciplinary Integration MED2084M">
-    <span class="course-catalog-name">医工交叉融合中的人工智能<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">MED2084M</span>
   </div>
-</div>
+</details>
 
 </section>
 
@@ -68,26 +77,18 @@ comments: false
 
 ## 大二
 
-<div class="course-catalog">
-  <a class="course-catalog-item" data-course-search="教育统计学 EDU2007M Educational Statistics" href="../elective/educational_statistics/">
-    <span class="course-catalog-name">教育统计学</span>
-    <span class="course-catalog-meta">EDU2007M · 课程主页</span>
-  </a>
-  <a class="course-catalog-item" data-course-search="医学大数据与应用 MED2010M Medical Big Data And Application 考试" href="../mandatory/medical_big_data_and_application/">
-    <span class="course-catalog-name">医学大数据与应用</span>
-    <span class="course-catalog-meta">MED2010M · 考试</span>
-  </a>
-  <a class="course-catalog-item" data-course-search="基础医学科学研究技能Ⅱ 基础医学科学研究技能II MED2011M Basic Techniques In Medical Sciences" href="../mandatory/basic_techniques_in_medical_sciences_2/">
-    <span class="course-catalog-name">基础医学科学研究技能Ⅱ</span>
-    <span class="course-catalog-meta">MED2011M · 课程主页</span>
-  </a>
-  <a class="course-catalog-item" data-course-search="临床肿瘤学概论 MED2012M Introduction To Clinical Oncology" href="../elective/introduction_to_clinical_oncology/">
-    <span class="course-catalog-name">临床肿瘤学概论</span>
-    <span class="course-catalog-meta">MED2012M · 课程主页</span>
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 7">
+  <a class="course-catalog-item" data-course-search="细胞与生物分子Ⅰ 细胞与生物分子I MED2039M Molecular Cell Biology Cell Biology 考试" href="../mandatory/molecular_cell_biology_1/">
+    <span class="course-catalog-name">细胞与生物分子Ⅰ</span>
+    <span class="course-catalog-meta">MED2039M · 考试</span>
   </a>
   <a class="course-catalog-item" data-course-search="细胞与生物分子Ⅱ 细胞与生物分子II MED2019M Molecular Cell Biology Biochemistry 考试 小测" href="../mandatory/molecular_cell_biology_2/">
     <span class="course-catalog-name">细胞与生物分子Ⅱ</span>
     <span class="course-catalog-meta">MED2019M · 考试 · 小测</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="实验动物与伦理学 MED2302M Experimental Animals And Ethics 考试" href="../mandatory/experimental_animals_and_ethics/">
+    <span class="course-catalog-name">实验动物与伦理学</span>
+    <span class="course-catalog-meta">MED2302M · 考试</span>
   </a>
   <a class="course-catalog-item" data-course-search="遗传与发育Ⅰ 遗传与发育I MED2020M Genetics Developmental Biology 考试" href="../mandatory/genetics_and_developmental_biology_1/">
     <span class="course-catalog-name">遗传与发育Ⅰ</span>
@@ -97,30 +98,43 @@ comments: false
     <span class="course-catalog-name">遗传与发育Ⅱ</span>
     <span class="course-catalog-meta">MED2030M · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学生物物理学 MED2031M Medical Biophysics 考试 笔记" href="../mandatory/medical_biophysics/">
-    <span class="course-catalog-name">医学生物物理学</span>
-    <span class="course-catalog-meta">MED2031M · 考试 · 笔记</span>
-  </a>
   <a class="course-catalog-item" data-course-search="人体结构与功能学 MED2035M Structure And Function Of The Human Body 考试" href="../mandatory/structure_and_function_of_the_human_body/">
     <span class="course-catalog-name">人体结构与功能学</span>
     <span class="course-catalog-meta">MED2035M · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="细胞与生物分子Ⅰ 细胞与生物分子I MED2039M Molecular Cell Biology Cell Biology 考试" href="../mandatory/molecular_cell_biology_1/">
-    <span class="course-catalog-name">细胞与生物分子Ⅰ</span>
-    <span class="course-catalog-meta">MED2039M · 考试</span>
+  <a class="course-catalog-item" data-course-search="医学生物物理学 MED2031M Medical Biophysics 考试 笔记" href="../mandatory/medical_biophysics/">
+    <span class="course-catalog-name">医学生物物理学</span>
+    <span class="course-catalog-meta">MED2031M · 考试 · 笔记</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="医学大数据与应用 MED2010M Medical Big Data And Application 考试" href="../mandatory/medical_big_data_and_application/">
+    <span class="course-catalog-name">医学大数据与应用</span>
+    <span class="course-catalog-meta">MED2010M · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="基础医学科学研究技能Ⅱ 基础医学科学研究技能II MED2011M Basic Techniques In Medical Sciences" href="../mandatory/basic_techniques_in_medical_sciences_2/">
+    <span class="course-catalog-name">基础医学科学研究技能Ⅱ</span>
+    <span class="course-catalog-meta">MED2011M · 课程主页</span>
   </a>
   <a class="course-catalog-item" data-course-search="肿瘤生物学 MED2040M Cancer Biology 考试" href="../elective/cancer_biology/">
     <span class="course-catalog-name">肿瘤生物学</span>
     <span class="course-catalog-meta">MED2040M · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="实验动物与伦理学 MED2302M Experimental Animals And Ethics 考试" href="../mandatory/experimental_animals_and_ethics/">
-    <span class="course-catalog-name">实验动物与伦理学</span>
-    <span class="course-catalog-meta">MED2302M · 考试</span>
+  <a class="course-catalog-item" data-course-search="临床肿瘤学概论 MED2012M Introduction To Clinical Oncology" href="../elective/introduction_to_clinical_oncology/">
+    <span class="course-catalog-name">临床肿瘤学概论</span>
+    <span class="course-catalog-meta">MED2012M · 课程主页</span>
   </a>
   <a class="course-catalog-item" data-course-search="组学与精准医学前沿导论 MED2587M Introduction to Multi-Omics and Precision Medicine" href="../elective/introduction_to_multi_omics_and_precision_medicine/">
     <span class="course-catalog-name">组学与精准医学前沿导论</span>
     <span class="course-catalog-meta">MED2587M · 课程主页</span>
   </a>
+  <a class="course-catalog-item" data-course-search="教育统计学 EDU2007M Educational Statistics" href="../elective/educational_statistics/">
+    <span class="course-catalog-name">教育统计学</span>
+    <span class="course-catalog-meta">EDU2007M · 课程主页</span>
+  </a>
+</div>
+
+<details class="course-catalog-unavailable" data-course-unavailable-group>
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>9 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 5">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="分析化学（乙） CHEM1002F Analytical Chemistry (Ⅱ) CHEM1002F">
     <span class="course-catalog-name">分析化学（乙）<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">CHEM1002F</span>
@@ -157,7 +171,8 @@ comments: false
     <span class="course-catalog-name">医工信交叉前沿进展<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MED2588M</span>
   </div>
-</div>
+  </div>
+</details>
 
 </section>
 
@@ -165,10 +180,18 @@ comments: false
 
 ## 大三
 
-<div class="course-catalog">
-  <a class="course-catalog-item" data-course-search="法医学 MED2021M Forensic Medicine" href="../elective/forensic_medicine/">
-    <span class="course-catalog-name">法医学</span>
-    <span class="course-catalog-meta">MED2021M · 课程主页</span>
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 7">
+  <a class="course-catalog-item" data-course-search="感染与免疫学 MED3055M Infectious Diseases Immunity 考试 小测" href="../mandatory/infectious_diseases_and_immunity/">
+    <span class="course-catalog-name">感染与免疫学</span>
+    <span class="course-catalog-meta">MED3055M · 考试 · 小测</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="疾病基础 MED3047M The Basis For Human Diseases Pathology Pathophysiology 考试 小测" href="../mandatory/the_basis_for_human_diseases/">
+    <span class="course-catalog-name">疾病基础</span>
+    <span class="course-catalog-meta">MED3047M · 考试 · 小测</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="基础药理学 MED3056M Basic Pharmacology 考试 讨论课" href="../mandatory/basic_pharmacology/">
+    <span class="course-catalog-name">基础药理学</span>
+    <span class="course-catalog-meta">MED3056M · 考试 · 讨论课</span>
   </a>
   <a class="course-catalog-item" data-course-search="神经科学 MED2303M Neuroscience 考试 小测" href="../mandatory/neuroscience/">
     <span class="course-catalog-name">神经科学</span>
@@ -178,29 +201,13 @@ comments: false
     <span class="course-catalog-name">脑与脑机融合</span>
     <span class="course-catalog-meta">MED2304M · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学伦理学与卫生法学 MED2412M Medical Ethics Health Law" href="../elective/medical_ethics_and_health_law/">
-    <span class="course-catalog-name">医学伦理学与卫生法学</span>
-    <span class="course-catalog-meta">MED2412M · 课程主页</span>
-  </a>
-  <a class="course-catalog-item" data-course-search="疾病基础 MED3047M The Basis For Human Diseases Pathology Pathophysiology 考试 小测" href="../mandatory/the_basis_for_human_diseases/">
-    <span class="course-catalog-name">疾病基础</span>
-    <span class="course-catalog-meta">MED3047M · 考试 · 小测</span>
+  <a class="course-catalog-item" data-course-search="临床流行病学与循证医学 MED4423M Clinical Epidemiology Evidence-Based Medicine" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/">
+    <span class="course-catalog-name">临床流行病学与循证医学</span>
+    <span class="course-catalog-meta">MED4423M · 课程主页</span>
   </a>
   <a class="course-catalog-item" data-course-search="基础医学科研实践 MED3052M Medical Research Practice" href="../mandatory/medical_research_practice/">
     <span class="course-catalog-name">基础医学科研实践</span>
     <span class="course-catalog-meta">MED3052M · 课程主页</span>
-  </a>
-  <a class="course-catalog-item" data-course-search="感染与免疫学 MED3055M Infectious Diseases Immunity 考试 小测" href="../mandatory/infectious_diseases_and_immunity/">
-    <span class="course-catalog-name">感染与免疫学</span>
-    <span class="course-catalog-meta">MED3055M · 考试 · 小测</span>
-  </a>
-  <a class="course-catalog-item" data-course-search="基础药理学 MED3056M Basic Pharmacology 考试 讨论课" href="../mandatory/basic_pharmacology/">
-    <span class="course-catalog-name">基础药理学</span>
-    <span class="course-catalog-meta">MED3056M · 考试 · 讨论课</span>
-  </a>
-  <a class="course-catalog-item" data-course-search="新药研发 MED3057M New Drug Research Development" href="../elective/new_drug_research_and_development/">
-    <span class="course-catalog-name">新药研发</span>
-    <span class="course-catalog-meta">MED3057M · 课程主页</span>
   </a>
   <a class="course-catalog-item" data-course-search="基础医学教育见习 MED3061M Educational Probation of Basic Medicine 任务 考核" href="../mandatory/educational_probation_of_basic_medicine/">
     <span class="course-catalog-name">基础医学教育见习</span>
@@ -214,10 +221,23 @@ comments: false
     <span class="course-catalog-name">卫生事业管理</span>
     <span class="course-catalog-meta">MED4411M · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="临床流行病学与循证医学 MED4423M Clinical Epidemiology Evidence-Based Medicine" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/">
-    <span class="course-catalog-name">临床流行病学与循证医学</span>
-    <span class="course-catalog-meta">MED4423M · 课程主页</span>
+  <a class="course-catalog-item" data-course-search="医学伦理学与卫生法学 MED2412M Medical Ethics Health Law" href="../elective/medical_ethics_and_health_law/">
+    <span class="course-catalog-name">医学伦理学与卫生法学</span>
+    <span class="course-catalog-meta">MED2412M · 课程主页</span>
   </a>
+  <a class="course-catalog-item" data-course-search="法医学 MED2021M Forensic Medicine" href="../elective/forensic_medicine/">
+    <span class="course-catalog-name">法医学</span>
+    <span class="course-catalog-meta">MED2021M · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="新药研发 MED3057M New Drug Research Development" href="../elective/new_drug_research_and_development/">
+    <span class="course-catalog-name">新药研发</span>
+    <span class="course-catalog-meta">MED3057M · 课程主页</span>
+  </a>
+</div>
+
+<details class="course-catalog-unavailable" data-course-unavailable-group>
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>3 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 2">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="教育心理学 EDU2008M Educational Psychology 03120281 EDU2008M">
     <span class="course-catalog-name">教育心理学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">EDU2008M</span>
@@ -230,7 +250,8 @@ comments: false
     <span class="course-catalog-name">生活中的统计学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MED0672G</span>
   </div>
-</div>
+  </div>
+</details>
 
 </section>
 
@@ -238,31 +259,40 @@ comments: false
 
 ## 大四
 
-<div class="course-catalog">
-  <a class="course-catalog-item" data-course-search="社会医学乙 社会医学（乙） MED2426M Social Medicine B 考试" href="../elective/social_medicine_b/">
-    <span class="course-catalog-name">社会医学（乙）</span>
-    <span class="course-catalog-meta">MED2426M · 考试</span>
-  </a>
-  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅲ 重要疾病的临床与研究III MED4062M Human Diseases From Clinic To Research 考试" href="../mandatory/human_diseases_from_clinic_to_research_3/">
-    <span class="course-catalog-name">重要疾病的临床与研究Ⅲ</span>
-    <span class="course-catalog-meta">MED4062M · 考试</span>
-  </a>
-  <a class="course-catalog-item" data-course-search="临床免疫学 MED4063M Clinical Immunology 考试" href="../elective/clinical_immunology/">
-    <span class="course-catalog-name">临床免疫学</span>
-    <span class="course-catalog-meta">MED4063M · 考试</span>
-  </a>
-  <a class="course-catalog-item" data-course-search="临床实习 MED4066M Clinical Practice" href="../mandatory/clinical_practice/">
-    <span class="course-catalog-name">临床实习</span>
-    <span class="course-catalog-meta">MED4066M · 课程主页</span>
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 3">
+  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅰ 重要疾病的临床与研究I MED4069M Human Diseases From Clinic To Research 考试" href="../mandatory/human_diseases_from_clinic_to_research_1/">
+    <span class="course-catalog-name">重要疾病的临床与研究Ⅰ</span>
+    <span class="course-catalog-meta">MED4069M · 考试</span>
   </a>
   <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅱ 重要疾病的临床与研究II MED4068M Human Diseases From Clinic To Research 考试" href="../mandatory/human_diseases_from_clinic_to_research_2/">
     <span class="course-catalog-name">重要疾病的临床与研究Ⅱ</span>
     <span class="course-catalog-meta">MED4068M · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅰ 重要疾病的临床与研究I MED4069M Human Diseases From Clinic To Research 考试" href="../mandatory/human_diseases_from_clinic_to_research_1/">
-    <span class="course-catalog-name">重要疾病的临床与研究Ⅰ</span>
-    <span class="course-catalog-meta">MED4069M · 考试</span>
+  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅲ 重要疾病的临床与研究III MED4062M Human Diseases From Clinic To Research 考试" href="../mandatory/human_diseases_from_clinic_to_research_3/">
+    <span class="course-catalog-name">重要疾病的临床与研究Ⅲ</span>
+    <span class="course-catalog-meta">MED4062M · 考试</span>
   </a>
+  <a class="course-catalog-item" data-course-search="临床实习 MED4066M Clinical Practice" href="../mandatory/clinical_practice/">
+    <span class="course-catalog-name">临床实习</span>
+    <span class="course-catalog-meta">MED4066M · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="临床免疫学 MED4063M Clinical Immunology 考试" href="../elective/clinical_immunology/">
+    <span class="course-catalog-name">临床免疫学</span>
+    <span class="course-catalog-meta">MED4063M · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="社会医学乙 社会医学（乙） MED2426M Social Medicine B 考试" href="../elective/social_medicine_b/">
+    <span class="course-catalog-name">社会医学（乙）</span>
+    <span class="course-catalog-meta">MED2426M · 考试</span>
+  </a>
+</div>
+
+<details class="course-catalog-unavailable" data-course-unavailable-group>
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>24 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 12">
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="重要传染病的防治基础 MED4067M The Basis For The Control And Prevention Of Important Infectious Diseases 72120570 MED4067M">
+    <span class="course-catalog-name">重要传染病的防治基础<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4067M</span>
+  </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药理学专题 1811008 1811008">
     <span class="course-catalog-name">药理学专题<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">1811008</span>
@@ -323,10 +353,6 @@ comments: false
     <span class="course-catalog-name">全球环境改变与人类健康<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MED2422M</span>
   </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="重要传染病的防治基础 MED4067M The Basis For The Control And Prevention Of Important Infectious Diseases 72120570 MED4067M">
-    <span class="course-catalog-name">重要传染病的防治基础<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">MED4067M</span>
-  </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="环境卫生学 MED4401M Environmental Health Science 73120090 MED4401M">
     <span class="course-catalog-name">环境卫生学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MED4401M</span>
@@ -359,36 +385,21 @@ comments: false
     <span class="course-catalog-name">药剂学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">PHAR3013M</span>
   </div>
-</div>
+  </div>
+</details>
 
 </section>
 
 <section class="course-catalog-group" data-course-group markdown="1">
 
-## 历年课程
+## 大五
 
-<p class="course-catalog-group-note">以下课程只见于 2020—2025 级采用方案，未进入 2026 级三个班型。</p>
-
-<div class="course-catalog">
-  <a class="course-catalog-item" data-course-search="肿瘤研究策略与应用 MED3048M Strategy And Application In Cancer Research 考试" href="../elective/strategy_and_application_in_cancer_research/">
-    <span class="course-catalog-name">肿瘤研究策略与应用</span>
-    <span class="course-catalog-meta">MED3048M · 考试</span>
-  </a>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="教育统计与测量 03120261 03120261">
-    <span class="course-catalog-name">教育统计与测量<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">03120261</span>
-  </div>
+<details class="course-catalog-unavailable" data-course-unavailable-group>
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>37 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 19">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="研究生学术英语能力提升 0500010 0500010">
     <span class="course-catalog-name">研究生学术英语能力提升<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">0500010</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="传染病学专题 1811010 1811010">
-    <span class="course-catalog-name">传染病学专题<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">1811010</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="分子病原生物学 1811051 1811051">
-    <span class="course-catalog-name">分子病原生物学<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">1811051</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高级流行病学 1811057 1811057">
     <span class="course-catalog-name">高级流行病学<em class="course-catalog-status">暂无资料</em></span>
@@ -426,18 +437,6 @@ comments: false
     <span class="course-catalog-name">大数据健康科学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">1811114</span>
   </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="流行病学 18120381 18120381">
-    <span class="course-catalog-name">流行病学<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">18120381</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生统计学 18120581 18120581">
-    <span class="course-catalog-name">卫生统计学<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">18120581</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生学 18120590 18120590">
-    <span class="course-catalog-name">卫生学<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">18120590</span>
-  </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高级医学统计学 1812066 1812066">
     <span class="course-catalog-name">高级医学统计学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">1812066</span>
@@ -453,10 +452,6 @@ comments: false
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="人工智能与机器学习 1814087 1814087">
     <span class="course-catalog-name">人工智能与机器学习<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">1814087</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="病原生物学 18198240 18198240">
-    <span class="course-catalog-name">病原生物学<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">18198240</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高级毒理学 1821027 1821027">
     <span class="course-catalog-name">高级毒理学<em class="course-catalog-status">暂无资料</em></span>
@@ -538,6 +533,67 @@ comments: false
     <span class="course-catalog-name">药物基因组学与生物信息学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">1923066</span>
   </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="儿少卫生学 MED4407M Child And Adolescent Health MED4407M">
+    <span class="course-catalog-name">儿少卫生学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4407M</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生监督 MED4409M Health Supervision MED4409M">
+    <span class="course-catalog-name">卫生监督<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4409M</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药事管理 PHAR4003M Pharmacy Administration PHAR4003M">
+    <span class="course-catalog-name">药事管理<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">PHAR4003M</span>
+  </div>
+  </div>
+</details>
+
+</section>
+
+<section class="course-catalog-group" data-course-group markdown="1">
+
+## 历年课程
+
+<p class="course-catalog-group-note">以下课程只见于 2019—2025 级采用方案，未进入 2026 级三个班型。</p>
+
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 1">
+  <a class="course-catalog-item" data-course-search="肿瘤研究策略与应用 MED3048M Strategy And Application In Cancer Research 考试" href="../elective/strategy_and_application_in_cancer_research/">
+    <span class="course-catalog-name">肿瘤研究策略与应用</span>
+    <span class="course-catalog-meta">MED3048M · 考试</span>
+  </a>
+</div>
+
+<details class="course-catalog-unavailable" data-course-unavailable-group>
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>24 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 12">
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="教育统计与测量 03120261 03120261">
+    <span class="course-catalog-name">教育统计与测量<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">03120261</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="传染病学专题 1811010 1811010">
+    <span class="course-catalog-name">传染病学专题<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811010</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="分子病原生物学 1811051 1811051">
+    <span class="course-catalog-name">分子病原生物学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811051</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="流行病学 18120381 18120381">
+    <span class="course-catalog-name">流行病学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">18120381</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生统计学 18120581 18120581">
+    <span class="course-catalog-name">卫生统计学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">18120581</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生学 18120590 18120590">
+    <span class="course-catalog-name">卫生学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">18120590</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="病原生物学 18198240 18198240">
+    <span class="course-catalog-name">病原生物学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">18198240</span>
+  </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="认知神经科学导论 21121520 21121520">
     <span class="course-catalog-name">认知神经科学导论<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">21121520</span>
@@ -553,6 +609,14 @@ comments: false
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="生命科学基础 72120370 72120370">
     <span class="course-catalog-name">生命科学基础<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">72120370</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="肿瘤研究前沿 72120410 72120410">
+    <span class="course-catalog-name">肿瘤研究前沿<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">72120410</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药理学与新药研发 72120470 72120470">
+    <span class="course-catalog-name">药理学与新药研发<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">72120470</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="学科轮转与教学实习Ⅰ 72188050 72188040 72188050">
     <span class="course-catalog-name">学科轮转与教学实习Ⅰ<em class="course-catalog-status">暂无资料</em></span>
@@ -578,14 +642,6 @@ comments: false
     <span class="course-catalog-name">基因、环路与行为<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MED4065M</span>
   </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="儿少卫生学 MED4407M Child And Adolescent Health MED4407M">
-    <span class="course-catalog-name">儿少卫生学<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">MED4407M</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生监督 MED4409M Health Supervision MED4409M">
-    <span class="course-catalog-name">卫生监督<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">MED4409M</span>
-  </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="神经系统疾病的分子基础 MED5070M The Molecular Basis Of Neurologic Diseases 72120610">
     <span class="course-catalog-name">神经系统疾病的分子基础<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MED5070M</span>
@@ -606,11 +662,8 @@ comments: false
     <span class="course-catalog-name">管理学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MGMT1001F</span>
   </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药事管理 PHAR4003M Pharmacy Administration PHAR4003M">
-    <span class="course-catalog-name">药事管理<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">PHAR4003M</span>
   </div>
-</div>
+</details>
 
 </section>
 
