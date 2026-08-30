@@ -14,37 +14,33 @@
 
 === "2025-2026 秋学期（23 级）"
 
-    <table class="percentage-table">
-        <tbody>
-            <tr>
-                <td class="first-column"><b>平时小测</b></td>
-                <td class="second-column">50%</td>
-                <td>共五次；前三次线上，后两次线下</td>
-            </tr>
-            <tr>
-                <td><b>期末考试</b></td>
-                <td>50%</td>
-                <td>闭卷，中英文混合，可携带计算器</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="2025-2026 秋学期（23 级）分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>平时小测</strong><p>共五次；前三次线上，后两次线下</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷，中英文混合，可携带计算器</p></div>
+        </div>
+      </div>
+    </div>
 
 === "2025-2026 夏学期（25 级）"
 
-    <table class="percentage-table">
-        <tbody>
-            <tr>
-                <td class="first-column"><b>平时小测</b></td>
-                <td class="second-column">50%</td>
-                <td>包括纸质小测和线上编程小测，具体次数待确认</td>
-            </tr>
-            <tr>
-                <td><b>期末考试</b></td>
-                <td>50%</td>
-                <td>主要考查英文概率论与数理统计</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="2025-2026 夏学期（25 级）分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>平时小测</strong><p>包括纸质小测和线上编程小测，具体次数待确认</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>主要考查英文概率论与数理统计</p></div>
+        </div>
+      </div>
+    </div>
 
 ## 学习建议
 
@@ -60,6 +56,15 @@
 
 ## 资料
 
-- [练习与小测](quizzes/index.md)：2025-2026 秋学期练习、三次线上小测和两次线下小测，并保留各次开放时间；
-- [考试资料](exams/index.md)：2023-2024、2025-2026 两学年期末回忆卷；
-- [2023-2024 学年回忆卷与资料分享](https://www.cc98.org/topic/5754401)。
+<nav class="course-links" aria-label="课程资料">
+  <a class="course-link" href="quizzes/">
+    <strong>练习与小测</strong>
+    <small>2025-2026 秋学期练习、三次线上小测和两次线下小测，并保留各次开放时间</small>
+  </a>
+  <a class="course-link" href="exams/">
+    <strong>考试资料</strong>
+    <small>2023-2024、2025-2026 两学年期末回忆卷</small>
+  </a>
+</nav>
+
+<p class="course-source-note">原始分享：<a href="https://www.cc98.org/topic/5754401">2023-2024 学年回忆卷与资料分享</a>。</p>

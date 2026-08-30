@@ -10,32 +10,27 @@
 
 ## 分数构成
 
-=== "2025-2026 学年"
-
-    <table class="percentage-table">
-        <tbody>
-            <tr>
-                <td class="first-column"><b>实验课</b></td>
-                <td class="second-column">10%</td>
-                <td>一次实验课</td>
-            </tr>
-            <tr>
-                <td><b>讨论课</b></td>
-                <td>30%</td>
-                <td>三次，每次 10%</td>
-            </tr>
-            <tr>
-                <td><b>出勤</b></td>
-                <td>10%</td>
-                <td>两次学在浙大数字点名</td>
-            </tr>
-            <tr>
-                <td><b>期末考试</b></td>
-                <td>50%</td>
-                <td>闭卷；课程导航记录单选题 50 分、问答题 50 分，英文约占 10%</td>
-            </tr>
-        </tbody>
-    </table>
+<div class="course-score">
+  <p class="course-score__year">2025-2026 学年</p>
+  <div class="course-score__items" role="list" aria-label="2025-2026 学年分数构成">
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">10<span>%</span></div>
+      <div class="course-score__body"><strong>实验课</strong><p>一次实验课</p></div>
+    </div>
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">30<span>%</span></div>
+      <div class="course-score__body"><strong>讨论课</strong><p>三次，每次 10%</p></div>
+    </div>
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">10<span>%</span></div>
+      <div class="course-score__body"><strong>出勤</strong><p>两次学在浙大数字点名</p></div>
+    </div>
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">50<span>%</span></div>
+      <div class="course-score__body"><strong>期末考试</strong><p>闭卷；课程导航记录单选题 50 分、问答题 50 分，英文约占 10%</p></div>
+    </div>
+  </div>
+</div>
 
 !!! warning "期末选择题分值记录不一致"
 
@@ -53,6 +48,15 @@
 
 ## 资料
 
-- [讨论课](discussions/index.md)：2025-2026 学年三次案例讨论课；
-- [考试资料](exams/index.md)：2023-2024、2025-2026 两学年期末回忆卷；
-- [2023-2024 学年回忆卷与资料分享](https://www.cc98.org/topic/5930107)。其中网盘资料标有“请勿转载”，本站只保留原入口，不镜像文件。
+<nav class="course-links" aria-label="课程资料">
+  <a class="course-link" href="discussions/">
+    <strong>讨论课</strong>
+    <small>2025-2026 学年三次案例讨论课</small>
+  </a>
+  <a class="course-link" href="exams/">
+    <strong>考试资料</strong>
+    <small>2023-2024、2025-2026 两学年期末回忆卷</small>
+  </a>
+</nav>
+
+<p class="course-source-note">原始分享：<a href="https://www.cc98.org/topic/5930107">2023-2024 学年回忆卷与资料分享</a>。其中网盘资料标有“请勿转载”，本站只保留原入口，不镜像文件。</p>

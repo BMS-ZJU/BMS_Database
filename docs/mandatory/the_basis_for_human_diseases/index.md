@@ -14,27 +14,23 @@
 
 ## 分数构成
 
-=== "2025-2026 学年"
-
-    <table class="percentage-table">
-        <tbody>
-            <tr>
-                <td class="first-column"><b>平时小测</b></td>
-                <td class="second-column">30%</td>
-                <td>五次线上限时小测</td>
-            </tr>
-            <tr>
-                <td><b>实验报告</b></td>
-                <td>20%</td>
-                <td>该项内部：病理学读片占 80%，家兔实验占 20%</td>
-            </tr>
-            <tr>
-                <td><b>期末考试</b></td>
-                <td>50%</td>
-                <td>闭卷，中英文均有</td>
-            </tr>
-        </tbody>
-    </table>
+<div class="course-score">
+  <p class="course-score__year">2025-2026 学年</p>
+  <div class="course-score__items" role="list" aria-label="2025-2026 学年分数构成">
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">30<span>%</span></div>
+      <div class="course-score__body"><strong>平时小测</strong><p>五次线上限时小测</p></div>
+    </div>
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">20<span>%</span></div>
+      <div class="course-score__body"><strong>实验报告</strong><p>该项内部：病理学读片占 80%，家兔实验占 20%</p></div>
+    </div>
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">50<span>%</span></div>
+      <div class="course-score__body"><strong>期末考试</strong><p>闭卷，中英文均有</p></div>
+    </div>
+  </div>
+</div>
 
 !!! note "病理学实验小测归类仍待确认"
 
@@ -50,7 +46,15 @@
 
 ## 资料
 
-- [平时小测](quizzes/index.md)：2025-2026 学年五次线上小测及答案；
-- [考试资料](exams/index.md)：2023-2024 至 2025-2026 三学年期末回忆卷；
-- [2023-2024 学年回忆卷与资料分享](https://www.cc98.org/topic/5804508)；
-- [2024-2025 学年回忆卷、笔记和实验报告分享](https://www.cc98.org/topic/6091266)。
+<nav class="course-links" aria-label="课程资料">
+  <a class="course-link" href="quizzes/">
+    <strong>平时小测</strong>
+    <small>2025-2026 学年五次线上小测及答案</small>
+  </a>
+  <a class="course-link" href="exams/">
+    <strong>考试资料</strong>
+    <small>2023-2024 至 2025-2026 三学年期末回忆卷</small>
+  </a>
+</nav>
+
+<p class="course-source-note">原始分享：<a href="https://www.cc98.org/topic/5804508">2023-2024 学年回忆卷与资料分享</a>；<a href="https://www.cc98.org/topic/6091266">2024-2025 学年回忆卷、笔记和实验报告分享</a>。</p>
