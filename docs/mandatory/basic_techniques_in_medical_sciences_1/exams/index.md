@@ -8,6 +8,12 @@ hide:
 
 <div class="grid cards course-resource-grid" markdown>
 
+-   **2025-2026 学年 · 25 级春学期**
+
+    ---
+
+    [期末回忆卷](2025-2026-final-exam-recall.md)
+
 -   **2024-2025 学年 · 23 级冬学期**
 
     ---
