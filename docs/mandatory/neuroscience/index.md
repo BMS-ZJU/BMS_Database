@@ -28,6 +28,8 @@
 
 **期末知识点总结。** 从课程给定的主题中自行选择，整理知识点总结并提交到学在浙大，供同学学习和复习使用。
 
+2023-2024 学年的平时任务与后来有所不同：线上视频学习与测验在学在浙大完成；课堂主题讨论通常安排在每次课的最后一节，由学生展示；小组文献任务则是按模板阅读一篇经典神经科学研究论文。
+
 ## 分数构成
 
 === "2025-2026 学年"
@@ -36,23 +38,23 @@
       <div class="course-score__items" role="list" aria-label="2025-2026 学年分数构成">
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">20<span>%</span></div>
-          <div class="course-score__body"><strong>线上知识点视频与测试</strong><p>视频学习完成度与线上测试成绩合计</p></div>
+          <div class="course-score__body"><strong>线上知识点视频与测试</strong><p>视频完成度与测试合计</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>期中小组文献阅读与报告</strong><p>各组阅读分配的文献并共同提交 1 份报告</p></div>
+          <div class="course-score__body"><strong>期中小组文献阅读与报告</strong><p>分组阅读并提交报告</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">—</div>
-          <div class="course-score__body"><strong>课堂主题讨论</strong><p>总评比例未明确；PPT 展示、提问讨论与同学评分</p></div>
+          <div class="course-score__body"><strong>课堂主题讨论</strong><p>展示、提问与同学评分</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">—</div>
-          <div class="course-score__body"><strong>期末知识点总结</strong><p>总评比例未明确；自选给定主题，整理后提交到学在浙大</p></div>
+          <div class="course-score__body"><strong>期末知识点总结</strong><p>自选主题并提交总结</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">—</div>
-          <div class="course-score__body"><strong>期末考试</strong><p>总评比例未明确；选择题、名词解释和问答题，具体题型见下方</p></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>选择题、名词解释与问答题</p></div>
         </div>
       </div>
     </div>
@@ -69,15 +71,15 @@
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>课堂主题讨论</strong><p>通常在每次课最后一节由学生展示</p></div>
+          <div class="course-score__body"><strong>课堂主题讨论</strong><p>通常在每次课末展示</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>小组文献阅读与汇报</strong><p>根据模板阅读一篇经典神经科学研究论文</p></div>
+          <div class="course-score__body"><strong>小组文献阅读与汇报</strong><p>按模板阅读经典论文</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">50<span>%</span></div>
-          <div class="course-score__body"><strong>期末考试</strong><p>闭卷，13 道问答题选答 10 道，每题 10 分</p></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷，13 题选答 10 题</p></div>
         </div>
       </div>
     </div>

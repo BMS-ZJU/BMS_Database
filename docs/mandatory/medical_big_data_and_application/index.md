@@ -26,14 +26,14 @@
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">40<span>%</span></div>
-          <div class="course-score__body"><strong>期末考试</strong><p>闭卷、全英文，可携带英汉词典</p></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷、全英文</p></div>
         </div>
       </div>
     </div>
 
 ## 2024-2025 学年期末考试
 
-当年期末考试为全英文闭卷，考试时间 2 小时，可以携带英汉词典。回忆卷记录为 20 道单项选择题，共 40 分；11 道简答题，共 60 分。
+当年期末考试为全英文闭卷，考试时间 2 小时，可以携带英汉词典。20 道单项选择题，共 40 分；11 道简答题，共 60 分。
 
 考试以理论内容为主，R 语言部分主要考查简单语句应用。
 
