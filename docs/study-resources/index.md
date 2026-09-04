@@ -1,8 +1,6 @@
 ---
 title: 按资料类型查找
 comments: false
-hide:
-  - toc
 ---
 
 # 按资料类型查找

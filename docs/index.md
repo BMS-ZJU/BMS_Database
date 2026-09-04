@@ -1,8 +1,6 @@
 ---
 title: 首页
 comments: false
-hide:
-  - toc
 ---
 
 # BMS Database
