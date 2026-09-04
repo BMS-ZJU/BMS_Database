@@ -1,0 +1,18 @@
+/* Scoped to the optional sitewide resource finder. Uses the existing Material theme. */
+.resource-finder [hidden] { display: none !important; }
+.md-typeset .resource-finder-controls { margin: 1.2rem 0 .7rem; padding: .9rem 1rem; border: .05rem solid var(--md-default-fg-color--lightest); border-radius: .35rem; background: var(--md-code-bg-color); }
+.resource-finder-controls label { display: block; font-weight: 600; font-size: .75rem; }
+.resource-finder-controls input, .resource-finder-controls select { display: block; width: 100%; min-height: 2.3rem; margin-top: .3rem; padding: .4rem .55rem; border: .05rem solid var(--md-default-fg-color--light); border-radius: .2rem; background: var(--md-default-bg-color); color: var(--md-default-fg-color); font: inherit; font-weight: 400; }
+.resource-finder-controls input::placeholder { color: var(--md-default-fg-color--light); opacity: 1; }
+.resource-finder-filters { display: grid; grid-template-columns: 1fr 1fr auto; align-items: end; gap: .7rem; margin-top: .7rem; }
+.md-typeset .resource-finder-reset { min-height: 2.3rem; padding: .4rem .7rem; border: .05rem solid var(--md-default-fg-color--light); border-radius: .2rem; background: var(--md-default-bg-color); color: var(--md-default-fg-color); font-size: .75rem; cursor: pointer; }
+.resource-finder input:focus-visible, .resource-finder select:focus-visible, .resource-finder button:focus-visible, .resource-finder a:focus-visible { outline: .12rem solid var(--md-accent-fg-color); outline-offset: .15rem; }
+.md-typeset .resource-finder-status { font-size: .75rem; color: var(--md-default-fg-color); margin: .6rem 0 1.3rem; }
+.md-typeset .resource-finder-empty { padding: 1.1rem 0; }
+.md-typeset .resource-finder-list { list-style: none; margin: 0; padding: 0; }
+.md-typeset .resource-finder-item { padding: .75rem 0; margin: 0; border-bottom: .05rem solid var(--md-default-fg-color--lightest); }
+.md-typeset .resource-finder-title { font-weight: 600; overflow-wrap: anywhere; }
+.resource-finder-meta { display: flex; flex-wrap: wrap; gap: .25rem .7rem; margin-top: .2rem; font-size: .71rem; line-height: 1.6; color: var(--md-default-fg-color); opacity: .88; }
+.resource-finder-external { border: .05rem solid var(--md-default-fg-color--light); border-radius: .15rem; padding: 0 .3rem; }
+@media (max-width: 500px) { .resource-finder-filters { grid-template-columns: 1fr 1fr; } .resource-finder-reset { grid-column: 1 / -1; } .md-typeset .resource-finder-controls { padding: .8rem; } }
+@media print { .resource-finder-controls, .resource-finder-status, .resource-finder-empty, .resource-finder noscript { display: none !important; } }

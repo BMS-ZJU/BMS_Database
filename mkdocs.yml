@@ -42,6 +42,10 @@ theme:
 nav:
   - 首页:
     - index.md
+    - 使用说明: guide/index.md
+    - 贡献与纠错:
+      - contribute/index.md
+      - 来源与使用范围: contribute/sources-and-permissions.md
   - 培养方案:
     - curricula/index.md
   - 课程资料:
@@ -249,6 +253,8 @@ nav:
       - 考试资料:
         - elective/social_medicine_b/exams/index.md
         - 2024-2025 春期末回忆卷: elective/social_medicine_b/exams/2024-2025-final-exam-recall.md
+  - 资料查找:
+    - study-resources/index.md
   - 本科生轮转:
     - rotation/index.md
   - 飞跃专题:
@@ -302,8 +308,10 @@ extra_javascript:
   - javascripts/katex.js
   - javascripts/quiz-answers.js
   - javascripts/course-navigation.js
+  - javascripts/resource-finder.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
   - css/styles.css
+  - css/resource-finder.css
   - https://unpkg.com/katex@0/dist/katex.min.css
