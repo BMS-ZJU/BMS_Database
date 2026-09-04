@@ -1,183 +1,120 @@
 # 细胞与生物分子Ⅱ
 
-<div class="badges">
-<span class="badge is-badge">生物类课程</span>
-</div>
+该课程即分子生物学与生物化学（不含实验）。课程由四位教师共同讲授，内容涉及生物分子、代谢反应和遗传信息等部分。
 
-线下理论课，全中文授课
+## 课程学习内容
+
+课程前半部分偏生物化学，从蛋白质、核酸和酶进入物质与能量代谢；后半部分偏分子生物学，围绕遗传信息的复制、表达和调控展开，并介绍常用研究技术。
+
+??? note "展开查看较详细的课程内容"
+
+    - **生物分子的结构与功能：** 蛋白质与核酸的组成、结构和性质，以及酶的结构、工作原理、动力学和调节。
+    - **物质与能量代谢：** 糖代谢、三羧酸循环与生物氧化、脂代谢、核苷酸与氨基酸代谢，以及几类代谢途径之间的联系。
+    - **遗传信息的保存与表达：** 基因组概论，DNA 复制、损伤与修复，基因转录、RNA 加工和蛋白质合成。
+    - **基因表达调控：** 转录调控、表观遗传，以及染色质、非编码 RNA 等相关内容。
+    - **分子生物学技术：** 常用分子生物学技术、分子杂交、生物芯片、蛋白质和 DNA 相互作用研究、DNA 测序，以及基因重组与基因工程。
+
+## 上课与平时任务
+
+现有两个学年的资料都记录了出勤、学习笔记、文献图文摘要和课堂测试。学习笔记需要电子手写或纸质手写，图文摘要需要阅读指定文献后绘制；课堂测试闭卷，期末考试开卷。具体提交时间、测试次数、监考情况和各项占比见下方对应学年的分数构成。
 
 ## 分数构成
 
 === "2025-2026 学年"
 
-    <table class="percentage-table">
-        <tbody>
-            <tr>
-                <td class="first-column"><b>出勤</b></td>
-                <td class="second-column">5%</td>
-                <td>有 2 次请假机会，需提前填表</td>
-            </tr>
-            <tr>
-                <td><b>学习笔记</b></td>
-                <td>10%</td>
-                <td>最好使用纸质笔记；电子笔记需要手写</td>
-            </tr>
-            <tr>
-                <td><b>文献图文摘要</b></td>
-                <td>10%</td>
-                <td>具体要求待补充</td>
-            </tr>
-            <tr>
-                <td><b>课堂测试</b></td>
-                <td>25%</td>
-                <td>共 3 次，闭卷，以简答题为主</td>
-            </tr>
-            <tr>
-                <td><b>期末考试</b></td>
-                <td>50%</td>
-                <td>开卷，可携带除原版参考教材外的纸质资料</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="2025-2026 学年分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">5<span>%</span></div>
+          <div class="course-score__body"><strong>出勤</strong><p>有 2 次请假机会，需提前填表</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>学习笔记</strong><p>电子手写或纸质手写，最后一次课检查</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>文献图文摘要</strong><p>阅读指定文献并绘制图文摘要，冬学期结束前提交</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">25<span>%</span></div>
+          <div class="course-score__body"><strong>课堂测试</strong><p>共 3 次，线下闭卷，以简答题为主；安排在各大模块的最后一次课，有助教监考，任课教师也会在教室巡视</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>开卷，可携带除原版参考教材外的纸质资料</p></div>
+        </div>
+      </div>
+    </div>
 
 === "2024-2025 学年"
 
-    <table class="percentage-table">
-        <tbody>
-            <tr>
-                <td class="first-column"><b>出勤</b></td>
-                <td class="second-column">5%</td>
-                <td>偶尔通过学在浙大或口头点名</td>
-            </tr>
-            <tr>
-                <td><b>学习笔记</b></td>
-                <td>10%</td>
-                <td>电子手写或纸质手写，最后一次课检查</td>
-            </tr>
-            <tr>
-                <td><b>文献图文摘要</b></td>
-                <td>10%</td>
-                <td>阅读指定文献并绘制图文摘要，冬学期结束前提交</td>
-            </tr>
-            <tr>
-                <td><b>课堂测试</b></td>
-                <td>25%</td>
-                <td>闭卷，以简答题为主，在每个大模块的最后一次课进行</td>
-            </tr>
-            <tr>
-                <td><b>期末考试</b></td>
-                <td>50%</td>
-                <td>开卷，可携带除原版参考教材外的纸质资料</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="2024-2025 学年分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">5<span>%</span></div>
+          <div class="course-score__body"><strong>出勤</strong><p>偶尔通过学在浙大或口头点名</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>学习笔记</strong><p>电子手写或纸质手写，最后一次课检查</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>文献图文摘要</strong><p>阅读指定文献并绘制图文摘要，冬学期结束前提交</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">25<span>%</span></div>
+          <div class="course-score__body"><strong>课堂测试</strong><p>共 3 次，线下闭卷，以简答题为主</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>开卷，可携带除原版参考教材外的纸质资料</p></div>
+        </div>
+      </div>
+    </div>
 
+2024-2025 学年的期末考试记录为全中文、2 小时，包含辨析题、简答题、论述题和解析题。2023-2024 学年的回忆卷则有中英文题目，因此不能把某一年的语言和题型当成固定规则。
 
-## 学习重点
+## 学习建议
 
-这门课同时包含生物分子、代谢反应和遗传学等内容，由四位老师共同授课。现有经验中反复出现的难点不是单纯记住名词，而是平时闭卷小测所需的知识熟练度，以及期末考试中对基本概念的理解和运用。
+这门课有占分不低的闭卷小测，还要检查笔记，期末也不算简单，因此不太适合平时完全不学，只在小测前或期末前补天。
 
-=== "平时学习"
+**开卷考试也要提前复习和整理资料。** 除概念题外，期末很强调思考和理解。这门课的开卷不等于不需要提前复习；如果只带着资料裸考，很容易玩崩。考前最好先过一遍各模块的基本概念和联系，再整理允许携带的纸质资料，并提前熟悉重要内容的位置。这样考试时可以用资料确认细节，而不是每道题都从头查起。
 
-    学习笔记本身占总评 10%，小测又安排在各部分授课过程中，因此不太适合把所有内容留到期末再看。糖酵解、三羧酸循环等代谢内容在小测中要求较高，建议平时跟着课程进度学习。
+**注意答题时间。** 查找和抄写概念很容易耗时，不要把太多时间花在前面的概念题上，后面的论述题和解析题也需要留出充分的作答时间。
 
-=== "课堂测试"
+### 愿意平时跟着学的同学
 
-    课堂测试合计占 25%，2025-2026 学年共进行 3 次，采用闭卷、简答题为主的形式。不同教师所负责部分的小测难度有所区别，往年题目有参考价值，但不能代替对课程内容的掌握。
+四位老师的讲解和 PPT 都比较清楚，可能是专业课里跟起来比较舒服的一门。能到课就尽量到课；实在有冲突，也最好及时补智云，不要把第一次完整学习留到期末。
 
-=== "期末考试"
+**尽量同步整理自己的笔记。** 笔记本身是计分任务，也能用于复习和开卷考试。每学完一个模块，就及时消化并整理一次。
 
-    期末考试占 50%，可以携带符合要求的纸质资料。根据 23 级同学的经验，除名词解释外，题目比较强调思考和理解；答题时也要注意时间，不要在查找和抄写名词解释上停留过久。
+**小测前要认真复习。** 小测合计占 25%，而且是闭卷，不能因为期末开卷就忽略平时的记忆与理解。往届经验特别提醒，糖酵解、三羧酸循环等代谢内容要求较高，需要多复习几遍。
 
-!!! info "经验的适用范围"
+### 只想在期末补天的同学
 
-    上述难度判断和答题建议来自往届同学的个人经历。不同学年、教师和试卷可能有所变化，应以当年课堂要求为准。
+这门课其实不太适合真正意义上的期末补天：闭卷小测已经在平时完成，期末阶段主要能补的是期末考试本身。
 
-## 学习方法
+如果一定要到期末再补，第一件事是找一份信得过的学长学姐笔记。时间允许的话，还是按上面的开卷准备方法，先把各模块大致过一遍，再熟悉重要内容在笔记中的位置。实在来不及，就只能把笔记带进考场，边查边学、边组织答案。遇到不会的题，也尽量结合题目和笔记，按自己掌握的概念和机制把能写的内容写完整，至少不要留白。这只能算时间不足时的补救，不能保证成绩，虽然大概不会挂你科就是了。
 
-=== "笔记与平时任务"
+## 资料
 
-    课程明确设置了学习笔记和文献图文摘要，两项合计占总评 20%。笔记除用于提交外，也可以按照授课模块整理概念、反应过程和知识之间的联系，方便小测前快速复习。
-
-
-=== "小测准备"
-
-    小测是闭卷简答题，复习时需要做到不依赖资料也能说清基本概念和主要过程。现有回忆卷适合用来了解往年的问题形式，但页面中的题目未必覆盖当年全部范围。
-
-=== "期末准备"
-
-    开卷不等于不需要提前复习。可以先掌握各模块的基本概念和联系，再整理允许携带的纸质资料，并提前熟悉资料中的位置。这样考试时可以把资料用于确认细节，而不是临时从头查找答案。
-
-## 现有资料
-
-<div class="table-container">
-    <table class="resource-table">
-        <thead>
-            <tr>
-                <th>资源名称</th>
-                <th>资源类型</th>
-                <th>站外资源</th>
-                <th>本站资源</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>《Lehninger Principles of Biochemistry》<br>David L. Nelson · Michael M. Cox</td>
-                <td>参考教材</td>
-                <td>钉钉群</td>
-                <td>无</td>
-            </tr>
-            <tr>
-                <td>2025-2026 秋冬小测回忆卷</td>
-                <td>历年卷</td>
-                <td>无</td>
-                <td><a href="quizzes/2025-2026-quizzes/">查看</a></td>
-            </tr>
-            <tr>
-                <td>2024-2025 秋冬小测回忆卷</td>
-                <td>历年卷</td>
-                <td>无</td>
-                <td><a href="quizzes/2024-2025-quizzes/">查看</a></td>
-            </tr>
-            <tr>
-                <td>2024-2025 秋冬期末回忆卷</td>
-                <td>历年卷</td>
-                <td><a href="https://www.cc98.org/topic/6087340">CC98</a></td>
-                <td><span class="link-divider"><a href="exams/2024-2025-final-exam-recall/">查看</a><span class="divider">丨</span>Ctrl+P 保存</span></td>
-            </tr>
-            <tr>
-                <td>2023-2024 秋冬期末回忆卷</td>
-                <td>历年卷</td>
-                <td><a href="https://www.cc98.org/topic/5803521">CC98</a></td>
-                <td><a href="exams/2023-2024-final-exam-recall/">查看</a></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-目前没有收录推荐的公开在线课程。如果资源损坏或链接失效，请先查看本站的[常见问题解答](../../error.md)，仍然无法解决时再联系网站管理员。
-
-## 往届经验
-
-=== "23 匿名"
-
-    > 期末考试是开卷考试，但是平时小测都是闭卷。冯钰老师和刘楠老师的小测比较简单，稍微背诵一下即可，并且小测题目每年变化不大。但周龙老师的小测极其难，内容涵盖张汕和周龙两位老师的部分（即糖酵解和三羧酸循环等），需要平常认真学习背诵，但其实这两部分本来就很重要，我是比较建议平常就好好学，而且老师讲课都很不错。
-
-    > 期末考试除了名词解释都比较有思辨性，所以平时也要学一学，至少了解基本概念。然后考试的时候不要在名词解释部分花太多时间抄概念就好了，这个是真的花时间。
-
-=== "24 级某同学"
-
-    > 2025-2026 学年的小测有助教监考，老师也会下来巡视。
+<nav class="course-links" aria-label="课程资料">
+  <a class="course-link" href="quizzes/">
+    <strong>平时小测</strong>
+    <small>2024-2025、2025-2026 两学年秋冬学期小测回忆</small>
+  </a>
+  <a class="course-link" href="exams/">
+    <strong>考试资料</strong>
+    <small>2023-2024、2024-2025 两学年秋冬学期期末回忆卷</small>
+  </a>
+</nav>
 
 ## 课程信息
 
-本课程相当于临床医学、生物科学等专业的生物化学课程（不含实验），包含生物分子、代谢反应、遗传学等内容，由四位老师共同授课。
-
-- **预修基础：** 高中生物、化学基础；
-- **参考教材：**《Lehninger Principles of Biochemistry》，David L. Nelson、Michael M. Cox；
-- **推荐教材：**《生物化学与分子生物学（第十版）》，人民卫生出版社；
-- **教辅：** 现有经验认为无需额外教辅。
-
-## 尚待补充
-
-- 2025-2026 学年文献图文摘要的具体要求；
+- **开课与学分：**秋冬学期，5 学分。
+- **预修要求：**化学和[医学生命基础](../medical_life_fundamentals/index.md)。这些要求用于知识衔接参考，未修过也可以选课。
+- **实际学习需要：**对化学基础的要求不高，掌握一些基本概念即可开始学习。
+- **授课与考试用语：**以中文授课，课件中可能出现英文。名词解释题可能直接给出英文术语，因此不能完全跳过英文名词；具体语言和题型以当年安排为准。
+- **参考教材：**课程参考教材为 David L. Nelson、Michael M. Cox 的 *Lehninger Principles of Biochemistry*，通常无需购买；课程组曾发放纸质书，如需使用也可以向学长学姐借用。另可将人民卫生出版社《生物化学与分子生物学（第 10 版）》作为学习补充；在允许携带纸质资料的学年，也可以把它作为考场参考，仍须遵守当年开卷规则。

@@ -1,178 +1,118 @@
 # 细胞与生物分子Ⅰ
 
-<div class="badges">
-<span class="badge is-badge">生物类课程</span>
-</div>
+该课程即细胞生物学，主要学习细胞的基本结构与功能、生命活动及其调控，以及细胞之间的相互作用。课程由多位教师分部分讲授，理论课之外还有分组讨论与展示。
 
-线下理论课结合讨论课，课程 PPT 以英文为主
+## 课程学习内容
+
+课程围绕细胞的结构、功能和调控展开。现有课件能够确认的内容，从细胞膜、细胞器和细胞骨架等基本结构，延伸到信号转导、细胞周期、分化、衰老与死亡，以及细胞与微环境的相互作用。
+
+??? note "展开查看较详细的课程内容"
+
+    - **细胞的边界与物质运输：** 细胞膜及其表面、细胞内膜系统和囊泡运输。
+    - **细胞内部的结构支撑与信息中心：** 细胞骨架、细胞核。
+    - **细胞怎样接收环境信息：** 细胞信号转导，以及细胞与微环境之间的相互作用。
+    - **细胞怎样增殖并走向不同命运：** 细胞分裂与细胞周期、细胞分化和干细胞。
+    - **细胞生命历程的后段及异常状态：** 细胞衰老与死亡、癌细胞。
+
+## 上课与平时任务
+
+现有近两学年的资料都记录了出勤考核和分组讨论展示。每组需要完成一次展示，课堂提问可以加分；具体出勤次数、记录方式和各项占比见下方对应学年的分数构成。
 
 ## 分数构成
 
 === "2025-2026 学年"
 
-    <table class="percentage-table">
-        <tbody>
-            <tr>
-                <td class="first-column"><b>出勤</b></td>
-                <td class="second-column">40%</td>
-                <td>共 16 次</td>
-            </tr>
-            <tr>
-                <td><b>讨论课</b></td>
-                <td>10%</td>
-                <td>分组完成一次展示，课堂提问可以加分</td>
-            </tr>
-            <tr>
-                <td><b>期末考试</b></td>
-                <td>50%</td>
-                <td>闭卷</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="2025-2026 学年分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">40<span>%</span></div>
+          <div class="course-score__body"><strong>出勤</strong><p>共 16 次</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>讨论课</strong><p>每组完成一次展示，课堂提问可以加分</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷</p></div>
+        </div>
+      </div>
+    </div>
 
 === "2024-2025 学年"
 
-    <table class="percentage-table">
-        <tbody>
-            <tr>
-                <td class="first-column"><b>出勤</b></td>
-                <td class="second-column">40%</td>
-                <td>共 16 次，通过纸质签名记录</td>
-            </tr>
-            <tr>
-                <td><b>讨论课</b></td>
-                <td>10%</td>
-                <td>分组完成一次展示，课堂提问可以加分</td>
-            </tr>
-            <tr>
-                <td><b>期末考试</b></td>
-                <td>50%</td>
-                <td>闭卷</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="2024-2025 学年分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">40<span>%</span></div>
+          <div class="course-score__body"><strong>出勤</strong><p>共 16 次，纸质签名</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>讨论课</strong><p>每组完成一次展示，课堂提问可以加分</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷</p></div>
+        </div>
+      </div>
+    </div>
 
-=== "2024-2025 学年"
+=== "2021-2022 学年"
 
-    <table class="percentage-table">
-        <tbody>
-            <tr>
-                <td class="first-column"><b>平时考勤与课后选择题</b></td>
-                <td class="second-column">39%</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><b>mini-review</b></td>
-                <td>5%</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><b>展示</b></td>
-                <td>6%</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><b>期末考试</b></td>
-                <td>50%</td>
-                <td>闭卷</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="2021-2022 学年分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">39<span>%</span></div>
+          <div class="course-score__body"><strong>平时考勤与课后选择题</strong></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">5<span>%</span></div>
+          <div class="course-score__body"><strong>mini-review</strong></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">6<span>%</span></div>
+          <div class="course-score__body"><strong>展示</strong></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷</p></div>
+        </div>
+      </div>
+    </div>
 
+现有三份期末回忆卷都包含名词解释、选择题和简答题或大题，中英文均有。2024-2025 学年的卷面为名词解释 21 分、单项选择 30 分、简答题 49 分，其中简答题 9 选 7。不同模块都会涉及，既考概念和结构，也考功能、机制与实验设计。
 
-## 学习重点
+## 学习建议
 
-课程内容包括细胞的基本结构与功能、生命活动及其调控、细胞社会性等内容，并与分子生物学、发育生物学、遗传学、生物化学和基础医学中的多个学科相互联系。课程由多位教师分部分授课，知识点较多，期末考试为闭卷。
+**讨论课不能只准备本组展示。** 最好提前了解其他组的主题，想一想或直接与其他组同学交流有哪些值得讨论的问题，避免到了课堂才临时找问题。提问有加分，但具体规则仍以当年要求为准。
 
-=== "课程内容"
+**用历年回忆卷检查遗漏。** 期末各部分都会考，而且考得比较细。可以先按课程 PPT、笔记或提纲过一遍范围，再对照历年卷检查常见题型、反复出现的主题和自己尚未掌握的部分。
 
-    从历年回忆卷看，考试会涉及生物膜与内膜系统、细胞器、囊泡运输、细胞骨架、细胞运动、细胞信号转导、细胞周期、细胞分化、干细胞、细胞衰老与凋亡等内容。名词解释、选择题和简答题都会覆盖多个模块。
+### 愿意平时跟着学的同学
 
-=== "讨论课"
+这门课不是每一节都非听不可，不同教师的讲授方式和课件质量差异较大。课件比较零散、课堂上会补充讲解或提示可能命题内容的部分，听课更有价值，最好及时把老师强调的内容记下来。
 
-    讨论课占总评 10%，每组完成一次展示，课堂提问可以加分。准备展示时需要理解本组主题，也可以提前了解其他组的内容，为课堂提问做准备。
+某一部分当堂没有理解，可以课后结合 PPT 和教材补上，并逐步形成自己的笔记。前人的笔记或提纲也可以作为辅助，但要确认来源和质量，不要直接依赖未经核对的 AI 总结。
 
-=== "期末考试"
+### 只想在期末补天的同学
 
-    期末考试占总评 50%，采用闭卷形式。往届经验中既有“考得较细”的评价，也有“与历年卷重合较多”的反馈；这些判断来自不同学年和个人经历，复习时不能只依赖其中一种说法。
+第一优先级是找平时听课的同学确认老师反复强调或明确提示可能命题的内容，再把历年题中的名词解释和简答题连题带答案过一遍。反复出现的定义和答题框架最好能自己写出来；遇到没背过的题，就按掌握的概念和机制组织答案，至少不要留白。
 
-## 学习方法
+还有时间的话，再补看课件和质量可靠的前人笔记或提纲，重点处理历年题暴露出来的遗漏。不要因为资料看起来完整，就忽略它是否经过核对。
 
-=== "平时学习"
+## 资料
 
-    如果课堂上能够跟上，可以随授课进度整理各模块；如果某些部分不容易当场理解，可以在课后结合课程 PPT 和教材补充，并逐步形成自己的笔记。不同教师的课件和讲授方式可能不同，复习时要注意保留老师在课堂上特别强调的内容。
-
-=== "知识整理"
-
-    这门课的知识点较多，但并不是完全割裂的。可以围绕“结构—功能—调控—异常”整理细胞器、细胞骨架、信号通路、细胞周期和细胞命运等内容，再把不同模块之间的联系补到笔记中。
-
-=== "考前复习"
-
-    建议先按课程 PPT 和个人笔记完整过一遍考试范围，再使用历年回忆卷检查常见题型和反复出现的主题。其他专业的细胞生物学资料可以作为补充，但授课范围和考试侧重点仍应以本课程为准。
-
-## 现有资料
-
-<div class="table-container">
-    <table class="resource-table">
-        <thead>
-            <tr>
-                <th>资源名称</th>
-                <th>资源类型</th>
-                <th>站外资源</th>
-                <th>本站资源</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2024-2025 秋学期期末回忆卷</td>
-                <td>历年卷</td>
-                <td>无</td>
-                <td><a href="exams/2024-2025-final-exam-recall/">查看</a></td>
-            </tr>
-            <tr>
-                <td>2023-2024 秋学期期末回忆卷</td>
-                <td>历年卷</td>
-                <td>无</td>
-                <td><a href="exams/2023-2024-final-exam-recall/">查看</a></td>
-            </tr>
-            <tr>
-                <td>2021-2022 秋学期期末回忆卷</td>
-                <td>历年卷</td>
-                <td>无</td>
-                <td><a href="exams/2021-2022-final-exam-recall/">查看</a></td>
-            </tr>
-            <tr>
-                <td>2025-2026 秋学期期末回忆卷</td>
-                <td>历年卷</td>
-                <td>钉钉群</td>
-                <td>无</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-如果资源损坏或链接失效，请先查看本站的[常见问题解答](../../error.md)，仍然无法解决时再联系网站管理员。
-
-## 往届经验
-
-=== "23 级某同学"
-
-    > 课程内容对于分子和细胞方面的研究很重要，每个部分的内容也比较多，需要在课后花时间学习。由于展示提问有加分，可以提前了解其他组的展示主题，想一想能够提出的问题。期末为闭卷考试，各部分都会涉及，考查得比较细。
-
-=== "23 何冠辰"
-
-    > 平时上课能跟上就尽量听；跟不上时可以采用课后看 PPT、配合教材相应部分复习的方式，并整理一套自己的笔记。有些老师的 PPT 不太适合脱离课堂单独使用，课堂上提到的命题重点最好及时记下来。
-
-    > 历年卷可以帮助判断题型和常见重点。其他专业的细胞生物学课程资料也有参考价值，但基础医学的课程更偏科研应用，使用时要注意授课范围并不完全相同。
-
-=== "24 级某同学"
-
-    > 考试挺善良的，和历年卷重合挺多的。
+<nav class="course-links" aria-label="课程资料">
+  <a class="course-link" href="exams/">
+    <strong>考试资料</strong>
+    <small>2021-2022、2023-2024、2024-2025 三学年秋学期期末回忆卷</small>
+  </a>
+</nav>
 
 ## 课程信息
 
-- **课时安排：** 每周 2 次课，每次 3 学时；
-- **预修要求：** 无；
-- **参考教材：**《医学细胞生物学》。无需购买
-
-## 尚待补充
+- **开课与学分：**秋学期，3 学分。
+- **预修要求：**无。
+- **实际学习需要：**掌握高中人教版生物学必修一的基础内容即可开始学习。
+- **参考教材：**刘佳、周天华主编《医学细胞生物学》（第 1 版，高等教育出版社，2014 年），通常无需专门购买。

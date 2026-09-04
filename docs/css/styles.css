@@ -709,7 +709,7 @@
   }
 }
 
-/* 课程主页：数字边注式分数构成；保留原生正文、标题和标签页。 */
+/* 课程主页：数字边注与轻量资料入口；保留原生正文、标题和标签页。 */
 
 .md-typeset .course-score {
   margin: 0.6rem 0 1.05rem;
@@ -784,8 +784,62 @@
   margin-block: 0.65rem 0.35rem;
 }
 
+.md-typeset .course-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 0.9rem;
+  margin: 0.55rem 0 0.7rem;
+  border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset a.course-link {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 0.15rem;
+  min-width: 0;
+  padding: 0.55rem 0.18rem;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+}
+
+.md-typeset .course-link strong {
+  color: var(--md-typeset-a-color);
+  font-size: 0.78rem;
+  font-weight: 650;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.md-typeset .course-link small {
+  color: var(--md-default-fg-color--light);
+  /* 避免 Material 的 small 透明度与文字颜色的 alpha 重复叠加。 */
+  opacity: 1;
+  font-size: 0.68rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.md-typeset a.course-link:hover,
+.md-typeset a.course-link:focus-visible {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-typeset a.course-link:focus-visible {
+  outline: 0.1rem solid var(--md-typeset-a-color);
+  outline-offset: -0.1rem;
+}
+
+.md-typeset .course-source-note {
+  margin: 0.65rem 0 1.2rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+  line-height: 1.7;
+}
+
 @media screen and (max-width: 44.984375em) {
-  .md-typeset .course-score__items {
+  .md-typeset .course-score__items,
+  .md-typeset .course-links {
     grid-template-columns: minmax(0, 1fr);
   }
 
