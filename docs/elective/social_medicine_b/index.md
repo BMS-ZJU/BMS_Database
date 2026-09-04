@@ -1,5 +1,9 @@
 # 社会医学(乙)
 
+!!! warning "页面重构中"
+
+    本页面内容整理时间较早，部分信息可能已经过时；页面正在重新整理，请以最新课程通知为准。
+
 <div class="badges">
 <span class="badge is-badge">公共卫生与预防医学类课程</span>
 </div>

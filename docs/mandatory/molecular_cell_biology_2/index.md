@@ -16,7 +16,9 @@
 
 ## 上课与平时任务
 
-现有两个学年的资料都记录了出勤、学习笔记、文献图文摘要和课堂测试。学习笔记需要电子手写或纸质手写，图文摘要需要阅读指定文献后绘制；课堂测试闭卷，期末考试开卷。具体提交时间、测试次数、监考情况和各项占比见下方对应学年的分数构成。
+现有两个学年的资料都记录了出勤、学习笔记、文献图文摘要和课堂测试。除出勤要求外，两学年的其他安排相同：学习笔记需要电子手写或纸质手写，在最后一次课检查；图文摘要需要阅读指定文献后绘制，在冬学期结束前提交；课堂测试共 3 次，均为线下闭卷，以简答题为主，安排在各大模块的最后一次课，由助教监考，任课教师也会在教室巡视。
+
+出勤安排有一些学年差异。2025-2026 学年有 2 次请假机会，请假需要提前填表；2024-2025 学年的出勤偶尔通过学在浙大或口头点名。各项占比见下方对应学年的分数构成。
 
 ## 分数构成
 
@@ -26,23 +28,23 @@
       <div class="course-score__items" role="list" aria-label="2025-2026 学年分数构成">
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">5<span>%</span></div>
-          <div class="course-score__body"><strong>出勤</strong><p>有 2 次请假机会，需提前填表</p></div>
+          <div class="course-score__body"><strong>出勤</strong><p>2 次请假机会</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>学习笔记</strong><p>电子手写或纸质手写，最后一次课检查</p></div>
+          <div class="course-score__body"><strong>学习笔记</strong><p>电子手写或纸质手写</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>文献图文摘要</strong><p>阅读指定文献并绘制图文摘要，冬学期结束前提交</p></div>
+          <div class="course-score__body"><strong>文献图文摘要</strong><p>阅读指定文献绘制图文摘要</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">25<span>%</span></div>
-          <div class="course-score__body"><strong>课堂测试</strong><p>共 3 次，线下闭卷，以简答题为主；安排在各大模块的最后一次课，有助教监考，任课教师也会在教室巡视</p></div>
+          <div class="course-score__body"><strong>课堂测试</strong><p>3 次，线下闭卷</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">50<span>%</span></div>
-          <div class="course-score__body"><strong>期末考试</strong><p>开卷，可携带除原版参考教材外的纸质资料</p></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>开卷</p></div>
         </div>
       </div>
     </div>
@@ -53,28 +55,28 @@
       <div class="course-score__items" role="list" aria-label="2024-2025 学年分数构成">
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">5<span>%</span></div>
-          <div class="course-score__body"><strong>出勤</strong><p>偶尔通过学在浙大或口头点名</p></div>
+          <div class="course-score__body"><strong>出勤</strong><p>偶尔点名</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>学习笔记</strong><p>电子手写或纸质手写，最后一次课检查</p></div>
+          <div class="course-score__body"><strong>学习笔记</strong><p>电子手写或纸质手写</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>文献图文摘要</strong><p>阅读指定文献并绘制图文摘要，冬学期结束前提交</p></div>
+          <div class="course-score__body"><strong>文献图文摘要</strong><p>阅读指定文献绘制图文摘要</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">25<span>%</span></div>
-          <div class="course-score__body"><strong>课堂测试</strong><p>共 3 次，线下闭卷，以简答题为主</p></div>
+          <div class="course-score__body"><strong>课堂测试</strong><p>3 次，线下闭卷</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">50<span>%</span></div>
-          <div class="course-score__body"><strong>期末考试</strong><p>开卷，可携带除原版参考教材外的纸质资料</p></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>开卷</p></div>
         </div>
       </div>
     </div>
 
-2024-2025 学年的期末考试记录为全中文、2 小时，包含辨析题、简答题、论述题和解析题。2023-2024 学年的回忆卷则有中英文题目，因此不能把某一年的语言和题型当成固定规则。
+2024-2025、2025-2026 两个学年的期末考试均为开卷，可以携带纸质资料，但不能携带原版参考教材。2024-2025 学年的期末考试记录为全中文、2 小时，包含辨析题、简答题、论述题和解析题。2023-2024 学年的回忆卷则有中英文题目，因此不能把某一年的语言和题型当成固定规则。
 
 ## 学习建议
 

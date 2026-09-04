@@ -16,7 +16,7 @@
 
 ## 上课与平时任务
 
-现有近两学年的资料都记录了出勤考核和分组讨论展示。每组需要完成一次展示，课堂提问可以加分；具体出勤次数、记录方式和各项占比见下方对应学年的分数构成。
+现有近两学年的资料都记录了出勤考核和分组讨论展示。2024-2025 学年的出勤记录为 16 次纸质签名；每组需要完成一次展示，课堂提问可以加分。各项占比见下方对应学年的分数构成。
 
 ## 分数构成
 
@@ -30,7 +30,7 @@
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>讨论课</strong><p>每组完成一次展示，课堂提问可以加分</p></div>
+          <div class="course-score__body"><strong>讨论课</strong><p>每组展示 1 次</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">50<span>%</span></div>
@@ -45,11 +45,11 @@
       <div class="course-score__items" role="list" aria-label="2024-2025 学年分数构成">
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">40<span>%</span></div>
-          <div class="course-score__body"><strong>出勤</strong><p>共 16 次，纸质签名</p></div>
+          <div class="course-score__body"><strong>出勤</strong><p>16 次，纸质签名</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>讨论课</strong><p>每组完成一次展示，课堂提问可以加分</p></div>
+          <div class="course-score__body"><strong>讨论课</strong><p>每组展示 1 次</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">50<span>%</span></div>
@@ -64,15 +64,15 @@
       <div class="course-score__items" role="list" aria-label="2021-2022 学年分数构成">
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">39<span>%</span></div>
-          <div class="course-score__body"><strong>平时考勤与课后选择题</strong></div>
+          <div class="course-score__body"><strong>平时考勤与课后选择题</strong><p>两项合并计分</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">5<span>%</span></div>
-          <div class="course-score__body"><strong>mini-review</strong></div>
+          <div class="course-score__body"><strong>mini-review</strong><p>短篇综述</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">6<span>%</span></div>
-          <div class="course-score__body"><strong>展示</strong></div>
+          <div class="course-score__body"><strong>展示</strong><p>课堂展示</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">50<span>%</span></div>
@@ -81,7 +81,7 @@
       </div>
     </div>
 
-现有三份期末回忆卷都包含名词解释、选择题和简答题或大题，中英文均有。2024-2025 学年的卷面为名词解释 21 分、单项选择 30 分、简答题 49 分，其中简答题 9 选 7。不同模块都会涉及，既考概念和结构，也考功能、机制与实验设计。
+上方分数构成记录的三个学年，期末考试均为闭卷。现有三份期末回忆卷都包含名词解释、选择题和简答题或大题，中英文均有。2024-2025 学年的卷面为名词解释 21 分、单项选择 30 分、简答题 49 分，其中简答题 9 选 7。不同模块都会涉及，既考概念和结构，也考功能、机制与实验设计。
 
 ## 学习建议
 

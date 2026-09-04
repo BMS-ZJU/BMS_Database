@@ -1,5 +1,9 @@
 # 基础医学科学研究技能Ⅰ
 
+!!! warning "页面重构中"
+
+    本页面内容整理时间较早，部分信息可能已经过时；页面正在重新整理，请以最新课程通知为准。
+
 <div class="badges">
 <span class="badge is-badge">生物类课程</span>
 </div>
@@ -56,6 +60,7 @@
     <table class="resource-table">
         <thead><tr><th>资源名称</th><th>资源类型</th><th>站外资源</th><th>本站资源</th></tr></thead>
         <tbody>
+            <tr><td>2025-2026 学年春学期期末回忆卷（25 级）</td><td>历年卷</td><td>无</td><td><a href="exams/2025-2026-final-exam-recall.md">查看</a></td></tr>
             <tr><td>资料分享（实验报告）</td><td>经验与资料</td><td><a href="https://www.cc98.org/topic/6228916">CC98</a></td><td>无</td></tr>
             <tr><td>2024-2025 学年冬学期期末回忆卷（23 级）</td><td>历年卷</td><td><a href="https://www.cc98.org/topic/6089971">CC98</a></td><td><a href="exams/2024-2025-final-exam-recall/">查看</a></td></tr>
             <tr><td>2024-2025 学年春学期期末回忆卷（24 级）</td><td>历年卷</td><td><a href="https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/2024-2025%E5%AD%A6%E5%B9%B4%E6%98%A5%E5%AD%A6%E6%9C%9F%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%8A%80%E8%83%BD%20I%20%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/2024-2025%E5%AD%A6%E5%B9%B4%E6%98%A5%E5%AD%A6%E6%9C%9F%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%8A%80%E8%83%BD%20I%20%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95.html">杨树の宝藏小屋</a></td><td>无</td></tr>

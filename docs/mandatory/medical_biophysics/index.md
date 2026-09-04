@@ -19,7 +19,9 @@
 
 平时任务的名称、拆分方式和占比会随学年调整，但大体围绕文献阅读与汇报、理论或技术讨论题、出勤及课堂表现展开。出勤有时通过签到记录，具体次数并不固定；文献任务和讨论题的分组、选题及提交要求也应以当年通知为准。
 
-现有 2021-2022 至 2024-2025 四份期末回忆卷均记录为全中文、2 小时，卷面由选择题、简答题、问答题和案例分析题四部分组成。选择题是单选还是不定项会有变化；考试既涉及知识点记忆，也要求理解技术原理，并可能结合结构图、谱图或研究情境作答。
+- **2025-2026 学年：**文献阅读报告采用分组汇报；技术作业从 6 道讨论题中选择 1 题作答。
+- **2024-2025 学年：**记录了 3 次钉钉签到；技术作业为 6 题选 1 题；文献阅读报告自由组队，从指定文献中选择一篇，在最后一次课汇报。
+- **2022-2023 学年：**理论讨论题为 10 题选 1 题，技术讨论题为 2 题选 1 题，另需阅读 1 篇文献。
 
 ## 分数构成
 
@@ -33,11 +35,11 @@
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">15<span>%</span></div>
-          <div class="course-score__body"><strong>技术作业</strong><p>讨论题作业，6 题选 1 题作答</p></div>
+          <div class="course-score__body"><strong>技术作业</strong><p>6 题选 1 题</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>出勤率及课堂表现</strong></div>
+          <div class="course-score__body"><strong>出勤率及课堂表现</strong><p>两项合并计分</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">60<span>%</span></div>
@@ -52,15 +54,15 @@
       <div class="course-score__items" role="list" aria-label="2024-2025 学年分数构成">
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">15<span>%</span></div>
-          <div class="course-score__body"><strong>出勤率及表现</strong><p>记录为 3 次钉钉签到</p></div>
+          <div class="course-score__body"><strong>出勤率及表现</strong><p>3 次钉钉签到</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>技术作业</strong><p>6 题选 1 题作答</p></div>
+          <div class="course-score__body"><strong>技术作业</strong><p>6 题选 1 题</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">15<span>%</span></div>
-          <div class="course-score__body"><strong>文献阅读报告</strong><p>自由组队，从指定文献中选择一篇，在最后一次课汇报</p></div>
+          <div class="course-score__body"><strong>文献阅读报告</strong><p>自由组队，末次课汇报</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">60<span>%</span></div>
@@ -75,15 +77,15 @@
       <div class="course-score__items" role="list" aria-label="2022-2023 学年分数构成">
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>出勤率及表现</strong></div>
+          <div class="course-score__body"><strong>出勤率及表现</strong><p>两项合并计分</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">20<span>%</span></div>
-          <div class="course-score__body"><strong>理论讨论题</strong><p>10 题选 1 题作答</p></div>
+          <div class="course-score__body"><strong>理论讨论题</strong><p>10 题选 1 题</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>技术讨论题</strong><p>2 题选 1 题作答</p></div>
+          <div class="course-score__body"><strong>技术讨论题</strong><p>2 题选 1 题</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
@@ -97,6 +99,10 @@
     </div>
 
 不同学年的平时任务和期末占比已有明显变化，应以当年课程通知为准。
+
+## 期末考试
+
+2022-2023、2024-2025 和 2025-2026 三个学年的记录均为闭卷。现有 2021-2022 至 2024-2025 四份期末回忆卷均记录为全中文、2 小时，卷面由选择题、简答题、问答题和案例分析题四部分组成。选择题是单选还是不定项会有变化；考试既涉及知识点记忆，也要求理解技术原理，并可能结合结构图、谱图或研究情境作答。
 
 ## 学习建议
 
