@@ -1,86 +1,106 @@
 # 基础医学科学研究技能Ⅰ
 
-!!! warning "页面重构中"
+这门课以分子生物学和细胞生物学的验证性实验为主，覆盖从 DNA 提取到蛋白质合成的实验流程。每个实验先由教师讲解相关理论，再由同学完成操作并撰写实验报告。后续的[技能Ⅱ](../basic_techniques_in_medical_sciences_2/index.md)则进一步学习大型科研仪器的原理和使用，以及数据的产生、处理与呈现。
 
-    本页面内容整理时间较早，部分信息可能已经过时；页面正在重新整理，请以最新课程通知为准。
+## 课程学习内容
 
-<div class="badges">
-<span class="badge is-badge">生物类课程</span>
-</div>
+实验围绕 DNA、蛋白质和细胞三个层面展开。
 
-线下实验课；24 级及以后调整至大一春学期
+??? note "展开查看往届实验内容"
+
+    - **DNA 与分子克隆：**DNA 提取、PCR、DNA 纯化与连接、细菌转化、质粒制备及酶切鉴定。
+    - **蛋白质表达与分析：**GFP 表达、SDS-PAGE、分子筛层析、比较蛋白质组研究和 Western blot。
+    - **细胞实验：**细胞培养与传代、转染、划痕、冻存与复苏，以及无菌操作。
+
+## 上课与平时任务
+
+每周两次课，每次三学时。课前完成一道知识考察题，部分课次在课前纸质签名，课堂互动和实验表现也计入成绩；每个实验后提交电子版实验报告。
 
 ## 分数构成
 
-=== "2024-2025 学年（24 级）"
+=== "2024-2025 春学期（24 级）"
 
-    <table class="percentage-table">
-        <tbody>
-            <tr><td class="first-column"><b>实验预习</b></td><td class="second-column">10%</td><td>课前完成一道知识考察题</td></tr>
-            <tr><td><b>出勤</b></td><td>10%</td><td>有几次课课前进行纸质签名</td></tr>
-            <tr><td><b>课堂表现</b></td><td>10%</td><td>根据课堂互动和实验表现评分</td></tr>
-            <tr><td><b>实验报告</b></td><td>30%</td><td>每个实验后提交电子版实验报告</td></tr>
-            <tr><td><b>期末考试</b></td><td>40%</td><td>闭卷</td></tr>
-        </tbody>
-    </table>
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="基础医学科学研究技能Ⅰ 2024-2025 春学期（24 级）分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>实验预习</strong><p>课前一道知识考察题</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>出勤</strong><p>部分课次签到</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>课堂表现</strong><p>课堂互动与实验表现</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">30<span>%</span></div>
+          <div class="course-score__body"><strong>实验报告</strong><p>每个实验一份</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">40<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷</p></div>
+        </div>
+      </div>
+    </div>
 
-=== "2024-2025 学年（23 级）"
+=== "2024-2025 冬学期（23 级）"
 
-    <table class="percentage-table">
-        <tbody>
-            <tr><td class="first-column"><b>实验预习</b></td><td class="second-column">10%</td><td>课前完成一道知识考察题</td></tr>
-            <tr><td><b>出勤</b></td><td>10%</td><td>有几次课课前进行纸质签名</td></tr>
-            <tr><td><b>课堂表现</b></td><td>10%</td><td>根据课堂互动和实验表现评分</td></tr>
-            <tr><td><b>实验报告</b></td><td>30%</td><td>每个实验后提交电子版实验报告</td></tr>
-            <tr><td><b>期末考试</b></td><td>40%</td><td>闭卷</td></tr>
-        </tbody>
-    </table>
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="基础医学科学研究技能Ⅰ 2024-2025 冬学期（23 级）分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>实验预习</strong><p>课前一道知识考察题</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>出勤</strong><p>部分课次签到</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>课堂表现</strong><p>课堂互动与实验表现</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">30<span>%</span></div>
+          <div class="course-score__body"><strong>实验报告</strong><p>每个实验一份</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">40<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷</p></div>
+        </div>
+      </div>
+    </div>
 
+## 期末考试
 
-## 学习内容
+期末为闭卷考试，题型包括选择题、排序题、计算题和分析题，具体回忆内容见[考试资料](exams/index.md)。
 
-课程以分子生物学和细胞生物学实验为主，覆盖从 DNA 提取到蛋白质合成的实验流程。每周安排 2 次课，每次 3 学时；教师先讲解实验原理，之后由学生自主完成实验并撰写报告。
+## 学习建议
 
-=== "实验操作"
+**操作时理解每一步。** 实验可以按照 protocol 完成，但仍要理解每一步的目的、关键条件和结果判断。
 
-    实验可以完全按照 protocol 完成，但仍需要理解每一步的目的、关键条件和结果判断。过程中记得及时拍照记录. 课堂表现、出勤与预习合计占 30%，实验过程本身不能完全忽略。
+**及时拍照记录，报告不要照搬。** 实验过程中及时拍照，可以参考往届报告的写法，实验结果和分析仍要根据自己的记录完成。
 
-=== "实验报告"
+**期末需要认真记忆和理解。** 把实验原理、步骤、关键试剂和结果分析背熟并理解，期末考试基本就能拿下。可以结合实验步骤与知识点总结复习，再用历年卷检查遗漏。
 
-    实验报告占总评 30%，每个实验后都要提交电子版。可以参考往届报告, 但别照搬。
+## 资料
 
-=== "期末考试"
-
-    期末考试占 40%，采用闭卷形式。现有经验认为考试需要认真记忆，复习时应把实验原理、步骤、关键试剂和结果分析放在一起整理并理解。
-
-
-## 现有资料
-
-<div class="table-container">
-    <table class="resource-table">
-        <thead><tr><th>资源名称</th><th>资源类型</th><th>站外资源</th><th>本站资源</th></tr></thead>
-        <tbody>
-            <tr><td>2025-2026 学年春学期期末回忆卷（25 级）</td><td>历年卷</td><td>无</td><td><a href="exams/2025-2026-final-exam-recall.md">查看</a></td></tr>
-            <tr><td>资料分享（实验报告）</td><td>经验与资料</td><td><a href="https://www.cc98.org/topic/6228916">CC98</a></td><td>无</td></tr>
-            <tr><td>2024-2025 学年冬学期期末回忆卷（23 级）</td><td>历年卷</td><td><a href="https://www.cc98.org/topic/6089971">CC98</a></td><td><a href="exams/2024-2025-final-exam-recall/">查看</a></td></tr>
-            <tr><td>2024-2025 学年春学期期末回忆卷（24 级）</td><td>历年卷</td><td><a href="https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/2024-2025%E5%AD%A6%E5%B9%B4%E6%98%A5%E5%AD%A6%E6%9C%9F%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%8A%80%E8%83%BD%20I%20%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/2024-2025%E5%AD%A6%E5%B9%B4%E6%98%A5%E5%AD%A6%E6%9C%9F%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%8A%80%E8%83%BD%20I%20%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95.html">杨树の宝藏小屋</a></td><td>无</td></tr>
-        </tbody>
-    </table>
-</div>
-
-## 往届经验
-
-23级匿名
-
-> 实验整体不难，按照 protocol 完成即可。期末考试需要认真背诵，复习时应重点准备。实验报告有往届材料可以参考，但应确保把名字修改成自己的。
-> 老师比较外向，课堂氛围轻松活跃。
+<nav class="course-links" aria-label="课程资料">
+  <a class="course-link" href="exams/">
+    <strong>考试资料</strong>
+    <small>23—25 级的期末回忆卷与试题入口</small>
+  </a>
+  <a class="course-link" href="https://www.cc98.org/topic/6228916">
+    <strong>实验报告分享</strong>
+    <small>2024-2025 春学期，CC98 站外资料</small>
+  </a>
+  <a class="course-link" href="https://www.yuque.com/zo3l5e/qsw4sg/24845938">
+    <strong>实验步骤与知识点整理</strong>
+    <small>语雀站外资料</small>
+  </a>
+</nav>
 
 ## 课程信息
 
-- **课程内容：** 分子生物学和细胞生物学实验，涵盖从 DNA 提取到蛋白质合成的流程；
-- **预修要求：** 无；
-- **参考教材：**《基础医学科学研究技能》，王迪、程洪强、方瑜。无需购买
-
-## 尚待补充
-
-- 2025-2026 学年的课程组通知和分数构成；
+- **参考教材：**《基础医学科学研究技能》，王迪、程洪强、方瑜。无需购买。
