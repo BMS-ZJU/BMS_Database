@@ -138,7 +138,7 @@
 
 <nav class="course-links" aria-label="课程资料">
   <a class="course-link" href="quizzes/">
-    <strong>解剖学标本测验</strong>
+    <strong>解剖学实验考试</strong>
     <small>2024-2025 学在浙大原网页整理、2025-2026 回忆整理</small>
   </a>
   <a class="course-link" href="exams/">
