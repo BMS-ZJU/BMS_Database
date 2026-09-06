@@ -72,8 +72,11 @@ nav:
       - 课程主页: mandatory/medical_life_fundamentals/index.md
       - 考试资料:
         - mandatory/medical_life_fundamentals/exams/index.md
+        - 2024-2025 期末试题及答案（老师版）: mandatory/medical_life_fundamentals/exams/2024-2025-final-exams.md
         - 2024-2025 秋冬期末回忆卷（站外）: https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E5%9B%9E%E5%BF%86%E5%8D%B7.html
+        - 2022-2023 生命科学基础回忆卷: mandatory/medical_life_fundamentals/exams/2022-2023-exam-recall.md
         - 2021-2022 秋冬 A/B 卷及答案（生命科学基础）: mandatory/medical_life_fundamentals/exams/2021-2022-final-exams.md
+        - 2020-2021 生命科学基础缓考回忆卷: mandatory/medical_life_fundamentals/exams/2020-2021-deferred-exam-recall.md
         - 2020-2021 秋冬期末回忆卷（生命科学基础）: mandatory/medical_life_fundamentals/exams/2020-2021-final-exam-recall.md
     - 医学科学素养Ⅰ: mandatory/medical_research_literacy_1/index.md
     - 医学科学素养Ⅱ:
