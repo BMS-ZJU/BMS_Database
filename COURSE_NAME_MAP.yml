@@ -2,8 +2,8 @@
 #
 # 用途：后续维护任务收到中文课程名时，先用本文件定位正式课程目录。
 # chinese_name / english_name 来自浙江大学教务网“课程信息查看”；
-# course_code 由本地 2020—2026 级基础医学培养方案核对，用于排除同名课程。
-# path 是 E:\BMS_Database\docs 下的现有相对目录，不随英文名自动改名；
+# course_code 由 2020—2026 级基础医学培养方案核对，用于排除同名课程。
+# path 是仓库 docs/ 下的现有相对目录，不随英文名自动改名；
 # 尚未建立课程页面的课程统一放在 curriculum_only_courses，path 为 null。
 #
 # 核对日期：2026-08-27
@@ -12,7 +12,7 @@
 version: 1
 verified_on: 2026-08-27
 sources:
-  curriculum: E:\Codex\BMS_Database\tasks\2026-08-26-navigation-classification-audit\extracted
+  curriculum: 浙江大学 2020—2026 级基础医学培养方案（2026-08-26 提取核对）
   english_names: 浙江大学教务网 > 培养方案 > 课程信息查看
 
 courses:

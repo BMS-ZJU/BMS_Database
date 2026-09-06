@@ -5,6 +5,24 @@ repo_name: BMS-ZJU/BMS_Database
 repo_url: https://github.com/BMS-ZJU/BMS_Database
 edit_uri: edit/main/docs/
 
+draft_docs: |
+  freshman/**
+
+exclude_docs: |
+  _templates/**
+  others/**
+  policy/**
+  **/*.inc
+
+not_in_nav: |
+  mandatory/index.md
+  elective/index.md
+  error.md
+
+validation:
+  nav:
+    omitted_files: warn
+
 theme:
   name: material
   language: zh
@@ -55,8 +73,8 @@ nav:
       - 考试资料:
         - mandatory/medical_life_fundamentals/exams/index.md
         - 2024-2025 秋冬期末回忆卷（站外）: https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E5%9B%9E%E5%BF%86%E5%8D%B7.html
-        - 2021-2022 秋冬 A/B 卷及答案: mandatory/medical_life_fundamentals/exams/2021-2022-final-exams.md
-        - 2020-2021 秋冬期末回忆卷: mandatory/medical_life_fundamentals/exams/2020-2021-final-exam-recall.md
+        - 2021-2022 秋冬 A/B 卷及答案（生命科学基础）: mandatory/medical_life_fundamentals/exams/2021-2022-final-exams.md
+        - 2020-2021 秋冬期末回忆卷（生命科学基础）: mandatory/medical_life_fundamentals/exams/2020-2021-final-exam-recall.md
     - 医学科学素养Ⅰ: mandatory/medical_research_literacy_1/index.md
     - 医学科学素养Ⅱ:
       - 课程主页: mandatory/medical_science_literacy_2/index.md
@@ -115,6 +133,8 @@ nav:
       - 课程主页: mandatory/structure_and_function_of_the_human_body/index.md
       - 解剖学标本测验:
         - mandatory/structure_and_function_of_the_human_body/quizzes/index.md
+        - 2025-2026 学年春学期解剖学标本测验（回忆整理）: mandatory/structure_and_function_of_the_human_body/quizzes/2025-2026-spring-anatomy-test.md
+        - 2025-2026 学年夏学期解剖学标本测验（回忆整理）: mandatory/structure_and_function_of_the_human_body/quizzes/2025-2026-summer-anatomy-test.md
         - 2024-2025 学年春学期解剖学标本测验: mandatory/structure_and_function_of_the_human_body/quizzes/2024-2025-spring-anatomy-test.md
         - 2024-2025 学年夏学期解剖学标本测验: mandatory/structure_and_function_of_the_human_body/quizzes/2024-2025-summer-anatomy-test.md
       - 考试资料:
@@ -226,7 +246,7 @@ nav:
       - 课程主页: elective/strategy_and_application_in_cancer_research/index.md
       - 考试资料:
         - elective/strategy_and_application_in_cancer_research/exams/index.md
-        - 2024-2025 春夏期末回忆卷: elective/strategy_and_application_in_cancer_research/exams/2024-2025-final-exam-recall.md
+        - 2024-2025 夏期末回忆卷: elective/strategy_and_application_in_cancer_research/exams/2024-2025-final-exam-recall.md
     - 微生物学与免疫学前沿技术:
       - 课程主页: elective/advanced_technology_in_microbiology_and_immunology/index.md
       - 考试资料:
@@ -253,8 +273,6 @@ nav:
       - 考试资料:
         - elective/social_medicine_b/exams/index.md
         - 2024-2025 春期末回忆卷: elective/social_medicine_b/exams/2024-2025-final-exam-recall.md
-  - 资料查找:
-    - study-resources/index.md
   - 本科生轮转:
     - rotation/index.md
   - 飞跃专题:
@@ -308,10 +326,8 @@ extra_javascript:
   - javascripts/katex.js
   - javascripts/quiz-answers.js
   - javascripts/course-navigation.js
-  - javascripts/resource-finder.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
   - css/styles.css
-  - css/resource-finder.css
   - https://unpkg.com/katex@0/dist/katex.min.css

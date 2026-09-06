@@ -1,9 +1,20 @@
 # Generated site output
 /site/
 
-# Local source and reference directories
-/TuringCourses-master/
-/update/
+# Local environments and caches
+/.venv/
+/venv/
+/.cache/
+**/__pycache__/
+*.py[cod]
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.swp
+*.swo
 
 # Local maintenance context
 /.agents/
@@ -11,6 +22,3 @@
 /AGENTS.md
 /ROADMAP.md
 /HANDOFF.md
-/CONTRIBUTING.md
-/requirements.txt
-/docs/_templates/

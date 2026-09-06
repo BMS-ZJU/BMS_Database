@@ -17,9 +17,11 @@
 
 ## 上课与平时任务
 
-近年的平时任务包括解剖学和组织学实验作业、生理学实验、科学研究思维分析报告、知识整合思维导图，以及春、夏学期各一次的解剖学和组织学实验考试。科学研究思维分析报告围绕神经、运动与心血管系统，知识整合思维导图围绕消化、呼吸、泌尿与生殖系统。
+近两个学年的平时任务均包括 11 次解剖学作业、9 次组织学实验报告、2 次生理学实验报告、3 次科学研究思维分析报告和 4 次知识整合思维导图。科学研究思维分析报告围绕神经、运动与心血管系统，知识整合思维导图围绕消化、呼吸、泌尿与生殖系统。
 
-实验考试形式会随年级变化。2024-2025 学年的解剖学实验考试记录为线上作答；2025-2026 学年改为线下，由教师依次放映图片，同学在纸上作答；据提供材料的同学回忆，春学期测验每张图停留 40 秒。该学年的组织学实验考试仍为线上形式。
+解剖学和组织学实验考试在春、夏学期各安排一次，具体形式会随学年变化。2025-2026 学年，解剖学实验考试每次占 4%，改为线下看图作答，由教师依次放映图片，每张图停留 40 秒，同学在纸上填写答案。组织学实验考试每次占 6%，仍在线上完成。
+
+2024-2025 学年，两次解剖学实验考试均为线上填空，记录为在 15 分钟内作答；两次组织学实验考试均为线上选择题，可以在 7:00—23:00 间任选连续 40 分钟作答。
 
 实验课可能分上午和下午进行。可以在有冲突时协调换组。
 
@@ -43,23 +45,23 @@
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">27<span>%</span></div>
-          <div class="course-score__body"><strong>科学研究思维分析报告</strong><p>共 3 次，围绕神经、运动与心血管系统</p></div>
+          <div class="course-score__body"><strong>科学研究思维分析报告</strong><p>共 3 次</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">12<span>%</span></div>
-          <div class="course-score__body"><strong>知识整合思维导图</strong><p>共 4 次，围绕消化、呼吸、泌尿与生殖系统</p></div>
+          <div class="course-score__body"><strong>知识整合思维导图</strong><p>共 4 次</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">8<span>%</span></div>
-          <div class="course-score__body"><strong>解剖学实验考试</strong><p>春、夏各 1 次，每次 4%；该学年改为线下看图作答</p></div>
+          <div class="course-score__body"><strong>解剖学实验考试</strong><p>春、夏各占 4%</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">12<span>%</span></div>
-          <div class="course-score__body"><strong>组织学实验考试</strong><p>春、夏各 1 次，每次 6%；该学年仍为线上</p></div>
+          <div class="course-score__body"><strong>组织学实验考试</strong><p>春、夏各占 6%</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">30<span>%</span></div>
-          <div class="course-score__body"><strong>期末考试</strong><p>笔试，双语，包括选择题和问答题</p></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>笔试，中英双语</p></div>
         </div>
       </div>
     </div>
@@ -82,28 +84,33 @@
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">27<span>%</span></div>
-          <div class="course-score__body"><strong>科学研究思维分析报告</strong><p>共 3 次，围绕神经、运动与心血管系统</p></div>
+          <div class="course-score__body"><strong>科学研究思维分析报告</strong><p>共 3 次</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">12<span>%</span></div>
-          <div class="course-score__body"><strong>知识整合思维导图</strong><p>共 4 次，围绕消化、呼吸、泌尿与生殖系统</p></div>
+          <div class="course-score__body"><strong>知识整合思维导图</strong><p>共 4 次</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">8<span>%</span></div>
-          <div class="course-score__body"><strong>解剖学实验考试</strong><p>春、夏各 1 次；线上填空，记录为 15 分钟内作答</p></div>
+          <div class="course-score__body"><strong>解剖学实验考试</strong><p>春、夏各占 4%，线上</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">12<span>%</span></div>
-          <div class="course-score__body"><strong>组织学实验考试</strong><p>春、夏各 1 次；线上选择题，在 7:00—23:00 间任选连续 40 分钟作答</p></div>
+          <div class="course-score__body"><strong>组织学实验考试</strong><p>春、夏各占 6%，线上</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">30<span>%</span></div>
-          <div class="course-score__body"><strong>期末考试</strong><p>闭卷，仅涉及夏学期内容，中英文题目约各半</p></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷，仅考夏学期</p></div>
         </div>
       </div>
     </div>
 
 两个学年的比例记录目前相同，但实验考试形式已经变化，期末范围也仍须逐年核对，应以当年课程通知为准。
+
+## 近年期末考试
+
+- **2025-2026 学年：**闭卷，仅涉及夏学期内容，中英文题目约各半。
+- **2024-2025 学年：**闭卷，仅涉及夏学期内容，中英文题目约各半，题型包括选择题，简答题, 分析题。
 
 ## 学习建议
 
@@ -132,7 +139,7 @@
 <nav class="course-links" aria-label="课程资料">
   <a class="course-link" href="quizzes/">
     <strong>解剖学标本测验</strong>
-    <small>2024-2025 课程平台记录</small>
+    <small>2024-2025 学在浙大原网页整理、2025-2026 回忆整理</small>
   </a>
   <a class="course-link" href="exams/">
     <strong>期末考试</strong>

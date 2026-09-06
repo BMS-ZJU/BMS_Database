@@ -8,15 +8,18 @@
 
 ## 本地预览
 
+使用 Python 3.12 创建独立环境。Windows 可以运行：
+
 ```powershell
-python -m pip install mkdocs-material==9.7.6
-python -m mkdocs serve
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m mkdocs serve
 ```
 
 提交前建议运行严格构建：
 
 ```powershell
-python -m mkdocs build --strict
+.\.venv\Scripts\python.exe -m mkdocs build --strict
 ```
 
-课程事实应以课程组通知、课件和原始作业要求为依据；无法确认的信息请标记为“待补充”。
+课程事实应以课程组通知、课件和原始作业要求为依据；无法确认的内容不得猜测，正式页面省略，核查事项留在维护记录。具体维护方式见 [CONTRIBUTING.md](CONTRIBUTING.md) 和 [COURSE_HOMEPAGE_GUIDE.md](COURSE_HOMEPAGE_GUIDE.md)。

@@ -8,7 +8,7 @@ hide:
 
 <div class="grid cards course-resource-grid" markdown>
 
--   **2024-2025 学年春夏学期期末回忆卷**
+-   **2024-2025 学年夏学期期末回忆卷**
 
     ---
 
