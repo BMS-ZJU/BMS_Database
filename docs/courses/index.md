@@ -5,7 +5,18 @@ comments: false
 
 # 课程资料
 
-课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请到[培养方案](../curricula/index.md)中查看。因此，本页按 2026 级建议修读学年整理，不再给课程贴固定分类；只在往届方案中出现的课程归入“历年课程”。已有本站页面的课程可点击进入，没有页面的课程保留课程号并标为“暂无资料”。
+<details class="course-catalog-guide" markdown="1">
+<summary>课程资料说明与站外参考</summary>
+
+课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请到[培养方案](../curricula/index.md)中查看。因此，本页按 2026 级建议修读学年整理，不再给课程贴固定分类；只在往届方案中出现的课程归入“历年课程”。课程名链接可进入本站资料；仅有站外相关课程经验的条目标为“不同课程参考”，并单独列出链接；其余课程保留课程号并标为“暂无资料”。
+
+本站主要整理基础医学专业课程与科研学习经验。思政军体、通识课程的学习经验，可参考[图灵班学习指南](https://zju-turing.github.io/TuringCourses/)。部分数理基础课程也提供站外参考入口。阅读时请留意课程版本、任课教师和学年的差异，具体修读与考核要求以本专业培养方案和当年课程通知为准。
+
+线性代数参考链接介绍Ⅰ、Ⅱ（H），与本专业的线性代数（乙）版本不同；概统参考链接介绍“概率论和数理统计”，与本专业的“概率论与数理统计”并非同一门课，教学侧重和考核要求不同。
+
+</details>
+
+<p class="course-catalog-guide-links">图灵班指南：<a href="https://zju-turing.github.io/TuringCourses/political/">思政军体 ↗</a> · <a href="https://zju-turing.github.io/TuringCourses/general/">通识选修 ↗</a> · <a href="https://zju-turing.github.io/TuringCourses/math_phys/">数理基础 ↗</a></p>
 
 <div class="course-catalog-toolbar">
   <label for="course-catalog-search">查找课程</label>
@@ -13,7 +24,7 @@ comments: false
     <input id="course-catalog-search" type="search" placeholder="输入课程名、课程号或英文名" autocomplete="off" data-course-search-input>
     <span class="course-catalog-counts">
       <span class="course-catalog-count" data-course-count>139 门课程</span>
-      <small>39 门有资料 · 100 门暂无资料</small>
+      <small>39 门本站资料 · 2 门相关参考 · 98 门暂无资料</small>
     </span>
   </div>
 </div>
@@ -26,7 +37,7 @@ comments: false
 
 ## 大一
 
-<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 3">
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 4">
   <a class="course-catalog-item" data-course-search="医学生命基础 MED1001M Medical Life Fundamentals 考试" href="../mandatory/medical_life_fundamentals/">
     <span class="course-catalog-name">医学生命基础</span>
     <span class="course-catalog-meta">MED1001M · 2.5 学分 · 考试</span>
@@ -51,18 +62,18 @@ comments: false
     <span class="course-catalog-name">物理化学</span>
     <span class="course-catalog-meta">CHEM2001F · 4.0 学分 · 考试</span>
   </a>
+  <div class="course-catalog-item" data-course-search="线性代数（乙） MATH1233G Linear Algebra (B) MATH1233G 图灵班 相关课程参考">
+    <span class="course-catalog-name">线性代数（乙）<em class="course-catalog-status">不同课程参考</em></span>
+    <span class="course-catalog-meta">MATH1233G · 3.0 学分 · <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra1/" title="图灵班线性代数Ⅰ（H），与线性代数（乙）不是同一版本">图灵 H 版Ⅰ ↗</a> / <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra2/" aria-label="图灵班线性代数Ⅱ（H）学习指南（不同课程参考）" title="图灵班线性代数Ⅱ（H），与线性代数（乙）不是同一版本">Ⅱ ↗</a></span>
+  </div>
 </div>
 
 <details class="course-catalog-unavailable" data-course-unavailable-group>
-  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>3 门</span></summary>
-  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 2">
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>2 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 1">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医工交叉融合中的人工智能 MED2084M Artificial Intelligence in Medical-Engineering Interdisciplinary Integration MED2084M">
     <span class="course-catalog-name">医工交叉融合中的人工智能<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MED2084M · 2.0 学分</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="线性代数（乙） MATH1233G Linear Algebra (B) MATH1233G">
-    <span class="course-catalog-name">线性代数（乙）<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">MATH1233G · 3.0 学分</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="演化医学理论及应用 MED1085M Principle and application of evolutionary medicine 18198090 MED1004M MED1085M">
     <span class="course-catalog-name">演化医学理论及应用<em class="course-catalog-status">暂无资料</em></span>
@@ -130,18 +141,18 @@ comments: false
     <span class="course-catalog-name">教育统计学</span>
     <span class="course-catalog-meta">EDU2007M · 2.0 学分 · 课程主页</span>
   </a>
+  <div class="course-catalog-item" data-course-search="概率论与数理统计 MATH2432F Probability and Mathematical Statistics MATH2432F 图灵班 相关课程参考">
+    <span class="course-catalog-name">概率论与数理统计<em class="course-catalog-status">不同课程参考</em></span>
+    <span class="course-catalog-meta">MATH2432F · 2.5 学分 · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></span>
+  </div>
 </div>
 
 <details class="course-catalog-unavailable" data-course-unavailable-group>
-  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>9 门</span></summary>
-  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 5">
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>8 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 4">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="分析化学（乙） CHEM1002F Analytical Chemistry (Ⅱ) CHEM1002F">
     <span class="course-catalog-name">分析化学（乙）<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">CHEM1002F · 2.0 学分</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="概率论与数理统计 MATH2432F Probability and Mathematical Statistics MATH2432F">
-    <span class="course-catalog-name">概率论与数理统计<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">MATH2432F · 2.5 学分</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="科学写作与表达 MED1312M Academic Writing And Presentation 18198020 MED1312M">
     <span class="course-catalog-name">科学写作与表达<em class="course-catalog-status">暂无资料</em></span>

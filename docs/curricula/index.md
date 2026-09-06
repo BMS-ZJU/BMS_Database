@@ -10,7 +10,7 @@ hide:
 <p class="curriculum-lead">不同入学年级和班型的课程修读要求差异较大，本站因此按培养方案整理课程。请先选择入学年级，再选择班型；课程号、学分和建议学期均按对应方案记录。</p>
 
 <div class="curriculum-context">
-  <p><strong>课程资料</strong><span>可点击的课程名已有本站资料；“暂无资料”表示本站尚无独立页面。</span></p>
+  <p><strong>课程资料</strong><span>课程名链接进入本站资料；“不同课程参考”链接到图灵班其他版本，教学与考核要求需区分；其余标为“暂无资料”。</span></p>
   <p><strong>版本范围</strong><span>收录 2019—2026 级共 16 个方案版本，同一年级不同班型分别整理。</span></p>
 </div>
 
@@ -78,10 +78,10 @@ hide:
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1085M · 2.5 学分 · 一（春）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>线性代数（乙）<em class="curriculum-course-status">暂无资料</em></span><small>MATH1233G · 3.0 学分 · 一（春夏）</small></div>
+          <div class="curriculum-course-item"><span>线性代数（乙）<em class="curriculum-course-status">不同课程参考</em></span><small>MATH1233G · 3.0 学分 · 一（春夏） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra1/" title="图灵班线性代数Ⅰ（H），与线性代数（乙）不是同一版本">图灵 H 版Ⅰ ↗</a> / <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra2/" aria-label="图灵班线性代数Ⅱ（H）学习指南（不同课程参考）" title="图灵班线性代数Ⅱ（H），与线性代数（乙）不是同一版本">Ⅱ ↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化发育生物学与医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2087M · 1.5 学分 · 二（秋）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>概率论与数理统计<em class="curriculum-course-status">暂无资料</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>概率论与数理统计<em class="curriculum-course-status">不同课程参考</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能（进阶）<em class="curriculum-course-status">暂无资料</em></span><small>MED2086M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>分析化学（乙）<em class="curriculum-course-status">暂无资料</em></span><small>CHEM1002F · 2.0 学分 · 二（冬）</small></div>
@@ -223,10 +223,10 @@ hide:
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1085M · 2.5 学分 · 一（春）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>线性代数（乙）<em class="curriculum-course-status">暂无资料</em></span><small>MATH1233G · 3.0 学分 · 一（春夏）</small></div>
+          <div class="curriculum-course-item"><span>线性代数（乙）<em class="curriculum-course-status">不同课程参考</em></span><small>MATH1233G · 3.0 学分 · 一（春夏） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra1/" title="图灵班线性代数Ⅰ（H），与线性代数（乙）不是同一版本">图灵 H 版Ⅰ ↗</a> / <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra2/" aria-label="图灵班线性代数Ⅱ（H）学习指南（不同课程参考）" title="图灵班线性代数Ⅱ（H），与线性代数（乙）不是同一版本">Ⅱ ↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化发育生物学与医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2087M · 1.5 学分 · 二（秋）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>概率论与数理统计<em class="curriculum-course-status">暂无资料</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>概率论与数理统计<em class="curriculum-course-status">不同课程参考</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能（进阶）<em class="curriculum-course-status">暂无资料</em></span><small>MED2086M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>分析化学（乙）<em class="curriculum-course-status">暂无资料</em></span><small>CHEM1002F · 2.0 学分 · 二（冬）</small></div>
@@ -524,7 +524,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1085M · 2.5 学分 · 一（春）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>概率论与数理统计<em class="curriculum-course-status">暂无资料</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>概率论与数理统计<em class="curriculum-course-status">不同课程参考</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>分析化学（乙）<em class="curriculum-course-status">暂无资料</em></span><small>CHEM1002F · 2.0 学分 · 二（冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
@@ -660,7 +660,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1085M · 2.5 学分 · 一（春）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>概率论与数理统计<em class="curriculum-course-status">暂无资料</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>概率论与数理统计<em class="curriculum-course-status">不同课程参考</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>分析化学（乙）<em class="curriculum-course-status">暂无资料</em></span><small>CHEM1002F · 2.0 学分 · 二（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学统计学<em class="curriculum-course-status">暂无资料</em></span><small>MED2424M · 2.0 学分 · 二（春）</small></div>
@@ -829,7 +829,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1004M · 2.0 学分 · 一（春）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>概率论与数理统计<em class="curriculum-course-status">暂无资料</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>概率论与数理统计<em class="curriculum-course-status">不同课程参考</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学统计学<em class="curriculum-course-status">暂无资料</em></span><small>MED2424M · 2.0 学分 · 二（春）</small></div>
@@ -970,7 +970,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1004M · 2.0 学分 · 一（春）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>概率论与数理统计<em class="curriculum-course-status">暂无资料</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>概率论与数理统计<em class="curriculum-course-status">不同课程参考</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学统计学<em class="curriculum-course-status">暂无资料</em></span><small>MED2424M · 2.0 学分 · 二（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>LAW1002F · 3.0 学分 · 二（春夏）</small></div>
