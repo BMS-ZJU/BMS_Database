@@ -1,113 +1,104 @@
 # 医学生命基础
 
-!!! warning "页面重构中"
+课程由多位教师分模块授课，采用线下理论课、课堂展示和讨论互动课（workshop），中英文混合。内容涉及细胞、生命化学基础、微生物、人体系统、人类学与生命演化等，覆盖面广，各模块讲得相对浅。
 
-    本页面内容整理时间较早，部分信息可能已经过时；页面正在重新整理，请以最新课程通知为准。
+## 上课与平时任务
 
-<div class="badges">
-<span class="badge is-badge">生物类课程</span>
-</div>
+往年的课程记录中，非外教老师通常先讲一次理论课，再安排一次分组文献展示。外教课程则将全班分为三组，前两次课进行理论讲解，各组之后分别参加一次 workshop。实际安排可能与课表显示不同，需要留意课程通知；往年没有固定的点名时间。
 
-线下理论课结合讨论互动课（workshop），中英文混合授课
+- **2025-2026 学年：**平时有多次展示、学在浙大的简答任务和课程论文。
+- **2024-2025 学年：**讨论课包括外教 workshop 和其他老师安排的展示，另有约 1000 字的小论文。
 
 ## 分数构成
 
+=== "2025-2026 学年"
+
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="医学生命基础 2025-2026 学年分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">30<span>%</span></div>
+          <div class="course-score__body"><strong>展示与课堂表现</strong><p>平时展示及课堂参与</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">30<span>%</span></div>
+          <div class="course-score__body"><strong>课程论文</strong><p>计入平时成绩</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">40<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>中英文混合</p></div>
+        </div>
+      </div>
+    </div>
+
 === "2024-2025 学年"
 
-    <table class="percentage-table">
-        <tbody>
-            <tr>
-                <td class="first-column"><b>讨论课</b></td>
-                <td class="second-column">20%</td>
-                <td>包括外教 workshop 和其他教师安排的课堂展示</td>
-            </tr>
-            <tr>
-                <td><b>小论文</b></td>
-                <td>30%</td>
-                <td>约 1000 字</td>
-            </tr>
-            <tr>
-                <td><b>期末考试</b></td>
-                <td>60%</td>
-                <td>闭卷，中英文混合</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="医学生命基础 2024-2025 学年分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">20<span>%</span></div>
+          <div class="course-score__body"><strong>讨论课</strong><p>展示与 workshop</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">30<span>%</span></div>
+          <div class="course-score__body"><strong>小论文</strong><p>约 1000 字</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">60<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷笔试</p></div>
+        </div>
+      </div>
+    </div>
 
-    本学年三部分原始占比合计为 110%，最终成绩按百分制折算。
+    该学年三部分占比合计为 110%，最终成绩按百分制折算。
 
+## 期末考试
 
-## 学习重点
+期末考试为中英文混合，题型包括选择题 10 题（30 分）、简答题 4 题（40 分）、论述题 2 题（30 分）。
 
-课程由多位教师分模块授课，内容涉及细胞、生命化学基础、病毒、细菌、原生动物、真菌、人体系统、人类学和生命演化等主题。不同教师负责的内容跨度较大，期末考试也会同时出现中文题和英文题。
+2024-2025 学年为闭卷笔试。该学年的[老师版试题](exams/2024-2025-final-exams.md)中，简答题既有英文问答，也有用中文概述英文材料的题目。
 
-=== "课程内容"
+## 学习建议
 
-    每位教师的理论课内容和展示安排相对独立。复习时需要先按教师或主题划分范围，再把细胞与分子基础、微生物、人体结构功能和演化等内容分别整理，避免只复习自己更熟悉的部分。
+**第一次做文献展示，可以先翻看往年智云了解大致流程。** 如果是小组合作，小组尽早分好任务、定好截止时间；组长除了分配工作，也要审核组员提交的内容，别把未经检查的 AI 输出直接拼成 PPT。小论文也不应完全交由 AI 生成。
 
-=== "讨论与展示"
+**负责上台展示的同学最好提前熟悉要讲的内容，有条件的话先完整演练一遍。** 展示效果的关键，还是上台讲的同学。
 
-    非外教课程通常先进行理论讲授，再由学生按指定文献分组展示。外教课程的安排不同，全班分为三组，前两节进行理论讲解，之后各组分别参加一节 workshop。实际安排可能与课表显示不完全一致。
+### 愿意平时跟着学的同学
 
-=== "期末考试"
+课程内容多而杂，不同老师的讲课方式也有差异。平时可以按老师或模块整理 PPT，记下英文术语和课堂强调的内容，避免期末才从头寻找材料。
 
-    2024-2025 学年期末考试共 16 题，满分 100 分，时间 2 小时，包括 10 道选择题、4 道简答题和 2 道论述题。题目覆盖课堂中的多个模块，中英文混合。
+复习以课件为主，再用历年卷熟悉题型。人类学部分占比较多，英文题生词也多，专业词汇需要提前熟悉；具体范围仍以当年课程为准。
 
-## 学习方法
+### 只想在期末补天的同学
 
-=== "平时学习"
+平时的课可以完全不听，但展示要好好做。期末前翻阅课件和钉钉群里的提纲，大概记住一些内容，不过别指望记住的内容和考题有太多重合。考前睡个好觉，考试时尽量多写点相关内容。
 
-    可以按每位教师负责的模块分别整理课程 PPT，记录该部分的核心概念、英文术语和课堂强调内容。由于课程主题跨度较大，等到期末再从头串联所有模块会比较吃力。
+<!--
+展示教程暂存，后续完善。
 
-=== "讨论课与小论文"
+准备展示时可以按“问题背景—重要发现—基本原理—相关应用—仍待讨论的问题”组织内容。
 
-    准备展示或 workshop 时，应先确认分组、指定文献、课堂时间和提交要求。小论文约 1000 字，具体选题和评分标准仍需补充，开始写作前应以当年通知为准。
+我建议再加一些关于课堂展示的内容, 等以后紫金港速通页面正式建设起来可以迁移过去
 
-=== "考前复习"
+### 演讲者视图与投影
 
-    复习时可以先按授课模块完整回看课件，再用 2021-2022 A/B 卷和 2024-2025 回忆卷熟悉题型。英文材料和专业词汇应提前阅读，避免在闭卷考试中因题干理解影响作答。
+PPT中不宜出现过多文字, 所以不建议将所有要讲的内容都一字一句罗列在PPT上, 但是展示也不建议拿稿, 拿手机照着读, 比较好的办法是开启演讲者视图和投影中的扩展模式
+演讲者视图可以让你面前的屏幕显示当前展示的slide, 该页slide的备注, 下一页slide的预览, 已展示时长等内容![alt text](image.png), 而观众看到的只有正常的该页slide....
+开启方法(以Microsoft365版power point为例): 顶部导航栏-使用演讲者视图
+同时需要确保投影模式为扩展: win+P, 选择扩展
 
-## 现有资料
+我记得邓焯曾经作过一个关于ai制作ppt的分享, 不知道能否邀请她来写一些东西
+-->
 
-<div class="table-container">
-    <table class="resource-table">
-        <thead>
-            <tr>
-                <th>资源名称</th>
-                <th>资源类型</th>
-                <th>站外资源</th>
-                <th>本站资源</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2024-2025 秋冬学期期末回忆卷</td>
-                <td>历年卷</td>
-                <td><a href="https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E5%9B%9E%E5%BF%86%E5%8D%B7.html">查看</a></td>
-                <td>无</td>
-            </tr>
-            <tr>
-                <td>2021-2022 秋冬学期 A/B 卷及参考答案</td>
-                <td>试卷与参考答案</td>
-                <td>无</td>
-                <td><a href="exams/2021-2022-final-exams/">查看</a></td>
-            </tr>
-            <tr>
-                <td>2020-2021 学年期末回忆卷（原“生命科学基础”）</td>
-                <td>历年卷</td>
-                <td><a href="https://www.cc98.org/topic/5030709">CC98</a></td>
-                <td><a href="exams/2020-2021-final-exam-recall/">查看</a></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+## 资料
 
-如果资源损坏或链接失效，请先查看本站的[常见问题解答](../../error.md)，仍然无法解决时再联系网站管理员。
+- [考试资料](exams/index.md)：医学生命基础 2024-2025 学年的老师版试题及答案、站外回忆卷，以及生命科学基础的历年试卷和缓考回忆。
+
+!!! info "生命科学基础与医学生命基础"
+
+    生命科学基础为 3 学分，后来改革为 2.5 学分的医学生命基础，两门课不能直接视为同一门课程。2020-2021 至 2022-2023 学年的资料属于生命科学基础，使用时应注意课程内容和考核要求的差异。
 
 ## 课程信息
 
-- **预修基础：** 高中生物；
-- **参考教材：**《Campbell Biology》第 12 版；无需购买
-- **教材使用：** 课程与教材联系不紧密，教材主要作为参考。
-
-## 尚待补充
+- **提前修读建议：**虽然建议晚修，但这门课是基础医学同学不得不吃的第一坨，所以建议大一修读。
+- **参考教材：**《Campbell Biology》第 12 版，无需专门购买；课程与教材联系不紧密，以课件为主。
