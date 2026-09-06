@@ -53,15 +53,15 @@
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">8<span>%</span></div>
-          <div class="course-score__body"><strong>解剖学实验考试</strong><p>春、夏各占 4%</p></div>
+          <div class="course-score__body"><strong>解剖学实验考试</strong><p>春、夏各占 4%，线下</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">12<span>%</span></div>
-          <div class="course-score__body"><strong>组织学实验考试</strong><p>春、夏各占 6%</p></div>
+          <div class="course-score__body"><strong>组织学实验考试</strong><p>春、夏各占 6%，线上</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">30<span>%</span></div>
-          <div class="course-score__body"><strong>期末考试</strong><p>笔试，中英双语</p></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷，中英双语，只考夏学期</p></div>
         </div>
       </div>
     </div>
@@ -100,7 +100,7 @@
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">30<span>%</span></div>
-          <div class="course-score__body"><strong>期末考试</strong><p>闭卷，仅考夏学期</p></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷，中英双语，只考夏学期</p></div>
         </div>
       </div>
     </div>
