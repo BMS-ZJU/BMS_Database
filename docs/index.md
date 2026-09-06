@@ -13,7 +13,6 @@ BMS Database 最初和基础医学《飞跃手册》一起被提出。我们想�
 
 <div class="course-links">
   <a class="course-link" href="courses/"><strong>课程资料</strong><small>按课程名或课程号查找，再进入已有资料。</small></a>
-  <a class="course-link" href="study-resources/"><strong>按资料类型查找</strong><small>从已有入口中找考试、小测、讨论课与任务资料，再进入原页面阅读。</small></a>
   <a class="course-link" href="curricula/"><strong>培养方案</strong><small>先选择入学年级和班型，再核对课程号、学分与建议学期。</small></a>
   <a class="course-link" href="guide/"><strong>使用说明</strong><small>了解怎样找资料，以及学年、回忆卷和站外链接该怎么看。</small></a>
   <a class="course-link" href="contribute/"><strong>贡献与纠错</strong><small>反馈内容或页面问题，补充允许公开的学习记录与资料。</small></a>
