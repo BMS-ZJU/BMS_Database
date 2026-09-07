@@ -8,7 +8,7 @@ comments: false
 <details class="course-catalog-guide" markdown="1">
 <summary>课程资料说明与站外参考</summary>
 
-课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请到[培养方案](../curricula/index.md)中查看。因此，本页按 2026 级建议修读学年整理，不再给课程贴固定分类；只在往届方案中出现的课程归入“历年课程”。课程名链接可进入本站资料；仅有站外相关课程经验的条目标为“不同课程参考”，并单独列出链接；其余课程保留课程号并标为“暂无资料”。
+课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请到[培养方案](../curricula/index.md)中查看。因此，本页按 2026 级建议修读学年整理，不再给课程贴固定分类；只在往届方案中出现的课程归入“历年课程”。课程名链接可进入本站资料；仅有其他版本或站外相关课程经验的条目标为“不同课程参考”，并单独列出链接；其余课程保留课程号并标为“暂无资料”。
 
 本站主要整理基础医学专业课程与科研学习经验。思政军体、通识课程的学习经验，可参考[图灵班学习指南](https://zju-turing.github.io/TuringCourses/)。部分数理基础课程也提供站外参考入口。阅读时请留意课程版本、任课教师和学年的差异，具体修读与考核要求以本专业培养方案和当年课程通知为准。
 
@@ -23,8 +23,8 @@ comments: false
   <div class="course-catalog-search-row">
     <input id="course-catalog-search" type="search" placeholder="输入课程名、课程号或英文名" autocomplete="off" data-course-search-input>
     <span class="course-catalog-counts">
-      <span class="course-catalog-count" data-course-count>139 门课程</span>
-      <small>39 门本站资料 · 2 门相关参考 · 98 门暂无资料</small>
+      <span class="course-catalog-count" data-course-count>140 门课程</span>
+      <small>39 门本站资料 · 3 门相关参考 · 98 门暂无资料</small>
     </span>
   </div>
 </div>
@@ -572,6 +572,10 @@ comments: false
     <span class="course-catalog-name">肿瘤研究策略与应用</span>
     <span class="course-catalog-meta">MED3048M · 2.0 学分 · 考试</span>
   </a>
+  <div class="course-catalog-item" data-course-search="新药研发 1811130 进阶版本 衔接课程 本科同名课程参考">
+    <span class="course-catalog-name">新药研发<em class="course-catalog-status">不同课程参考</em></span>
+    <span class="course-catalog-meta">1811130 · 2.0 学分 · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></span>
+  </div>
 </div>
 
 <details class="course-catalog-unavailable" data-course-unavailable-group>
