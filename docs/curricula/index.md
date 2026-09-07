@@ -257,9 +257,13 @@ hide:
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
         </div>
 
-        #### 转段方向课程 <span class="curriculum-heading-credit">选择其中一个模块修读，共 15 学分</span> { #curriculum-2026-strong-base-transition-direction }
+        #### 转段方向课程 <span class="curriculum-heading-credit">修读 15 学分</span> { #curriculum-2026-strong-base-transition-direction }
 
-        ##### 基础医学方向 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2026-strong-base-transition-direction-group-1 }
+        <p class="curriculum-section-note">学生结合学术志趣及意向转段方向，在基础医学、公共卫生与预防医学、药学等方向导师指导下个性化修读相关课程模块。建议选择以下其中一个模块修读；所修研究生课程学分可同时计入研究生学习阶段的学分。</p>
+
+        <p class="curriculum-section-note">修读完模块中带☆的课程后，可获得相应专业微辅修证书。</p>
+
+        ##### 基础医学方向 <span class="curriculum-heading-credit">修读 15 学分</span> { #curriculum-2026-strong-base-transition-direction-group-1 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 四（秋）</small></div>
@@ -281,7 +285,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>人工智能与机器学习<em class="curriculum-course-status">暂无资料</em></span><small>1814087 · 3.0 学分 · 五（春夏）</small></div>
         </div>
 
-        ##### 公共卫生与预防医学方向 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2026-strong-base-transition-direction-group-2 }
+        ##### 公共卫生与预防医学方向 <span class="curriculum-heading-credit">修读 15 学分</span> { #curriculum-2026-strong-base-transition-direction-group-2 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>公共卫生导论☆<em class="curriculum-course-status">暂无资料</em></span><small>MED0665G · 1.5 学分 · 三（冬）</small></div>
@@ -306,7 +310,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医院管理学<em class="curriculum-course-status">暂无资料</em></span><small>1823002 · 2.0 学分 · 五（夏）</small></div>
         </div>
 
-        ##### 药学方向 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2026-strong-base-transition-direction-group-3 }
+        ##### 药学方向 <span class="curriculum-heading-credit">修读 15 学分</span> { #curriculum-2026-strong-base-transition-direction-group-3 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学☆<em class="curriculum-course-status">暂无资料</em></span><small>PHAR3002M · 3.0 学分 · 四（秋冬）</small></div>
@@ -691,9 +695,13 @@ hide:
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
         </div>
 
-        #### 转段方向课程 <span class="curriculum-heading-credit">选择其中一个模块修读，共 15 学分</span> { #curriculum-2025-strong-base-transition-direction }
+        #### 转段方向课程 <span class="curriculum-heading-credit">修读 15 学分</span> { #curriculum-2025-strong-base-transition-direction }
 
-        ##### 基础医学方向 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2025-strong-base-transition-direction-group-1 }
+        <p class="curriculum-section-note">学生结合学术志趣及意向转段方向，在基础医学、公共卫生与预防医学、药学等方向导师指导下个性化修读相关课程模块。建议选择以下其中一个模块修读；所修研究生课程学分可同时计入研究生学习阶段的学分。</p>
+
+        <p class="curriculum-section-note">修读完模块中带☆的课程后，可获得相应专业微辅修证书。</p>
+
+        ##### 基础医学方向 <span class="curriculum-heading-credit">修读 15 学分</span> { #curriculum-2025-strong-base-transition-direction-group-1 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 四（秋）</small></div>
@@ -715,7 +723,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>人工智能与机器学习<em class="curriculum-course-status">暂无资料</em></span><small>1814087 · 3.0 学分 · 五（春夏）</small></div>
         </div>
 
-        ##### 公共卫生与预防医学方向 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2025-strong-base-transition-direction-group-2 }
+        ##### 公共卫生与预防医学方向 <span class="curriculum-heading-credit">修读 15 学分</span> { #curriculum-2025-strong-base-transition-direction-group-2 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>公共卫生导论☆<em class="curriculum-course-status">暂无资料</em></span><small>MED0665G · 1.5 学分 · 三（冬）</small></div>
@@ -740,7 +748,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医院管理学<em class="curriculum-course-status">暂无资料</em></span><small>1823002 · 2.0 学分 · 五（夏）</small></div>
         </div>
 
-        ##### 药学方向 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2025-strong-base-transition-direction-group-3 }
+        ##### 药学方向 <span class="curriculum-heading-credit">修读 15 学分</span> { #curriculum-2025-strong-base-transition-direction-group-3 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学☆<em class="curriculum-course-status">暂无资料</em></span><small>PHAR3002M · 3.0 学分 · 四（秋冬）</small></div>
@@ -1000,9 +1008,11 @@ hide:
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
         </div>
 
-        #### 衔接阶段培养方案课程 <span class="curriculum-heading-credit">选择其中一个模块修读，共 6 学分</span> { #curriculum-2024-strong-base-transition }
+        #### 衔接阶段培养方案课程 <span class="curriculum-heading-credit">修读 6 学分</span> { #curriculum-2024-strong-base-transition }
 
-        ##### 基础医学方向 · 衰老与再生医学 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2024-strong-base-transition-group-1 }
+        <p class="curriculum-section-note">学生根据转段方向，在导师指导下个性化修读相关课程。所修课程学分可计入本科阶段个性学分，其中所修研究生课程学分可同时计入研究生学习阶段的学分。以下为基础医学方向推荐修读的课程。</p>
+
+        ##### 基础医学方向 · 衰老与再生医学 { #curriculum-2024-strong-base-transition-group-1 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞再生医学<em class="curriculum-course-status">暂无资料</em></span><small>1814071 · 2.0 学分 · 五（冬）/五（夏）</small></div>
@@ -1010,7 +1020,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>1811125 · 2.0 学分 · 五（夏）</small></div>
         </div>
 
-        ##### 基础医学方向 · 脑医学 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2024-strong-base-transition-group-2 }
+        ##### 基础医学方向 · 脑医学 { #curriculum-2024-strong-base-transition-group-2 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
@@ -1018,7 +1028,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 五（冬）</small></div>
         </div>
 
-        ##### 基础医学方向 · 疾病机制与精准干预 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2024-strong-base-transition-group-3 }
+        ##### 基础医学方向 · 疾病机制与精准干预 { #curriculum-2024-strong-base-transition-group-3 }
 
         <div class="curriculum-course-list">
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>1811130 · 2.0 学分 · 五（秋）</small></a>
@@ -1119,6 +1129,8 @@ hide:
         </div>
 
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2023-qiushi-practice }
+
+        <p class="curriculum-section-note">△表示创新创业类专业课程。</p>
 
         <div class="curriculum-course-list">
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
@@ -1222,6 +1234,8 @@ hide:
 
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2023-strong-base-practice }
 
+        <p class="curriculum-section-note">△表示创新创业类专业课程。</p>
+
         <div class="curriculum-course-list">
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>72188060 · 4.0 学分 · 三（春）</small></a>
@@ -1229,9 +1243,11 @@ hide:
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（春）</small></a>
         </div>
 
-        #### 衔接阶段培养方案课程 <span class="curriculum-heading-credit">选择其中一个模块修读，共 6 学分</span> { #curriculum-2023-strong-base-transition }
+        #### 衔接阶段培养方案课程 <span class="curriculum-heading-credit">修读 6 学分</span> { #curriculum-2023-strong-base-transition }
 
-        ##### 基础医学 · 衰老与再生医学 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2023-strong-base-transition-group-1 }
+        <p class="curriculum-section-note">学生根据转段方向，在导师指导下个性化修读相关课程。所修课程学分可计入本科阶段个性学分，其中所修研究生课程学分可同时计入研究生学习阶段的学分。以下为原方案推荐修读的课程。</p>
+
+        ##### 基础医学 · 衰老与再生医学 { #curriculum-2023-strong-base-transition-group-1 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞再生医学<em class="curriculum-course-status">暂无资料</em></span><small>1814071 · 2.0 学分 · 五（冬）/五（夏）</small></div>
@@ -1239,7 +1255,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>1811125 · 2.0 学分 · 五（夏）</small></div>
         </div>
 
-        ##### 基础医学 · 脑医学 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2023-strong-base-transition-group-2 }
+        ##### 基础医学 · 脑医学 { #curriculum-2023-strong-base-transition-group-2 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
@@ -1247,7 +1263,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 五（冬）</small></div>
         </div>
 
-        ##### 基础医学 · 疾病机制与精准干预 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2023-strong-base-transition-group-3 }
+        ##### 基础医学 · 疾病机制与精准干预 { #curriculum-2023-strong-base-transition-group-3 }
 
         <div class="curriculum-course-list">
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>1811130 · 2.0 学分 · 五（秋）</small></a>
@@ -1255,7 +1271,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
         </div>
 
-        ##### 人工智能 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2023-strong-base-transition-group-4 }
+        ##### 人工智能 { #curriculum-2023-strong-base-transition-group-4 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>认知神经科学导论<em class="curriculum-course-status">暂无资料</em></span><small>21121520 · 3.0 学分 · 五（秋冬）</small></div>
@@ -1263,7 +1279,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>脑启发人工智能导论<em class="curriculum-course-status">暂无资料</em></span><small>21121960 · 3.0 学分 · 五（春夏）</small></div>
         </div>
 
-        ##### 公共卫生学 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2023-strong-base-transition-group-5 }
+        ##### 公共卫生学 { #curriculum-2023-strong-base-transition-group-5 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 五（冬）</small></div>
@@ -1273,7 +1289,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生统计学<em class="curriculum-course-status">暂无资料</em></span><small>18120581 · 4.0 学分 · 五（春夏）</small></div>
         </div>
 
-        ##### 传染病诊治 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2023-strong-base-transition-group-6 }
+        ##### 传染病诊治 { #curriculum-2023-strong-base-transition-group-6 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>病原生物学<em class="curriculum-course-status">暂无资料</em></span><small>18198240 · 3.0 学分 · 五（冬）</small></div>
@@ -1375,6 +1391,8 @@ hide:
         </div>
 
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2022-qiushi-practice }
+
+        <p class="curriculum-section-note">△表示创新创业类专业课程。</p>
 
         <div class="curriculum-course-list">
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
@@ -1480,6 +1498,8 @@ hide:
 
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2022-strong-base-practice }
 
+        <p class="curriculum-section-note">△表示创新创业类专业课程。</p>
+
         <div class="curriculum-course-list">
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>72188060 · 4.0 学分 · 三（春）</small></a>
@@ -1578,6 +1598,8 @@ hide:
         </div>
 
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2021-qiushi-practice }
+
+        <p class="curriculum-section-note">△ 为原方案标记，原文件未注明含义。</p>
 
         <div class="curriculum-course-list">
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
@@ -1682,6 +1704,8 @@ hide:
         </div>
 
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2021-strong-base-practice }
+
+        <p class="curriculum-section-note">△ 为原方案标记，原文件未注明含义。</p>
 
         <div class="curriculum-course-list">
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
