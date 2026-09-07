@@ -109,9 +109,9 @@ comments: false
     <span class="course-catalog-name">遗传与发育Ⅱ</span>
     <span class="course-catalog-meta">MED2030M · 3.0 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="人体结构与功能学 MED2035M Structure And Function Of The Human Body 考试" href="../mandatory/structure_and_function_of_the_human_body/">
+  <a class="course-catalog-item" data-course-search="人体结构与功能学 MED2035M Structure And Function Of The Human Body 考试 小测 测验 解剖学标本测验" href="../mandatory/structure_and_function_of_the_human_body/">
     <span class="course-catalog-name">人体结构与功能学</span>
-    <span class="course-catalog-meta">MED2035M · 6.0 学分 · 考试</span>
+    <span class="course-catalog-meta">MED2035M · 6.0 学分 · 考试 · 小测</span>
   </a>
   <a class="course-catalog-item" data-course-search="医学生物物理学 MED2031M Medical Biophysics 考试 笔记" href="../mandatory/medical_biophysics/">
     <span class="course-catalog-name">医学生物物理学</span>
@@ -236,9 +236,9 @@ comments: false
     <span class="course-catalog-name">医学伦理学与卫生法学</span>
     <span class="course-catalog-meta">MED2412M · 1.5 学分 · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="法医学 MED2021M Forensic Medicine" href="../elective/forensic_medicine/">
+  <a class="course-catalog-item" data-course-search="法医学 MED2021M Forensic Medicine 考试" href="../elective/forensic_medicine/">
     <span class="course-catalog-name">法医学</span>
-    <span class="course-catalog-meta">MED2021M · 1.5 学分 · 课程主页</span>
+    <span class="course-catalog-meta">MED2021M · 1.5 学分 · 考试</span>
   </a>
   <a class="course-catalog-item" data-course-search="新药研发 MED3057M New Drug Research Development" href="../elective/new_drug_research_and_development/">
     <span class="course-catalog-name">新药研发</span>
