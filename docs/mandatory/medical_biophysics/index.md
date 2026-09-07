@@ -30,16 +30,16 @@
     <div class="course-score">
       <div class="course-score__items" role="list" aria-label="2025-2026 学年分数构成">
         <div class="course-score__item" role="listitem">
-          <div class="course-score__number">15<span>%</span></div>
-          <div class="course-score__body"><strong>文献阅读报告</strong><p>分组汇报</p></div>
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>出勤率及课堂表现</strong><p>两项合并计分</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">15<span>%</span></div>
           <div class="course-score__body"><strong>技术作业</strong><p>6 题选 1 题</p></div>
         </div>
         <div class="course-score__item" role="listitem">
-          <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>出勤率及课堂表现</strong><p>两项合并计分</p></div>
+          <div class="course-score__number">15<span>%</span></div>
+          <div class="course-score__body"><strong>文献阅读报告</strong><p>分组汇报</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">60<span>%</span></div>
