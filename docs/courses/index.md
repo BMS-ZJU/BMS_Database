@@ -23,8 +23,8 @@ comments: false
   <div class="course-catalog-search-row">
     <input id="course-catalog-search" type="search" placeholder="输入课程名、课程号或英文名" autocomplete="off" data-course-search-input>
     <span class="course-catalog-counts">
-      <span class="course-catalog-count" data-course-count>140 门课程</span>
-      <small>39 门本站资料 · 3 门相关参考 · 98 门暂无资料</small>
+      <span class="course-catalog-count" data-course-count>141 门课程</span>
+      <small>39 门本站资料 · 3 门相关参考 · 99 门暂无资料</small>
     </span>
   </div>
 </div>
@@ -579,8 +579,8 @@ comments: false
 </div>
 
 <details class="course-catalog-unavailable" data-course-unavailable-group>
-  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>24 门</span></summary>
-  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 12">
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>25 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 13">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="教育统计与测量 03120261 03120261">
     <span class="course-catalog-name">教育统计与测量<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">03120261 · 2.0 学分</span>
@@ -633,9 +633,13 @@ comments: false
     <span class="course-catalog-name">药理学与新药研发<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">72120470 · 4.0 学分</span>
   </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="学科轮转与教学实习Ⅰ 72188050 72188040 72188050">
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="学科轮转与教学实习Ⅰ 学科轮转与教学实习I 72188050">
     <span class="course-catalog-name">学科轮转与教学实习Ⅰ<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">72188050 · 4.0 学分</span>
+  </div>
+  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="学科轮转与教学实习Ⅱ 学科轮转与教学实习II 72188040">
+    <span class="course-catalog-name">学科轮转与教学实习Ⅱ<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">72188040 · 4.0 学分</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="专业英语阅读与写作 72190030 72190030">
     <span class="course-catalog-name">专业英语阅读与写作<em class="course-catalog-status">暂无资料</em></span>
