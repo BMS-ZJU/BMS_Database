@@ -1,156 +1,94 @@
 # 物理化学
 
-!!! warning "页面重构中"
+这是一门以理论教学为主的课程，平时有作业和课堂测验，另设期中、期末考试。不同教学班的作业提交和测验安排有所不同。
 
-    本页面内容整理时间较早，部分信息可能已经过时；页面正在重新整理，请以最新课程通知为准。
+## 上课与平时任务
 
-<div class="badges">
-<span class="badge is-badge">专业选修课程</span>
-</div>
+=== "2024-2025 秋冬 · 厉刚"
 
-线下理论课
+    作业通常每章一次，线上提交，每次不超过 10 题，都是教材题；偶尔在学在浙大签到。当年的修读记录提到，作业成绩基本都是满分。
 
-## 课程介绍
+    个别章节后在学在浙大测验，每次 5 分钟、5 道单选；共 6 次，取最好的 4 次计入总评。
 
-我个人强烈推荐修读物理化学作为专业选修课程，4 学分量大管饱。前提是秋冬学期的课但不选李啸风，或者春夏学期的课但没有李啸风的教学班，具体原因下面会说
+=== "2023-2024 春夏 · 曹亮"
 
-浙大物理化学的教学体系是延续的彭笑刚老师的，彭老师教学和写书很厉害，他不提倡刷题，所以过去几乎找不到的 4 学分物化的历年卷。得益于近些年同学们的努力，物化的资料也算是比较详实，修读起来会比较容易一些；再加上高达 4 学分、几乎以硬实力说话的评分标准，没有那么多麻烦事和弯弯绕绕，所以很推荐修读物理化学作为专业选修。另外，秋冬学期的物化还有一名日本外教 (Kenji Mochizuki) 开的英语教学班，考试简单（如果读懂英语的话），还可以作为国际化课程进行第四课堂学分的认定
+    作业通常每周一次，线下提交，每次不超过 10 题，包括教材题和助教自编题。往届修读者觉得自编题相对难完成，但当时的作业成绩基本都是满分。
 
-化学系的物化也很好，是彭笑刚老师上的，分三次夏，秋，冬各一次，每周两次课，每次两节课，资料和4学分的通用，就是考试比较难。物化123都上完可以替换4学分的物化
+    部分课次进行纸质测验，每次 5 分钟，题量不固定；旧记录没有明确测验总次数。
 
-一般来说好好上课并读透彭老师的《彭笑刚物理化学讲义》这门课基本就不是问题了
+## 分数构成
 
-## 预修要求
+=== "2024-2025 秋冬 · 厉刚"
 
-**高等数学或微积分**
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="物理化学 2024-2025 秋冬 厉刚分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">20<span>%</span></div>
+          <div class="course-score__body"><strong>作业与考勤</strong><p>教材题，线上提交</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>课堂测验</strong><p>共 6 次，取最好 4 次</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">30<span>%</span></div>
+          <div class="course-score__body"><strong>期中考试</strong><p>闭卷</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">40<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷</p></div>
+        </div>
+      </div>
+    </div>
+
+=== "2023-2024 春夏 · 曹亮"
+
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="物理化学 2023-2024 春夏 曹亮分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">20<span>%</span></div>
+          <div class="course-score__body"><strong>作业与考勤</strong><p>每周作业，线下提交</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>课堂测验</strong><p>课上纸质测验</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">30<span>%</span></div>
+          <div class="course-score__body"><strong>期中考试</strong><p>闭卷</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">40<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong><p>闭卷</p></div>
+        </div>
+      </div>
+    </div>
+
+## 期中与期末考试
+
+上述两个教学班的期中、期末均为闭卷。
+
+2024-2025 秋冬期中回忆卷记录的考试为全中文、2 小时，包含 25 道单项选择题及计算、证明题。选择题另有奖励分规则，详见回忆卷。
+
+## 学习建议
+
+跟课时可以配合《彭笑刚物理化学讲义》阅读，尽量把讲义读懂。
+
+2024-2025 秋冬厉刚班的记录提到，小测一般取自之前的期中、期末题；两次考试的选择题也经常出现原题，大题经常来自教材或课件。复习这个教学班时，可以结合这些题目和讲义准备。
+
+学解的答案需要留意。往届同学曾遇到“学解”资料答案有误，若学在浙大发布了课程答案，可以优先对照课程提供的版本。
+
+## 选课经验
+
+旧经验中，有同学因李啸风负责命题时的期中、期末题目比较抽象而弃修，因此更倾向于秋冬修读；当时的建议也提到，若春夏没有李啸风的教学班，则可以考虑春夏。这段经历未注明学年，需结合当年的教师与命题安排参考。
+
+## 资料
+
+- [考试资料](exams/index.md)：2024-2025 学年秋冬学期期中回忆卷。
 
 ## 课程信息
 
-**参考教材：** 《彭笑刚物理化学讲义》 彭笑刚
-
-## 课程成绩组成及要求：
-
-=== "2024-2025秋冬 厉刚"
-
-    <body>
-        <table class="percentage-table">
-            <tbody>
-                <tr>
-                    <td class = "first-column"><b>作业与考勤：</b></td>
-                    <td class = "second-column">20%</td>
-                    <td>作业一般每章一次，线上提交，每次十道题目以内，都是课本上的题目。每次作业基本都是满分。有时候会学在浙大签到</td>
-                </tr>
-                <tr>
-                    <td><b>课堂测验：</b></td>
-                    <td>10%</td>
-                    <td>个别章节后在学在浙大测试，每次 5 分钟， 5 道单选，共 6 次，选最好的 4 次计入总评</td>
-                </tr>
-                <tr>
-                    <td><b>期中考试：</b></td>
-                    <td>30%</td>
-                    <td>闭卷</td>
-                </tr>
-                <tr>
-                    <td><b>期末考试：</b></td>
-                    <td>40%</td>
-                    <td>闭卷</td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
-
-    课堂测验的题目一般就是之前期中和期末考试的题目；期中和期末选择题也经常出现原题，大题经常出现课本上或课件上的题目
-    
-    作业一般每章一次，线上提交，每次十道题目以内，都是课本上的题目。每次作业基本都是满分
-
-=== "2023-2024春夏 曹亮"
-
-    <body>
-        <table class="percentage-table">
-            <tbody>
-                <tr>
-                    <td class = "first-column"><b>作业与考勤：</b></td>
-                    <td class = "second-column">20%</td>
-                    <td>作业一般每周一次，线下提交，每次十道题目以内，有课本上的的题目和助教自己出的题目，自己出的题目相对来说不太好完成。每次作业基本都是满分</td>
-                </tr>
-                <tr>
-                    <td><b>课堂测验：</b></td>
-                    <td>10%</td>
-                    <td>课堂测验为个别次课纸质测验，每次 5 分钟，题目数量和不定，测验总次数不太好确定</td>
-                </tr>
-                <tr>
-                    <td><b>期中考试：</b></td>
-                    <td>30%</td>
-                    <td>闭卷</td>
-                </tr>
-                <tr>
-                    <td><b>期末考试：</b></td>
-                    <td>40%</td>
-                    <td>闭卷</td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
-
-
-## 学习资源
-
-<body>
-    <div class="table-container">
-        <table class="resource-table">
-            <thead>
-                <tr>
-                    <th>资源名称</th>
-                    <th>资源类型</th>
-                    <th>友链资源</th>
-                    <th>本站资源</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>教材（新版及旧版）</td>
-                    <td>教材</td>
-                    <td>钉钉群</td>
-                    <td>无</td>
-                </tr>
-                <tr>
-                    <td>作业及小测</td>
-                    <td>资料</td>
-                    <td>钉钉群</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>模拟题</td>
-                    <td>资料</td>
-                    <td>钉钉群</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>期中、期末复习资料</td>
-                    <td>资料</td>
-                    <td>钉钉群</td>
-                    <td>无</td>
-                </tr>
-                <tr>
-                    <td>2024-2025秋冬 期中 回忆卷</td>
-                    <td>历年卷</td>
-                    <td>无</td>
-                    <td><a href="exams/2024-2025-midterm-recall/">查看</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</body>
-
-
->*如果您发现这里的资源损坏或链接失效，请首先查看本站中的<a href="../../error">常见问题解答</a>，倘若仍然无法解决问题，请联系网站管理员。*
-
-## 经验分享
-
-23 某同学
-
-> 我在钉钉群里面放了很多 quiz，模拟题和我自己手打的三年的期中题，这些题都很好。学解那资料的答案净是错的，上传的时候如果学在浙大有就上传学在浙大里面给的答案
-
-> 培养方案上推荐在大一春夏修读，为什么呢？因为骆严老师的细生二建议预修物化。但现在没有这个要求了，所以我认为如果可以，还是放到秋冬更合适
-
-> 李啸风讲课比较一般，作业也比较抽象，这个还问题不大，但如果李啸风是某个学期的物化的负责老师，那么他出的卷子不管期中还是期末都会极其抽象，而他常常是春夏学期 4 学分物化的负责老师，所以才会说不推荐春夏学期选物化（这也是我弃修的原因）。但如果某个春夏学期的物化没有李啸风的教学班，那么就可以选了
+- **学分：**4 学分。
+- **预修要求：**高等数学或微积分。
+- **修读学期：**培养方案建议一年级春夏修读；实际也有秋冬教学班。
+- **参考教材：**《彭笑刚物理化学讲义》，彭笑刚。
