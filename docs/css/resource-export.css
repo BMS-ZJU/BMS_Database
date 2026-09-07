@@ -1101,3 +1101,88 @@ body.resource-export-view [hidden] {
     content: none;
   }
 }
+
+/* Framed callouts retain the Material colors and icons in screen and print views. */
+body.resource-export-view {
+  --paper-callout-note-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2m3.1 5.07c.14 0 .28.05.4.16l1.27 1.27c.23.22.23.57 0 .78l-1 1-2.05-2.05 1-1c.1-.11.24-.16.38-.16m-1.97 1.74 2.06 2.06-6.06 6.06H7.07v-2.06z"/></svg>');
+  --paper-callout-info-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>');
+  --paper-callout-warning-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2z"/></svg>');
+}
+
+/* Answer details have already become aside.quiz-answer in the export document. */
+body.resource-export-view .paper-content :is(.admonition, details):not(.quiz-answer) {
+  --paper-callout-accent: #448aff;
+  --paper-callout-tint: #448aff1a;
+  --paper-callout-icon: var(--paper-callout-note-icon);
+  margin: 0.65em 0;
+  padding: 0 0.75em 0.4em;
+  border: 1px solid var(--paper-callout-accent);
+  border-radius: 4px;
+  background: #fff;
+  color: #333;
+  box-shadow: none;
+  font-size: 10.5pt;
+  line-height: 1.45;
+  break-inside: auto;
+  page-break-inside: auto;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  orphans: 2;
+  widows: 2;
+}
+
+body.resource-export-view .paper-content :is(.admonition, details):not(.quiz-answer):is(.info, .todo) {
+  --paper-callout-accent: #00b8d4;
+  --paper-callout-tint: #00b8d41a;
+  --paper-callout-icon: var(--paper-callout-info-icon);
+}
+
+body.resource-export-view .paper-content :is(.admonition, details):not(.quiz-answer):is(.warning, .caution, .attention) {
+  --paper-callout-accent: #ff9100;
+  --paper-callout-tint: #ff91001a;
+  --paper-callout-icon: var(--paper-callout-warning-icon);
+}
+
+body.resource-export-view .paper-content :is(.admonition, details):not(.quiz-answer) > p {
+  display: block;
+  margin: 0.4em 0;
+}
+
+body.resource-export-view .paper-content :is(.admonition, details):not(.quiz-answer) > :is(.admonition-title, summary) {
+  position: relative;
+  display: block;
+  margin: 0 -0.75em 0.35em;
+  padding: 0.38em 0.75em 0.38em 2.3em;
+  border-radius: 3px 3px 0 0;
+  background: var(--paper-callout-tint);
+  color: #333;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1.45;
+  list-style: none;
+  break-inside: avoid;
+  break-after: avoid;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+body.resource-export-view .paper-content :is(.admonition, details):not(.quiz-answer) > :is(.admonition-title, summary)::before {
+  position: absolute;
+  top: 0.53em;
+  inset-inline-start: 0.75em;
+  display: block;
+  width: 1.15em;
+  height: 1.15em;
+  background-color: var(--paper-callout-accent);
+  content: "";
+  -webkit-mask: var(--paper-callout-icon) center / contain no-repeat;
+  mask: var(--paper-callout-icon) center / contain no-repeat;
+}
+
+/* Keep header and body callouts in the same block layout. */
+body.resource-export-view .paper-content :is(.admonition, details):not(.quiz-answer) > :is(.admonition-title, summary) + p {
+  display: block;
+  margin: 0.4em 0;
+}
