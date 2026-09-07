@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>资料打印 / 导出 · BMS Database</title>
+  <link rel="stylesheet" href="css/resource-export.css">
+  <script src="javascripts/resource-export-view.js" defer></script>
+</head>
+<body class="resource-export-view">
+  <header class="export-toolbar" aria-label="打印与导出">
+    <a id="source-link" href="./">返回原文</a>
+    <label id="answer-options" hidden>内容
+      <select id="answer-mode">
+        <option value="answers">答案随题</option>
+        <option value="end">答案集中卷末</option>
+        <option value="questions">仅题目</option>
+      </select>
+    </label>
+    <button id="print-resource" type="button" disabled>打印 / 保存 PDF</button>
+    <p id="export-status" role="status" aria-live="polite" aria-atomic="true">正在准备资料…</p>
+    <p class="export-help">保存 PDF：在打印窗口中选择“另存为 PDF”。如有额外的日期或网址，可关闭“页眉和页脚”。</p>
+  </header>
+  <main class="paper" aria-busy="true" aria-label="打印资料"></main>
+  <noscript>此功能需要 JavaScript。请返回原文阅读资料。</noscript>
+</body>
+</html>

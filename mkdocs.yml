@@ -334,8 +334,10 @@ extra_javascript:
   - javascripts/katex.js
   - javascripts/quiz-answers.js
   - javascripts/course-navigation.js
+  - javascripts/resource-export.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
   - css/styles.css
+  - css/resource-export.css
   - https://unpkg.com/katex@0/dist/katex.min.css
