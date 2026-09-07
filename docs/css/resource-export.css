@@ -4,10 +4,12 @@
   --resource-control-line: var(--md-default-fg-color--lightest);
   --resource-control-tint: color-mix(in srgb, var(--md-typeset-a-color) 6%, transparent);
   --resource-control-hover: color-mix(in srgb, var(--md-typeset-a-color) 10%, transparent);
+  --resource-print-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round'%3E%3Cpath d='M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6zM17 11h1'/%3E%3C/svg%3E");
 }
 
 .md-typeset .grid.cards.course-resource-grid.resource-export-index {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
   gap: 0 0.9rem;
   margin: 0.7rem 0;
   border-top: 0.05rem solid var(--md-default-fg-color--lightest);
@@ -15,11 +17,11 @@
 
 .md-typeset .grid.cards.course-resource-grid.resource-export-index > ul > li {
   position: relative;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   align-content: start;
-  align-items: start;
-  gap: 0.1rem;
+  align-items: center;
+  gap: 0.1rem 0.5rem;
   min-width: 0;
   min-height: 0;
   margin: 0;
@@ -60,7 +62,27 @@
   line-height: 1.45;
 }
 
+.md-typeset .course-resource-grid.resource-export-index > ul > li > p:first-child {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li > .course-resource-detail {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li > .exam-resource-tag {
+  flex: 0 0 auto;
+  max-width: 100%;
+  margin: 0;
+}
+
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions {
+  flex: 0 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -101,13 +123,25 @@
 }
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > .resource-export-link {
-  font-weight: 500;
+  gap: 0.22rem;
+  color: var(--resource-control-color);
+  font-weight: 400;
 }
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a::before,
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a::after {
   display: none;
   content: none;
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a.resource-export-link::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  background: currentColor;
+  mask: var(--resource-print-icon) center / contain no-repeat;
 }
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a:hover {
@@ -123,7 +157,9 @@
 }
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-note {
-  grid-column: 1 / -1;
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
   display: block;
   margin: 0;
   color: var(--md-default-fg-color--light);
@@ -131,6 +167,7 @@
   line-height: 1.45;
   text-align: start;
   white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-note a {
@@ -272,8 +309,10 @@
 }
 
 .md-typeset .resource-batch-toolbar > button[aria-expanded="true"] {
-  color: var(--resource-control-color);
-  background: var(--resource-control-tint);
+  order: 2;
+  padding-inline: 0.22rem;
+  color: var(--md-default-fg-color--light);
+  background: none;
 }
 
 .md-typeset .resource-batch-toolbar > a::before {
@@ -290,12 +329,19 @@
 }
 
 .md-typeset .resource-batch-selection:not([hidden]) {
-  gap: 0.2rem 0.65rem;
-  margin-top: 0.2rem;
-  padding: 0.3rem 0.45rem;
+  display: contents;
+}
+
+.md-typeset .resource-batch-toolbar:has(> button[aria-expanded="true"]) {
+  gap: 0.2rem 0.6rem;
+  padding: 0.28rem 0.4rem;
   border: 1px solid var(--resource-control-line);
   border-radius: 4px;
   background: var(--resource-control-tint);
+}
+
+.md-typeset .resource-batch-toolbar:has(> button[aria-expanded="true"]) > :is(.resource-batch-total, a) {
+  display: none;
 }
 
 .md-typeset .resource-batch-selection > a {
@@ -326,8 +372,7 @@
 }
 
 .md-typeset .resource-batch-selection small {
-  flex-basis: auto;
-  font-size: 0.58rem;
+  display: none;
 }
 
 .md-typeset .resource-batch-toolbar a[aria-disabled="true"] {
@@ -369,12 +414,11 @@
     margin-inline-start: -0.45rem;
   }
 
-  .md-typeset .resource-batch-selection > a {
-    order: 0;
-  }
+}
 
-  .md-typeset .resource-batch-selection small {
-    flex-basis: 100%;
+@media screen and (max-width: 380px) {
+  .md-typeset .resource-batch-toolbar:has(> button[aria-expanded="true"]) {
+    gap: 0.15rem 0.3rem;
   }
 }
 
