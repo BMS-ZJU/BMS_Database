@@ -145,15 +145,10 @@
     <strong>期末考试</strong>
     <small>2022-2023、2024-2025 两学年期末回忆卷</small>
   </a>
-  <a class="course-link" href="http://10.71.148.20/mengoo/">
-    <strong>基础医学信息化实验平台</strong>
-    <small>校内访问，开放状态以实际情况为准</small>
-  </a>
-  <a class="course-link" href="https://www.icourse163.org/course/ZJU-1205954802">
-    <strong>人体组织学实验 MOOC</strong>
-    <small>中国大学 MOOC 课程页面</small>
-  </a>
 </nav>
+
+- [基础医学信息化实验平台](http://10.71.148.20/mengoo/)：校内访问，开放状态以实际情况为准。
+- [人体组织学实验 MOOC](https://www.icourse163.org/course/ZJU-1205954802)：中国大学 MOOC 课程页面。
 
 <p class="course-source-note">另可查看 <a href="https://www.cc98.org/topic/5644560">2022-2023 学年回忆卷与资料分享</a>；原帖附有以生理学总结为主的资料入口。</p>
 

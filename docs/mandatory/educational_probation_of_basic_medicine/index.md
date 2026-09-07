@@ -37,11 +37,9 @@
     <strong>见习记录本任务总览</strong>
     <small>各项任务的篇幅、组队方式和分值</small>
   </a>
-  <a class="course-link" href="assessment/trial-teaching/">
-    <strong>说课与试讲要求</strong>
-    <small>现场材料、时长和当年通知记录</small>
-  </a>
 </nav>
+
+- [说课与试讲要求](assessment/trial-teaching/)：现场材料、时长和当年通知记录。
 
 课程组在学在浙大提供培养方案、医学教育研究、教学设计和评价等参考资料，可结合相应任务使用。
 

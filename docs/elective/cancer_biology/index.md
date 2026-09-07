@@ -68,13 +68,11 @@
 <nav class="course-links" aria-label="肿瘤生物学课程资料">
   <a class="course-link" href="exams/">
     <strong>考试资料</strong>
-    <span>2024-2025、2025-2026 春学期期末回忆</span>
-  </a>
-  <a class="course-link" href="https://www.cc98.org/topic/5303096">
-    <strong>课程笔记分享</strong>
-    <span>CC98 站外资料</span>
+    <small>2024-2025、2025-2026 春学期期末回忆</small>
   </a>
 </nav>
+
+- [课程笔记分享](https://www.cc98.org/topic/5303096)：CC98 站外资料。
 
 基础医学 Family 钉钉群另有课件、笔记、复习资料和模拟试卷；模拟题不代表实际考题或题量。
 
