@@ -270,7 +270,11 @@ nav:
     - 教育统计学: elective/educational_statistics/index.md
     - 卫生事业管理: elective/health_management/index.md
     - 医学伦理学与卫生法学: elective/medical_ethics_and_health_law/index.md
-    - 法医学: elective/forensic_medicine/index.md
+    - 法医学:
+      - 课程主页: elective/forensic_medicine/index.md
+      - 考试资料:
+        - elective/forensic_medicine/exams/index.md
+        - 2025-2026 夏期末回忆卷: elective/forensic_medicine/exams/2025-2026-final-exam-recall.md
     - 新药研发: elective/new_drug_research_and_development/index.md
     - 社会医学(乙):
       - 课程主页: elective/social_medicine_b/index.md
