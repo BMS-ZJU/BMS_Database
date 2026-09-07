@@ -8,6 +8,12 @@ hide:
 
 <div class="grid cards course-resource-grid" markdown>
 
+-   **2025-2026 学年春学期 · 期末回忆卷**
+
+    ---
+
+    [查看资料](2025-2026-final-exam-recall.md)
+
 -   **2024-2025 学年春学期 · 期末回忆卷**
 
     ---
