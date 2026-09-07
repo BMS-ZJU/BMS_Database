@@ -1,4 +1,11 @@
 /* Exam and quiz indexes share the site's two-column resource lists. */
+.md-typeset :is(.resource-export-index, .resource-batch-toolbar) {
+  --resource-control-color: var(--md-typeset-a-color);
+  --resource-control-line: var(--md-default-fg-color--lightest);
+  --resource-control-tint: color-mix(in srgb, var(--md-typeset-a-color) 6%, transparent);
+  --resource-control-hover: color-mix(in srgb, var(--md-typeset-a-color) 10%, transparent);
+}
+
 .md-typeset .grid.cards.course-resource-grid.resource-export-index {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0 0.9rem;
@@ -61,7 +68,7 @@
   gap: 0.15rem 0.5rem;
   min-width: 0;
   max-width: 100%;
-  font-size: 0.58rem;
+  font-size: 0.62rem;
   line-height: 1.45;
   white-space: normal;
 }
@@ -77,16 +84,24 @@
   align-items: center;
   justify-content: center;
   min-width: 32px;
-  min-height: 24px;
-  padding: 2px;
+  min-height: 30px;
+  padding: 2px 4px;
   border: 0;
-  border-radius: 2px;
+  border-radius: 3px;
   background: none;
   color: var(--md-default-fg-color--light);
   font: inherit;
   font-weight: 400;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a:first-child {
+  margin-inline-start: -4px;
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > .resource-export-link {
+  font-weight: 500;
 }
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a::before,
@@ -96,9 +111,9 @@
 }
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a:hover {
-  color: var(--md-typeset-a-color);
-  text-decoration: underline;
-  text-underline-offset: 0.2em;
+  color: var(--resource-control-color);
+  background: var(--resource-control-hover);
+  text-decoration: none;
 }
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a:focus-visible,
@@ -226,11 +241,69 @@
 }
 
 .md-typeset .resource-batch-toolbar {
-  margin: 0.55rem 0 0;
+  gap: 0.3rem 0.45rem;
+  margin: 0.8rem 0 0;
+}
+
+.md-typeset .resource-batch-total {
+  margin-inline-end: auto;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.62rem;
+  white-space: nowrap;
+}
+
+.md-typeset .resource-batch-toolbar :is(a, button) {
+  min-height: 34px;
+  gap: 0.3rem;
+  padding: 0.22rem 0.45rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  line-height: 1.4;
+  transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+}
+
+.md-typeset .resource-batch-toolbar :is(a, button):hover {
+  background: var(--resource-control-hover);
+  text-decoration: none;
+}
+
+.md-typeset .resource-batch-toolbar > button {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .resource-batch-toolbar > button[aria-expanded="true"] {
+  color: var(--resource-control-color);
+  background: var(--resource-control-tint);
+}
+
+.md-typeset .resource-batch-toolbar > a::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
+  background: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4'/%3E%3C/svg%3E") center / contain no-repeat;
 }
 
 .md-typeset .resource-batch-selection {
   flex-basis: 100%;
+}
+
+.md-typeset .resource-batch-selection:not([hidden]) {
+  gap: 0.2rem 0.65rem;
+  margin-top: 0.2rem;
+  padding: 0.3rem 0.45rem;
+  border: 1px solid var(--resource-control-line);
+  border-radius: 4px;
+  background: var(--resource-control-tint);
+}
+
+.md-typeset .resource-batch-selection > a {
+  order: 1;
+  margin-inline-start: auto;
+  border-color: color-mix(in srgb, var(--resource-control-color) 40%, transparent);
+  color: var(--resource-control-color);
+  font-weight: 500;
 }
 
 .md-typeset .resource-batch-selection label,
@@ -253,18 +326,25 @@
 }
 
 .md-typeset .resource-batch-selection small {
-  flex-basis: 100%;
+  flex-basis: auto;
   font-size: 0.58rem;
 }
 
 .md-typeset .resource-batch-toolbar a[aria-disabled="true"] {
-  color: var(--md-default-fg-color--lighter);
+  border-color: var(--resource-control-line);
+  color: var(--md-default-fg-color--light);
+  background: none;
+  opacity: 0.65;
   cursor: default;
   text-decoration: none;
 }
 
 .md-typeset .grid.cards.course-resource-grid.resource-selecting > ul > li[data-export-source] {
   padding-left: 1.6rem;
+}
+
+.md-typeset .grid.cards.course-resource-grid.resource-export-index.resource-selecting > ul > li:has(.resource-batch-choice input:checked) {
+  background: var(--resource-control-tint);
 }
 
 .md-typeset .resource-batch-choice {
@@ -277,6 +357,31 @@
 .md-typeset .resource-batch-selection[hidden],
 .md-typeset .resource-batch-choice[hidden] {
   display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .md-typeset .resource-batch-total {
+    flex-basis: 100%;
+    margin-bottom: 0.15rem;
+  }
+
+  .md-typeset .resource-batch-toolbar > a {
+    margin-inline-start: -0.45rem;
+  }
+
+  .md-typeset .resource-batch-selection > a {
+    order: 0;
+  }
+
+  .md-typeset .resource-batch-selection small {
+    flex-basis: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .resource-batch-toolbar :is(a, button) {
+    transition: none;
+  }
 }
 
 @media print {
