@@ -69,11 +69,11 @@
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>课堂主题讨论</strong><p>通常在每次课末展示</p></div>
+          <div class="course-score__body"><strong>小组文献阅读与汇报</strong><p>按模板阅读经典论文</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">10<span>%</span></div>
-          <div class="course-score__body"><strong>小组文献阅读与汇报</strong><p>按模板阅读经典论文</p></div>
+          <div class="course-score__body"><strong>课堂主题讨论</strong><p>通常在每次课末展示</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">50<span>%</span></div>
