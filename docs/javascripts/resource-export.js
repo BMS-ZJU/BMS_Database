@@ -60,7 +60,10 @@
     toolbar.className = "resource-batch-toolbar";
     toolbar.setAttribute("role", "group");
     toolbar.setAttribute("aria-label", "批量导出资料");
-    const all = exportLink(cards.map((card) => card.dataset.exportSource), `导出全部（${cards.length}份）`);
+    const total = document.createElement("span");
+    total.className = "resource-batch-total";
+    total.textContent = `${cards.length} 份站内资料`;
+    const all = exportLink(cards.map((card) => card.dataset.exportSource), "导出全部");
     all.title = "合并为一份打印稿，再保存为 PDF";
     const toggle = document.createElement("button");
     toggle.type = "button";
@@ -82,7 +85,7 @@
     const help = document.createElement("small");
     help.textContent = "合并为一份 PDF，每份资料另起一页。";
     controls.append(selectAllLabel, count, selected, help);
-    toolbar.append(all, toggle, controls);
+    toolbar.append(total, all, toggle, controls);
 
     const choices = cards.map((card) => {
       const label = document.createElement("label");
