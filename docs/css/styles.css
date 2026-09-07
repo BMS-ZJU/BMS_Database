@@ -410,6 +410,13 @@
   gap: 0.08rem;
 }
 
+/* 元信息已用浅色文字, 避免再叠加 Material 的 small 透明度。 */
+.md-typeset .course-catalog-counts small,
+.md-typeset .curriculum-course-item small,
+.md-typeset .course-link small {
+  opacity: 1;
+}
+
 .md-typeset .course-catalog-counts small {
   color: var(--md-default-fg-color--lighter);
   font-size: 0.5rem;
@@ -845,8 +852,6 @@
 
 .md-typeset .course-link small {
   color: var(--md-default-fg-color--light);
-  /* 避免 Material 的 small 透明度与文字颜色的 alpha 重复叠加。 */
-  opacity: 1;
   font-size: 0.68rem;
   line-height: 1.6;
   overflow-wrap: anywhere;
