@@ -16,41 +16,44 @@
           async>
   </script>
   <script>
-    const giscus = document.querySelector("script[src*=giscus]")
+    (() => {
+      const syncTheme = () => {
+        let scheme = document.body.dataset.mdColorScheme
+        if (!document.body.hasAttribute("data-md-color-media")) {
+          const initial = Array.from(document.querySelectorAll("[data-md-component=palette] input"))
+            .find(input => input.dataset.mdColorMedia && matchMedia(input.dataset.mdColorMedia).matches)
+          if (initial) scheme = initial.dataset.mdColorScheme
+        }
+        const theme = scheme === "slate"
+          ? "transparent_dark"
+          : "light"
+        const giscus = document.querySelector('script[src="https://giscus.app/client.js"]')
+        if (giscus) giscus.setAttribute("data-theme", theme)
 
-    // Set palette on initial load
-    const palette = __md_get("__palette")
-    if (palette && typeof palette.color === "object") {
-      const theme = palette.color.scheme === "slate"
-        ? "transparent_dark"
-        : "light"
-
-      // Instruct Giscus to set theme
-      giscus.setAttribute("data-theme", theme) 
-    }
-
-    // Register event handlers after documented loaded
-    document.addEventListener("DOMContentLoaded", function() {
-      const ref = document.querySelector("[data-md-component=palette]")
-      if (!ref) return
-
-      ref.addEventListener("change", function() {
-        const palette = __md_get("__palette")
-        if (palette && typeof palette.color === "object") {
-          const theme = palette.color.scheme === "slate"
-            ? "transparent_dark"
-            : "light"
-
-          // Instruct Giscus to change theme
-          const frame = document.querySelector(".giscus-frame")
-          if (!frame) return
-
+        const frame = document.querySelector(".giscus-frame")
+        if (frame && frame.contentWindow) {
           frame.contentWindow.postMessage(
             { giscus: { setConfig: { theme } } },
             "https://giscus.app"
           )
         }
-      })
-    })
+      }
+
+      const bindPalette = () => {
+        const ref = document.querySelector("[data-md-component=palette]")
+        if (ref && !ref.hasAttribute("data-giscus-theme-bound")) {
+          ref.setAttribute("data-giscus-theme-bound", "")
+          ref.addEventListener("change", syncTheme)
+        }
+        syncTheme()
+      }
+
+      syncTheme()
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", bindPalette, { once: true })
+      } else {
+        bindPalette()
+      }
+    })()
   </script>
 {% endif %}
