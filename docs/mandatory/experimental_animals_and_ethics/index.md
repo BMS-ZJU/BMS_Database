@@ -42,7 +42,12 @@
 
 ## 资料
 
-- [考试资料](exams/)：2024-2025 学年秋学期期末回忆卷。
+<nav class="course-links" aria-label="课程资料">
+  <a class="course-link" href="exams/">
+    <strong>考试资料</strong>
+    <small>2024-2025 学年秋学期期末回忆卷</small>
+  </a>
+</nav>
 
 ## 课程信息
 

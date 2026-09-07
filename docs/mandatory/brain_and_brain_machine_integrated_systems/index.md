@@ -45,15 +45,13 @@
 ## 资料
 
 <nav class="course-links" aria-label="课程资料">
-  <a class="course-link" href="exams/2024-2025-final-exam-recall/">
-    <strong>2024-2025 学年期末回忆卷</strong>
-    <small>全中文开卷，含 BCI 产品设计题</small>
-  </a>
-  <a class="course-link" href="exams/examples/">
-    <strong>课堂与往年题目示例</strong>
-    <small>用于了解提问方式，不等同于当年正式试卷</small>
+  <a class="course-link" href="exams/">
+    <strong>考试资料</strong>
+    <small>2024-2025 学年期末回忆卷、课堂与往年题目示例</small>
   </a>
 </nav>
+
+回忆卷为全中文开卷考试，含 BCI 产品设计题；题目示例用于了解提问方式，不等同于当年正式试卷。
 
 <p class="course-source-note">当年回忆卷原始发布见 <a href="https://www.cc98.org/topic/6223307">CC98 6223307</a>。</p>
 

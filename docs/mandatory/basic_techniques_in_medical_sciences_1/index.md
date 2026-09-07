@@ -91,15 +91,10 @@
     <strong>考试资料</strong>
     <small>23—25 级的期末回忆卷与试题入口</small>
   </a>
-  <a class="course-link" href="https://www.cc98.org/topic/6228916">
-    <strong>实验报告分享</strong>
-    <small>2024-2025 春学期，CC98 站外资料</small>
-  </a>
-  <a class="course-link" href="https://www.yuque.com/zo3l5e/qsw4sg/24845938">
-    <strong>实验步骤与知识点整理</strong>
-    <small>语雀站外资料</small>
-  </a>
 </nav>
+
+- [实验报告分享](https://www.cc98.org/topic/6228916)：2024-2025 春学期，CC98 站外资料。
+- [实验步骤与知识点整理](https://www.yuque.com/zo3l5e/qsw4sg/24845938)：语雀站外资料。
 
 ## 课程信息
 

@@ -30,11 +30,9 @@
     <strong>考试资料</strong>
     <small>2024-2025 学年春学期期末回忆卷</small>
   </a>
-  <a class="course-link" href="https://pan.baidu.com/s/1V4l56ir5mBt-sWIvmPejOw?pwd=9g3u">
-    <strong>社会医学（乙）复习资料</strong>
-    <small>百度网盘 · 提取码 9g3u</small>
-  </a>
 </nav>
+
+- [社会医学（乙）复习资料](https://pan.baidu.com/s/1V4l56ir5mBt-sWIvmPejOw?pwd=9g3u)：百度网盘 · 提取码 9g3u。
 
 ## 课程信息
 

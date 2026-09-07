@@ -57,7 +57,12 @@ PBL 的展示和书面任务要按时完成。在当年采用开卷考试的情�
 
 ## 资料
 
-- [考试资料](exams/index.md)：2023-2024 学年春学期期末回忆卷，以及 2024-2025 学年春学期完整期末试卷。
+<nav class="course-links" aria-label="课程资料">
+  <a class="course-link" href="exams/">
+    <strong>考试资料</strong>
+    <small>2023-2024 学年春学期期末回忆卷，以及 2024-2025 学年春学期完整期末试卷</small>
+  </a>
+</nav>
 
 ## 课程信息
 
