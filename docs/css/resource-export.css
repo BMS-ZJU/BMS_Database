@@ -1,5 +1,5 @@
 /* Exam and quiz indexes share the site's two-column resource lists. */
-.md-typeset :is(.resource-export-index, .resource-batch-toolbar) {
+.md-typeset :is(.resource-export-index, .resource-batch-toolbar, .resource-page-tools) {
   --resource-control-color: var(--md-typeset-a-color);
   --resource-control-line: var(--md-default-fg-color--lightest);
   --resource-control-tint: color-mix(in srgb, var(--md-typeset-a-color) 6%, transparent);
@@ -134,7 +134,8 @@
   content: none;
 }
 
-.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a.resource-export-link::before {
+.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a.resource-export-link::before,
+.md-typeset .resource-page-tools > a.resource-export-link::before {
   content: "";
   display: inline-block;
   width: 14px;
@@ -235,6 +236,8 @@
 }
 
 .md-typeset p.resource-page-tools {
+  display: flex;
+  align-items: center;
   margin: 0 0 1rem;
   font-size: 0.68rem;
 }
@@ -253,10 +256,34 @@
   cursor: pointer;
 }
 
-.md-typeset .resource-page-tools a:hover,
 .md-typeset .resource-batch-toolbar :is(a, button):hover {
   text-decoration: underline;
   text-underline-offset: 0.2em;
+}
+
+.md-typeset .resource-page-tools a {
+  gap: 0.3rem;
+  min-height: 34px;
+  max-width: 100%;
+  padding: 0.24rem 0.55rem;
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1.4;
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+
+.md-typeset .resource-page-tools a:hover {
+  border-color: color-mix(in srgb, currentColor 30%, transparent);
+  background: var(--resource-control-hover);
+  text-decoration: none;
+}
+
+@media (pointer: coarse) {
+  .md-typeset .resource-page-tools a {
+    min-height: 44px;
+    padding-inline: 0.65rem;
+  }
 }
 
 .md-typeset .resource-page-tools a:focus-visible,
@@ -423,7 +450,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .md-typeset .resource-batch-toolbar :is(a, button) {
+  .md-typeset .resource-batch-toolbar :is(a, button),
+  .md-typeset .resource-page-tools a {
     transition: none;
   }
 }

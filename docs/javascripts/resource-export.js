@@ -39,7 +39,11 @@
     const tools = document.createElement("p");
     tools.className = "resource-page-tools";
     const link = exportLink([source.pathname], "打印 / 导出");
-    link.setAttribute("aria-label", `${heading.textContent.trim()}：打印 / 导出（新标签页）`);
+    link.className = "resource-export-link";
+    link.title = "打开打印预览，可通过浏览器保存为 PDF";
+    const title = heading.cloneNode(true);
+    title.querySelectorAll(".headerlink").forEach((anchor) => anchor.remove());
+    link.setAttribute("aria-label", `${title.textContent.trim()}：打印 / 导出（新标签页）`);
     tools.append(link);
     heading.after(tools);
   };
