@@ -112,3 +112,5 @@
 - **学分：**1 学分。
 - **参考教材：**Barbara Janson Cohen、Shirley A. Jones 的 *Medical Terminology: An Illustrated Guide* 第 9 版，主要用于词汇学习和期末复习。无需专门购买，老师会在课程钉钉群上传电子版。
 - **写作参考书：**Michael Alley 的 *The Craft of Scientific Writing* 第 4 版。
+
+本页部分课程记录与学习建议整理自 **Yangshu233** 的 [2024-2025 学年课程经验](https://www.cc98.org/topic/6229617)。

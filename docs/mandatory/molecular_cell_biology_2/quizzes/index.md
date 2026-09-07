@@ -6,7 +6,7 @@ hide:
 
 # 细胞与生物分子Ⅱ平时小测
 
-本站现有两学年的课堂小测回忆资料，均未补写答案。
+本站现有两学年的课堂小测回忆资料。
 
 <div class="grid cards course-resource-grid" markdown>
 
