@@ -24,6 +24,8 @@ hide:
 
     [查看资料](https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E5%9B%9E%E5%BF%86%E5%8D%B7.html)
 
+    资料分享：**Yangshu233**。
+
 -   **2022-2023 学年 · 回忆卷** <span class="exam-resource-tag">生命科学基础</span>
 
     ---
