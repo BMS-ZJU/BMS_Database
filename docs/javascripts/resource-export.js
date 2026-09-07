@@ -84,8 +84,9 @@
     const selected = exportLink([], "导出所选");
     const help = document.createElement("small");
     help.textContent = "合并为一份 PDF，每份资料另起一页。";
+    selected.title = help.textContent;
     controls.append(selectAllLabel, count, selected, help);
-    toolbar.append(total, all, toggle, controls);
+    toolbar.append(total, all, controls, toggle);
 
     const choices = cards.map((card) => {
       const label = document.createElement("label");
@@ -122,7 +123,7 @@
       const active = controls.hidden;
       controls.hidden = !active;
       toggle.setAttribute("aria-expanded", String(active));
-      toggle.textContent = active ? "取消勾选" : "勾选导出";
+      toggle.textContent = active ? "取消" : "勾选导出";
       grids.forEach((grid) => grid.classList.toggle("resource-selecting", active));
       choices.forEach(({ checkbox, label }) => {
         label.hidden = !active;
@@ -165,6 +166,14 @@
           titleLink.removeAttribute("aria-label");
           titleLink.append(...title.childNodes);
           title.append(titleLink);
+        }
+
+        // Keep actions under their title; existing badges and descriptions follow them.
+        const heading = card.querySelector(":scope > p:first-child");
+        if (heading?.querySelector(":scope > strong")) {
+          const metadata = heading.querySelectorAll(":scope > .exam-resource-tag, :scope > .course-resource-detail");
+          const notes = card.querySelectorAll(":scope > p.resource-index-note");
+          card.append(...metadata, ...notes);
         }
       });
     });
