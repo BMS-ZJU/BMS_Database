@@ -10,7 +10,7 @@ hide:
 <p class="curriculum-lead">不同入学年级和班型的课程修读要求差异较大，本站因此按培养方案整理课程。请先选择入学年级，再选择班型；课程号、学分和建议学期均按对应方案记录。</p>
 
 <div class="curriculum-context">
-  <p><strong>课程资料</strong><span>课程名链接进入本站资料；“不同课程参考”链接到图灵班其他版本，教学与考核要求需区分；其余标为“暂无资料”。</span></p>
+  <p><strong>课程资料</strong><span>课程名链接进入本站资料；“不同课程参考”链接到其他课程或版本的资料，教学与考核要求需区分；其余标为“暂无资料”。</span></p>
   <p><strong>版本范围</strong><span>收录 2019—2026 级共 16 个方案版本，同一年级不同班型分别整理。</span></p>
 </div>
 
@@ -578,7 +578,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 五（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 五（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>1811130 · 2.0 学分 · 五（秋）</small></a>
+          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
         </div>
@@ -886,7 +886,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 五（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 五（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>1811130 · 2.0 学分 · 五（秋）</small></a>
+          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
         </div>
@@ -1031,7 +1031,7 @@ hide:
         ##### 基础医学方向 · 疾病机制与精准干预 { #curriculum-2024-strong-base-transition-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>1811130 · 2.0 学分 · 五（秋）</small></a>
+          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
         </div>
@@ -1266,7 +1266,7 @@ hide:
         ##### 基础医学 · 疾病机制与精准干预 { #curriculum-2023-strong-base-transition-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>1811130 · 2.0 学分 · 五（秋）</small></a>
+          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
         </div>
