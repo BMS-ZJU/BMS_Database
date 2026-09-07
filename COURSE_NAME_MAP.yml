@@ -1,18 +1,28 @@
 # BMS Database 课程名称与目录映射
 #
 # 用途：后续维护任务收到中文课程名时，先用本文件定位正式课程目录。
-# chinese_name / english_name 来自浙江大学教务网“课程信息查看”；
-# course_code 由 2020—2026 级基础医学培养方案核对，用于排除同名课程。
+# 已核实的 chinese_name / english_name 来自浙江大学教务网“课程信息查看”；
+# 本地补登记课程的中文名以培养方案为据，未核实的官方英文名为 null。
+# course_code 由 2019—2026 级基础医学培养方案核对，用于排除同名课程。
 # path 是仓库 docs/ 下的现有相对目录，不随英文名自动改名；
 # 尚未建立课程页面的课程统一放在 curriculum_only_courses，path 为 null。
 #
-# 核对日期：2026-08-27
+# verified_on 保留既有教务网核对日期；curriculum_verified_on 仅表示本地培养方案覆盖核对日期。
+# curriculum_plans 使用 docs/curricula/index.md 的方案标识，表示出现范围，不表示开课状态。
+# suggested_term 是对应培养方案的建议学期，不替代实际教学安排。
+# curriculum_versions 保存历史代码、原名、学分和方案范围；不默认各版本教学与考核相同。
+# 定位代码时依次核对 course_code、legacy_course_code、curriculum_course_codes 和 curriculum_versions。
+# legacy_course_code 保留既有教务旧代码，不用新增的历史方案记录覆盖它。
+# 同名独立课程分别登记；related_course_code / archived_materials_path 只说明关联或资料归档位置。
 # 教务网字段只做了首尾空白清理，不对官方英文名自行润色。
 
 version: 1
 verified_on: 2026-08-27
+curriculum_verified_on: 2026-09-08
 sources:
-  curriculum: 浙江大学 2020—2026 级基础医学培养方案（2026-08-26 提取核对）
+  curriculum: 浙江大学 2019—2026 级基础医学培养方案（本地已保存材料；2026-09-08 补核目录覆盖及历史版本）
+  curriculum_page: docs/curricula/index.md
+  course_catalog: docs/courses/index.md
   english_names: 浙江大学教务网 > 培养方案 > 课程信息查看
 
 courses:
@@ -106,6 +116,16 @@ courses:
     legacy_course_code: "72120401"
     chinese_name: 医学科学素养Ⅱ
     english_name: Medical Science Literacy Ⅱ
+    curriculum_versions:
+      - course_code: "72120400"
+        chinese_name: 医学科学素养Ⅱ
+        credits: 2.0
+        curriculum_plans:
+          - 2019-qiushi
+          - 2020-qiushi
+          - 2020-strong-base
+        suggested_term: 三（秋）
+        notes: 按2019—2020级方案记录；与既有72120401版本的教学安排不能仅凭同名视为完全相同。
   - category: mandatory
     path: mandatory/clinical_epidemiology_and_evidence_based_medicine
     course_code: MED4423M
@@ -130,6 +150,14 @@ courses:
     legacy_course_code: "18122921"
     chinese_name: 重要疾病的临床与研究Ⅲ
     english_name: "Human Diseases: From Clinic To Research Ⅲ"
+    curriculum_versions:
+      - course_code: "72120500"
+        chinese_name: 重要疾病的临床与研究Ⅲ
+        credits: 4.0
+        curriculum_plans:
+          - 2019-qiushi
+        suggested_term: 四（春）
+        notes: 2019级方案为4.0学分，现有18122921/MED4062M版本为3.0学分；保留版本差异，不作为完全等价的字符串别名。
   - category: mandatory
     path: mandatory/medical_biophysics
     course_code: MED2031M
@@ -256,7 +284,7 @@ courses:
     aliases:
       - 社会医学(乙)
 
-# 以下课程来自 2020—2026 级基础医学培养方案，但目前没有独立课程页面。
+# 以下课程来自 2019—2026 级基础医学培养方案，但目前没有独立课程页面。
 # 教务网暂时查不到的课程也保留映射，并标注截至查询日期尚无开课记录；这不表示未来不会开课。
 curriculum_only_courses:
   - curriculum_roles: [professional_elective]
@@ -836,3 +864,157 @@ curriculum_only_courses:
     english_name: null
     offering_status: not_offered_as_of_2026-08-27
     lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+
+# 2026-09-08 R12：按本地培养方案补登记；未查询教务网，不新增未开课结论。
+  - path: null
+    course_code: "1811010"
+    chinese_name: 传染病学专题
+    english_name: null
+    credits: 2.0
+    curriculum_plans:
+      - 2023-strong-base
+    suggested_term: 五（夏）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+  - path: null
+    course_code: "1811051"
+    chinese_name: 分子病原生物学
+    english_name: null
+    credits: 2.0
+    curriculum_plans:
+      - 2023-strong-base
+    suggested_term: 五（春）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+  - path: null
+    course_code: "18120381"
+    chinese_name: 流行病学
+    english_name: null
+    credits: 5.0
+    curriculum_plans:
+      - 2023-strong-base
+    suggested_term: 五（春夏）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+  - path: null
+    course_code: "18120581"
+    chinese_name: 卫生统计学
+    english_name: null
+    credits: 4.0
+    curriculum_plans:
+      - 2023-strong-base
+    suggested_term: 五（春夏）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+  - path: null
+    course_code: "18198240"
+    chinese_name: 病原生物学
+    english_name: null
+    credits: 3.0
+    curriculum_plans:
+      - 2023-strong-base
+    suggested_term: 五（冬）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+  - path: null
+    course_code: "21121520"
+    chinese_name: 认知神经科学导论
+    english_name: null
+    credits: 3.0
+    curriculum_plans:
+      - 2023-strong-base
+    suggested_term: 五（秋冬）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+  - path: null
+    course_code: "21121960"
+    chinese_name: 脑启发人工智能导论
+    english_name: null
+    credits: 3.0
+    curriculum_plans:
+      - 2023-strong-base
+    suggested_term: 五（春夏）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+  - path: null
+    course_code: "21188210"
+    chinese_name: 人工智能引论
+    english_name: null
+    credits: 3.5
+    curriculum_plans:
+      - 2023-strong-base
+    suggested_term: 五（秋冬）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+  - path: null
+    course_code: "72120370"
+    chinese_name: 生命科学基础
+    english_name: null
+    credits: 3.0
+    curriculum_plans:
+      - 2019-qiushi
+      - 2020-qiushi
+      - 2020-strong-base
+      - 2021-qiushi
+      - 2021-strong-base
+      - 2022-qiushi
+      - 2022-strong-base
+    suggested_term: 一（秋冬）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+    related_course_code: MED1001M
+    archived_materials_path: mandatory/medical_life_fundamentals/exams
+    notes: 3.0学分的独立历史课程，后来改革为2.5学分的医学生命基础（MED1001M），不能视为同课旧名；现有旧卷归档目录不代表课程等同。
+  - path: null
+    course_code: "72120410"
+    chinese_name: 肿瘤研究前沿
+    english_name: null
+    credits: 1.5
+    curriculum_plans:
+      - 2019-qiushi
+    suggested_term: 三（春）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+    notes: 2019级方案中的独立课程；未据名称将其并入肿瘤生物学或肿瘤研究策略与应用。
+  - path: null
+    course_code: "72120470"
+    chinese_name: 药理学与新药研发
+    english_name: null
+    credits: 4.0
+    curriculum_plans:
+      - 2019-qiushi
+    suggested_term: 三（春夏）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+    notes: 2019级方案中的独立课程；未据名称将其并入基础药理学或新药研发。
+  - path: null
+    course_code: "72188050"
+    chinese_name: 学科轮转与教学实习Ⅰ
+    english_name: null
+    credits: 4.0
+    curriculum_plans:
+      - 2019-qiushi
+      - 2020-qiushi
+      - 2020-strong-base
+      - 2021-qiushi
+      - 2021-strong-base
+    suggested_term: 三（春）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+    notes: 与72188040在同一批培养方案中分列，分别为Ⅰ和Ⅱ，不互作旧课程号。
+  - path: null
+    course_code: "72188040"
+    chinese_name: 学科轮转与教学实习Ⅱ
+    english_name: null
+    credits: 4.0
+    curriculum_plans:
+      - 2019-qiushi
+      - 2020-qiushi
+      - 2020-strong-base
+      - 2021-qiushi
+      - 2021-strong-base
+    suggested_term: 三（夏）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+    notes: 与72188050在同一批培养方案中分列，分别为Ⅱ和Ⅰ，不互作旧课程号。
+  - path: null
+    course_code: "1811130"
+    chinese_name: 新药研发
+    english_name: null
+    credits: 2.0
+    curriculum_plans:
+      - 2023-strong-base
+      - 2024-qiushi
+      - 2024-strong-base
+      - 2025-qiushi
+    suggested_term: 五（秋）
+    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+    related_course_code: MED3057M
+    notes: 进阶/衔接阶段的2.0学分版本，与本科MED3057M的1.5学分版本在2025级求是科学班同一方案中并存；不把本科主页作为本课程的独立页面，教学与考核是否可复用待核。
