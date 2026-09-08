@@ -473,7 +473,7 @@ body.resource-export-view {
   background: #f1f2f4;
   color: #171717;
   color-scheme: light;
-  font-family: "Times New Roman", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  font-family: "Times New Roman", "SimSun", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", serif;
   font-size: 11pt;
   line-height: 1.5;
   letter-spacing: normal;
