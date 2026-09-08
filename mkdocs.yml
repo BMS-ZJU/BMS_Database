@@ -340,4 +340,5 @@ extra_javascript:
 extra_css:
   - css/styles.css
   - css/resource-export.css
+  - css/header-wordmark.css
   - https://unpkg.com/katex@0/dist/katex.min.css
