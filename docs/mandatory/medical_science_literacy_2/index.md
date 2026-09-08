@@ -15,30 +15,15 @@
 
 ## 上课与平时任务
 
-**2025-2026 秋学期（23 级）**
-
-三次线上计分小测、两次线下计分小测，以及不计分的课堂练习。线上小测均为 60 分钟、两次机会；线下小测为纸质大题。各次开放时间、补测记录和题目见[练习与小测](quizzes/)。
-
 **2025-2026 夏学期（25 级）**
 
 小测包括纸质和线上编程两种形式，和期末考试共同构成总评。
 
+**2025-2026 秋学期（23 级）**
+
+三次线上计分小测、两次线下计分小测，以及不计分的课堂练习。线上小测均为 60 分钟、两次机会；线下小测为纸质大题。各次开放时间、补测记录和题目见[练习与小测](quizzes/)。
+
 ## 分数构成
-
-=== "2025-2026 秋学期（23 级）"
-
-    <div class="course-score">
-      <div class="course-score__items" role="list" aria-label="医学科学素养Ⅱ 2025-2026 秋学期（23 级）分数构成">
-        <div class="course-score__item" role="listitem">
-          <div class="course-score__number">50<span>%</span></div>
-          <div class="course-score__body"><strong>平时小测</strong><p>共五次；前三次线上，后两次线下</p></div>
-        </div>
-        <div class="course-score__item" role="listitem">
-          <div class="course-score__number">50<span>%</span></div>
-          <div class="course-score__body"><strong>期末考试</strong></div>
-        </div>
-      </div>
-    </div>
 
 === "2025-2026 夏学期（25 级）"
 
@@ -47,6 +32,21 @@
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">50<span>%</span></div>
           <div class="course-score__body"><strong>平时小测</strong><p>包括纸质小测和线上编程小测</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong></div>
+        </div>
+      </div>
+    </div>
+
+=== "2025-2026 秋学期（23 级）"
+
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="医学科学素养Ⅱ 2025-2026 秋学期（23 级）分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>平时小测</strong><p>共五次；前三次线上，后两次线下</p></div>
         </div>
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">50<span>%</span></div>
@@ -72,9 +72,9 @@
 
 ## 期末考试
 
-**2025-2026 秋学期（23 级）：**闭卷，中英文混合，可携带计算器，考试时间为 2 小时。文献检索部分使用中文，生物统计部分使用英文。考试共 20 道选择题，每题 2.5 分；另有 5 道简答题，共 50 分，需要写出统计计算和结论。
-
 **2025-2026 夏学期（25 级）：**期末主要考查英文概率论与数理统计。该班的小测形式和秋学期不同，复习时要留意自己班次的安排。
+
+**2025-2026 秋学期（23 级）：**闭卷，中英文混合，可携带计算器，考试时间为 2 小时。文献检索部分使用中文，生物统计部分使用英文。考试共 20 道选择题，每题 2.5 分；另有 5 道简答题，共 50 分，需要写出统计计算和结论。
 
 **2023-2024 秋学期（21 级）：**考试分为选择题 40 分、判断题 10 分和计算题 50 分，当年会提供一些公式和分布表。
 
@@ -109,7 +109,7 @@ R 语言属于授课与实践内容，但现有期末考试不考查 R 语言操
   </a>
   <a class="course-link" href="exams/">
     <strong>考试资料</strong>
-    <small>2023-2024、2025-2026 两学年期末回忆卷</small>
+    <small>2025-2026 秋学期（23 级）、2023-2024 秋学期（21 级）期末回忆卷</small>
   </a>
 </nav>
 

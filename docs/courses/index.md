@@ -38,27 +38,27 @@ comments: false
 ## 大一
 
 <div class="course-catalog course-catalog--available" style="--course-catalog-rows: 4">
-  <a class="course-catalog-item" data-course-search="医学生命基础 MED1001M Medical Life Fundamentals 考试" href="../mandatory/medical_life_fundamentals/">
+  <a class="course-catalog-item" data-course-search="医学生命基础 MED1001M Medical Life Fundamentals 考试 18198100" href="../mandatory/medical_life_fundamentals/">
     <span class="course-catalog-name">医学生命基础</span>
     <span class="course-catalog-meta">MED1001M · 2.5 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学科学素养Ⅰ 医学科学素养I MED1003M Medical Research Literacy" href="../mandatory/medical_research_literacy_1/">
+  <a class="course-catalog-item" data-course-search="医学科学素养Ⅰ 医学科学素养I MED1003M Medical Research Literacy 72120380" href="../mandatory/medical_research_literacy_1/">
     <span class="course-catalog-name">医学科学素养Ⅰ</span>
     <span class="course-catalog-meta">MED1003M · 1.0 学分 · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学科学素养Ⅱ 医学科学素养II MED3045M Medical Science Literacy 考试 小测 练习" href="../mandatory/medical_science_literacy_2/">
+  <a class="course-catalog-item" data-course-search="医学科学素养Ⅱ 医学科学素养II MED3045M Medical Science Literacy 考试 小测 练习 72120401" href="../mandatory/medical_science_literacy_2/">
     <span class="course-catalog-name">医学科学素养Ⅱ</span>
     <span class="course-catalog-meta">MED3045M · 2.0 学分 · 考试 · 小测</span>
   </a>
-  <a class="course-catalog-item" data-course-search="基础医学科学研究技能Ⅰ 基础医学科学研究技能I MED1028M Basic Techniques In Medical Sciences 考试" href="../mandatory/basic_techniques_in_medical_sciences_1/">
+  <a class="course-catalog-item" data-course-search="基础医学科学研究技能Ⅰ 基础医学科学研究技能I MED1028M Basic Techniques In Medical Sciences 考试 18122950" href="../mandatory/basic_techniques_in_medical_sciences_1/">
     <span class="course-catalog-name">基础医学科学研究技能Ⅰ</span>
     <span class="course-catalog-meta">MED1028M · 1.5 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学科学英语基础 MED1005M Essential English For Medical Sciences" href="../mandatory/essential_english_for_medical_sciences/">
+  <a class="course-catalog-item" data-course-search="医学科学英语基础 MED1005M Essential English For Medical Sciences 72190040" href="../mandatory/essential_english_for_medical_sciences/">
     <span class="course-catalog-name">医学科学英语基础</span>
     <span class="course-catalog-meta">MED1005M · 1.0 学分 · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="物理化学 CHEM2001F Physical Chemistry 考试" href="../elective/physical_chemistry/">
+  <a class="course-catalog-item" data-course-search="物理化学 CHEM2001F Physical Chemistry 考试 061B9030" href="../elective/physical_chemistry/">
     <span class="course-catalog-name">物理化学</span>
     <span class="course-catalog-meta">CHEM2001F · 4.0 学分 · 考试</span>
   </a>
@@ -89,47 +89,47 @@ comments: false
 ## 大二
 
 <div class="course-catalog course-catalog--available" style="--course-catalog-rows: 7">
-  <a class="course-catalog-item" data-course-search="细胞与生物分子Ⅰ 细胞与生物分子I MED2039M Molecular Cell Biology Cell Biology 考试" href="../mandatory/molecular_cell_biology_1/">
+  <a class="course-catalog-item" data-course-search="细胞与生物分子Ⅰ 细胞与生物分子I MED2039M Molecular Cell Biology Cell Biology 考试 18122790" href="../mandatory/molecular_cell_biology_1/">
     <span class="course-catalog-name">细胞与生物分子Ⅰ</span>
     <span class="course-catalog-meta">MED2039M · 3.0 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="细胞与生物分子Ⅱ 细胞与生物分子II MED2019M Molecular Cell Biology Biochemistry 考试 小测" href="../mandatory/molecular_cell_biology_2/">
+  <a class="course-catalog-item" data-course-search="细胞与生物分子Ⅱ 细胞与生物分子II MED2019M Molecular Cell Biology Biochemistry 考试 小测 18122800" href="../mandatory/molecular_cell_biology_2/">
     <span class="course-catalog-name">细胞与生物分子Ⅱ</span>
     <span class="course-catalog-meta">MED2019M · 5.0 学分 · 考试 · 小测</span>
   </a>
-  <a class="course-catalog-item" data-course-search="实验动物与伦理学 MED2302M Experimental Animals And Ethics 考试" href="../mandatory/experimental_animals_and_ethics/">
+  <a class="course-catalog-item" data-course-search="实验动物与伦理学 MED2302M Experimental Animals And Ethics 考试 72120450" href="../mandatory/experimental_animals_and_ethics/">
     <span class="course-catalog-name">实验动物与伦理学</span>
     <span class="course-catalog-meta">MED2302M · 2.0 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="遗传与发育Ⅰ 遗传与发育I MED2020M Genetics Developmental Biology 考试" href="../mandatory/genetics_and_developmental_biology_1/">
+  <a class="course-catalog-item" data-course-search="遗传与发育Ⅰ 遗传与发育I MED2020M Genetics Developmental Biology 考试 18122810" href="../mandatory/genetics_and_developmental_biology_1/">
     <span class="course-catalog-name">遗传与发育Ⅰ</span>
     <span class="course-catalog-meta">MED2020M · 3.0 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="遗传与发育Ⅱ 遗传与发育II MED2030M Genetics Developmental Biology 考试" href="../mandatory/genetics_and_developmental_biology_2/">
+  <a class="course-catalog-item" data-course-search="遗传与发育Ⅱ 遗传与发育II MED2030M Genetics Developmental Biology 考试 18122820" href="../mandatory/genetics_and_developmental_biology_2/">
     <span class="course-catalog-name">遗传与发育Ⅱ</span>
     <span class="course-catalog-meta">MED2030M · 3.0 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="人体结构与功能学 MED2035M Structure And Function Of The Human Body 考试 小测 测验 解剖学标本测验" href="../mandatory/structure_and_function_of_the_human_body/">
+  <a class="course-catalog-item" data-course-search="人体结构与功能学 MED2035M Structure And Function Of The Human Body 考试 小测 测验 解剖学标本测验 期末考试 实验考试 解剖学实验考试 18122830" href="../mandatory/structure_and_function_of_the_human_body/">
     <span class="course-catalog-name">人体结构与功能学</span>
-    <span class="course-catalog-meta">MED2035M · 6.0 学分 · 考试 · 小测</span>
+    <span class="course-catalog-meta">MED2035M · 6.0 学分 · 期末考试 · 实验考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学生物物理学 MED2031M Medical Biophysics 考试 笔记" href="../mandatory/medical_biophysics/">
+  <a class="course-catalog-item" data-course-search="医学生物物理学 MED2031M Medical Biophysics 考试 笔记 72120390" href="../mandatory/medical_biophysics/">
     <span class="course-catalog-name">医学生物物理学</span>
     <span class="course-catalog-meta">MED2031M · 3.0 学分 · 考试 · 笔记</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学大数据与应用 MED2010M Medical Big Data And Application 考试" href="../mandatory/medical_big_data_and_application/">
+  <a class="course-catalog-item" data-course-search="医学大数据与应用 MED2010M Medical Big Data And Application 考试 72120440" href="../mandatory/medical_big_data_and_application/">
     <span class="course-catalog-name">医学大数据与应用</span>
     <span class="course-catalog-meta">MED2010M · 2.0 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="基础医学科学研究技能Ⅱ 基础医学科学研究技能II MED2011M Basic Techniques In Medical Sciences" href="../mandatory/basic_techniques_in_medical_sciences_2/">
+  <a class="course-catalog-item" data-course-search="基础医学科学研究技能Ⅱ 基础医学科学研究技能II MED2011M Basic Techniques In Medical Sciences 72120490" href="../mandatory/basic_techniques_in_medical_sciences_2/">
     <span class="course-catalog-name">基础医学科学研究技能Ⅱ</span>
     <span class="course-catalog-meta">MED2011M · 1.0 学分 · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="肿瘤生物学 MED2040M Cancer Biology 考试" href="../elective/cancer_biology/">
+  <a class="course-catalog-item" data-course-search="肿瘤生物学 MED2040M Cancer Biology 考试 72120530" href="../elective/cancer_biology/">
     <span class="course-catalog-name">肿瘤生物学</span>
     <span class="course-catalog-meta">MED2040M · 2.0 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="临床肿瘤学概论 MED2012M Introduction To Clinical Oncology" href="../elective/introduction_to_clinical_oncology/">
+  <a class="course-catalog-item" data-course-search="临床肿瘤学概论 MED2012M Introduction To Clinical Oncology 72120580" href="../elective/introduction_to_clinical_oncology/">
     <span class="course-catalog-name">临床肿瘤学概论</span>
     <span class="course-catalog-meta">MED2012M · 2.0 学分 · 课程主页</span>
   </a>
@@ -137,7 +137,7 @@ comments: false
     <span class="course-catalog-name">组学与精准医学前沿导论</span>
     <span class="course-catalog-meta">MED2587M · 3.0 学分 · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="教育统计学 EDU2007M Educational Statistics" href="../elective/educational_statistics/">
+  <a class="course-catalog-item" data-course-search="教育统计学 EDU2007M Educational Statistics 03123590" href="../elective/educational_statistics/">
     <span class="course-catalog-name">教育统计学</span>
     <span class="course-catalog-meta">EDU2007M · 2.0 学分 · 课程主页</span>
   </a>
@@ -192,55 +192,55 @@ comments: false
 ## 大三
 
 <div class="course-catalog course-catalog--available" style="--course-catalog-rows: 7">
-  <a class="course-catalog-item" data-course-search="感染与免疫学 MED3055M Infectious Diseases Immunity 考试 小测" href="../mandatory/infectious_diseases_and_immunity/">
+  <a class="course-catalog-item" data-course-search="感染与免疫学 MED3055M Infectious Diseases Immunity 考试 小测 18122840" href="../mandatory/infectious_diseases_and_immunity/">
     <span class="course-catalog-name">感染与免疫学</span>
     <span class="course-catalog-meta">MED3055M · 5.0 学分 · 考试 · 小测</span>
   </a>
-  <a class="course-catalog-item" data-course-search="疾病基础 MED3047M The Basis For Human Diseases Pathology Pathophysiology 考试 小测" href="../mandatory/the_basis_for_human_diseases/">
+  <a class="course-catalog-item" data-course-search="疾病基础 MED3047M The Basis For Human Diseases Pathology Pathophysiology 考试 小测 18122930" href="../mandatory/the_basis_for_human_diseases/">
     <span class="course-catalog-name">疾病基础</span>
     <span class="course-catalog-meta">MED3047M · 6.0 学分 · 考试 · 小测</span>
   </a>
-  <a class="course-catalog-item" data-course-search="基础药理学 MED3056M Basic Pharmacology 考试 讨论课" href="../mandatory/basic_pharmacology/">
+  <a class="course-catalog-item" data-course-search="基础药理学 MED3056M Basic Pharmacology 考试 讨论课 18122940" href="../mandatory/basic_pharmacology/">
     <span class="course-catalog-name">基础药理学</span>
     <span class="course-catalog-meta">MED3056M · 3.0 学分 · 考试 · 讨论课</span>
   </a>
-  <a class="course-catalog-item" data-course-search="神经科学 MED2303M Neuroscience 考试 小测" href="../mandatory/neuroscience/">
+  <a class="course-catalog-item" data-course-search="神经科学 MED2303M Neuroscience 考试 小测 72120420" href="../mandatory/neuroscience/">
     <span class="course-catalog-name">神经科学</span>
     <span class="course-catalog-meta">MED2303M · 3.0 学分 · 考试 · 小测</span>
   </a>
-  <a class="course-catalog-item" data-course-search="脑与脑机融合 MED2304M Brain And Brain-Machine Integrated Systems 考试" href="../mandatory/brain_and_brain_machine_integrated_systems/">
+  <a class="course-catalog-item" data-course-search="脑与脑机融合 MED2304M Brain And Brain-Machine Integrated Systems 考试 72120430" href="../mandatory/brain_and_brain_machine_integrated_systems/">
     <span class="course-catalog-name">脑与脑机融合</span>
     <span class="course-catalog-meta">MED2304M · 1.5 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="临床流行病学与循证医学 MED4423M Clinical Epidemiology Evidence-Based Medicine" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/">
+  <a class="course-catalog-item" data-course-search="临床流行病学与循证医学 MED4423M Clinical Epidemiology Evidence-Based Medicine 73120120" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/">
     <span class="course-catalog-name">临床流行病学与循证医学</span>
     <span class="course-catalog-meta">MED4423M · 3.0 学分 · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="基础医学科研实践 MED3052M Medical Research Practice" href="../mandatory/medical_research_practice/">
+  <a class="course-catalog-item" data-course-search="基础医学科研实践 MED3052M Medical Research Practice 72188060" href="../mandatory/medical_research_practice/">
     <span class="course-catalog-name">基础医学科研实践</span>
     <span class="course-catalog-meta">MED3052M · 4.0 学分 · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="基础医学教育见习 MED3061M Educational Probation of Basic Medicine 任务 考核" href="../mandatory/educational_probation_of_basic_medicine/">
+  <a class="course-catalog-item" data-course-search="基础医学教育见习 MED3061M Educational Probation of Basic Medicine 任务 考核 72188070" href="../mandatory/educational_probation_of_basic_medicine/">
     <span class="course-catalog-name">基础医学教育见习</span>
     <span class="course-catalog-meta">MED3061M · 4.0 学分 · 见习任务</span>
   </a>
-  <a class="course-catalog-item" data-course-search="微生物学与免疫学前沿技术 MED4064M Advanced Technology In Microbiology And Immunology 考试" href="../elective/advanced_technology_in_microbiology_and_immunology/">
+  <a class="course-catalog-item" data-course-search="微生物学与免疫学前沿技术 MED4064M Advanced Technology In Microbiology And Immunology 考试 72120590" href="../elective/advanced_technology_in_microbiology_and_immunology/">
     <span class="course-catalog-name">微生物学与免疫学前沿技术</span>
     <span class="course-catalog-meta">MED4064M · 2.0 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="卫生事业管理 MED4411M Health Management" href="../elective/health_management/">
+  <a class="course-catalog-item" data-course-search="卫生事业管理 MED4411M Health Management 18120571" href="../elective/health_management/">
     <span class="course-catalog-name">卫生事业管理</span>
     <span class="course-catalog-meta">MED4411M · 1.5 学分 · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学伦理学与卫生法学 MED2412M Medical Ethics Health Law" href="../elective/medical_ethics_and_health_law/">
+  <a class="course-catalog-item" data-course-search="医学伦理学与卫生法学 MED2412M Medical Ethics Health Law 73120070" href="../elective/medical_ethics_and_health_law/">
     <span class="course-catalog-name">医学伦理学与卫生法学</span>
     <span class="course-catalog-meta">MED2412M · 1.5 学分 · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="法医学 MED2021M Forensic Medicine 考试" href="../elective/forensic_medicine/">
+  <a class="course-catalog-item" data-course-search="法医学 MED2021M Forensic Medicine 考试 18121850" href="../elective/forensic_medicine/">
     <span class="course-catalog-name">法医学</span>
     <span class="course-catalog-meta">MED2021M · 1.5 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="新药研发 MED3057M New Drug Research Development" href="../elective/new_drug_research_and_development/">
+  <a class="course-catalog-item" data-course-search="新药研发 MED3057M New Drug Research Development 18198000" href="../elective/new_drug_research_and_development/">
     <span class="course-catalog-name">新药研发</span>
     <span class="course-catalog-meta">MED3057M · 1.5 学分 · 课程主页</span>
   </a>
@@ -271,27 +271,27 @@ comments: false
 ## 大四
 
 <div class="course-catalog course-catalog--available" style="--course-catalog-rows: 3">
-  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅰ 重要疾病的临床与研究I MED4069M Human Diseases From Clinic To Research 考试" href="../mandatory/human_diseases_from_clinic_to_research_1/">
+  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅰ 重要疾病的临床与研究I MED4069M Human Diseases From Clinic To Research 考试 72120480" href="../mandatory/human_diseases_from_clinic_to_research_1/">
     <span class="course-catalog-name">重要疾病的临床与研究Ⅰ</span>
     <span class="course-catalog-meta">MED4069M · 4.5 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅱ 重要疾病的临床与研究II MED4068M Human Diseases From Clinic To Research 考试" href="../mandatory/human_diseases_from_clinic_to_research_2/">
+  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅱ 重要疾病的临床与研究II MED4068M Human Diseases From Clinic To Research 考试 72120510" href="../mandatory/human_diseases_from_clinic_to_research_2/">
     <span class="course-catalog-name">重要疾病的临床与研究Ⅱ</span>
     <span class="course-catalog-meta">MED4068M · 4.0 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅲ 重要疾病的临床与研究III MED4062M Human Diseases From Clinic To Research 考试" href="../mandatory/human_diseases_from_clinic_to_research_3/">
+  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅲ 重要疾病的临床与研究III MED4062M Human Diseases From Clinic To Research 考试 18122921" href="../mandatory/human_diseases_from_clinic_to_research_3/">
     <span class="course-catalog-name">重要疾病的临床与研究Ⅲ</span>
     <span class="course-catalog-meta">MED4062M · 3.0 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="临床实习 MED4066M Clinical Practice" href="../mandatory/clinical_practice/">
+  <a class="course-catalog-item" data-course-search="临床实习 MED4066M Clinical Practice 72188030" href="../mandatory/clinical_practice/">
     <span class="course-catalog-name">临床实习</span>
     <span class="course-catalog-meta">MED4066M · 6.0 学分 · 课程主页</span>
   </a>
-  <a class="course-catalog-item" data-course-search="临床免疫学 MED4063M Clinical Immunology 考试" href="../elective/clinical_immunology/">
+  <a class="course-catalog-item" data-course-search="临床免疫学 MED4063M Clinical Immunology 考试 18197061" href="../elective/clinical_immunology/">
     <span class="course-catalog-name">临床免疫学</span>
     <span class="course-catalog-meta">MED4063M · 1.5 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="社会医学乙 社会医学（乙） MED2426M Social Medicine B 考试" href="../elective/social_medicine_b/">
+  <a class="course-catalog-item" data-course-search="社会医学乙 社会医学（乙） MED2426M Social Medicine B 考试 18120444" href="../elective/social_medicine_b/">
     <span class="course-catalog-name">社会医学（乙）</span>
     <span class="course-catalog-meta">MED2426M · 1.5 学分 · 考试</span>
   </a>
@@ -568,7 +568,7 @@ comments: false
 <p class="course-catalog-group-note">以下课程只见于 2019—2025 级采用方案，未进入 2026 级三个班型。</p>
 
 <div class="course-catalog course-catalog--available" style="--course-catalog-rows: 1">
-  <a class="course-catalog-item" data-course-search="肿瘤研究策略与应用 MED3048M Strategy And Application In Cancer Research 考试" href="../elective/strategy_and_application_in_cancer_research/">
+  <a class="course-catalog-item" data-course-search="肿瘤研究策略与应用 MED3048M Strategy And Application In Cancer Research 考试 72120550" href="../elective/strategy_and_application_in_cancer_research/">
     <span class="course-catalog-name">肿瘤研究策略与应用</span>
     <span class="course-catalog-meta">MED3048M · 2.0 学分 · 考试</span>
   </a>
