@@ -10,7 +10,7 @@
           data-reactions-enabled="1"
           data-emit-metadata="0"
           data-input-position="bottom"
-          data-theme="preferred_color_scheme"
+          data-theme="{{ config.site_url }}css/giscus-light.css"
           data-lang="zh-CN"
           crossorigin="anonymous"
           async>
@@ -24,9 +24,10 @@
             .find(input => input.dataset.mdColorMedia && matchMedia(input.dataset.mdColorMedia).matches)
           if (initial) scheme = initial.dataset.mdColorScheme
         }
-        const theme = scheme === "slate"
-          ? "transparent_dark"
-          : "light"
+        const themeFile = scheme === "slate"
+          ? "giscus-dark.css"
+          : "giscus-light.css"
+        const theme = new URL("{{ 'css/' | url }}" + themeFile, document.baseURI).href
         const giscus = document.querySelector('script[src="https://giscus.app/client.js"]')
         if (giscus) giscus.setAttribute("data-theme", theme)
 
