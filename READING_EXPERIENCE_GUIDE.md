@@ -43,7 +43,7 @@
 
 `.reading-paper` 当前只自动识别 `mandatory/` 或 `elective/` 下，课程 `exams/`、`quizzes/` 中的直接资料正文页；分组目录、下载文件、普通主页和讨论课病例不在此范围。以后增加其他题目路径时，应明确检查分类逻辑，不能假设标题中带“题”就会自动适用。
 
-新增入口需同时考虑容器和独立节点。例如首页 Ginkgo 使用独立 `.course-link`，不能只给 `.course-links` 容器恢复界面字体；其介绍和 `.course-source-note` 仍按正文角色处理。
+新增入口需同时考虑容器和独立节点。例如首页 Ginkgo 使用独立 `.course-link`，不能只给 `.course-links` 容器恢复界面字体。卡片标题及介绍使用界面字体；卡片外的 `.course-source-note` 按正文角色处理。
 
 ### 字号与层级
 
