@@ -341,6 +341,7 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
+  - assets/fonts/noto-serif-sc/font.css
   - css/styles.css
   - css/resource-export.css
   - css/header-wordmark.css

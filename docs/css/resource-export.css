@@ -41,7 +41,7 @@
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p:first-child,
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p:first-child strong {
-  font-size: 0.72rem;
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
   font-weight: 650;
   line-height: 1.45;
   overflow-wrap: anywhere;
@@ -58,7 +58,7 @@
 }
 
 .md-typeset .course-resource-grid.resource-export-index .course-resource-detail {
-  font-size: 0.58rem;
+  font-size: calc(0.58 * var(--bms-reading-small-unit, 1rem));
   line-height: 1.45;
 }
 
@@ -90,7 +90,7 @@
   gap: 0.15rem 0.5rem;
   min-width: 0;
   max-width: 100%;
-  font-size: 0.62rem;
+  font-size: calc(0.62 * var(--bms-reading-small-unit, 1rem));
   line-height: 1.45;
   white-space: normal;
 }
@@ -191,7 +191,7 @@
   display: block;
   margin: 0;
   color: var(--md-default-fg-color--light);
-  font-size: 0.58rem;
+  font-size: calc(0.58 * var(--bms-reading-small-unit, 1rem));
   line-height: 1.45;
   text-align: start;
   white-space: normal;
@@ -266,7 +266,7 @@
   display: flex;
   align-items: center;
   margin: 0 0 1rem;
-  font-size: 0.68rem;
+  font-size: calc(0.68 * var(--bms-reading-unit, 1rem));
 }
 
 .md-typeset .resource-page-tools a,
@@ -327,7 +327,7 @@
   align-items: center;
   gap: 0.3rem 0.8rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.64rem;
+  font-size: calc(0.64 * var(--bms-reading-small-unit, 1rem));
   line-height: 1.5;
 }
 
@@ -339,7 +339,7 @@
 .md-typeset .resource-batch-total {
   margin-inline-end: auto;
   color: var(--md-default-fg-color--light);
-  font-size: 0.62rem;
+  font-size: calc(0.62 * var(--bms-reading-small-unit, 1rem));
   white-space: nowrap;
 }
 

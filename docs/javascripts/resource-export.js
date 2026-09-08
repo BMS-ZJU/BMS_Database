@@ -34,6 +34,8 @@
   const addPageEntry = () => {
     const source = resourceUrl(new URL(location.pathname, location.origin));
     const article = document.querySelector("article.md-content__inner");
+    // Classify reading typography before export controls can return early.
+    article?.classList.toggle("reading-paper", Boolean(source));
     const heading = article?.querySelector(":scope > h1");
     if (!source || !heading || article.querySelector(".resource-page-tools")) return;
     const tools = document.createElement("p");

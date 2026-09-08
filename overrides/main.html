@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {# Restore the reading style before the body is painted. #}
+  <script src="{{ 'javascripts/reading-style.js' | url }}"></script>
+{% endblock %}

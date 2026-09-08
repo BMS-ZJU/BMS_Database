@@ -1,3 +1,98 @@
+/* 正文使用宋体配套英数；试卷、小测和题目页的英数使用新罗马。 */
+@media screen {
+  :root:not([data-reading-style="original"]) {
+    /* 组件跟随正文轻微缩小, 间距继续沿用主题单位。 */
+    --bms-reading-unit: 19.375px;
+    /* 原本较小的辅助文字保留常规尺寸, 不随宽屏继续放大。 */
+    --bms-reading-small-unit: 20px;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-nav,
+  :where(html:not([data-reading-style="original"])) .md-tabs__link,
+  :where(html:not([data-reading-style="original"])) .md-path {
+    font-size: calc(0.7 * var(--bms-reading-unit));
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset :is(.admonition, details),
+  :where(html:not([data-reading-style="original"])) .md-typeset .tabbed-labels > label,
+  :where(html:not([data-reading-style="original"])) .md-typeset .footnote,
+  :where(html:not([data-reading-style="original"])) .md-typeset table:not([class]) {
+    font-size: calc(0.64 * var(--bms-reading-small-unit));
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset {
+    /* 阅读文字固定字号, 避免在超宽屏中再次变大。 */
+    font-size: 15.5px;
+    font-family: "BMS Noto Serif SC", "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset.reading-paper {
+    font-family: "Times New Roman", "BMS Noto Serif SC", "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+  }
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(
+    nav,
+    .tabbed-labels,
+    .course-links,
+    .course-link,
+    .course-resource-grid,
+    .course-catalog-guide-links,
+    .course-catalog,
+    .course-catalog-toolbar,
+    .course-catalog-group,
+    .course-catalog-unavailable,
+    .course-catalog-empty,
+    .curriculum-context,
+    .curriculum-plan-summary,
+    .curriculum-heading-credit,
+    .curriculum-course-list,
+    .resource-page-tools,
+    .resource-batch-toolbar,
+    .resource-batch-selection,
+    .resource-batch-choice,
+    .md-tags,
+    .md-source-file,
+    .md-button,
+    button,
+    input,
+    select,
+    textarea,
+    [role="button"]
+  ),
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset .course-catalog-guide > summary,
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset .quiz-answer > summary {
+    font-family: var(--md-text-font-family);
+  }
+}
+@media screen and (max-width: 44.984375em) {
+  :root:not([data-reading-style="original"]) {
+    --bms-reading-unit: 18.75px;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset {
+    font-size: 15px;
+  }
+}
+
+/* Reading style is independent of the colour palette. */
+.reading-style-toggle {
+  flex: 0 0 auto;
+}
+
+.reading-style-toggle:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.reading-style-toggle[aria-pressed="true"] > svg {
+  border-bottom: 2px solid currentColor;
+}
+
+@media print {
+  .reading-style-toggle {
+    display: none;
+  }
+}
+
 /*以下为占比表*/
 .percentage-table {
     max-width: 100%;
@@ -223,7 +318,7 @@
 
 .md-typeset .course-resource-grid > ul > li > p:first-child strong {
   color: var(--md-default-fg-color);
-  font-size: 0.88rem;
+  font-size: calc(0.88 * var(--bms-reading-unit, 1rem));
   font-weight: 650;
 }
 
@@ -231,7 +326,7 @@
   display: block;
   margin-top: 0.16rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.72rem;
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
   font-weight: 400;
   line-height: 1.5;
 }
@@ -243,7 +338,7 @@
   border-radius: 999px;
   background-color: var(--md-accent-fg-color--transparent);
   color: var(--md-default-fg-color--light);
-  font-size: 0.62rem;
+  font-size: calc(0.62 * var(--bms-reading-small-unit, 1rem));
   font-weight: 650;
   line-height: 1.55;
   vertical-align: 0.12em;
@@ -269,7 +364,7 @@
   border-radius: 999px;
   background-color: var(--md-primary-fg-color);
   color: var(--md-primary-bg-color);
-  font-size: 0.72rem;
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
   font-weight: 650;
   line-height: 1.35;
   text-decoration: none;
@@ -340,7 +435,7 @@
   padding: 0.25rem 1.1rem 0.25rem 0;
   background: transparent;
   color: var(--md-default-fg-color--light);
-  font-size: 0.68rem;
+  font-size: calc(0.68 * var(--bms-reading-unit, 1rem));
 }
 
 .md-typeset .course-catalog-guide > summary::before {
@@ -354,7 +449,7 @@
 
 .md-typeset .course-catalog-guide-links {
   margin: 0.35rem 0 0.7rem;
-  font-size: 0.7rem;
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
 }
 
 .md-typeset .course-catalog-toolbar {
@@ -369,7 +464,7 @@
   display: block;
   margin-bottom: 0.35rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.7rem;
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
   font-weight: 650;
 }
 
@@ -389,7 +484,7 @@
   background-color: var(--md-default-bg-color);
   color: var(--md-default-fg-color);
   font: inherit;
-  font-size: 0.78rem;
+  font-size: calc(0.78 * var(--bms-reading-unit, 1rem));
   outline: none;
 }
 
@@ -400,7 +495,7 @@
 
 .md-typeset .course-catalog-count {
   color: var(--md-default-fg-color--light);
-  font-size: 0.7rem;
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
   white-space: nowrap;
 }
 
@@ -419,7 +514,7 @@
 
 .md-typeset .course-catalog-counts small {
   color: var(--md-default-fg-color--lighter);
-  font-size: 0.5rem;
+  font-size: calc(0.5 * var(--bms-reading-small-unit, 1rem));
   white-space: nowrap;
 }
 
@@ -438,7 +533,7 @@
 .md-typeset .course-catalog-group-note {
   margin: -0.15rem 0 0.7rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.68rem;
+  font-size: calc(0.68 * var(--bms-reading-unit, 1rem));
 }
 
 .md-typeset .course-catalog {
@@ -477,7 +572,7 @@
 
 .md-typeset .course-catalog-name {
   overflow-wrap: anywhere;
-  font-size: 0.72rem;
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
   font-weight: 650;
   line-height: 1.45;
 }
@@ -493,7 +588,7 @@
   border-radius: 0.22rem;
   background-color: var(--md-default-fg-color--lightest);
   color: var(--md-default-fg-color--light);
-  font-size: 0.48rem;
+  font-size: calc(0.48 * var(--bms-reading-small-unit, 1rem));
   font-style: normal;
   font-weight: 500;
   line-height: 1.4;
@@ -503,7 +598,7 @@
 
 .md-typeset .course-catalog-meta {
   color: var(--md-default-fg-color--light);
-  font-size: 0.58rem;
+  font-size: calc(0.58 * var(--bms-reading-small-unit, 1rem));
   line-height: 1.45;
 }
 
@@ -524,7 +619,7 @@
   border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
   color: var(--md-default-fg-color--light);
   cursor: pointer;
-  font-size: 0.64rem;
+  font-size: calc(0.64 * var(--bms-reading-small-unit, 1rem));
   font-weight: 650;
   list-style: none;
   background: transparent;
@@ -550,7 +645,7 @@
 
 .md-typeset .course-catalog-unavailable-label > span {
   color: var(--md-primary-fg-color);
-  font-size: 0.72rem;
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
 }
 
 .md-typeset .course-catalog-unavailable[open] .course-catalog-unavailable-label > span {
@@ -559,13 +654,13 @@
 
 .md-typeset .course-catalog-unavailable[open] .course-catalog-unavailable-label > span::before {
   content: "−";
-  font-size: 0.72rem;
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
 }
 
 .md-typeset .course-catalog-unavailable > summary > span:last-child {
   margin-left: auto;
   color: var(--md-default-fg-color--lighter);
-  font-size: 0.56rem;
+  font-size: calc(0.56 * var(--bms-reading-small-unit, 1rem));
   font-weight: 500;
 }
 
@@ -586,7 +681,7 @@
 .md-typeset .curriculum-lead {
   margin-bottom: 0.75rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.78rem;
+  font-size: calc(0.78 * var(--bms-reading-unit, 1rem));
   line-height: 1.7;
 }
 
@@ -604,7 +699,7 @@
   gap: 0.5rem;
   margin: 0;
   padding: 0.62rem 0.7rem;
-  font-size: 0.65rem;
+  font-size: calc(0.65 * var(--bms-reading-small-unit, 1rem));
   line-height: 1.55;
 }
 
@@ -625,7 +720,7 @@
   margin: 0.7rem 0 1rem;
   padding: 0.55rem 0;
   border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
-  font-size: 0.7rem;
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
   line-height: 1.65;
 }
 
@@ -640,7 +735,7 @@
   border: 0.05rem solid var(--md-default-fg-color--lightest);
   border-radius: 0.25rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.58rem;
+  font-size: calc(0.58 * var(--bms-reading-small-unit, 1rem));
   font-weight: 500;
   line-height: 1.4;
   vertical-align: 0.12rem;
@@ -650,7 +745,7 @@
 .md-typeset .curriculum-section-note {
   margin: -0.35rem 0 1.1rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.64rem;
+  font-size: calc(0.64 * var(--bms-reading-small-unit, 1rem));
   line-height: 1.6;
 }
 
@@ -680,7 +775,7 @@
 
 .md-typeset .curriculum-course-item span {
   overflow-wrap: anywhere;
-  font-size: 0.72rem;
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
   font-weight: 650;
   line-height: 1.45;
 }
@@ -696,7 +791,7 @@
   border-radius: 0.22rem;
   background-color: var(--md-default-fg-color--lightest);
   color: var(--md-default-fg-color--light);
-  font-size: 0.48rem;
+  font-size: calc(0.48 * var(--bms-reading-small-unit, 1rem));
   font-style: normal;
   font-weight: 500;
   line-height: 1.4;
@@ -706,7 +801,7 @@
 
 .md-typeset .curriculum-course-item small {
   color: var(--md-default-fg-color--light);
-  font-size: 0.58rem;
+  font-size: calc(0.58 * var(--bms-reading-small-unit, 1rem));
   line-height: 1.45;
   text-align: left;
   white-space: normal;
@@ -757,7 +852,7 @@
 .md-typeset .course-score__year {
   margin: 0 0 0.35rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.7rem;
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
   font-weight: 500;
   line-height: 1.6;
 }
@@ -788,7 +883,7 @@
 
 .md-typeset .course-score__number {
   color: var(--md-typeset-a-color);
-  font-size: 1.02rem;
+  font-size: calc(1.02 * var(--bms-reading-unit, 1rem));
   font-variant-numeric: tabular-nums;
   font-weight: 650;
   letter-spacing: -0.02em;
@@ -806,7 +901,7 @@
   display: block;
   margin: 0 0 0.1rem;
   color: var(--md-default-fg-color);
-  font-size: 0.78rem;
+  font-size: calc(0.78 * var(--bms-reading-unit, 1rem));
   font-weight: 650;
   line-height: 1.5;
 }
@@ -814,7 +909,7 @@
 .md-typeset .course-score__body p {
   margin: 0;
   color: var(--md-default-fg-color--light);
-  font-size: 0.7rem;
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
   line-height: 1.6;
   overflow-wrap: anywhere;
 }
@@ -844,7 +939,7 @@
 
 .md-typeset .course-link strong {
   color: var(--md-typeset-a-color);
-  font-size: 0.78rem;
+  font-size: calc(0.78 * var(--bms-reading-unit, 1rem));
   font-weight: 650;
   line-height: 1.5;
   overflow-wrap: anywhere;
@@ -852,7 +947,7 @@
 
 .md-typeset .course-link small {
   color: var(--md-default-fg-color--light);
-  font-size: 0.68rem;
+  font-size: calc(0.68 * var(--bms-reading-unit, 1rem));
   line-height: 1.6;
   overflow-wrap: anywhere;
 }
@@ -870,7 +965,7 @@
 .md-typeset .course-source-note {
   margin: 0.65rem 0 1.2rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.7rem;
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
   line-height: 1.7;
 }
 
