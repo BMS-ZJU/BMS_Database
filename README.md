@@ -23,3 +23,5 @@ py -3.12 -m venv .venv
 ```
 
 课程事实应以课程组通知、课件和原始作业要求为依据；无法确认的内容不得猜测，正式页面省略，核查事项留在维护记录。具体维护方式见 [CONTRIBUTING.md](CONTRIBUTING.md) 和 [COURSE_HOMEPAGE_GUIDE.md](COURSE_HOMEPAGE_GUIDE.md)。
+
+调整字体、字号、标题层级或阅读样式切换时，参见 [阅读体验维护指南](READING_EXPERIENCE_GUIDE.md)。
