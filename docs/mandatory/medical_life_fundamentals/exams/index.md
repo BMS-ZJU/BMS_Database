@@ -18,7 +18,7 @@ hide:
 
     [查看资料](2024-2025-final-exams.md)
 
--   **2024-2025 学年 · 秋冬学期期末回忆卷** <span class="exam-resource-tag">站外</span>
+-   **2024-2025 学年 · 秋冬学期 · 期末回忆卷** <span class="exam-resource-tag">站外</span>
 
     ---
 
@@ -31,7 +31,7 @@ hide:
 
     [查看资料](2022-2023-exam-recall.md)
 
--   **2021-2022 学年 · 秋冬学期 A/B 卷及参考答案** <span class="exam-resource-tag">生命科学基础</span>
+-   **2021-2022 学年 · 秋冬学期 · 期末 A/B 卷及参考答案** <span class="exam-resource-tag">生命科学基础</span>
 
     ---
 
@@ -43,7 +43,7 @@ hide:
 
     [查看资料](2020-2021-deferred-exam-recall.md)
 
--   **2020-2021 学年 · 秋冬学期期末回忆卷** <span class="exam-resource-tag">生命科学基础</span>
+-   **2020-2021 学年 · 秋冬学期 · 期末回忆卷** <span class="exam-resource-tag">生命科学基础</span>
 
     ---
 
