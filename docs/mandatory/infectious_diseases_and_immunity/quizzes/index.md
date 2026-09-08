@@ -14,6 +14,9 @@ hide:
 
     ---
 
-    [查看小测](quizzes.md)
+    [查看小测](quizzes.md){ .resource-read-link }
+    [Ginkgo 在线练习 ↗](https://yangshu233-snow.github.io/ZJUBMS-Ginkgo/%E6%84%9F%E6%9F%93%E4%B8%8E%E5%85%8D%E7%96%AB%E5%AD%A6/2025-2026%E7%A7%8B%E5%86%AC%E5%B0%8F%E6%B5%8B%E5%8D%B7.html){ .resource-practice-link target="_blank" rel="noopener" }
 
 </div>
+
+<p class="course-source-note">Ginkgo 由 Yangshu233 开发维护，练习版的选项与参考答案由该站整理。</p>
