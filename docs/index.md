@@ -18,6 +18,15 @@ BMS Database 最初和基础医学《飞跃手册》一起被提出。我们想�
   <a class="course-link" href="contribute/"><strong>贡献与纠错</strong><small>反馈内容或页面问题，补充允许公开的学习记录与资料。</small></a>
 </div>
 
+## 一起学习
+
+<a class="course-link" href="https://yangshu233-snow.github.io/ZJUBMS-Ginkgo/" target="_blank" rel="noopener">
+  <strong>ZJUBMS Ginkgo · 在线练习 ↗</strong>
+  <small>由 Yangshu233 开发维护，提供选择题练习与问答卡片。</small>
+</a>
+
+<p class="course-source-note">练习版在回忆材料基础上整理，可能补充选项和参考答案。新增内容属于练习整理，原始回忆仍以对应资料页为准。</p>
+
 ## 确定版本再用资料
 
 课程要求按当学年的课程组通知核对；培养方案要对应自己的入学年级和班型。往届经验和考试回忆保留了当时的情况，不代表每年都相同。

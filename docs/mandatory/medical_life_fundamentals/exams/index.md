@@ -22,9 +22,8 @@ hide:
 
     ---
 
-    [查看资料](https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E5%9B%9E%E5%BF%86%E5%8D%B7.html)
-
-    资料分享：**Yangshu233**。
+    [查看资料](https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E5%9B%9E%E5%BF%86%E5%8D%B7.html){ .resource-read-link target="_blank" rel="noopener" }
+    [Ginkgo 在线练习 ↗](https://yangshu233-snow.github.io/ZJUBMS-Ginkgo/%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80/2024-2025%E7%A7%8B%E5%86%AC%E6%9C%9F%E6%9C%AB%E5%9B%9E%E5%BF%86%E5%8D%B7.html){ .resource-practice-link target="_blank" rel="noopener" }
 
 -   **2022-2023 学年 · 回忆卷** <span class="exam-resource-tag">生命科学基础</span>
 
@@ -51,3 +50,5 @@ hide:
     [查看资料](2020-2021-final-exam-recall.md)
 
 </div>
+
+<p class="course-source-note">Ginkgo 由 Yangshu233 开发维护，练习版的选项与参考答案由该站整理。</p>

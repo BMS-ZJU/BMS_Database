@@ -157,6 +157,33 @@
   outline-offset: 2px;
 }
 
+/* Practice cards keep the title as the reading entry after index enhancement. */
+.md-typeset .course-resource-grid.resource-export-index > ul > li:has(.resource-practice-link) .resource-index-title {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li:has(.resource-practice-link) .resource-index-title:is(:hover, :focus-visible) {
+  color: var(--md-typeset-a-color);
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li:has(.resource-practice-link):has(.resource-index-title) > p.resource-index-actions > .resource-read-link {
+  display: none;
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > .resource-practice-link {
+  margin-inline-start: -4px;
+  color: var(--resource-control-color);
+  font-weight: 500;
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li.resource-export-card:has(.resource-practice-link) > p.resource-index-actions > .resource-export-link {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li.resource-export-card:has(.resource-practice-link) > p.resource-index-actions > .resource-export-link:is(:hover, :focus-visible) {
+  color: var(--resource-control-color);
+}
+
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-note {
   flex: 0 1 auto;
   min-width: 0;

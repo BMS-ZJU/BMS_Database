@@ -290,6 +290,9 @@ extra:
   social:
     - icon: material/web-check
       link: https://bms.zju.edu.cn/
+    - icon: ginkgo
+      link: https://github.com/YangShu233-Snow/Ginkgo
+      name: Ginkgo · GitHub 仓库
 
 copyright: Copyright &copy; 2024-2026 基础医学飞跃手册编委会
 
