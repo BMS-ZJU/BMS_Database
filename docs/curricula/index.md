@@ -53,7 +53,7 @@ hide:
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
-        ##### 临床医学与预防医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2026-qiushi-required-group-4 }
+        ##### 临床医学与预防医学类课程 <span class="curriculum-heading-credit">共 14.5 学分</span> { #curriculum-2026-qiushi-required-group-4 }
 
         <div class="curriculum-course-list">
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
