@@ -100,6 +100,8 @@ def _validate_calendar(calendar: dict[str, Any]) -> None:
                 if term not in ("冬", "夏") or term not in breaks or numbered is None:
                     raise ValueError(f"{year} {term}学期独立考试周须有冬夏编号周范围及假期起点")
                 exam_start = _parse_date(exam_value, f"{year} {term}学期考试周起点")
+                if exam_start.weekday() != 0:
+                    raise ValueError(f"{year} {term}学期考试周起点必须为周一")
                 if (exam_start - starts[term]).days < 7 * numbered or exam_start >= breaks[term]:
                     raise ValueError(f"{year} {term}学期独立考试周应位于编号周之后、假期之前")
 

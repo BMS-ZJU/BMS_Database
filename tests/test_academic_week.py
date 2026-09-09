@@ -169,9 +169,18 @@ class AcademicWeekTests(unittest.TestCase):
         calendar = deepcopy(self.calendar)
         calendar["years"]["2025-2026"]["terms"]["夏"]["exam_week_start"] = None
         self.assertEqual(describe_date(calendar, "2025-2026", "2026-06-24"), "夏起第 9 个自然周周三")
-        calendar["years"]["2025-2026"]["terms"]["夏"]["exam_week_start"] = "2026-06-25"
-        self.assertEqual(describe_date(calendar, "2025-2026", "2026-06-24"), "夏起第 9 个自然周周三")
-        self.assertEqual(describe_date(calendar, "2025-2026", "2026-06-25"), "夏考试周周四")
+        calendar["years"]["2025-2026"]["terms"]["夏"]["exam_week_start"] = "2026-06-29"
+        self.assertEqual(describe_date(calendar, "2025-2026", "2026-06-28"), "夏起第 9 个自然周周日")
+        self.assertEqual(describe_date(calendar, "2025-2026", "2026-06-29"), "夏考试周周一")
+
+    def test_examination_week_start_must_be_monday(self):
+        for day in range(23, 29):
+            exam_start = f"2026-06-{day:02d}"
+            with self.subTest(exam_start=exam_start):
+                calendar = deepcopy(self.calendar)
+                calendar["years"]["2025-2026"]["terms"]["夏"]["exam_week_start"] = exam_start
+                with self.assertRaisesRegex(ValueError, "考试周起点必须为周一"):
+                    describe_date(calendar, "2025-2026", "2026-06-24")
 
     def test_strict_iso_dates_and_range_order(self):
         for value in ("2025-2-03", "2025.10.13", "2025-02-29", "2026-13-01", "2026-04-31", "2025-10-13T08:00:00", "2025-10-13 ", None):
