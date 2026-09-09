@@ -13,15 +13,15 @@ source-attribution
 来源记录：RESOURCE-AUDIT-R13-20260909。
 -->
 
-原材料未注明课程号和开课学期，与本站当前课程是否一致尚未核实。
-
 !!! info "回忆卷说明"
+
+    原材料未注明课程号和开课学期，与本站当前课程是否一致尚未核实。
 
     本页依据考后回忆整理；选择题部分仅保留原材料中的考点概述与回忆者评价。
 
 ---
 
-## 一、名词解释（39 分） {: .exam-section .exam-section--short }
+## 一、名词解释（39 分） {: .exam-section .exam-section--short data-toc-label="一、名词解释" }
 
 *共 13 题，每题 3 分。*
 
@@ -51,7 +51,7 @@ source-attribution
 
 13. 竹打中空
 
-## 二、选择题（50 分） {: .exam-section .exam-section--choice }
+## 二、选择题（50 分） {: .exam-section .exam-section--choice data-toc-label="二、选择题" }
 
 *共 50 题，每题 1 分。*
 
@@ -64,7 +64,7 @@ source-attribution
     - 再说一次，法医物证学重点以外的东西真的考了很多……
     - 忘记了……
 
-## 三、大题（11 分） {: .exam-section .exam-section--analysis }
+## 三、大题（11 分） {: .exam-section .exam-section--analysis data-toc-label="三、大题" }
 
 *原材料标注“5＋6”分。*
 

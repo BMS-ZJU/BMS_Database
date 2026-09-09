@@ -1,3 +1,71 @@
+/* Static notices are part of the article even when JavaScript is disabled. */
+.md-typeset .resource-use-notice {
+  margin: 0.2rem 0 0.5rem;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.65 * var(--bms-reading-small-unit, 1rem));
+  line-height: 1.6;
+}
+.md-typeset .resource-use-notice p {
+  margin: 0;
+}
+.resource-use-notice strong {
+  font-weight: 500;
+}
+.resource-use-scope {
+  display: inline;
+}
+@media screen and (max-width: 22.5em) {
+  .resource-use-attribution-prefix {
+    display: none;
+  }
+}
+.md-typeset .resource-use-source {
+  margin-top: 1.5rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.6 * var(--bms-reading-small-unit, 1rem));
+  line-height: 1.5;
+}
+.md-typeset .resource-use-source p {
+  margin: 0.15rem 0;
+}
+.resource-use-source a {
+  overflow-wrap: anywhere;
+}
+.resource-export-view .paper-content .resource-use-notice {
+  margin: 0.2em 0 0.45em;
+  color: #444;
+  font-size: 9pt;
+  line-height: 1.45;
+  break-inside: avoid;
+}
+.resource-export-view .paper-content .resource-use-notice p {
+  margin: 0;
+}
+.resource-export-view .paper-content .resource-use-source {
+  margin-top: 1.2em;
+  padding-top: 0.5em;
+  border-top: 0.5pt solid #bbb;
+  color: #444;
+  font-size: 8.5pt;
+  line-height: 1.45;
+  break-inside: avoid;
+}
+.resource-export-view .paper-content .resource-use-source p {
+  margin: 0.15em 0;
+}
+@media print {
+  .md-typeset .resource-use-notice,
+  .md-typeset .resource-use-source {
+    color: #333;
+    break-inside: avoid;
+  }
+  .resource-use-source a::after {
+    content: none !important;
+  }
+}
+
 /* Exam and quiz indexes share the site's two-column resource lists. */
 .md-typeset :is(.resource-export-index, .resource-batch-toolbar, .resource-page-tools) {
   --resource-control-color: var(--md-typeset-a-color);
@@ -267,6 +335,19 @@
   align-items: center;
   margin: 0 0 1rem;
   font-size: calc(0.68 * var(--bms-reading-unit, 1rem));
+}
+
+.md-typeset p.resource-page-tools:has(+ .resource-use-notice) {
+  display: inline-flex;
+  margin: 0 0.5rem 0.25rem 0;
+  vertical-align: middle;
+}
+
+.md-typeset .resource-page-tools + .resource-use-notice {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 0 0.25rem;
+  vertical-align: middle;
 }
 
 .md-typeset .resource-page-tools a,

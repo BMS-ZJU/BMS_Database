@@ -13,8 +13,7 @@ source-attribution
 来源记录：RS-046、HTML-003。
 -->
 
-> **全中文** · **2 小时**
->
+> **全中文**
 
 !!! info "回忆卷说明"
 
@@ -24,7 +23,7 @@ source-attribution
 
 ---
 
-## 一、不定项选择题（20 分） {: .exam-section .exam-section--choice }
+## 一、不定项选择题（20 分） {: .exam-section .exam-section--choice data-toc-label="一、不定项选择题" }
 *共 20 题，每题 1 分。以下只保留能够回忆的考点。*
 
 1. 负熵。
@@ -43,7 +42,7 @@ source-attribution
 
 ---
 
-## 二、简答题（30 分） {: .exam-section .exam-section--short }
+## 二、简答题（30 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 *共 6 题，每题 5 分。*
 
 1. 有包膜病毒进入细胞的过程。
@@ -60,7 +59,7 @@ source-attribution
 
 ---
 
-## 三、问答题（20 分） {: .exam-section .exam-section--analysis }
+## 三、问答题（20 分） {: .exam-section .exam-section--analysis data-toc-label="三、问答题" }
 *共 2 题，每题 10 分。*
 
 1. 根据给出的计算生物学蛋白质二级结构预测序列图，描述该蛋白质的二级结构特征。
@@ -69,7 +68,7 @@ source-attribution
 
 ---
 
-## 四、案例分析题（30 分） {: .exam-section .exam-section--analysis }
+## 四、案例分析题（30 分） {: .exam-section .exam-section--analysis data-toc-label="四、案例分析题" }
 *共 2 题，每题 15 分。*
 
 1. 某种参与线粒体分裂的蛋白发生突变。分析这一变化可能造成的线粒体表型，并进一步说明其对细胞表型的影响。

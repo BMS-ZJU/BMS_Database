@@ -21,7 +21,9 @@ source-attribution
 
 ---
 
-## 一、名词解释（每题 3 分，共 10 题） {: .exam-section .exam-section--short }
+## 一、名词解释（共 30 分） {: #3-10 .exam-section .exam-section--short data-toc-label="一、名词解释" }
+
+*共 10 题，每题 3 分。*
 
 1. 量子释放
 
@@ -43,7 +45,9 @@ source-attribution
 
 10. 模型效度的三个标准
 
-## 二、问答题（10 选 7） {: .exam-section .exam-section--short }
+## 二、问答题 {: #10-7 .exam-section .exam-section--short data-toc-label="二、问答题" }
+
+*共 10 题，选答 7 题。*
 
 1. 说明轴突和树突在结构和功能上的主要区别，并分析电紧张特性和整合功能的作用。
 

@@ -22,7 +22,9 @@ source-attribution
 
 ---
 
-## 一、选择题（8 × 1 分） {: .exam-section .exam-section--choice }
+## 一、选择题（共 8 分） {: #8-1 .exam-section .exam-section--choice data-toc-label="一、选择题" }
+
+*共 8 题，每题 1 分。*
 
 1. 呼吸道病毒中哪一种没有包膜？
 
@@ -40,7 +42,9 @@ source-attribution
 
 8. —
 
-## 二、名词解释（8 × 5 分） {: .exam-section .exam-section--short }
+## 二、名词解释（共 40 分） {: #8-5 .exam-section .exam-section--short data-toc-label="二、名词解释" }
+
+*共 8 题，每题 5 分。*
 
 1. lipopolysaccharide
 
@@ -58,7 +62,10 @@ source-attribution
 
 8. adjuvant
 
-## 三、问答题（5 选 4，每题 8 分） {: .exam-section .exam-section--short }
+## 三、问答题（共 32 分） {: #5-4-8 .exam-section .exam-section--short data-toc-label="三、问答题" }
+
+*共 5 题，选答 4 题，每题 8 分。*
+
 原回忆记为 2 道英文题、3 道中文题；英文题要求用英文作答。
 
 1. HCV 感染的检测方法（英文题）。
@@ -71,5 +78,8 @@ source-attribution
 
 5. —
 
-## 四、论述题（1 × 20 分） {: .exam-section .exam-section--analysis }
+## 四、论述题（共 20 分） {: #1-20 .exam-section .exam-section--analysis data-toc-label="四、论述题" }
+
+*共 1 题，每题 20 分。*
+
 说明新冠疫苗的种类与原理。

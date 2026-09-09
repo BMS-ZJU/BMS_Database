@@ -16,9 +16,11 @@ source-attribution
 
 !!! info "回忆卷说明"
 
-    本页依据考后回忆整理；“—”表示该处未记录。题目序号和选项字母按顺序补排，仅用于阅读，不代表原卷顺序。
+    本页依据考后回忆整理；“—”表示该处未能回忆完整。题目序号和选项字母按顺序补排，仅用于阅读，不代表原卷顺序。
 
-## 一、I 型选择题（36 分） {: .exam-section .exam-section--choice }
+---
+
+## 一、I 型选择题（36 分） {: .exam-section .exam-section--choice data-toc-label="一、I 型选择题" }
 
 *五选一。共 36 题，每题 1 分。*
 
@@ -138,7 +140,7 @@ source-attribution
     **D.** —  
     **E.** —
 
-## 二、II 型选择题（12 分） {: .exam-section .exam-section--choice }
+## 二、II 型选择题（12 分） {: .exam-section .exam-section--choice data-toc-label="二、II 型选择题" }
 
 *案例题。共 4 题，每题 3 分。*
 

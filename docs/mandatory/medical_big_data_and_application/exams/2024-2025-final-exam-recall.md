@@ -1,4 +1,5 @@
 ---
+resource_usage: site-policy
 title: 医学大数据与应用 2024-2025 学年夏学期期末回忆卷
 ---
 
@@ -14,17 +15,16 @@ source-attribution
 -->
 
 > **全英文** · **闭卷** · **可携带英汉词典**
-> **2 小时**
 
 !!! info "回忆卷说明"
 
     本页依据考后回忆整理。
 
-    选项中的“—”表示该处未能回忆完整。“原卷如此”用于说明看似异常但已经确认来自原卷的内容。
+    选项中的“—”表示该处未能回忆完整。
 
 ---
 
-## 一、单项选择题（40 分） {: .exam-section .exam-section--choice }
+## 一、单项选择题（40 分） {: .exam-section .exam-section--choice data-toc-label="一、单项选择题" }
 *共 20 题，每题四个选项，每题 2 分。*
 
 1. What is the primary goal of personalized medicine?
@@ -177,7 +177,7 @@ source-attribution
 
 ---
 
-## 二、简答题（60 分） {: .exam-section .exam-section--short }
+## 二、简答题（60 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 *共 11 题：第 1—7 题每题 6 分，第 8—9 题每题 4 分，第 10—11 题每题 5 分。*
 
 1. Please describe the role of computer systems in biomedical data storage, retrieval, and interpretation.

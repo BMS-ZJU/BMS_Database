@@ -13,13 +13,17 @@ source-attribution
 来源记录：RS-054。
 -->
 
+> **提供部分公式和分布表**
+
 !!! info "回忆卷说明"
 
     本页依据考后回忆整理。选择题与判断题有缺失；文末观点为回忆者个人备注，不作为题目或答案。
 
 ---
 
-## 一、选择题（20 × 2 分） {: .exam-section .exam-section--choice }
+## 一、选择题（共 40 分） {: #20-2 .exam-section .exam-section--choice data-toc-label="一、选择题" }
+
+*共 20 题，每题 2 分。*
 
 1. 第一、第三四分位数之间的区间叫什么？
 
@@ -55,24 +59,27 @@ source-attribution
 
 ---
 
-## 二、判断题（10 × 1 分） {: .exam-section .exam-section--choice }
+## 二、判断题（共 10 分） {: #10-1 .exam-section .exam-section--choice data-toc-label="二、判断题" }
+
+*共 10 题，每题 1 分。*
+
 !!! note "回忆缺失"
 
     只回忆到本部分涉及数据库、Web of Science 和 JCR，10 道题的具体题干均未记录。
 
 ---
 
-## 三、计算题（共 50 分） {: .exam-section .exam-section--analysis }
+## 三、计算题（50 分） {: #50 .exam-section .exam-section--analysis data-toc-label="三、计算题" }
 
-1. **5 分：** 给出核电站周围唐氏综合征病例数和某州出生缺陷中唐氏综合征病例数，判断核电站是否对周围有影响。
+1. （5 分）给出核电站周围唐氏综合征病例数和某州出生缺陷中唐氏综合征病例数，判断核电站是否对周围有影响。
 
-2. **5 分：** 给出总体方差、样本均值和样本方差，判断样本均值是否显著高于期望值。
+2. （5 分）给出总体方差、样本均值和样本方差，判断样本均值是否显著高于期望值。
 
-3. **15 分：** 对一个 2 × 2 表进行卡方检验：求自由度与各格期望频数，计算卡方值并作出结论。
+3. （15 分）对一个 2 × 2 表进行卡方检验：求自由度与各格期望频数，计算卡方值并作出结论。
 
-4. **10 分：** 根据线性拟合的 R `summary()` 输出写出拟合方程；由决定系数（coefficient of determination）计算相关系数（correlation coefficient）。
+4. （10 分）根据线性拟合的 R `summary()` 输出写出拟合方程；由决定系数（coefficient of determination）计算相关系数（correlation coefficient）。
 
-5. **15 分：** 根据独立双样本 t 检验数据表选择检验方式、确定自由度、计算 t 值并作出结论。
+5. （15 分）根据独立双样本 t 检验数据表选择检验方式、确定自由度、计算 t 值并作出结论。
 
 !!! info "回忆者备注"
 

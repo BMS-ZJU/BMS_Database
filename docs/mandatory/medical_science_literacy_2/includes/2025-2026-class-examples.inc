@@ -1,4 +1,4 @@
-> **时间：** 2025.10.9  
+> **时间：** 2025.10.09  
 > **性质：** 课堂讲解 · 不计分 · 不作考勤
 
 一、 A study measures the blood pressure of 10 patients before and after a new treatment. The blood pressure readings (in mmHg) are as follows:

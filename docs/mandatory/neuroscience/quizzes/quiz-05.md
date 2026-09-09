@@ -1,4 +1,5 @@
 ---
+resource_usage: site-policy
 hide:
   - toc
 ---
@@ -12,7 +13,9 @@ source-attribution
 来源记录：NS-QUIZ-USER-20260907。
 -->
 
+> **本学年夏一周周一：** 2026 年 4 月 27 日  
 > **开放时间：** 2026.05.14 20:00—2026.05.20 23:59  
+> **周次：** 夏第 3 周周四—夏第 4 周周三  
 > **作答：** 线上 · 20 分钟 · 2 次机会
 
 1. The three important neuroendocrine regulating axes are hypothalamo-pituitary-adrenal axis, the hypothalamo-pituitary-thyroid axis, and the hypothalamo-pituitary-gonadal axis.

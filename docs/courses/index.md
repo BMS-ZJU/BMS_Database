@@ -8,7 +8,7 @@ comments: false
 <details class="course-catalog-guide" markdown="1">
 <summary>课程资料说明与站外参考</summary>
 
-课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请到[培养方案](../curricula/index.md)中查看。因此，本页按 2026 级建议修读学年整理，不再给课程贴固定分类；只在往届方案中出现的课程归入“历年课程”。课程名链接可进入本站资料；仅有其他版本或站外相关课程经验的条目标为“不同课程参考”，并单独列出链接；其余课程保留课程号并标为“暂无资料”。
+课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请到[培养方案](../curricula/index.md)中查看。因此，本页按 2026 级建议修读学年整理，不再给课程贴固定分类；只在往届方案中出现的课程归入“历年课程”。课程名链接可进入本站或图灵班资料，站外入口标明来源；仅有其他版本或站外相关课程经验的条目标为“不同课程参考”，并单独列出链接；其余课程保留课程号并标为“暂无资料”。
 
 本站主要整理基础医学专业课程与科研学习经验。思政军体、通识课程的学习经验，可参考[图灵班学习指南](https://zju-turing.github.io/TuringCourses/)。部分数理基础课程也提供站外参考入口。阅读时请留意课程版本、任课教师和学年的差异，具体修读与考核要求以本专业培养方案和当年课程通知为准。
 
@@ -24,7 +24,7 @@ comments: false
     <input id="course-catalog-search" type="search" placeholder="输入课程名、课程号或英文名" autocomplete="off" data-course-search-input>
     <span class="course-catalog-counts">
       <span class="course-catalog-count" data-course-count>141 门课程</span>
-      <small>39 门本站资料 · 3 门相关参考 · 99 门暂无资料</small>
+      <small>39 本站资料 · 4 站外同课 · 3 相关参考 · 95 暂无资料</small>
     </span>
   </div>
 </div>
@@ -244,18 +244,18 @@ comments: false
     <span class="course-catalog-name">新药研发</span>
     <span class="course-catalog-meta">MED3057M · 1.5 学分 · 课程主页</span>
   </a>
+  <a class="course-catalog-item" data-course-search="公共卫生导论 MED0665G An Introduction on Public Health MED0665G" href="https://zju-turing.github.io/TuringCourses/general/elective/#_52">
+    <span class="course-catalog-name">公共卫生导论</span>
+    <span class="course-catalog-meta">MED0665G · 1.5 学分 · 图灵班资料 ↗</span>
+  </a>
 </div>
 
 <details class="course-catalog-unavailable" data-course-unavailable-group>
-  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>3 门</span></summary>
-  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 2">
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>2 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 1">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="教育心理学 EDU2008M Educational Psychology 03120281 EDU2008M">
     <span class="course-catalog-name">教育心理学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">EDU2008M · 2.0 学分</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="公共卫生导论 MED0665G An Introduction on Public Health MED0665G">
-    <span class="course-catalog-name">公共卫生导论<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">MED0665G · 1.5 学分</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="生活中的统计学 MED0672G Statistics in daily life MED0672G">
     <span class="course-catalog-name">生活中的统计学<em class="course-catalog-status">暂无资料</em></span>
@@ -567,7 +567,7 @@ comments: false
 
 <p class="course-catalog-group-note">以下课程只见于 2019—2025 级采用方案，未进入 2026 级三个班型。</p>
 
-<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 1">
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 3">
   <a class="course-catalog-item" data-course-search="肿瘤研究策略与应用 MED3048M Strategy And Application In Cancer Research 考试 72120550" href="../elective/strategy_and_application_in_cancer_research/">
     <span class="course-catalog-name">肿瘤研究策略与应用</span>
     <span class="course-catalog-meta">MED3048M · 2.0 学分 · 考试</span>
@@ -576,11 +576,23 @@ comments: false
     <span class="course-catalog-name">新药研发<em class="course-catalog-status">不同课程参考</em></span>
     <span class="course-catalog-meta">1811130 · 2.0 学分 · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></span>
   </div>
+  <a class="course-catalog-item" data-course-search="认知神经科学导论 21121520 21121520" href="https://zju-turing.github.io/TuringCoursesGrave/major_mandatory/cognitive_neuroscience/">
+    <span class="course-catalog-name">认知神经科学导论</span>
+    <span class="course-catalog-meta">21121520 · 3.0 学分 · 图灵班归档 ↗</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="脑启发人工智能导论 21121960 21121960" href="https://zju-turing.github.io/TuringCoursesGrave/major_elective/brain_inspired_ai/">
+    <span class="course-catalog-name">脑启发人工智能导论</span>
+    <span class="course-catalog-meta">21121960 · 3.0 学分 · 图灵班归档 ↗</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="人工智能引论 21188210 21188210" href="https://zju-turing.github.io/TuringCourses/major/ai_basic/">
+    <span class="course-catalog-name">人工智能引论</span>
+    <span class="course-catalog-meta">21188210 · 3.5 学分 · 图灵班资料 ↗</span>
+  </a>
 </div>
 
 <details class="course-catalog-unavailable" data-course-unavailable-group>
-  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>25 门</span></summary>
-  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 13">
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>22 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 11">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="教育统计与测量 03120261 03120261">
     <span class="course-catalog-name">教育统计与测量<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">03120261 · 2.0 学分</span>
@@ -603,23 +615,11 @@ comments: false
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生学 18120590 18120590">
     <span class="course-catalog-name">卫生学<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">18120590 · 2.0 学分</span>
+    <span class="course-catalog-meta">18120590 · 2.0 学分 · 可选预防医学（MED2425M），之后可申请课程替换。</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="病原生物学 18198240 18198240">
     <span class="course-catalog-name">病原生物学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">18198240 · 3.0 学分</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="认知神经科学导论 21121520 21121520">
-    <span class="course-catalog-name">认知神经科学导论<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">21121520 · 3.0 学分</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="脑启发人工智能导论 21121960 21121960">
-    <span class="course-catalog-name">脑启发人工智能导论<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">21121960 · 3.0 学分</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="人工智能引论 21188210 21188210">
-    <span class="course-catalog-name">人工智能引论<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">21188210 · 3.5 学分</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="生命科学基础 72120370 72120370">
     <span class="course-catalog-name">生命科学基础<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>

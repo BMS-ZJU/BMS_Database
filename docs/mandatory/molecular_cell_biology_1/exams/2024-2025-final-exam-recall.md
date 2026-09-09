@@ -21,7 +21,7 @@ source-attribution
 
 ---
 
-## 一、名词解释（21 分） {: .exam-section .exam-section--short }
+## 一、名词解释（21 分） {: .exam-section .exam-section--short data-toc-label="一、名词解释" }
 *共 7 题，每题 3 分*
 
 1. 生物膜
@@ -40,7 +40,7 @@ source-attribution
 
 ---
 
-## 二、单项选择（30 分） {: .exam-section .exam-section--choice }
+## 二、单项选择（30 分） {: .exam-section .exam-section--choice data-toc-label="二、单项选择" }
 *共 30 题，每题 1 分，每题 5 个选项*
 
 !!! info "题号说明"
@@ -120,7 +120,7 @@ source-attribution
 
 ---
 
-## 三、简答题（49 分） {: .exam-section .exam-section--short }
+## 三、简答题（49 分） {: .exam-section .exam-section--short data-toc-label="三、简答题" }
 *共 9 题，选 7 题作答*
 
 1. 简述 SNARE 蛋白在囊泡运输中的作用。

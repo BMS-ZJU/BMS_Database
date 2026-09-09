@@ -21,7 +21,9 @@ source-attribution
 
 ---
 
-## 一、问答题（13 选 10） {: .exam-section .exam-section--short }
+## 一、问答题 {: #13-10 .exam-section .exam-section--short data-toc-label="一、问答题" }
+
+*共 13 题，选答 10 题。*
 
 1. 将膜电位从 −70 mV 钳制到 0 mV 并保持不变，分别画出下列条件下的电流图：
 

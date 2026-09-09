@@ -262,7 +262,7 @@ source-attribution
     **C.** anticoagulants  
     **D.** Rh factors
 
-## 二、连线题（50 分） {: .exam-section .exam-section--short }
+## 二、连线题（50 分） {: .exam-section .exam-section--short data-toc-label="二、连线题" }
 
 *共 100 题，每题 0.5 分。同一行的词语和释义是两列待匹配内容，不表示答案已经配对。*
 
@@ -406,7 +406,7 @@ source-attribution
 | 69 | thalassemia | **D.** hereditary clotting disorder |
 | 70 | purpura | **E.** bleeding into the tissues |
 
-## 三、填空题（18 分） {: .exam-section .exam-section--short }
+## 三、填空题（18 分） {: .exam-section .exam-section--short data-toc-label="三、填空题" }
 
 *共 45 题；每题 0.4 分。*
 

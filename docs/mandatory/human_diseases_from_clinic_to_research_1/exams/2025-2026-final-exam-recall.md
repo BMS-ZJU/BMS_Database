@@ -15,9 +15,11 @@ source-attribution
 
 !!! info "回忆卷说明"
 
-    本页依据考后回忆整理；“—”表示该处未记录。题目及选项顺序仅用于阅读，不代表原卷顺序。
+    本页依据考后回忆整理；“—”表示该处未能回忆完整。题目及选项顺序仅用于阅读，不代表原卷顺序。
 
-## 一、I 型选择题（60 分） {: .exam-section .exam-section--choice }
+---
+
+## 一、I 型选择题（60 分） {: .exam-section .exam-section--choice data-toc-label="一、I 型选择题" }
 
 *共 60 题，每题 1 分，五选一*
 
@@ -205,7 +207,7 @@ source-attribution
     **D.** 感染  
     **E.** —
 
-## 二、问答题（15 分） {: .exam-section .exam-section--short }
+## 二、问答题（15 分） {: .exam-section .exam-section--short data-toc-label="二、问答题" }
 
 *案例题。共 5 题，每题 3 分*
 
@@ -219,7 +221,7 @@ source-attribution
 
 5. 静脉血栓栓塞危险因素
 
-## 三、论述题（20 分） {: .exam-section .exam-section--analysis }
+## 三、论述题（20 分） {: .exam-section .exam-section--analysis data-toc-label="三、论述题" }
 
 *共 4 题，每题 5 分*
 
@@ -231,7 +233,7 @@ source-attribution
 
 4. 肾脏作为内分泌器官的功能和临床意义
 
-## 四、案例题（5 分） {: .exam-section .exam-section--analysis }
+## 四、案例题（5 分） {: .exam-section .exam-section--analysis data-toc-label="四、案例题" }
 
 女子 IgA 高，有 3+ 蛋白尿，全身多溶骨性病变
 

@@ -13,13 +13,13 @@ source-attribution
 来源记录：RESOURCE-AUDIT-R13-20260909。
 -->
 
-!!! info "材料说明"
+!!! info "回忆卷说明"
 
     原材料未注明课程号和开课学期，与本站当前课程是否一致尚未核实。
 
-!!! info "回忆卷说明"
-
     本页依据旧卷回忆资料整理，部分题目仅留下题目方向或片段。原材料未保留字母的单个片段列为 A，仅用于阅读，不代表原卷字母、顺序或已核实的答案。
+
+---
 
 ## 一、选择题 {: .exam-section .exam-section--choice }
 
@@ -51,7 +51,7 @@ source-attribution
 
 10. 保存型尸体变化
 
-## 二、名词解释（32 分） {: .exam-section .exam-section--short }
+## 二、名词解释（32 分） {: .exam-section .exam-section--short data-toc-label="二、名词解释" }
 
 *共 8 题，每题 4 分。*
 

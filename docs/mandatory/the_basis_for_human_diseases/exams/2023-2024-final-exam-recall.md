@@ -19,7 +19,9 @@ source-attribution
 
 ---
 
-## 一、选择题（50 × 1 分） {: .exam-section .exam-section--choice }
+## 一、选择题（共 50 分） {: #50-1 .exam-section .exam-section--choice data-toc-label="一、选择题" }
+
+*共 50 题，每题 1 分。*
 
 
 !!! note "回忆缺失"
@@ -28,7 +30,9 @@ source-attribution
 
 ---
 
-## 二、问答题（5 × 6 分） {: .exam-section .exam-section--short }
+## 二、问答题（共 30 分） {: #5-6 .exam-section .exam-section--short data-toc-label="二、问答题" }
+
+*共 5 题，每题 6 分。*
 
 1. 描述结直肠癌多步突变、逐步发展的过程。
 
@@ -42,7 +46,10 @@ source-attribution
 
 ---
 
-## 三、诊断题（2 × 10 分） {: .exam-section .exam-section--analysis }
+## 三、诊断题（共 20 分） {: #2-10 .exam-section .exam-section--analysis data-toc-label="三、诊断题" }
+
+*共 2 题，每题 10 分。*
+
 题目提供疼痛部位、生理指标等临床信息，以及大体标本图和若干切片图。每题大致包括：
 
 1. 作出疾病诊断；

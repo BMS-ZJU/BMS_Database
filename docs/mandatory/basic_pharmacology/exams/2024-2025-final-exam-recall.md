@@ -15,9 +15,11 @@ source-attribution
 
 !!! info "回忆卷说明"
 
-    本页依据考后回忆整理；“—”表示该处未记录。原材料未保留字母的选项按现有记录顺序补排，单个片段列为 A，仅用于阅读，不代表原卷顺序。题干与药名等表述按原记录保留。
+    本页依据考后回忆整理；“—”表示该处未能回忆完整。原材料未保留字母的选项按现有记录顺序补排，单个片段列为 A，仅用于阅读，不代表原卷顺序。题干与药名等表述按原记录保留。
 
-## 一、选择题（50 分） {: .exam-section .exam-section--choice }
+---
+
+## 一、选择题（50 分） {: .exam-section .exam-section--choice data-toc-label="一、选择题" }
 
 *共 50 题，每题 1 分*
 
@@ -190,7 +192,7 @@ source-attribution
 
 33. 使用 ccb 后面色潮红瘙痒的原因
 
-## 二、简答题（35 分） {: .exam-section .exam-section--short }
+## 二、简答题（35 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 
 *共 7 题，每题 5 分。*
 
@@ -208,7 +210,7 @@ source-attribution
 
 7. 地西泮的分子机制
 
-## 三、大题（15 分） {: .exam-section .exam-section--analysis }
+## 三、大题（15 分） {: .exam-section .exam-section--analysis data-toc-label="三、大题" }
 
 *共 3 题，每题 5 分。其中有两道与 PBL 类似的题。*
 

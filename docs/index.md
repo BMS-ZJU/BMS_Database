@@ -36,3 +36,5 @@ BMS Database 最初和基础医学《飞跃手册》一起被提出。我们想�
 ## 一起把资料留下来
 
 发现错误、链接打不开，或者愿意补充自己的学习记录，可以从[贡献与纠错](contribute/index.md)开始。转发或提供资料前，请先看[来源与使用范围](contribute/sources-and-permissions.md)。
+
+这些资料免费供同学们学习参考，也请一起[保护免费共享](contribute/sources-and-permissions.md#protect-sharing)。

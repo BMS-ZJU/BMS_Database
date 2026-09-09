@@ -104,6 +104,10 @@
     heading.classList.add("paper-title");
     let node = heading.nextElementSibling;
     while (node) {
+      if (node.matches(".resource-use-notice")) {
+        node = node.nextElementSibling;
+        continue;
+      }
       if (node.matches("blockquote")) {
         // Only simple, short metadata before the first section/question is rearranged.
         if (!Array.from(node.children).every((child) => child.matches("p")) ||
@@ -385,7 +389,8 @@
       });
       if (shortAnswers > 1) group.classList.add("export-answer-grid");
     });
-    article.append(answerKey);
+    // Keep this paper's source and use information after its answers in every mode.
+    article.insertBefore(answerKey, article.querySelector(":scope > .resource-use-source"));
     entry.answerKey = answerKey;
     return true;
   };

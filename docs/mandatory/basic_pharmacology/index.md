@@ -100,6 +100,6 @@
 ## 课程信息
 
 - **开课与学分：**春夏学期，3学分。
-- **预修要求：**无。
+- **预修要求：**无预修要求。
 - **实际学习需要：**有生理学基础更好，可对应本站[人体结构与功能学](../structure_and_function_of_the_human_body/index.md)。
 - **参考教材：**课程导航列出《药理学》第4版（人民卫生出版社）和 *Katzung's Basic & Clinical Pharmacology* 第16版。

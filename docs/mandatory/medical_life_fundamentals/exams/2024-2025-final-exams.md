@@ -21,17 +21,17 @@ source-attribution
 
 === "第一套"
 
-    ## 一、单项选择题（30 分） {: .exam-section .exam-section--choice }
+    ## 一、单项选择题（30 分） {: .exam-section .exam-section--choice data-toc-label="第一套 · 一、单项选择题" }
 
     *共 10 题，每题 3 分。*
 
     1. 细胞受到冰冻时，蛋白质分子相互靠近，当接近到一定程度时，蛋白质分子中相邻近的巯基(－SH)氧化形成二硫键(－S－S－)。解冻时，蛋白质中的氢键断裂，二硫键仍保留，如下图所示。下列说法错误的是 (　　)
 
-        ![未结冰时蛋白质分子上的巯基](../assets/2024-2025-final-exam-set-1-question-1-unfrozen.png){: .exam-figure }
+        [![未结冰时蛋白质分子上的巯基](../assets/2024-2025-final-exam-set-1-question-1-unfrozen.png){: .exam-figure width="200" }](../assets/2024-2025-final-exam-set-1-question-1-unfrozen.png "查看原图")
 
-        ![结冰时形成的二硫键](../assets/2024-2025-final-exam-set-1-question-1-frozen.png){: .exam-figure }
+        [![结冰时形成的二硫键](../assets/2024-2025-final-exam-set-1-question-1-frozen.png){: .exam-figure width="140" }](../assets/2024-2025-final-exam-set-1-question-1-frozen.png "查看原图")
 
-        ![解冻后二硫键保留](../assets/2024-2025-final-exam-set-1-question-1-thawed.png){: .exam-figure }
+        [![解冻后二硫键保留](../assets/2024-2025-final-exam-set-1-question-1-thawed.png){: .exam-figure width="180" }](../assets/2024-2025-final-exam-set-1-question-1-thawed.png "查看原图")
 
         **A.** 巯基位于氨基酸的R基上  
         **B.** 解冻后蛋白质的空间结构未发生改变  
@@ -148,7 +148,7 @@ source-attribution
 
             D
 
-    ## 二、简答题（40 分） {: .exam-section .exam-section--short }
+    ## 二、简答题（40 分） {: .exam-section .exam-section--short data-toc-label="第一套 · 二、简答题" }
 
     *共 4 题，每题 10 分。*
 
@@ -184,7 +184,7 @@ source-attribution
 
     ??? note "答案要点"
 
-        （1）蛋白质一级结构测序方法：（3分）
+        （1）蛋白质一级结构测序方法：（3 分）
         {: .answer-explanation }
 
         A.蛋白质N端测序，例如Sanger测序法，Edman降解法；
@@ -199,7 +199,7 @@ source-attribution
         D.基于纳米孔的单分子荧光测序技术。
         {: .answer-explanation }
 
-        （2）蛋白质三级结构测序方法：（3分）
+        （2）蛋白质三级结构测序方法：（3 分）
         {: .answer-explanation }
 
         A.X射线晶体学：分析纯化并结晶化的蛋白质样品，获得蛋白质的高分辨率三维结构。
@@ -211,7 +211,7 @@ source-attribution
         C. 冷冻电镜（Cryo-EM）：用于获得大分子复合物的三维结构。
         {: .answer-explanation }
 
-        （3）潜在应用价值。（4分）
+        （3）潜在应用价值。（4 分）
         {: .answer-explanation }
 
         A.揭示生命过程的关键:
@@ -247,7 +247,7 @@ source-attribution
 
     ??? note "给分标准"
 
-        （不需要逐句翻译，多细胞生物的发育挑战3分；提到不对称分裂2分；简述这个挑战的解决方法3分；整体印象2分）。
+        （不需要逐句翻译，多细胞生物的发育挑战3 分；提到不对称分裂2 分；简述这个挑战的解决方法3 分；整体印象2 分）。
 
     </li>
     <li markdown="1">
@@ -256,13 +256,13 @@ source-attribution
 
     ??? note "参考答案"
 
-        生物学属性：基因、染色体等生物标志物，遗传表型等。（4分）
+        生物学属性：基因、染色体等生物标志物，遗传表型等。（4 分）
         {: .answer-explanation }
 
-        文化属性：语言、文化、生活习俗等等。（4分）
+        文化属性：语言、文化、生活习俗等等。（4 分）
         {: .answer-explanation }
 
-        本质特征：特征是稳定的，必然是可遗传或可传承，群体间的特征差异是进化或演化而实现的。（3分）
+        本质特征：特征是稳定的，必然是可遗传或可传承，群体间的特征差异是进化或演化而实现的。（3 分）
         {: .answer-explanation }
 
     !!! info "原记录"
@@ -272,7 +272,7 @@ source-attribution
     </li>
     </ol>
 
-    ## 三、论述题（30 分） {: .exam-section .exam-section--analysis }
+    ## 三、论述题（30 分） {: .exam-section .exam-section--analysis data-toc-label="第一套 · 三、论述题" }
 
     *共 2 题，每题 15 分。*
 
@@ -308,13 +308,13 @@ source-attribution
         从人与自然、人类生物学属性和文化属性，包括人类的文明角度思考什么是进化。
         {: .answer-explanation }
 
-        人类生物学属性：环境适应性（5分）
+        人类生物学属性：环境适应性（5 分）
         {: .answer-explanation }
 
-        文化属性：文明、文化（5分）
+        文化属性：文明、文化（5 分）
         {: .answer-explanation }
 
-        人与自然自适应（5分）
+        人与自然自适应（5 分）
         {: .answer-explanation }
 
     </li>
@@ -322,7 +322,7 @@ source-attribution
 
 === "第二套"
 
-    ## 一、单项选择题（30 分） {: .exam-section .exam-section--choice }
+    ## 一、单项选择题（30 分） {: .exam-section .exam-section--choice data-toc-label="第二套 · 一、单项选择题" }
 
     *共 10 题，每题 3 分。*
 
@@ -442,7 +442,7 @@ source-attribution
 
             D
 
-    ## 二、简答题（40 分） {: .exam-section .exam-section--short }
+    ## 二、简答题（40 分） {: .exam-section .exam-section--short data-toc-label="第二套 · 二、简答题" }
 
     *共 4 题，每题 10 分。*
 
@@ -484,7 +484,7 @@ source-attribution
 
     ??? note "给分标准"
 
-        （不需要逐句翻译，提到噬菌体，细菌，2分；噬菌体多样性体现在人体和外界比如热喷泉和土壤3分；多样性具体的例子3分；整体印象2分）。
+        （不需要逐句翻译，提到噬菌体，细菌，2 分；噬菌体多样性体现在人体和外界比如热喷泉和土壤3 分；多样性具体的例子3 分；整体印象2 分）。
 
     </li>
     <li markdown="1">
@@ -493,7 +493,7 @@ source-attribution
 
     ??? note "答案要点"
 
-        （答对1点得3分，2点得7分，3点得10分）：
+        （答对1点得3 分，2点得7 分，3点得10 分）：
         {: .answer-explanation }
 
         （1）与抗原发生特异性结合，在体内可以发挥免疫效应，在体外可以表现为抗原抗体反应；
@@ -515,13 +515,13 @@ source-attribution
         环境和生活方式的变化是人类疾病的重要因素原因等，答题要点是疾病是个体的不适应性。
         {: .answer-explanation }
 
-        环境变化（3分）2. 生活方式变化（3分）3.个体的不适应性（4分）
+        环境变化（3 分）2. 生活方式变化（3 分）3.个体的不适应性（4 分）
         {: .answer-explanation }
 
     </li>
     </ol>
 
-    ## 三、论述题（30 分） {: .exam-section .exam-section--analysis }
+    ## 三、论述题（30 分） {: .exam-section .exam-section--analysis data-toc-label="第二套 · 三、论述题" }
 
     *共 2 题，每题 15 分。*
 
@@ -554,7 +554,7 @@ source-attribution
 
     ??? note "答案要点"
 
-        AI虚拟现实极大促进学科交叉和健康科技创新（5分），与此同时，也带来了对人类文明的诸多不确定性（可具体举例）（5分），同时催生AI医学责任与使命（5分）。
+        AI虚拟现实极大促进学科交叉和健康科技创新（5 分），与此同时，也带来了对人类文明的诸多不确定性（可具体举例）（5 分），同时催生AI医学责任与使命（5 分）。
         {: .answer-explanation }
 
     </li>

@@ -19,7 +19,7 @@ source-attribution
 
 ---
 
-## 一、单项选择题（50 分） {: .exam-section .exam-section--choice }
+## 一、单项选择题（50 分） {: .exam-section .exam-section--choice data-toc-label="一、单项选择题" }
 
 *共 40 题。现有回忆仅记录以下考查方向：*
 

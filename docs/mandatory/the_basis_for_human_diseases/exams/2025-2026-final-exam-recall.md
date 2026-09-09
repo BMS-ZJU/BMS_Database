@@ -305,13 +305,13 @@ Cushing 综合征与下列哪种激素分泌亢进有关？
 
 体检：轻度黄疸；肝在左肋下 $9~\mathrm{cm}$；有腹水、腹壁静脉怒张和下肢水肿。超声检查显示肝右叶实质性肿块，AFP 阳性。
 
-![病例 1 大体标本](../assets/2025-2026-final-exam-question-3-1-gross.png){: .exam-figure }
+1. （4 分）根据病史摘要、大体标本和镜下切片作出病理诊断。
 
-![病例 1 镜下切片](../assets/2025-2026-final-exam-question-3-1-histology.png){: .exam-figure }
+2. （大体 3 分，切片 3 分）描述大体标本和镜下图像中观察到的病理改变。
 
-1. 根据病史摘要、大体标本和镜下切片作出病理诊断。（4 分）
+[![病例 1 大体标本](../assets/2025-2026-final-exam-question-3-1-gross.png){: .exam-figure width="420" }](../assets/2025-2026-final-exam-question-3-1-gross.png "查看原图")
 
-2. 描述大体标本和镜下图像中观察到的病理改变。（大体 3 分，切片 3 分）
+[![病例 1 镜下切片](../assets/2025-2026-final-exam-question-3-1-histology.png){: .exam-figure width="640" }](../assets/2025-2026-final-exam-question-3-1-histology.png "查看原图")
 
 ### 病例 2
 
@@ -319,12 +319,12 @@ Cushing 综合征与下列哪种激素分泌亢进有关？
 
 A 68-year-old female with a 15-year history of hypertension and a 5-year history of congestive heart failure was admitted for worsening shortness of breath and lower-extremity edema. She died of cardiogenic shock 2 days after admission. An autopsy was performed, and part of the findings are shown below.
 
-![病例 2 镜下切片](../assets/2025-2026-final-exam-question-3-2-histology.png){: .exam-figure }
-
-![病例 2 大体标本之一](../assets/2025-2026-final-exam-question-3-2-gross-1.png){: .exam-figure }
-
-![病例 2 大体标本之二](../assets/2025-2026-final-exam-question-3-2-gross-2.png){: .exam-figure }
-
 1. 该脏器最可能的病理诊断是什么？
 
 2. 根据标本图片，列出支持该诊断的眼观及镜下特征。
+
+[![病例 2 镜下切片](../assets/2025-2026-final-exam-question-3-2-histology.png){: .exam-figure width="600" }](../assets/2025-2026-final-exam-question-3-2-histology.png "查看原图")
+
+[![病例 2 大体标本之一](../assets/2025-2026-final-exam-question-3-2-gross-1.png){: .exam-figure width="230" }](../assets/2025-2026-final-exam-question-3-2-gross-1.png "查看原图")
+
+[![病例 2 大体标本之二](../assets/2025-2026-final-exam-question-3-2-gross-2.png){: .exam-figure width="230" }](../assets/2025-2026-final-exam-question-3-2-gross-2.png "查看原图")

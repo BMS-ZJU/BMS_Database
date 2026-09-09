@@ -19,7 +19,7 @@ source-attribution
 
 ---
 
-## 一、选择题（30 分） {: .exam-section .exam-section--choice }
+## 一、选择题（30 分） {: .exam-section .exam-section--choice data-toc-label="一、选择题" }
 
 *共 30 题，每题 1 分；原记录保留 15 题。*
 
@@ -89,7 +89,7 @@ source-attribution
 
 ---
 
-## 二、判断题（20 分） {: .exam-section .exam-section--choice }
+## 二、判断题（20 分） {: .exam-section .exam-section--choice data-toc-label="二、判断题" }
 
 *共 10 题，每题 2 分；原记录保留 3 题。*
 
@@ -101,7 +101,7 @@ source-attribution
 
 ---
 
-## 三、名词解释（20 分） {: .exam-section .exam-section--short }
+## 三、名词解释（20 分） {: .exam-section .exam-section--short data-toc-label="三、名词解释" }
 
 *共 8 题，选答 5 题，每题 4 分。*
 
@@ -123,7 +123,7 @@ source-attribution
 
 ---
 
-## 四、问答题（30 分） {: .exam-section .exam-section--short }
+## 四、问答题（30 分） {: .exam-section .exam-section--short data-toc-label="四、问答题" }
 
 *共 8 题，选答 5 题，每题 6 分。*
 

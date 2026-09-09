@@ -22,7 +22,7 @@ source-attribution
 
 ---
 
-## 一、选择题 {: .exam-section .exam-section--choice }
+## 一、选择题（共 16 分） {: #_1 .exam-section .exam-section--choice data-toc-label="一、选择题" }
 
 *共 16 题，每题 1 分；全英文，无中文注释。*
 
@@ -46,7 +46,7 @@ source-attribution
 
 10. HAART（HIV 治疗）：只对 HIV-1 有反应，对突变无反应，抑制病毒复制初期。
 
-## 二、名词解释 {: .exam-section .exam-section--short }
+## 二、名词解释（共 32 分） {: #_2 .exam-section .exam-section--short data-toc-label="二、名词解释" }
 
 *共 10 题，选做 8 题，每题 4 分；全英文，无中文注释，要求用英文作答。*
 
@@ -72,7 +72,7 @@ source-attribution
 
 10. —
 
-## 三、简答题 {: .exam-section .exam-section--short }
+## 三、简答题（共 32 分） {: #_3 .exam-section .exam-section--short data-toc-label="三、简答题" }
 
 *共 8 题，选做 4 题，每题 8 分；3 道英文题、5 道中文题；至少选做 1 道英文题，并用英文作答。*
 
@@ -96,7 +96,7 @@ source-attribution
 
         疫苗名称只回忆到以上开头，完整名称无法确认。
 
-## 四、论述题 {: .exam-section .exam-section--analysis }
+## 四、论述题（共 20 分） {: #_4 .exam-section .exam-section--analysis data-toc-label="四、论述题" }
 
 *共 1 题，20 分。*
 

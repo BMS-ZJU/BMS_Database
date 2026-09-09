@@ -19,7 +19,7 @@ source-attribution
 
 ---
 
-## 一、选择题 {: .exam-section .exam-section--choice }
+## 一、选择题（共 52 分） {: #_1 .exam-section .exam-section--choice data-toc-label="一、选择题" }
 
 *共 52 题，每题 1 分，五选一。*
 
@@ -51,7 +51,7 @@ source-attribution
 
     **A.** 南宋宋慈。
 
-## 二、名词解释 {: .exam-section .exam-section--short }
+## 二、名词解释（共 18 分） {: #_2 .exam-section .exam-section--short data-toc-label="二、名词解释" }
 
 *共 6 题，每题 3 分。*
 

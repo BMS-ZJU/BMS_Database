@@ -1,4 +1,5 @@
 ---
+resource_usage: site-policy
 title: 物理化学 2024-2025 学年秋冬学期期中回忆卷
 ---
 
@@ -21,7 +22,7 @@ source-attribution
 
 ---
 
-## 一、单项选择题（50 分） {: .exam-section .exam-section--choice }
+## 一、单项选择题（50 分） {: .exam-section .exam-section--choice data-toc-label="一、单项选择题" }
 
 *共 25 题，每题 2 分。全部答对额外奖励 10 分；仅答错 1 题额外奖励 2 分。*
 
@@ -200,7 +201,7 @@ source-attribution
     **C.** 考虑重力场作用，金纳米晶在溶液中的浓度将随高度增加而增加  
     **D.** 玻尔兹曼分布说明能量最低原理是完全正确的
 
-## 二、计算题（15 分） {: .exam-section .exam-section--analysis }
+## 二、计算题（15 分） {: .exam-section .exam-section--analysis data-toc-label="二、计算题" }
 
 $1~\mathrm{mol~N_2}$（分子量 $28$，转动常数 $2.00~\mathrm{cm}^{-1}$，振动采用低温近似）理想气体被密封在一个带活塞的绝热汽缸中。气体初始平衡状态为：体积为 $60~\mathrm{L}$，压强等于 $50~\mathrm{kPa}$。某瞬间，外压强从初始值减少到过程终态压强。达到平衡后，终态体积为 $120~\mathrm{L}$，而环境温度始终是 $300~\mathrm{K}$。
 
@@ -210,15 +211,15 @@ $1~\mathrm{mol~N_2}$（分子量 $28$，转动常数 $2.00~\mathrm{cm}^{-1}$，�
 
 3. （3 分）计算该过程系统的 $\Delta A$ 和 $\Delta G$，用合适的判据判断该过程是否自发；如果自发，判断其是否可逆。
 
-## 三、计算题（10 分） {: .exam-section .exam-section--analysis }
+## 三、计算题（10 分） {: .exam-section .exam-section--analysis data-toc-label="三、计算题" }
 
 $300~\mathrm{K}$、$1~\mathrm{bar}$ 条件下，$2~\mathrm{mol~Cl_2}$（理想气体，相对分子量 $71$，转动常数 $0.244~\mathrm{cm^{-1}}$，振动波数 $554~\mathrm{cm^{-1}}$）经定压可逆膨胀，体积变为原来的 $2$ 倍。计算该过程的 $\Delta Q$、$\Delta U$、$q$ 和 $w$。
 
-## 四、证明题（10 分） {: .exam-section .exam-section--analysis }
+## 四、证明题（10 分） {: .exam-section .exam-section--analysis data-toc-label="四、证明题" }
 
 证明：在物质的量不变的情况下，理想气体的焓只是温度的函数，而与压强无关。
 
-## 五、计算题（15 分） {: .exam-section .exam-section--analysis }
+## 五、计算题（15 分） {: .exam-section .exam-section--analysis data-toc-label="五、计算题" }
 
 孤立系统中总原子数 $1~\mathrm{mol}$ 的立方体合金，一半是金，一半是银。只考虑位置熵，对应的宏观可观测量是左边金原子占所有金原子的百分数。
 

@@ -23,7 +23,7 @@ source-attribution
 
 ---
 
-## 一、单项选择题（60 分） {: .exam-section .exam-section--choice }
+## 一、单项选择题（60 分） {: .exam-section .exam-section--choice data-toc-label="一、单项选择题" }
 *共 60 题，每题 1 分，五选一。*
 
 !!! note "回忆缺失"
@@ -36,7 +36,7 @@ source-attribution
 
 ---
 
-## 二、名词解释（24 分） {: .exam-section .exam-section--short }
+## 二、名词解释（24 分） {: .exam-section .exam-section--short data-toc-label="二、名词解释" }
 *共 6 题，每题 4 分。*
 
 1. 内分泌系统激素的分类、合成机制和作用方式。
@@ -53,7 +53,7 @@ source-attribution
 
 ---
 
-## 三、问答题（16 分） {: .exam-section .exam-section--analysis }
+## 三、问答题（16 分） {: .exam-section .exam-section--analysis data-toc-label="三、问答题" }
 *共 2 题，每题 8 分。*
 
 1. 某人服用减肥药后因营养不良晕倒。题目给出身高、体重和粪便检查结果，要求：

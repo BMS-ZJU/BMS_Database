@@ -17,11 +17,11 @@ source-attribution
 
 !!! info "回忆卷说明"
 
-    本页依据考后回忆整理，英文题保留材料记录的中文题意，未补译英文原题；“—”表示该处未记录。第 1—3 题首项的字母 A 按材料中的 B—D 顺序补排，仅用于阅读。
+    本页依据考后回忆整理，英文题保留材料记录的中文题意，未补译英文原题；“—”表示该处未能回忆完整。第 1—3 题首项的字母 A 按材料中的 B—D 顺序补排，仅用于阅读。
 
 ---
 
-## 一、选择题（25 分） {: .exam-section .exam-section--choice }
+## 一、选择题（25 分） {: .exam-section .exam-section--choice data-toc-label="一、选择题" }
 
 1. 下列哪个酶不是 DNA 复制必需的？
 
@@ -63,7 +63,7 @@ source-attribution
     **D.** —  
     **E.** —
 
-## 二、简答题（60 分） {: .exam-section .exam-section--short }
+## 二、简答题（60 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 
 *英文提问。*
 
@@ -98,7 +98,7 @@ source-attribution
 </li>
 </ol>
 
-## 三、论述题（15 分） {: .exam-section .exam-section--analysis }
+## 三、论述题（15 分） {: .exam-section .exam-section--analysis data-toc-label="三、论述题" }
 
 *英文提问。*
 

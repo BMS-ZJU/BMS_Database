@@ -21,7 +21,7 @@ source-attribution
 
 ---
 
-## 一、单项选择题（50 分） {: .exam-section .exam-section--choice }
+## 一、单项选择题（50 分） {: .exam-section .exam-section--choice data-toc-label="一、单项选择题" }
 
 *共 50 题，每题 1 分；其中一道题为全英文。*
 
@@ -29,7 +29,7 @@ source-attribution
 
     题目涉及各章内容，其中抗肿瘤药、抗真菌药和抗寄生虫药等章节合计出现了接近 10 道题。
 
-## 二、简答题（35 分） {: .exam-section .exam-section--short }
+## 二、简答题（35 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 
 *共 7 题，每题 5 分。*
 
@@ -46,7 +46,7 @@ source-attribution
 6. 新斯的明的临床应用等。
 
 7. —
-## 三、案例分析题（15 分） {: .exam-section .exam-section--analysis }
+## 三、案例分析题（15 分） {: .exam-section .exam-section--analysis data-toc-label="三、案例分析题" }
 
 *共 3 题，每题 5 分。*
 
@@ -54,6 +54,6 @@ source-attribution
 
 2. 给出抗心律失常药对心肌细胞动作电位影响的图，询问其属于哪一类钠通道阻断药、代表药物，以及对动作电位的影响。
 
-    ![抗心律失常药对心肌细胞动作电位的影响](../assets/2023-2024-final-exam-question-3-2.png){: .exam-figure }
+    [![抗心律失常药对心肌细胞动作电位的影响](../assets/2023-2024-final-exam-question-3-2.png){: .exam-figure width="420" }](../assets/2023-2024-final-exam-question-3-2.png "查看原图")
 
 3. 一名胃肠道厌氧菌与需氧菌混合感染患者使用氨基糖苷类药物：第一问判断是否妥当并说明原因；第二问改用一种头孢类药物，但第二问具体内容已无法回忆。

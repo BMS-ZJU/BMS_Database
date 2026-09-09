@@ -19,7 +19,7 @@ source-attribution
 
 ---
 
-## 一、选择题（45 分） {: .exam-section .exam-section--choice }
+## 一、选择题（45 分） {: .exam-section .exam-section--choice data-toc-label="一、选择题" }
 
 *共 15 题，每题 3 分。*
 
@@ -108,7 +108,7 @@ source-attribution
 
 ---
 
-## 二、排序题（25 分） {: .exam-section .exam-section--analysis }
+## 二、排序题（25 分） {: .exam-section .exam-section--analysis data-toc-label="二、排序题" }
 
 *共 5 题，每题 5 分。*
 

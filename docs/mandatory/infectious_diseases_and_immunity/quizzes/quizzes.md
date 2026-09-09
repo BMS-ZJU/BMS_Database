@@ -4,7 +4,8 @@
 source-attribution
 贡献者：李建树。
 资料性质：三次小测题目及随附答案。
-整理说明：三次小测各 50 题，按测验分别编排并折叠显示答案。答案出处未经独立核实。
+整理说明：三次小测各 50 题，按测验分别编排并折叠显示答案。
+答案性质：官方答案。
 来源记录：RS-039。
 -->
 
@@ -12,9 +13,9 @@ source-attribution
 
 ## 小测 1
 
-共 50 题。
+共 50 题，每题 2 分；选择题共 100 分。
 
-1. Which of the following antigens is most likely to be a hapten?（2分）
+1. （2 分） Which of the following antigens is most likely to be a hapten?
 
     A. Red blood cells  
     B. Penicillin  
@@ -29,7 +30,7 @@ source-attribution
 
     </details>
 
-2. Properties of adaptive immune response include:  （2分）
+2. （2 分） Properties of adaptive immune response include:
 
     A. Specialization  
     B. Specificity  
@@ -44,7 +45,7 @@ source-attribution
 
     </details>
 
-3. Which of the following description is not true about Innate immunity？ （2分）
+3. （2 分） Which of the following description is not true about Innate immunity？
 
     A. It provides the early line of defense against microbes.  
     B. It consists of cellular and biochemical defense mechanisms that are in place even before infection and are poised to respond rapidly to infections.  
@@ -59,7 +60,7 @@ source-attribution
 
     </details>
 
-4. Which is NOT CORRECT for the adjuvants?  （2分）
+4. （2 分） Which is NOT CORRECT for the adjuvants?
 
     A. An adjuvant is a substance that can induce specific immune response.  
     B. Adjuvants can be used in enhancing the production of antibodies from immunized animals  
@@ -74,7 +75,7 @@ source-attribution
 
     </details>
 
-5. Which of the following factors would make it MORE LIKELY that an antigen would induce tolerance rather than immunogenicity?    （2分）
+5. （2 分） Which of the following factors would make it MORE LIKELY that an antigen would induce tolerance rather than immunogenicity?
 
     A.  A soluble nature, rather than a particulate nature  
     B.  Administration at an intermediate dose (not too low and not too high)  
@@ -89,7 +90,7 @@ source-attribution
 
     </details>
 
-6. 下列不属于革兰氏染色的步骤？（2分）
+6. （2 分）下列不属于革兰氏染色的步骤？
 
     A 结晶紫初染、B 碘液媒染、C 丙酮脱色、D 番红复染  
 
@@ -100,7 +101,7 @@ source-attribution
 
     </details>
 
-7. 青霉素的作用机制是（2分）
+7. （2 分）青霉素的作用机制是
 
     A 破坏肽聚糖结构、B 抑制核糖体功能、C 抑制DNA解链、D 水解肽聚糖糖苷键  
 
@@ -111,7 +112,7 @@ source-attribution
 
     </details>
 
-8. 细菌的特殊结构不包括（2分）
+8. （2 分）细菌的特殊结构不包括
 
     A 芽孢、B液泡、C 荚膜、D 鞭毛  
 
@@ -122,7 +123,7 @@ source-attribution
 
     </details>
 
-9. 哪个结构是革兰阳性细菌细胞壁特有的？（2分）
+9. （2 分）哪个结构是革兰阳性细菌细胞壁特有的？
 
     A 肽聚糖、B磷壁酸、C 脂多糖、D 脂蛋白  
 
@@ -133,7 +134,7 @@ source-attribution
 
     </details>
 
-10. LPS的核心多糖结构不包括哪个单糖？（2分）
+10. （2 分）LPS的核心多糖结构不包括哪个单糖？
 
     A 葡萄糖、B半乳糖、C 海藻糖、D 庚糖  
 
@@ -144,7 +145,7 @@ source-attribution
 
     </details>
 
-11. Which of the following can be used to quantitate the infectious titers of viruses?（2分）
+11. （2 分） Which of the following can be used to quantitate the infectious titers of viruses?
 
     (A) Plaque assay  
     (B) Electron microscopy  
@@ -159,7 +160,7 @@ source-attribution
 
     </details>
 
-12. Viruses usually initiate infection by first interacting with receptors on the surface of cells. Which of the following statements is most accurate about cellular receptors for viruses?（2分）
+12. （2 分） Viruses usually initiate infection by first interacting with receptors on the surface of cells. Which of the following statements is most accurate about cellular receptors for viruses?
 
     (A) Cellular receptors for viruses have no cellular function.  
     (B) All viruses within a given family use the same cellular receptor.  
@@ -174,7 +175,7 @@ source-attribution
 
     </details>
 
-13. Some viruses encode a viral RNA-dependent RNA polymerase. Which of the following states a principle about viral RNA polymerases?（2分）
+13. （2 分） Some viruses encode a viral RNA-dependent RNA polymerase. Which of the following states a principle about viral RNA polymerases?
 
     (A) All RNA viruses carry RNA polymerase molecules inside virus particles because they are needed to initiate the next infectious cycle.  
     (B) Antibodies against the viral RNA polymerase neutralize virus infectivity.  
@@ -189,7 +190,7 @@ source-attribution
 
     </details>
 
-14. Which one of the following states a principle regarding viral nucleic acid?（2分）
+14. （2 分） Which one of the following states a principle regarding viral nucleic acid?
 
     (A) A virions contains both RNA and DNA.  
     (B) All viral genomes must make mRNA that can be translated by host ribosomes.  
@@ -204,7 +205,7 @@ source-attribution
 
     </details>
 
-15. Virus-infected cells often develop morphologic changes referred to as cytopathic effects. Which of the following statements about cytopathic effects is most accurate?（2分）
+15. （2 分） Virus-infected cells often develop morphologic changes referred to as cytopathic effects. Which of the following statements about cytopathic effects is most accurate?
 
     (A) They can always reveal the species of the viruses.  
     (B) They are rarely associated with cell death.  
@@ -219,7 +220,7 @@ source-attribution
 
     </details>
 
-16. Small viruses are in the same size range as which of the following?（2分）
+16. （2 分） Small viruses are in the same size range as which of the following?
 
     (A) Staphylococcus species  
     (B) Serum globulin  
@@ -234,7 +235,7 @@ source-attribution
 
     </details>
 
-17. Which of the following statements regarding virus morphology is true?（2分）
+17. （2 分） Which of the following statements regarding virus morphology is true?
 
     (A) All RNA viruses are spherical in shape.  
     (B) Some viruses contain flagella.  
@@ -249,7 +250,7 @@ source-attribution
 
     </details>
 
-18. Which one of the following is true about diseases caused by viruses?（2分）
+18. （2 分） Which one of the following is true about diseases caused by viruses?
 
     (A) One virus type induces a single disease syndrome.  
     (B) Many viral infections are subclinical and do not produce clinical disease.  
@@ -264,7 +265,7 @@ source-attribution
 
     </details>
 
-19. Which one of the following statements describes an advantage of inactivated-virus vaccines over attenuated live-virus vaccines?（2分）
+19. （2 分） Which one of the following statements describes an advantage of inactivated-virus vaccines over attenuated live-virus vaccines?
 
     (A) Inactivated-virus vaccines induce a broader range of immune responses than do attenuated live-virus vaccines.  
     (B) Inactivated-virus vaccines more closely mimic natural infections than do attenuated live-virus vaccines.  
@@ -279,7 +280,7 @@ source-attribution
 
     </details>
 
-20. A patient has recurring blisters on his lip. A herpesvirus was detected in the blisters. What kind of infection is typical of this virus?（2分）
+20. （2 分） A patient has recurring blisters on his lip. A herpesvirus was detected in the blisters. What kind of infection is typical of this virus?
 
     (A) Abortive infection  
     (B) Inapparent infection  
@@ -294,7 +295,7 @@ source-attribution
 
     </details>
 
-21. 下列哪个不是细菌生长曲线的4个时期（2分）
+21. （2 分）下列哪个不是细菌生长曲线的4个时期
 
     A 迟缓期、B 对数生长期、C 跳跃期、D 衰亡期  
 
@@ -305,7 +306,7 @@ source-attribution
 
     </details>
 
-22. 不是营养物质进入细菌和排出的方式：（2分）
+22. （2 分）不是营养物质进入细菌和排出的方式：
 
     A 转导、B 简单扩散、C 协助扩散、D 主动运输  
 
@@ -316,7 +317,7 @@ source-attribution
 
     </details>
 
-23. 下列哪些不是主要碳源？（2分）
+23. （2 分）下列哪些不是主要碳源？
 
     A 糖类、 B 醇类、C 脂类、D 黄豆粉  
 
@@ -327,7 +328,7 @@ source-attribution
 
     </details>
 
-24. 下列不是细菌营养类型（2分）
+24. （2 分）下列不是细菌营养类型
 
     A 光能无机自养型、B 光能有机异养型、C 化能无机异养型、D 化能有机异养型  
 
@@ -338,7 +339,7 @@ source-attribution
 
     </details>
 
-25. 检测细菌是否产乙酰甲基甲醇用何种生化实验验证？（2分）
+25. （2 分）检测细菌是否产乙酰甲基甲醇用何种生化实验验证？
 
     A 吲哚实验、B 枸橼酸盐实验、C 甲基红实验、D VP实验  
 
@@ -349,7 +350,7 @@ source-attribution
 
     </details>
 
-26. 下列哪个不是常见质粒？（2分）
+26. （2 分）下列哪个不是常见质粒？
 
     A F质粒、B R质粒、C YAC 质粒、D Col质粒  
 
@@ -360,7 +361,7 @@ source-attribution
 
     </details>
 
-27. 噬菌体溶菌周期不包括（2分）
+27. （2 分）噬菌体溶菌周期不包括
 
     A 整合、B 吸附、C 合成、D 穿入  
 
@@ -371,7 +372,7 @@ source-attribution
 
     </details>
 
-28. 下列哪一个不是质粒的形态（2分）
+28. （2 分）下列哪一个不是质粒的形态
 
     A CCC、BOC、C L、D R  
 
@@ -382,7 +383,7 @@ source-attribution
 
     </details>
 
-29. 不是基因转移的主要方式为（2分）
+29. （2 分）不是基因转移的主要方式为
 
     A 转化、B重组、C 转导、D 接合  
 
@@ -393,7 +394,7 @@ source-attribution
 
     </details>
 
-30. 不是微生物变异现象的是（2分）
+30. （2 分）不是微生物变异现象的是
 
     A 细菌L型、B抗原变异、C 二分裂加速、D 产生耐药性  
 
@@ -404,7 +405,7 @@ source-attribution
 
     </details>
 
-31. 哪种程度的菌群失调由生理性波动转变为病理性波动？（2分）
+31. （2 分）哪种程度的菌群失调由生理性波动转变为病理性波动？
 
     A 一度失调、B 轻度失调、C 二度失调、D 重度失调  
 
@@ -415,7 +416,7 @@ source-attribution
 
     </details>
 
-32. 微生物感染的类型不包括哪一种？（2分）
+32. （2 分）微生物感染的类型不包括哪一种？
 
     A 暴露感染、B 隐形感染、C 潜伏感染、D 显形感染  
 
@@ -426,7 +427,7 @@ source-attribution
 
     </details>
 
-33. 全身感染症状不包括哪一种？（2分）
+33. （2 分）全身感染症状不包括哪一种？
 
     A 菌血症、 B 败血症、C 脓毒血症、D 菌毒血症  
 
@@ -437,7 +438,7 @@ source-attribution
 
     </details>
 
-34. 下列哪一种不是机体的固有免疫?（2分）
+34. （2 分）下列哪一种不是机体的固有免疫?
 
     A 屏障结构、B 吞噬作用、C 抗体作用、D 体液系统  
 
@@ -448,7 +449,7 @@ source-attribution
 
     </details>
 
-35. 细菌侵袭力于下列哪一个因素无关？（2分）
+35. （2 分）细菌侵袭力于下列哪一个因素无关？
 
     A 黏附素、B 荚膜、C 生物膜、D 芽孢  
 
@@ -459,7 +460,7 @@ source-attribution
 
     </details>
 
-36. 哪一种不是按使用途径划分的培养基的种类（2分）
+36. （2 分）哪一种不是按使用途径划分的培养基的种类
 
     A 鉴别培养基、B 厌氧培养基、C 合成培养基、D 选择培养基  
 
@@ -470,7 +471,7 @@ source-attribution
 
     </details>
 
-37. 病原菌检验不属于明确检验的是？（2分）
+37. （2 分）病原菌检验不属于明确检验的是？
 
     A 镜检、B 分离菌株、C 生化实验、D 血清学实验  
 
@@ -481,7 +482,7 @@ source-attribution
 
     </details>
 
-38. 腺病毒载体疫苗属于（2分）
+38. （2 分）腺病毒载体疫苗属于
 
     A 灭活疫苗、B重组疫苗、C 核酸疫苗、D 亚单位疫苗  
 
@@ -492,7 +493,7 @@ source-attribution
 
     </details>
 
-39. 庆大霉素的作用机制（2分）
+39. （2 分）庆大霉素的作用机制
 
     A 影响细胞壁合成、B影响蛋白质合成、C 抑制细胞膜合成、D 抑制DNA复制  
 
@@ -503,7 +504,7 @@ source-attribution
 
     </details>
 
-40. 下列哪一种方法是消毒而不是灭菌？（2分）
+40. （2 分）下列哪一种方法是消毒而不是灭菌？
 
     A 电离辐射、B干烤、C 紫外线照射、D 高压蒸汽处理  
 
@@ -514,7 +515,7 @@ source-attribution
 
     </details>
 
-41. Polymorphism of major histocompatibility genes    （2分）
+41. （2 分） Polymorphism of major histocompatibility genes
 
     A	occurs in Class II genes but not in Class I genes  
     B	allows the MHC molecule to bind to either CD4 or CD8  
@@ -529,7 +530,7 @@ source-attribution
 
     </details>
 
-42. Products of TAP-1 and TAP-2 genes ---------------------------------------------（2分）
+42. （2 分） Products of TAP-1 and TAP-2 genes ---------------------------------------------
 
     A.	Bind b2m.  
     B.	Prevent peptide binding to MHC molecules.  
@@ -544,7 +545,7 @@ source-attribution
 
     </details>
 
-43. How many genes does MHC class II have?    （2分）
+43. （2 分） How many genes does MHC class II have?
 
     A. 	2 (HLA-DP alpha/beta)  
     B. 	2 (HLA-DQ alpha/beta)  
@@ -559,7 +560,7 @@ source-attribution
 
     </details>
 
-44. Interactions between are not restricted by MHC molecules. （2分）
+44. （2 分） Interactions between are not restricted by MHC molecules.
 
     A. Th cell & dendritic cell  
     B. NK cell & target cell  
@@ -574,7 +575,7 @@ source-attribution
 
     </details>
 
-45. The peptide from HIV reverse transcriptase binds to which class of MHC, how long is that peptide, and is the cleft closed or open on the ends?  （2分）
+45. （2 分） The peptide from HIV reverse transcriptase binds to which class of MHC, how long is that peptide, and is the cleft closed or open on the ends?
 
     A.	Class I, 8-11 aa, closed  
     B.	Class I, 8-11 aa, opened  
@@ -589,7 +590,7 @@ source-attribution
 
     </details>
 
-46. Each binding groove is specific for just one peptide fragment  （2分）
+46. （2 分） Each binding groove is specific for just one peptide fragment
 
     A.	true  
     B.	False  
@@ -601,7 +602,7 @@ source-attribution
 
     </details>
 
-47. Certain MHC haplotypes are associated with autoimmune disease. Match the disease with the HLA type: Ankylosing spondylitis   （2分）
+47. （2 分） Certain MHC haplotypes are associated with autoimmune disease. Match the disease with the HLA type: Ankylosing spondylitis
 
     A. 	DQ2  
     B. 	DR2  
@@ -616,7 +617,7 @@ source-attribution
 
     </details>
 
-48. Which of the following cytokines promote the differentiation of Th1 helper and inhibit the development of Th2 helper cells? --------------------------------- （2分）
+48. （2 分） Which of the following cytokines promote the differentiation of Th1 helper and inhibit the development of Th2 helper cells? ---------------------------------
 
     A.	IFN-γ  
     B.	IL-4  
@@ -631,7 +632,7 @@ source-attribution
 
     </details>
 
-49. Viral replication within cells is inhibited directly by   （2分）
+49. （2 分） Viral replication within cells is inhibited directly by
 
     A. IFN-α  
     B.TNF-α  
@@ -646,7 +647,7 @@ source-attribution
 
     </details>
 
-50. Cytokines responsible for immunosuppression include   （2分）
+50. （2 分） Cytokines responsible for immunosuppression include
 
     A. IL-1  
     B. IL-2  
@@ -1419,9 +1420,9 @@ source-attribution
 
 ## 小测 3
 
-共 50 题。
+共 50 题，每题 2 分；选择题共 100 分。
 
-1. The natural immunity can be acquired by--------------------------------------（    ）（2分）
+1. （2 分） The natural immunity can be acquired by--------------------------------------（    ）
 
     A. inoculated by vaccine  
     B. injecting adjuvant  
@@ -1436,7 +1437,7 @@ source-attribution
 
     </details>
 
-2. Which of the following antibody is used for treatment of specified tumor patients? -------------------------------------------------------------- (         )（2分）
+2. （2 分） Which of the following antibody is used for treatment of specified tumor patients? -------------------------------------------------------------- (         )
 
     A. anti-IFN-  
     B. anti-CD45  
@@ -1451,7 +1452,7 @@ source-attribution
 
     </details>
 
-3. Which of the following reagent is not an immune inhibitor---------(        )（2分）
+3. （2 分） Which of the following reagent is not an immune inhibitor---------(        )
 
     A. cyclosporin A  
     B. FK506  
@@ -1466,7 +1467,7 @@ source-attribution
 
     </details>
 
-4. An adjuvant is a substance that-------------------------------------------- (       )（2分）
+4. （2 分） An adjuvant is a substance that-------------------------------------------- (       )
 
     A. increases the size of the immunogen  
     B. enhances the immunogenicity of haptens  
@@ -1481,7 +1482,7 @@ source-attribution
 
     </details>
 
-5. How is it a mother who is breast feeding positively affects her baby's immune system? （2分）
+5. （2 分） How is it a mother who is breast feeding positively affects her baby's immune system?
 
     A. she gives her baby antigens she has produced in her breast milk  
     B. she gives her baby antibodies she has produced in her breast milk  
@@ -1495,7 +1496,7 @@ source-attribution
 
     </details>
 
-6. Once vaccinated, you have had a primary exposure to specific antigens. If you ever encounter this antigen again, you will mount a rapid immune response due to:-------------------------------------------------------------------------------------- (     )（2分）
+6. （2 分） Once vaccinated, you have had a primary exposure to specific antigens. If you ever encounter this antigen again, you will mount a rapid immune response due to:-------------------------------------------------------------------------------------- (     )
 
     A. cytotoxic T cells  
     B. antibodies  
@@ -1510,7 +1511,7 @@ source-attribution
 
     </details>
 
-7. Which of the following cytokines can mediate anti-virus effect------- (    )（2分）
+7. （2 分） Which of the following cytokines can mediate anti-virus effect------- (    )
 
     A. IL-1  
     B. IL-6  
@@ -1525,7 +1526,7 @@ source-attribution
 
     </details>
 
-8. 目前我们国家使用的乙肝疫苗属于哪一种类型的疫苗--------------------------（    ）（2分）
+8. （2 分）目前我们国家使用的乙肝疫苗属于哪一种类型的疫苗--------------------------（    ）
 
     A. 灭活疫苗  
     B. 减毒活疫苗  
@@ -1540,7 +1541,7 @@ source-attribution
 
     </details>
 
-9. 能直接杀伤肿瘤细胞的细胞因子是：（2分）
+9. （2 分）能直接杀伤肿瘤细胞的细胞因子是：
 
     A. IFN-γ  
     B. TGF-β  
@@ -1555,7 +1556,7 @@ source-attribution
 
     </details>
 
-10. 免疫增强药物可用于下列哪些疾病的治疗-------------------------------(        )（2分）
+10. （2 分）免疫增强药物可用于下列哪些疾病的治疗-------------------------------(        )
 
     A. 肿瘤和自身免疫病  
     B. 肿瘤和过敏反应  
@@ -1570,7 +1571,7 @@ source-attribution
 
     </details>
 
-11. 转续宿主是指：（2分）
+11. （2 分）转续宿主是指：
 
     幼虫或成虫寄生的宿主  
     B. 寄生虫无性生殖阶段寄生的宿主  
@@ -1585,7 +1586,7 @@ source-attribution
 
     </details>
 
-12. 机会致病寄生虫是指：（2分）
+12. （2 分）机会致病寄生虫是指：
 
     A. 偶然致病的体外寄生虫  
     B. 暂时性寄生人体的寄生虫  
@@ -1600,7 +1601,7 @@ source-attribution
 
     </details>
 
-13. 人兽共患病中的动物宿主，在人体寄生虫病的流行病学上被称为：（2分）
+13. （2 分）人兽共患病中的动物宿主，在人体寄生虫病的流行病学上被称为：
 
     A. 中间宿主  
     B. 保虫宿主  
@@ -1615,7 +1616,7 @@ source-attribution
 
     </details>
 
-14. 蛔虫卵对外界环境的抵抗力强，主要原因是其卵壳具有哪一层结构？（2分）
+14. （2 分）蛔虫卵对外界环境的抵抗力强，主要原因是其卵壳具有哪一层结构？
 
     A. 受精膜  
     B. 壳质层  
@@ -1630,7 +1631,7 @@ source-attribution
 
     </details>
 
-15. 寄生虫的幼虫或无性阶段寄生的宿主称为：（2分）
+15. （2 分）寄生虫的幼虫或无性阶段寄生的宿主称为：
 
     A. 终宿主  
     中间宿主  
@@ -1645,7 +1646,7 @@ source-attribution
 
     </details>
 
-16. 蛔虫引起并发症是由于：（2分）
+16. （2 分）蛔虫引起并发症是由于：
 
     A. 幼虫在人体内移行  
     B. 游窜、钻孔习性  
@@ -1660,7 +1661,7 @@ source-attribution
 
     </details>
 
-17. 蛔虫最常见的并发症是：（2分）
+17. （2 分）蛔虫最常见的并发症是：
 
     A. 蛔虫性阑尾炎  
     B. 胆道蛔虫症  
@@ -1675,7 +1676,7 @@ source-attribution
 
     </details>
 
-18. 蛲虫病常用的实验室诊断方法是（2分）
+18. （2 分）蛲虫病常用的实验室诊断方法是
 
     A. 饱和盐水浮聚法  
     B. 自然沉淀法  
@@ -1690,7 +1691,7 @@ source-attribution
 
     </details>
 
-19. 蛲虫的感染阶段是：（2分）
+19. （2 分）蛲虫的感染阶段是：
 
     A. 新鲜产出虫卵  
     B. 丝状蚴  
@@ -1705,7 +1706,7 @@ source-attribution
 
     </details>
 
-20. 蛔虫病最常用的治疗药物是：（2分）
+20. （2 分）蛔虫病最常用的治疗药物是：
 
     A. 阿苯达唑或甲苯咪唑  
     B. 左旋咪唑  
@@ -1720,7 +1721,7 @@ source-attribution
 
     </details>
 
-21. 生食肉类可能感染的寄生虫是（2分）
+21. （2 分）生食肉类可能感染的寄生虫是
 
     牛带绦虫  
     日本血吸虫  
@@ -1735,7 +1736,7 @@ source-attribution
 
     </details>
 
-22. 细粒棘球绦虫对人体的感染阶段是：（2分）
+22. （2 分）细粒棘球绦虫对人体的感染阶段是：
 
     A. 囊尾蚴  
     B. 囊蚴  
@@ -1750,7 +1751,7 @@ source-attribution
 
     </details>
 
-23. 确诊猪带/牛带绦虫病的诊断方法是：（2分）
+23. （2 分）确诊猪带/牛带绦虫病的诊断方法是：
 
     A. 粪便直接涂片法  
     B. 水洗沉淀法  
@@ -1765,7 +1766,7 @@ source-attribution
 
     </details>
 
-24. 牛带绦虫对人体的感染阶段是：（2分）
+24. （2 分）牛带绦虫对人体的感染阶段是：
 
     A. 囊尾蚴  
     B. 虫卵  
@@ -1780,7 +1781,7 @@ source-attribution
 
     </details>
 
-25. 猪带绦虫对人体最主要的危害是：（2分）
+25. （2 分）猪带绦虫对人体最主要的危害是：
 
     A. 吸收大量的营养  
     B. 代谢产物的毒素作用  
@@ -1795,7 +1796,7 @@ source-attribution
 
     </details>
 
-26. 细粒棘球绦虫在人体内最常见的寄生部位是：（2分）
+26. （2 分）细粒棘球绦虫在人体内最常见的寄生部位是：
 
     A. 脑部  
     B. 肠道  
@@ -1810,7 +1811,7 @@ source-attribution
 
     </details>
 
-27. 华支睾吸虫感染人的主要方式是：（2分）
+27. （2 分）华支睾吸虫感染人的主要方式是：
 
     A. 生食某些螺类  
     B. 生食蔬菜  
@@ -1825,7 +1826,7 @@ source-attribution
 
     </details>
 
-28. 华支睾吸虫成虫的寄生部位是：（2分）
+28. （2 分）华支睾吸虫成虫的寄生部位是：
 
     A. 肺部  
     B. 肠系膜静脉  
@@ -1840,7 +1841,7 @@ source-attribution
 
     </details>
 
-29. 华支睾吸虫的感染阶段是：（2分）
+29. （2 分）华支睾吸虫的感染阶段是：
 
     A. 毛蚴  
     B. 囊蚴  
@@ -1855,7 +1856,7 @@ source-attribution
 
     </details>
 
-30. 华支睾吸虫的分布与其他吸虫相比更广泛，主要原因之一是：（2分）
+30. （2 分）华支睾吸虫的分布与其他吸虫相比更广泛，主要原因之一是：
 
     A. 水源丰富  
     B. 人群卫生习惯  
@@ -1870,7 +1871,7 @@ source-attribution
 
     </details>
 
-31. 日本血吸虫对人体危害最大的阶段是：（2分）
+31. （2 分）日本血吸虫对人体危害最大的阶段是：
 
     A. 尾蚴  
     B. 童虫  
@@ -1885,7 +1886,7 @@ source-attribution
 
     </details>
 
-32. 在流行病学上作为溶组织内阿米巴原虫的主要传染源是：（2分）
+32. （2 分）在流行病学上作为溶组织内阿米巴原虫的主要传染源是：
 
     A. 急性阿米巴痢疾患者  
     B. 阿米巴肝脓肿患者  
@@ -1900,7 +1901,7 @@ source-attribution
 
     </details>
 
-33. 通常在恶性疟患者的外周血中可检测到：（2分）
+33. （2 分）通常在恶性疟患者的外周血中可检测到：
 
     A. 成熟裂殖体  
     B. 大滋养体  
@@ -1915,7 +1916,7 @@ source-attribution
 
     </details>
 
-34. 肠阿米巴病的典型病理变化是：（2分）
+34. （2 分）肠阿米巴病的典型病理变化是：
 
     A. 细胞内寄生的增生性破坏  
     B. 外毒素引起的局部或全身炎症反应  
@@ -1930,7 +1931,7 @@ source-attribution
 
     </details>
 
-35. 肠外阿米巴病最常见于：（2分）
+35. （2 分）肠外阿米巴病最常见于：
 
     A. 肝脏  
     B. 脑  
@@ -1945,7 +1946,7 @@ source-attribution
 
     </details>
 
-36. 误饮入被人新鲜粪便污染的水，可能感染：（2分）
+36. （2 分）误饮入被人新鲜粪便污染的水，可能感染：
 
     A. Ascaris lumbricoides  
     B. Echinococcus granulosus  
@@ -1960,7 +1961,7 @@ source-attribution
 
     </details>
 
-37. 以贫血为主要致病作用的寄生虫是（2分）
+37. （2 分）以贫血为主要致病作用的寄生虫是
 
     A. Schistosoma japonicum  
     B. Plasmodium vivax  
@@ -1975,7 +1976,7 @@ source-attribution
 
     </details>
 
-38. 最有可能检测出溶组织内阿米巴包囊的检验物是：（2分）
+38. （2 分）最有可能检测出溶组织内阿米巴包囊的检验物是：
 
     A. 成形粪便  
     B. 肠壁溃疡灶活组织  
@@ -1990,7 +1991,7 @@ source-attribution
 
     </details>
 
-39. 疟疾的再燃是由于：（2分）
+39. （2 分）疟疾的再燃是由于：
 
     A. 肝脏内残存的疟原虫进入血流  
     B. 血液内有残存的红内期疟原虫  
@@ -2005,7 +2006,7 @@ source-attribution
 
     </details>
 
-40. 可在肝细胞内寄生的寄生虫是：（2分）
+40. （2 分）可在肝细胞内寄生的寄生虫是：
 
     A. Entamoeba histolytica  
     B. Clonorchis sinensis  
@@ -2020,7 +2021,7 @@ source-attribution
 
     </details>
 
-41. 间日疟原虫的感染阶段是：（2分）
+41. （2 分）间日疟原虫的感染阶段是：
 
     A. 配子体  
     B. 滋养体  
@@ -2035,7 +2036,7 @@ source-attribution
 
     </details>
 
-42. 对于乙肝病毒，下列说法错误的是（2分）
+42. （2 分）对于乙肝病毒，下列说法错误的是
 
     A. 对于乙肝病毒感染，HBcAb、HBsAb、HBeAb均具有保护作用  
     B. 乙肝病毒难以治愈的决定性主要原因是因为cccDNA存在于细胞核中  
@@ -2050,7 +2051,7 @@ source-attribution
 
     </details>
 
-43. 乙肝五项，也称“两对半”不包括哪一项的检测？（2分）
+43. （2 分）乙肝五项，也称“两对半”不包括哪一项的检测？
 
     A. HBcAb  
     B. HBsAb  
@@ -2066,7 +2067,7 @@ source-attribution
 
     </details>
 
-44. 关于埃博拉病毒，下列说法错误的是哪几项？（2分）
+44. （2 分）关于埃博拉病毒，下列说法错误的是哪几项？
 
     A. 埃博拉病毒的潜伏期平均约两周  
     B. 埃博拉病毒的临床症状有高热、头痛、肌痛、呕吐、腹泻、全身出疹等  
@@ -2081,7 +2082,7 @@ source-attribution
 
     </details>
 
-45. 【多选题】关于虫媒病毒，下列说法错误的是哪几项？（2分）
+45. （2 分）【多选题】关于虫媒病毒，下列说法错误的是哪几项？
 
     A. 可以通过节肢动物叮咬传播给脊椎动物和人类，并且对节肢动物同样具有致病性  
     B. 乙脑病毒最重要的中间/扩散宿主是幼猪  
@@ -2096,7 +2097,7 @@ source-attribution
 
     </details>
 
-46. 关于大流行性流感和季节性流感的区别，错误的选项是？（2分）
+46. （2 分）关于大流行性流感和季节性流感的区别，错误的选项是？
 
     A. 高危的人群有所不同  
     B. 基于HA和NA的病毒亚型不同  
@@ -2111,7 +2112,7 @@ source-attribution
 
     </details>
 
-47. 以下关于呼吸道病毒的描述有哪项是正确的？（2分）
+47. （2 分）以下关于呼吸道病毒的描述有哪项是正确的？
 
     A. 腮腺炎病毒和呼吸道合胞病毒都导致病毒血症  
     B. 人群中引起大爆发的冠状病毒严重时引发急性呼吸窘迫综合征  
@@ -2126,7 +2127,7 @@ source-attribution
 
     </details>
 
-48. 以下关于风疹病毒与麻疹病毒的说法哪几项是正确的？（2分）
+48. （2 分）以下关于风疹病毒与麻疹病毒的说法哪几项是正确的？
 
     A. 两种病毒都是正链RNA病毒  
     B. 两种病毒感染都导致全身出疹的症状  
@@ -2141,7 +2142,7 @@ source-attribution
 
     </details>
 
-49. 肠道病毒的主要成员之一脊髓灰质炎病毒引起的症状不包括以下哪些？（2分）
+49. （2 分）肠道病毒的主要成员之一脊髓灰质炎病毒引起的症状不包括以下哪些？
 
     A. 脊髓前角灰质损伤  
     B. 引起肠胃不适  
@@ -2156,7 +2157,7 @@ source-attribution
 
     </details>
 
-50. 【多选题】为什么针对季节性流感需要更换新的疫苗病毒株？（2分）
+50. （2 分）【多选题】为什么针对季节性流感需要更换新的疫苗病毒株？
 
     A. 病毒对特异性抗病毒药物产生抵抗  
     B. 新冠病毒疫情期间人群中流感病毒的感染率低  

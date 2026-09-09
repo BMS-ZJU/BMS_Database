@@ -13,8 +13,7 @@ source-attribution
 来源记录：RS-045。
 -->
 
-> **全中文** · **2 小时**
->
+> **全中文**
 
 !!! info "回忆卷说明"
 
@@ -24,7 +23,7 @@ source-attribution
 
 ---
 
-## 一、单项选择题（20 分） {: .exam-section .exam-section--choice }
+## 一、单项选择题（20 分） {: .exam-section .exam-section--choice data-toc-label="一、单项选择题" }
 *共 20 题，每题五个选项，每题 1 分。*
 
 1. 分子间作用力的量级为：
@@ -195,7 +194,7 @@ source-attribution
     **D.** 包含 “破坏”、“微管”、“线粒体” 的一句话  
     **E.** —
 
-## 二、简答题（30 分） {: .exam-section .exam-section--short }
+## 二、简答题（30 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 *共 6 题，每题 5 分。*
 
 1. 简要说出两种单分子力学操作技术
@@ -210,14 +209,14 @@ source-attribution
 
 6. 研究发现某新蛋白质为疾病发生的关键调控因子，具备成为治疗靶标的生物学特征。请简述该靶点蛋白的药物研发工作可以采用哪些计算生物学研究策略
 
-## 三、问答题（20 分） {: .exam-section .exam-section--analysis }
+## 三、问答题（20 分） {: .exam-section .exam-section--analysis data-toc-label="三、问答题" }
 *共 2 题，每题 10 分。*
 
 1. 膜片钳技术的原理和记录方式
 
 2. 冷冻电镜技术解析生物样品结构的优点
 
-## 四、案例分析题（30 分） {: .exam-section .exam-section--analysis }
+## 四、案例分析题（30 分） {: .exam-section .exam-section--analysis data-toc-label="四、案例分析题" }
 *共 2 题，每题 15 分。*
 
 1. *Activation and closed-state inactivation mechanisms of the human voltage-gated KV4 channel complexes*, *Molecular Cell* (Vol. 82, pp. 2427-2442) 报道了电压门控钾离子通道 $\text{Kv4.2}$ 在不同状态下的结构：
@@ -228,7 +227,7 @@ source-attribution
 
     根据图片结合分析和比较，阐述 $\text{Kv4.2}$ 的电压门控机理（图中所示的箭头为从开放状态转为关闭状态）。
 
-    ![第 4-1 题题图](../assets/2024-2025-final-exam-question-4-1.png){: .exam-figure }
+    [![第 4-1 题题图](../assets/2024-2025-final-exam-question-4-1.png){: .exam-figure width="640" }](../assets/2024-2025-final-exam-question-4-1.png "查看原图")
 
 1. 新发现一种海洋微生物可以在极端盐碱环境生存。其表面有特殊膜结构可以有效隔绝细胞内外，此外还发现参与物质运输和能量转换。进一步研究发现还可以对不同类型的物质有选择透过性，允许特定物质进入，阻止其他物质进入
 
@@ -236,4 +235,4 @@ source-attribution
 
     （2）结合该膜结构的功能，分析其在维持细胞内外环境稳态中发挥的作用。
 
-    ![第 4-2 题题图](../assets/2024-2025-final-exam-question-4-2.png){: .exam-figure }
+    [![第 4-2 题题图](../assets/2024-2025-final-exam-question-4-2.png){: .exam-figure width="640" }](../assets/2024-2025-final-exam-question-4-2.png "查看原图")

@@ -148,10 +148,59 @@
       });
   };
 
+  const revealPaperSection = (hash) => {
+    // 资料合集的目录可以指向未选中的套卷；先展开对应标签，再沿用章节锚点。
+    if (!/\/(?:mandatory|elective)\/[^/]+\/(?:exams|quizzes)\//.test(window.location.pathname)) {
+      return null;
+    }
+    let id;
+    try {
+      id = decodeURIComponent(hash.replace(/^#/, ""));
+    } catch {
+      return null;
+    }
+    const target = id && document.getElementById(id);
+    if (!target || !target.closest(".md-content")) return null;
+
+    let block = target.closest(".tabbed-block");
+    let changed = false;
+    while (block) {
+      const set = block.parentElement?.closest(".tabbed-set");
+      if (!set) break;
+      const blocks = Array.from(set.querySelectorAll(":scope > .tabbed-content > .tabbed-block"));
+      const inputs = Array.from(set.querySelectorAll(":scope > input[type='radio']"));
+      const input = inputs[blocks.indexOf(block)];
+      if (input && !input.checked) {
+        input.checked = true;
+        input.dispatchEvent(new Event("change", { bubbles: true }));
+        changed = true;
+      }
+      block = set.parentElement?.closest(".tabbed-block");
+    }
+    return changed ? target : null;
+  };
+
+  const revealPaperHash = () => {
+    const target = revealPaperSection(window.location.hash);
+    if (target) requestAnimationFrame(() => target.scrollIntoView());
+  };
+
+  document.addEventListener("click", (event) => {
+    if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    const link = event.target.closest?.(".md-nav--secondary a[href]");
+    if (!link) return;
+    const url = new URL(link.href, window.location.href);
+    if (url.origin === window.location.origin && url.pathname === window.location.pathname && url.hash) {
+      revealPaperSection(url.hash);
+    }
+  }, true);
+  window.addEventListener("hashchange", revealPaperHash);
+
   const initialize = () => {
     initCourseCatalog();
     initCurriculumToc();
     stripCreditFromToc();
+    requestAnimationFrame(revealPaperHash);
   };
 
   if (typeof document$ !== "undefined") {

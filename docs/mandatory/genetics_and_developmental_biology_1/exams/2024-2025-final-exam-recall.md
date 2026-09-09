@@ -22,7 +22,7 @@ source-attribution
 
 ---
 
-## 一、单项选择题（60 分） {: .exam-section .exam-section--choice }
+## 一、单项选择题（60 分） {: .exam-section .exam-section--choice data-toc-label="一、单项选择题" }
 
 *原卷共 40 题；原记录保留 27 题。*
 
@@ -133,7 +133,7 @@ source-attribution
 
     选项为一、二、三、四级。
 
-    ![题目中的系谱草图](../assets/2024-2025-final-exam-question-1-22-pedigree.jpg){: .exam-figure }
+    [![题目中的系谱草图](../assets/2024-2025-final-exam-question-1-22-pedigree.jpg){: .exam-figure width="222" }](../assets/2024-2025-final-exam-question-1-22-pedigree.jpg "查看原图")
 
 23. 有关 homologous 的说法。
 
@@ -158,7 +158,7 @@ source-attribution
 
 ---
 
-## 二、名词解释（16 分） {: .exam-section .exam-section--short }
+## 二、名词解释（16 分） {: .exam-section .exam-section--short data-toc-label="二、名词解释" }
 
 *共 8 题。*
 
@@ -180,7 +180,7 @@ source-attribution
 
 ---
 
-## 三、简答题（24 分） {: .exam-section .exam-section--short }
+## 三、简答题（24 分） {: .exam-section .exam-section--short data-toc-label="三、简答题" }
 
 *共 4 题。*
 
@@ -192,4 +192,4 @@ source-attribution
 
 4. 某同学计划研究 A 基因增强子与启动子之间的距离对表达的影响，于是改变 Y 基因增强子和启动子之间的距离，并测定 mRNA 表达量，得到如下结果。请简要说明可能的原因。
 
-    ![增强子与启动子距离和 mRNA 表达水平的关系图](../assets/2024-2025-final-exam-question-3-4.png){: .exam-figure }
+    [![增强子与启动子距离和 mRNA 表达水平的关系图](../assets/2024-2025-final-exam-question-3-4.png){: .exam-figure width="600" }](../assets/2024-2025-final-exam-question-3-4.png "查看原图")

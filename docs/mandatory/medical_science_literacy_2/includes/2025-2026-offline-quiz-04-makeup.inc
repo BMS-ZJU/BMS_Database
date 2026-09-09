@@ -1,5 +1,6 @@
-> **时间：** 2025.11.6 13:25 - 2025.11.6 17:30  
-> **题量：** 2 题 · 100 分
+> **时间：** 2025.11.06 13:25—17:30  
+> **周次：** 秋第 8 周周四  
+> **题量：** 2 题
 
 1. A study was conducted to investigate the effect of a new medication on systolic blood pressure. Blood pressure was measured for 8 patients before and after taking the medication:
 
