@@ -88,6 +88,7 @@ source-attribution
         ??? note "参考答案"
 
             A: - QT interval is the time of the ventricular action potential when the ventricular cardiomyocytes are contracting
+            {: .answer-explanation }
 
     6. In humans, ventilation of the lungs during inhalation (breathing in) is:
 
@@ -100,6 +101,7 @@ source-attribution
         ??? note "参考答案"
 
             C: pulls air into lungs (negative pressure) by expansion of rib cage through contraction of diaphragm
+            {: .answer-explanation }
 
     7. Th1细胞对Tc细胞(CTL)的辅助作用是      (　 )
 
@@ -158,16 +160,22 @@ source-attribution
     ??? note "参考答案"
 
         (1 point for each process, 1 point for each explanation of mechanism)
+        {: .answer-explanation }
 
         Gap junctions – direct transfer of ions/molecule through pores connecting cells
+        {: .answer-explanation }
 
         Paracrine/autocrine – release of hormone/molecule that binds to receptor on same/neighbouring cell
+        {: .answer-explanation }
 
         Neurotransmitter: release of neuromone that binds to receptor on target cell across a synapse
+        {: .answer-explanation }
 
         Neurohormone – hormone released into blood stream from neurone  and  binds to receptor on target cell
+        {: .answer-explanation }
 
         Hormone – hormone released from endocrine cell into blood stream from neurone  and  binds to receptor on target cell
+        {: .answer-explanation }
 
     </li>
     <li markdown="1">
@@ -177,40 +185,58 @@ source-attribution
     ??? note "答案要点"
 
         （1）蛋白质一级结构测序方法：（3分）
+        {: .answer-explanation }
 
         A.蛋白质N端测序，例如Sanger测序法，Edman降解法；
+        {: .answer-explanation }
 
         B.蛋白质质谱技术 (Mass Spectrometry)；
+        {: .answer-explanation }
 
         C.蛋白质从头测序 (De novo sequencing)；
+        {: .answer-explanation }
 
         D.基于纳米孔的单分子荧光测序技术。
+        {: .answer-explanation }
 
         （2）蛋白质三级结构测序方法：（3分）
+        {: .answer-explanation }
 
         A.X射线晶体学：分析纯化并结晶化的蛋白质样品，获得蛋白质的高分辨率三维结构。
+        {: .answer-explanation }
 
         B.核磁共振（NMR）光谱：在液态条件下获得蛋白质的三维结构信息。
+        {: .answer-explanation }
 
         C. 冷冻电镜（Cryo-EM）：用于获得大分子复合物的三维结构。
+        {: .answer-explanation }
 
         （3）潜在应用价值。（4分）
+        {: .answer-explanation }
 
         A.揭示生命过程的关键:
+        {: .answer-explanation }
 
         蛋白质的结构决定其功能，了解蛋白质结构对于理解生命过程至关重要。通过蛋白质结构测定，科学家能够揭示蛋白质的三维结构，从而了解其在细胞内的相互作用、信号传递以及参与的生物过程。这对于研究细胞的生理功能、发育过程以及疾病的发生机制具有重要意义。
+        {: .answer-explanation }
 
         B.药物研发的基础:
+        {: .answer-explanation }
 
         蛋白质结构测定对于药物研发起着关键作用。药物与蛋白质的相互作用是药物疗效的关键，而了解蛋白质结构可以帮助科学家设计和优化药物分子，以提高药物的选择性和效力。通过蛋白质结构测定，科学家能够揭示药物与靶标蛋白之间的相互作用模式，从而指导药物设计和药物研发过程。
+        {: .answer-explanation }
 
         C.疾病治疗的突破:
+        {: .answer-explanation }
 
         研究蛋白质结构可以为疾病治疗带来突破。许多疾病与蛋白质的结构异常或突变有关，通过了解蛋白质的结构，可以揭示疾病发生的机制，并为疾病的诊断和治疗提供新的思路和靶点。例如，通过了解病原体蛋白质的结构，科学家可以设计抗原表位，开发疫苗以及抗体疗法，从而对抗感染性疾病。
+        {: .answer-explanation }
 
         D.生物工程的推动:
+        {: .answer-explanation }
 
         蛋白质结构测定也对生物工程领域的发展起着推动作用。通过了解蛋白质的结构，科学家可以进行蛋白质工程，设计和改造具有特定功能和特性的蛋白质。这对于生物药物的研发、产业的创新以及生物材料的设计具有重要意义。
+        {: .answer-explanation }
 
     </li>
     <li markdown="1">
@@ -231,10 +257,13 @@ source-attribution
     ??? note "参考答案"
 
         生物学属性：基因、染色体等生物标志物，遗传表型等。（4分）
+        {: .answer-explanation }
 
         文化属性：语言、文化、生活习俗等等。（4分）
+        {: .answer-explanation }
 
         本质特征：特征是稳定的，必然是可遗传或可传承，群体间的特征差异是进化或演化而实现的。（3分）
+        {: .answer-explanation }
 
     !!! info "原记录"
 
@@ -255,14 +284,19 @@ source-attribution
     ??? note "参考答案"
 
         As cell surface receptor protein translated on ribosomes of rough ER and transported through endomembrane system to cell surface
+        {: .answer-explanation }
 
         Mutation may affect translation efficiency, protein stability or insertion of polypeptide into ER membrane. Protein folded and modified in Rough ER – folding/assembly may be affected eg inability to assemble with chaperone etc. (4 points)
+        {: .answer-explanation }
 
         Protein must exit ER via transport vesicle to travel to Golgi – efficient packaging into transport vesicle may be affected.  At Golgi,  mutation may affect PTM that may be important for plasma membrane targeting, also defects in packaging into transport vesicles or insertion into plasma membrane. Mutation may increase endocytosis or targeting to lysosomes/degradation resulting in surface expression. (4 points)
+        {: .answer-explanation }
 
         Mention of biochemical fractionation and imaging-based approaches to identify where receptor located etc should be included, ideally with diagrams of endomembrane transport pathways etc. (3 points)
+        {: .answer-explanation }
 
         Overall structure/argument – (4 points)
+        {: .answer-explanation }
 
     </li>
     <li markdown="1">
@@ -272,12 +306,16 @@ source-attribution
     ??? note "参考答案"
 
         从人与自然、人类生物学属性和文化属性，包括人类的文明角度思考什么是进化。
+        {: .answer-explanation }
 
         人类生物学属性：环境适应性（5分）
+        {: .answer-explanation }
 
         文化属性：文明、文化（5分）
+        {: .answer-explanation }
 
         人与自然自适应（5分）
+        {: .answer-explanation }
 
     </li>
     </ol>
@@ -310,6 +348,7 @@ source-attribution
         ??? note "参考答案"
 
             B: the pulmonary veins carry oxygenated blood away from the lungs
+            {: .answer-explanation }
 
     3. A new planet has been discovered in which the composition of gases in the atmosphere is 40% nitrogen, 20% carbon dioxide and 10% oxygen. If the atmospheric pressure is 950 mmHg what would be the partial pressure of Oxygen:
 
@@ -322,6 +361,7 @@ source-attribution
         ??? note "参考答案"
 
             D: partial pressure is 0.1 x 950 – 95 mm Hg
+            {: .answer-explanation }
 
     4. 已知①酶、②抗体、③激素、④糖原、⑤脂肪、⑥核酸都是人体内有重要作用的物质。下列说法正确的是 (　)
 
@@ -414,16 +454,22 @@ source-attribution
     ??? note "参考答案"
 
         (2 points for each statement & corresponding explanation)
+        {: .answer-explanation }
 
         Blood pH is normally 7.4, gas exchange coordinated with blood circulation and metabolic demand
+        {: .answer-explanation }
 
         Primarily controlled by CO<sub>2</sub> that controls blood pH: CO<sub>2</sub> + H<sub>2</sub>O --- HCO<sub>3</sub><sup>−</sup> + H+
+        {: .answer-explanation }
 
         During exercise pH falls as CO<sub>2</sub> increases, pH sensors on carotid artery and medulla control neurones in medulla (CNS)
+        {: .answer-explanation }
 
         The brain increases ventilation of lungs (controls rib muscles and diaphragm), reducing CO<sub>2</sub> levels and thus pH decreases
+        {: .answer-explanation }
 
         Oxygen levels only control ventilation in extreme conditions of low O2 like high altitude
+        {: .answer-explanation }
 
     </li>
     <li markdown="1">
@@ -448,12 +494,16 @@ source-attribution
     ??? note "答案要点"
 
         （答对1点得3分，2点得7分，3点得10分）：
+        {: .answer-explanation }
 
         （1）与抗原发生特异性结合，在体内可以发挥免疫效应，在体外可以表现为抗原抗体反应；
+        {: .answer-explanation }
 
         （2）激活补体系统；
+        {: .answer-explanation }
 
         （3）与细胞表面Fc受体结合，可发挥调理作用、ADCC作用等。
+        {: .answer-explanation }
 
     </li>
     <li markdown="1">
@@ -463,8 +513,10 @@ source-attribution
     ??? note "答案要点"
 
         环境和生活方式的变化是人类疾病的重要因素原因等，答题要点是疾病是个体的不适应性。
+        {: .answer-explanation }
 
         环境变化（3分）2. 生活方式变化（3分）3.个体的不适应性（4分）
+        {: .answer-explanation }
 
     </li>
     </ol>
@@ -481,14 +533,19 @@ source-attribution
     ??? note "参考答案"
 
         This brings together two main components and would include:
+        {: .answer-explanation }
 
         Exercise results in increased production of CO2 – mechanisms of pH regulation of ventilation to increase tidal volume to increase gas exchange. (4 points)
+        {: .answer-explanation }
 
         Importance of partial pressures and differences across vasculature. Control of heart rate to increase blood flow and control of blood flow in capillaries in lungs and target tissues.  (4 points).
+        {: .answer-explanation }
 
         Discussion of haemoglobin and oxygen dissociation curves with Bohr effect to control O2 exchange in metabolically active tissues. (3 points)
+        {: .answer-explanation }
 
         Overall structure/argument – (4 points)
+        {: .answer-explanation }
 
     </li>
     <li markdown="1">
@@ -498,6 +555,7 @@ source-attribution
     ??? note "答案要点"
 
         AI虚拟现实极大促进学科交叉和健康科技创新（5分），与此同时，也带来了对人类文明的诸多不确定性（可具体举例）（5分），同时催生AI医学责任与使命（5分）。
+        {: .answer-explanation }
 
     </li>
     </ol>

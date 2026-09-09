@@ -183,6 +183,7 @@ source-attribution
     **答案：B**
 
     **答案解释：** …by the brain
+    {: .answer-explanation }
 
     </details>
 
@@ -197,6 +198,7 @@ source-attribution
     **答案：B**
 
     **答案解释：** …cannot…
+    {: .answer-explanation }
 
     </details>
 
@@ -211,6 +213,7 @@ source-attribution
     **答案：B**
 
     **答案解释：** ,,,is intact…
+    {: .answer-explanation }
 
     </details>
 
@@ -249,6 +252,7 @@ source-attribution
     **答案：B**
 
     **答案解释：** The central nervous system can be…
+    {: .answer-explanation }
 
     </details>
 
@@ -263,6 +267,7 @@ source-attribution
     **答案：B**
 
     **答案解释：** there will be no abnormal...(since the communications between the left and the right hemispheres lost)
+    {: .answer-explanation }
 
     </details>
 
@@ -301,6 +306,7 @@ source-attribution
     **答案：B**
 
     **答案解释：** "What Route", ‘from the primary visual cortex to the temporal cortex’
+    {: .answer-explanation }
 
     </details>
 
@@ -327,6 +333,7 @@ source-attribution
     **答案：B**
 
     **答案解释：** Limbic System contains subcortical structures
+    {: .answer-explanation }
 
     </details>
 
@@ -341,6 +348,7 @@ source-attribution
     **答案：B**
 
     **答案解释：** Thalamus has this function
+    {: .answer-explanation }
 
     </details>
 
