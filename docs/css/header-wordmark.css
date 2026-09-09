@@ -37,3 +37,44 @@
     font-size: 0.9rem;
   }
 }
+
+/* Keep the eagle separate from the two animated title topics. */
+.md-header__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.md-header__title > .md-header__ellipsis {
+  flex: 1;
+  min-width: 0;
+  width: auto;
+}
+
+.bms-header-icon {
+  display: block;
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .md-header__title {
+    gap: 6px;
+    margin-inline-start: 4px;
+  }
+
+  .bms-header-icon {
+    flex-basis: 24px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .bms-header-icon {
+    display: none;
+  }
+}

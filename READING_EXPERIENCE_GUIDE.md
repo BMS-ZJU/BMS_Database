@@ -21,7 +21,7 @@
 | `docs/javascripts/resource-export.js` | 为对应资料正文设置 `.reading-paper`，以及原有打印／导出入口 |
 | `docs/assets/fonts/noto-serif-sc/` | 站内阅读网页字体、分片 CSS、授权、来源说明与校验清单 |
 | `docs/css/header-wordmark.css`、`docs/assets/fonts/brand/` | 页头及手机抽屉的品牌宋体，与正文阅读字体分开维护 |
-| `overrides/partials/header.html` | 纯文字页眉与品牌首页链接结构 |
+| `overrides/partials/header.html` | 图标、双层页名与品牌首页链接结构 |
 | `mkdocs.yml` | 字体及样式加载顺序、主题配置；阅读偏好脚本通过模板加载，不重复登记 |
 | `docs/resource-export.html` | 独立打印／导出页面，与普通文章页分开检查 |
 
@@ -58,10 +58,16 @@
 
 组件使用 `calc(系数 * var(--bms-reading-unit, 1rem))` 或小字变量。后者让原本较小的辅助文字保留常规尺寸，不再随宽屏继续放大。选用哪一个取决于文字角色和实际显示，不把本轮旧字号换算时的阈值当作新组件的固定规定。保留 `1rem` 回退，布局间距、点击区域和根字号不随阅读字号一起缩放。
 
+### 页眉图标
+
+- 页眉使用透明底、无条纹的白鹰蓝字 SVG，图片由 `theme.logo` 指定；标签页独立使用蓝鹰透明底 PNG
+- 桌面图标为 40px，`max-width: 44.984375em` 下为 24px；小于 360px 时保留纯文字页眉
+- 图标与站名共用首页链接，保留 Material 的两层 topic 和组件标记；滚动后的页名沿用主题字体。图标使用独立样式类，抽屉中的横图保持隐藏
+
 ### 临时新旧切换
 
 - 页头按钮目前用于收集新旧体验反馈，默认新版。它是临时功能，尚无自动移除日期；将来保留、改名或撤除时按新的反馈处理，不在其他维护中顺手移除。
-- `html[data-reading-style="original"]` 恢复原版阅读字体、字号与组件单位；它不回退后来单独发布的纯文字页眉、品牌字体或页面内容，也与明暗模式独立。
+- `html[data-reading-style="original"]` 恢复原版阅读字体、字号与组件单位；它不回退后来单独发布的页眉图标、品牌字体或页面内容，也与明暗模式独立。
 - 新版覆盖与变量仅在新版 `@media screen` 中启用。沿用 `:where(html:not([data-reading-style="original"]))` 等低优先级作用域，避免为了覆盖单个组件而提高全站选择器优先级。
 - 偏好键为 `bms-reading-style:<站点根路径>`。保留首次默认新版、无效／禁用存储降级、跨标签页同步、键盘操作和 Material 即时导航下只挂载一个按钮的行为。
 - 后续若撤除切换，应一起梳理模板脚本、数据属性、CSS 条件、变量回退和旧存储值，先明确旧选择如何迁移，避免只删按钮留下隐式旧模式。
