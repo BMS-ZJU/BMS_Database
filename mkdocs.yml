@@ -26,8 +26,8 @@ validation:
 theme:
   name: material
   language: zh
-  logo: images/logo_white.png
-  favicon: images/ZJUBMS.png?v=20260909-2
+  logo: images/zjubms-inverted-solid.svg
+  favicon: images/zjubms-transparent-512.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
