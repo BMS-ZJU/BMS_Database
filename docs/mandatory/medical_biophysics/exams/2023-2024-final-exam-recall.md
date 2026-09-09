@@ -13,8 +13,7 @@ source-attribution
 来源记录：RS-044。
 -->
 
-> **全中文** · **2 小时**
->
+> **全中文**
 
 !!! info "回忆卷说明"
 
@@ -26,7 +25,7 @@ source-attribution
 
 ---
 
-## 一、单项选择题（20 分） {: .exam-section .exam-section--choice }
+## 一、单项选择题（20 分） {: .exam-section .exam-section--choice data-toc-label="一、单项选择题" }
 *共 20 题，每题五个选项，每题 1 分。以下只保留能够回忆的考点。*
 
 1. 对**单分子技术**的了解，基本原理。
@@ -51,7 +50,7 @@ source-attribution
 
 ---
 
-## 二、简答题（30 分） {: .exam-section .exam-section--short }
+## 二、简答题（30 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 *共 6 题，每题 5 分。*
 
 1. 单分子技术举例。
@@ -68,7 +67,7 @@ source-attribution
 
 ---
 
-## 三、问答题（20 分） {: .exam-section .exam-section--analysis }
+## 三、问答题（20 分） {: .exam-section .exam-section--analysis data-toc-label="三、问答题" }
 *共 2 题，每题 10 分。*
 
 1. 缺血再灌注损伤导致的活性氧产生有哪些途径？作用机制分别是什么？
@@ -77,7 +76,7 @@ source-attribution
 
 ---
 
-## 四、案例分析题（30 分） {: .exam-section .exam-section--analysis }
+## 四、案例分析题（30 分） {: .exam-section .exam-section--analysis data-toc-label="四、案例分析题" }
 *共 2 题，每题 15 分。*
 
 1. 钾离子通道与机械力通道的对比（1998 年的两项研究，比较创新性和科学意义，为什么前者拿了 2003 年诺奖，后者没有）。

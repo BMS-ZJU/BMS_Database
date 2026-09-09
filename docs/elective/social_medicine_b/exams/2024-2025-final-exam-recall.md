@@ -19,7 +19,7 @@ source-attribution
 
 ---
 
-## 一、选择题 {: .exam-section .exam-section--choice }
+## 一、选择题（共 16 分） {: #_1 .exam-section .exam-section--choice data-toc-label="一、选择题" }
 *共 8 题，每题 2 分。*
 
 1. 下列哪项不属于社会医学研究内容？
@@ -38,7 +38,7 @@ source-attribution
 
 8. 健康管理的动态过程。
 
-## 二、名词解释 {: .exam-section .exam-section--short }
+## 二、名词解释（共 24 分） {: #_2 .exam-section .exam-section--short data-toc-label="二、名词解释" }
 *共 6 题，每题 4 分。*
 
 1. GNP
@@ -53,7 +53,7 @@ source-attribution
 
 6. 健康危险因素评价
 
-## 三、简答题 {: .exam-section .exam-section--short }
+## 三、简答题（共 30 分） {: #_3 .exam-section .exam-section--short data-toc-label="三、简答题" }
 *共 3 题，每题 10 分。*
 
 1. 医学模式的演变过程。
@@ -62,7 +62,7 @@ source-attribution
 
 3. 分层抽样的定义、方法和优缺点。
 
-## 四、论述题 {: .exam-section .exam-section--analysis }
+## 四、论述题（共 30 分） {: #_4 .exam-section .exam-section--analysis data-toc-label="四、论述题" }
 *共 2 题，每题 15 分。*
 
 1. 社会卫生服务的定义。

@@ -18,7 +18,7 @@ hide:
 
     ---
 
-    [期末试题（站外）](https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/2024-2025%E5%AD%A6%E5%B9%B4%E6%98%A5%E5%AD%A6%E6%9C%9F%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%8A%80%E8%83%BD%20I%20%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/2024-2025%E5%AD%A6%E5%B9%B4%E6%98%A5%E5%AD%A6%E6%9C%9F%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%8A%80%E8%83%BD%20I%20%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95.html){ .resource-read-link target="_blank" rel="noopener" }
+    [期末回忆卷（站外）](https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/2024-2025%E5%AD%A6%E5%B9%B4%E6%98%A5%E5%AD%A6%E6%9C%9F%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%8A%80%E8%83%BD%20I%20%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95/2024-2025%E5%AD%A6%E5%B9%B4%E6%98%A5%E5%AD%A6%E6%9C%9F%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%8A%80%E8%83%BD%20I%20%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95.html){ .resource-read-link target="_blank" rel="noopener" }
     [Ginkgo 在线练习 ↗](https://yangshu233-snow.github.io/ZJUBMS-Ginkgo/%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E6%8A%80%E8%83%BD%20I/2024-2025%E5%A4%8F%E6%9C%9F%E6%9C%AB%E5%9B%9E%E5%BF%86%E5%8D%B7.html){ .resource-practice-link target="_blank" rel="noopener" }
 
 -   **2024-2025 学年 · 23 级冬学期**

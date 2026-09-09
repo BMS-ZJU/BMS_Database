@@ -34,7 +34,7 @@ source-attribution
 
 ---
 
-## 二、问答题（40 分） {: .exam-section .exam-section--short }
+## 二、问答题（40 分） {: .exam-section .exam-section--short data-toc-label="二、问答题" }
 
 *共 6 题，选答 4 题，每题 10 分。*
 
@@ -52,7 +52,7 @@ source-attribution
 
 ---
 
-## 三、论述题（20 分） {: .exam-section .exam-section--analysis }
+## 三、论述题（20 分） {: .exam-section .exam-section--analysis data-toc-label="三、论述题" }
 
 题目给出一篇关于小胶质细胞脂质代谢与阿尔茨海默病危险基因 APOE 的英文论文摘要，要求用中文提取以下内容：
 

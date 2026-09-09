@@ -324,11 +324,24 @@
   font-weight: 600;
 }
 
+/* 题图按原比例显示；单图 width 属性可缩窄，窄屏仍受容器宽度限制 */
+.md-typeset .exam-figure,
 .md-typeset .quiz-figure {
   display: block;
   max-width: min(100%, 32rem);
   height: auto;
   margin: 1rem auto;
+}
+
+/* 白底题图的透明区域在明暗主题下均保持纯白 */
+.md-typeset .exam-figure--white {
+  background-color: #fff;
+}
+
+/* 纯题图首段保留题号所在首行，避免标号对齐到后面的答案行 */
+.md-typeset li > p:first-child:has(> a:only-child > img.exam-figure:only-child)::before,
+.md-typeset li > p:first-child:has(> a:only-child > img.quiz-figure:only-child)::before {
+  content: "\200b";
 }
 
 /* 回忆卷题目间距：选择题适度分隔，大题使用更宽的阅读节奏 */

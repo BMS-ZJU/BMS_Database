@@ -1,4 +1,6 @@
 ---
+resource_usage: source-restriction
+resource_usage_note: 原始材料标有“禁止外传”，请保留并遵守原有使用限制。
 title: 疾病基础 2022-2023 学年秋冬学期期末回忆卷
 ---
 
@@ -253,8 +255,8 @@ source-attribution
 
     图 1：
 
-    ![案例分析第 2 题图 1](../assets/2022-2023-final-exam-case-2-1.png){: .exam-figure }
+    [![案例分析第 2 题图 1](../assets/2022-2023-final-exam-case-2-1.png){: .exam-figure width="320" }](../assets/2022-2023-final-exam-case-2-1.png "查看原图")
 
     图 2、3：
 
-    ![案例分析第 2 题题图，原件标注为图 2、3](../assets/2022-2023-final-exam-case-2-2-3.png){: .exam-figure }
+    [![案例分析第 2 题题图，原件标注为图 2、3](../assets/2022-2023-final-exam-case-2-2-3.png){: .exam-figure width="500" }](../assets/2022-2023-final-exam-case-2-2-3.png "查看原图")

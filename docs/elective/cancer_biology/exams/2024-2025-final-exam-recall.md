@@ -14,7 +14,7 @@ source-attribution
 -->
 
 > **名词解释含英文题目，其余题目为中文** · **闭卷**  
-> **原卷 54 题，作答 52 题** · **2 小时**
+> **原卷 54 题，作答 52 题**
 
 !!! info "回忆卷说明"
 
@@ -26,7 +26,7 @@ source-attribution
 
 ---
 
-## 一、单项选择题（40 分） {: .exam-section .exam-section--choice }
+## 一、单项选择题（40 分） {: .exam-section .exam-section--choice data-toc-label="一、单项选择题" }
 
 *原卷共 40 题，每题 4 个选项，每题 1 分；现有回忆记录第 1—30、39—40 题。*
 
@@ -265,7 +265,7 @@ source-attribution
 
 ---
 
-## 二、名词解释（18 分） {: .exam-section .exam-section--short }
+## 二、名词解释（18 分） {: .exam-section .exam-section--short data-toc-label="二、名词解释" }
 
 *共 6 题，每题 3 分。*
 
@@ -283,7 +283,7 @@ source-attribution
 
 ---
 
-## 三、简答题（42 分） {: .exam-section .exam-section--short }
+## 三、简答题（42 分） {: .exam-section .exam-section--short data-toc-label="三、简答题" }
 
 *共 8 题，从中选择 6 题作答，每题 7 分。*
 
@@ -299,7 +299,7 @@ source-attribution
 
 6. 2025 年 3 月，《Nature》杂志发表一篇论文，讲述研究人员发现 Rho GTP 酶 Arhgrf1 全身敲除小鼠可抑制尾静脉或脾移植的 B16、LL/2 肿瘤的肺转移、肝转移及另一处转移（—）。请设计两种不同的实验证明转移抑瘤作用特异性依赖于 T（CD3+）细胞。
 
-    ![第 6 题题图](../assets/2024-2025-final-exam-question-06.png){: .exam-figure }
+    [![第 6 题题图](../assets/2024-2025-final-exam-question-06.png){: .exam-figure width="640" }](../assets/2024-2025-final-exam-question-06.png "查看原图")
 
 7. 写出至少两种异常的生长因子受体激活发挥类似癌蛋白功能的主要方式。
 

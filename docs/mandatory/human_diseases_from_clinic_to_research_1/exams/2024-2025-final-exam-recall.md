@@ -27,7 +27,7 @@ source-attribution
 
 ---
 
-## 二、问答题（15 分） {: .exam-section .exam-section--short }
+## 二、问答题（15 分） {: .exam-section .exam-section--short data-toc-label="二、问答题" }
 
 *共 5 题，每题 3 分。*
 
@@ -43,7 +43,7 @@ source-attribution
 
 ---
 
-## 三、论述题（20 分） {: .exam-section .exam-section--analysis }
+## 三、论述题（20 分） {: .exam-section .exam-section--analysis data-toc-label="三、论述题" }
 
 *共 4 题，每题 5 分。*
 
@@ -57,7 +57,7 @@ source-attribution
 
 ---
 
-## 四、案例分析题（5 分） {: .exam-section .exam-section--analysis }
+## 四、案例分析题（5 分） {: .exam-section .exam-section--analysis data-toc-label="四、案例分析题" }
 
 患者一个月前骨裂并卧床，近几天因咳嗽、咯血来院，下肢水肿，血压高。
 

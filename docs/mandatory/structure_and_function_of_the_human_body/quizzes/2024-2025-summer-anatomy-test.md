@@ -16,13 +16,15 @@ source-attribution
 来源记录：RS-098、LMS-002。
 -->
 
-> **2025 年 6 月 7 日 19:00—19:15** · **线上图片填空** · **16 题** · **16 分** · **1 次作答机会**
+> **本学年夏一周周一：** 2025 年 4 月 14 日  
+> **2025.06.07 19:00—19:15** · **线上图片填空** · **16 题** · **16 分** · **1 次作答机会**  
+> **周次：** 夏第 8 周周六
 
 !!! info "试题说明"
 
     本页依据课程平台保存页整理。保存页采用随机作答顺序，本页按照题图中标注的原题号恢复为第 1—16 题。答案来自课程平台公布的正确答案；同一题列出多个答案时，表示平台接受这些同义写法，并非多个空。
 
-1. ![第 1 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q01.webp){: .quiz-figure }
+1. [![第 1 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q01.webp){: .quiz-figure width="620" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q01.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -31,7 +33,7 @@ source-attribution
 
     </details>
 
-2. ![第 2 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q02.webp){: .quiz-figure }
+2. [![第 2 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q02.webp){: .quiz-figure width="620" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q02.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -40,7 +42,7 @@ source-attribution
 
     </details>
 
-3. ![第 3 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q03.webp){: .quiz-figure }
+3. [![第 3 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q03.webp){: .quiz-figure width="600" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q03.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -49,7 +51,7 @@ source-attribution
 
     </details>
 
-4. ![第 4 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q04.webp){: .quiz-figure }
+4. [![第 4 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q04.webp){: .quiz-figure width="600" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q04.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -58,7 +60,7 @@ source-attribution
 
     </details>
 
-5. ![第 5 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q05.webp){: .quiz-figure }
+5. [![第 5 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q05.webp){: .quiz-figure width="600" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q05.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -67,7 +69,7 @@ source-attribution
 
     </details>
 
-6. ![第 6 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q06.webp){: .quiz-figure }
+6. [![第 6 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q06.webp){: .quiz-figure width="600" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q06.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -76,7 +78,7 @@ source-attribution
 
     </details>
 
-7. ![第 7 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q07.webp){: .quiz-figure }
+7. [![第 7 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q07.webp){: .quiz-figure width="560" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q07.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -85,7 +87,7 @@ source-attribution
 
     </details>
 
-8. ![第 8 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q08.webp){: .quiz-figure }
+8. [![第 8 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q08.webp){: .quiz-figure width="620" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q08.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -94,7 +96,7 @@ source-attribution
 
     </details>
 
-9. ![第 9 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q09.webp){: .quiz-figure }
+9. [![第 9 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q09.webp){: .quiz-figure width="620" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q09.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -103,7 +105,7 @@ source-attribution
 
     </details>
 
-10. ![第 10 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q10.webp){: .quiz-figure }
+10. [![第 10 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q10.webp){: .quiz-figure width="620" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q10.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -112,7 +114,7 @@ source-attribution
 
     </details>
 
-11. ![第 11 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q11.webp){: .quiz-figure }
+11. [![第 11 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q11.webp){: .quiz-figure width="600" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q11.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -121,7 +123,7 @@ source-attribution
 
     </details>
 
-12. ![第 12 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q12.webp){: .quiz-figure }
+12. [![第 12 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q12.webp){: .quiz-figure width="600" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q12.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -130,7 +132,7 @@ source-attribution
 
     </details>
 
-13. ![第 13 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q13.webp){: .quiz-figure }
+13. [![第 13 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q13.webp){: .quiz-figure width="580" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q13.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -139,7 +141,7 @@ source-attribution
 
     </details>
 
-14. ![第 14 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q14.webp){: .quiz-figure }
+14. [![第 14 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q14.webp){: .quiz-figure width="560" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q14.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -148,7 +150,7 @@ source-attribution
 
     </details>
 
-15. ![第 15 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q15.webp){: .quiz-figure }
+15. [![第 15 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q15.webp){: .quiz-figure width="560" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q15.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>
@@ -157,7 +159,7 @@ source-attribution
 
     </details>
 
-16. ![第 16 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q16.webp){: .quiz-figure }
+16. [![第 16 题题图](../assets/anatomy-tests/2024-2025-summer-anatomy-q16.webp){: .quiz-figure width="600" }](../assets/anatomy-tests/2024-2025-summer-anatomy-q16.webp "查看原图")
 
     <details class="quiz-answer" markdown>
     <summary>查看答案</summary>

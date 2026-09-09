@@ -9,6 +9,9 @@
 #
 # verified_on 保留既有教务网核对日期；curriculum_verified_on 仅表示本地培养方案覆盖核对日期。
 # curriculum_plans 使用 docs/curricula/index.md 的方案标识，表示出现范围，不表示开课状态。
+# 培养方案班型使用站内稳定的拼音标识：qiushi（求是科学班）、qiangji（强基计划班）、zhichuang（智慧创新班）。
+# 上述标识不作为官方英文译名；页面仍显示材料中的中文班型名称，与课程 english_name 字段分开维护。
+# 方案标识采用“年级-班型”，与培养方案页 data-curriculum-plan 和章节 ID 前缀同步。
 # suggested_term 是对应培养方案的建议学期，不替代实际教学安排。
 # curriculum_versions 保存历史代码、原名、学分和方案范围；不默认各版本教学与考核相同。
 # 定位代码时依次核对 course_code、legacy_course_code、curriculum_course_codes 和 curriculum_versions。
@@ -123,7 +126,7 @@ courses:
         curriculum_plans:
           - 2019-qiushi
           - 2020-qiushi
-          - 2020-strong-base
+          - 2020-qiangji
         suggested_term: 三（秋）
         notes: 按2019—2020级方案记录；与既有72120401版本的教学安排不能仅凭同名视为完全相同。
   - category: mandatory
@@ -465,6 +468,7 @@ curriculum_only_courses:
     legacy_course_code: "1816N007"
     chinese_name: 公共卫生导论
     english_name: An Introduction on Public Health
+    notes: 2026-09-09 经用户确认与图灵班同课；站外资料：https://zju-turing.github.io/TuringCourses/general/elective/#_52
   - curriculum_roles: [transition_direction_undergraduate, public_health_and_preventive_medicine]
     path: null
     course_code: MED0672G
@@ -561,8 +565,10 @@ curriculum_only_courses:
     course_code: "18120590"
     chinese_name: 卫生学
     english_name: null
-    offering_status: not_offered_as_of_2026-08-27
-    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
+    offering_status: discontinued
+    lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；官方英文名尚未核实
+    related_course_code: MED2425M
+    notes: 用户于2026-09-09转述教师通知，本课程已停开；有选课需要可选预防医学（MED2425M），之后可申请课程替换。通知日期与适用年级未提供；两门课程代码分别保留。
   - curriculum_roles: [professional_elective]
     path: null
     course_code: "72190030"
@@ -872,7 +878,7 @@ curriculum_only_courses:
     english_name: null
     credits: 2.0
     curriculum_plans:
-      - 2023-strong-base
+      - 2023-qiangji
     suggested_term: 五（夏）
     lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
   - path: null
@@ -881,7 +887,7 @@ curriculum_only_courses:
     english_name: null
     credits: 2.0
     curriculum_plans:
-      - 2023-strong-base
+      - 2023-qiangji
     suggested_term: 五（春）
     lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
   - path: null
@@ -890,7 +896,7 @@ curriculum_only_courses:
     english_name: null
     credits: 5.0
     curriculum_plans:
-      - 2023-strong-base
+      - 2023-qiangji
     suggested_term: 五（春夏）
     lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
   - path: null
@@ -899,7 +905,7 @@ curriculum_only_courses:
     english_name: null
     credits: 4.0
     curriculum_plans:
-      - 2023-strong-base
+      - 2023-qiangji
     suggested_term: 五（春夏）
     lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
   - path: null
@@ -908,7 +914,7 @@ curriculum_only_courses:
     english_name: null
     credits: 3.0
     curriculum_plans:
-      - 2023-strong-base
+      - 2023-qiangji
     suggested_term: 五（冬）
     lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
   - path: null
@@ -917,27 +923,30 @@ curriculum_only_courses:
     english_name: null
     credits: 3.0
     curriculum_plans:
-      - 2023-strong-base
+      - 2023-qiangji
     suggested_term: 五（秋冬）
-    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+    lookup_status: 截至2026-09-09，已依据用户确认登记图灵班同课程资料；官方英文名和当前开课状态待补充。
+    notes: 2026-09-09 经用户确认与图灵班同课；归档资料：https://zju-turing.github.io/TuringCoursesGrave/major_mandatory/cognitive_neuroscience/
   - path: null
     course_code: "21121960"
     chinese_name: 脑启发人工智能导论
     english_name: null
     credits: 3.0
     curriculum_plans:
-      - 2023-strong-base
+      - 2023-qiangji
     suggested_term: 五（春夏）
-    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+    lookup_status: 截至2026-09-09，已依据用户确认登记图灵班同课程资料；官方英文名和当前开课状态待补充。
+    notes: 2026-09-09 经用户确认与图灵班同课；归档资料：https://zju-turing.github.io/TuringCoursesGrave/major_elective/brain_inspired_ai/
   - path: null
     course_code: "21188210"
     chinese_name: 人工智能引论
     english_name: null
     credits: 3.5
     curriculum_plans:
-      - 2023-strong-base
+      - 2023-qiangji
     suggested_term: 五（秋冬）
-    lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
+    lookup_status: 截至2026-09-09，已依据用户确认登记图灵班同课程资料；官方英文名和当前开课状态待补充。
+    notes: 2026-09-09 经用户确认与图灵班同课；站外资料：https://zju-turing.github.io/TuringCourses/major/ai_basic/
   - path: null
     course_code: "72120370"
     chinese_name: 生命科学基础
@@ -946,11 +955,11 @@ curriculum_only_courses:
     curriculum_plans:
       - 2019-qiushi
       - 2020-qiushi
-      - 2020-strong-base
+      - 2020-qiangji
       - 2021-qiushi
-      - 2021-strong-base
+      - 2021-qiangji
       - 2022-qiushi
-      - 2022-strong-base
+      - 2022-qiangji
     suggested_term: 一（秋冬）
     lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
     related_course_code: MED1001M
@@ -984,9 +993,9 @@ curriculum_only_courses:
     curriculum_plans:
       - 2019-qiushi
       - 2020-qiushi
-      - 2020-strong-base
+      - 2020-qiangji
       - 2021-qiushi
-      - 2021-strong-base
+      - 2021-qiangji
     suggested_term: 三（春）
     lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
     notes: 与72188040在同一批培养方案中分列，分别为Ⅰ和Ⅱ，不互作旧课程号。
@@ -998,9 +1007,9 @@ curriculum_only_courses:
     curriculum_plans:
       - 2019-qiushi
       - 2020-qiushi
-      - 2020-strong-base
+      - 2020-qiangji
       - 2021-qiushi
-      - 2021-strong-base
+      - 2021-qiangji
     suggested_term: 三（夏）
     lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。
     notes: 与72188050在同一批培养方案中分列，分别为Ⅱ和Ⅰ，不互作旧课程号。
@@ -1010,9 +1019,9 @@ curriculum_only_courses:
     english_name: null
     credits: 2.0
     curriculum_plans:
-      - 2023-strong-base
+      - 2023-qiangji
       - 2024-qiushi
-      - 2024-strong-base
+      - 2024-qiangji
       - 2025-qiushi
     suggested_term: 五（秋）
     lookup_status: 截至2026-09-08，仅核对本地培养方案；官方英文名和当前开课状态待补充，本轮未查询教务网。

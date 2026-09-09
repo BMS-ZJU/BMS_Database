@@ -22,7 +22,9 @@ source-attribution
 
 ---
 
-## 一、必答题（2 题） {: .exam-section .exam-section--analysis }
+## 一、必答题 {: #2 .exam-section .exam-section--analysis data-toc-label="一、必答题" }
+
+*共 2 题。*
 
 1. 说明树突整合的定义、分类、机制和影响因素。
 
@@ -36,7 +38,9 @@ source-attribution
 
     （4）已知 E<sub>K</sub> = −80 mV、E<sub>Na</sub> = +50 mV，计算 g<sub>K</sub>/g<sub>Na</sub>。
 
-## 二、选答题（12 选 6） {: .exam-section .exam-section--short }
+## 二、选答题 {: #12-6 .exam-section .exam-section--short data-toc-label="二、选答题" }
+
+*共 12 题，选答 6 题。*
 
 1. 哪种胶质细胞会影响 K<sup>+</sup> 浓度？说明其机制。
 

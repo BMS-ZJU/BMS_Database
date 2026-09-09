@@ -13,7 +13,7 @@ source-attribution
 来源记录：RS-055。
 -->
 
-> **中英文混合** · **可携带计算器** · **2 小时**  
+> **主要为英文** · **可携带计算器** · **提供部分公式和分布表**  
 
 !!! info "回忆卷说明"
 
@@ -21,7 +21,7 @@ source-attribution
 
 ---
 
-## 一、选择题（50 分） {: .exam-section .exam-section--choice }
+## 一、选择题（50 分） {: .exam-section .exam-section--choice data-toc-label="一、选择题" }
 
 *共 20 题，每题四个选项，每题 2.5 分*
 
@@ -167,7 +167,7 @@ source-attribution
 
 ---
 
-## 二、简答题（50 分） {: .exam-section .exam-section--short }
+## 二、简答题（50 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 *共 5 题；计算过程保留两位小数（keep two decimals during your calculation）。*
 
 1. **Cell Phone Radiation**
@@ -175,11 +175,11 @@ source-attribution
 
     > 1.5, 0.9, 1.3, 1.5, 1.3, 1.2, 1.4, 1.1, 1.3, 1.4, 1.2
 
-    1) Find the mean, median, standard deviation, variance, and range of this data set. Also, are these results **statistics** or **parameters** (6')
+    1) (6 points) Find the mean, median, standard deviation, variance, and range of this data set. Also, are these results **statistics** or **parameters**
 
-    2) Find amounts of radiation separating those that are significantly low and those that are significantly high. Is the lowest listed value significantly low (4')
+    2) (4 points) Find amounts of radiation separating those that are significantly low and those that are significantly high. Is the lowest listed value significantly low
 
-    3) Is this data set **continuous** or **discrete** (1')
+    3) (1 point) Is this data set **continuous** or **discrete**
 
 
     ---
@@ -187,11 +187,11 @@ source-attribution
 2. **Touch Therapy**
     A nine-year-old girl named Emily Rosa conducted an experiment to test whether touch therapy practitioners could detect a human energy field. In 280 trials, TT practitioners correctly identified the hand chosen by Emily in 123 trials. (*A close look at therapeutic touch*. JAMA. 1998 Apr 1;279(13):1005-10.)
 
-    1) If practitioners were merely guessing at random (as if flipping a fair coin), what is the theoretical probability of a correct guess (1')
+    1) (1 point) If practitioners were merely guessing at random (as if flipping a fair coin), what is the theoretical probability of a correct guess
 
-    2) Based on the sample results, what is the best point estimate of the true success rate for touch therapy practitioners (1')
+    2) (1 point) Based on the sample results, what is the best point estimate of the true success rate for touch therapy practitioners
 
-    3) Construct a **99% confidence interval** for the true proportion of correct responses made by therapeutic touch practitioners  (5')
+    3) (5 points) Construct a **99% confidence interval** for the true proportion of correct responses made by therapeutic touch practitioners
 
 
     ---
@@ -205,11 +205,11 @@ source-attribution
     Public health guidelines commonly recommend that adults sleep between 7 and 9 hours per night
     At the $\alpha = 0.05$ significance level, test whether the population mean sleep duration is **less than 7 hours**
 
-    1) State the null hypothesis (2')
+    1) (2 points) State the null hypothesis
 
-    2) Calculate the appropriate test statistic (3')
+    2) (3 points) Calculate the appropriate test statistic
 
-    3) Make the conclusion (2')
+    3) (2 points) Make the conclusion
 
 
     ---
@@ -235,17 +235,17 @@ source-attribution
     | **MEAN**    | 24.5                         | 104.5                       |
     | $\sum (x - \bar{x})^2$ | 143               | 2253                        |
 
-    1) Fit a simple linear regression model and report the estimated regression equation
-    ($\widehat{\text{FBG}} = b \cdot \text{BMI} + a$) (4')
+    1) (4 points) Fit a simple linear regression model and report the estimated regression equation
+    ($\widehat{\text{FBG}} = b \cdot \text{BMI} + a$)
 
-    2) Test whether BMI significantly predicts FBG using an **F-test** at $\alpha = 0.05$ (8')
+    2) (8 points) Test whether BMI significantly predicts FBG using an **F-test** at $\alpha = 0.05$
 
-    3) Use the fitted regression model to predict the FBG level for an individual with BMI = 26 kg/m² (2')
+    3) (2 points) Use the fitted regression model to predict the FBG level for an individual with BMI = 26 kg/m²
 
 
     ---
 
-5. **Supplement Use and Common Cold**
+5. (11 points) **Supplement Use and Common Cold**
     A cohort of 200 adults was observed over winter to assess whether supplement use is associated with incidence of the common cold. The observed frequencies are
 
     |                | Cold (Yes) | Cold (No) | Row Total |
@@ -256,7 +256,7 @@ source-attribution
 
     The researcher wishes to test, at the $\alpha = 0.05$ level, whether supplement use and cold incidence are **independent**
 
-    Please fill in the following table with **expected frequencies** and perform a **Chi-square test** (11')
+    Please fill in the following table with **expected frequencies** and perform a **Chi-square test**
 
     |                | Cold (Yes) | Cold (No) |
     |:--------------:|:----------:|:---------:|

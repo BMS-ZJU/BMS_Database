@@ -89,7 +89,7 @@
 <nav class="course-links" aria-label="课程资料">
   <a class="course-link" href="exams/">
     <strong>考试资料</strong>
-    <small>23—25 级的期末回忆卷与试题入口</small>
+    <small>23—25 级的期末回忆卷</small>
   </a>
 </nav>
 

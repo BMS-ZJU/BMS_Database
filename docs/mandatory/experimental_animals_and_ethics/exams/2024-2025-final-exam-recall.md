@@ -21,7 +21,7 @@ source-attribution
 
 ---
 
-## 一、判断题（10 分） {: .exam-section .exam-section--choice }
+## 一、判断题（10 分） {: .exam-section .exam-section--choice data-toc-label="一、判断题" }
 
 *原卷共 10 题，本部分共 10 分；现有回忆记录 8 题。*
 
@@ -41,7 +41,7 @@ source-attribution
 
 8. 测量实验室气体质量的指标是氨气。
 
-## 二、单项选择题（30 分） {: .exam-section .exam-section--choice }
+## 二、单项选择题（30 分） {: .exam-section .exam-section--choice data-toc-label="二、单项选择题" }
 
 *原卷共 15 题，每题 4 个选项，本部分共 30 分；现有回忆记录 12 题。*
 
@@ -150,7 +150,7 @@ source-attribution
     **D.** —
 
 
-## 三、简答题（30 分） {: .exam-section .exam-section--short }
+## 三、简答题（30 分） {: .exam-section .exam-section--short data-toc-label="三、简答题" }
 
 *共 6 题，本部分共 30 分。*
 
@@ -166,7 +166,7 @@ source-attribution
 
 6. 动物权利和动物福利的异同。
 
-## 四、论述题（30 分） {: .exam-section .exam-section--analysis }
+## 四、论述题（30 分） {: .exam-section .exam-section--analysis data-toc-label="四、论述题" }
 
 *共 5 题，本部分共 30 分。*
 

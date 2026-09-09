@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "years": {
+    "2019-2020": {
+      "sources": [
+        {
+          "file": "2019-2020秋冬校历.jpg",
+          "sha256": "92e984ac21dba9ce6a6a149a55a6ce2ac30285e4674bc4117ec26209d5a924c5",
+          "evidence": "图片上方秋冬日期表及左下开课、考试、寒假说明: 9月9日秋开课, 11月11日冬开课, 1月18日学生寒假; 月份行下编号栏为秋一至九、冬一至十"
+        },
+        {
+          "file": "2019-2020春夏校历.jpg",
+          "sha256": "215461e631b8acdc1871adb7bdc18ea1c32889858f34be8962ddceabbe7352e5",
+          "evidence": "图片上方春夏日期表及左下开课、考试、暑假说明: 2月24日春开课, 4月27日夏开课, 7月4日学生暑假; 月份行下编号栏为春一至九、夏一至十"
+        }
+      ],
+      "notes": [
+        "春夏图片记载原定2020年2月24日及4月27日开课, 未见疫情调整说明; 仅作原校历计划, 实际教学安排未核对",
+        "图片月份行下的编号栏明确标注秋一至九、冬一至十、春一至九、夏一至十, 编号包含部分考试日期; 校历第N周不等于第N教学周, 不能替代实际调课安排",
+        "秋末11月4日补10月25日课程; 冬末1月6日补12月31日课程、1月7日补周三课程; 春末4月20日补4月4日课程, 夏末6月22日补5月1日课程"
+      ],
+      "terms": {
+        "秋": {
+          "week1_monday": "2019-09-09",
+          "numbered_weeks": 9,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "冬": {
+          "week1_monday": "2019-11-11",
+          "numbered_weeks": 10,
+          "break_start": "2020-01-18",
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "春": {
+          "week1_monday": "2020-02-24",
+          "numbered_weeks": 9,
+          "break_start": null,
+          "status": "planned_actual_unverified",
+          "exam_week_start": null
+        },
+        "夏": {
+          "week1_monday": "2020-04-27",
+          "numbered_weeks": 10,
+          "break_start": "2020-07-04",
+          "status": "planned_actual_unverified",
+          "exam_week_start": null
+        }
+      }
+    },
+    "2020-2021": {
+      "sources": [
+        {
+          "file": "2020-2021秋冬校历.jpg",
+          "sha256": "8879aadea71d6b30d390f1aa4e829963fdbb255d72edd1168d61a527eb2c188b",
+          "evidence": "图片上方秋冬日期表及左下说明: 9月14日秋开课, 11月23日冬开课, 1月29日学生寒假; 含11月9日至13日调课安排; 月份行下编号栏为秋一至十、冬一至十"
+        },
+        {
+          "file": "2020-2021春夏校历.jpg",
+          "sha256": "d377b4e2482153accbfce370b77173e8417b99cba0596340fe945fc1c73801ed",
+          "evidence": "图片上方春夏日期表及左下说明: 3月1日春开课, 5月3日夏开课, 7月9日学生暑假; 月份行下编号栏为春一至九、夏一至十"
+        }
+      ],
+      "notes": [
+        "秋、冬开课相隔10个自然周, 图片秋编号明确为一至十, 11月9日为第九周、11月16日为第十周; 11月9日至12日补国庆相关课程, 11月13日补10月23日课程, 11月16日至20日秋学期考试",
+        "图片编号栏明确标注秋一至十、冬一至十、春一至九、夏一至十, 编号包含部分考试日期; 校历第N周不等于第N教学周; 春夏校历含补课待定说明, 6月29日列补回劳动节放假期间课程"
+      ],
+      "terms": {
+        "秋": {
+          "week1_monday": "2020-09-14",
+          "numbered_weeks": 10,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "冬": {
+          "week1_monday": "2020-11-23",
+          "numbered_weeks": 10,
+          "break_start": "2021-01-29",
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "春": {
+          "week1_monday": "2021-03-01",
+          "numbered_weeks": 9,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "夏": {
+          "week1_monday": "2021-05-03",
+          "numbered_weeks": 10,
+          "break_start": "2021-07-09",
+          "status": "calendar",
+          "exam_week_start": null
+        }
+      }
+    },
+    "2021-2022": {
+      "sources": [],
+      "notes": [
+        "本次提供的校历材料缺少2021-2022学年, 未登记日期基准; 不使用相邻学年或课程资料日期代填"
+      ],
+      "terms": {}
+    },
+    "2022-2023": {
+      "sources": [
+        {
+          "file": "2022-2023秋冬校历.jpg",
+          "sha256": "0acf6ccaf31974b667454b23bf076879b2dfda58eff795217d177926b6a0665b",
+          "evidence": "图片上方秋冬日期表及左下说明: 9月12日秋开课, 11月7日冬开课, 1月12日学生寒假; 月份行下秋冬各一至八周, 冬后独立考试周栏目从1月2日所在周开始"
+        },
+        {
+          "file": "2022-2023春夏校历.jpg",
+          "sha256": "137ee134047766a4d242eed1839abfcd854019ec6f3587eef2a7611c88d3f9f9",
+          "evidence": "标题标注更新版; 图片上方春夏日期表及左下说明: 2月16日至26日开学考试, 2月27日春开课, 4月24日夏开课, 7月3日学生暑假; 月份行下春夏各一至八周, 夏后独立考试周栏目从6月19日所在周开始"
+        }
+      ],
+      "notes": [
+        "春夏采用本次提供的更新版, 春学期起点为2023年2月27日; 校历另列2月16日至26日开学考试",
+        "秋考试为11月5日至6日、11月12日至13日; 春考试为4月22日至23日、5月6日至7日; 后一考试周末已进入下一短学期, 不能仅凭考试日期反推所属学期",
+        "图片编号栏明确标注各短学期一至八周; 冬夏另列考试周, 首周周一分别为2023年1月2日、6月19日; 6月19日补5月2日课程, 考试周栏目不能直接等同于全校停课考试起日"
+      ],
+      "terms": {
+        "秋": {
+          "week1_monday": "2022-09-12",
+          "numbered_weeks": 8,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "冬": {
+          "week1_monday": "2022-11-07",
+          "numbered_weeks": 8,
+          "break_start": "2023-01-12",
+          "status": "calendar",
+          "exam_week_start": "2023-01-02"
+        },
+        "春": {
+          "week1_monday": "2023-02-27",
+          "numbered_weeks": 8,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "夏": {
+          "week1_monday": "2023-04-24",
+          "numbered_weeks": 8,
+          "break_start": "2023-07-03",
+          "status": "calendar",
+          "exam_week_start": "2023-06-19"
+        }
+      }
+    },
+    "2023-2024": {
+      "sources": [
+        {
+          "file": "2023-2024校历.xlsx",
+          "sha256": "3403e2bcc221c1a79e3d7c662385752b830fe43d64a75082be0633508967862c",
+          "evidence": "工作表校历: I5:P5、Q5:X5、AG5:AN5、AO5:AV5为各短学期一至八周; I6、Q6、AG6、AO6为首周周一; A20/C20、A29/C29、AB16/AE16、AB22/AE22为开课日期说明; A35/C35寒假、AB29/AE29暑假; A34/C34记全校停课考试1月9日开始; Y5/Y6与AW5/AW6分别为冬夏独立考试周栏目及其首周周一1月8日、6月17日"
+        },
+        {
+          "file": "2023-2024秋冬校历.jpg",
+          "sha256": "8236e5193a988feec3fd6ea491e3e7c03000b915db93fc832539a553070d85b1",
+          "evidence": "图片上方秋冬日期表及左下说明: 9月18日秋开课, 11月13日冬开课, 1月19日学生寒假; 左下记全校停课考试1月8日开始"
+        },
+        {
+          "file": "2023-2024春夏校历.jpg",
+          "sha256": "d43c17867d8af48768bb95a94296d9dd4a83dbe767f2f1aa71de24e4b1f5b899",
+          "evidence": "图片上方春夏日期表及左下说明: 2月26日春开课, 4月22日夏开课, 7月1日学生暑假"
+        }
+      ],
+      "notes": [
+        "XLSX与JPG的各短学期开课日及寒暑假起点一致; 编号周采用XLSX第5行明确的一至八周",
+        "冬末全校停课考试开始日存在来源冲突: XLSX的A34/C34为2024年1月9日, 秋冬JPG为1月8日; 此处不裁定考试起日, 不影响冬一周周一起点2023年11月13日",
+        "秋考试为11月11日至12日、11月18日至19日; 春考试为4月20日至21日、4月27日至28日; 考试周末可与下一短学期重叠",
+        "第8编号周之后的日期不自动视为第9教学周; 补课和考试安排须依具体通知核对"
+      ],
+      "terms": {
+        "秋": {
+          "week1_monday": "2023-09-18",
+          "numbered_weeks": 8,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "冬": {
+          "week1_monday": "2023-11-13",
+          "numbered_weeks": 8,
+          "break_start": "2024-01-19",
+          "status": "calendar",
+          "exam_week_start": "2024-01-08"
+        },
+        "春": {
+          "week1_monday": "2024-02-26",
+          "numbered_weeks": 8,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "夏": {
+          "week1_monday": "2024-04-22",
+          "numbered_weeks": 8,
+          "break_start": "2024-07-01",
+          "status": "calendar",
+          "exam_week_start": "2024-06-17"
+        }
+      }
+    },
+    "2024-2025": {
+      "sources": [
+        {
+          "file": "2024-2025校历.xlsx",
+          "sha256": "ba16b43eb0e76ae60d378257cb7ac56a7b947e5cf59edd5bf838134587d4ea49",
+          "evidence": "工作表sheet1: H5:O5、P5:W5、AF5:AM5、AN5:AU5为各短学期一至八周; H6、P6、AF6、AN6为首周周一; A19/C19、A28/C28、AB16/AE16、AB22/AE22为开课日期说明; A34/C34寒假、AB29/AE29暑假; X5/X6与AV5/AV6分别为冬夏独立考试周栏目及其首周周一12月30日、6月9日"
+        }
+      ],
+      "notes": [
+        "各短学期编号周以XLSX第5行的一至八周为准; 第8编号周之后的日期不自动视为第9教学周",
+        "学生暑假、社会实践活动和实践课程的安排附学院可结合实际情况安排说明; 校历周不等于某门课程实际教学进度"
+      ],
+      "terms": {
+        "秋": {
+          "week1_monday": "2024-09-09",
+          "numbered_weeks": 8,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "冬": {
+          "week1_monday": "2024-11-04",
+          "numbered_weeks": 8,
+          "break_start": "2025-01-12",
+          "status": "calendar",
+          "exam_week_start": "2024-12-30"
+        },
+        "春": {
+          "week1_monday": "2025-02-17",
+          "numbered_weeks": 8,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "夏": {
+          "week1_monday": "2025-04-14",
+          "numbered_weeks": 8,
+          "break_start": "2025-06-25",
+          "status": "calendar",
+          "exam_week_start": "2025-06-09"
+        }
+      }
+    },
+    "2025-2026": {
+      "sources": [
+        {
+          "file": "2025-2026校历.xlsx",
+          "sha256": "5db19bf4a62d08b3c9d79485b64357d7ec4dcf530f7df099d707369e89659004",
+          "evidence": "工作表2025-2026学年校历: I5:P5、Q5:X5、AH5:AO5、AP5:AW5为各短学期一至八周; I6、Q6、AH6、AP6为首周周一; A19/C19、A27/C27、AB16/AD16、AB23/AD23为开课日期说明; A33/C33寒假、AB29/AD29暑假; Y5/Y6与AX5/AX6分别为冬夏独立考试周栏目及其首周周一1月5日、6月22日"
+        }
+      ],
+      "notes": [
+        "各短学期编号周以XLSX第5行的一至八周为准; 第8编号周之后的日期不自动视为第9教学周",
+        "2026年1月5日补2025年12月31日的课, 位于冬学期第8编号周之后; 应保留补课与编号教学周的区别",
+        "学生暑假、社会实践活动和实践课程附学院可结合实际情况安排说明"
+      ],
+      "terms": {
+        "秋": {
+          "week1_monday": "2025-09-15",
+          "numbered_weeks": 8,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "冬": {
+          "week1_monday": "2025-11-10",
+          "numbered_weeks": 8,
+          "break_start": "2026-01-17",
+          "status": "calendar",
+          "exam_week_start": "2026-01-05"
+        },
+        "春": {
+          "week1_monday": "2026-03-02",
+          "numbered_weeks": 8,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "夏": {
+          "week1_monday": "2026-04-27",
+          "numbered_weeks": 8,
+          "break_start": "2026-07-05",
+          "status": "calendar",
+          "exam_week_start": "2026-06-22"
+        }
+      }
+    },
+    "2026-2027": {
+      "sources": [
+        {
+          "file": "浙江大学2026-2027学年校历.pdf",
+          "sha256": "5299c9509ec6215a113973e67f656f196837e3ff191d419b709525d90b4bf030",
+          "evidence": "第1页上半部秋冬校历及开课、寒假说明: 9月14日秋开课, 11月9日冬开课, 1月16日学生寒假; 第1页下半部春夏校历及开课、暑假说明: 2月22日春开课, 4月19日夏开课, 6月27日学生暑假; 两个日期表均标明各短学期一至八周; 冬夏独立考试周栏目首周周一分别为1月4日、6月14日"
+        }
+      ],
+      "notes": [
+        "各短学期有明确一至八编号周; 第8编号周之后的日期不自动视为第9教学周",
+        "2027年1月4日补2026年12月31日的课, 位于冬学期第8编号周之后; 应保留补课与编号教学周的区别",
+        "2027年法定节假日及教学安排以正式通知为准; 国际联合学院院历另行制定; 此表仅登记本次提供校历的安排"
+      ],
+      "terms": {
+        "秋": {
+          "week1_monday": "2026-09-14",
+          "numbered_weeks": 8,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "冬": {
+          "week1_monday": "2026-11-09",
+          "numbered_weeks": 8,
+          "break_start": "2027-01-16",
+          "status": "calendar",
+          "exam_week_start": "2027-01-04"
+        },
+        "春": {
+          "week1_monday": "2027-02-22",
+          "numbered_weeks": 8,
+          "break_start": null,
+          "status": "calendar",
+          "exam_week_start": null
+        },
+        "夏": {
+          "week1_monday": "2027-04-19",
+          "numbered_weeks": 8,
+          "break_start": "2027-06-27",
+          "status": "calendar",
+          "exam_week_start": "2027-06-14"
+        }
+      }
+    }
+  }
+}

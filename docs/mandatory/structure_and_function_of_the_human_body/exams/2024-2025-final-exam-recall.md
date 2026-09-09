@@ -13,8 +13,7 @@ source-attribution
 来源记录：RS-075、NOTE-001。
 -->
 
-> **中英文题目约各半** · **闭卷**  
-> **2 小时**
+> **中英文题目约各半** · **闭卷**
 
 !!! info "回忆卷说明"
 
@@ -28,7 +27,7 @@ source-attribution
 
 ---
 
-## 一、单项选择题（60 分） {: .exam-section .exam-section--choice }
+## 一、单项选择题（60 分） {: .exam-section .exam-section--choice data-toc-label="一、单项选择题" }
 *原卷共 60 题，每题 5 个选项，每题 1 分；现有回忆整理出 36 道题。*
 
 1. 神经嵴的作用不包括以下哪项？
@@ -291,7 +290,7 @@ source-attribution
 
 ---
 
-## 二、简答题（24 分） {: .exam-section .exam-section--short }
+## 二、简答题（24 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 *共 6 题，每题 4 分。*
 
 1. Please briefly describe the mechanical and chemical digestions of rice.
@@ -308,7 +307,7 @@ source-attribution
 
 ---
 
-## 三、分析题（16 分） {: .exam-section .exam-section--analysis }
+## 三、分析题（16 分） {: .exam-section .exam-section--analysis data-toc-label="三、分析题" }
 *共 2 题，每题 8 分。*
 
 1. 有一学生，18 岁，自 3 月每天服用奥利司他（减肥药，抑制胃肠道的脂肪酶），体重下降 15 kg，大便频繁、量多，近一周乏力。端午节因腹痛被家长送医，查体得：身高 174 cm，体重 54 kg，血红蛋白 100 g/L（正常 110-140），血钾 3.2 mmol/L（正常 3.3-3.5），肝功能正常，大便常规检查显示色黄、稀水样，表面有油腻光泽。初诊为吸收不良综合征，请：
@@ -323,4 +322,4 @@ source-attribution
 
     (2) In the figure below, AQP means 水通道蛋白. Based on the figure, explain the mechanism of the change.
 
-    ![第 3-2 题题图](../assets/2024-2025-final-exam-question-3-2.png){: .exam-figure }
+    [![第 3-2 题题图](../assets/2024-2025-final-exam-question-3-2.png){: .exam-figure width="600" }](../assets/2024-2025-final-exam-question-3-2.png "查看原图")

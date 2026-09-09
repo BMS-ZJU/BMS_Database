@@ -19,7 +19,7 @@ source-attribution
 
 ---
 
-## 一、名词解释 {: .exam-section .exam-section--short }
+## 一、名词解释（共 21 分） {: #_1 .exam-section .exam-section--short data-toc-label="一、名词解释" }
 
 *共 7 题，每题 3 分。*
 
@@ -37,7 +37,7 @@ source-attribution
 
 7. 婴幼儿猝死综合征
 
-## 二、问答题 {: .exam-section .exam-section--short }
+## 二、问答题（共 30 分） {: #_2 .exam-section .exam-section--short data-toc-label="二、问答题" }
 
 *原记录标为 6 题，每题 5 分，实际只记录以下 5 条。*
 
@@ -51,7 +51,7 @@ source-attribution
 
 5. 砷中毒的机制。
 
-## 三、选择题 {: .exam-section .exam-section--choice }
+## 三、选择题（共 49 分） {: #_3 .exam-section .exam-section--choice data-toc-label="三、选择题" }
 
 *共 49 题，每题 1 分。*
 

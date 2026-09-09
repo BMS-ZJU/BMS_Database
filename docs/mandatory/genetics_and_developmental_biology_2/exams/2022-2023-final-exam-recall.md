@@ -19,7 +19,9 @@ source-attribution
 
     本页保留原材料的题目与题目方向。
 
-## 一、名词解释（30 分） {: .exam-section .exam-section--short }
+---
+
+## 一、名词解释（30 分） {: .exam-section .exam-section--short data-toc-label="一、名词解释" }
 
 *共 6 题，每题 5 分。*
 

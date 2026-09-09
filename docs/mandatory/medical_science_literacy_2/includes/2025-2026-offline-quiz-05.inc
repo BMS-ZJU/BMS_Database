@@ -1,5 +1,6 @@
-> **时间：** 2025.11.6 16:20 - 2025.11.6 17:30  
-> **题量：** 2 题 · 100 分
+> **时间：** 2025.11.06 16:20—17:30  
+> **周次：** 秋第 8 周周四  
+> **题量：** 2 题
 
 1. A researcher wants to test whether **mean systolic blood pressure (SBP)** differs among **three groups** of adults following different diets using one-way ANOVA:
 

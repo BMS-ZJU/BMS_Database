@@ -13,18 +13,18 @@ source-attribution
 来源记录：RS-049、YQ-LS-003、YQ-LS-004。
 -->
 
-> **闭卷** · **120 分钟** · **2022 年 1 月 12 日**  
+> **闭卷** · **2022 年 1 月 12 日**  
 > **A/B 卷原题与参考答案**
 
 !!! info "试卷说明"
 
-    本页保存 A、B 两套试题及其随附参考答案，不是由回忆内容补写的答案。原材料中的用词、标点和答案表述仅做排版整理。
+    本页保存 A、B 两套原始试题及其随附参考答案，保留原材料的用词、标点和答案表述。
 
 ---
 
 ## A 卷
 
-### 一、多项选择题（25 分） {: .exam-section .exam-section--choice }
+### 一、多项选择题（25 分） {: .exam-section .exam-section--choice data-toc-label="一、多项选择题" }
 *共 5 题，每题 5 分。*
 
 答题时请从每题的多个备选答案中选择合适的作为正确答案，可以选择多个选项，并在答卷上相应题号后的括号内填写选项的相应字母。
@@ -65,7 +65,7 @@ source-attribution
     **D.** offer greater protection due to increased membrane thickness.  
     **E.** have a lowered basal metabolic rate due to cooperative exchange between cells.
 
-### 二、简答题（60 分） {: .exam-section .exam-section--short }
+### 二、简答题（60 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 
 *共 4 题，每题 15 分。*
 
@@ -77,7 +77,7 @@ source-attribution
 
 4. Briefly describe the main arguments on the fossil and genetic origins of modern man.
 
-### 三、论述题（15 分） {: .exam-section .exam-section--analysis }
+### 三、论述题（15 分） {: .exam-section .exam-section--analysis data-toc-label="三、论述题" }
 
 *共 1 题。*
 
@@ -88,7 +88,7 @@ source-attribution
 
 ## B 卷
 
-### 一、多项选择题（25 分） {: .exam-section .exam-section--choice }
+### 一、多项选择题（25 分） {: .exam-section .exam-section--choice data-toc-label="一、多项选择题" }
 *共 5 题，每题 5 分。*
 
 每一道题有多个备选答案，在答题时只需从多个备选答案中选择一个最合适的作为正确答案，并在答卷上相应题号后的括号内填写选项的相应字母
@@ -130,7 +130,7 @@ source-attribution
     **D.** RNA viruses can incorporate a variety of nonstandard bases.  
     **E.** RNA viruses are more sensitive to mutagens.
 
-### 二、简答题（60 分） {: .exam-section .exam-section--short }
+### 二、简答题（60 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 
 *共 4 题，每题 15 分。*
 
@@ -157,7 +157,7 @@ Please briefly describe the generalized life cycle of fungi.
 </li>
 </ol>
 
-### 三、论述题（15 分） {: .exam-section .exam-section--analysis }
+### 三、论述题（15 分） {: .exam-section .exam-section--analysis data-toc-label="三、论述题" }
 
 *共 1 题。*
 
@@ -176,7 +176,7 @@ Summarize the role of endosymbiosis in eukaryotic evolution.
 
 ## A 卷参考答案
 
-### 一、选择题（25 分） {: .exam-section .exam-section--choice }
+### 一、选择题（25 分） {: .exam-section .exam-section--choice data-toc-label="一、选择题" }
 
 1. C  
 2. B  
@@ -184,32 +184,32 @@ Summarize the role of endosymbiosis in eukaryotic evolution.
 4. A  
 5. B
 
-### 二、简答题（60 分） {: .exam-section .exam-section--short }
+### 二、简答题（60 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 
 1. The answer should include basic knowledge of gene expression, including following concept:
 
-    （1）Basically, gene expression is the key of the central dogma, which includes DNA transcription to form mRNA and translation to synthesize the protein.（5 分）
+    （1）Basically, gene expression is the key of the central dogma, which includes DNA transcription to form mRNA and translation to synthesize the protein. （5 分）
 
-    （2）Gene expression can be controlled from gene transcription, including transcription factor, cis elements (promoter, enhancer, intron), chromatin modification.（5分）
+    （2）Gene expression can be controlled from gene transcription, including transcription factor, cis elements (promoter, enhancer, intron), chromatin modification. （5 分）
 
-    （3）Pre-mRNA is then spliced to form mature mRNA which is controlled by alternative splicing. mRNA translocation and transportation control, mRNA degradation and stability control, mRNA translation control, protein degradation and stability control.（5分）
+    （3）Pre-mRNA is then spliced to form mature mRNA which is controlled by alternative splicing. mRNA translocation and transportation control, mRNA degradation and stability control, mRNA translation control, protein degradation and stability control. （5 分）
 
-2. 因为这些病毒与以前发现的传统病毒一样（5分），都不能独立完成生命周期（5分），需要在宿主细胞中完成复制和组装（5分）。
+2. 因为这些病毒与以前发现的传统病毒一样（5 分），都不能独立完成生命周期（5 分），需要在宿主细胞中完成复制和组装（5 分）。
 
 3. 肿瘤干细胞与正常干细胞的异同及治疗策略：
 
     **（1）相同点：** 肿瘤干细胞与正常干细胞同属于干细胞范畴，具有许多相同的特点：
 
-    **A.** 均处于未分化状态，具有自我更新和多向分化潜能，增殖的同时可诱导血管形成。（2分）  
-    **B.** 都具有对称分裂和不对称分裂两种分裂方式。（1分）  
-    **C.** 具有相似的调节生长的信号通路。两者都具有端粒酶活性和扩增端粒酶重复序列，而人类终末分化体细胞不具有端粒酶活性。（2分）
+    **A.** 均处于未分化状态，具有自我更新和多向分化潜能，增殖的同时可诱导血管形成。（2 分）  
+    **B.** 都具有对称分裂和不对称分裂两种分裂方式。（1 分）  
+    **C.** 具有相似的调节生长的信号通路。两者都具有端粒酶活性和扩增端粒酶重复序列，而人类终末分化体细胞不具有端粒酶活性。（2 分）
 
     **（2）不同点：** 肿瘤干细胞并不等同于正常干细胞，有其自身特性：
 
-    **A.** 细胞自我更新具有负反馈调节机制，其增殖与分化处于平衡状态，是有序的。而肿瘤干细胞的这种负反馈机制已被破坏，其增殖分化是无序和失控的。（2分）  
-    **B.** 与正常干细胞相比，肿瘤干细胞分化成熟能力缺乏，因此肿瘤细胞往往是低分化的。（1分）  
-    **C.** 肿瘤干细胞具有积累复制错误的倾向，而正常干细胞可通过多种途径防止这种情况发生。（1分）  
-    **D.** 两者某些信号传导通路不同。（1分）
+    **A.** 细胞自我更新具有负反馈调节机制，其增殖与分化处于平衡状态，是有序的。而肿瘤干细胞的这种负反馈机制已被破坏，其增殖分化是无序和失控的。（2 分）  
+    **B.** 与正常干细胞相比，肿瘤干细胞分化成熟能力缺乏，因此肿瘤细胞往往是低分化的。（1 分）  
+    **C.** 肿瘤干细胞具有积累复制错误的倾向，而正常干细胞可通过多种途径防止这种情况发生。（1 分）  
+    **D.** 两者某些信号传导通路不同。（1 分）
 
     **（3）治疗肿瘤策略（5 分）：**
 
@@ -220,25 +220,25 @@ Summarize the role of endosymbiosis in eukaryotic evolution.
 
     （1）从远古走来：第四纪冰川与铲形门齿。（5 分）
 
-    （2）人类迁徙进化与基因的遗传多样性。（10分）
+    （2）人类迁徙进化与基因的遗传多样性。（10 分）
 
-### 三、论述题（15 分） {: .exam-section .exam-section--analysis }
+### 三、论述题（15 分） {: .exam-section .exam-section--analysis data-toc-label="三、论述题" }
 
 1. 从人类进化与疾病的角度谈谈人类文明与科技创新的意义，可举例说明。
 
-（1）人类的进化历史塑造了人类的基因组（4分）
+（1）人类的进化历史塑造了人类的基因组（4 分）
 
-（2）人类的迁徙改变了自己的命运（3分）
+（2）人类的迁徙改变了自己的命运（3 分）
 
-（3）环境和生活方式的变化是人类疾病的可能原因（4分）
+（3）环境和生活方式的变化是人类疾病的可能原因（4 分）
 
-（4）人类文明减弱了对人类基因组的自然选择，从而也积累大量有害突变，同时也催生了科技的创新。（4分）
+（4）人类文明减弱了对人类基因组的自然选择，从而也积累大量有害突变，同时也催生了科技的创新。（4 分）
 
 ---
 
 ## B 卷参考答案
 
-### 一、选择题（25 分） {: .exam-section .exam-section--choice }
+### 一、选择题（25 分） {: .exam-section .exam-section--choice data-toc-label="一、选择题" }
 
 1. A、B、E  
 2. B  
@@ -246,17 +246,17 @@ Summarize the role of endosymbiosis in eukaryotic evolution.
 4. C  
 5. C
 
-### 二、简答题（60 分） {: .exam-section .exam-section--short }
+### 二、简答题（60 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 
 <ol start="6" class="exam-question-list" markdown="block">
 <li markdown="block">
 
 The answer should include the basic knowledge of PCR.
 
-（1）The process of PCR: the cycle of heating, annealing, and elongation.（3分）  
-（2）Key enzyme: DNA polymerase, primers, dNTPs, buffers, and template（5分）  
-（3）Application should include at lease three items: （3分） Study gene function, gene expression, cloning  
-（4）Diagnosis of genetic disease：（4分）
+（1）The process of PCR: the cycle of heating, annealing, and elongation. （3 分）  
+（2）Key enzyme: DNA polymerase, primers, dNTPs, buffers, and template （5 分）  
+（3）Application should include at lease three items: （3 分） Study gene function, gene expression, cloning  
+（4）Diagnosis of genetic disease： （4 分）
 
 - Gene therapy
 - Insulin production
@@ -266,58 +266,58 @@ The answer should include the basic knowledge of PCR.
 </li>
 <li markdown="block">
 
-（1）荚膜：是某些细菌在细胞壁外包绕一层粘液性物质，为多糖或蛋白质的多聚体，用理化方法去除后并不影响菌细胞的生命活动。凡粘液性物质牢固地与细胞壁结合，厚度≥0.2μm，边界明显者为荚膜。（4分）  
-（2）鞭毛：是在许多细菌的菌体上附有的细长并呈波状弯曲的丝状物，为细菌的运动器官。（3分）  
-（3）菌毛：是某些细菌表面存在着一种直的、比鞭毛更细、更短的丝状物。与细菌的运动无关。由菌毛蛋白组成，具有抗原性。（4分）  
-（4）芽胞：是某些细菌在一定的条件下，在菌体内部形成一个圆形或卵圆形小体，是细菌的休眠形式。（4分）
+（1）荚膜：是某些细菌在细胞壁外包绕一层粘液性物质，为多糖或蛋白质的多聚体，用理化方法去除后并不影响菌细胞的生命活动。凡粘液性物质牢固地与细胞壁结合，厚度≥0.2μm，边界明显者为荚膜。（4 分）  
+（2）鞭毛：是在许多细菌的菌体上附有的细长并呈波状弯曲的丝状物，为细菌的运动器官。（3 分）  
+（3）菌毛：是某些细菌表面存在着一种直的、比鞭毛更细、更短的丝状物。与细菌的运动无关。由菌毛蛋白组成，具有抗原性。（4 分）  
+（4）芽胞：是某些细菌在一定的条件下，在菌体内部形成一个圆形或卵圆形小体，是细菌的休眠形式。（4 分）
 
 </li>
 <li markdown="block">
 
-(1) In response to cytokines from helper T cells and an antigen, a B cell proliferates and differentiates into memory B cells and plasma cells. The plasma cells secrete antibodies.（3分）
+(1) In response to cytokines from helper T cells and an antigen, a B cell proliferates and differentiates into memory B cells and plasma cells. The plasma cells secrete antibodies. （3 分）
 
-(2) Antibodies do not kill pathogens; instead they mark pathogens for destruction.（3分）
+(2) Antibodies do not kill pathogens; instead they mark pathogens for destruction. （3 分）
 
-(3) In neutralization, antibodies bind to viral surface proteins preventing infection of a host cell. Antibodies may also bind to toxins in body fluids and prevent them from entering body cells.（3 分）
+(3) In neutralization, antibodies bind to viral surface proteins preventing infection of a host cell. Antibodies may also bind to toxins in body fluids and prevent them from entering body cells. （3 分）
 
-(4) In opsonization（调理作用）, antibodies bind to antigens on bacteria creating a target for macrophages or neutrophils, triggering phagocytosis.（3分）
+(4) In opsonization（调理作用）, antibodies bind to antigens on bacteria creating a target for macrophages or neutrophils, triggering phagocytosis. （3 分）
 
-(5) Antigen-antibody complexes may bind to a complement protein—which triggers a cascade of complement protein activation. Ultimately a membrane attack complex forms a pore in the membrane of the foreign cell, leading to its lysis.（3分）
+(5) Antigen-antibody complexes may bind to a complement protein—which triggers a cascade of complement protein activation. Ultimately a membrane attack complex forms a pore in the membrane of the foreign cell, leading to its lysis. （3 分）
 
 </li>
 <li markdown="block">
 
 Please briefly describe the generalized life cycle of fungi. 请简要描述真菌的生命周期。
 
-答：大部分真菌都能进行无性与有性繁殖，并且以无性繁殖为主。（3分）真菌的无性繁殖方式可概括为四种：
+答：大部分真菌都能进行无性与有性繁殖，并且以无性繁殖为主。（3 分）真菌的无性繁殖方式可概括为四种：
 
-(1) 菌丝体的断裂片段可以产生新个体，大多数真菌都能进行这种无性繁殖，实验室“转管”接种便是利用这一特点来繁殖菌种。（3分）
+(1) 菌丝体的断裂片段可以产生新个体，大多数真菌都能进行这种无性繁殖，实验室“转管”接种便是利用这一特点来繁殖菌种。（3 分）
 
-(2) 营养细胞分裂产生子细胞，如裂殖酵母菌无性繁殖就象细菌一样，母细胞一分为二的繁殖。（3分）
+(2) 营养细胞分裂产生子细胞，如裂殖酵母菌无性繁殖就象细菌一样，母细胞一分为二的繁殖。（3 分）
 
-(3) 出芽繁殖，母细胞出“芽”，每个“芽”成为一个新个体，酵母菌属的无性繁殖就是这种类型的繁殖。（3分）
+(3) 出芽繁殖，母细胞出“芽”，每个“芽”成为一个新个体，酵母菌属的无性繁殖就是这种类型的繁殖。（3 分）
 
-(4) 产生无性孢子，每个孢子可萌发为新个体。（3分）
+(4) 产生无性孢子，每个孢子可萌发为新个体。（3 分）
 
 </li>
 </ol>
 
-### 三、论述题（15 分） {: .exam-section .exam-section--analysis }
+### 三、论述题（15 分） {: .exam-section .exam-section--analysis data-toc-label="三、论述题" }
 
 <ol start="10" class="exam-question-list" markdown="block">
 <li markdown="block">
 
 Summarize the role of endosymbiosis in eukaryotic evolution.
 
-1. endosymbiosis的定义；（3分）
+1. endosymbiosis的定义；（3 分）
 
-2. 线粒体的起源；（3分）
+2. 线粒体的起源；（3 分）
 
-3. 叶绿体的起源；（3分）
+3. 叶绿体的起源；（3 分）
 
-4. 细胞核的起源；（3分）
+4. 细胞核的起源；（3 分）
 
-5. endosymbiosis赋予多样性。（3分）
+5. endosymbiosis赋予多样性。（3 分）
 
 </li>
 </ol>

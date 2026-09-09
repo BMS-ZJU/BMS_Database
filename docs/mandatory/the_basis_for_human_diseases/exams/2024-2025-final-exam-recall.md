@@ -21,7 +21,7 @@ source-attribution
 
 ---
 
-## 一、选择题（50 分） {: .exam-section .exam-section--choice }
+## 一、选择题（50 分） {: .exam-section .exam-section--choice data-toc-label="一、选择题" }
 
 *共 50 题，每题 1 分。*
 
@@ -149,7 +149,7 @@ source-attribution
 
 ---
 
-## 二、简答题（30 分） {: .exam-section .exam-section--short }
+## 二、简答题（30 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 
 *共 5 题，每题 6 分。*
 
@@ -165,7 +165,7 @@ source-attribution
 
 ---
 
-## 三、大题（20 分） {: .exam-section .exam-section--analysis }
+## 三、大题（20 分） {: .exam-section .exam-section--analysis data-toc-label="三、大题" }
 
 *共 2 题，每题 10 分。*
 
@@ -175,9 +175,9 @@ source-attribution
 
 1. 68 岁男性，肝癌 3 年，死后大体如图，请诊断疾病（器官＋疾病），描写病理特征。这个疾病与原有肝癌有关吗？请说明理由。
 
-    ![第1道大题大体标本图1](../assets/2024-2025-final-exam-dingtalk-case-1-1.png){: .exam-figure }
+    [![第1道大题大体标本图1](../assets/2024-2025-final-exam-dingtalk-case-1-1.png){: .exam-figure width="420" }](../assets/2024-2025-final-exam-dingtalk-case-1-1.png "查看原图")
 
-    ![第1道大题大体标本图2](../assets/2024-2025-final-exam-dingtalk-case-1-2.png){: .exam-figure }
+    [![第1道大题大体标本图2](../assets/2024-2025-final-exam-dingtalk-case-1-2.png){: .exam-figure width="420" }](../assets/2024-2025-final-exam-dingtalk-case-1-2.png "查看原图")
 
 2. 阑尾炎诊断，大体特征（3 分），切片特征（3 分）。
 

@@ -14,11 +14,13 @@ source-attribution
 
 !!! info "回忆卷说明"
 
-    本页依据考后回忆整理；“—”表示该处未记录。
+    本页依据考后回忆整理；“—”表示该处未能回忆完整。
 
 ---
 
-## 一、选择题（每题 1 分） {: .exam-section .exam-section--choice }
+## 一、选择题 {: #1 .exam-section .exam-section--choice data-toc-label="一、选择题" }
+
+*每题 1 分。*
 
 1. 在神经系统中，负责中枢神经系统髓鞘形成的胶质细胞是：
 
@@ -182,7 +184,9 @@ source-attribution
 
 ---
 
-## 二、名词解释（每题 2 分） {: .exam-section .exam-section--short }
+## 二、名词解释 {: #2 .exam-section .exam-section--short data-toc-label="二、名词解释" }
+
+*每题 2 分。*
 
 1. 突触（synapse）
 
@@ -206,7 +210,9 @@ source-attribution
 
 ---
 
-## 三、问答题（每题 10 分） {: .exam-section .exam-section--short }
+## 三、问答题 {: #10 .exam-section .exam-section--short data-toc-label="三、问答题" }
+
+*每题 10 分。*
 
 1. 请从神经元电生理的特性（膜电阻 $R_m$、膜电容 $C_m$ 和时间常数 $\tau$）的角度，解释髓鞘为何能显著加快动作电位的传导速度。
 

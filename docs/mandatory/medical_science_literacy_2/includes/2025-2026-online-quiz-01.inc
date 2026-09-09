@@ -1,10 +1,13 @@
-> **开放时间：** 2025.10.11 17:00 - 2025.10.13 23:59  
+> **开放时间：** 2025.10.11 17:00—2025.10.13 23:59  
+> **周次：** 秋第 4 周周六—秋第 5 周周一  
 > **作答：** 线上 · 60 分钟 · 2 次机会  
-> **题量：** 15 题 · 100 分
+> **题量：** 15 题
+
+单选题共 100 分。
 
 1. Measures of central tendency are
 
-    *单选题，6分*
+    *单选题，6 分*
 
     **A.** descriptive statistics that identify the best single value for representing a set of data.  
     **B.** inferential statistics that identify the best single value for representing a set of data.  
@@ -20,7 +23,7 @@
 
 2. Given the following data set, what is the value of the median? [2, 3, 5, 6, 2, 1, 3, 2, 5, 7]
 
-    *单选题，7.5分*
+    *单选题，7.5 分*
 
     **A.** 2  
     **B.** 10  
@@ -36,7 +39,7 @@
 
 3. Which of the following provides a measure of central location for the random variable of blood type?
 
-    *单选题，6分*
+    *单选题，6 分*
 
     **A.** standard deviation  
     **B.** mean  
@@ -52,7 +55,7 @@
 
 4. Which of the following is NOT a characteristic of the mean?
 
-    *单选题，6分*
+    *单选题，6 分*
 
     **A.** It is unique for a specific dataset.  
     **B.** It is affected by extreme scores.  
@@ -68,7 +71,7 @@
 
 5. The median is
 
-    *单选题，7.5分*
+    *单选题，7.5 分*
 
     **A.** the best representation for every set of data.  
     **B.** the statistical or arithmetic average.  
@@ -84,7 +87,7 @@
 
 6. Which of the following is true regarding factors affecting variability?
 
-    *单选题，6分*
+    *单选题，6 分*
 
     **A.** The independent variable should not affect variability.  
     **B.** Greater variability is found in smaller samples.  
@@ -112,7 +115,7 @@
     | 1     | 4         |
 
     What is the value of the mean?  
-    *单选题，6分*
+    *单选题，6 分*
 
     **A.** 5.65  
     **B.** 7  
@@ -128,7 +131,7 @@
 
 8. What is the median?
 
-    *单选题，7.5分*
+    *单选题，7.5 分*
 
     **A.** 7  
     **B.** 6  
@@ -144,7 +147,7 @@
 
 9. How would you describe this distribution?
 
-    *单选题，6分*
+    *单选题，6 分*
 
     **A.** negatively skewed  
     **B.** rectangular  
@@ -160,7 +163,7 @@
 
 10. The median is a measure of
 
-    *单选题，6分*
+    *单选题，6 分*
 
     **A.** relative dispersion  
     **B.** relative location  
@@ -176,7 +179,7 @@
 
 11. The difference between the largest and the smallest data values is the
 
-    *单选题，6分*
+    *单选题，6 分*
 
     **A.** variance  
     **B.** coefficient of variation  
@@ -192,7 +195,7 @@
 
 12. Which of the following provides a measure of central location for the categorical data?
 
-    *单选题，7.5分*
+    *单选题，7.5 分*
 
     **A.** standard deviation  
     **B.** median  
@@ -209,7 +212,7 @@
 13. Please find the 15% percentile of the following data:
 
     19, 21, 25, 24, 25, 22, 24, 21, 20, 20, 21, 24, 26, 21, 27, 23, 21, 22, 20, 22  
-    *单选题，7分*
+    *单选题，7 分*
 
     **A.** 21.5  
     **B.** 20  
@@ -226,7 +229,7 @@
 14. Please find the median of the following data:
 
     19, 21, 25, 24, 25, 22, 24, 21, 20, 20, 21, 24, 26, 21, 27, 23, 21, 22, 20, 22  
-    *单选题，7.5分*
+    *单选题，7.5 分*
 
     **A.** 22  
     **B.** 20  
@@ -243,7 +246,7 @@
 15. Please find the SD of the following data (sample SD):
 
     19, 21, 25, 24, 25, 22, 24, 21, 20, 20, 21, 24, 26, 21, 27, 23, 21, 22, 20, 22  
-    *单选题，7.5分*
+    *单选题，7.5 分*
 
     **A.** 2.34  
     **B.** 2.23  

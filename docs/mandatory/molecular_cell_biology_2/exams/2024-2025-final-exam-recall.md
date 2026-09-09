@@ -14,7 +14,6 @@ source-attribution
 -->
 
 > **全中文** · **开卷**
-> **2 小时**
 
 !!! info "回忆卷说明"
 
@@ -22,7 +21,7 @@ source-attribution
 
 ---
 
-## 一、辨析题（20 分） {: .exam-section .exam-section--short }
+## 一、辨析题（20 分） {: .exam-section .exam-section--short data-toc-label="一、辨析题" }
 *共 4 题，每题 5 分。*
 
 解释每组名词并写出它们的联系和差异。
@@ -37,7 +36,7 @@ source-attribution
 
 ---
 
-## 二、简答题（20 分） {: .exam-section .exam-section--short }
+## 二、简答题（20 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 *共 4 题，每题 5 分。*
 
 1. 写出蛋白质变性且沉淀、蛋白质变性但不沉淀、蛋白质不变性但沉淀的例子各一个。
@@ -58,7 +57,7 @@ source-attribution
 
 ---
 
-## 三、论述题（30 分） {: .exam-section .exam-section--analysis }
+## 三、论述题（30 分） {: .exam-section .exam-section--analysis data-toc-label="三、论述题" }
 *共 3 题。*
 
 1. 手性分子是指那些就像左手和右手一样互为镜像但不能重合的分子，镜像生命体是指其生物分子的手性与地球上的已知生命形式相反的生命体。有科学家尝试合成“镜像生命体”，请思考“镜像分子”和“镜像生命体”可能带来的机遇和挑战。
@@ -67,11 +66,11 @@ source-attribution
 
 3. HBG1/2 是编码人类胎血红蛋白的基因，随着婴儿的出生和成长，HBG1/2 的表达逐渐减少。增加 HBG1/2 的表达可作为一种治疗镰状细胞贫血的策略。以下三种分子是可能的药物，请简要说明每种分子可能的治疗机制，并分析可能的缺点。
 
-    ![第 3 题题图](../assets/2024-2025-final-exam-question-3-3.png){: .exam-figure }
+    [![第 3 题题图](../assets/2024-2025-final-exam-question-3-3.png){: .exam-figure width="574" }](../assets/2024-2025-final-exam-question-3-3.png "查看原图")
 
 ---
 
-## 四、解析题（30 分） {: .exam-section .exam-section--analysis }
+## 四、解析题（30 分） {: .exam-section .exam-section--analysis data-toc-label="四、解析题" }
 *共 2 题，每题 15 分。*
 
 1. 研究者将某培养液分为两组，都加入 0.1 M 草酰乙酸。第一组在供氧情况下加入丙酸盐（复合物Ⅱ抑制剂），发现促进了琥珀酸生成；第二组在切断氧气供应（供 $N_2$）下加入丙酸盐，发现抑制了琥珀酸生成。请推测可能的机理。
@@ -82,7 +81,7 @@ source-attribution
 
 2. 基因 X 在免疫中发挥作用。研究者用一细胞因子进行实验。第一阶段用该因子处理 12 h，发现基因 X 表达上升；第二阶段除去该因子，发现表达下降；第三阶段再添加该因子，发现表达相比第一阶段大幅度升高，如下图所示。请你提出可能的机理的假说并设计实验。
 
-    ![第 2 题示意图](../assets/2024-2025-final-exam-question-4-2.png){: .exam-figure }
+    [![第 2 题示意图](../assets/2024-2025-final-exam-question-4-2.png){: .exam-figure width="400" }](../assets/2024-2025-final-exam-question-4-2.png "查看原图")
 
     !!! warning "示意图说明"
 

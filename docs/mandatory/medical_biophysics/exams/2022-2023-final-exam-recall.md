@@ -13,8 +13,7 @@ source-attribution
 来源记录：RS-042。
 -->
 
-> **全中文** · **2 小时**
->
+> **全中文**
 
 !!! info "回忆卷说明"
 
@@ -24,7 +23,7 @@ source-attribution
 
 ---
 
-## 一、选择题（20 分） {: .exam-section .exam-section--choice }
+## 一、选择题（20 分） {: .exam-section .exam-section--choice data-toc-label="一、选择题" }
 *共 20 题，每题五个选项，个别题目为多选，每题 1 分。以下为能够回忆的部分。*
 
 1. 虚拟筛选不可用于：
@@ -58,7 +57,7 @@ source-attribution
 
 ---
 
-## 二、简答题（30 分） {: .exam-section .exam-section--short }
+## 二、简答题（30 分） {: .exam-section .exam-section--short data-toc-label="二、简答题" }
 *共 6 题，每题 5 分。*
 
 1. 根据提供的计算生物学蛋白质二级结构分析序列图，定性描述该蛋白的结构特征。
@@ -75,7 +74,7 @@ source-attribution
 
 ---
 
-## 三、问答题（20 分） {: .exam-section .exam-section--analysis }
+## 三、问答题（20 分） {: .exam-section .exam-section--analysis data-toc-label="三、问答题" }
 *共 2 题，每题 10 分。*
 
 1. 阐述冷冻电镜凸透镜成像过程和傅立叶变换的关系。
@@ -84,7 +83,7 @@ source-attribution
 
 ---
 
-## 四、案例分析题（30 分） {: .exam-section .exam-section--analysis }
+## 四、案例分析题（30 分） {: .exam-section .exam-section--analysis data-toc-label="四、案例分析题" }
 *共 2 题，每题 15 分。*
 
 1. 根据 $\text{FRET}$ 荧光信号图推断化合物。
@@ -103,7 +102,7 @@ source-attribution
 
     （3）请利用图（$\text{C}$）中已标记的氨基酸信息，将红色数字 $1-15$ 对应的化学位移与图（$\text{B}$）序列中的氨基酸对应起来。
 
-    ![第 4-2 题题图](../assets/2022-2023-final-exam-question-4-2.png){: .exam-figure }
+    [![第 4-2 题题图](../assets/2022-2023-final-exam-question-4-2.png){: .exam-figure .exam-figure--white width="640" }](../assets/2022-2023-final-exam-question-4-2.png "查看原图")
 
     | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
     | :--: | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |

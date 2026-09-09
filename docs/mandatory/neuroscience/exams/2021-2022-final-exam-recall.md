@@ -22,7 +22,9 @@ source-attribution
 
 ---
 
-## 一、必答题（2 题，每题 20 分） {: .exam-section .exam-section--analysis }
+## 一、必答题（共 40 分） {: #2-20 .exam-section .exam-section--analysis data-toc-label="一、必答题" }
+
+*共 2 题，每题 20 分。*
 
 1. 叙述在兴奋传导过程中突触前后发生的生物学变化（以谷氨酸能神经元为例）。
 
@@ -34,9 +36,11 @@ source-attribution
 
     （3）计算静息时和受扰动时的膜电位大小。
 
-    ![题目所附电流-电压关系示意图](../assets/2021-2022-final-exam-question-1-2.jpg){: .exam-figure }
+    [![题目所附电流-电压关系示意图](../assets/2021-2022-final-exam-question-1-2.jpg){: .exam-figure width="380" }](../assets/2021-2022-final-exam-question-1-2.jpg "查看原图")
 
-## 二、选答题（原卷 12 选 6，每题 10 分） {: .exam-section .exam-section--short }
+## 二、选答题（共 60 分） {: #12-6-10 .exam-section .exam-section--short data-toc-label="二、选答题" }
+
+*原卷共 12 题，选答 6 题，每题 10 分。*
 
 1. 描述星形胶质细胞在调控神经元间信息传递中的作用，主要涉及谷氨酰胺、GABA 和谷氨酸。
 
