@@ -27,7 +27,7 @@ theme:
   name: material
   language: zh
   logo: images/logo_white.png
-  favicon: images/ZJUBMS.png?v=20260909
+  favicon: images/ZJUBMS.png?v=20260909-2
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
