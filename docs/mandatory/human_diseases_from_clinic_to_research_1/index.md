@@ -68,7 +68,7 @@
 <nav class="course-links" aria-label="课程资料">
   <a class="course-link" href="exams/">
     <strong>考试资料</strong>
-    <small>2024-2025 学年秋学期期末回忆卷</small>
+    <small>2023-2024 至 2025-2026 学年秋学期期末回忆卷</small>
   </a>
 </nav>
 

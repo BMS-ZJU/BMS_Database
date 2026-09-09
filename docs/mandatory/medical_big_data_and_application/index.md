@@ -12,24 +12,34 @@
 
 每周两次课、每次两学时。第 1—5 周每周一次理论课、一次实验课，第 6—8 周均为实验课；理论课课件使用英文，授课使用中文。
 
-2024-2025 学年平时需要完成四次 R 语言数据分析作业。
+平时需要完成一个 R 语言数据分析大作业，分为 4 个模块，学期末统一提交。
 
 ## 分数构成
 
-=== "2024-2025 学年"
+**2024-2025、2025-2026 学年**
 
-    <div class="course-score">
-      <div class="course-score__items" role="list" aria-label="2024-2025 学年分数构成">
-        <div class="course-score__item" role="listitem">
-          <div class="course-score__number">60<span>%</span></div>
-          <div class="course-score__body"><strong>R 语言数据分析作业</strong><p>共 4 次</p></div>
-        </div>
-        <div class="course-score__item" role="listitem">
-          <div class="course-score__number">40<span>%</span></div>
-          <div class="course-score__body"><strong>期末考试</strong><p>闭卷、全英文</p></div>
-        </div>
-      </div>
+<div class="course-score">
+  <div class="course-score__items" role="list" aria-label="2024-2025、2025-2026 学年分数构成">
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">60<span>%</span></div>
+      <div class="course-score__body"><strong>R 语言数据分析大作业</strong><p>4 个模块</p></div>
     </div>
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">40<span>%</span></div>
+      <div class="course-score__body"><strong>期末考试</strong><p>闭卷、全英文</p></div>
+    </div>
+  </div>
+</div>
+
+??? note "2022-2023 学年的安排与体验"
+
+    当年分数构成为：文献阅读展示 20%、生信研究基金申请书 30%、R 语言作业 10%、期末考试 40%。
+
+    除 R 语言作业外，还有生信相关文献阅读展示和基金申请书写作。展示文献与申请书模板由教师提供。R 语言作业八周八次，涉及基础语言运用、作图和基因组分析。
+
+    当年的回忆者估计，如果 R 语言作业全部自己写，合计可能需要三十多到四十小时，认为实际投入相对这门 2 学分课程偏重。
+
+    当年期末为全英文。
 
 ## 2024-2025 学年期末考试
 
@@ -39,26 +49,31 @@
 
 ## 学习建议
 
-**期末重点在理论。** 当年理论题分值高于 R 语言题，并且 R 语言题只考选择，复习时间应主要放在理论内容的理解和记忆；R 语言部分能判断简单语句即可。试题为英文，还需要熟悉课程概念的英文表达，并查看教师发放的复习 PPT 和题库。
+**期末重点在理论。** 当年理论题分值高于 R 语言题，并且 R 语言题只考选择，复习时间应主要放在理论内容的理解和记忆；R 语言部分能判断简单语句即可。试题为英文，还需要熟悉课程概念的英文表达。
+
+**按复习提纲回看课件。** 教师每年都会提供复习提纲 PPT，试卷涉及的知识点绝大部分在提纲中。可以按提纲逐项回看各章课件，先把其中的知识点复习清楚。
 
 ### 愿意平时跟着学的同学
 
-理论部分可以结合英文 PPT 自学，不太依赖课堂讲解；实验课尽量到场实际操作，遇到问题可以直接问教师。每次实验和作业放在一起完成，可以及时发现自己是看懂了代码，还是确实能在数据中使用。
+理论部分可以结合英文 PPT 自学，不太依赖课堂讲解；实验课尽量到场实际操作，遇到问题可以直接问教师。把实验练习和大作业结合起来完成，可以及时发现自己是看懂了代码，还是确实能在数据中使用。
 
 ### 只想在期末补天的同学
 
-先找教师当年发放的复习 PPT 或题库，再用回忆卷检查题型和英文表达。不同学年的复习材料和题目可能变化，不要把旧题库的覆盖情况当作以后考试的保证。时间不足时，优先补理论概念和英文，再检查基础 R 语句。
+先按教师当年发放的复习提纲 PPT 梳理知识点，再用题库和回忆卷检查题型及英文表达。不同学年的复习材料和题目可能变化，不要把旧题库的覆盖情况当作以后考试的保证。时间不足时，优先补理论概念和英文，再检查基础 R 语句。
 
 ## 资料
 
 <nav class="course-links" aria-label="课程资料">
   <a class="course-link" href="exams/">
     <strong>考试资料</strong>
-    <small>2024-2025 学年夏学期期末回忆卷</small>
+    <small>2024-2025、2022-2023 学年夏学期期末回忆卷</small>
   </a>
 </nav>
 
-<p class="course-source-note">当年回忆卷原始发布见 <a href="https://www.cc98.org/topic/6218954">CC98 6218954</a>。</p>
+回忆卷原帖：
+
+- [2024-2025 学年夏学期期末回忆卷](https://www.cc98.org/topic/6218954)
+- [2022-2023 学年夏学期期末回忆卷与感想](https://www.cc98.org/topic/5644602)
 
 ## 课程信息
 

@@ -21,6 +21,12 @@ hide:
 
     [查看资料](2023-2024-final-exam-recall.md)
 
+-   **2022-2023 学年春学期期末回忆卷**
+
+    ---
+
+    [查看资料](2022-2023-final-exam-recall.md)
+
 </div>
 
 <p class="course-source-note">Ginkgo 由 Yangshu233 开发维护，练习版的选项与参考答案由该站整理。</p>
