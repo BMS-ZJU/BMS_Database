@@ -17,6 +17,8 @@
   </script>
   <script>
     (() => {
+      // The palette survives instant navigation, so resolve this page's path once.
+      const themeBase = new URL("{{ 'css/' | url }}", document.baseURI)
       const syncTheme = () => {
         let scheme = document.body.dataset.mdColorScheme
         if (!document.body.hasAttribute("data-md-color-media")) {
@@ -27,7 +29,7 @@
         const themeFile = scheme === "slate"
           ? "giscus-dark.css"
           : "giscus-light.css"
-        const theme = new URL("{{ 'css/' | url }}" + themeFile, document.baseURI).href
+        const theme = new URL(themeFile, themeBase).href
         const giscus = document.querySelector('script[src="https://giscus.app/client.js"]')
         if (giscus) giscus.setAttribute("data-theme", theme)
 

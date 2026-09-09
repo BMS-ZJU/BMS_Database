@@ -8,9 +8,10 @@ BMS Database 面向浙江大学基础医学本科生，重点记录课程怎样�
 
 1. 查看当前 Git 状态，保留并绕开不属于本次范围的修改；
 2. 阅读现有课程页面和相关原始材料；
-3. 涉及课程主页时阅读 `COURSE_HOMEPAGE_GUIDE.md`；
-4. 涉及试卷或小测的学年、学期和考试类型时核对 `EXAM_SEMESTER_REFERENCE.md`；
-5. 先判断文件从属关系，再决定编辑、迁移或删除。
+3. 涉及课程主页时阅读 [课程主页维护指南](COURSE_HOMEPAGE_GUIDE.md)；
+4. 涉及试卷或小测时阅读 [回忆卷制作规范](RECALL_PAPER_GUIDE.md)，学年、学期和考试类型按 [学期与校历参考](EXAM_SEMESTER_REFERENCE.md) 核对；
+5. 调整字体、字号或阅读交互时阅读 [阅读体验维护指南](READING_EXPERIENCE_GUIDE.md)；
+6. 先判断文件从属关系，再决定编辑、迁移或删除。
 
 不要使用已经停用的固定课程模板，也不要为了栏目完整补写材料中没有的课程事实或通用建议。
 
@@ -37,7 +38,7 @@ BMS Database 面向浙江大学基础医学本科生，重点记录课程怎样�
 ## 页面与导航
 
 - 每门课程保留一个 `index.md` 主页。
-- 多项资料优先使用网站现有的 `course-links`；已核对的分数构成可以使用 `course-score`。
+- 课程主页的站内资料分组使用 `course-links`，即使只有一个分组入口；站外资源和站内单篇资料使用普通列表，具体见 [课程主页维护指南](COURSE_HOMEPAGE_GUIDE.md#资料入口与外观)。已核对的分数构成可以使用 `course-score`。
 - 不为单门课程创建独立视觉体系，除非现有组件确实无法表达内容。
 - 未列入 `nav` 的文件仍可能被 MkDocs 发布。草稿、源码片段和内部文件必须分别使用 `draft_docs`、`exclude_docs` 或迁出 `docs/`，不能依赖 `.gitignore` 隔离。
 - 兼容旧网址但不需要显示在导航中的页面应列入 `not_in_nav`。
