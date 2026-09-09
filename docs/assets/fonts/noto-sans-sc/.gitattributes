@@ -1,0 +1,5 @@
+*.css text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+.gitattributes text eol=lf
+*.woff2 binary

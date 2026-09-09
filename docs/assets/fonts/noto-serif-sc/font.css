@@ -821,3 +821,13 @@
   src: url(./noto-serif-sc-v35-greek.woff2) format('woff2');
   unicode-range: U+370-3ff, U+1f00-1fff;
 }
+
+/* Roman numerals used in course names: official text= subset. */
+@font-face {
+  font-family: 'BMS Noto Serif SC';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(./noto-serif-sc-v35-roman.woff2) format('woff2');
+  unicode-range: U+2160-2164;
+}

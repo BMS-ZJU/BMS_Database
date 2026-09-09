@@ -142,8 +142,11 @@
   };
 
   const initialize = () => {
+    // A direct paper can itself be named exams or quizzes; classify it before an index.
+    addPageEntry();
+    if (resourceUrl(new URL(location.pathname, location.origin))) return;
     const section = location.pathname.match(/^(.*\/(?:exams|quizzes)\/)(?:index\.html)?$/);
-    if (!section) { addPageEntry(); return; }
+    if (!section) return;
 
     // Give every resource in an exam/quiz index the same appearance, including external links.
     document.querySelectorAll(".course-resource-grid").forEach((grid) => {

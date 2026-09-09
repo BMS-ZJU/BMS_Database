@@ -5,12 +5,22 @@
     --bms-reading-unit: 19.375px;
     /* 原本较小的辅助文字保留常规尺寸, 不随宽屏继续放大。 */
     --bms-reading-small-unit: 20px;
+    --bms-reading-prose-font: "BMS Noto Serif SC", "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+    --bms-reading-interface-font: "BMS Noto Sans SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
   }
 
   :where(html:not([data-reading-style="original"])) .md-nav,
-  :where(html:not([data-reading-style="original"])) .md-tabs__link,
   :where(html:not([data-reading-style="original"])) .md-path {
     font-size: calc(0.7 * var(--bms-reading-unit));
+  }
+
+  /* 界面使用站内黑体, 顶部菜单稍大于侧栏。 */
+  :where(html:not([data-reading-style="original"])) body {
+    --md-text-font-family: var(--bms-reading-interface-font);
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-tabs__link {
+    font-size: 15px;
   }
 
   :where(html:not([data-reading-style="original"])) .md-typeset :is(.admonition, details),
@@ -20,31 +30,82 @@
     font-size: calc(0.64 * var(--bms-reading-small-unit));
   }
 
+  /* 目录状态仍是辅助信息, 但需要能直接辨认。 */
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(
+    .course-catalog-status,
+    .curriculum-course-status,
+    .course-catalog-counts small
+  ) {
+    font-size: calc(0.55 * var(--bms-reading-small-unit));
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset .course-catalog-counts small {
+    color: var(--md-default-fg-color--light);
+  }
+
+  /* 培养方案的分组标题保持宋体, 避免比组内课程名称更弱。 */
+  :where(html:not([data-reading-style="original"])) .md-typeset h5[id^="curriculum-"] {
+    color: var(--md-default-fg-color);
+    font-size: 0.95em;
+  }
+
+  /* 解析正文按语义标记, 与折叠按钮和简短答案保持不同字号。 */
+  :where(html:not([data-reading-style="original"])) .md-typeset .answer-explanation {
+    font-size: calc(0.7 * var(--bms-reading-small-unit));
+    line-height: 1.6;
+  }
+
+  /* 长文字表格单独标记; 窄屏保留可读列宽并允许键盘横向滚动。 */
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose:focus-visible {
+    outline: 2px solid var(--md-accent-fg-color);
+    outline-offset: 2px;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose .md-typeset__scrollwrap {
+    margin: 0;
+    overflow: visible;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose .md-typeset__table {
+    display: block;
+    padding: 0;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose table:not([class]) {
+    min-width: 42em;
+    font-size: calc(0.7 * var(--bms-reading-small-unit));
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose th {
+    white-space: nowrap;
+  }
+
   :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset {
     /* 阅读文字固定字号, 避免在超宽屏中再次变大。 */
     font-size: 15.5px;
-    font-family: "BMS Noto Serif SC", "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+    font-family: var(--bms-reading-prose-font);
   }
 
   :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset.reading-paper {
-    font-family: "Times New Roman", "BMS Noto Serif SC", "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+    font-family: "Times New Roman", var(--bms-reading-prose-font);
   }
   :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(
     nav,
     .tabbed-labels,
-    .course-links,
-    .course-link,
-    .course-resource-grid,
     .course-catalog-guide-links,
     .course-catalog,
     .course-catalog-toolbar,
-    .course-catalog-group,
     .course-catalog-unavailable,
     .course-catalog-empty,
-    .curriculum-context,
-    .curriculum-plan-summary,
     .curriculum-heading-credit,
     .curriculum-course-list,
+    .resource-index-actions,
+    .exam-resource-tag,
     .resource-page-tools,
     .resource-batch-toolbar,
     .resource-batch-selection,
@@ -58,9 +119,41 @@
     textarea,
     [role="button"]
   ),
-  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset .course-catalog-guide > summary,
-  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset .quiz-answer > summary {
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset details > summary,
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset
+    .course-resource-grid:not(.resource-export-index) > ul > li > p:last-child a {
     font-family: var(--md-text-font-family);
+  }
+
+  /* 内容卡片的标题和说明保持宋体连贯, 操作文字沿用上面的黑体规则。 */
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(
+    .course-links, .course-link, .course-resource-grid, .course-catalog-group,
+    .curriculum-context, .curriculum-plan-summary
+  ),
+  :where(html:not([data-reading-style="original"])) .md-header__topic[data-md-component="header-topic"],
+  :where(html:not([data-reading-style="original"])) .md-footer__title .md-ellipsis {
+    font-family: var(--bms-reading-prose-font);
+  }
+
+  /* 界面强调用中等字重, 正文标题和品牌保留各自层级。 */
+  :where(html:not([data-reading-style="original"])) :is(
+    .md-nav__title, .md-nav__item--section > .md-nav__link,
+    .md-nav__link--active, .md-tabs__item--active .md-tabs__link,
+    .md-search-result .md-typeset h2
+  ),
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(
+    .tabbed-labels > label, .course-catalog-toolbar > label,
+    .course-catalog-name, .curriculum-course-item > span,
+    .course-catalog-guide > summary, .course-catalog-unavailable > summary,
+    .quiz-answer > summary, details > summary, .exam-resource-tag, .md-button
+  ),
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset
+    .course-resource-grid:not(.resource-export-index) > ul > li > p:last-child a {
+    font-weight: 500;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-nav--primary > .md-nav__title[for="__drawer"] {
+    font-weight: 700;
   }
 }
 @media screen and (max-width: 44.984375em) {
