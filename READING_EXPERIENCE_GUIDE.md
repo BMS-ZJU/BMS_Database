@@ -16,6 +16,8 @@
 
 | 文件 | 负责内容 |
 | --- | --- |
+| `docs/index.md` | 首页项目介绍、合作练习入口和来源说明 |
+| `overrides/.icons/ginkgo.svg` | 页脚银杏叶图标，内含来源、适配说明和 MIT 许可 |
 | `docs/css/styles.css` | 新版正文与界面字体、组件字号变量、切换按钮样式，以及现有课程组件 |
 | `docs/css/resource-export.css` | 资料列表与打印入口组件；同一文件后部还有独立打印稿样式，修改时区分作用域 |
 | `docs/javascripts/reading-style.js` | 新旧偏好初始化、按钮、选择记忆与页面切换后的挂载 |
@@ -25,7 +27,7 @@
 | `docs/assets/fonts/noto-sans-sc/` | 站内黑体界面字体、分片 CSS、授权、来源说明与校验清单 |
 | `docs/css/header-wordmark.css`、`docs/assets/fonts/brand/` | 页头及手机抽屉的品牌宋体，与正文阅读字体分开维护 |
 | `overrides/partials/header.html` | 图标、双层页名与品牌首页链接结构 |
-| `mkdocs.yml` | 字体及样式加载顺序、主题配置；阅读偏好脚本通过模板加载，不重复登记 |
+| `mkdocs.yml` | 字体及样式加载顺序、主题配置与 `extra.social` 页脚链接；阅读偏好脚本通过模板加载，不重复登记 |
 | `docs/resource-export.html` | 独立打印／导出页面，与普通文章页分开检查 |
 
 开始修改时查看实际分支和这些文件的状态，确认已包含最新发布内容。混合工作区的旧检出不一定反映已发布版本；优先复用合适的隔离工作树并核对差异，不覆盖其他任务改动。
@@ -76,6 +78,17 @@
 - 需要持续阅读的长文字表格用 `.reading-table--prose` 包裹，新版为 `14px`，整张表的最小宽度为 `42em`，窄屏在表格区域内横向滚动。包装区域标明用途并可键盘聚焦；短数据表保持既有规则，不因行数多就使用此类。
 - 以上局部覆盖只作用于新版屏幕阅读；原版和独立打印稿继续各自的规则。卡片、提示框和答案框仍按上方内容角色分配字体，不因调整字号而改变整个容器的字体。
 
+### 资料卡片的操作层级
+
+- 带 Ginkgo 练习的资料卡片以原资料标题为主要入口：标题使用常规正文色和较明显的字重，练习操作使用主题链接色，打印操作使用较浅前景色；悬停和键盘聚焦沿用主题反馈。颜色使用变量适配明暗主题，不把全部文字都改成链接色，也不为 Ginkgo 另设字体或字号。
+- 样式集中在 `docs/css/resource-export.css`，以 `.resource-practice-link` 和已生成的标题链接限定作用范围。保留原课程名、站外、老师版等状态标签，Ginkgo 的统一 `.course-source-note` 放在卡片组下方。隐藏重复阅读操作的条件与导出边界见[回忆卷制作规范](RECALL_PAPER_GUIDE.md)；字体继续按上方内容和操作角色分工。
+
+### 首页合作入口与页脚友情链接
+
+- 首页保留项目介绍和独立 `.course-link`，链接到 [ZJUBMS Ginkgo 在线练习站](https://yangshu233-snow.github.io/ZJUBMS-Ginkgo/)。来源说明使用 `.course-source-note`，写清练习版可能补充选项和参考答案，原始回忆仍以对应资料页为准。首页允许自然滚动，不为单屏容纳删减必要说明或挤压文字。
+- 页脚友情链接复用 `mkdocs.yml` 的 `extra.social`，以小图标与基础医学院官网入口并列；Ginkgo 图标链接到 [Ginkgo 项目仓库](https://github.com/YangShu233-Snow/Ginkgo)，悬停名称为“Ginkgo · GitHub 仓库”。首页练习入口和页脚项目链接分别维护，不互相替换，也不另加文字友链行或全站导航条目。
+- 图标位于 `overrides/.icons/ginkgo.svg`，沿用项目自带银杏叶的图形路径，去白底并使用 `currentColor` 适配页脚。更新图标时保留来源、修改说明和 MIT 版权许可；保持可辨识的形状、点击区域及悬停名称，并检查桌面、手机和明暗主题。
+
 ### 页眉图标
 
 - 页眉使用透明底、无条纹的白鹰蓝字 SVG，图片由 `theme.logo` 指定；标签页独立使用蓝鹰透明底 PNG
@@ -120,6 +133,7 @@
 
 ## 记录入口
 
+- [PR #119：添加 Ginkgo 练习入口和友情链接](https://github.com/BMS-ZJU/BMS_Database/pull/119)
 - [PR #120：调整网站字体和字号](https://github.com/BMS-ZJU/BMS_Database/pull/120)
 - [课程主页维护指南](COURSE_HOMEPAGE_GUIDE.md)
 - [回忆卷排版指南](RECALL_PAPER_GUIDE.md)
