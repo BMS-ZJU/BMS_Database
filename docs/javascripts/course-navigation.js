@@ -148,6 +148,78 @@
       });
   };
 
+  const collections = new WeakMap();
+
+  const tabPath = (target) => {
+    const path = [];
+    for (let block = target.closest('.tabbed-block'); block;) {
+      const set = block.parentElement?.closest('.tabbed-set');
+      if (!set) break;
+      const blocks = Array.from(set.querySelectorAll(':scope > .tabbed-content > .tabbed-block'));
+      path.unshift(set.querySelectorAll(':scope > input[type="radio"]')[blocks.indexOf(block)]);
+      block = set.parentElement?.closest('.tabbed-block');
+    }
+    return path.filter(Boolean);
+  };
+
+  const revealTabs = (target) => {
+    let changed = false;
+    tabPath(target).forEach((input) => {
+      if (input.checked) return;
+      input.checked = true;
+      input.dispatchEvent(new Event('change', { bubbles: true }));
+      changed = true;
+    });
+    return changed;
+  };
+
+  const initResourceCollections = () => {
+    document.querySelectorAll('.resource-collection-marker').forEach((marker) => {
+      const root = marker.closest('article');
+      const set = marker.nextElementSibling;
+      if (!root || collections.has(root) || !set?.matches('.tabbed-set')) return;
+      const sections = Array.from(set.querySelectorAll('section[id][data-export-title]'));
+      const inputs = Array.from(set.querySelectorAll('input[type="radio"]'));
+      if (!sections.length) return;
+      root.classList.add('resource-collection');
+      const current = () => sections.find((section) => tabPath(section).every((input) => input.checked));
+      let restoring = false;
+      const sync = () => {
+        const section = current();
+        if (!section) return;
+        const summary = root.querySelector('[data-answer-summary]');
+        if (summary) summary.hidden = section.dataset.exportGroup !== summary.dataset.exportGroup;
+        const hash = '#' + section.id;
+        if (!restoring && location.hash !== hash) history.pushState(history.state, '', hash);
+      };
+      const selectTarget = (target) => {
+        restoring = true;
+        const destination = target.matches('.resource-category-anchor')
+          ? target.closest('.tabbed-block').querySelector('section[data-export-title]')
+          : target.closest('[data-answer-summary]') ? sections[0] : target;
+        const changed = revealTabs(destination);
+        sync();
+        restoring = false;
+        return changed;
+      };
+      // Native radios retain each category's selection. Keep stable material URLs
+      // and instant-navigation history without Material's generated-ID replacement.
+      set.addEventListener('click', (event) => {
+        if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        const label = event.target.closest('label');
+        const input = label?.control;
+        if (!inputs.includes(input)) return;
+        event.preventDefault();
+        event.stopPropagation();
+        input.click();
+        sync();
+      }, true);
+      inputs.forEach((input) => input.addEventListener('change', sync));
+      collections.set(root, { selectTarget, reset: () => selectTarget(sections[0]) });
+      selectTarget(sections[0]);
+    });
+  };
+
   const revealPaperSection = (hash) => {
     // 资料合集的目录可以指向未选中的套卷；先展开对应标签，再沿用章节锚点。
     if (!/\/(?:mandatory|elective)\/[^/]+\/(?:exams|quizzes)\//.test(window.location.pathname)) {
@@ -159,28 +231,23 @@
     } catch {
       return null;
     }
-    const target = id && document.getElementById(id);
+    const target = id && (document.getElementById(id) ||
+      document.querySelector(`.md-content section[id][data-legacy-fragment~="${CSS.escape(id)}"]`));
     if (!target || !target.closest(".md-content")) return null;
 
-    let block = target.closest(".tabbed-block");
-    let changed = false;
-    while (block) {
-      const set = block.parentElement?.closest(".tabbed-set");
-      if (!set) break;
-      const blocks = Array.from(set.querySelectorAll(":scope > .tabbed-content > .tabbed-block"));
-      const inputs = Array.from(set.querySelectorAll(":scope > input[type='radio']"));
-      const input = inputs[blocks.indexOf(block)];
-      if (input && !input.checked) {
-        input.checked = true;
-        input.dispatchEvent(new Event("change", { bubbles: true }));
-        changed = true;
-      }
-      block = set.parentElement?.closest(".tabbed-block");
-    }
-    return changed ? target : null;
+    // Retired fragments point to existing material, without an empty heading.
+    const redirected = target.id !== id;
+    if (redirected) history.replaceState(history.state, '', '#' + target.id);
+    const controller = collections.get(target.closest('.resource-collection'));
+    const changed = controller ? controller.selectTarget(target) : revealTabs(target);
+    return changed || redirected ? target : null;
   };
 
   const revealPaperHash = () => {
+    if (!window.location.hash) {
+      document.querySelectorAll('.resource-collection').forEach((root) => collections.get(root)?.reset());
+      return;
+    }
     const target = revealPaperSection(window.location.hash);
     if (target) requestAnimationFrame(() => target.scrollIntoView());
   };
@@ -195,11 +262,13 @@
     }
   }, true);
   window.addEventListener("hashchange", revealPaperHash);
+  window.addEventListener("popstate", revealPaperHash);
 
   const initialize = () => {
     initCourseCatalog();
     initCurriculumToc();
     stripCreditFromToc();
+    initResourceCollections();
     requestAnimationFrame(revealPaperHash);
   };
 

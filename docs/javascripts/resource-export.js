@@ -31,6 +31,57 @@
     return link;
   };
 
+  // Native selection controls for resource directory cards.
+  const selectionControls = (choices, id) => {
+    const controls = document.createElement("div");
+    controls.id = id;
+    controls.className = "resource-batch-selection";
+    const allLabel = document.createElement("label");
+    const all = document.createElement("input");
+    all.type = "checkbox";
+    allLabel.append(all, "全选");
+    const count = document.createElement("span");
+    count.setAttribute("role", "status");
+    count.setAttribute("aria-live", "polite");
+    const selected = exportLink([], "导出所选");
+    const help = document.createElement("small");
+    help.textContent = "按资料原有顺序合并，每份资料另起一页。";
+    selected.title = help.textContent;
+    controls.append(allLabel, count, selected, help);
+    const update = () => {
+      const sources = choices.filter((choice) => choice.checkbox.checked).map((choice) => choice.source);
+      count.textContent = `已选 ${sources.length} / ${choices.length} 份`;
+      all.checked = sources.length === choices.length;
+      all.indeterminate = sources.length > 0 && sources.length < choices.length;
+      selected.setAttribute("aria-disabled", String(!sources.length));
+      if (sources.length) selected.href = exportUrl(sources);
+      else selected.removeAttribute("href");
+    };
+    choices.forEach(({ checkbox }) => checkbox.addEventListener("change", update));
+    all.addEventListener("change", () => {
+      choices.forEach(({ checkbox }) => { checkbox.checked = all.checked; });
+      update();
+    });
+    selected.addEventListener("click", (event) => {
+      if (selected.getAttribute("aria-disabled") === "true") event.preventDefault();
+    });
+    update();
+    return { controls, update };
+  };
+
+  const currentResource = (sections) => sections.find((section) => {
+    let block = section.closest(".tabbed-block");
+    if (!block) return sections.length === 1;
+    while (block) {
+      const set = block.parentElement.closest(".tabbed-set");
+      const blocks = Array.from(set.querySelectorAll(":scope > .tabbed-content > .tabbed-block"));
+      const input = set.querySelectorAll(':scope > input[type="radio"]')[blocks.indexOf(block)];
+      if (!input?.checked) return false;
+      block = set.parentElement.closest(".tabbed-block");
+    }
+    return true;
+  });
+
   const addPageEntry = () => {
     const source = resourceUrl(new URL(location.pathname, location.origin));
     const article = document.querySelector("article.md-content__inner");
@@ -40,6 +91,8 @@
     if (!source || !heading || article.querySelector(".resource-page-tools")) return;
     const tools = document.createElement("p");
     tools.className = "resource-page-tools";
+    heading.after(tools);
+    const sections = Array.from(article.querySelectorAll('section[id][data-export-title]'));
     const link = exportLink([source.pathname], "打印 / 导出");
     link.className = "resource-export-link";
     link.title = "打开打印预览，可通过浏览器保存为 PDF";
@@ -47,7 +100,19 @@
     title.querySelectorAll(".headerlink").forEach((anchor) => anchor.remove());
     link.setAttribute("aria-label", `${title.textContent.trim()}：打印 / 导出（新标签页）`);
     tools.append(link);
-    heading.after(tools);
+    if (sections.length) {
+      const updateTarget = () => {
+        const current = currentResource(sections);
+        const target = new URL(exportUrl([source.pathname + (current ? "#" + current.id : "")]));
+        if (!current) target.searchParams.set("select", "none");
+        link.href = target.href;
+        link.setAttribute("aria-label", `${current?.dataset.exportTitle || '合集'}：打印 / 导出（新标签页）`);
+      };
+      article.addEventListener("change", updateTarget);
+      link.addEventListener("click", updateTarget);
+      link.addEventListener("contextmenu", updateTarget);
+      updateTarget();
+    }
   };
 
   const addBatchControls = () => {
@@ -76,24 +141,6 @@
     toggle.textContent = "勾选导出";
     toggle.setAttribute("aria-expanded", "false");
     toggle.setAttribute("aria-controls", "resource-batch-selection");
-    const controls = document.createElement("div");
-    controls.id = "resource-batch-selection";
-    controls.className = "resource-batch-selection";
-    controls.hidden = true;
-    const selectAllLabel = document.createElement("label");
-    const selectAll = document.createElement("input");
-    selectAll.type = "checkbox";
-    selectAllLabel.append(selectAll, "全选");
-    const count = document.createElement("span");
-    count.setAttribute("role", "status");
-    count.setAttribute("aria-live", "polite");
-    const selected = exportLink([], "导出所选");
-    const help = document.createElement("small");
-    help.textContent = "合并为一份 PDF，每份资料另起一页。";
-    selected.title = help.textContent;
-    controls.append(selectAllLabel, count, selected, help);
-    toolbar.append(total, all, controls, toggle);
-
     const choices = cards.map((card) => {
       const label = document.createElement("label");
       label.className = "resource-batch-choice";
@@ -108,23 +155,9 @@
       else card.append(label);
       return { label, checkbox, source: card.dataset.exportSource };
     });
-    const update = () => {
-      const sources = choices.filter((choice) => choice.checkbox.checked).map((choice) => choice.source);
-      count.textContent = `已选 ${sources.length} / ${choices.length} 份`;
-      selectAll.checked = sources.length === choices.length;
-      selectAll.indeterminate = sources.length > 0 && sources.length < choices.length;
-      selected.setAttribute("aria-disabled", String(!sources.length));
-      if (sources.length) selected.href = exportUrl(sources);
-      else selected.removeAttribute("href");
-    };
-    choices.forEach(({ checkbox }) => checkbox.addEventListener("change", update));
-    selectAll.addEventListener("change", () => {
-      choices.forEach(({ checkbox }) => { checkbox.checked = selectAll.checked; });
-      update();
-    });
-    selected.addEventListener("click", (event) => {
-      if (selected.getAttribute("aria-disabled") === "true") event.preventDefault();
-    });
+    const { controls, update } = selectionControls(choices, "resource-batch-selection");
+    controls.hidden = true;
+    toolbar.append(total, all, controls, toggle);
     toggle.addEventListener("click", () => {
       const active = controls.hidden;
       controls.hidden = !active;
@@ -207,6 +240,11 @@
 
       const link = exportLink([target.pathname], "打印 / 导出");
       link.className = "resource-export-link";
+      if (primary.classList.contains("resource-collection-link")) {
+        const selection = new URL(link.href);
+        selection.searchParams.set("select", "none");
+        link.href = selection.href;
+      }
       const title = actions.parentElement.querySelector("p:first-child strong")?.textContent.trim();
       link.setAttribute("aria-label", `${title || "此资料"}：打印 / 导出（新标签页）`);
       actions.classList.add("resource-export-actions", "link-divider");

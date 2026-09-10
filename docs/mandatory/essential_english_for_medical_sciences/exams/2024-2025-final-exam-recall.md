@@ -264,147 +264,371 @@ source-attribution
 
 ## 二、连线题（50 分） {: .exam-section .exam-section--short data-toc-label="二、连线题" }
 
-*共 100 题，每题 0.5 分。同一行的词语和释义是两列待匹配内容，不表示答案已经配对。*
+*共 100 题，每题 0.5 分。两栏内容需自行匹配。*
 
-**第 1 组**
+<div class="matching-group">
+    <p class="matching-title"><strong>第 1 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="1" aria-label="词语">
+            <li>erythematous</li>
+            <li>melanoma</li>
+            <li>xanthocyte</li>
+            <li>cyanotic</li>
+            <li>leukocyte</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>cell with yellow color</li>
+            <li>having a bluish discoloration</li>
+            <li>darkly pigmented tumor</li>
+            <li>red in color</li>
+            <li>white blood cell</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 1 | erythematous | **A.** cell with yellow color |
-| 2 | melanoma | **B.** having a bluish discoloration |
-| 3 | xanthocyte | **C.** darkly pigmented tumor |
-| 4 | cyanotic | **D.** red in color |
-| 5 | leukocyte | **E.** white blood cell |
+<div class="matching-group">
+    <p class="matching-title"><strong>第 2 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="6" aria-label="词语">
+            <li>ATP</li>
+            <li>DNA</li>
+            <li>nucleoplasm</li>
+            <li>nucleus</li>
+            <li>cytoplasm</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>control region of the cell</li>
+            <li>material that holds the cellular organelles</li>
+            <li>energy compound of the cells</li>
+            <li>genetic material</li>
+            <li>material that fills the nucleus</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-**第 2 组**
+<div class="matching-group">
+    <p class="matching-title"><strong>第 3 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="11" aria-label="词语">
+            <li>blastocyte</li>
+            <li>ribosomes</li>
+            <li>mitochondria</li>
+            <li>mitosis</li>
+            <li>lysosome</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>immature cell</li>
+            <li>organelles that produce ATP</li>
+            <li>organelles that contain RNA</li>
+            <li>small cellular body containing digestive enzymes</li>
+            <li>cell division</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 6 | ATP | **A.** control region of the cell |
-| 7 | DNA | **B.** material that holds the cellular organelles |
-| 8 | nucleoplasm | **C.** energy compound of the cells |
-| 9 | nucleus | **D.** genetic material |
-| 10 | cytoplasm | **E.** material that fills the nucleus |
+<div class="matching-group">
+    <p class="matching-title"><strong>第 4 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="16" aria-label="词语">
+            <li>autotroph</li>
+            <li>papilliform</li>
+            <li>amorphous</li>
+            <li>atrophy</li>
+            <li>somatic</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>resembling a nipple</li>
+            <li>having no specific form</li>
+            <li>wasting of tissue</li>
+            <li>pertaining to the body</li>
+            <li>organism that can manufacture its own food</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-**第 3 组**
+<div class="matching-group">
+    <p class="matching-title"><strong>第 5 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="21" aria-label="词语">
+            <li>cardiomegaly</li>
+            <li>neuroma</li>
+            <li>carcinophobia</li>
+            <li>encephalitis</li>
+            <li>hemorrhagic</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>pertaining to profuse flow of blood</li>
+            <li>fear of cancer</li>
+            <li>tumor of a nerve</li>
+            <li>enlargement of the heart</li>
+            <li>inflammation of the brain</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 11 | blastocyte | **A.** immature cell |
-| 12 | ribosomes | **B.** organelles that produce ATP |
-| 13 | mitochondria | **C.** organelles that contain RNA |
-| 14 | mitosis | **D.** small cellular body containing digestive enzymes |
-| 15 | lysosome | **E.** cell division |
+<div class="matching-group">
+    <p class="matching-title"><strong>第 6 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="26" aria-label="词语">
+            <li>blepharoptosis</li>
+            <li>hemostasis</li>
+            <li>toxoid</li>
+            <li>lesion</li>
+            <li>ectasia</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>local wound or injury</li>
+            <li>stoppage of blood flow</li>
+            <li>dropping of the eyelid</li>
+            <li>like a poison</li>
+            <li>dilatation</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-**第 4 组**
+<div class="matching-group">
+    <p class="matching-title"><strong>第 7 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="31" aria-label="词语">
+            <li>hyperpyrexia</li>
+            <li>potentiation</li>
+            <li>chronotropic</li>
+            <li>anaphylaxis</li>
+            <li>efficacy</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>extreme allergic reaction</li>
+            <li>effectiveness</li>
+            <li>affecting timing</li>
+            <li>combined drug action to greater effect</li>
+            <li>abnormally high body temperature</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 16 | autotroph | **A.** resembling a nipple |
-| 17 | papilliform | **B.** having no specific form |
-| 18 | amorphous | **C.** wasting of tissue |
-| 19 | atrophy | **D.** pertaining to the body |
-| 20 | somatic | **E.** organism that can manufacture its own food |
+<div class="matching-group">
+    <p class="matching-title"><strong>第 8 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="36" aria-label="词语">
+            <li>nosocomial</li>
+            <li>iatrogenic</li>
+            <li>fistula</li>
+            <li>polyp</li>
+            <li>effusion</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>abnormal passageway</li>
+            <li>escape of fluid into a cavity</li>
+            <li>tumor attached by a thin stalk</li>
+            <li>acquired in a hospital</li>
+            <li>caused by effects of treatments</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-**第 5 组**
+<div class="matching-group">
+    <p class="matching-title"><strong>第 9 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="41" aria-label="词语">
+            <li>amnesia</li>
+            <li>euphoria</li>
+            <li>claustrophobia</li>
+            <li>ataxia</li>
+            <li>lethargy</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>fear of being enclosed</li>
+            <li>state of sluggishness</li>
+            <li>loss of memory</li>
+            <li>lack of muscle coordination</li>
+            <li>sense of elation</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 21 | cardiomegaly | **A.** pertaining to profuse flow of blood |
-| 22 | neuroma | **B.** fear of cancer |
-| 23 | carcinophobia | **C.** tumor of a nerve |
-| 24 | encephalitis | **D.** enlargement of the heart |
-| 25 | hemorrhagic | **E.** inflammation of the brain |
+<div class="matching-group">
+    <p class="matching-title"><strong>第 10 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="46" aria-label="词语">
+            <li>parathyroid</li>
+            <li>posterior pituitary</li>
+            <li>hypothalamus</li>
+            <li>anterior pituitary</li>
+            <li>pineal</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>gland that is regulated by light</li>
+            <li>small gland that acts to increase blood calcium levels</li>
+            <li>part of the brain that controls the pituitary</li>
+            <li>gland that secretes ACTH</li>
+            <li>gland that releases oxytocin</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-**第 6 组**
+<div class="matching-group">
+    <p class="matching-title"><strong>第 11 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="51" aria-label="词语">
+            <li>ketoacidosis</li>
+            <li>adenoma</li>
+            <li>Cushing syndrome</li>
+            <li>acromegaly</li>
+            <li>diabetes insipidus</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>disorder that results from excess growth hormone</li>
+            <li>disorder caused by insufficient release of ADH</li>
+            <li>a result of uncontrolled diabetes</li>
+            <li>disorder caused by overactivity of the adrenal cortex</li>
+            <li>neoplasm of a gland</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 26 | blepharoptosis | **A.** local wound or injury |
-| 27 | hemostasis | **B.** stoppage of blood flow |
-| 28 | toxoid | **C.** dropping of the eyelid |
-| 29 | lesion | **D.** like a poison |
-| 30 | ectasia | **E.** dilatation |
+<div class="matching-group">
+    <p class="matching-title"><strong>第 12 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="56" aria-label="词语">
+            <li>lumen</li>
+            <li>pericardium</li>
+            <li>apex</li>
+            <li>vena cava</li>
+            <li>valve</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>vessel that empties into the right atrium</li>
+            <li>fibrous sac around the heart</li>
+            <li>structure that keeps fluid moving forward</li>
+            <li>central opening of a vessel</li>
+            <li>lower, pointed region of the heart</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-**第 7 组**
+<div class="matching-group">
+    <p class="matching-title"><strong>第 13 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="61" aria-label="词语">
+            <li>hypokalemia</li>
+            <li>natriuresis</li>
+            <li>ferric</li>
+            <li>siderosis</li>
+            <li>azoturia</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>condition involving iron deposits</li>
+            <li>deficiency of potassium in the blood</li>
+            <li>urinary excretion of sodium</li>
+            <li>urinary excretion of nitrogenous compounds</li>
+            <li>pertaining to iron</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 31 | hyperpyrexia | **A.** extreme allergic reaction |
-| 32 | potentiation | **B.** effectiveness |
-| 33 | chronotropic | **C.** affecting timing |
-| 34 | anaphylaxis | **D.** combined drug action to greater effect |
-| 35 | efficacy | **E.** abnormally high body temperature |
-
-**第 8 组**
-
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 36 | nosocomial | **A.** abnormal passageway |
-| 37 | iatrogenic | **B.** escape of fluid into a cavity |
-| 38 | fistula | **C.** tumor attached by a thin stalk |
-| 39 | polyp | **D.** acquired in a hospital |
-| 40 | effusion | **E.** caused by effects of treatments |
-
-**第 9 组**
-
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 41 | amnesia | **A.** fear of being enclosed |
-| 42 | euphoria | **B.** state of sluggishness |
-| 43 | claustrophobia | **C.** loss of memory |
-| 44 | ataxia | **D.** lack of muscle coordination |
-| 45 | lethargy | **E.** sense of elation |
-
-**第 10 组**
-
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 46 | parathyroid | **A.** gland that is regulated by light |
-| 47 | posterior pituitary | **B.** small gland that acts to increase blood calcium levels |
-| 48 | hypothalamus | **C.** part of the brain that controls the pituitary |
-| 49 | anterior pituitary | **D.** gland that secretes ACTH |
-| 50 | pineal | **E.** gland that releases oxytocin |
-
-**第 11 组**
-
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 51 | ketoacidosis | **A.** disorder that results from excess growth hormone |
-| 52 | adenoma | **B.** disorder caused by insufficient release of ADH |
-| 53 | Cushing syndrome | **C.** a result of uncontrolled diabetes |
-| 54 | acromegaly | **D.** disorder caused by overactivity of the adrenal cortex |
-| 55 | diabetes insipidus | **E.** neoplasm of a gland |
-
-**第 12 组**
-
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 56 | lumen | **A.** vessel that empties into the right atrium |
-| 57 | pericardium | **B.** fibrous sac around the heart |
-| 58 | apex | **C.** structure that keeps fluid moving forward |
-| 59 | vena cava | **D.** central opening of a vessel |
-| 60 | valve | **E.** lower, pointed region of the heart |
-
-**第 13 组**
-
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 61 | hypokalemia | **A.** condition involving iron deposits |
-| 62 | natriuresis | **B.** deficiency of potassium in the blood |
-| 63 | ferric | **C.** urinary excretion of sodium |
-| 64 | siderosis | **D.** urinary excretion of nitrogenous compounds |
-| 65 | azoturia | **E.** pertaining to iron |
-
-**第 14 组**
-
-| 题号 | 词语 | 待选释义 |
-| --- | --- | --- |
-| 66 | hemophilia | **A.** allergy |
-| 67 | hemostasis | **B.** hereditary form of anemia |
-| 68 | hypersensitivity | **C.** stoppage of blood flow |
-| 69 | thalassemia | **D.** hereditary clotting disorder |
-| 70 | purpura | **E.** bleeding into the tissues |
+<div class="matching-group">
+    <p class="matching-title"><strong>第 14 组</strong></p>
+    <div class="matching-columns">
+        <div>
+            <p class="matching-label">词语</p>
+            <ol class="matching-terms" start="66" aria-label="词语">
+            <li>hemophilia</li>
+            <li>hemostasis</li>
+            <li>hypersensitivity</li>
+            <li>thalassemia</li>
+            <li>purpura</li>
+            </ol>
+        </div>
+        <div>
+            <p class="matching-label">待选释义</p>
+            <ol class="matching-definitions" type="A" aria-label="待选释义">
+            <li>allergy</li>
+            <li>hereditary form of anemia</li>
+            <li>stoppage of blood flow</li>
+            <li>hereditary clotting disorder</li>
+            <li>bleeding into the tissues</li>
+            </ol>
+        </div>
+    </div>
+</div>
 
 ## 三、填空题（18 分） {: .exam-section .exam-section--short data-toc-label="三、填空题" }
 

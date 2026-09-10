@@ -11,6 +11,10 @@
 <body class="resource-export-view">
   <header class="export-toolbar" aria-label="打印与导出">
     <a id="source-link" href="./">返回原文</a>
+    <div class="export-range-summary" hidden>
+      <span id="range-summary">打印范围：正在读取…</span>
+      <button id="change-range" type="button" aria-expanded="false" aria-controls="range-selection">更改</button>
+    </div>
     <label id="answer-options" hidden>内容
       <select id="answer-mode">
         <option value="answers">答案随题</option>
@@ -19,6 +23,13 @@
       </select>
     </label>
     <button id="print-resource" type="button" disabled>打印 / 保存 PDF</button>
+    <div id="range-selection" hidden>
+      <div class="export-range-actions">
+        <label><input id="range-all" type="checkbox">全选</label>
+        <span id="range-count" role="status" aria-live="polite"></span>
+      </div>
+      <div id="range-groups"></div>
+    </div>
     <p id="export-status" role="status" aria-live="polite" aria-atomic="true">正在准备资料…</p>
     <p class="export-help">保存 PDF：在打印窗口中选择“另存为 PDF”。如有额外的日期或网址，可关闭“页眉和页脚”。</p>
     <p class="export-help">在微信、QQ、钉钉等应用内如无法打印或保存 PDF，请在浏览器中打开本页后重试。</p>
