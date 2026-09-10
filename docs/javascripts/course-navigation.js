@@ -243,13 +243,38 @@
     return changed || redirected ? target : null;
   };
 
-  const revealPaperHash = () => {
+  const revealCurriculumSection = (hash) => {
+    if (!/\/curricula\/(?:index\.html)?$/.test(window.location.pathname)) return null;
+    let id;
+    try {
+      id = decodeURIComponent(hash.replace(/^#/, ""));
+    } catch {
+      return null;
+    }
+    const target = id.startsWith("curriculum-") && document.getElementById(id);
+    const block = target && target.closest(".tabbed-block");
+    if (!block?.querySelector(".curriculum-plan-marker")) return null;
+    if (!revealTabs(target)) return null;
+    // 旧章节别名是空 span, 用实际标题定位; 普通说明定位到提示框。
+    return target.closest("h4, h5, .admonition") || target;
+  };
+
+  const revealPageHash = () => {
     if (!window.location.hash) {
       document.querySelectorAll('.resource-collection').forEach((root) => collections.get(root)?.reset());
       return;
     }
-    const target = revealPaperSection(window.location.hash);
-    if (target) requestAnimationFrame(() => target.scrollIntoView());
+    const curriculumTarget = revealCurriculumSection(window.location.hash);
+    const target = curriculumTarget || revealPaperSection(window.location.hash);
+    if (target) requestAnimationFrame(() => {
+      target.scrollIntoView();
+      if (curriculumTarget) {
+        // 别名和提示框不一定有主题的标题滚动留白, 避免被固定页眉遮住。
+        const headerBottom = document.querySelector(".md-header")?.getBoundingClientRect().bottom || 0;
+        const offset = target.getBoundingClientRect().top - headerBottom - 8;
+        if (offset < 0) window.scrollBy(0, offset);
+      }
+    });
   };
 
   document.addEventListener("click", (event) => {
@@ -261,15 +286,15 @@
       revealPaperSection(url.hash);
     }
   }, true);
-  window.addEventListener("hashchange", revealPaperHash);
-  window.addEventListener("popstate", revealPaperHash);
+  window.addEventListener("hashchange", revealPageHash);
+  window.addEventListener("popstate", revealPageHash);
 
   const initialize = () => {
     initCourseCatalog();
     initCurriculumToc();
     stripCreditFromToc();
     initResourceCollections();
-    requestAnimationFrame(revealPaperHash);
+    requestAnimationFrame(revealPageHash);
   };
 
   if (typeof document$ !== "undefined") {

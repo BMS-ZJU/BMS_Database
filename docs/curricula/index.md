@@ -14,8 +14,6 @@ hide:
   <p><strong>版本范围</strong><span>收录 2019—2026 级共 16 个方案版本，同一年级不同班型分别整理。</span></p>
 </div>
 
-<p id="hygiene-course-replacement"><strong>课程调整：</strong>卫生学（18120590）已停开。有选课需要的同学可选预防医学（MED2425M），之后可申请课程替换。</p>
-
 === "2026级"
 
     === "求是科学班"
@@ -1105,7 +1103,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · <a href="#hygiene-course-replacement">课程替换说明</a></small></div>
+          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
@@ -1223,7 +1221,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · <a href="#hygiene-course-replacement">课程替换说明</a></small></div>
+          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（夏）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 三（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
@@ -1367,7 +1365,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · <a href="#hygiene-course-replacement">课程替换说明</a></small></div>
+          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
@@ -1484,7 +1482,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · <a href="#hygiene-course-replacement">课程替换说明</a></small></div>
+          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（夏）</small></div>
@@ -1574,7 +1572,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · <a href="#hygiene-course-replacement">课程替换说明</a></small></div>
+          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（春）</small></div>
@@ -1690,7 +1688,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · <a href="#hygiene-course-replacement">课程替换说明</a></small></div>
+          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（春）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>专业英语阅读与写作<em class="curriculum-course-status">暂无资料</em></span><small>72190030 · 1.0 学分 · 三（春）</small></div>
@@ -1781,7 +1779,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育统计与测量<em class="curriculum-course-status">暂无资料</em></span><small>03120261 · 2.0 学分 · 二（夏）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · <a href="#hygiene-course-replacement">课程替换说明</a></small></div>
+          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>18198020 · 1.5 学分 · 三（秋）</small></div>
@@ -1896,7 +1894,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育统计与测量<em class="curriculum-course-status">暂无资料</em></span><small>03120261 · 2.0 学分 · 二（夏）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · <a href="#hygiene-course-replacement">课程替换说明</a></small></div>
+          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>18198020 · 1.5 学分 · 三（秋）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
@@ -1985,7 +1983,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育统计与测量<em class="curriculum-course-status">暂无资料</em></span><small>03120261 · 2.0 学分 · 二（夏）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · <a href="#hygiene-course-replacement">课程替换说明</a></small></div>
+          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>18198020 · 1.5 学分 · 三（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（春）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
