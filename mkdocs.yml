@@ -12,7 +12,6 @@ exclude_docs: |
   _templates/**
   others/**
   policy/**
-  **/*.inc
 
 not_in_nav: |
   mandatory/index.md
@@ -83,9 +82,7 @@ nav:
       - 课程主页: mandatory/medical_science_literacy_2/index.md
       - 练习与小测:
         - mandatory/medical_science_literacy_2/quizzes/index.md
-        - 2025-2026 秋练习与课堂示例: mandatory/medical_science_literacy_2/quizzes/practice-and-examples.md
-        - 2025-2026 秋线上小测 1—3: mandatory/medical_science_literacy_2/quizzes/online-quizzes.md
-        - 2025-2026 秋线下小测 4—5: mandatory/medical_science_literacy_2/quizzes/offline-quizzes.md
+        - 2025-2026 秋练习与小测: mandatory/medical_science_literacy_2/quizzes/2025-2026-quizzes.md
       - 考试资料:
         - mandatory/medical_science_literacy_2/exams/index.md
         - 2025-2026 秋期末回忆卷: mandatory/medical_science_literacy_2/exams/2025-2026-final-exam-recall.md
@@ -178,11 +175,7 @@ nav:
       - 课程主页: mandatory/the_basis_for_human_diseases/index.md
       - 平时小测:
         - mandatory/the_basis_for_human_diseases/quizzes/index.md
-        - 2025-2026 秋冬第一次小测: mandatory/the_basis_for_human_diseases/quizzes/2025-2026-quiz-01.md
-        - 2025-2026 秋冬第二次小测: mandatory/the_basis_for_human_diseases/quizzes/2025-2026-quiz-02.md
-        - 2025-2026 秋冬第三次小测: mandatory/the_basis_for_human_diseases/quizzes/2025-2026-quiz-03.md
-        - 2025-2026 秋冬第四次小测: mandatory/the_basis_for_human_diseases/quizzes/2025-2026-quiz-04.md
-        - 2025-2026 秋冬第五次小测: mandatory/the_basis_for_human_diseases/quizzes/2025-2026-quiz-05.md
+        - 2025-2026 秋冬小测合集: mandatory/the_basis_for_human_diseases/quizzes/2025-2026-quizzes.md
       - 考试资料:
         - mandatory/the_basis_for_human_diseases/exams/index.md
         - 2025-2026 秋冬期末回忆卷: mandatory/the_basis_for_human_diseases/exams/2025-2026-final-exam-recall.md
@@ -205,13 +198,7 @@ nav:
       - 课程主页: mandatory/neuroscience/index.md
       - 平时小测:
         - mandatory/neuroscience/quizzes/index.md
-        - 2025-2026 春夏线上自测 1+2+3: mandatory/neuroscience/quizzes/quiz-01.md
-        - 2025-2026 春夏线上自测 4+5: mandatory/neuroscience/quizzes/quiz-02.md
-        - 2025-2026 春夏线上自测 6+7: mandatory/neuroscience/quizzes/quiz-03.md
-        - 2025-2026 春夏线上自测 8+9: mandatory/neuroscience/quizzes/quiz-04.md
-        - 2025-2026 春夏线上自测 10+11: mandatory/neuroscience/quizzes/quiz-05.md
-        - 2025-2026 春夏线上自测 12+13: mandatory/neuroscience/quizzes/quiz-06.md
-        - 2025-2026 春夏线上自测 14+15+16: mandatory/neuroscience/quizzes/quiz-07.md
+        - 2025-2026 春夏小测合集: mandatory/neuroscience/quizzes/2025-2026-quizzes.md
       - 考试资料:
         - mandatory/neuroscience/exams/index.md
         - 2025-2026 春夏期末回忆卷: mandatory/neuroscience/exams/2025-2026-final-exam-recall.md
@@ -328,7 +315,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.mark
-  - pymdownx.snippets
   - pymdownx.smartsymbols
   - pymdownx.tilde
   - pymdownx.superfences:
@@ -353,6 +339,7 @@ markdown_extensions:
 
 hooks:
   - hooks/resource_usage.py
+  - hooks/resource_aliases.py
 
 extra_javascript:
   - javascripts/katex.js

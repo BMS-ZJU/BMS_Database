@@ -66,6 +66,10 @@
   }
 }
 
+@media print {
+  .resource-legacy-comments { display: none !important; }
+}
+
 /* Exam and quiz indexes share the site's two-column resource lists. */
 .md-typeset :is(.resource-export-index, .resource-batch-toolbar, .resource-page-tools) {
   --resource-control-color: var(--md-typeset-a-color);
@@ -203,7 +207,7 @@
 }
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a.resource-export-link::before,
-.md-typeset .resource-page-tools > a.resource-export-link::before {
+.md-typeset .resource-page-tools > :is(a, button).resource-export-link::before {
   content: "";
   display: inline-block;
   width: 14px;
@@ -350,7 +354,7 @@
   vertical-align: middle;
 }
 
-.md-typeset .resource-page-tools a,
+.md-typeset .resource-page-tools :is(a, button),
 .md-typeset .resource-batch-toolbar :is(a, button) {
   display: inline-flex;
   align-items: center;
@@ -369,7 +373,7 @@
   text-underline-offset: 0.2em;
 }
 
-.md-typeset .resource-page-tools a {
+.md-typeset .resource-page-tools :is(a, button) {
   gap: 0.3rem;
   min-height: 34px;
   max-width: 100%;
@@ -381,20 +385,20 @@
   transition: background-color 150ms ease, border-color 150ms ease;
 }
 
-.md-typeset .resource-page-tools a:hover {
+.md-typeset .resource-page-tools :is(a, button):hover {
   border-color: color-mix(in srgb, currentColor 30%, transparent);
   background: var(--resource-control-hover);
   text-decoration: none;
 }
 
 @media (pointer: coarse) {
-  .md-typeset .resource-page-tools a {
+  .md-typeset .resource-page-tools :is(a, button) {
     min-height: 44px;
     padding-inline: 0.65rem;
   }
 }
 
-.md-typeset .resource-page-tools a:focus-visible,
+.md-typeset .resource-page-tools :is(a, button):focus-visible,
 .md-typeset .resource-batch-toolbar :is(a, button, input):focus-visible,
 .md-typeset .resource-batch-choice input:focus-visible {
   outline: 2px solid var(--md-accent-fg-color, currentColor);
@@ -559,7 +563,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .md-typeset .resource-batch-toolbar :is(a, button),
-  .md-typeset .resource-page-tools a {
+  .md-typeset .resource-page-tools :is(a, button) {
     transition: none;
   }
 }
@@ -664,7 +668,7 @@ body.resource-export-view [hidden] {
   max-width: 100%;
 }
 
-.resource-export-view .export-toolbar :is(a, button, select):focus-visible {
+.resource-export-view .export-toolbar :is(a, button, select, input):focus-visible {
   outline: 2px solid #374d66;
   outline-offset: 3px;
 }
@@ -676,6 +680,32 @@ body.resource-export-view [hidden] {
   font-size: 13px;
   overflow-wrap: anywhere;
 }
+
+.resource-export-view .export-range-summary,
+.resource-export-view .export-range-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 20px;
+  min-width: 0;
+}
+.resource-export-view .export-range-summary { gap: 4px 8px; }
+.resource-export-view #range-summary { overflow-wrap: anywhere; }
+.resource-export-view #change-range {
+  padding-inline: 4px;
+  border-color: transparent;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.resource-export-view #range-selection { flex-basis: 100%; min-width: 0; }
+.resource-export-view #range-groups { display: grid; gap: 8px; margin-top: 6px; }
+.resource-export-view .export-range-group { border: 0; margin: 0; padding: 0; min-width: 0; }
+.resource-export-view .export-range-group legend { padding: 0; font-weight: 600; }
+.resource-export-view .export-range-choices { display: flex; flex-wrap: wrap; gap: 2px 18px; }
+.resource-export-view #range-selection label { min-height: 40px; flex-wrap: nowrap; cursor: pointer; }
+.resource-export-view #range-selection input { margin: 0; flex: 0 0 auto; }
+.resource-export-view main.paper:empty { display: none; }
+.resource-export-view main.paper[aria-busy="true"] { visibility: hidden; }
 
 .resource-export-view .export-help {
   flex-basis: 100%;
@@ -1062,10 +1092,81 @@ body.resource-export-view [hidden] {
   overflow-x: auto;
 }
 
+/* Matching exercises use independent term and definition lists in both views. */
+:is(.md-typeset, .resource-export-view .paper-content) .matching-group {
+  margin: 1.2em 0;
+}
+
+:is(.md-typeset, .resource-export-view .paper-content) .matching-group > .matching-title {
+  margin: 0 0 0.5em;
+}
+
+:is(.md-typeset, .resource-export-view .paper-content) .matching-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: 0.75em 3em;
+  text-align: left;
+}
+
+:is(.md-typeset, .resource-export-view .paper-content) .matching-columns > div {
+  min-width: 0;
+}
+
+:is(.md-typeset, .resource-export-view .paper-content) .matching-columns ol {
+  margin: 0;
+  padding-inline-start: 2.2em;
+  list-style-type: decimal;
+}
+
+:is(.md-typeset, .resource-export-view .paper-content) .matching-columns .matching-definitions {
+  list-style-type: upper-alpha;
+  padding-inline-start: 1.8em;
+}
+
+:is(.md-typeset, .resource-export-view .paper-content) .matching-columns li {
+  margin: 0 0 0.45em;
+  padding: 0;
+  overflow-wrap: anywhere;
+}
+
+:is(.md-typeset, .resource-export-view .paper-content) .matching-columns li:last-child {
+  margin-bottom: 0;
+}
+
+:is(.md-typeset, .resource-export-view .paper-content) .matching-definitions > li::marker {
+  font-weight: 700;
+}
+
+:is(.md-typeset, .resource-export-view .paper-content) .matching-label {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  :is(.md-typeset, .resource-export-view .paper-content) .matching-columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  :is(.md-typeset, .resource-export-view .paper-content) .matching-columns .matching-label {
+    display: block;
+    margin: 0 0 0.35em;
+    font-weight: 700;
+  }
+}
+
+@media print {
+  :is(.md-typeset, .resource-export-view .paper-content) .matching-group,
+  :is(.md-typeset, .resource-export-view .paper-content) .matching-columns li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+/* Fit ordinary tables to their content, bounded by the printable area. */
 .resource-export-view .paper-content table {
-  width: 100%;
+  width: auto;
   max-width: 100%;
-  margin: 1em 0;
+  table-layout: auto;
+  margin: 1em auto;
   border-collapse: collapse;
   font-size: inherit;
 }
@@ -1077,7 +1178,41 @@ body.resource-export-view [hidden] {
   color: inherit;
   text-align: start;
   vertical-align: top;
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* Opt in only compact frequency tables; prose tables keep automatic columns. */
+.resource-export-view .paper-content [data-print-table="frequency"] {
+  width: 100%;
+  margin: 0.75em 0;
+}
+
+.resource-export-view .paper-content [data-print-table="frequency"] table {
+  /* Leave room for the collapsed edge border at the printable page boundary. */
+  width: calc(100% - 2px);
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+.resource-export-view .paper-content [data-print-table="frequency"] :is(th, td) {
+  padding: 0.3em 0.45em;
+  border: 0.5pt solid #888;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.resource-export-view .paper-content [data-print-table="frequency"] tr > :first-child {
+  width: 24mm;
+}
+
+@media print {
+  .resource-export-view .paper-content [data-print-table="response"],
+  .resource-export-view .paper-content li:has(> [data-print-table="response"]) {
+    break-inside: avoid;
+  }
+  .resource-export-view .paper-content :is(p, ol):has(+ [data-print-table="response"]) {
+    break-after: avoid;
+  }
 }
 
 .resource-export-view .paper-content th {

@@ -9,6 +9,9 @@
   let supportsEndAnswers = false;
   let mathAssetsReady = null;
   let ready = false;
+  let selection = [];
+  let revision = 0;
+  let preparing = false;
 
   const withTimeout = (promise, message, duration = 20000) => {
     let timer;
@@ -29,13 +32,14 @@
     } catch { throw new Error(sourceError); }
     const match = /^(mandatory|elective)\/([^/]+)\/(exams|quizzes)\/([^/]+?)(?:\/|\.html)$/.exec(path);
     if (url.origin !== location.origin || !url.pathname.startsWith(siteRoot.pathname) ||
-        url.username || url.password || url.search || url.hash || !match ||
+        url.username || url.password || url.search || !match ||
         /[%\\?#\u0000-\u0020]/.test(path) ||
         [match[2], match[4]].some((part) => [".", "..", "index"].includes(part.toLowerCase()))) {
       throw new Error(sourceError);
     }
     // Normalize percent-encoded spellings before deduplication and index checks.
     url.pathname = siteRoot.pathname + path;
+    if (url.hash && !/^#[a-z0-9][a-z0-9-]*$/.test(url.hash)) throw new Error(sourceError);
     return url;
   };
 
@@ -183,10 +187,11 @@
 
   const cleanArticle = (sourceArticle, sourceUrl) => {
     const result = sourceArticle.cloneNode(true);
+    const collection = result.querySelector(".resource-collection-marker + .tabbed-set");
     result.querySelectorAll(
       "script, style, link, iframe, object, embed, form, button, " +
       ".md-content__button, .headerlink, .footnote-backref, .md-source-file, " +
-      ".md-feedback, .giscus, #__comments, .resource-page-tools, .md-typeset__scrollwrap > .md-annotation"
+      ".md-feedback, .giscus, #__comments, .resource-page-tools, .resource-collection-selection, .resource-legacy-comments, .resource-collection-marker, .resource-category-anchor, .resource-panel-title, .md-typeset__scrollwrap > .md-annotation"
     ).forEach((node) => node.remove());
 
     // Source-attribution comments stay private to source; do not turn them into a byline.
@@ -199,13 +204,40 @@
       const labels = Array.from(tabs.querySelectorAll(":scope > .tabbed-labels label"));
       const blocks = tabs.querySelectorAll(":scope > .tabbed-content > .tabbed-block");
       blocks.forEach((block, index) => {
-        if (!labels[index]) return;
+        if (!labels[index] || tabs === collection) return;
         const heading = document.createElement("h3");
         heading.textContent = labels[index].textContent;
         block.prepend(heading);
       });
       tabs.querySelectorAll(":scope > input, :scope > .tabbed-labels").forEach((node) => node.remove());
     });
+
+    // Reading categories do not change the existing nine-material print order.
+    if (collection) {
+      const blocks = Array.from(collection.querySelectorAll('section[id][data-export-title]'))
+        .map((section) => section.closest('.tabbed-block'));
+      collection.querySelector(':scope > .tabbed-content').replaceChildren(...blocks);
+    }
+
+    // Only explicitly marked collection sections can be exported by fragment.
+    if (sourceUrl.hash) {
+      const key = sourceUrl.hash.slice(1);
+      const sections = Array.from(result.querySelectorAll('section[id][data-export-title]'));
+      const selected = sections.filter((section) => section.id === key || section.dataset.exportGroup === key);
+      if (!selected.length) throw new Error('未找到所选小测或练习，请从原文重新选择。');
+      const heading = result.querySelector(':scope > h1');
+      const label = selected.length === 1 ? selected[0].dataset.exportTitle : selected[0].dataset.exportGroupTitle;
+      heading.textContent += ` · ${label}`;
+      const notice = result.querySelector(':scope > .resource-use-notice');
+      const metadata = result.querySelector(':scope > blockquote');
+      const footer = result.querySelector(':scope > .resource-use-source');
+      const summary = Array.from(result.querySelectorAll('[data-answer-summary]'))
+        .filter((node) => node.dataset.exportGroup === key);
+      const blocks = selected.map((section) => section.closest('.tabbed-block') || section);
+      // The single-resource title already identifies this tab.
+      if (selected.length === 1) blocks[0].querySelector(':scope > h3')?.remove();
+      result.replaceChildren(...[heading, notice, metadata, ...blocks, ...summary, footer].filter(Boolean));
+    }
 
     result.querySelectorAll("details").forEach((details) => {
       const summary = details.querySelector(":scope > summary");
@@ -470,6 +502,9 @@
     if (answerMode.value === "end" && !supportsEndAnswers) answerMode.value = "answers";
     papers.forEach(({ article, answers, answerKey }) => {
       answers.forEach((answer) => { answer.hidden = answerMode.value !== "answers"; });
+      article.querySelectorAll('[data-answer-summary]').forEach((summary) => {
+        summary.hidden = answerMode.value !== 'answers';
+      });
       if (answerKey) answerKey.hidden = answerMode.value !== "end";
       groupShortQuestions(article);
     });
@@ -478,30 +513,87 @@
     document.title = `${title}${suffix}`;
   };
 
-  const fetchSource = async (sourceUrl) => {
+  const fetchSource = async (sourceUrl, followedAlias = false) => {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 20000);
     try {
       const response = await fetch(sourceUrl, { signal: controller.signal, credentials: "same-origin" });
       if (!response.ok) throw new Error("资料加载失败，请返回原文或刷新重试。");
       const finalUrl = validateSource(response.url);
+      finalUrl.hash = sourceUrl.hash;
       if (sourceIndex(finalUrl).href !== sourceIndex(sourceUrl).href) {
         throw new Error("资料地址已改变，请返回资料列表重新选择。");
       }
-      return { sourceUrl: finalUrl, html: await response.text() };
+      const html = await response.text();
+      const parsed = new DOMParser().parseFromString(html, 'text/html');
+      const alias = parsed.querySelector('meta[name="resource-export-source"]')?.content;
+      if (alias) {
+        const destination = validateSource(new URL(alias, finalUrl));
+        if (followedAlias || sourceIndex(destination).href !== sourceIndex(finalUrl).href) {
+          throw new Error('资料地址已改变，请返回资料列表重新选择。');
+        }
+        return await fetchSource(destination, true);
+      }
+      return { sourceUrl: finalUrl, html };
     } finally { clearTimeout(timer); }
   };
 
-  const prepare = async () => {
-    let sources = [];
+  // Resolve explicit material units in source order; existing batch formatting
+  // remains responsible for pagination and answers within each independent paper.
+  const resolvePapers = async (requested) => {
+    const fetched = new Map();
+    const documents = new Map();
+    for (const request of requested) {
+      if (!fetched.has(request.pathname)) fetched.set(request.pathname, await fetchSource(request));
+      const { sourceUrl: resolved, html } = fetched.get(request.pathname);
+      const sourceUrl = new URL(resolved);
+      if (sourceUrl.pathname === request.pathname) sourceUrl.hash = request.hash;
+      if (!documents.has(sourceUrl.pathname)) {
+        const parsed = new DOMParser().parseFromString(html, "text/html");
+        const original = parsed.querySelector("article.md-content__inner");
+        if (!original?.querySelector("h1")) throw new Error("未找到试卷正文，请返回资料列表重新选择。");
+        documents.set(sourceUrl.pathname, { sourceUrl, parsed, original, keys: new Set() });
+      }
+      documents.get(sourceUrl.pathname).keys.add(sourceUrl.hash.slice(1));
+    }
+    const units = [];
+    for (const document of documents.values()) {
+      const sections = Array.from(document.original.querySelectorAll('section[id][data-export-title]'));
+      const heading = document.original.querySelector('h1').cloneNode(true);
+      heading.querySelectorAll('.headerlink').forEach((node) => node.remove());
+      if (!sections.length) {
+        units.push({ ...document, label: heading.textContent.trim(), category: '', selected: true });
+        continue;
+      }
+      for (const key of document.keys) {
+        if (key && !sections.some((section) => section.id === key || section.dataset.exportGroup === key)) {
+          throw new Error("未找到所选小测或练习，请从原文重新选择。");
+        }
+      }
+      const categoryTabs = document.original.querySelector('.resource-collection-marker + .tabbed-set');
+      const categoryBlocks = Array.from(categoryTabs?.querySelectorAll(':scope > .tabbed-content > .tabbed-block') || []);
+      const categoryLabels = categoryTabs?.querySelectorAll(':scope > .tabbed-labels label');
+      sections.forEach((section) => {
+        const sourceUrl = new URL(document.sourceUrl);
+        sourceUrl.hash = section.id;
+        const categoryIndex = categoryBlocks.findIndex((block) => block.contains(section));
+        units.push({ ...document, sourceUrl, label: section.dataset.exportTitle,
+          category: categoryLabels?.[categoryIndex]?.textContent.trim() || '',
+          selected: document.keys.has('') || document.keys.has(section.id) || document.keys.has(section.dataset.exportGroup) });
+      });
+    }
+    return units;
+  };
+
+  const prepare = async (units, version) => {
+    const sources = units.map((unit) => unit.sourceUrl);
     let completed = 0;
     let currentLabel = "";
     let currentIndex = 0;
     ready = false;
     printButton.disabled = true;
     try {
-      sources = getSources();
-      const batch = sources.length > 1;
+      const batch = units.length > 1;
       document.body.classList.toggle("resource-export-batch", batch);
       const sourceLink = document.querySelector("#source-link");
       sourceLink.href = batch ? sourceIndex(sources[0]).href : sources[0].href;
@@ -509,18 +601,13 @@
       title = batch ? `资料合集（${sources.length} 份）` : "资料";
       paper.replaceChildren();
 
-      // Fetch and prepare one paper at a time, keeping the user's selection order.
-      for (const [index, requestedUrl] of sources.entries()) {
+      // Each selected material uses the existing independent-paper pipeline.
+      for (const [index, { sourceUrl, parsed, original }] of units.entries()) {
+        if (version !== revision) return;
+        const requestedUrl = sourceUrl;
         currentIndex = index + 1;
         currentLabel = decodeURIComponent(requestedUrl.pathname.split("/").filter(Boolean).at(-1)).replace(/\.html$/, "");
         status.textContent = batch ? `已准备 ${completed}/${sources.length} 份资料。正在准备第 ${currentIndex} 份…` : "正在准备资料…";
-        const { sourceUrl, html } = await fetchSource(requestedUrl);
-        if (papers.some((entry) => entry.sourceUrl.href === sourceUrl.href)) {
-          throw new Error("资料重定向后与已选资料重复，请返回资料列表重新选择。");
-        }
-        const parsed = new DOMParser().parseFromString(html, "text/html");
-        const original = parsed.querySelector("article.md-content__inner");
-        if (!original?.querySelector("h1")) throw new Error("未找到试卷正文，请返回资料列表重新选择。");
         const cleaned = cleanArticle(original, sourceUrl);
         const article = document.createElement("article");
         article.className = "paper-content";
@@ -536,9 +623,11 @@
           withTimeout(Promise.all(Array.from(article.querySelectorAll("img")).map((img) => img.decode())),
             "题图加载超时，请检查网络后刷新重试。"),
         ]);
+        if (version !== revision) return;
         // Flush layout so fonts used by this paper enter the font-loading set.
         article.getBoundingClientRect();
         await withTimeout(document.fonts.ready, "字体加载超时，请刷新重试。");
+        if (version !== revision) return;
         formatQuestions(entry);
         entry.supportsEndAnswers = buildAnswerKey(entry);
         if (batch) namespaceReferences(article, sourceUrl, `export-paper-${currentIndex}-`);
@@ -560,6 +649,7 @@
       status.textContent = batch ? `已准备 ${completed}/${sources.length} 份资料。可直接打印，或在打印窗口中保存 PDF。` :
         "已就绪。可直接打印，或在打印窗口中保存 PDF。";
     } catch (error) {
+      if (version !== revision) return;
       ready = false;
       printButton.disabled = true;
       paper.replaceChildren();
@@ -573,8 +663,107 @@
     }
   };
 
+  // Serialize rebuilds; a later selection invalidates any in-flight preview.
+  const renderSelection = async () => {
+    if (preparing || !selection.length) return;
+    const version = revision;
+    preparing = true;
+    await prepare(selection, version);
+    preparing = false;
+    if (version !== revision) renderSelection();
+  };
+
+  const refreshSelection = () => {
+    revision += 1;
+    ready = false;
+    printButton.disabled = true;
+    paper.replaceChildren();
+    papers.length = 0;
+    paper.setAttribute('aria-busy', String(Boolean(selection.length)));
+    status.setAttribute('role', 'status');
+    status.textContent = selection.length ? '正在更新所选资料…' : '请选择至少一份资料后再打印。';
+    renderSelection();
+  };
+
+  const initializeRange = (units) => {
+    const panel = document.querySelector('#range-selection');
+    const groups = document.querySelector('#range-groups');
+    const all = document.querySelector('#range-all');
+    const change = document.querySelector('#change-range');
+    const summary = document.querySelector('#range-summary');
+    const count = document.querySelector('#range-count');
+    const empty = new URL(location.href).searchParams.get('select') === 'none';
+    const categories = new Map();
+    const choices = units.map((unit) => {
+      if (!categories.has(unit.category)) {
+        const fieldset = document.createElement('fieldset');
+        fieldset.className = 'export-range-group';
+        if (unit.category) {
+          const legend = document.createElement('legend');
+          legend.textContent = unit.category;
+          fieldset.append(legend);
+        } else fieldset.setAttribute('aria-label', '资料');
+        const list = document.createElement('div');
+        list.className = 'export-range-choices';
+        fieldset.append(list);
+        groups.append(fieldset);
+        categories.set(unit.category, list);
+      }
+      const label = document.createElement('label');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.value = unit.sourceUrl.pathname + unit.sourceUrl.hash;
+      checkbox.checked = !empty && unit.selected;
+      label.append(checkbox, unit.label);
+      categories.get(unit.category).append(label);
+      return { checkbox, unit };
+    });
+    const update = (persist = true) => {
+      selection = choices.filter(({ checkbox }) => checkbox.checked).map(({ unit }) => unit);
+      all.checked = selection.length === units.length;
+      all.indeterminate = selection.length > 0 && selection.length < units.length;
+      count.textContent = `已选 ${selection.length} / ${units.length} 份`;
+      summary.textContent = '打印范围：' + (selection.length === 1 ? selection[0].label :
+        selection.length ? `共 ${selection.length} 份${all.checked ? '（全部）' : ''}` : `未选择（共 ${units.length} 份可选）`);
+      if (persist) {
+        const url = new URL(location.href);
+        url.searchParams.delete('source');
+        url.searchParams.delete('select');
+        const sources = selection.length ? selection.map(({ sourceUrl }) => sourceUrl.pathname + sourceUrl.hash) :
+          Array.from(new Set(units.map(({ sourceUrl }) => sourceUrl.pathname)));
+        sources.forEach((source) => url.searchParams.append('source', source));
+        if (!selection.length) url.searchParams.set('select', 'none');
+        history.replaceState(history.state, '', url);
+      }
+      refreshSelection();
+    };
+    choices.forEach(({ checkbox }) => checkbox.addEventListener('change', () => update()));
+    all.addEventListener('change', () => {
+      choices.forEach(({ checkbox }) => { checkbox.checked = all.checked; });
+      update();
+    });
+    change.addEventListener('click', () => {
+      panel.hidden = !panel.hidden;
+      change.setAttribute('aria-expanded', String(!panel.hidden));
+      change.textContent = panel.hidden ? '更改' : '收起';
+    });
+    document.querySelector('.export-range-summary').hidden = false;
+    document.querySelector('#source-link').href = units[0].sourceUrl.pathname;
+    update(false);
+  };
+
+  const initialize = async () => {
+    try {
+      initializeRange(await resolvePapers(getSources()));
+    } catch (error) {
+      paper.setAttribute('aria-busy', 'false');
+      status.setAttribute('role', 'alert');
+      status.textContent = error.name === 'AbortError' ? '资料加载超时，请刷新重试。' : error.message;
+    }
+  };
+
   answerMode.addEventListener("change", () => { if (ready) updateAnswers(); });
   printButton.addEventListener("click", () => { if (ready) window.print(); });
   window.addEventListener("beforeprint", () => { if (ready) papers.forEach(({ article }) => groupShortQuestions(article)); });
-  prepare();
+  initialize();
 })();
