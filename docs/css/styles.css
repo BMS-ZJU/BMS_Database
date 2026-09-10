@@ -1087,20 +1087,20 @@
 }
 
 
-/* Only the collection's outer category labels receive a stronger hierarchy. */
+/* Emphasize outer categories and curriculum years; keep inner tabs at their normal size. */
 @media screen {
-  .md-typeset .resource-collection-marker + .tabbed-set > .tabbed-labels > label {
+  .md-typeset :is(.resource-collection-marker, .curriculum-context) + .tabbed-set > .tabbed-labels > label {
     font-size: calc(.736 * var(--bms-reading-small-unit, 1rem));
     font-weight: 700;
   }
-  :where(html:not([data-reading-style="original"])) .md-typeset .resource-collection-marker + .tabbed-set > .tabbed-labels > label {
+  :where(html:not([data-reading-style="original"])) .md-typeset :is(.resource-collection-marker, .curriculum-context) + .tabbed-set > .tabbed-labels > label {
     font-weight: 600;
   }
-  .md-typeset .resource-collection-marker + .tabbed-set > .tabbed-labels:not(.tabbed-labels--linked) > label,
-  .md-typeset .resource-collection-marker + .tabbed-set > .tabbed-labels--linked > label > a {
+  .md-typeset :is(.resource-collection-marker, .curriculum-context) + .tabbed-set > .tabbed-labels:not(.tabbed-labels--linked) > label,
+  .md-typeset :is(.resource-collection-marker, .curriculum-context) + .tabbed-set > .tabbed-labels--linked > label > a {
     padding: .85em 1em .75em;
   }
-  .md-typeset .resource-collection-marker + .tabbed-set > .tabbed-content > .tabbed-block > .tabbed-set {
+  .md-typeset :is(.resource-collection-marker, .curriculum-context) + .tabbed-set > .tabbed-content > .tabbed-block > .tabbed-set {
     margin-top: .55rem;
   }
   .resource-collection .resource-panel-title { margin: .8em 0 .4em; }

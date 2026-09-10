@@ -615,7 +615,7 @@ comments: false
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生学 18120590 18120590">
     <span class="course-catalog-name">卫生学<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">18120590 · 2.0 学分 · 可选预防医学（MED2425M），之后可申请课程替换。</span>
+    <span class="course-catalog-meta">18120590 · 2.0 学分 · 可选预防医学（MED2425M）替换</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="病原生物学 18198240 18198240">
     <span class="course-catalog-name">病原生物学<em class="course-catalog-status">暂无资料</em></span>
