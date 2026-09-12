@@ -12,6 +12,7 @@ import yaml
 from scripts.contributions import intake, models, pipeline, security as sec
 from scripts.contributions.ledger import Ledger, initialize
 from scripts.contributions import runtime
+from scripts.contributions.catalog import AUTO_COURSE
 from test_contribution_ledger import FakeGitHub, APIError
 import test_contributions as base_tests
 from test_contributions import fields, issue, proposal, environment, response_for, REPO
@@ -131,6 +132,28 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(intake.digest((self.source / "snapshot.json").read_text(encoding="utf-8")), self.sha)
         self.blocked(self.execute)  # All keys + material consent + enable flag still need a reservation.
         self.assertFalse(self.receipt.exists())
+
+    def test_auto_course_completes_guarded_review_without_extra_course_selection(self):
+        self.api.issue = {**issue({**fields(), "课程": AUTO_COURSE}), "state": "open"}
+        self.refresh_snapshot()
+        self.blocked(self.execute)  # The default option is not permission to spend.
+        self.assertTrue(self.process())
+        self.assertEqual(len(self.calls), 1)  # Simulated transport only; sockets are blocked.
+        self.assertEqual(self.snapshot["fields"]["课程"], AUTO_COURSE)
+        self.assertEqual(self.snapshot["issue"]["body"], self.api.issue["body"])
+        self.assertIn("现有资料入口", (self.output / "review.html").read_text(encoding="utf-8"))
+        pipeline.checked_candidate(self.root, self.output)
+        self.assertEqual((self.root / self.target).read_text(encoding="utf-8"), self.original)
+
+    def test_auto_course_edited_page_or_selection_invalidates_approval(self):
+        value = {**fields(), "课程": AUTO_COURSE}
+        self.api.issue = {**issue(value), "state": "open"}
+        self.refresh_snapshot()
+        self.reserve()
+        for override in ({"页面地址": "https://example.org/BMS/mandatory/other/"},
+                         {"课程": fields()["课程"]}):
+            self.api.issue = {**issue({**value, **override}), "state": "open"}
+            self.blocked(self.execute)
 
     def test_non_dispatch_events_and_ordinary_permissions_never_call(self):
         for event in ("issues", "issue_comment", "pull_request", "pull_request_target", "workflow_run", "push"):

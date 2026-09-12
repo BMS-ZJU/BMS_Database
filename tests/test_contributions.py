@@ -10,7 +10,7 @@ import yaml
 from scripts.contributions import intake
 from scripts.contributions import models
 from scripts.contributions import security
-from scripts.contributions.catalog import sync_forms
+from scripts.contributions.catalog import AUTO_COURSE, sync_forms
 
 REPO = Path(__file__).resolve().parents[1]
 
@@ -250,6 +250,7 @@ class IntakeTests(unittest.TestCase):
             self.assertTrue(next(e for e in controls if e["id"] == primary)["validations"]["required"])
             course = next(e for e in controls if e["id"] == "course")
             self.assertEqual(course["type"], "dropdown")
+            self.assertEqual(course["attributes"]["options"][course["attributes"]["default"]], AUTO_COURSE)
             self.assertTrue(course["validations"]["required"])
             service = next(e for e in controls if e["id"] == "model_service")
             self.assertEqual(service["type"], "dropdown")
@@ -375,6 +376,40 @@ class IntakeTests(unittest.TestCase):
             self.assertFalse(self.output.exists())
         value = {**fields(), "页面地址": fields()["页面地址"] + "#notes"}
         intake.validate_selection(self.root, self.target, value)
+
+    def test_auto_course_still_requires_the_exact_approved_page(self):
+        transport = Mock(side_effect=AssertionError("自动匹配不应调用模型"))
+        for address in ("", "https://evil.example/BMS/mandatory/example/",
+                        "https://example.org/BMS/mandatory/other/",
+                        "https://example.org/BMS/mandatory/example/exams/",
+                        "https://example.org/BMS/mandatory/example/../other/",
+                        "https://example.org/BMS/mandatory/example/?redirect=elsewhere",
+                        "https://example.org@evil.example/BMS/mandatory/example/"):
+            value = {**fields(), "课程": AUTO_COURSE, "页面地址": address}
+            with self.subTest(address=address), self.assertRaises(ValueError):
+                intake.prepare(self.root, self.target, issue(value), self.output, environment(), transport)
+            self.assertFalse(self.output.exists())
+        transport.assert_not_called()
+        # Explicit selections remain binding even when the page address is correct.
+        for course in ("", "None", "站点公共页面", "未找到课程或页面 (人工核对)", "别的课程"):
+            with self.subTest(course=course), self.assertRaises(ValueError):
+                intake.validate_selection(self.root, self.target, {**fields(), "课程": course})
+
+    def test_auto_course_keeps_submission_and_course_code_boundaries(self):
+        (self.root / "COURSE_NAME_MAP.yml").write_text(
+            "courses:\n  - path: mandatory/example\n    chinese_name: 示例课程\n    course_code: MED01\n"
+            "  - path: elective/example\n    chinese_name: 示例课程\n    course_code: MED02\n", encoding="utf-8")
+        value = {**fields(), "课程": AUTO_COURSE}
+        submission = issue(value)
+        transport = Mock(side_effect=AssertionError("收件不应调用模型"))
+        self.assertFalse(intake.prepare(self.root, self.target, submission, self.output, {}, transport))
+        transport.assert_not_called()
+        snapshot = json.loads((self.output / "snapshot.json").read_text(encoding="utf-8"))
+        self.assertEqual(snapshot["issue"], submission)
+        self.assertEqual(snapshot["fields"], value)
+        self.assertEqual(snapshot["target"], self.target)
+        with self.assertRaises(ValueError):
+            intake.validate_selection(self.root, "docs/elective/example/index.md", value)
 
     def test_correction_fields_keep_problem_and_suggestion_as_evidence(self):
         value = fields()

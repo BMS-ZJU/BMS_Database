@@ -15,8 +15,9 @@ body:
   id: course
   attributes:
     label: 课程
-    description: 必选。按页面地址选择对应课程; 无匹配项时选“未找到课程或页面”, 由人工核对
+    description: 从网站进入时无需再选。没有页面地址时可手动选择课程; 无匹配项时选“未找到课程或页面”, 由人工核对
     options:
+    - 按页面地址自动匹配
     - 医学生命基础 (MED1001M)
     - 医学科学素养Ⅰ (MED1003M)
     - 医学科学英语基础 (MED1005M)
@@ -59,6 +60,7 @@ body:
     - 神经建模与数据分析 (MED5075M)
     - 站点公共页面
     - 未找到课程或页面 (人工核对)
+    default: 0
   validations:
     required: true
 - type: input
