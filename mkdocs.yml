@@ -7,6 +7,12 @@ edit_uri: edit/main/docs/
 
 draft_docs: |
   freshman/**
+  !freshman/index.md
+  !freshman/deferred-exams.md
+  !freshman/course-selection.md
+  !freshman/external-exchange.md
+  !freshman/textbook-ordering.md
+  !freshman/assets/exchange-credit-recognition.png
 
 exclude_docs: |
   others/**
@@ -65,6 +71,13 @@ nav:
       - 直接修改与提交 PR: contribute/editing.md
       - 来源与使用范围: contribute/sources-and-permissions.md
     - 后记: afterword.md
+  - 紫金港速通:
+    - freshman/index.md
+    - 学习与教务:
+      - 选课: freshman/course-selection.md
+      - 教材预订: freshman/textbook-ordering.md
+      - 缓考: freshman/deferred-exams.md
+    - 对外交流: freshman/external-exchange.md
   - 培养方案:
     - curricula/index.md
   - 课程资料:
