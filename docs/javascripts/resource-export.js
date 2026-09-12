@@ -198,6 +198,25 @@
           paragraph.classList.toggle("resource-index-note", index > 0 && !isAction);
         });
 
+        // Markdown may put reading and practice links in separate paragraphs.
+        // Keep one action row so the export divider follows the visible links.
+        const rows = Array.from(card.querySelectorAll(":scope > p.resource-index-actions"));
+        if (rows.length > 1) {
+          rows.slice(1).forEach((row) => {
+            rows[0].append(...row.childNodes);
+            row.remove();
+          });
+        }
+        const actions = rows[0];
+        if (actions) {
+          const practice = actions.querySelector(":scope > .resource-practice-link");
+          const read = actions.querySelector(":scope > .resource-read-link");
+          if (practice && read) {
+            actions.prepend(read);
+            read.after(practice);
+          }
+        }
+
         // Match the catalog: the resource name itself is the primary entry.
         const title = card.querySelector(":scope > p:first-child > strong");
         const source = card.querySelector(":scope > p.resource-index-actions > a[href]:not(.resource-export-link)");
