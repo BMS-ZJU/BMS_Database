@@ -1,4 +1,4 @@
-"""Shared course identities and generated native GitHub dropdowns."""
+"""Shared course identities and GitHub course-field contract."""
 import argparse
 from pathlib import Path
 
@@ -24,24 +24,24 @@ def sync_forms(root, check=True):
         path = root / ".github/ISSUE_TEMPLATE" / name
         form = yaml.safe_load(path.read_text(encoding="utf-8"))
         field = next(item for item in form["body"] if item.get("id") == "course")
+        attributes = {
+            "label": "课程",
+            "description": "从网站进入时会自动填写, 无需重复选择。直接投稿可填写课程名称与代码; 已填页面地址时也可保留“按页面地址自动匹配”",
+            "value": AUTO_COURSE,
+        }
         if check:
-            if (field["type"] != "dropdown" or field["attributes"].get("options") != options
-                    or field["attributes"].get("default") != 0):
-                raise ValueError("投稿课程下拉框已过期, 请运行 python scripts/contributions/catalog.py --write")
+            if (field["type"] != "input" or field["attributes"] != attributes
+                    or field.get("validations") != {"required": True}):
+                raise ValueError("投稿课程字段已过期, 请运行 python scripts/contributions/catalog.py --write")
         else:
-            field["type"] = "dropdown"
-            field["attributes"] = {
-                "label": "课程",
-                "description": "从网站进入时无需再选。没有页面地址时可手动选择课程; 无匹配项时选“未找到课程或页面”, 由人工核对",
-                "options": options,
-                "default": 0,
-            }
+            field["type"] = "input"
+            field["attributes"] = attributes
             field["validations"] = {"required": True}
             path.write_text(yaml.safe_dump(form, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--write", action="store_true", help="更新两份 GitHub 表单的课程选项")
+    parser.add_argument("--write", action="store_true", help="更新两份 GitHub 表单的课程字段")
     args = parser.parse_args()
     sync_forms(Path(__file__).resolve().parents[2], check=not args.write)
