@@ -14,9 +14,9 @@ from urllib.request import HTTPRedirectHandler, Request, build_opener
 import yaml
 
 try:
-    from .catalog import courses
+    from .catalog import AUTO_COURSE, courses
 except ImportError:
-    from catalog import courses
+    from catalog import AUTO_COURSE, courses
 
 LABELS = ("课程", "页面地址", "适用范围", "内容", "来源与依据", "网页署名",
           "本站使用范围", "允许使用的外部模型服务", "Ginkgo 使用意愿", "公开确认",
@@ -83,7 +83,8 @@ def resolve_target(root, target):
 
 def validate_selection(root, target, fields):
     course = next(item for item in courses(root) if target.startswith("docs/" + item["id"] + "/"))
-    if fields.get("课程") != course["label"]:
+    # Auto matching still requires the exact page URL below; it never chooses a target.
+    if fields.get("课程") not in (AUTO_COURSE, course["label"]):
         raise ValueError("表单课程与目标页面不匹配, 请人工核对")
     # Read scalar configuration without executing the YAML Python-tag extensions.
     config = yaml.load((root / "mkdocs.yml").read_text(encoding="utf-8"), Loader=yaml.BaseLoader)

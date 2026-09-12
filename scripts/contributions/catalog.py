@@ -6,6 +6,7 @@ import yaml
 
 GENERAL = "站点公共页面"
 UNKNOWN = "未找到课程或页面 (人工核对)"
+AUTO_COURSE = "按页面地址自动匹配"
 
 
 def courses(root):
@@ -16,7 +17,7 @@ def courses(root):
 
 
 def sync_forms(root, check=True):
-    options = [item["label"] for item in courses(root)] + [GENERAL, UNKNOWN]
+    options = [AUTO_COURSE, *[item["label"] for item in courses(root)], GENERAL, UNKNOWN]
     if len(options) != len(set(options)):
         raise ValueError("课程选项不唯一, 请核对课程代码")
     for name in ("material.yml", "correction.yml"):
@@ -24,14 +25,16 @@ def sync_forms(root, check=True):
         form = yaml.safe_load(path.read_text(encoding="utf-8"))
         field = next(item for item in form["body"] if item.get("id") == "course")
         if check:
-            if field["type"] != "dropdown" or field["attributes"].get("options") != options:
+            if (field["type"] != "dropdown" or field["attributes"].get("options") != options
+                    or field["attributes"].get("default") != 0):
                 raise ValueError("投稿课程下拉框已过期, 请运行 python scripts/contributions/catalog.py --write")
         else:
             field["type"] = "dropdown"
             field["attributes"] = {
                 "label": "课程",
-                "description": "必选。按页面地址选择对应课程; 无匹配项时选“未找到课程或页面”, 由人工核对",
+                "description": "从网站进入时无需再选。没有页面地址时可手动选择课程; 无匹配项时选“未找到课程或页面”, 由人工核对",
                 "options": options,
+                "default": 0,
             }
             field["validations"] = {"required": True}
             path.write_text(yaml.safe_dump(form, allow_unicode=True, sort_keys=False, width=120), encoding="utf-8")
