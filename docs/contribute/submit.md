@@ -20,10 +20,10 @@ comments: false
   <p data-picker-status role="status" aria-live="polite"></p>
 </div>
 
-<noscript><p>课程联动选择需要 JavaScript。你也可以直接填写下面的 GitHub 表单, 粘贴页面地址，或手动选择课程。</p></noscript>
+<noscript><p>课程联动选择需要 JavaScript。你也可以直接填写下面的 GitHub 表单, 粘贴页面地址，或填写课程名称与代码。</p></noscript>
 
 若没有对应页面，新增资料可以选择课程主页；课程也未列出时，选择“未找到课程或页面”，交由维护者定位。站点首页、培养方案或使用说明等归在“站点公共页面”。
 
-也可以直接打开 [资料与经验表单](https://github.com/BMS-ZJU/BMS_Database/issues/new?template=material.yml)或[纠错表单](https://github.com/BMS-ZJU/BMS_Database/issues/new?template=correction.yml)。从网站进入时，课程默认按已带入的页面地址匹配，无需再选；直接填写 GitHub 表单且没有页面地址时，可手动选择课程。
+也可以直接打开 [资料与经验表单](https://github.com/BMS-ZJU/BMS_Database/issues/new?template=material.yml)或[纠错表单](https://github.com/BMS-ZJU/BMS_Database/issues/new?template=correction.yml)。从网站进入时，课程名称与页面地址会自动填写，无需再选。直接填写 GitHub 表单时，可粘贴页面地址并保留“按页面地址自动匹配”，或填写课程名称与代码。
 
 熟悉 GitHub 和本站结构的同学，推荐[直接修改并提交 PR](editing.md)。一次相关修改涉及多页或多门课程时，可以放在同一个 PR 中。

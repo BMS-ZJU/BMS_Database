@@ -249,8 +249,10 @@ class IntakeTests(unittest.TestCase):
             primary = "content" if filename == "material.yml" else "problem"
             self.assertTrue(next(e for e in controls if e["id"] == primary)["validations"]["required"])
             course = next(e for e in controls if e["id"] == "course")
-            self.assertEqual(course["type"], "dropdown")
-            self.assertEqual(course["attributes"]["options"][course["attributes"]["default"]], AUTO_COURSE)
+            self.assertEqual(course["type"], "input")
+            self.assertEqual(course["attributes"]["value"], AUTO_COURSE)
+            self.assertNotIn("options", course["attributes"])
+            self.assertNotIn("default", course["attributes"])
             self.assertTrue(course["validations"]["required"])
             service = next(e for e in controls if e["id"] == "model_service")
             self.assertEqual(service["type"], "dropdown")
