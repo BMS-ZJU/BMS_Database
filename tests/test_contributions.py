@@ -10,7 +10,7 @@ import yaml
 from scripts.contributions import intake
 from scripts.contributions import models
 from scripts.contributions import security
-from scripts.contributions.catalog import AUTO_COURSE, sync_forms
+from scripts.contributions.catalog import AUTO_COURSE, GENERAL, UNKNOWN, courses, sync_forms
 
 REPO = Path(__file__).resolve().parents[1]
 
@@ -239,20 +239,26 @@ class IntakeTests(unittest.TestCase):
 
     def test_form_contracts_and_workflow_permissions(self):
         sync_forms(REPO, check=True)
-        for filename in ("material.yml", "correction.yml"):
+        for filename in ("material.yml", "correction.yml", "material-direct.yml", "correction-direct.yml"):
             form = yaml.safe_load((REPO / ".github/ISSUE_TEMPLATE" / filename).read_text(encoding="utf-8"))
             controls = [entry for entry in form["body"] if entry["type"] != "markdown"]
             labels = [entry["attributes"]["label"] for entry in controls]
-            exclusive = {"问题位置与现状", "建议修改"} if filename == "material.yml" else {"内容"}
+            exclusive = {"问题位置与现状", "建议修改"} if filename.startswith("material") else {"内容"}
             self.assertEqual(set(labels), set(intake.LABELS) - exclusive)
             self.assertEqual(len(labels), len(set(labels)))
-            primary = "content" if filename == "material.yml" else "problem"
+            primary = "content" if filename.startswith("material") else "problem"
             self.assertTrue(next(e for e in controls if e["id"] == primary)["validations"]["required"])
             course = next(e for e in controls if e["id"] == "course")
-            self.assertEqual(course["type"], "input")
-            self.assertEqual(course["attributes"]["value"], AUTO_COURSE)
-            self.assertNotIn("options", course["attributes"])
-            self.assertNotIn("default", course["attributes"])
+            if "-direct" in filename:
+                self.assertEqual(course["type"], "dropdown")
+                self.assertEqual(course["attributes"]["options"],
+                                 [c["label"] for c in courses(REPO)] + [GENERAL, UNKNOWN])
+                self.assertNotIn("default", course["attributes"])
+            else:
+                self.assertEqual(course["type"], "input")
+                self.assertEqual(course["attributes"]["value"], AUTO_COURSE)
+                self.assertNotIn("options", course["attributes"])
+                self.assertNotIn("default", course["attributes"])
             self.assertTrue(course["validations"]["required"])
             service = next(e for e in controls if e["id"] == "model_service")
             self.assertEqual(service["type"], "dropdown")
