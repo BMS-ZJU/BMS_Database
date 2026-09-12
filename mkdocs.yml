@@ -9,7 +9,6 @@ draft_docs: |
   freshman/**
 
 exclude_docs: |
-  _templates/**
   others/**
   policy/**
 
