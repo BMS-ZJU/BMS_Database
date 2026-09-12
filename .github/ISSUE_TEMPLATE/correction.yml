@@ -122,7 +122,7 @@ body:
   id: ginkgo
   attributes:
     label: Ginkgo 使用意愿
-    description: 与本站收录分开确认; 即使同意, 仍由维护者核对来源、署名与具体范围
+    description: Ginkgo 是独立的免费在线练习网站, 可将材料整理为选择题练习或问答卡片。默认未同意, 不影响本站投稿; 与本站收录和外部模型处理分别确认。说明见 https://bms-zju.github.io/BMS_Database/contribute/#ginkgo
     options:
     - 未同意或尚未确认
     - 同意将本次允许公开的内容用于 Ginkgo 免费练习, 保留来源并区分新增内容

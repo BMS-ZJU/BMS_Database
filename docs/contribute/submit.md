@@ -9,6 +9,8 @@ comments: false
 
 **GitHub 投稿文字、附件和账号会立即公开。** 只提交有权公开的内容。权限不明的原件先不上传，只提供名称或线索；[来源与使用范围](sources-and-permissions.md)说明了具体要求。
 
+在 GitHub 表单中，你还可以单独选择是否允许将本次材料用于 [Ginkgo 免费在线练习](index.md#ginkgo)。默认未同意，不影响本站投稿；这一选择与本站收录、外部模型整理分别确认。
+
 <div class="contribution-picker" data-catalog="../catalog.json" hidden>
   <p data-picker-loading role="status">正在读取课程与页面列表……</p>
   <div data-picker-list></div>
