@@ -24,7 +24,7 @@ comments: false
     <input id="course-catalog-search" type="search" placeholder="输入课程名、课程号或英文名" autocomplete="off" data-course-search-input>
     <span class="course-catalog-counts">
       <span class="course-catalog-count" data-course-count>141 门课程</span>
-      <small>39 本站资料 · 4 站外同课 · 3 相关参考 · 95 暂无资料</small>
+      <small>40 本站资料 · 4 站外同课 · 4 相关参考 · 93 暂无资料</small>
     </span>
   </div>
 </div>
@@ -270,7 +270,7 @@ comments: false
 
 ## 大四
 
-<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 3">
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 4">
   <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅰ 重要疾病的临床与研究I MED4069M Human Diseases From Clinic To Research 考试 72120480" href="../mandatory/human_diseases_from_clinic_to_research_1/">
     <span class="course-catalog-name">重要疾病的临床与研究Ⅰ</span>
     <span class="course-catalog-meta">MED4069M · 4.5 学分 · 考试</span>
@@ -295,10 +295,14 @@ comments: false
     <span class="course-catalog-name">社会医学（乙）</span>
     <span class="course-catalog-meta">MED2426M · 1.5 学分 · 考试</span>
   </a>
+  <div class="course-catalog-item" data-course-search="神经建模与数据分析 1811129 研究生课 不同课程参考 MED5075M 72120540">
+    <span class="course-catalog-name">神经建模与数据分析<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">不同课程参考</em></span>
+    <span class="course-catalog-meta">1811129 · 2.0 学分 · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></span>
+  </div>
 </div>
 
 <details class="course-catalog-unavailable" data-course-unavailable-group>
-  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>24 门</span></summary>
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>23 门</span></summary>
   <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 12">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="重要传染病的防治基础 MED4067M The Basis For The Control And Prevention Of Important Infectious Diseases 72120570 MED4067M">
     <span class="course-catalog-name">重要传染病的防治基础<em class="course-catalog-status">暂无资料</em></span>
@@ -323,10 +327,6 @@ comments: false
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="神经系统疾病的分子基础 1811128 1811128">
     <span class="course-catalog-name">神经系统疾病的分子基础<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">1811128 · 2.0 学分</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="神经建模与数据分析 1811129 1811129">
-    <span class="course-catalog-name">神经建模与数据分析<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">1811129 · 2.0 学分</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高级病理生理学 1812060 1812060">
     <span class="course-catalog-name">高级病理生理学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
@@ -588,10 +588,14 @@ comments: false
     <span class="course-catalog-name">人工智能引论</span>
     <span class="course-catalog-meta">21188210 · 3.5 学分 · 图灵班资料 ↗</span>
   </a>
+  <a class="course-catalog-item" data-course-search="神经建模与数据分析 MED5075M Neural Modeling And Data Analysis 72120540" href="../elective/neural-modeling-and-data-analysis/">
+    <span class="course-catalog-name">神经建模与数据分析</span>
+    <span class="course-catalog-meta">MED5075M · 2.0 学分 · 课程主页</span>
+  </a>
 </div>
 
 <details class="course-catalog-unavailable" data-course-unavailable-group>
-  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>22 门</span></summary>
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>21 门</span></summary>
   <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 11">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="教育统计与测量 03120261 03120261">
     <span class="course-catalog-name">教育统计与测量<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>
@@ -672,10 +676,6 @@ comments: false
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="衰老生物学导论 MED5074M Introduction To Aging 72120520">
     <span class="course-catalog-name">衰老生物学导论<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MED5074M · 2.0 学分</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="神经建模与数据分析 MED5075M Neural Modeling And Data Analysis 72120540">
-    <span class="course-catalog-name">神经建模与数据分析<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">MED5075M · 2.0 学分</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="管理学 MGMT1001F Fundamentals of Management 201A0020 MGMT1001F">
     <span class="course-catalog-name">管理学<em class="course-catalog-status">暂无资料</em></span>

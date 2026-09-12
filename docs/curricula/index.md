@@ -127,7 +127,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 四（秋冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 四（冬）</small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞再生医学<em class="curriculum-course-status">暂无资料</em></span><small>1814071 · 2.0 学分 · 四（冬）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>1811126 · 2.0 学分 · 四（春）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 四（夏）</small></div>
@@ -269,7 +269,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 四（秋冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 四（冬）</small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞再生医学<em class="curriculum-course-status">暂无资料</em></span><small>1814071 · 2.0 学分 · 四（冬）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>1811126 · 2.0 学分 · 四（春）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 四（夏）</small></div>
@@ -441,7 +441,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 四（秋冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 四（冬）</small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞再生医学<em class="curriculum-course-status">暂无资料</em></span><small>1814071 · 2.0 学分 · 四（冬）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>1811126 · 2.0 学分 · 四（春）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 四（夏）</small></div>
@@ -577,7 +577,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>1811125 · 2.0 学分 · 五（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 五（秋冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 五（冬）</small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
           <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
@@ -707,7 +707,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 四（秋冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 四（冬）</small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞再生医学<em class="curriculum-course-status">暂无资料</em></span><small>1814071 · 2.0 学分 · 四（冬）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>1811126 · 2.0 学分 · 四（春）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 四（夏）</small></div>
@@ -885,7 +885,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>1811125 · 2.0 学分 · 五（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 五（秋冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 五（冬）</small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
           <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
@@ -1025,7 +1025,7 @@ hide:
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 五（秋冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 五（冬）</small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
         </div>
 
         ##### <span id="curriculum-2024-strong-base-transition-group-3" aria-hidden="true"></span>基础医学方向 · 疾病机制与精准干预 { #curriculum-2024-qiangji-transition-group-3 }
@@ -1117,7 +1117,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>72120610 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>72120540 · 2.0 学分 · 四（冬）</small></div>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>72120560 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>15192460 · 2.0 学分 · 四（春）</small></div>
@@ -1260,7 +1260,7 @@ hide:
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 五（秋冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>1811129 · 2.0 学分 · 五（冬）</small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
         </div>
 
         ##### <span id="curriculum-2023-strong-base-transition-group-3" aria-hidden="true"></span>基础医学 · 疾病机制与精准干预 { #curriculum-2023-qiangji-transition-group-3 }
@@ -1379,7 +1379,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>72120610 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>72120540 · 2.0 学分 · 四（冬）</small></div>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>72120560 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>15192460 · 2.0 学分 · 四（春）</small></div>
@@ -1585,7 +1585,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>72120610 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>72120540 · 2.0 学分 · 四（冬）</small></div>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>72120560 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
@@ -1793,7 +1793,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>72120610 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经建模与数据分析<em class="curriculum-course-status">暂无资料</em></span><small>72120540 · 2.0 学分 · 四（冬）</small></div>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>72120560 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>

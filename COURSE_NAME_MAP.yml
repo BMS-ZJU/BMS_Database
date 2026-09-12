@@ -286,6 +286,15 @@ courses:
     english_name: Social Medicine(B)
     aliases:
       - 社会医学(乙)
+  - category: elective
+    curriculum_roles: [professional_elective]
+    path: elective/neural-modeling-and-data-analysis
+    course_code: MED5075M
+    legacy_course_code: "72120540"
+    chinese_name: 神经建模与数据分析
+    english_name: Neural Modeling And Data Analysis
+    related_course_code: "1811129"
+    notes: 用户于2026-09-12确认MED5075M与旧课程号72120540为同一门课程；与同名研究生课程1811129是否同课或可互相替换尚未确认，分别保留课程代码。
 
 # 以下课程来自 2019—2026 级基础医学培养方案，但目前没有独立课程页面。
 # 教务网暂时查不到的课程也保留映射，并标注截至查询日期尚无开课记录；这不表示未来不会开课。
@@ -346,12 +355,6 @@ curriculum_only_courses:
     legacy_course_code: "18122030"
     chinese_name: 全球环境改变与人类健康
     english_name: Global Environmental Changes And Human Health
-  - curriculum_roles: [professional_elective]
-    path: null
-    course_code: MED5075M
-    legacy_course_code: "72120540"
-    chinese_name: 神经建模与数据分析
-    english_name: Neural Modeling And Data Analysis
   - curriculum_roles: [professional_elective]
     path: null
     course_code: MED5073M
@@ -602,6 +605,8 @@ curriculum_only_courses:
     course_code: "1811129"
     chinese_name: 神经建模与数据分析
     english_name: null
+    related_course_code: MED5075M
+    notes: 研究生课程；与MED5075M（旧课程号72120540）是否同课或可互相替换尚未确认，本站仅提供该同名课程的资料参考。
     offering_status: not_offered_as_of_2026-08-27
     lookup_status: 截至 2026-08-27，本科教务网课程信息查看无结果；保留映射，未来开课后补录官方英文名
   - curriculum_roles: [transition_direction_graduate, basic_medicine]
