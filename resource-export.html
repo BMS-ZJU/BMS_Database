@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>资料打印 / 导出 · BMS Database</title>
+  <link rel="stylesheet" href="css/resource-export.css">
+  <script src="javascripts/resource-export-view.js" defer></script>
+</head>
+<body class="resource-export-view">
+  <header class="export-toolbar" aria-label="打印与导出">
+    <a id="source-link" href="./">返回原文</a>
+    <div class="export-range-summary" hidden>
+      <span id="range-summary">打印范围：正在读取…</span>
+      <button id="change-range" type="button" aria-expanded="false" aria-controls="range-selection">更改</button>
+    </div>
+    <label id="answer-options" hidden>内容
+      <select id="answer-mode">
+        <option value="answers">答案随题</option>
+        <option value="end">答案集中卷末</option>
+        <option value="questions">仅题目</option>
+      </select>
+    </label>
+    <button id="print-resource" type="button" disabled>打印 / 保存 PDF</button>
+    <div id="range-selection" hidden>
+      <div class="export-range-actions">
+        <label><input id="range-all" type="checkbox">全选</label>
+        <span id="range-count" role="status" aria-live="polite"></span>
+      </div>
+      <div id="range-groups"></div>
+    </div>
+    <p id="export-status" role="status" aria-live="polite" aria-atomic="true">正在准备资料…</p>
+    <p class="export-help">保存 PDF：在打印窗口中选择“另存为 PDF”。如有额外的日期或网址，可关闭“页眉和页脚”。</p>
+    <p class="export-help">在微信、QQ、钉钉等应用内如无法打印或保存 PDF，请在浏览器中打开本页后重试。</p>
+    <p class="export-help">在公共电脑或文印店打印后，建议清除为本次打印临时保存的文件，并提醒店方勿留作后续复印或售卖。</p>
+  </header>
+  <main class="paper" aria-busy="true" aria-label="打印资料"></main>
+  <noscript>此功能需要 JavaScript。请返回原文阅读资料。</noscript>
+</body>
+</html>

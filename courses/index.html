@@ -1,0 +1,3764 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="基础医学学习网站">
+      
+      
+      
+        <link rel="canonical" href="https://BMS-ZJU.github.io/BMS_Database/courses/">
+      
+      
+        <link rel="prev" href="../curricula/">
+      
+      
+        <link rel="next" href="../mandatory/medical_life_fundamentals/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../images/zjubms-folded-transparent-512.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>课程资料 - BMS Database</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/fonts/noto-sans-sc/font.css">
+    
+      <link rel="stylesheet" href="../assets/fonts/noto-serif-sc/font.css">
+    
+      <link rel="stylesheet" href="../css/styles.css">
+    
+      <link rel="stylesheet" href="../css/resource-export.css">
+    
+      <link rel="stylesheet" href="../css/header-wordmark.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+  
+  <script src="../javascripts/reading-style.js"></script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <a class="md-header__title" data-md-component="header-title" href=".." aria-label="BMS Database 首页">
+      <img class="bms-header-icon" src="../images/zjubms-folded-header.svg" width="36" height="36" alt="" aria-hidden="true">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BMS Database
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              课程资料
+            
+          </span>
+        </div>
+      </div>
+    </a>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/BMS-ZJU/BMS_Database" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    BMS-ZJU/BMS_Database
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+    
+  
+  首页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../curricula/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  培养方案
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  课程资料
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../rotation/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  本科生轮转
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../fly/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  飞跃专题
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BMS Database" class="md-nav__button md-logo" aria-label="BMS Database" data-md-component="logo">
+      
+  <img src="../images/zjubms-folded-header.svg" alt="logo">
+
+    </a>
+    BMS Database
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/BMS-ZJU/BMS_Database" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    BMS-ZJU/BMS_Database
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href=".." class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../curricula/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    培养方案
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    课程资料
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    课程资料
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/medical_life_fundamentals/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    医学生命基础
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mandatory/medical_research_literacy_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    医学科学素养Ⅰ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/medical_science_literacy_2/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    医学科学素养Ⅱ
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/basic_techniques_in_medical_sciences_1/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    基础医学科学研究技能Ⅰ
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mandatory/basic_techniques_in_medical_sciences_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    基础医学科学研究技能Ⅱ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/essential_english_for_medical_sciences/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    医学科学英语基础
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/molecular_cell_biology_1/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    细胞与生物分子Ⅰ
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/molecular_cell_biology_2/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    细胞与生物分子Ⅱ
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/experimental_animals_and_ethics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    实验动物与伦理学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/genetics_and_developmental_biology_1/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    遗传与发育Ⅰ
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/genetics_and_developmental_biology_2/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    遗传与发育Ⅱ
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/structure_and_function_of_the_human_body/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    人体结构与功能学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/medical_biophysics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    医学生物物理学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/medical_big_data_and_application/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    医学大数据与应用
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/infectious_diseases_and_immunity/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    感染与免疫学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/the_basis_for_human_diseases/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    疾病基础
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/basic_pharmacology/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    基础药理学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/neuroscience/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    神经科学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/brain_and_brain_machine_integrated_systems/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    脑与脑机融合
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elective/neural-modeling-and-data-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    神经建模与数据分析
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    临床流行病学与循证医学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mandatory/medical_research_practice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    基础医学科研实践
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/educational_probation_of_basic_medicine/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    基础医学教育见习
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/human_diseases_from_clinic_to_research_1/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    重要疾病的临床与研究Ⅰ
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/human_diseases_from_clinic_to_research_2/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    重要疾病的临床与研究Ⅱ
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../mandatory/human_diseases_from_clinic_to_research_3/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    重要疾病的临床与研究Ⅲ
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mandatory/clinical_practice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    临床实习
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../elective/cancer_biology/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    肿瘤生物学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elective/introduction_to_clinical_oncology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    临床肿瘤学概论
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../elective/strategy_and_application_in_cancer_research/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    肿瘤研究策略与应用
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../elective/advanced_technology_in_microbiology_and_immunology/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    微生物学与免疫学前沿技术
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../elective/clinical_immunology/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    临床免疫学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../elective/physical_chemistry/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    物理化学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elective/introduction_to_multi_omics_and_precision_medicine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    组学与精准医学前沿导论
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elective/educational_statistics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    教育统计学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elective/health_management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    卫生事业管理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elective/medical_ethics_and_health_law/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    医学伦理学与卫生法学
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../elective/forensic_medicine/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    法医学
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../elective/new_drug_research_and_development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    新药研发
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../elective/social_medicine_b/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    社会医学(乙)
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../rotation/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    本科生轮转
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../fly/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    飞跃专题
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        大一
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        大二
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        大三
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        大四
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        大五
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        历年课程
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/BMS-ZJU/BMS_Database/edit/main/docs/courses/index.md" title="编辑此页" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="_1">课程资料<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<details class="course-catalog-guide">
+<summary>课程资料说明与站外参考</summary>
+<p>课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请到<a href="../curricula/">培养方案</a>中查看。因此，本页按 2026 级建议修读学年整理，不再给课程贴固定分类；只在往届方案中出现的课程归入“历年课程”。课程名链接可进入本站或图灵班资料，站外入口标明来源；仅有其他版本或站外相关课程经验的条目标为“不同课程参考”，并单独列出链接；其余课程保留课程号并标为“暂无资料”。</p>
+<p>本站主要整理基础医学专业课程与科研学习经验。思政军体、通识课程的学习经验，可参考<a href="https://zju-turing.github.io/TuringCourses/">图灵班学习指南</a>。部分数理基础课程也提供站外参考入口。阅读时请留意课程版本、任课教师和学年的差异，具体修读与考核要求以本专业培养方案和当年课程通知为准。</p>
+<p>线性代数参考链接介绍Ⅰ、Ⅱ（H），与本专业的线性代数（乙）版本不同；概统参考链接介绍“概率论和数理统计”，与本专业的“概率论与数理统计”并非同一门课，教学侧重和考核要求不同。</p>
+</details>
+<p class="course-catalog-guide-links">图灵班指南：<a href="https://zju-turing.github.io/TuringCourses/political/">思政军体 ↗</a> · <a href="https://zju-turing.github.io/TuringCourses/general/">通识选修 ↗</a> · <a href="https://zju-turing.github.io/TuringCourses/math_phys/">数理基础 ↗</a></p>
+
+<div class="course-catalog-toolbar">
+  <label for="course-catalog-search">查找课程</label>
+  <div class="course-catalog-search-row">
+    <input id="course-catalog-search" type="search" placeholder="输入课程名、课程号或英文名" autocomplete="off" data-course-search-input>
+    <span class="course-catalog-counts">
+      <span class="course-catalog-count" data-course-count>141 门课程</span>
+      <small>40 本站资料 · 4 站外同课 · 4 相关参考 · 93 暂无资料</small>
+    </span>
+  </div>
+</div>
+
+<p class="course-catalog-empty" data-course-empty hidden>没有找到相符的课程。</p>
+
+<div data-course-catalog="data-course-catalog">
+<section class="course-catalog-group" data-course-group="data-course-group">
+<h2 id="_2">大一<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 4">
+  <a class="course-catalog-item" data-course-search="医学生命基础 MED1001M Medical Life Fundamentals 考试 18198100" href="../mandatory/medical_life_fundamentals/">
+    <span class="course-catalog-name">医学生命基础</span>
+    <span class="course-catalog-meta">MED1001M · 2.5 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="医学科学素养Ⅰ 医学科学素养I MED1003M Medical Research Literacy 72120380" href="../mandatory/medical_research_literacy_1/">
+    <span class="course-catalog-name">医学科学素养Ⅰ</span>
+    <span class="course-catalog-meta">MED1003M · 1.0 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="医学科学素养Ⅱ 医学科学素养II MED3045M Medical Science Literacy 考试 小测 练习 72120401" href="../mandatory/medical_science_literacy_2/">
+    <span class="course-catalog-name">医学科学素养Ⅱ</span>
+    <span class="course-catalog-meta">MED3045M · 2.0 学分 · 考试 · 小测</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="基础医学科学研究技能Ⅰ 基础医学科学研究技能I MED1028M Basic Techniques In Medical Sciences 考试 18122950" href="../mandatory/basic_techniques_in_medical_sciences_1/">
+    <span class="course-catalog-name">基础医学科学研究技能Ⅰ</span>
+    <span class="course-catalog-meta">MED1028M · 1.5 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="医学科学英语基础 MED1005M Essential English For Medical Sciences 72190040" href="../mandatory/essential_english_for_medical_sciences/">
+    <span class="course-catalog-name">医学科学英语基础</span>
+    <span class="course-catalog-meta">MED1005M · 1.0 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="物理化学 CHEM2001F Physical Chemistry 考试 061B9030" href="../elective/physical_chemistry/">
+    <span class="course-catalog-name">物理化学</span>
+    <span class="course-catalog-meta">CHEM2001F · 4.0 学分 · 考试</span>
+  </a>
+  <div class="course-catalog-item" data-course-search="线性代数（乙） MATH1233G Linear Algebra (B) MATH1233G 图灵班 相关课程参考">
+    <span class="course-catalog-name">线性代数（乙）<em class="course-catalog-status">不同课程参考</em></span>
+    <span class="course-catalog-meta">MATH1233G · 3.0 学分 · <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra1/" title="图灵班线性代数Ⅰ（H），与线性代数（乙）不是同一版本">图灵 H 版Ⅰ ↗</a> / <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra2/" aria-label="图灵班线性代数Ⅱ（H）学习指南（不同课程参考）" title="图灵班线性代数Ⅱ（H），与线性代数（乙）不是同一版本">Ⅱ ↗</a></span>
+  </div>
+</div>
+<details class="course-catalog-unavailable" data-course-unavailable-group="data-course-unavailable-group">
+<summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>2 门</span></summary>
+<div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 1">
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医工交叉融合中的人工智能 MED2084M Artificial Intelligence in Medical-Engineering Interdisciplinary Integration MED2084M">
+    <span class="course-catalog-name">医工交叉融合中的人工智能<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED2084M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="演化医学理论及应用 MED1085M Principle and application of evolutionary medicine 18198090 MED1004M MED1085M">
+    <span class="course-catalog-name">演化医学理论及应用<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED1085M · 2.5 学分</span>
+  </div>
+</div>
+</details>
+</section>
+<section class="course-catalog-group" data-course-group="data-course-group">
+<h2 id="_3">大二<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 7">
+  <a class="course-catalog-item" data-course-search="细胞与生物分子Ⅰ 细胞与生物分子I MED2039M Molecular Cell Biology Cell Biology 考试 18122790" href="../mandatory/molecular_cell_biology_1/">
+    <span class="course-catalog-name">细胞与生物分子Ⅰ</span>
+    <span class="course-catalog-meta">MED2039M · 3.0 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="细胞与生物分子Ⅱ 细胞与生物分子II MED2019M Molecular Cell Biology Biochemistry 考试 小测 18122800" href="../mandatory/molecular_cell_biology_2/">
+    <span class="course-catalog-name">细胞与生物分子Ⅱ</span>
+    <span class="course-catalog-meta">MED2019M · 5.0 学分 · 考试 · 小测</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="实验动物与伦理学 MED2302M Experimental Animals And Ethics 考试 72120450" href="../mandatory/experimental_animals_and_ethics/">
+    <span class="course-catalog-name">实验动物与伦理学</span>
+    <span class="course-catalog-meta">MED2302M · 2.0 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="遗传与发育Ⅰ 遗传与发育I MED2020M Genetics Developmental Biology 考试 18122810" href="../mandatory/genetics_and_developmental_biology_1/">
+    <span class="course-catalog-name">遗传与发育Ⅰ</span>
+    <span class="course-catalog-meta">MED2020M · 3.0 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="遗传与发育Ⅱ 遗传与发育II MED2030M Genetics Developmental Biology 考试 18122820" href="../mandatory/genetics_and_developmental_biology_2/">
+    <span class="course-catalog-name">遗传与发育Ⅱ</span>
+    <span class="course-catalog-meta">MED2030M · 3.0 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="人体结构与功能学 MED2035M Structure And Function Of The Human Body 考试 小测 测验 解剖学标本测验 期末考试 实验考试 解剖学实验考试 18122830" href="../mandatory/structure_and_function_of_the_human_body/">
+    <span class="course-catalog-name">人体结构与功能学</span>
+    <span class="course-catalog-meta">MED2035M · 6.0 学分 · 期末考试 · 实验考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="医学生物物理学 MED2031M Medical Biophysics 考试 笔记 72120390" href="../mandatory/medical_biophysics/">
+    <span class="course-catalog-name">医学生物物理学</span>
+    <span class="course-catalog-meta">MED2031M · 3.0 学分 · 考试 · 笔记</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="医学大数据与应用 MED2010M Medical Big Data And Application 考试 72120440" href="../mandatory/medical_big_data_and_application/">
+    <span class="course-catalog-name">医学大数据与应用</span>
+    <span class="course-catalog-meta">MED2010M · 2.0 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="基础医学科学研究技能Ⅱ 基础医学科学研究技能II MED2011M Basic Techniques In Medical Sciences 72120490" href="../mandatory/basic_techniques_in_medical_sciences_2/">
+    <span class="course-catalog-name">基础医学科学研究技能Ⅱ</span>
+    <span class="course-catalog-meta">MED2011M · 1.0 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="肿瘤生物学 MED2040M Cancer Biology 考试 72120530" href="../elective/cancer_biology/">
+    <span class="course-catalog-name">肿瘤生物学</span>
+    <span class="course-catalog-meta">MED2040M · 2.0 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="临床肿瘤学概论 MED2012M Introduction To Clinical Oncology 72120580" href="../elective/introduction_to_clinical_oncology/">
+    <span class="course-catalog-name">临床肿瘤学概论</span>
+    <span class="course-catalog-meta">MED2012M · 2.0 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="组学与精准医学前沿导论 MED2587M Introduction to Multi-Omics and Precision Medicine" href="../elective/introduction_to_multi_omics_and_precision_medicine/">
+    <span class="course-catalog-name">组学与精准医学前沿导论</span>
+    <span class="course-catalog-meta">MED2587M · 3.0 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="教育统计学 EDU2007M Educational Statistics 03123590" href="../elective/educational_statistics/">
+    <span class="course-catalog-name">教育统计学</span>
+    <span class="course-catalog-meta">EDU2007M · 2.0 学分 · 课程主页</span>
+  </a>
+  <div class="course-catalog-item" data-course-search="概率论与数理统计 MATH2432F Probability and Mathematical Statistics MATH2432F 图灵班 相关课程参考">
+    <span class="course-catalog-name">概率论与数理统计<em class="course-catalog-status">不同课程参考</em></span>
+    <span class="course-catalog-meta">MATH2432F · 2.5 学分 · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></span>
+  </div>
+</div>
+<details class="course-catalog-unavailable" data-course-unavailable-group="data-course-unavailable-group">
+<summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>8 门</span></summary>
+<div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 4">
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="分析化学（乙） CHEM1002F Analytical Chemistry (Ⅱ) CHEM1002F">
+    <span class="course-catalog-name">分析化学（乙）<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">CHEM1002F · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="科学写作与表达 MED1312M Academic Writing And Presentation 18198020 MED1312M">
+    <span class="course-catalog-name">科学写作与表达<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED1312M · 1.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医工交叉融合中的人工智能（进阶） MED2086M Artificial Intelligence in Medical-Engineering Interdisciplinary Integration (Advanced Level) MED2086M">
+    <span class="course-catalog-name">医工交叉融合中的人工智能（进阶）<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED2086M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="演化发育生物学与医学 MED2087M Evolutionary Developmentary Biology and Medicine MED2087M">
+    <span class="course-catalog-name">演化发育生物学与医学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED2087M · 1.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医工交叉融合中的人工智能（高阶） MED2088M Artificial Intelligence in Medical-Engineering Interdisciplinary Integration (High Level) MED2088M">
+    <span class="course-catalog-name">医工交叉融合中的人工智能（高阶）<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED2088M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医学统计学 MED2424M Clinical Medicine Statistics MED2424M">
+    <span class="course-catalog-name">医学统计学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED2424M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="预防医学 MED2425M Preventive Medicine MED2425M">
+    <span class="course-catalog-name">预防医学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED2425M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医工信交叉前沿进展 MED2588M Advances at the intersection of medicine, engineering and information technology MED2588M">
+    <span class="course-catalog-name">医工信交叉前沿进展<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED2588M · 2.0 学分</span>
+  </div>
+</div>
+</details>
+</section>
+<section class="course-catalog-group" data-course-group="data-course-group">
+<h2 id="_4">大三<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 7">
+  <a class="course-catalog-item" data-course-search="感染与免疫学 MED3055M Infectious Diseases Immunity 考试 小测 18122840" href="../mandatory/infectious_diseases_and_immunity/">
+    <span class="course-catalog-name">感染与免疫学</span>
+    <span class="course-catalog-meta">MED3055M · 5.0 学分 · 考试 · 小测</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="疾病基础 MED3047M The Basis For Human Diseases Pathology Pathophysiology 考试 小测 18122930" href="../mandatory/the_basis_for_human_diseases/">
+    <span class="course-catalog-name">疾病基础</span>
+    <span class="course-catalog-meta">MED3047M · 6.0 学分 · 考试 · 小测</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="基础药理学 MED3056M Basic Pharmacology 考试 讨论课 18122940" href="../mandatory/basic_pharmacology/">
+    <span class="course-catalog-name">基础药理学</span>
+    <span class="course-catalog-meta">MED3056M · 3.0 学分 · 考试 · 讨论课</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="神经科学 MED2303M Neuroscience 考试 小测 72120420" href="../mandatory/neuroscience/">
+    <span class="course-catalog-name">神经科学</span>
+    <span class="course-catalog-meta">MED2303M · 3.0 学分 · 考试 · 小测</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="脑与脑机融合 MED2304M Brain And Brain-Machine Integrated Systems 考试 72120430" href="../mandatory/brain_and_brain_machine_integrated_systems/">
+    <span class="course-catalog-name">脑与脑机融合</span>
+    <span class="course-catalog-meta">MED2304M · 1.5 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="临床流行病学与循证医学 MED4423M Clinical Epidemiology Evidence-Based Medicine 73120120" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/">
+    <span class="course-catalog-name">临床流行病学与循证医学</span>
+    <span class="course-catalog-meta">MED4423M · 3.0 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="基础医学科研实践 MED3052M Medical Research Practice 72188060" href="../mandatory/medical_research_practice/">
+    <span class="course-catalog-name">基础医学科研实践</span>
+    <span class="course-catalog-meta">MED3052M · 4.0 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="基础医学教育见习 MED3061M Educational Probation of Basic Medicine 任务 考核 72188070" href="../mandatory/educational_probation_of_basic_medicine/">
+    <span class="course-catalog-name">基础医学教育见习</span>
+    <span class="course-catalog-meta">MED3061M · 4.0 学分 · 见习任务</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="微生物学与免疫学前沿技术 MED4064M Advanced Technology In Microbiology And Immunology 考试 72120590" href="../elective/advanced_technology_in_microbiology_and_immunology/">
+    <span class="course-catalog-name">微生物学与免疫学前沿技术</span>
+    <span class="course-catalog-meta">MED4064M · 2.0 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="卫生事业管理 MED4411M Health Management 18120571" href="../elective/health_management/">
+    <span class="course-catalog-name">卫生事业管理</span>
+    <span class="course-catalog-meta">MED4411M · 1.5 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="医学伦理学与卫生法学 MED2412M Medical Ethics Health Law 73120070" href="../elective/medical_ethics_and_health_law/">
+    <span class="course-catalog-name">医学伦理学与卫生法学</span>
+    <span class="course-catalog-meta">MED2412M · 1.5 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="法医学 MED2021M Forensic Medicine 考试 18121850" href="../elective/forensic_medicine/">
+    <span class="course-catalog-name">法医学</span>
+    <span class="course-catalog-meta">MED2021M · 1.5 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="新药研发 MED3057M New Drug Research Development 18198000" href="../elective/new_drug_research_and_development/">
+    <span class="course-catalog-name">新药研发</span>
+    <span class="course-catalog-meta">MED3057M · 1.5 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="公共卫生导论 MED0665G An Introduction on Public Health MED0665G" href="https://zju-turing.github.io/TuringCourses/general/elective/#_52">
+    <span class="course-catalog-name">公共卫生导论</span>
+    <span class="course-catalog-meta">MED0665G · 1.5 学分 · 图灵班资料 ↗</span>
+  </a>
+</div>
+<details class="course-catalog-unavailable" data-course-unavailable-group="data-course-unavailable-group">
+<summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>2 门</span></summary>
+<div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 1">
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="教育心理学 EDU2008M Educational Psychology 03120281 EDU2008M">
+    <span class="course-catalog-name">教育心理学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">EDU2008M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="生活中的统计学 MED0672G Statistics in daily life MED0672G">
+    <span class="course-catalog-name">生活中的统计学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED0672G · 2.0 学分</span>
+  </div>
+</div>
+</details>
+</section>
+<section class="course-catalog-group" data-course-group="data-course-group">
+<h2 id="_5">大四<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 4">
+  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅰ 重要疾病的临床与研究I MED4069M Human Diseases From Clinic To Research 考试 72120480" href="../mandatory/human_diseases_from_clinic_to_research_1/">
+    <span class="course-catalog-name">重要疾病的临床与研究Ⅰ</span>
+    <span class="course-catalog-meta">MED4069M · 4.5 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅱ 重要疾病的临床与研究II MED4068M Human Diseases From Clinic To Research 考试 72120510" href="../mandatory/human_diseases_from_clinic_to_research_2/">
+    <span class="course-catalog-name">重要疾病的临床与研究Ⅱ</span>
+    <span class="course-catalog-meta">MED4068M · 4.0 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="重要疾病的临床与研究Ⅲ 重要疾病的临床与研究III MED4062M Human Diseases From Clinic To Research 考试 18122921" href="../mandatory/human_diseases_from_clinic_to_research_3/">
+    <span class="course-catalog-name">重要疾病的临床与研究Ⅲ</span>
+    <span class="course-catalog-meta">MED4062M · 3.0 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="临床实习 MED4066M Clinical Practice 72188030" href="../mandatory/clinical_practice/">
+    <span class="course-catalog-name">临床实习</span>
+    <span class="course-catalog-meta">MED4066M · 6.0 学分 · 课程主页</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="临床免疫学 MED4063M Clinical Immunology 考试 18197061" href="../elective/clinical_immunology/">
+    <span class="course-catalog-name">临床免疫学</span>
+    <span class="course-catalog-meta">MED4063M · 1.5 学分 · 考试</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="社会医学乙 社会医学（乙） MED2426M Social Medicine B 考试 18120444" href="../elective/social_medicine_b/">
+    <span class="course-catalog-name">社会医学（乙）</span>
+    <span class="course-catalog-meta">MED2426M · 1.5 学分 · 考试</span>
+  </a>
+  <div class="course-catalog-item" data-course-search="神经建模与数据分析 1811129 研究生课 不同课程参考 MED5075M 72120540">
+    <span class="course-catalog-name">神经建模与数据分析<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">不同课程参考</em></span>
+    <span class="course-catalog-meta">1811129 · 2.0 学分 · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></span>
+  </div>
+</div>
+<details class="course-catalog-unavailable" data-course-unavailable-group="data-course-unavailable-group">
+<summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>23 门</span></summary>
+<div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 12">
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="重要传染病的防治基础 MED4067M The Basis For The Control And Prevention Of Important Infectious Diseases 72120570 MED4067M">
+    <span class="course-catalog-name">重要传染病的防治基础<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4067M · 2.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药理学专题 1811008 1811008">
+    <span class="course-catalog-name">药理学专题<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811008 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="生物医学工程学概论 1811125 1811125">
+    <span class="course-catalog-name">生物医学工程学概论<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811125 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="衰老生物学导论 1811126 1811126">
+    <span class="course-catalog-name">衰老生物学导论<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811126 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="系统神经科学 1811127 1811127">
+    <span class="course-catalog-name">系统神经科学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811127 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="神经系统疾病的分子基础 1811128 1811128">
+    <span class="course-catalog-name">神经系统疾病的分子基础<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811128 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高级病理生理学 1812060 1812060">
+    <span class="course-catalog-name">高级病理生理学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1812060 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="干细胞再生医学 1814071 1814071">
+    <span class="course-catalog-name">干细胞再生医学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1814071 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医学人工智能 BME3016M Artificial Intelligence In Medicine 15192460 BME3016M">
+    <span class="course-catalog-name">医学人工智能<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">BME3016M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="数智驱动的健康科学 MED0462G Health Science in the Era of Digital Intelligence MED0462G">
+    <span class="course-catalog-name">数智驱动的健康科学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED0462G · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="营养与健康之艺术 MED0662G The art of nutrition and health MED0662G">
+    <span class="course-catalog-name">营养与健康之艺术<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED0662G · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="健康与免疫 MED0664G Immunity and health MED0664G">
+    <span class="course-catalog-name">健康与免疫<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED0664G · 1.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="实用营养与保健 MED0668G Applied nutrition and health care MED0668G">
+    <span class="course-catalog-name">实用营养与保健<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED0668G · 1.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医学心理学 MED2408M Medical Psychology MED2408M">
+    <span class="course-catalog-name">医学心理学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED2408M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="全球环境改变与人类健康 MED2422M Global Environmental Changes And Human Health 18122030 MED2422M">
+    <span class="course-catalog-name">全球环境改变与人类健康<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED2422M · 1.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="环境卫生学 MED4401M Environmental Health Science 73120090 MED4401M">
+    <span class="course-catalog-name">环境卫生学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4401M · 4.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="营养与食品卫生学 MED4404M Nutriology And Food Hygiene 73120100 MED4404M">
+    <span class="course-catalog-name">营养与食品卫生学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4404M · 4.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生毒理学 MED4405M Health Toxicology 18120542 MED4405M">
+    <span class="course-catalog-name">卫生毒理学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4405M · 3.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="公共卫生基本技能 MED4413M Basic Skills Of Public Health MED4413M">
+    <span class="course-catalog-name">公共卫生基本技能<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4413M · 2.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药理学 PHAR3002M Pharmacology PHAR3002M">
+    <span class="course-catalog-name">药理学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">PHAR3002M · 3.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药物分析学 PHAR3005M Pharmaceutical Analysis PHAR3005M">
+    <span class="course-catalog-name">药物分析学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">PHAR3005M · 4.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药物化学 PHAR3008M Medicinal Chemistry PHAR3008M">
+    <span class="course-catalog-name">药物化学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">PHAR3008M · 3.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药剂学 PHAR3013M Pharmaceutics PHAR3013M">
+    <span class="course-catalog-name">药剂学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">PHAR3013M · 3.0 学分</span>
+  </div>
+</div>
+</details>
+</section>
+<section class="course-catalog-group" data-course-group="data-course-group">
+<h2 id="_6">大五<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<details class="course-catalog-unavailable" data-course-unavailable-group="data-course-unavailable-group">
+<summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>37 门</span></summary>
+<div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 19">
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="研究生学术英语能力提升 0500010 0500010">
+    <span class="course-catalog-name">研究生学术英语能力提升<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">0500010 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高级流行病学 1811057 1811057">
+    <span class="course-catalog-name">高级流行病学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811057 · 3.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生经济学 1811058 1811058">
+    <span class="course-catalog-name">卫生经济学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811058 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="研究生科研技能训练Ⅰ（科研文献阅读与科研论文写作） 1811103 1811103">
+    <span class="course-catalog-name">研究生科研技能训练Ⅰ（科研文献阅读与科研论文写作）<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811103 · 1.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="研究生科研技能训练Ⅱ（科学交流与科研项目申报） 1811104 1811104">
+    <span class="course-catalog-name">研究生科研技能训练Ⅱ（科学交流与科研项目申报）<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811104 · 1.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="研究生科研技能训练Ⅲ（组学与大数据分析） 1811105 1811105">
+    <span class="course-catalog-name">研究生科研技能训练Ⅲ（组学与大数据分析）<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811105 · 1.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="研究生科研技能训练Ⅳ（科研规范与动物伦理） 1811106 1811106">
+    <span class="course-catalog-name">研究生科研技能训练Ⅳ（科研规范与动物伦理）<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811106 · 1.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="研究生科研技能训练Ⅴ（大型仪器原理与操作） 1811107 1811107">
+    <span class="course-catalog-name">研究生科研技能训练Ⅴ（大型仪器原理与操作）<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811107 · 1.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="研究生学术素养 1811108 1811108">
+    <span class="course-catalog-name">研究生学术素养<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811108 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="大数据健康科学 1811114 1811114">
+    <span class="course-catalog-name">大数据健康科学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811114 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高级医学统计学 1812066 1812066">
+    <span class="course-catalog-name">高级医学统计学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1812066 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="分子医学Ⅱ 1812074 1812074">
+    <span class="course-catalog-name">分子医学Ⅱ<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1812074 · 3.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="领导力与医学伦理 1812076 1812076">
+    <span class="course-catalog-name">领导力与医学伦理<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1812076 · 1.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="人工智能与机器学习 1814087 1814087">
+    <span class="course-catalog-name">人工智能与机器学习<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1814087 · 3.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高级毒理学 1821027 1821027">
+    <span class="course-catalog-name">高级毒理学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1821027 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="社会医学和卫生事业管理学 1821030 1821030">
+    <span class="course-catalog-name">社会医学和卫生事业管理学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1821030 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高级营养与食品卫生学 1821034 1821034">
+    <span class="course-catalog-name">高级营养与食品卫生学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1821034 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="临床科研设计与循证医学 1822016 1822016">
+    <span class="course-catalog-name">临床科研设计与循证医学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1822016 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医院管理学 1823002 1823002">
+    <span class="course-catalog-name">医院管理学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1823002 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="新药发现理论与实践 1912003 1912003">
+    <span class="course-catalog-name">新药发现理论与实践<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1912003 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高等药物化学 1912005 1912005">
+    <span class="course-catalog-name">高等药物化学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1912005 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="现代中药学概论及实验技术 1912032 1912032">
+    <span class="course-catalog-name">现代中药学概论及实验技术<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1912032 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="现代药理学实验技术 1912044 1912044">
+    <span class="course-catalog-name">现代药理学实验技术<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1912044 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高等分子生物学 1912051 1912051">
+    <span class="course-catalog-name">高等分子生物学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1912051 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="高等药物分析学 1912052 1912052">
+    <span class="course-catalog-name">高等药物分析学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1912052 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药物科学前沿 1912054 1912054">
+    <span class="course-catalog-name">药物科学前沿<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1912054 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="分子生物药剂学 1913011 1913011">
+    <span class="course-catalog-name">分子生物药剂学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1913011 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="现代药理学进展 1913039 1913039">
+    <span class="course-catalog-name">现代药理学进展<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1913039 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药物代谢学 1913047 1913047">
+    <span class="course-catalog-name">药物代谢学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1913047 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药物信息学 1913049 1913049">
+    <span class="course-catalog-name">药物信息学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1913049 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="现代有机合成化学 1913056 1913056">
+    <span class="course-catalog-name">现代有机合成化学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1913056 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="先进制药技术 1913074 1913074">
+    <span class="course-catalog-name">先进制药技术<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1913074 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药物递送器件：创新与转化 1913080 1913080">
+    <span class="course-catalog-name">药物递送器件：创新与转化<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1913080 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药物基因组学与生物信息学 1923066 1923066">
+    <span class="course-catalog-name">药物基因组学与生物信息学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1923066 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="儿少卫生学 MED4407M Child And Adolescent Health MED4407M">
+    <span class="course-catalog-name">儿少卫生学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4407M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生监督 MED4409M Health Supervision MED4409M">
+    <span class="course-catalog-name">卫生监督<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4409M · 1.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药事管理 PHAR4003M Pharmacy Administration PHAR4003M">
+    <span class="course-catalog-name">药事管理<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">PHAR4003M · 2.0 学分</span>
+  </div>
+</div>
+</details>
+</section>
+<section class="course-catalog-group" data-course-group="data-course-group">
+<h2 id="_7">历年课程<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<p class="course-catalog-group-note">以下课程只见于 2019—2025 级采用方案，未进入 2026 级三个班型。</p>
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 3">
+  <a class="course-catalog-item" data-course-search="肿瘤研究策略与应用 MED3048M Strategy And Application In Cancer Research 考试 72120550" href="../elective/strategy_and_application_in_cancer_research/">
+    <span class="course-catalog-name">肿瘤研究策略与应用</span>
+    <span class="course-catalog-meta">MED3048M · 2.0 学分 · 考试</span>
+  </a>
+  <div class="course-catalog-item" data-course-search="新药研发 1811130 进阶版本 衔接课程 本科同名课程参考">
+    <span class="course-catalog-name">新药研发<em class="course-catalog-status">不同课程参考</em></span>
+    <span class="course-catalog-meta">1811130 · 2.0 学分 · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></span>
+  </div>
+  <a class="course-catalog-item" data-course-search="认知神经科学导论 21121520 21121520" href="https://zju-turing.github.io/TuringCoursesGrave/major_mandatory/cognitive_neuroscience/">
+    <span class="course-catalog-name">认知神经科学导论</span>
+    <span class="course-catalog-meta">21121520 · 3.0 学分 · 图灵班归档 ↗</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="脑启发人工智能导论 21121960 21121960" href="https://zju-turing.github.io/TuringCoursesGrave/major_elective/brain_inspired_ai/">
+    <span class="course-catalog-name">脑启发人工智能导论</span>
+    <span class="course-catalog-meta">21121960 · 3.0 学分 · 图灵班归档 ↗</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="人工智能引论 21188210 21188210" href="https://zju-turing.github.io/TuringCourses/major/ai_basic/">
+    <span class="course-catalog-name">人工智能引论</span>
+    <span class="course-catalog-meta">21188210 · 3.5 学分 · 图灵班资料 ↗</span>
+  </a>
+  <a class="course-catalog-item" data-course-search="神经建模与数据分析 MED5075M Neural Modeling And Data Analysis 72120540" href="../elective/neural-modeling-and-data-analysis/">
+    <span class="course-catalog-name">神经建模与数据分析</span>
+    <span class="course-catalog-meta">MED5075M · 2.0 学分 · 课程主页</span>
+  </a>
+</div>
+<details class="course-catalog-unavailable" data-course-unavailable-group="data-course-unavailable-group">
+<summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>21 门</span></summary>
+<div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 11">
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="教育统计与测量 03120261 03120261">
+    <span class="course-catalog-name">教育统计与测量<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">03120261 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="传染病学专题 1811010 1811010">
+    <span class="course-catalog-name">传染病学专题<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811010 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="分子病原生物学 1811051 1811051">
+    <span class="course-catalog-name">分子病原生物学<em class="course-catalog-status">研究生课</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">1811051 · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="流行病学 18120381 18120381">
+    <span class="course-catalog-name">流行病学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">18120381 · 5.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生统计学 18120581 18120581">
+    <span class="course-catalog-name">卫生统计学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">18120581 · 4.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="卫生学 18120590 18120590">
+    <span class="course-catalog-name">卫生学<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">18120590 · 2.0 学分 · 可选预防医学（MED2425M）替换</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="病原生物学 18198240 18198240">
+    <span class="course-catalog-name">病原生物学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">18198240 · 3.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="生命科学基础 72120370 72120370">
+    <span class="course-catalog-name">生命科学基础<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">72120370 · 3.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="肿瘤研究前沿 72120410 72120410">
+    <span class="course-catalog-name">肿瘤研究前沿<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">72120410 · 1.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="药理学与新药研发 72120470 72120470">
+    <span class="course-catalog-name">药理学与新药研发<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">72120470 · 4.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="学科轮转与教学实习Ⅰ 学科轮转与教学实习I 72188050">
+    <span class="course-catalog-name">学科轮转与教学实习Ⅰ<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">72188050 · 4.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="学科轮转与教学实习Ⅱ 学科轮转与教学实习II 72188040">
+    <span class="course-catalog-name">学科轮转与教学实习Ⅱ<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">72188040 · 4.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="专业英语阅读与写作 72190030 72190030">
+    <span class="course-catalog-name">专业英语阅读与写作<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">72190030 · 1.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="人工智能初步 CS0400G Introduction to Artificial Intelligence 2114N001">
+    <span class="course-catalog-name">人工智能初步<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">CS0400G · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="法理学 LAW1002F Jurisprudence 021A0010 LAW1002F">
+    <span class="course-catalog-name">法理学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">LAW1002F · 3.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="干细胞与再生医学 MED3042M Stem Cell And Regenerative Medicine 72120460">
+    <span class="course-catalog-name">干细胞与再生医学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED3042M · 1.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="基因、环路与行为 MED4065M Gene, Circuit, and Behavior 72120600">
+    <span class="course-catalog-name">基因、环路与行为<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED4065M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="神经系统疾病的分子基础 MED5070M The Molecular Basis Of Neurologic Diseases 72120610">
+    <span class="course-catalog-name">神经系统疾病的分子基础<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED5070M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="生物医学工程学概论 MED5073M Introduction To Biomedical Engineering 72120560">
+    <span class="course-catalog-name">生物医学工程学概论<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED5073M · 2.5 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="衰老生物学导论 MED5074M Introduction To Aging 72120520">
+    <span class="course-catalog-name">衰老生物学导论<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MED5074M · 2.0 学分</span>
+  </div>
+<div class="course-catalog-item course-catalog-item--unavailable" data-course-search="管理学 MGMT1001F Fundamentals of Management 201A0020 MGMT1001F">
+    <span class="course-catalog-name">管理学<em class="course-catalog-status">暂无资料</em></span>
+    <span class="course-catalog-meta">MGMT1001F · 3.0 学分</span>
+  </div>
+</div>
+</details>
+</section>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../curricula/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 培养方案">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                培养方案
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../mandatory/medical_life_fundamentals/" class="md-footer__link md-footer__link--next" aria-label="下一页: 课程主页">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                课程主页
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      
+<div class="md-copyright">
+  
+    <div class="md-copyright__highlight">Copyright &copy; 2024-2026 基础医学飞跃手册编委会</div>
+  
+  
+    <span class="resource-use-attribution-prefix">Made with</span>
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+  <span class="resource-use-footer"> · 资料免费获取 · <a href="../contribute/sources-and-permissions/#resource-use">使用限制</a></span>
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://bms.zju.edu.cn/" target="_blank" rel="noopener" title="bms.zju.edu.cn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2 0 .37-.03.73-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10C6.47 2 2 6.5 2 12s4.5 10 10 10c.59 0 1.16-.06 1.72-.16A5.9 5.9 0 0 1 13 19c0-.29.03-.57.07-.85-.32.63-.67 1.24-1.07 1.81-.83-1.2-1.5-2.53-1.91-3.96h3.72a5.95 5.95 0 0 1 2.59-2.4c.06-.53.1-1.06.1-1.6M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2zm.82 2H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m6.34 6H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2m.25-9.56c1.84.63 3.37 1.9 4.33 3.56h-2.95a15.7 15.7 0 0 0-1.38-3.56m7.91 12.81L17.75 22 15 19l1.16-1.16 1.59 1.59 3.59-3.59z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/YangShu233-Snow/Ginkgo" target="_blank" rel="noopener" title="Ginkgo · GitHub 仓库" class="md-social__link">
+      <!-- Ginkgo logo by Yangshu233
+Source: https://raw.githubusercontent.com/YangShu233-Snow/Ginkgo/main/assets/logo.svg
+Adaptation: retain the original green path geometry, omit the white background, and use currentColor for the footer icon.
+
+MIT License
+
+Copyright (c) 2026 Yangshu233
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 764 748" aria-hidden="true"><path fill="currentColor" d="M439.1 746.2 c-6.5 -3.3 -7.6 -5.9 -7.6 -18.5 0 -6.2 0.6 -17.5 1.4 -25.2 1.6 -16.6 1 -51.7 -1.4 -72.3 -5.6 -49.7 -16.3 -95.3 -32 -137.7 -5.4 -14.4 -13.7 -33.3 -17.6 -39.9 l-2.1 -3.7 -4.7 2.7 c-6.9 4 -22.2 14.7 -30.8 21.7 -30.9 24.9 -60 58.3 -77.8 89.7 -5 8.7 -13.5 25.5 -13.5 26.6 0 0.3 -1.3 3.6 -2.9 7.2 -1.6 3.7 -3.9 11.9 -5.1 18.2 -4.6 24.5 -6.8 29.3 -14.3 31 -5 1.1 -11.5 -2.1 -13.9 -7 -3.6 -7 -1.5 -22.2 5.7 -43 4.1 -11.8 14.4 -33.8 19.9 -42.4 2 -3.1 3.6 -5.9 3.6 -6.2 0 -0.4 7 -10.5 17.5 -25.4 2.2 -3 4.6 -6.2 5.5 -7 0.8 -0.8 3.9 -4.4 6.9 -8 9.3 -11.4 31.5 -33.6 43.5 -43.5 2.7 -2.2 6.3 -5.2 8 -6.6 4.5 -3.7 18.9 -14.4 29.5 -21.7 5 -3.5 9.1 -6.8 9.1 -7.2 0 -1.4 -9.2 -12 -16.1 -18.6 -9 -8.5 -17.8 -14.5 -29.9 -20.3 -16.4 -7.9 -24.3 -9.6 -43.5 -9.5 -19.1 0.1 -27.8 2.1 -48.2 10.9 -30.9 13.3 -59.8 32.4 -87.4 57.6 -15.9 14.5 -24.8 18.6 -38.5 17.7 -11 -0.8 -17.5 -3.8 -26 -12.4 -4.4 -4.3 -8.5 -7.6 -10.1 -7.9 -7.9 -1.6 -10.9 -3 -15 -6.8 -6.2 -5.7 -9 -11 -11.8 -22.2 -1.3 -5.3 -2.9 -10.2 -3.5 -11 -0.6 -0.7 -3.4 -2.4 -6.3 -3.8 -6.3 -3 -14 -11 -16.8 -17.4 -2.9 -6.9 -3.4 -12.8 -1.5 -21.7 2.5 -12.2 2.2 -14.7 -3 -25.2 -4.2 -8.4 -4.6 -9.8 -4.5 -16 0 -4.7 0.9 -9.3 2.8 -14.5 l2.6 -7.5 -3.9 -9 c-3.7 -8.4 -3.9 -9.4 -3.9 -18.9 0.1 -12.1 1.3 -15.3 11 -28 8.7 -11.4 10.3 -14.2 11.4 -19.9 0.7 -3.9 0.5 -5.9 -1.5 -11.4 -1.3 -3.7 -2.4 -8.3 -2.4 -10.3 0 -5.8 4.3 -13.1 11.1 -18.4 7.7 -6 8.8 -7.9 10 -16 1.2 -8.8 4.3 -15.8 8.6 -19.6 2 -1.7 7.2 -4.8 11.7 -7 12.6 -6.2 14.9 -9 18.1 -21.9 3.1 -12.5 7.3 -17.3 23 -26.5 7.4 -4.4 11 -7.3 16.7 -13.8 18.8 -21.2 29.7 -30.3 41.4 -34.7 7.2 -2.6 17.3 -2.7 23.1 0 6.1 2.7 13.8 10.2 20 19.5 3 4.4 8.7 13 12.9 19 8.7 12.8 16.7 26.5 28.8 49.5 14.9 28.3 14.7 25.8 -1.3 -15.2 -14.2 -36.4 -19.1 -54.6 -19.1 -70.5 0 -14.8 3.8 -24.4 12.6 -32.2 5.6 -4.9 12.8 -7.7 22 -8.6 10.2 -1 18.5 0.7 29 6 5 2.5 10.2 4.5 11.6 4.5 1.5 0 6.6 -2.7 12.1 -6.4 11.5 -7.7 14.6 -8.4 38.7 -8.2 l16.5 0.1 6.5 3.2 c3.6 1.8 9.5 5.9 13.2 9.2 8.5 7.5 11.6 8.1 24.1 5.1 15.7 -3.8 25 -0.6 34.2 11.5 8.8 11.8 13.6 14.3 29.5 15.6 19.6 1.6 26.7 4.4 35.1 13.7 4.3 4.8 7.2 6.8 13.9 9.9 4.7 2.2 10 5.3 11.9 6.8 4.7 4 9.5 11.8 11.6 19 2.5 8.1 4.6 10.1 13.4 12.5 8.9 2.5 15.8 5.9 19.1 9.5 l2.5 2.7 12 -0.7 c11.1 -0.6 12.6 -0.5 19.7 1.8 14.8 4.7 22 11.3 29.9 27.2 4.7 9.7 7.8 12.5 13.6 12.5 9.4 0 20.7 4.6 28 11.3 11.7 10.8 15.5 22.3 11.8 36.2 -3 11.2 -10.6 21.9 -26.4 37.4 -5.8 5.7 -9.7 10 -8.6 9.6 34.3 -13.5 48.9 -16.4 61.1 -12.3 10.7 3.6 18.7 11.1 22.7 21.2 1.7 4.2 2.1 7.7 2.2 19.3 0.2 13.3 0.4 14.5 2.7 18 1.3 2.1 3.6 5.6 5.1 7.8 5.3 8.1 7 13.5 7.5 23.8 0.3 5.7 0 10.7 -0.6 12 -10.2 21.9 -10.8 24.1 -7.6 32.8 0.8 2.4 1.7 5.1 1.9 5.9 3.6 13.3 2.5 19.2 -5.6 31.7 -3.7 5.6 -4 6.7 -3.5 10.5 0.3 2.4 1.1 5.8 1.7 7.7 0.7 1.9 0.9 7 0.7 11.6 -0.6 11.9 -3.6 17.3 -16.9 30.5 -14.4 14.3 -14 13.6 -15.4 28.9 -1.1 11.9 -6.1 22 -12.9 26.2 -1.7 1 -5.4 2.6 -8.3 3.4 -4.6 1.3 -5.4 2 -8.1 6.8 -4.9 8.7 -11.9 12.7 -22.3 12.7 -5.3 0 -9.7 2.8 -13.7 8.7 -3.5 5.2 -5.8 7.1 -11.7 9.9 -5.7 2.7 -7.6 2.9 -15.4 1.3 -5.3 -1.1 -5.9 -1 -10.8 1.5 -7.2 3.6 -16.3 4.8 -22.8 2.9 -12.9 -3.9 -20.7 -13.5 -29.9 -37.3 -18.8 -47.9 -26.5 -63.6 -38.5 -78 -25.6 -30.8 -59.2 -41.7 -99.6 -32.4 -8.1 1.9 -21.3 6.3 -22 7.4 -0.6 0.9 3.3 12.2 11.9 34.9 21.8 57.4 35.6 113.2 42.7 173.5 1.4 11.9 2.2 25.4 2.4 44.6 0.6 37.4 -0.8 46.7 -7.6 53.3 -4.5 4.2 -7.5 4.7 -12.8 1.9z m6.4 -22.8 c4.2 -23.9 2.3 -69.2 -4.5 -112.4 -13 -81.6 -37.5 -151.9 -66.6 -190.8 -15.2 -20.3 -38.8 -38.4 -60.6 -46.6 -19.1 -7.2 -43.5 -8.8 -64.1 -4.1 -37.1 8.3 -75.8 28.5 -111.7 58.4 -8 6.6 -18.9 15 -24.3 18.6 -5.3 3.7 -9.5 7.1 -9.2 7.6 2.1 3.3 13.2 -2 22.6 -10.8 27.9 -26.1 48.9 -41.1 76.4 -54.4 26.2 -12.7 47.8 -18.2 71 -18.2 12.2 0.1 15.4 0.4 25.5 3.1 59.1 15.3 97.6 68.1 124 169.7 16.1 61.7 23.9 130.5 19.6 171.1 -0.9 8.3 -1.6 16.6 -1.5 18.5 0 3.2 0.1 3.2 1 1 0.5 -1.3 1.6 -6.1 2.4 -10.7z m-214.1 -85.9 c1.9 -1.9 3 -5.8 5.7 -20.5 5.5 -29.6 24.4 -65.2 53.9 -101.5 19.5 -24.1 47.7 -49.5 72.5 -65.3 13.7 -8.8 12.8 -7.8 10.8 -11.4 -1 -1.7 -2.3 -3.2 -3 -3.5 -0.6 -0.2 -4.2 1.8 -8 4.4 -3.7 2.7 -9.3 6.7 -12.3 8.8 -3 2.1 -5.9 4.2 -6.5 4.7 -0.5 0.4 -7.1 5.7 -14.5 11.6 -12.2 9.7 -35.3 31.6 -44 41.7 -36.4 42 -58.7 83.8 -63.4 118.5 -1.4 10.4 3.7 17.6 8.8 12.5z m374.9 -66.6 c4.3 -1.2 4.3 -1.3 1.8 -4 -1.1 -1.2 -3.4 -4.9 -5.2 -8.2 -3.5 -6.6 -4 -7.6 -14.1 -31.2 -17.4 -40.6 -28.5 -58 -49.7 -77.9 -7.9 -7.3 -22.4 -17.3 -30.6 -21 -16.3 -7.5 -16.9 -7.7 -32 -10.7 -9.7 -1.9 -13.1 -2.1 -28 -1.6 -9.3 0.3 -18.1 0.9 -19.5 1.3 l-2.5 0.7 2 -2.1 c3 -3 16.8 -5 32 -4.5 10.5 0.3 14.2 0.8 24.7 3.8 13.2 3.8 28.2 10.5 36.3 16.3 11.8 8.4 16.4 12.1 23.4 18.7 17 16.3 31 37.4 46.1 70 11.7 25 17.2 34.3 25.8 43.3 1.6 1.8 13.6 3.5 18.9 2.7 5 -0.7 8 -2.9 12.6 -9.4 l3.5 -4.9 -3.5 -3.3 c-5.4 -5.3 -15.5 -18.7 -29.1 -38.9 -13.6 -20.1 -24.1 -35.2 -25.1 -36 -0.4 -0.3 -2.2 -2.5 -4.1 -5 -6.5 -8.3 -12.9 -15 -26.5 -27.5 -5.6 -5.2 -20.4 -15.1 -30.2 -20.1 -14.8 -7.7 -27.9 -12.1 -43.8 -14.5 -9.3 -1.5 -35 -1.5 -41.4 0 l-4.4 1 2.4 -2.4 c2.2 -2.1 15.1 -5.8 24.5 -7 25.7 -3.4 57.1 0.7 78.4 10.2 9.3 4.2 12.2 5.7 18.8 9.6 3.4 2 6.5 3.7 6.7 3.7 0.5 0 12.8 8.4 18 12.2 11 8 31.8 28.4 45.4 44.3 23.5 27.5 35.8 38.8 50.2 46 l6.5 3.3 4 -1.8 c6.6 -3 10.3 -8 12.4 -16.8 0.7 -3 0.5 -3.4 -1.8 -4.5 -3.4 -1.5 -9.6 -5.3 -14.7 -9.2 -6.1 -4.5 -18.7 -14.7 -21.1 -17 -8.9 -8.5 -26.3 -24.4 -34.4 -31.3 -3 -2.6 -6.4 -5.5 -7.5 -6.6 -9.1 -8.3 -35.2 -25.3 -48.5 -31.4 -19.1 -8.8 -31.4 -12.6 -54.9 -16.6 -5.5 -1 -20.9 -2.1 -28.9 -2 -7.2 0 -7.2 0 -5.3 -2 1.8 -1.8 3.4 -1.9 15.8 -1.9 8.4 0 17.7 0.7 23.8 1.7 5.5 1 11.3 2 12.9 2.3 1.6 0.2 8.1 2 14.5 4 18.3 5.5 40.3 16.6 56.1 28.2 6.9 5.1 22.8 17.7 24 19.1 0.3 0.3 2.1 1.8 4 3.4 1.9 1.6 8.9 7.9 15.5 14.1 13.6 12.8 25.6 22.7 33.6 27.8 6 3.8 17 8.8 18.1 8.1 0.3 -0.2 1 -1.9 1.3 -3.7 1.2 -5.5 4.4 -10.6 9.6 -15.5 2.7 -2.5 4.6 -4.9 4.2 -5.2 -0.5 -0.4 -3 -1.5 -5.8 -2.5 -2.7 -1 -6.7 -2.9 -8.7 -4.2 -2.1 -1.2 -4 -2.3 -4.3 -2.3 -0.4 0 -2.1 -1 -3.8 -2.3 -1.8 -1.2 -4.1 -2.8 -5.2 -3.5 -6.4 -4 -21 -14.6 -21.3 -15.4 -0.2 -0.5 -1 -0.8 -1.7 -0.8 -0.7 0 -1.5 -0.4 -1.7 -0.8 -0.3 -0.9 -29.4 -21.2 -30.4 -21.2 -0.3 0 -2 -1 -3.7 -2.2 -1.8 -1.3 -4.1 -2.8 -5.2 -3.4 -15.3 -8.3 -21 -11.1 -30 -14.9 -18.1 -7.6 -44.3 -14.1 -58.7 -14.7 -5.4 -0.2 -6.5 -0.5 -5.6 -1.5 1.4 -1.7 8.1 -1.6 22 0.2 37.6 5 64.2 16.8 106.3 47 34.7 24.9 47.8 32 62.5 33.9 5.1 0.7 6.2 -0.1 9.5 -6.9 2 -4.3 3.1 -13.8 2.1 -18 -0.5 -1.9 -1.3 -2.5 -3.2 -2.5 -6.9 0 -21.6 -6.7 -49.4 -22.3 -15.2 -8.5 -21.2 -11.8 -33.5 -17.7 -25.8 -12.6 -49.7 -19.3 -81.8 -23 -9.9 -1.2 -42.5 -0.9 -48.4 0.4 -1.1 0.2 -4.3 0.8 -7 1.1 l-4.8 0.7 2 -2.1 c3.2 -3.3 20.1 -5.5 44 -5.5 11 0 21.8 0.3 24 0.6 2.2 0.3 7.2 1.1 11 1.7 12.7 2 39.3 9 42 11.1 0.6 0.4 2.8 1.3 5 2 4.5 1.4 24.9 11.2 34 16.3 3.3 1.8 9.8 5.5 14.5 8.2 23.9 13.6 33.1 17.4 46.3 19.1 2.3 0.3 2.7 0 2.7 -1.9 0 -2.6 4.1 -11 8.3 -17.2 2.5 -3.7 3.6 -8.4 2 -8.5 -13.5 -0.9 -20.3 -2.9 -44.3 -13.3 -38.9 -16.6 -47 -19.6 -66.6 -24.1 -21.5 -4.9 -38.1 -6.8 -58.9 -6.7 -8.8 0.1 -17.8 0.3 -20 0.5 -5.4 0.5 -20.3 2.5 -24 3.2 l-3 0.6 2.1 -2.1 c1.7 -1.8 3.6 -2.3 12.5 -2.8 5.7 -0.3 10.9 -0.9 11.4 -1.3 1.6 -1.3 13.9 -2.1 32 -2.2 36 -0.2 66.8 7.4 112.5 27.9 13.6 6 27.8 10 39.7 11 l7.3 0.6 -2.5 -6.9 c-2.6 -7.1 -3.4 -14 -2.1 -18.5 0.7 -2.6 0.7 -2.6 -5.8 -3.2 -3.6 -0.3 -14.8 -3.2 -24.8 -6.3 -10.1 -3.1 -19.9 -6 -21.8 -6.4 -1.9 -0.5 -8.4 -2 -14.5 -3.5 -31.4 -7.5 -62.1 -9.2 -93.5 -5 -13.6 1.8 -41.1 6.5 -42.5 7.2 -0.5 0.3 0.1 -0.5 1.5 -1.9 2.8 -2.8 8.7 -4.4 31.4 -8.3 37.7 -6.4 77.3 -4.9 112.6 4.5 35.7 9.5 42.9 11.1 52.2 11.7 l9.6 0.6 2.1 -4.7 c2.2 -4.6 3.4 -14.6 2.4 -18.6 -0.5 -1.8 -1.3 -2 -9.2 -2 -7.8 0 -15.3 -1 -42.6 -5.5 -4.9 -0.8 -12.4 -1.7 -16.5 -2.1 -4.1 -0.3 -7.8 -0.8 -8.2 -1 -2.6 -1.6 -53.6 0.2 -64.3 2.2 l-3 0.6 2 -2 c2.8 -2.9 20.5 -5.2 45 -5.9 17 -0.5 21.4 -0.2 42 2.3 21.4 2.7 37.2 3.5 47.2 2.5 l4.1 -0.5 -2 -4 c-1.1 -2.3 -3 -5.2 -4 -6.6 -2.4 -3 -4.8 -8.6 -4.8 -11.1 0 -1 -0.4 -2 -0.9 -2.3 -0.9 -0.6 -50.5 1 -62.6 2 -13 1 -30.1 3.9 -48 8.1 -10.6 2.4 -38.4 10.8 -41.5 12.4 -0.8 0.4 -5.1 2.1 -9.5 3.7 -4.4 1.7 -10.4 3.9 -13.2 5.1 -2.9 1.1 -5.3 1.7 -5.3 1.2 0 -4.7 30.1 -17 60 -24.6 35.1 -8.9 50 -11.1 94.5 -14 5 -0.3 12.6 -1.4 17 -2.4 7.5 -1.6 8 -1.9 8.5 -4.7 0.7 -3.6 -0.5 -11.5 -2.2 -15.1 -1.3 -2.7 -1.5 -2.8 -10.3 -2.9 -5 -0.1 -11.2 0.2 -14 0.6 -2.7 0.4 -7.2 1.1 -10 1.4 -12.5 1.7 -36.6 8.2 -42.7 11.6 -1 0.6 -2.7 1 -3.7 1 -1.1 0 -2.3 0.5 -2.6 1 -0.3 0.6 -1.3 1 -2.1 1 -1.2 0 -11.5 4.2 -23.9 9.9 -2.2 1 -5.8 2.6 -8 3.5 l-4 1.8 3.4 -3.6 c1.9 -2 3.8 -3.6 4.2 -3.6 0.4 0 5.3 -2.2 11 -4.9 25.5 -12.1 61.3 -23.7 82.9 -27.1 10.8 -1.6 11 -1.8 7 -4.3 -3 -1.9 -4.9 -2.2 -14 -2.2 -9.1 0 -11.9 0.5 -21 3.4 -18.7 5.9 -59 23.1 -75.3 32.1 -5.6 3.1 -13.3 7.3 -17.2 9.4 -3.8 2.1 -8.6 4.8 -10.5 6.1 -1.9 1.2 -6.9 4.1 -11 6.5 -4.1 2.4 -11.1 6.5 -15.4 9.2 -4.4 2.6 -8.2 4.6 -8.4 4.3 -1.7 -1.7 16.4 -14.3 50.3 -34.9 35.6 -21.7 51 -33.1 68 -50.1 16.8 -16.8 22.4 -29.5 19 -42.6 -2.4 -8.9 -3.5 -9.1 -9 -1.2 -13 18.3 -29 35.3 -55.6 58.8 -11 9.8 -26.8 23.1 -35.9 30.2 -15 11.6 -30.4 23.5 -33.6 25.8 -1.6 1.1 -4.4 3.4 -6.4 5.1 -5.1 4.4 -12.2 9.4 -13.4 9.4 -1.6 0 5.2 -6.6 15.2 -14.9 33.5 -27.3 47.4 -39 60.7 -50.7 5 -4.3 10.6 -9.3 12.5 -10.9 5.3 -4.5 23.7 -23.2 31 -31.6 9.7 -11 14.3 -17.4 19.5 -27.1 l4.6 -8.6 -3.3 -2.5 c-5.1 -3.7 -9.8 -5.5 -16.5 -6.3 -5.6 -0.6 -6.3 -0.4 -7 1.2 -1.5 4.1 -23.6 38.5 -31 48.4 -23.5 31.3 -36.4 46.8 -56 66.7 -3.7 3.9 -6.3 5.4 -6.3 3.7 0 -0.4 3.9 -5.1 8.8 -10.6 4.8 -5.5 9.7 -11.2 11 -12.7 26.4 -30 43.7 -54.8 57.7 -82.2 7.7 -15.2 9.3 -19.9 6.5 -19.9 -0.5 0 -3 -4.3 -5.6 -9.5 -2.6 -5.2 -5.1 -9.5 -5.5 -9.5 -0.3 0 -1.1 0.6 -1.6 1.3 -2 2.5 -15.3 29.6 -15.3 31.2 0 0.6 -4.6 11.8 -7.4 18 -3.8 8.4 -15 30.6 -17.6 35 -1.6 2.8 -3.3 5.7 -3.7 6.5 -5.5 11.7 -43 64.7 -52.3 74 -0.3 0.3 -2.7 3.2 -5.4 6.5 -6.4 7.7 -12.8 14.5 -13.8 14.5 -1.8 0 -0.5 -2.3 5.3 -8.7 5.3 -6 30.6 -39 36.9 -48.3 1.3 -1.9 2.7 -3.7 3 -4 1.5 -1.1 17 -24.9 19.9 -30.4 1.7 -3.3 3.5 -6.4 4 -7 4.8 -6.3 18.7 -37.1 25.7 -57.2 3 -8.5 7.7 -20.7 10.4 -27.1 4.9 -11.2 5 -11.6 3.3 -13.5 -2.7 -3 -10.7 -6.8 -15.8 -7.5 -4.5 -0.6 -4.5 -0.6 -6.1 3.3 -1.7 4.3 -6.1 13.9 -7.4 16.5 -0.8 1.6 -2.9 8.5 -3.5 12 -0.2 0.9 -0.8 3.3 -1.3 5.3 -0.8 2.8 -0.7 4.7 0.5 8.2 3.2 9.5 -0.1 21.6 -9.1 33.3 -2.6 3.4 -5.9 9.3 -7.5 13.8 -5.6 15.1 -15.5 35.5 -24.2 49.7 -1 1.7 -2.2 3.8 -2.6 4.6 -1.2 2.6 -20.5 30.3 -24.7 35.5 -11 13.4 -16.3 19.1 -17.1 18.3 -0.4 -0.3 2.1 -4.1 5.5 -8.3 3.3 -4.3 8 -10.5 10.2 -13.9 2.3 -3.3 4.5 -6.3 4.8 -6.6 1 -0.7 11.3 -16.9 14.8 -23.2 1.6 -2.9 4.4 -7.8 6.1 -10.8 3 -5.2 12.3 -23.9 16.9 -34.1 2.3 -5.2 3.7 -9.9 2.9 -9.9 -0.3 0 -5.6 2.7 -11.7 5.9 l-11.2 5.9 -3.3 9.8 c-6 18.4 -21.7 52.1 -29.5 63.4 -0.9 1.4 -3 4.8 -4.5 7.5 -1.5 2.8 -4.7 7.6 -7.1 10.8 -2.4 3.1 -4.4 6 -4.4 6.3 0 0.3 -0.7 1.2 -1.5 2 -0.8 0.8 -1.9 2.2 -2.3 3.1 -0.5 0.9 -1.4 1.3 -2 0.9 -0.6 -0.4 2.5 -6.3 8 -14.9 9 -14 22.8 -39.6 28.7 -53.2 5.9 -13.6 12.2 -30.6 11.9 -32 -0.2 -1.1 -2 -0.7 -7.7 1.8 -4.1 1.8 -7.8 3.9 -8.2 4.7 -0.4 0.8 -2.6 7.4 -4.9 14.7 -6.7 21.4 -16.2 43.4 -27.3 63.3 -1.7 3 -3.5 6.4 -4.1 7.5 -2.6 4.7 -18.2 28.2 -20.1 30.1 -0.5 0.6 -3 3.4 -5.4 6.2 -3.8 4.5 -7.1 6.6 -7.1 4.5 0 -0.3 2.7 -4.1 6 -8.5 3.3 -4.3 6 -8.2 6 -8.7 0 -0.5 0.4 -1.1 0.9 -1.3 1.2 -0.4 16.2 -24.2 21.3 -33.7 2.2 -4.2 4.6 -8.5 5.3 -9.6 5.4 -8.7 23.5 -56.5 23.5 -61.9 0 -1.4 -0.7 -1.3 -5.2 0.5 -2.9 1.1 -5.8 2.6 -6.4 3.2 -0.6 0.7 -1.9 4.8 -2.8 9.2 -1.7 8.5 -7.9 30.2 -9 31.2 -1.7 1.7 -1.5 -1.2 0.3 -7.5 4.4 -14.5 7.2 -31.3 5.4 -31.1 -0.5 0 -2.8 1 -5.3 2.2 l-4.4 2.2 -1.3 10.5 c-2.4 19.6 -9.3 47.7 -15.5 62.5 -1.6 3.9 -3.4 8.4 -3.9 10.1 -2.1 7.2 -14.7 29.4 -16.6 29.4 -0.7 0 -1.3 -0.2 -1.3 -0.4 0 -0.3 2.9 -6.2 6.4 -13.3 3.6 -7 7.5 -15.3 8.7 -18.3 3 -7.5 11.9 -36.1 11.9 -38.1 0 -1 0.9 -5.9 2 -11.1 3.5 -16 3.9 -18.2 4.5 -23.5 0.3 -3.3 0.1 -5.3 -0.5 -5.3 -1.7 0 -22.8 10.8 -23.6 12.1 -0.4 0.7 -0.8 6.6 -1 13.3 -0.9 44.2 -2.6 55.6 -11 75.3 -5.9 13.8 -9.7 20.3 -10.7 18.6 -0.3 -0.5 1.2 -4.6 3.3 -9.1 4.9 -10.3 10.8 -28.9 12.5 -39.6 0.7 -4.4 1.4 -15.1 1.6 -23.6 0.1 -8.5 0.3 -18.2 0.4 -21.5 0.3 -10.4 -0.5 -11.2 -6.9 -6.9 -3.7 2.6 -3.8 2.7 -3.1 7.3 1.2 7.4 2.1 21.4 1.7 23.9 -0.7 3.5 -3.2 2.7 -3.3 -1 -0.1 -1.8 -0.3 -4.2 -0.4 -5.3 -0.1 -1.1 -0.5 -5.4 -0.9 -9.5 -1 -10.3 -1.4 -10.7 -6.1 -6.7 l-3.9 3.3 1.8 8.5 c4.1 19.4 2.9 43.4 -3.1 61.6 -5.1 15.7 -15.5 33.6 -27 46.3 -8.9 10 -8.4 8.6 -6.3 16.9 1 4 2.1 7.5 2.3 7.7 0.2 0.3 5.8 -1.2 12.3 -3.1 52 -15.9 96.5 -1.1 125.3 41.5 8.8 13.1 15.1 25.9 24.5 50 2.1 5.2 5.3 13.6 7.3 18.5 11.3 29 22 38.8 37.6 34.4z m60.2 -24.3 c1.7 -0.2 4.2 -0.4 5.7 -0.5 2.8 -0.1 10.8 -6.3 10.8 -8.4 0 -0.6 0.7 -1.8 1.5 -2.7 1.3 -1.4 0.8 -2 -4.7 -6 -8.9 -6.6 -24.3 -22.2 -41.3 -42 -18.6 -21.6 -32.7 -36.4 -42.5 -44.3 -4.1 -3.4 -7.7 -6.4 -8 -6.7 -0.6 -0.7 -10.2 -7.3 -17.4 -11.8 -2.7 -1.8 -8.3 -4.8 -12.5 -6.8 -4.2 -2 -8.7 -4.2 -10.1 -4.9 -3.9 -2 -24.4 -8.4 -32.2 -10 -9 -1.9 -22.3 -2.4 -23.9 -0.8 -0.8 0.8 0.3 1.4 4.7 2.3 31.7 6.5 55.3 19.1 78.8 42.4 16.3 16.1 23.9 25.5 44 55 4.9 7.1 10.1 14.7 11.6 16.8 9.7 13.4 27.1 30 30.5 29.2 1.1 -0.3 3.4 -0.6 5 -0.8z m-585.4 -107.4 c9.4 -3.3 13.8 -6 31.9 -19.5 39.9 -29.8 62.8 -42.3 95 -52 21.4 -6.5 37 -8.8 59.4 -8.7 32.7 0 55.7 6.8 78.9 23.4 14.4 10.3 24.7 20.2 36.5 35.2 1.6 1.9 2.1 2.2 1.6 0.9 -10.3 -29.5 -12 -57.9 -5.1 -84.5 8.2 -31.4 22.2 -56.3 43.9 -78.3 15.2 -15.3 28.2 -25.1 71.8 -53.5 45 -29.4 65.9 -47.9 74.8 -65.9 1.9 -3.9 2.3 -5.6 1.5 -6.4 -1.7 -1.7 -2.7 -0.7 -11.7 11.4 -13.8 18.4 -30.2 32.8 -59.9 52.3 -27.5 18.1 -42.8 28.4 -52.7 35.8 -13.2 9.7 -38.1 34.9 -45.2 45.6 -7.6 11.4 -18 33.1 -22.2 46 -3.3 10 -6.6 27.2 -6.6 33.9 0 1.7 -0.5 3.1 -1.2 3.1 -1.8 0 -0.3 -29.9 2.2 -42 2.5 -12.4 8.2 -28.5 14.4 -40.7 15.9 -31.6 33.7 -50 89.6 -91.8 44.2 -33.1 65.2 -53.3 69.2 -66.6 2.1 -7 -2.4 -7.9 -5.6 -1.1 -7.1 14.8 -26 33.2 -63 61.5 -45.8 34.9 -66.4 53.7 -79.4 72.2 -6.9 9.8 -15.5 25.2 -20.7 37.2 -6.9 16.1 -12.6 40.3 -12.8 55.5 -0.1 4.8 -0.5 8.8 -0.8 8.8 -2.6 0 -3.5 -22.7 -1.4 -37.5 4.3 -31.8 13.5 -56.2 30.4 -81.4 15.9 -23.5 29.8 -37.5 69.6 -70 34.5 -28.1 57.9 -50.5 63.2 -60.7 5.9 -11.2 2.3 -14.7 -4 -3.9 -9.2 15.8 -23.9 30.6 -57.2 57.6 -11 8.9 -24 19.7 -29 23.9 -12.5 10.7 -30.7 29.8 -38.6 40.3 -12.9 17.3 -25.3 40.7 -31.5 59.5 -3.2 9.8 -7.1 29.3 -7.9 39.7 -0.7 8.7 -1.3 11.5 -2.3 11.5 -1.2 0 -1.4 -35.1 -0.2 -44.5 2.1 -17.7 8.5 -38.5 17.5 -57 15.3 -31.6 32 -51.8 75.6 -91.6 32 -29.2 46.7 -45.8 53.6 -60.6 3.9 -8.4 3.9 -8.5 1.3 -10.8 -1.9 -1.7 -2 -1.5 -6.8 8.6 -8.4 17.8 -15 25.5 -50 57.6 -28.6 26.4 -41.3 39.1 -50.7 50.8 -22.8 28.5 -37.8 60.7 -43 93 -2.5 15.5 -1.6 53 1.5 60 1.1 2.4 1.8 11.5 0.9 11.5 -1.1 0 -2.7 -4.6 -5.3 -15.1 -7.6 -30.8 -7.5 -66.8 0.4 -97.9 9.3 -36.8 28.4 -68.6 65.2 -108.7 36.2 -39.4 48.8 -56.6 50 -68.4 0.3 -3 0 -3.4 -2.3 -3.7 -2.2 -0.3 -2.8 0.2 -3.4 2.5 -1.3 5.3 -6.8 16.8 -11 23.3 -5.4 8.1 -13 17.1 -32 37.5 -37.5 40.4 -54.9 66.9 -66.4 101.1 -8 24.1 -11.1 48.3 -9.4 73.4 0.6 8 0.8 14.7 0.7 14.9 -1 1.1 -1.8 -1.6 -3.5 -11.1 -5.9 -32 -3.7 -71.4 5.7 -102.4 10.7 -35.6 23 -58.3 52.6 -97.3 25.4 -33.5 32.3 -43.9 37 -55.6 1.4 -3.3 2.3 -6.6 2 -7.3 -0.5 -1.6 -5.1 -1.6 -8.4 0 -2.5 1.2 -2.6 1.7 -2.1 5.5 0.4 3.3 -0.1 5.5 -2.5 10.6 -4.3 9.3 -8.3 15.3 -26.9 40 -9.2 12.2 -20 27.4 -24.2 33.7 -18.9 29.1 -31.5 60.2 -37.2 92 -1.5 8.2 -3.3 39 -3 51.3 0.2 11.6 -1.1 14.2 -2.8 5.5 -2.7 -13.5 -4.1 -28.5 -5.2 -53.8 -1.9 -44.5 0.4 -67.9 9.5 -99.7 4.9 -17 9.1 -27.9 22 -56.7 13.4 -29.7 15.6 -35.8 15.6 -43 0 -4.6 -0.3 -5.4 -2.1 -5.9 -2.3 -0.6 -2.5 -0.2 -3.4 6.8 -1.1 8.1 -5.3 20 -13.2 37.4 -16.3 36.1 -23.3 57.5 -28.8 88.1 -4.3 24.3 -5.8 60.5 -3.4 86 2.1 23.1 7 52 12.4 73.4 0.6 2.1 0.4 2.7 -0.5 2.4 -0.7 -0.2 -3.8 -6.7 -6.9 -14.3 -3.2 -7.7 -9.2 -22.2 -13.4 -32.2 -4.2 -10.1 -7.7 -18.5 -7.7 -18.8 0 -0.7 -9.8 -24.7 -20.5 -50 -24.2 -57.3 -38.2 -99.2 -42.4 -127.2 -2.3 -14.9 -1.1 -29.6 3.2 -40.2 2.1 -5.3 2.3 -6.1 0.8 -6.1 -2.4 0 -3.6 1.1 -5.7 5 -1.6 3 -1.9 5.6 -1.8 18 0.1 17.7 3.2 34.3 12.5 67 11.7 41.6 15.7 53.4 28.7 86 9.2 23 13.4 32.9 31.1 73.9 5.5 12.9 9.9 23.6 9.6 23.9 -1.2 1.2 -3.4 -1.1 -5.7 -6 -1.4 -2.9 -4.7 -9.8 -7.3 -15.3 -2.6 -5.4 -8.2 -16 -12.4 -23.5 -4.2 -7.4 -8.2 -14.7 -8.8 -16.1 -0.7 -1.5 -4.6 -8.5 -8.9 -15.5 -24.2 -40.4 -48.2 -67.3 -88.2 -99.2 -11.6 -9.2 -37.7 -26.9 -45.5 -30.8 -2.9 -1.4 -6.6 -3.7 -8.3 -5 -2.6 -1.9 -3.4 -2.1 -4.7 -1.1 -3.7 2.8 -2.5 4.7 5.4 8.1 16 7 34.7 19.7 60.8 41.4 39.5 32.9 66.8 65.5 88.6 106.2 6.7 12.4 9.4 17.3 16.8 30 1.5 2.5 2.7 4.8 2.7 5.3 0 2.3 -2.9 -1 -14.2 -16 -6.9 -9.3 -13.8 -17.9 -15.2 -19.2 -1.5 -1.4 -2.6 -3.5 -2.6 -5.1 0 -3.1 -1.4 -5.3 -9.8 -15 -26.9 -31 -55.1 -51.1 -89.7 -63.8 -13.2 -4.9 -19.4 -6.7 -43.1 -12.6 -10 -2.5 -20.6 -5.5 -23.5 -6.6 -5.9 -2.3 -19.9 -3.8 -19.9 -2.2 0 1.2 12 6.3 20 8.6 3 0.8 13 3.1 22.2 5.1 46.6 9.9 77.4 24.7 108.8 52.3 8.5 7.5 29.8 29.1 31.3 31.9 3 5.1 -6 1.3 -15.6 -6.6 -19.8 -16.3 -40.3 -29.7 -59 -38.6 -20.2 -9.5 -39.5 -14.9 -71.9 -19.9 -9.3 -1.4 -24.3 -3.8 -33.4 -5.2 -11.9 -1.8 -18.4 -2.4 -22.8 -1.9 -8.2 0.9 -12.6 2.3 -12.6 4.2 0 1.2 1 1.4 4.8 1 5.8 -0.5 31 1.7 49.7 4.4 66.2 9.6 94.1 20.5 139.6 54.5 7.4 5.6 15.1 10.9 17 11.8 1.9 0.9 5.9 4.4 8.9 7.8 13.8 15.6 39.1 50.9 36.9 51.7 -0.6 0.2 -2.3 -1.2 -3.8 -3 -14.7 -18.9 -36.5 -40.7 -52.6 -52.7 -31.2 -23.1 -75.8 -41.1 -117 -47.1 -27.8 -4.1 -67.4 -3.4 -84 1.4 -14.8 4.3 -27.5 11.5 -20.3 11.5 1.3 0 7 -1.5 12.6 -3.4 20.2 -6.8 40.4 -9.2 65.7 -7.6 50.6 3.2 91 16 128.5 40.5 26.2 17.2 45.3 36 68.7 67.5 15.1 20.3 18.8 25.8 18 26.6 -1 1 -16.3 -15.9 -25.4 -28.1 -5 -6.6 -11.5 -14.7 -14.6 -18.1 -23.2 -25.3 -68.5 -51.6 -107 -61.9 -24.8 -6.7 -55.7 -10.5 -85.9 -10.5 -19.2 0 -28.9 0.9 -38.8 3.7 -8.3 2.3 -17.5 8.2 -15.7 9.9 0.3 0.4 3.8 -0.3 7.7 -1.5 29.3 -8.9 59.8 -10.2 99 -4 50.7 7.9 90.2 26 127.4 58.1 9.5 8.2 27.6 27.1 27.6 28.8 0 1.9 -1.8 1 -8.3 -4.2 -14.8 -12 -18.6 -14.9 -27.7 -20.7 -5.2 -3.4 -18 -10.4 -28.5 -15.6 -47.3 -23.5 -90.3 -30.5 -148.7 -24.5 -32.7 3.4 -43.2 5.7 -56.3 12.2 -7.5 3.8 -17.2 10.5 -17.9 12.5 -1.8 4.6 3.2 4.3 9.7 -0.6 19 -14.2 53.9 -22.1 97.2 -22.1 34.5 0 67.7 6.3 98.6 18.6 25.9 10.3 44.2 21.5 73.4 44.8 3.9 3.1 10.2 8 14 11 11.2 8.6 31 30.5 29.2 32.3 -0.4 0.3 -4.6 -3.3 -9.4 -8.1 -10.6 -10.6 -30.9 -27 -46.9 -37.8 -12 -8.1 -36 -20.4 -48.9 -25.1 -44 -16.1 -89.9 -18.9 -141 -8.6 -13.4 2.7 -39.6 9.3 -46.9 11.8 -10.9 3.8 -24.6 12.6 -23.2 14.9 1.2 2 3.2 1.4 14.4 -4.2 20.1 -10.1 37.8 -15.6 64.6 -20.1 44.7 -7.5 87.1 -4.4 127.1 9.5 12.9 4.4 35.3 15.6 47.5 23.7 18.5 12.3 47.4 36.2 45.8 37.8 -0.4 0.4 -4.2 -1.5 -8.5 -4.2 -20.3 -12.9 -38.3 -22.5 -54.3 -28.8 -49.7 -19.6 -89.7 -24.4 -136.9 -16.4 -26 4.4 -63.1 15.2 -81.1 23.6 -10.9 5.1 -24 14.6 -24 17.4 0 3.1 2.8 2.2 12.4 -4 15.7 -10.1 29.7 -16.4 51.1 -23.1 64.7 -20.3 124.7 -16.6 187.5 11.5 21.4 9.6 57.3 32.5 54.8 35 -0.9 0.9 -2.9 -0.3 -15 -8.6 -19.9 -13.8 -41.6 -21.8 -76.9 -28.3 -13.9 -2.6 -40.9 -5 -46.3 -4.2 -1.7 0.3 -7.1 0.8 -12.1 1.1 -18.4 1.3 -45.9 7.6 -68.5 15.8 -14.9 5.4 -33.3 14 -52.7 24.6 -22.2 12.2 -27.3 15.3 -26.9 16.6 1 3.1 11.9 -1.4 31.8 -13.3 23.4 -13.9 41 -22 64.8 -29.6 40.1 -13 75.5 -14.7 119 -6 19.6 3.9 57 17.3 57 20.4 0 1.5 -0.6 1.3 -13.1 -2.9 -24.7 -8.4 -46.2 -11.7 -70.3 -10.8 -41.5 1.5 -68.6 10.6 -135.1 45 -11.3 5.8 -22.8 10.9 -31 13.6 -15 5.1 -16.3 5.8 -14.2 7.9 1.1 1 2 1.1 3.4 0.4 1 -0.6 5.7 -1.8 10.4 -2.7 10 -2 20.9 -6.9 42 -19.1 67.6 -38.6 122.7 -49.2 179.5 -34.4 18.6 4.9 45.4 15.7 49.8 20 2.2 2.2 -0.6 2 -6.4 -0.4 -9.2 -3.8 -25.9 -8.4 -39 -10.8 -9.5 -1.8 -15.2 -2.2 -32.5 -2.2 -18.7 0 -22.5 0.3 -34.9 2.8 -34.2 6.6 -65.2 20.3 -107.6 47.4 -9.1 5.8 -20.8 13 -26 16 -14 8 -16.6 11 -8.9 9.9 5.9 -0.8 12.9 -4.6 26.4 -14.2 68.9 -49.4 131.6 -67.4 188.5 -53.9 17.3 4 41 12.4 41 14.5 0 1.2 -1.1 1.1 -5.8 -0.5 -14 -5 -40.9 -7.9 -60.8 -6.6 -42.1 2.7 -83.4 19.6 -128.9 53 -17.3 12.6 -28.2 19.5 -39 24.6 -5.2 2.5 -9.5 5.1 -9.5 5.8 0 1.9 1.2 2.8 3 2.2 0.8 -0.3 4 -1.4 7.1 -2.4z m304.8 -31.2 c-0.5 -2.5 -1.2 -12.6 -1.5 -22.5 -0.5 -13.9 -0.3 -20.4 0.9 -28.5 6.3 -41.7 26.1 -71.9 65.6 -99.9 11.6 -8.3 31.7 -19.4 57.1 -31.8 37.3 -18 48.3 -24.3 59.8 -34 8.6 -7.4 13.4 -15.7 9.6 -17 -0.7 -0.2 -5.7 4.1 -11.1 9.6 -12.3 12.3 -21.7 18.4 -47.8 31.3 -42.7 21 -60.5 31 -76.3 42.8 -19.9 14.7 -40 38.6 -49.2 58.3 -7.5 16.1 -12 37.2 -12 56.8 0 9.5 2.1 32.9 3.5 38.8 1.1 4.4 2.4 0.7 1.4 -3.9z m14.1 -10.6 c18.5 -21.9 27.4 -43.5 28.7 -69.9 0.5 -9.3 -1.6 -28.9 -3.3 -31.7 -1.6 -2.6 -15.2 14.7 -21.9 27.7 -9.3 18.3 -13 36.7 -12.1 60 0.6 15 1.3 20.6 2.5 20.4 0.3 0 3.1 -2.9 6.1 -6.5z m-88 -149 c-3.8 -11.2 -10.3 -33.4 -14.1 -48.3 -1.6 -6.3 -5 -18 -7.5 -26 -2.5 -8 -7 -24.5 -9.9 -36.6 -7.2 -29.3 -9.7 -43.6 -15.1 -86.7 -2.4 -19.2 -5.3 -29.8 -8.2 -29.8 -1.8 0 -1.5 2.9 2.1 20 1.4 6.9 3.3 19 4.2 27 4.7 42 14.5 84.9 28.5 125 3.4 9.6 8.8 25.6 12.1 35.5 7.8 23.2 10.1 29.6 10.5 29.2 0.2 -0.2 -1 -4.4 -2.6 -9.3z m4.5 -15 c-3.1 -16.7 -4.6 -29.6 -5.7 -49.3 -2.5 -45.7 3.8 -85.1 21.2 -131.7 8.1 -22 10 -30.8 7.9 -37.4 -1 -3.2 -2 -4.6 -3.4 -4.8 -1.9 -0.3 -2 0.1 -1.7 6.8 0.6 10.1 -1 16.7 -9.4 40 -14.9 40.8 -19.1 66.1 -18.1 107.7 0.6 22.4 1.6 31.8 7.2 64.8 1.7 9.8 2.5 12.9 3.1 12.2 0.2 -0.2 -0.2 -3.9 -1.1 -8.3z m13 -38.4 c6.6 -34.9 11.4 -49.9 24.2 -75.4 5.4 -10.7 18.2 -32.7 28 -48.1 8.4 -13.1 15.8 -27.6 17.4 -33.9 1 -3.9 0.9 -5 -0.5 -7.1 -0.9 -1.4 -2 -2.5 -2.4 -2.5 -0.4 0 -1.8 3.7 -3 8.3 -2.8 10 -6.6 17.5 -18.6 37.1 -15.1 24.7 -16.3 26.7 -23 40.7 -10.7 22.1 -18.4 47 -23.1 74.2 -2.8 16.6 -2.9 17.5 -1.6 16.2 0.5 -0.6 1.7 -4.8 2.6 -9.5z m-67.9 -18.7 c-1.5 -3.8 -15.6 -25.7 -23.4 -36.3 -25.4 -34.4 -39.3 -48.5 -71.4 -72.8 -13.3 -10.1 -14.9 -11 -16.3 -9.6 -0.8 0.8 -1.5 2.1 -1.5 2.8 0 0.7 3.9 3.7 8.8 6.6 17.4 10.6 40.7 32.5 64.7 61 7.2 8.5 14.4 16.8 16.1 18.5 4.7 4.5 14 17 18.5 24.7 3.7 6.4 5.9 8.9 4.5 5.1z m-33.1 -11.4 c-10.4 -10.5 -25.4 -22.9 -37.2 -30.6 -12.5 -8.2 -28.5 -15.4 -52.7 -23.8 -23.4 -8.1 -35.3 -10.8 -38 -8.5 -2.5 2 -1.9 2.7 3.2 3.9 2.6 0.7 7 1.9 9.7 2.6 2.8 0.7 7.3 1.6 10 2 8.4 1.1 34.2 10.3 49.5 17.6 8 3.9 19.4 10.3 25.5 14.4 9.9 6.6 31 23.9 35.9 29.4 1.1 1.1 2.2 2.1 2.5 2.1 0.3 0 -3.5 -4.1 -8.4 -9.1z m66.7 -13.6 c-2.9 -31.1 -2.1 -59.2 2.4 -92 2.5 -18.6 2.9 -32.3 0.9 -34.2 -1.8 -1.7 -5 -1.7 -4.6 -0.1 1.3 5.8 1.2 23.7 -0.4 34 -4 26.7 -5.2 50.4 -3.5 68 1.1 11.6 5.2 37.2 5.8 36.5 0.2 -0.2 -0.1 -5.7 -0.6 -12.2z m299.8 -23.8 c0 -0.2 -1.2 -0.2 -2.7 -0.1 -1.6 0.2 -3.2 0.4 -3.8 0.5 -0.6 0.1 -1 4.6 -1 11.4 l0 11.2 3.8 -11.3 c2 -6.3 3.7 -11.5 3.7 -11.7z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "search.suggest", "search.highlight", "search.share", "navigation.footer", "content.action.edit"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/katex.js"></script>
+      
+        <script src="../javascripts/quiz-answers.js"></script>
+      
+        <script src="../javascripts/course-navigation.js"></script>
+      
+        <script src="../javascripts/resource-export.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1107 @@
+/* 正文使用宋体配套英数；试卷、小测和题目页的英数使用新罗马。 */
+@media screen {
+  :root:not([data-reading-style="original"]) {
+    /* 组件跟随正文轻微缩小, 间距继续沿用主题单位。 */
+    --bms-reading-unit: 19.375px;
+    /* 原本较小的辅助文字保留常规尺寸, 不随宽屏继续放大。 */
+    --bms-reading-small-unit: 20px;
+    --bms-reading-prose-font: "BMS Noto Serif SC", "Noto Serif SC", "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+    --bms-reading-interface-font: "BMS Noto Sans SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-nav,
+  :where(html:not([data-reading-style="original"])) .md-path {
+    font-size: calc(0.7 * var(--bms-reading-unit));
+  }
+
+  /* 界面使用站内黑体, 顶部菜单稍大于侧栏。 */
+  :where(html:not([data-reading-style="original"])) body {
+    --md-text-font-family: var(--bms-reading-interface-font);
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-tabs__link {
+    font-size: 15px;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset :is(.admonition, details),
+  :where(html:not([data-reading-style="original"])) .md-typeset .tabbed-labels > label,
+  :where(html:not([data-reading-style="original"])) .md-typeset .footnote,
+  :where(html:not([data-reading-style="original"])) .md-typeset table:not([class]) {
+    font-size: calc(0.64 * var(--bms-reading-small-unit));
+  }
+
+  /* 目录状态仍是辅助信息, 但需要能直接辨认。 */
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(
+    .course-catalog-status,
+    .curriculum-course-status,
+    .course-catalog-counts small
+  ) {
+    font-size: calc(0.55 * var(--bms-reading-small-unit));
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset .course-catalog-counts small {
+    color: var(--md-default-fg-color--light);
+  }
+
+  /* 培养方案的分组标题保持宋体, 避免比组内课程名称更弱。 */
+  :where(html:not([data-reading-style="original"])) .md-typeset h5[id^="curriculum-"] {
+    color: var(--md-default-fg-color);
+    font-size: 0.95em;
+  }
+
+  /* 解析正文按语义标记, 与折叠按钮和简短答案保持不同字号。 */
+  :where(html:not([data-reading-style="original"])) .md-typeset .answer-explanation {
+    font-size: calc(0.7 * var(--bms-reading-small-unit));
+    line-height: 1.6;
+  }
+
+  /* 长文字表格单独标记; 窄屏保留可读列宽并允许键盘横向滚动。 */
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose:focus-visible {
+    outline: 2px solid var(--md-accent-fg-color);
+    outline-offset: 2px;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose .md-typeset__scrollwrap {
+    margin: 0;
+    overflow: visible;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose .md-typeset__table {
+    display: block;
+    padding: 0;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose table:not([class]) {
+    min-width: 42em;
+    font-size: calc(0.7 * var(--bms-reading-small-unit));
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-table--prose th {
+    white-space: nowrap;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset {
+    /* 阅读文字固定字号, 避免在超宽屏中再次变大。 */
+    font-size: 15.5px;
+    font-family: var(--bms-reading-prose-font);
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset.reading-paper {
+    font-family: "Times New Roman", var(--bms-reading-prose-font);
+  }
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(
+    nav,
+    .tabbed-labels,
+    .course-catalog-guide-links,
+    .course-catalog,
+    .course-catalog-toolbar,
+    .course-catalog-unavailable,
+    .course-catalog-empty,
+    .curriculum-heading-credit,
+    .curriculum-course-list,
+    .resource-index-actions,
+    .exam-resource-tag,
+    .resource-page-tools,
+    .resource-batch-toolbar,
+    .resource-batch-selection,
+    .resource-batch-choice,
+    .md-tags,
+    .md-source-file,
+    .md-button,
+    button,
+    input,
+    select,
+    textarea,
+    [role="button"]
+  ),
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset details > summary,
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset
+    .course-resource-grid:not(.resource-export-index) > ul > li > p:last-child a {
+    font-family: var(--md-text-font-family);
+  }
+
+  /* 内容卡片的标题和说明保持宋体连贯, 操作文字沿用上面的黑体规则。 */
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(
+    .course-links, .course-link, .course-resource-grid, .course-catalog-group,
+    .curriculum-context, .curriculum-plan-summary
+  ),
+  :where(html:not([data-reading-style="original"])) .md-header__topic[data-md-component="header-topic"],
+  :where(html:not([data-reading-style="original"])) .md-footer__title .md-ellipsis {
+    font-family: var(--bms-reading-prose-font);
+  }
+
+  /* 界面强调用中等字重, 正文标题和品牌保留各自层级。 */
+  :where(html:not([data-reading-style="original"])) :is(
+    .md-nav__title, .md-nav__item--section > .md-nav__link,
+    .md-nav__link--active, .md-tabs__item--active .md-tabs__link,
+    .md-search-result .md-typeset h2
+  ),
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(
+    .tabbed-labels > label, .course-catalog-toolbar > label,
+    .course-catalog-name, .curriculum-course-item > span,
+    .course-catalog-guide > summary, .course-catalog-unavailable > summary,
+    .quiz-answer > summary, details > summary, .exam-resource-tag, .md-button
+  ),
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset
+    .course-resource-grid:not(.resource-export-index) > ul > li > p:last-child a {
+    font-weight: 500;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-nav--primary > .md-nav__title[for="__drawer"] {
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 44.984375em) {
+  :root:not([data-reading-style="original"]) {
+    --bms-reading-unit: 18.75px;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset {
+    font-size: 15px;
+  }
+}
+
+/* Reading style is independent of the colour palette. */
+.reading-style-toggle {
+  flex: 0 0 auto;
+}
+
+.reading-style-toggle:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.reading-style-toggle[aria-pressed="true"] > svg {
+  border-bottom: 2px solid currentColor;
+}
+
+@media print {
+  .reading-style-toggle {
+    display: none;
+  }
+}
+
+/*以下为占比表*/
+.percentage-table {
+    max-width: 100%;
+    overflow-x: auto;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.percentage-table td {
+    padding: 8px 0px;
+    font-size: 0.9em;
+    color:rgb(0, 0, 0);
+}
+.first-column {
+    width: 120px; /* 固定宽度 */
+    white-space: nowrap; /* 防止文本换行 */
+}
+.first-column-structure-and-function {
+    width: 200px; /* 固定宽度 */
+    white-space: nowrap; /* 防止文本换行 */
+}
+.second-column {
+    width: 50px;
+    white-space: nowrap;
+}
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/*以上为占比表*/
+
+/*以下为资源表*/
+.resource-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.resource-table thead {
+    background: rgb(193, 219, 248);
+    color: black;
+}
+.resource-table th {
+    padding: 12px 20px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+}
+.resource-table tbody tr {
+    border-bottom: 1px solid #e5e7eb;
+    transition: background-color 0.2s;
+}
+.resource-table tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+.resource-table tbody tr:hover {
+    background-color: #f1f5f9;
+}
+.resource-table td {
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 0.83em;
+    color: #374151;
+}
+.resource-table tbody tr:last-child {
+    border-bottom: none;
+}
+/*以上为资源表*/
+
+/*以下为旋转棍*/
+.link-divider {
+    display: inline-flex;
+    align-items: center;
+}
+.divider {
+    color: #ddd;
+    margin: 0 8px;
+    transition: all 0.3s;
+    vertical-align: middle; /* 垂直居中 */
+    font-family: "Source Han Sans", "Noto Sans", sans-serif; /* 使用合适的字体 */
+    font-size: 1em; /* 确保与汉字一致 */
+    transform-origin: center; /* 旋转中心点 */
+}
+.link-divider:hover .divider {
+    color: #666;
+    transform: rotate(360deg);
+}
+/*以上为旋转棍*/
+
+
+.badges {
+  margin-top: -2em;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  font-size: 85%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+.is-badge, .labor-badge {
+  background-color: #FF862F;
+  color: #161616;
+}
+.cs-badge, .general-badge {
+  background-color: #29ABCA;
+  color: #161616;
+}
+.ai-badge, .cross-badge {
+  background-color: #FC6255;
+  color: #161616;
+}
+[data-md-color-scheme="default"] .is-badge,
+[data-md-color-scheme="default"] .cs-badge,
+[data-md-color-scheme="default"] .ai-badge {
+  color: #FFFFFF;
+}
+
+/* 小测答案：桌面端由 quiz-answers.js 支持悬停，所有设备均可点击展开 */
+.quiz-answer {
+  margin: 0.35rem 0 0.9rem;
+  border-left: 3px solid var(--md-primary-fg-color);
+  padding-left: 0.75rem;
+}
+
+.quiz-answer summary {
+  color: var(--md-primary-fg-color);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* 题图按原比例显示；单图 width 属性可缩窄，窄屏仍受容器宽度限制 */
+.md-typeset .exam-figure,
+.md-typeset .quiz-figure {
+  display: block;
+  max-width: min(100%, 32rem);
+  height: auto;
+  margin: 1rem auto;
+}
+
+/* 白底题图的透明区域在明暗主题下均保持纯白 */
+.md-typeset .exam-figure--white {
+  background-color: #fff;
+}
+
+/* 纯题图首段保留题号所在首行，避免标号对齐到后面的答案行 */
+.md-typeset li > p:first-child:has(> a:only-child > img.exam-figure:only-child)::before,
+.md-typeset li > p:first-child:has(> a:only-child > img.quiz-figure:only-child)::before {
+  content: "\200b";
+}
+
+/* 回忆卷题目间距：选择题适度分隔，大题使用更宽的阅读节奏 */
+.md-typeset .exam-section--choice + ol > li,
+.md-typeset .exam-section--choice + p + ol > li,
+.md-typeset .exam-section--choice + p + p + ol > li,
+.md-typeset .exam-section--choice + p + .admonition + ol > li,
+.md-typeset .exam-section--choice + p + .admonition + .admonition + ol > li,
+.md-typeset .exam-question-list--choice > li {
+  margin-bottom: 1.1rem;
+}
+
+.md-typeset .exam-section--short + ol > li,
+.md-typeset .exam-section--short + p + ol > li,
+.md-typeset .exam-section--short + p + p + ol > li,
+.md-typeset .exam-section--short + p + .admonition + ol > li,
+.md-typeset .exam-section--short + p + .admonition + .admonition + ol > li {
+  margin-bottom: 1.65rem;
+}
+
+.md-typeset .exam-section--analysis + ol > li,
+.md-typeset .exam-section--analysis + p + ol > li,
+.md-typeset .exam-section--analysis + p + p + ol > li,
+.md-typeset .exam-section--analysis + p + .admonition + ol > li,
+.md-typeset .exam-section--analysis + p + .admonition + .admonition + ol > li {
+  margin-bottom: 2.2rem;
+}
+
+.md-typeset .exam-section + ol > li:last-child,
+.md-typeset .exam-section + p + ol > li:last-child,
+.md-typeset .exam-section + p + p + ol > li:last-child,
+.md-typeset .exam-section + p + .admonition + ol > li:last-child,
+.md-typeset .exam-section + p + .admonition + .admonition + ol > li:last-child,
+.md-typeset .exam-question-list > li:last-child {
+  margin-bottom: 0;
+}
+
+/* 课程资料索引：用紧凑的单列卡片呈现试卷、小测、讨论课和笔记入口 */
+.md-typeset .course-resource-grid {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.65rem;
+  margin: 1.35rem 0 0.4rem;
+}
+
+.md-typeset .grid.cards.course-resource-grid > ul {
+  margin: 0;
+}
+
+.md-typeset .course-resource-grid > ul > li {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.65rem 1.2rem;
+  min-height: 0;
+  margin: 0;
+  padding: 0.85rem 1rem 0.85rem 1.1rem;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-left: 0.2rem solid var(--md-primary-fg-color);
+  border-radius: 0.4rem;
+  background-color: var(--md-default-bg-color);
+  box-shadow: 0 0.08rem 0.35rem rgb(0 0 0 / 5%);
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.md-typeset .course-resource-grid > ul > li:hover,
+.md-typeset .course-resource-grid > ul > li:focus-within {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0.18rem 0.55rem rgb(0 0 0 / 9%);
+}
+
+.md-typeset .course-resource-grid > ul > li > p {
+  margin: 0;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:first-child {
+  min-width: 0;
+  line-height: 1.45;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:first-child strong {
+  color: var(--md-default-fg-color);
+  font-size: calc(0.88 * var(--bms-reading-unit, 1rem));
+  font-weight: 650;
+}
+
+.md-typeset .course-resource-grid .course-resource-detail {
+  display: block;
+  margin-top: 0.16rem;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.md-typeset .course-resource-grid .exam-resource-tag {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.08em 0.48em;
+  border-radius: 999px;
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.62 * var(--bms-reading-small-unit, 1rem));
+  font-weight: 650;
+  line-height: 1.55;
+  vertical-align: 0.12em;
+}
+
+.md-typeset .course-resource-grid > ul > li > hr {
+  display: none;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:last-child a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.35em 0.68em;
+  border-radius: 999px;
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:last-child a:only-child::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 0.4rem;
+}
+
+.md-typeset .course-resource-grid > ul > li > p:last-child a::after {
+  content: "→";
+  transition: transform 160ms ease;
+}
+
+.md-typeset .course-resource-grid > ul > li:hover > p:last-child a::after,
+.md-typeset .course-resource-grid > ul > li:focus-within > p:last-child a::after {
+  transform: translateX(0.14rem);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .course-resource-grid > ul > li {
+  box-shadow: 0 0.08rem 0.35rem rgb(0 0 0 / 18%);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .course-resource-grid > ul > li > p:last-child a {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+@media screen and (max-width: 44.984375em) {
+  /* 深层课程页面仅保留“课程 > 当前栏目”，避免长面包屑被挤成逐字竖排 */
+  .md-path__item:nth-last-child(n + 4):first-child,
+  .md-path__item:nth-last-child(n + 3):nth-child(2) {
+    display: none;
+  }
+
+  .md-typeset .course-resource-grid {
+    margin-top: 1rem;
+  }
+
+  .md-typeset .course-resource-grid > ul > li {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.55rem;
+    padding: 0.8rem 0.85rem;
+  }
+
+  .md-typeset .course-resource-grid > ul > li > p:last-child {
+    justify-content: flex-start;
+    white-space: normal;
+  }
+}
+
+/* 中立课程资料库：课程归属由培养方案决定，此处只呈现已有资料 */
+/* 课程目录说明默认折叠，常用站外入口保持可见。 */
+.md-typeset details.course-catalog-guide {
+  margin: 0 0 0.35rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: inherit;
+}
+
+.md-typeset .course-catalog-guide > summary {
+  margin: 0;
+  padding: 0.25rem 1.1rem 0.25rem 0;
+  background: transparent;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.68 * var(--bms-reading-unit, 1rem));
+}
+
+.md-typeset .course-catalog-guide > summary::before {
+  display: none;
+}
+
+.md-typeset .course-catalog-guide > summary::after {
+  top: 0.25rem;
+  right: 0;
+}
+
+.md-typeset .course-catalog-guide-links {
+  margin: 0.35rem 0 0.7rem;
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
+}
+
+.md-typeset .course-catalog-toolbar {
+  margin: 1.35rem 0 0.8rem;
+  padding: 0.85rem 1rem;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.45rem;
+  background-color: var(--md-code-bg-color);
+}
+
+.md-typeset .course-catalog-toolbar > label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
+  font-weight: 650;
+}
+
+.md-typeset .course-catalog-search-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.md-typeset .course-catalog-search-row input {
+  width: 100%;
+  min-width: 0;
+  padding: 0.52rem 0.68rem;
+  border: 0.05rem solid var(--md-default-fg-color--lighter);
+  border-radius: 0.35rem;
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: calc(0.78 * var(--bms-reading-unit, 1rem));
+  outline: none;
+}
+
+.md-typeset .course-catalog-search-row input:focus {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 0.12rem var(--md-accent-fg-color--transparent);
+}
+
+.md-typeset .course-catalog-count {
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
+  white-space: nowrap;
+}
+
+.md-typeset .course-catalog-counts {
+  display: grid;
+  justify-items: end;
+  gap: 0.08rem;
+}
+
+/* 元信息已用浅色文字, 避免再叠加 Material 的 small 透明度。 */
+.md-typeset .course-catalog-counts small,
+.md-typeset .curriculum-course-item small,
+.md-typeset .course-link small {
+  opacity: 1;
+}
+
+.md-typeset .course-catalog-counts small {
+  color: var(--md-default-fg-color--lighter);
+  font-size: calc(0.5 * var(--bms-reading-small-unit, 1rem));
+  white-space: nowrap;
+}
+
+.md-typeset .course-catalog-group {
+  margin: 1.45rem 0 1.8rem;
+}
+
+.md-typeset .course-catalog-group[hidden] {
+  display: none;
+}
+
+.md-typeset .course-catalog-group > h2 {
+  margin-bottom: 0.65rem;
+}
+
+.md-typeset .course-catalog-group-note {
+  margin: -0.15rem 0 0.7rem;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.68 * var(--bms-reading-unit, 1rem));
+}
+
+.md-typeset .course-catalog {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(var(--course-catalog-rows), auto);
+  grid-auto-flow: column;
+  column-gap: 0.9rem;
+  border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .course-catalog-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+  gap: 0.1rem;
+  padding: 0.5rem 0.18rem;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  transition: background-color 150ms ease;
+}
+
+.md-typeset .course-catalog-item[hidden] {
+  display: none;
+}
+
+.md-typeset a.course-catalog-item:hover,
+.md-typeset a.course-catalog-item:focus-visible {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-typeset .course-catalog-item--unavailable {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .course-catalog-name {
+  overflow-wrap: anywhere;
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.md-typeset a.course-catalog-item .course-catalog-name {
+  color: var(--md-typeset-a-color);
+}
+
+.md-typeset .course-catalog-status {
+  display: inline-block;
+  margin-left: 0.38rem;
+  padding: 0.05rem 0.26rem;
+  border-radius: 0.22rem;
+  background-color: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.48 * var(--bms-reading-small-unit, 1rem));
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  vertical-align: 0.08rem;
+  white-space: nowrap;
+}
+
+.md-typeset .course-catalog-meta {
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.58 * var(--bms-reading-small-unit, 1rem));
+  line-height: 1.45;
+}
+
+.md-typeset .course-catalog-unavailable {
+  margin: 0.55rem 0 1.1rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.md-typeset .course-catalog-unavailable > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.42rem 0.18rem;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  cursor: pointer;
+  font-size: calc(0.64 * var(--bms-reading-small-unit, 1rem));
+  font-weight: 650;
+  list-style: none;
+  background: transparent;
+}
+
+.md-typeset .course-catalog-unavailable > summary::marker,
+.md-typeset .course-catalog-unavailable > summary::-webkit-details-marker {
+  content: "";
+  display: none;
+}
+
+.md-typeset .course-catalog-unavailable > summary::before,
+.md-typeset .course-catalog-unavailable > summary::after {
+  content: none;
+  display: none;
+}
+
+.md-typeset .course-catalog-unavailable-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.md-typeset .course-catalog-unavailable-label > span {
+  color: var(--md-primary-fg-color);
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
+}
+
+.md-typeset .course-catalog-unavailable[open] .course-catalog-unavailable-label > span {
+  font-size: 0;
+}
+
+.md-typeset .course-catalog-unavailable[open] .course-catalog-unavailable-label > span::before {
+  content: "−";
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
+}
+
+.md-typeset .course-catalog-unavailable > summary > span:last-child {
+  margin-left: auto;
+  color: var(--md-default-fg-color--lighter);
+  font-size: calc(0.56 * var(--bms-reading-small-unit, 1rem));
+  font-weight: 500;
+}
+
+.md-typeset .course-catalog--unavailable {
+  border-top: 0;
+}
+
+.md-typeset .course-catalog-empty {
+  margin: 1.2rem 0;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background-color: var(--md-code-bg-color);
+  color: var(--md-default-fg-color--light);
+  text-align: center;
+}
+
+/* 培养方案：保留两层选择，减少提示框和重复卡片的视觉重量 */
+.md-typeset .curriculum-lead {
+  margin-bottom: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.78 * var(--bms-reading-unit, 1rem));
+  line-height: 1.7;
+}
+
+.md-typeset .curriculum-context {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  margin: 0.75rem 0 1.25rem;
+  border-block: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .curriculum-context p {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0.62rem 0.7rem;
+  font-size: calc(0.65 * var(--bms-reading-small-unit, 1rem));
+  line-height: 1.55;
+}
+
+.md-typeset .curriculum-context p + p {
+  border-left: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .curriculum-context strong {
+  color: var(--md-primary-fg-color);
+  white-space: nowrap;
+}
+
+.md-typeset .curriculum-context span {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .curriculum-plan-summary {
+  margin: 0.7rem 0 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
+  line-height: 1.65;
+}
+
+.md-typeset .curriculum-plan-marker {
+  display: none;
+}
+
+.md-typeset .curriculum-heading-credit {
+  display: inline-block;
+  margin-left: 0.32rem;
+  padding: 0.05rem 0.3rem;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.25rem;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.58 * var(--bms-reading-small-unit, 1rem));
+  font-weight: 500;
+  line-height: 1.4;
+  vertical-align: 0.12rem;
+  white-space: nowrap;
+}
+
+.md-typeset .curriculum-section-note {
+  margin: -0.35rem 0 1.1rem;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.64 * var(--bms-reading-small-unit, 1rem));
+  line-height: 1.6;
+}
+
+.md-typeset .curriculum-course-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 0.9rem;
+  margin: 0.55rem 0 1.1rem;
+  border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .curriculum-course-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+  gap: 0.1rem;
+  padding: 0.48rem 0.18rem;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+}
+
+.md-typeset .curriculum-course-item--available:hover,
+.md-typeset .curriculum-course-item--available:focus-visible {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-typeset .curriculum-course-item span {
+  overflow-wrap: anywhere;
+  font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.md-typeset .curriculum-course-item--available > span {
+  color: var(--md-typeset-a-color);
+}
+
+.md-typeset .curriculum-course-status {
+  display: inline-block;
+  margin-left: 0.38rem;
+  padding: 0.05rem 0.26rem;
+  border-radius: 0.22rem;
+  background-color: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.48 * var(--bms-reading-small-unit, 1rem));
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  vertical-align: 0.08rem;
+  white-space: nowrap;
+}
+
+.md-typeset .curriculum-course-item small {
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.58 * var(--bms-reading-small-unit, 1rem));
+  line-height: 1.45;
+  text-align: left;
+  white-space: normal;
+}
+
+@media screen and (max-width: 59.984375em) {
+  .md-typeset .curriculum-context,
+  .md-typeset .curriculum-course-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .md-typeset .curriculum-context p + p {
+    border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+    border-left: 0;
+  }
+}
+
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .course-catalog-search-row,
+  .md-typeset .course-catalog {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .md-typeset .course-catalog {
+    grid-template-rows: none;
+    grid-auto-flow: row;
+  }
+
+  .md-typeset .course-catalog-count {
+    justify-self: start;
+  }
+
+  .md-typeset .course-catalog-counts {
+    justify-items: start;
+  }
+
+  .md-typeset .curriculum-course-status {
+    vertical-align: 0.06rem;
+  }
+}
+
+/* 课程主页：数字边注与轻量资料入口；保留原生正文、标题和标签页。 */
+
+.md-typeset .course-score {
+  margin: 0.6rem 0 1.05rem;
+}
+
+.md-typeset .course-score__year {
+  margin: 0 0 0.35rem;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.md-typeset .course-score__items {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 0.9rem;
+}
+
+.md-typeset .course-score__item {
+  display: grid;
+  grid-template-columns: 2.55rem minmax(0, 1fr);
+  column-gap: 0.5rem;
+  align-items: start;
+  min-width: 0;
+  padding: 0.55rem 0;
+}
+
+.md-typeset .course-score__item:nth-child(n + 3) {
+  border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+/* 三项考核时，末项沿整行收尾，不留半个空列。 */
+.md-typeset .course-score__item:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.md-typeset .course-score__number {
+  color: var(--md-typeset-a-color);
+  font-size: calc(1.02 * var(--bms-reading-unit, 1rem));
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.md-typeset .course-score__number span {
+  margin-left: 0.03em;
+  font-size: 0.68em;
+  letter-spacing: 0;
+}
+
+.md-typeset .course-score__body strong {
+  display: block;
+  margin: 0 0 0.1rem;
+  color: var(--md-default-fg-color);
+  font-size: calc(0.78 * var(--bms-reading-unit, 1rem));
+  font-weight: 650;
+  line-height: 1.5;
+}
+
+.md-typeset .course-score__body p {
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.md-typeset .tabbed-block > .course-score {
+  margin-block: 0.65rem 0.35rem;
+}
+
+.md-typeset .course-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 0.9rem;
+  margin: 0.55rem 0 0.7rem;
+  border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset a.course-link {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 0.15rem;
+  min-width: 0;
+  padding: 0.55rem 0.18rem;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+}
+
+.md-typeset .course-link strong {
+  color: var(--md-typeset-a-color);
+  font-size: calc(0.78 * var(--bms-reading-unit, 1rem));
+  font-weight: 650;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.md-typeset .course-link small {
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.68 * var(--bms-reading-unit, 1rem));
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.md-typeset a.course-link:hover,
+.md-typeset a.course-link:focus-visible {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-typeset a.course-link:focus-visible {
+  outline: 0.1rem solid var(--md-typeset-a-color);
+  outline-offset: -0.1rem;
+}
+
+.md-typeset .course-source-note {
+  margin: 0.65rem 0 1.2rem;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(0.7 * var(--bms-reading-unit, 1rem));
+  line-height: 1.7;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .course-score__items,
+  .md-typeset .course-links {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .md-typeset .course-score__item + .course-score__item {
+    border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+  }
+}
+
+
+/* Emphasize outer categories and curriculum years; keep inner tabs at their normal size. */
+@media screen {
+  .md-typeset :is(.resource-collection-marker, .curriculum-context) + .tabbed-set > .tabbed-labels > label {
+    font-size: calc(.736 * var(--bms-reading-small-unit, 1rem));
+    font-weight: 700;
+  }
+  :where(html:not([data-reading-style="original"])) .md-typeset :is(.resource-collection-marker, .curriculum-context) + .tabbed-set > .tabbed-labels > label {
+    font-weight: 600;
+  }
+  .md-typeset :is(.resource-collection-marker, .curriculum-context) + .tabbed-set > .tabbed-labels:not(.tabbed-labels--linked) > label,
+  .md-typeset :is(.resource-collection-marker, .curriculum-context) + .tabbed-set > .tabbed-labels--linked > label > a {
+    padding: .85em 1em .75em;
+  }
+  .md-typeset :is(.resource-collection-marker, .curriculum-context) + .tabbed-set > .tabbed-content > .tabbed-block > .tabbed-set {
+    margin-top: .55rem;
+  }
+  .resource-collection .resource-panel-title { margin: .8em 0 .4em; }
+}
