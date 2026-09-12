@@ -62,6 +62,8 @@ nav:
     - 使用说明: guide/index.md
     - 贡献与纠错:
       - contribute/index.md
+      - 选择投稿页面: contribute/submit.md
+      - 直接修改与提交 PR: contribute/editing.md
       - 来源与使用范围: contribute/sources-and-permissions.md
   - 培养方案:
     - curricula/index.md
@@ -340,10 +342,12 @@ markdown_extensions:
       custom_checkbox: true
 
 hooks:
+  - hooks/contribution_links.py
   - hooks/resource_usage.py
   - hooks/resource_aliases.py
 
 extra_javascript:
+  - javascripts/contribution-picker.js
   - javascripts/katex.js
   - javascripts/quiz-answers.js
   - javascripts/course-navigation.js
@@ -351,6 +355,7 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
+  - css/contribution.css
   - assets/fonts/noto-sans-sc/font.css
   - assets/fonts/noto-serif-sc/font.css
   - css/styles.css

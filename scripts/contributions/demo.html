@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>投稿与审核 · 本机演示</title>
+<style>
+:root{color-scheme:light dark;font-family:system-ui,sans-serif;line-height:1.7;color:#263238;background:#f6f7f8}
+body{max-width:880px;margin:auto;padding:28px 22px}h1{font-size:1.7rem;margin:0}h2{font-size:1.15rem}
+p{margin:.6em 0}section{border-top:1px solid #bdc7ce;padding:16px 0}button,input,textarea{font:inherit}
+button{background:transparent;border:1px solid #768891;border-radius:4px;color:inherit;padding:6px 14px;cursor:pointer;margin:5px 8px 5px 0}
+button:disabled{opacity:.45;cursor:default}textarea,input[type=text]{box-sizing:border-box;width:100%;padding:10px;border:1px solid #82959e;border-radius:4px;background:#fff;color:inherit}
+textarea{min-height:110px}label{display:block;margin:8px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#eaf0f3;padding:14px;max-height:470px;overflow:auto;font-size:.86rem}
+a{color:#28597c}#hash{font-family:monospace;word-break:break-all}#message{color:#98401f}small,.note{color:#56666f}.stats{font-weight:600}nav a{display:inline-block;margin:5px 18px 5px 0}[hidden]{display:none!important}
+@media(prefers-color-scheme:dark){:root{background:#20272d;color:#e0e5e8}textarea,input[type=text]{background:#29343c}pre{background:#29343c}a{color:#acd3f0}.note,small{color:#b0bfc8}#message{color:#ffbf9e}}
+</style>
+<h1>投稿与审核 · 本机演示</h1>
+<p class="note">只使用示例课程和测试文字。GitHub 身份、收件和模型响应均为模拟，不会创建真实 Issue，不需要 API 密钥。请勿填写密钥或个人材料。</p>
+<p class="stats">当前：<span id="phase">准备中</span>　模拟模型请求：<span id="calls">0</span>　真实外部请求：0</p>
+<p id="message" role="status" aria-live="polite"></p>
+<section><h2>1. 同学投稿</h2><p>目标：示例课程主页。默认文字可直接用于完整演示；模拟模型只生成固定的笔记入口建议。</p>
+<label for="content">投稿正文</label><textarea id="content" maxlength="10000"></textarea>
+<label><input id="consent" type="checkbox" checked> 同意在本次演示中模拟 DeepSeek 处理（不是真实材料授权）</label>
+<button id="submit">提交演示投稿</button><small>提交只收件，不生成建议。</small></section>
+<section><h2>2. 维护者查看快照</h2><p>先生成快照，再展开完整材料。正式使用时，这一步对应 Actions 的 snapshot 运行及下载产物。</p>
+<button id="snapshot" disabled>生成免费快照</button><button id="view" disabled>查看快照</button>
+<div id="snapshot-box" hidden><pre id="snapshot-text"></pre><p>快照 SHA-256：</p><p id="hash"></p><a id="snapshot-json" target="_blank" rel="noopener">打开原始快照 JSON</a></div></section>
+<section><h2>3. 批准这一版本</h2><p>复制上方完整哈希，填入下框。批准后只预留额度，仍不会调用模拟模型。</p>
+<label for="approval-hash">已审阅快照的 SHA-256</label><input id="approval-hash" type="text" autocomplete="off" maxlength="64">
+<label><input id="reviewed" type="checkbox"> 我已核对正文、目标页、服务和版本</label>
+<button id="approve" disabled>批准此快照</button><button id="change" disabled>模拟投稿随后被编辑</button></section>
+<section><h2>4. 生成模拟修改并审阅</h2><button id="generate" disabled>生成模拟修改</button>
+<nav id="results" hidden><a id="review-link" target="_blank" rel="noopener">查看原文与建议对照</a><a id="preview-link" target="_blank" rel="noopener">打开网页预览</a><a id="candidate-link" target="_blank" rel="noopener">查看候选 Markdown</a></nav>
+<p class="note">审阅包记录的版本与用量也是模拟值。正式系统目前没有“一键接受”或自动 PR；维护者须核对版本后，把同意的修改写入目标文件并提交 PR。</p></section>
+<section><button id="stop">停止后续演示处理</button><button id="reset">开始新一轮演示</button><p class="note">停止只影响这个本机演示。正式流程应在 GitHub 禁用工作流并取消进行中的运行。</p></section>
+<script>
+const token="__DEMO_TOKEN__", $=id=>document.getElementById(id);
+const phases={new:"尚未投稿",received:"已收件，未批准",snapshot:"快照待审阅",approved:"已批准，未生成",review:"候选待人工审阅"};
+function render(s){
+  $("phase").textContent=s.enabled?phases[s.phase]:"后续处理已停止";$("calls").textContent=s.mock_calls;
+  $("submit").disabled=!s.enabled||s.phase!=="new";$("content").disabled=s.phase!=="new";$("consent").disabled=s.phase!=="new";
+  $("snapshot").disabled=!s.enabled||s.phase!=="received";$("view").disabled=!s.enabled||!["snapshot","approved","review"].includes(s.phase);
+  $("approve").disabled=!s.enabled||s.phase!=="snapshot"||!s.hash;
+  $("change").disabled=!s.enabled||!["snapshot","approved"].includes(s.phase);
+  $("generate").disabled=!s.enabled||s.phase!=="approved";
+  if(s.hash){$("hash").textContent=s.hash;$("snapshot-json").href=s.snapshot_url;}
+  if(s.snapshot_text){$("snapshot-text").textContent=s.snapshot_text;$("snapshot-box").hidden=false;}
+  $("results").hidden=!s.review_url;
+  if(s.review_url){$("review-link").href=s.review_url;$("preview-link").href=s.preview_url;$("candidate-link").href=s.candidate_url;}
+}
+async function act(name,data={}){
+  $("message").textContent="处理中…";
+  try{const response=await fetch("/api/"+name,{method:"POST",headers:{"Content-Type":"application/json","X-Demo-Token":token},body:JSON.stringify(data)});
+    const result=await response.json();render(result);$("message").textContent=result.error||"操作完成";return result;
+  }catch(error){$("message").textContent="本机演示连接中断，请重新启动演示服务。";}
+}
+$("submit").onclick=()=>act("submit",{content:$("content").value,consent:$("consent").checked});
+for(const name of ["snapshot","view","generate","change","stop"]){$(name).onclick=()=>act(name);}
+$("approve").onclick=()=>act("approve",{hash:$("approval-hash").value.trim(),reviewed:$("reviewed").checked});
+$("reset").onclick=async()=>{const state=await act("reset");if(state&&!state.error){$("content").value=state.default_content;$("consent").checked=true;$("reviewed").checked=false;$("approval-hash").value="";$("snapshot-box").hidden=true;}};
+fetch("/api/state").then(r=>r.json()).then(s=>{$("content").value=s.default_content;render(s);}).catch(()=>{$("message").textContent="无法连接本机演示服务";});
+</script></html>

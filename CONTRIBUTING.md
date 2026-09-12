@@ -6,6 +6,10 @@ BMS Database 面向浙江大学基础医学本科生，重点记录课程怎样�
 
 ## 文档分工
 
+第一次直接修改网站时，可以先看[直接修改与提交 PR](https://bms-zju.github.io/BMS_Database/contribute/editing/)，了解单页网页编辑、多页同分支修改、文件定位和预览步骤。相关修改可以合在一个 PR 中，不必逐页提交 PR。
+
+处理表单投稿、配置模型或审阅自动生成的候选时，阅读[投稿处理维护指南](CONTRIBUTION_INTAKE_GUIDE.md)。
+
 [README.md](README.md) 是项目介绍、使用与参与入口，保留必要的资料许可边界和本地运行方法。具体编辑规则放在下列对应指南中；更新时修改现行条目，不把内部维护记录或每轮实施方案追加到 README，也不在多份文档重复维护同一套细则。资料使用要求以[来源与使用范围](docs/contribute/sources-and-permissions.md)及具体材料说明为准，文档重组不改变既有许可。
 
 ## 开始之前

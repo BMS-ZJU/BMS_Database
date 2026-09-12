@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "max_submission_chars": 10000,
+  "max_page_chars": 30000,
+  "max_input_chars": 50000,
+  "max_output_tokens": 4096,
+  "max_calls_per_approval": 1,
+  "max_in_flight": 1,
+  "cumulative_calls": 0,
+  "cumulative_input_chars": 0,
+  "cumulative_output_tokens": 0
+}

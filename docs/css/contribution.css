@@ -1,0 +1,127 @@
+/* Contribution controls reuse the course search and resource toolbars. */
+.md-typeset .contribution-choices { display: flex; flex-wrap: wrap; gap: .4rem; }
+.md-typeset .contribution-actions {
+  margin-block: 1.5em 1em;
+  font-family: var(--md-text-font-family);
+  font-size: .85em;
+}
+@media print { .contribution-actions { display: none !important; } }
+
+.md-typeset .contribution-picker { font-family: var(--md-text-font-family); }
+.md-typeset .contribution-entry {
+  position: relative;
+  min-width: 0;
+  margin: 1.4rem 0 1rem;
+  padding: .7rem 0 0;
+  border: 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset .contribution-entry legend {
+  padding: 0 .5rem 0 0;
+  font-size: calc(.78 * var(--bms-reading-unit, 1rem));
+  font-weight: 500;
+}
+.md-typeset .contribution-field { margin-bottom: .8rem; }
+.md-typeset .contribution-field label {
+  display: block;
+  margin-bottom: .35rem;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(.7 * var(--bms-reading-unit, 1rem));
+  font-weight: 500;
+}
+/* Input shape, font and focus ring come from .course-catalog-search-row. */
+.md-typeset .contribution-combobox.course-catalog-search-row { display: block; position: relative; }
+.md-typeset .contribution-combobox input { padding-inline-end: 2.2rem; }
+.md-typeset .contribution-combobox input::placeholder { color: var(--md-default-fg-color--light); }
+.md-typeset .contribution-combobox input:disabled { opacity: .55; }
+.md-typeset .contribution-combobox input[aria-invalid="true"] { border-color: #be5a42; }
+.md-typeset .contribution-dropdown-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 100%;
+  max-height: 48px;
+  color: var(--md-default-fg-color--light);
+  cursor: pointer;
+}
+.md-typeset .contribution-chevron {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+}
+.md-typeset .contribution-options {
+  position: absolute;
+  z-index: 5;
+  inset-inline: 0;
+  top: calc(100% + .2rem);
+  max-height: min(15rem, 40vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: .2rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .2rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 2px 8px #00000014;
+}
+.md-typeset .contribution-option {
+  min-height: 38px;
+  padding: .45rem .5rem;
+  font-size: calc(.72 * var(--bms-reading-unit, 1rem));
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+.md-typeset .contribution-options--above { top: auto; bottom: calc(100% + .2rem); }
+.md-typeset .contribution-option:hover,
+.md-typeset .contribution-option[aria-selected="true"] {
+  color: var(--md-typeset-a-color);
+  background: var(--md-accent-fg-color--transparent);
+}
+.md-typeset .contribution-no-match { padding: .3rem .5rem; font-size: .7rem; }
+.md-typeset .contribution-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.md-typeset .resource-page-tools.contribution-entry-actions {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin: .6rem 0 0;
+}
+.md-typeset .contribution-remove {
+  position: absolute;
+  top: -.25rem;
+  right: 0;
+  min-width: 44px;
+  min-height: 44px;
+  color: var(--md-default-fg-color--light);
+  font-size: calc(.64 * var(--bms-reading-small-unit, 1rem));
+  cursor: pointer;
+}
+.md-typeset .contribution-remove:hover { color: var(--md-typeset-a-color); text-decoration: underline; }
+.md-typeset .contribution-picker [hidden] { display: none !important; }
+.md-typeset .contribution-entry-actions a[aria-disabled="true"],
+.md-typeset .contribution-picker button:disabled { opacity: .5; cursor: not-allowed; }
+.md-typeset .contribution-kind-help,
+.md-typeset .contribution-entry-status {
+  font-size: calc(.68 * var(--bms-reading-small-unit, 1rem));
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .contribution-entry-status:empty { display: none; }
+.md-typeset .contribution-choices :focus-visible,
+.md-typeset .contribution-picker :is(button, a):focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+@media (pointer: coarse) {
+  .md-typeset .contribution-combobox input,
+  .md-typeset .contribution-option,
+  .md-typeset .contribution-add-tools button { min-height: 44px; }
+}

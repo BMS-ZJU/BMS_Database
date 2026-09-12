@@ -1,0 +1,278 @@
+name: 整理公开投稿
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: snapshot 只生成免费快照; process 表示已审阅并批准指定快照的一次调用
+        type: choice
+        required: true
+        default: snapshot
+        options: [snapshot, process, initialize, reconcile]
+      issue_number:
+        description: snapshot 时填写投稿 Issue 编号
+        type: string
+      target_page:
+        description: snapshot 时填写一页现有课程路径, 如 docs/mandatory/neuroscience/index.md
+        type: string
+      snapshot_run_id:
+        description: process 时填写已成功生成且亲自审阅的快照运行编号
+        type: string
+      snapshot_sha256:
+        description: process 时填写审阅摘要中的完整快照 SHA-256
+        type: string
+      approval_id:
+        description: reconcile 时填写已人工核账的批准 ID, 全额计入额度且不再次调用
+        type: string
+
+permissions:
+  contents: read
+  issues: read
+  actions: read
+
+# Same-snapshot runs are serialized; the durable ledger also arbitrates across different snapshots.
+concurrency:
+  group: contribution-${{ inputs.snapshot_run_id || github.run_id }}
+  cancel-in-progress: false
+
+env:
+  BMS_AI_ENABLED: ${{ vars.CONTRIBUTION_AI_ENABLED }}
+  BMS_MODEL_SERVICE: ${{ vars.CONTRIBUTION_MODEL_SERVICE }}
+  BMS_MODEL_NAME: ${{ vars.CONTRIBUTION_MODEL_NAME }}
+  BMS_LEDGER_ANCHOR: ${{ vars.CONTRIBUTION_LEDGER_ANCHOR }}
+  BMS_ISSUE_NUMBER: ${{ inputs.issue_number }}
+  BMS_TARGET_PAGE: ${{ inputs.target_page }}
+  BMS_SNAPSHOT_RUN_ID: ${{ inputs.snapshot_run_id }}
+  BMS_SNAPSHOT_HASH: ${{ inputs.snapshot_sha256 }}
+
+jobs:
+  checks:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -p "test_contribution*.py"
+
+  snapshot:
+    needs: checks
+    if: inputs.operation == 'snapshot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - name: 生成不调用模型的待批准快照
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -m scripts.contributions.pipeline snapshot --output "$RUNNER_TEMP/contribution-snapshot"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: snapshot-${{ github.run_id }}
+          path: ${{ runner.temp }}/contribution-snapshot/
+          retention-days: 7
+          if-no-files-found: error
+
+  reserve:
+    environment: contribution-model
+    needs: checks
+    if: inputs.operation == 'process'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+      issues: read
+      actions: read
+    outputs:
+      service: ${{ steps.reserve.outputs.service }}
+      approval_id: ${{ steps.reserve.outputs.approval_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: snapshot-${{ inputs.snapshot_run_id }}
+          run-id: ${{ inputs.snapshot_run_id }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/contribution-source
+      - name: 核验身份和快照并原子预留额度
+        id: reserve
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BMS_LEDGER_KEY: ${{ secrets.CONTRIBUTION_LEDGER_KEY }}
+        run: python -m scripts.contributions.pipeline reserve --source "$RUNNER_TEMP/contribution-source"
+
+  model:
+    needs: reserve
+    if: github.run_attempt == 1 && vars.CONTRIBUTION_AI_ENABLED == 'true'
+    environment: contribution-model
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+      issues: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: snapshot-${{ inputs.snapshot_run_id }}
+          run-id: ${{ inputs.snapshot_run_id }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/contribution-source
+      - name: 调用 DeepSeek
+        if: needs.reserve.outputs.service == 'DeepSeek'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BMS_LEDGER_KEY: ${{ secrets.CONTRIBUTION_LEDGER_KEY }}
+          BMS_DEEPSEEK_API_KEY: ${{ secrets.CONTRIBUTION_DEEPSEEK_API_KEY }}
+        run: python -m scripts.contributions.pipeline call --source "$RUNNER_TEMP/contribution-source" --output "$RUNNER_TEMP/contribution-review" --receipt "$RUNNER_TEMP/contribution-receipt/receipt.json"
+      - name: 调用 OpenAI
+        if: needs.reserve.outputs.service == 'OpenAI'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BMS_LEDGER_KEY: ${{ secrets.CONTRIBUTION_LEDGER_KEY }}
+          BMS_OPENAI_API_KEY: ${{ secrets.CONTRIBUTION_OPENAI_API_KEY }}
+        run: python -m scripts.contributions.pipeline call --source "$RUNNER_TEMP/contribution-source" --output "$RUNNER_TEMP/contribution-review" --receipt "$RUNNER_TEMP/contribution-receipt/receipt.json"
+      - name: 调用 Gemini
+        if: needs.reserve.outputs.service == 'Gemini'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BMS_LEDGER_KEY: ${{ secrets.CONTRIBUTION_LEDGER_KEY }}
+          BMS_GEMINI_API_KEY: ${{ secrets.CONTRIBUTION_GEMINI_API_KEY }}
+        run: python -m scripts.contributions.pipeline call --source "$RUNNER_TEMP/contribution-source" --output "$RUNNER_TEMP/contribution-review" --receipt "$RUNNER_TEMP/contribution-receipt/receipt.json"
+      - name: 保存限定候选
+        uses: actions/upload-artifact@v4
+        with:
+          name: candidate-${{ github.run_id }}
+          path: ${{ runner.temp }}/contribution-review/
+          retention-days: 7
+          if-no-files-found: error
+      - name: 保存用量回执
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: receipt-${{ github.run_id }}
+          path: ${{ runner.temp }}/contribution-receipt/receipt.json
+          retention-days: 7
+          if-no-files-found: ignore
+
+  settle:
+    environment: contribution-model
+    needs: [reserve, model]
+    if: always() && needs.reserve.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+      issues: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: receipt-${{ github.run_id }}
+          path: ${{ runner.temp }}/contribution-receipt
+      - name: 登记用量或锁定未知状态
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BMS_LEDGER_KEY: ${{ secrets.CONTRIBUTION_LEDGER_KEY }}
+          BMS_APPROVAL_ID: ${{ needs.reserve.outputs.approval_id }}
+        run: python -m scripts.contributions.pipeline settle --receipt "$RUNNER_TEMP/contribution-receipt/receipt.json"
+
+  preview:
+    needs: model
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          name: candidate-${{ github.run_id }}
+          path: ${{ runner.temp }}/contribution-review
+      - name: 复核候选并从内存构建预览, 不改源文件
+        run: python -m scripts.contributions.pipeline build --source "$RUNNER_TEMP/contribution-review" --output "$RUNNER_TEMP/contribution-review/site"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: review-${{ github.run_id }}
+          path: ${{ runner.temp }}/contribution-review/
+          retention-days: 7
+          if-no-files-found: error
+
+  ledger-maintenance:
+    environment: contribution-model
+    needs: checks
+    if: inputs.operation == 'initialize' || inputs.operation == 'reconcile'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+      issues: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - name: 首次创建账本, 不重置已有账本
+        if: inputs.operation == 'initialize'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BMS_LEDGER_KEY: ${{ secrets.CONTRIBUTION_LEDGER_KEY }}
+        run: python -m scripts.contributions.pipeline initialize
+      - name: 人工核账后按预留上限全额记账, 不退款或重新调用
+        if: inputs.operation == 'reconcile'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BMS_LEDGER_KEY: ${{ secrets.CONTRIBUTION_LEDGER_KEY }}
+          BMS_APPROVAL_ID: ${{ inputs.approval_id }}
+        run: python -m scripts.contributions.pipeline reconcile

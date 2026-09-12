@@ -1,0 +1,11 @@
+{% if page.meta.contribution_links %}
+<nav class="contribution-actions" aria-label="参与完善本页">
+  <a href="{{ page.meta.contribution_links.material | e }}">补充资料或经验</a>
+  <span aria-hidden="true"> · </span>
+  <a href="{{ page.meta.contribution_links.correction | e }}">纠错或补充本页</a>
+  {% if page.edit_url %}
+  <span aria-hidden="true"> · </span>
+  <a href="{{ page.edit_url | e }}">直接编辑本页</a>
+  {% endif %}
+</nav>
+{% endif %}
