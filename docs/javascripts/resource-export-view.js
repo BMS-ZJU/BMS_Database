@@ -84,6 +84,8 @@
       });
       ["href", "xlink:href", "usemap"].forEach((attribute) => {
         if (!node.hasAttribute(attribute)) return;
+        // The original-page link must leave the PDF, even on the production origin.
+        if (attribute === "href" && node.matches(".resource-source-link")) return;
         const value = node.getAttribute(attribute);
         const url = new URL(value, sourceUrl);
         if (value.startsWith("#") || (url.origin === sourceUrl.origin &&
@@ -185,8 +187,18 @@
     });
   };
 
-  const cleanArticle = (sourceArticle, sourceUrl) => {
+  const getPaperTitle = (sourceDocument, sourceArticle) => {
+    const heading = sourceArticle.querySelector("h1").cloneNode(true);
+    heading.querySelectorAll(".headerlink").forEach((node) => node.remove());
+    const headingTitle = heading.textContent.trim();
+    const pageTitle = sourceDocument.title.replace(/\s+-\s+BMS Database$/, "").trim();
+    // A course prefix may identify a lab exam whose own heading is abbreviated.
+    return pageTitle.endsWith(headingTitle) ? pageTitle : headingTitle;
+  };
+
+  const cleanArticle = (sourceArticle, sourceUrl, paperTitle) => {
     const result = sourceArticle.cloneNode(true);
+    result.querySelector("h1").textContent = paperTitle;
     const collection = result.querySelector(".resource-collection-marker + .tabbed-set");
     result.querySelectorAll(
       "script, style, link, iframe, object, embed, form, button, " +
@@ -237,6 +249,15 @@
       // The single-resource title already identifies this tab.
       if (selected.length === 1) blocks[0].querySelector(':scope > h3')?.remove();
       result.replaceChildren(...[heading, notice, metadata, ...blocks, ...summary, footer].filter(Boolean));
+    }
+
+    // Keep the public canonical address while identifying the selected material.
+    const originalLink = result.querySelector(".resource-source-link");
+    if (originalLink && sourceUrl.hash) {
+      const originalUrl = new URL(originalLink.href);
+      originalUrl.hash = sourceUrl.hash;
+      originalLink.href = originalUrl.href;
+      originalLink.textContent = originalUrl.href;
     }
 
     result.querySelectorAll("details").forEach((details) => {
@@ -598,7 +619,9 @@
       const sourceLink = document.querySelector("#source-link");
       sourceLink.href = batch ? sourceIndex(sources[0]).href : sources[0].href;
       sourceLink.textContent = batch ? "返回资料列表" : "返回原文";
-      title = batch ? `资料合集（${sources.length} 份）` : "资料";
+      const firstTitle = getPaperTitle(units[0].parsed, units[0].original);
+      const samePage = sources.every((url) => url.pathname === sources[0].pathname);
+      title = batch ? `${firstTitle}${samePage ? "" : "等"}（${sources.length} 份资料）` : "资料";
       paper.replaceChildren();
 
       // Each selected material uses the existing independent-paper pipeline.
@@ -608,7 +631,7 @@
         currentIndex = index + 1;
         currentLabel = decodeURIComponent(requestedUrl.pathname.split("/").filter(Boolean).at(-1)).replace(/\.html$/, "");
         status.textContent = batch ? `已准备 ${completed}/${sources.length} 份资料。正在准备第 ${currentIndex} 份…` : "正在准备资料…";
-        const cleaned = cleanArticle(original, sourceUrl);
+        const cleaned = cleanArticle(original, sourceUrl, getPaperTitle(parsed, original));
         const article = document.createElement("article");
         article.className = "paper-content";
         if (cleaned.id) article.id = cleaned.id;

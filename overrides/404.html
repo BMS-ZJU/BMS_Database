@@ -1,0 +1,16 @@
+{% extends "main.html" %}
+
+{% block htmltitle %}
+  <title>页面未找到 - {{ config.site_name }}</title>
+{% endblock %}
+
+{% block content %}
+  {% set site_root = config.site_url.rstrip('/') ~ '/' %}
+  <h1>页面未找到</h1>
+  <p>这个地址没有对应的页面。可以从下面的入口继续查找，也可以使用网站搜索查找页面标题。</p>
+  <ul>
+    <li><a href="{{ site_root }}courses/">课程资料</a>：按课程名或课程号重新进入。</li>
+    <li><a href="{{ site_root }}guide/">使用说明</a>：了解怎样查找资料、打印与保存 PDF。</li>
+    <li><a href="{{ site_root }}contribute/">贡献与纠错</a>：反馈失效链接时，请附上原链接和遇到的情况。</li>
+  </ul>
+{% endblock %}

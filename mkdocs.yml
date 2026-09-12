@@ -343,6 +343,7 @@ markdown_extensions:
       custom_checkbox: true
 
 hooks:
+  - hooks/page_identity.py
   - hooks/contribution_links.py
   - hooks/resource_usage.py
   - hooks/resource_aliases.py

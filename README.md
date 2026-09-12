@@ -20,6 +20,8 @@
 
 直接修改仓库时，请先阅读[贡献指南](CONTRIBUTING.md)，再按任务查阅[课程主页](COURSE_HOMEPAGE_GUIDE.md)、[试卷与小测](RECALL_PAPER_GUIDE.md)、[阅读体验](READING_EXPERIENCE_GUIDE.md)或[学期与校历参考](EXAM_SEMESTER_REFERENCE.md)等维护文档。
 
+接手网站维护时，先看[网站维护与交接](MAINTAINING.md)，了解源码与服务分工、发布回退、故障定位及账户和来源档案交接。
+
 公开反馈中请勿包含个人隐私，也不要上传权限不明的原件。
 
 ## 资料使用与许可
