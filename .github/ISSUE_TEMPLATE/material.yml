@@ -1,5 +1,5 @@
-name: 提交资料或学习经验
-description: 一份文件、几句话或零散回忆都可以, 不必先整理成网页
+name: 提交资料或学习经验 (网页预填)
+description: 已在网站选好课程与页面时使用; 从仓库直接投稿请选择同名的普通表单
 title: '[资料] '
 body:
 - type: markdown

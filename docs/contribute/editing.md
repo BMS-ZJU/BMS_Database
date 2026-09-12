@@ -78,7 +78,7 @@ git diff --check
 
 纯文字修改先检查差异与链接；新增页面、导航或调整排版时，运行严格构建并检查手机宽度下的显示。调整小测或打印功能时还要核对实际打印稿。预览输出、临时文件和原始私有材料不要提交。
 
-新增或修改课程映射后，还需运行 <code>python scripts/contributions/catalog.py --write</code>，将更新后的两份 GitHub 表单一起提交。普通页面新增、改名和链接更新会在构建时自动更新站内投稿页面列表。
+新增或修改课程映射后，还需运行 <code>python scripts/contributions/catalog.py --write</code>，将更新后的四份 GitHub 表单一起提交。普通页面新增、改名和链接更新会在构建时自动更新站内投稿页面列表。
 
 ## 提交后会发生什么
 
