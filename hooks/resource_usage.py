@@ -53,7 +53,7 @@ def on_page_content(html, page, config, files):
     footer = (
         '<footer class="resource-use-source" aria-label="资料来源与使用限制">'
         f'<p>BMS Database · 本资料免费获取{" · " + scope if scope else ""}</p>'
-        f'<p>原文：<a href="{original_url}">{original_url}</a></p>'
+        f'<p>原文：<a class="resource-source-link" href="{original_url}">{original_url}</a></p>'
         f'<p>使用限制：<a href="{policy_url}">{policy_url}</a></p>'
         '</footer>'
     )

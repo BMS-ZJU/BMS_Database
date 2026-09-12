@@ -40,3 +40,9 @@ BMS Database 最初和基础医学《飞跃手册》一起被提出。我们想�
 这些资料免费供同学们学习参考，也请一起[保护免费共享](contribute/sources-and-permissions.md#protect-sharing)。
 
 关于网站的缘起、建设过程和一些想法，写在这篇[后记](afterword.md)里。
+
+## 近期更新
+
+- **2026-09-13**：新增[投稿入口](contribute/submit.md)，可选择课程与页面，登录 GitHub 后提交资料、学习经验或纠错。
+- **2026-09-12**：补充[神经建模与数据分析（MED5075M）](elective/neural-modeling-and-data-analysis/index.md)的课程内容、考核与学习经验。
+- **2026-09-11**：小测合集支持[按次、组合或全选打印](guide/index.md#pdf)，每份材料从新页开始。
