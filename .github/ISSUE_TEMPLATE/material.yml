@@ -1,0 +1,131 @@
+name: 提交资料或学习经验
+description: 一份文件、几句话或零散回忆都可以, 不必先整理成网页
+title: '[资料] '
+body:
+- type: markdown
+  attributes:
+    value: '**这是公开投稿, 提交后文字、附件和 GitHub 账号立即公开**。只提供你有权公开的内容, 不上传群聊、成绩、私人联系方式或权限不明的原件。
+
+      网页可以匿名, 这里的 GitHub 记录仍公开。暂不能公开时, 先只写材料名称或线索, 与维护者确认合适的非公开渠道。
+
+      涉及撤回或隐私时, 只写页面位置与处理请求, 不附敏感证据。不清楚的项目可以留空。
+
+      '
+- type: dropdown
+  id: course
+  attributes:
+    label: 课程
+    description: 必选。按页面地址选择对应课程; 无匹配项时选“未找到课程或页面”, 由人工核对
+    options:
+    - 医学生命基础 (MED1001M)
+    - 医学科学素养Ⅰ (MED1003M)
+    - 医学科学英语基础 (MED1005M)
+    - 细胞与生物分子Ⅰ (MED2039M)
+    - 细胞与生物分子Ⅱ (MED2019M)
+    - 遗传与发育Ⅰ (MED2020M)
+    - 基础医学科学研究技能Ⅰ (MED1028M)
+    - 遗传与发育Ⅱ (MED2030M)
+    - 人体结构与功能学 (MED2035M)
+    - 感染与免疫学 (MED3055M)
+    - 疾病基础 (MED3047M)
+    - 基础药理学 (MED3056M)
+    - 神经科学 (MED2303M)
+    - 实验动物与伦理学 (MED2302M)
+    - 医学科学素养Ⅱ (MED3045M)
+    - 临床流行病学与循证医学 (MED4423M)
+    - 重要疾病的临床与研究Ⅰ (MED4069M)
+    - 重要疾病的临床与研究Ⅱ (MED4068M)
+    - 重要疾病的临床与研究Ⅲ (MED4062M)
+    - 医学生物物理学 (MED2031M)
+    - 医学大数据与应用 (MED2010M)
+    - 脑与脑机融合 (MED2304M)
+    - 基础医学科学研究技能Ⅱ (MED2011M)
+    - 基础医学科研实践 (MED3052M)
+    - 基础医学教育见习 (MED3061M)
+    - 临床实习 (MED4066M)
+    - 微生物学与免疫学前沿技术 (MED4064M)
+    - 临床免疫学 (MED4063M)
+    - 肿瘤生物学 (MED2040M)
+    - 肿瘤研究策略与应用 (MED3048M)
+    - 临床肿瘤学概论 (MED2012M)
+    - 物理化学 (CHEM2001F)
+    - 组学与精准医学前沿导论 (MED2587M)
+    - 教育统计学 (EDU2007M)
+    - 医学伦理学与卫生法学 (MED2412M)
+    - 卫生事业管理 (MED4411M)
+    - 法医学 (MED2021M)
+    - 新药研发 (MED3057M)
+    - 社会医学（乙） (MED2426M)
+    - 神经建模与数据分析 (MED5075M)
+    - 站点公共页面
+    - 未找到课程或页面 (人工核对)
+  validations:
+    required: true
+- type: input
+  id: page
+  attributes:
+    label: 页面地址
+    description: 从网页进入时会自动填写; 没有对应页面可以留空
+- type: input
+  id: period
+  attributes:
+    label: 适用范围
+    placeholder: 学年、学期、年级或班型, 只写能确认的部分
+- type: textarea
+  id: content
+  attributes:
+    label: 内容
+    description: 提供新的资料或学习经验; 可以直接写文字、拖入可公开附件或提供公开链接
+    placeholder: 这是什么资料或经验？适合谁参考？哪些地方还不完整或不确定？
+  validations:
+    required: true
+- type: textarea
+  id: source
+  attributes:
+    label: 来源与依据
+    placeholder: 自己的经历或回忆 / 原作者与公开链接 / 文件名与页码; 不清楚请说明
+- type: input
+  id: credit
+  attributes:
+    label: 网页署名
+    description: 选填, 只写愿意公开的署名或“网页匿名”; GitHub 投稿记录仍公开, 代传材料请区分原作者与提供者
+- type: dropdown
+  id: use_scope
+  attributes:
+    label: 本站使用范围
+    options:
+    - 仅提供线索, 暂不授权整理
+    - 允许整理文字并在本站展示, 附件仅作核对
+    - 允许整理文字及原附件在本站展示
+    default: 0
+  validations:
+    required: true
+- type: dropdown
+  id: model_service
+  attributes:
+    label: 允许使用的外部模型服务
+    description: 默认人工处理, 不影响投稿。选定服务仅表示材料使用同意; 仍需维护者审核这一版材料后才会调用, 不自动读取附件。服务与用途见 https://bms-zju.github.io/BMS_Database/contribute/#ai
+    options:
+    - 仅人工处理
+    - DeepSeek
+    - OpenAI
+    - Gemini
+    default: 0
+  validations:
+    required: true
+- type: dropdown
+  id: ginkgo
+  attributes:
+    label: Ginkgo 使用意愿
+    description: 与本站收录分开确认; 即使同意, 仍由维护者核对来源、署名与具体范围
+    options:
+    - 未同意或尚未确认
+    - 同意将本次允许公开的内容用于 Ginkgo 免费练习, 保留来源并区分新增内容
+    default: 0
+- type: checkboxes
+  id: public_confirmation
+  attributes:
+    label: 公开确认
+    options:
+    - label: 我确认本次填写的文字和附件可以立即公开, 并有权提供这些内容
+      required: true

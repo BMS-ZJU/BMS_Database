@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 
+{% block content %}
+  {{ super() }}
+  {% include "partials/contribution-actions.html" %}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
   {# Restore the reading style before the body is painted. #}

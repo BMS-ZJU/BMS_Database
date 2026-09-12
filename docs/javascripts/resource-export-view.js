@@ -191,7 +191,7 @@
     result.querySelectorAll(
       "script, style, link, iframe, object, embed, form, button, " +
       ".md-content__button, .headerlink, .footnote-backref, .md-source-file, " +
-      ".md-feedback, .giscus, #__comments, .resource-page-tools, .resource-collection-selection, .resource-legacy-comments, .resource-collection-marker, .resource-category-anchor, .resource-panel-title, .md-typeset__scrollwrap > .md-annotation"
+      ".md-feedback, .giscus, #__comments, .contribution-actions, .resource-page-tools, .resource-collection-selection, .resource-legacy-comments, .resource-collection-marker, .resource-category-anchor, .resource-panel-title, .md-typeset__scrollwrap > .md-annotation"
     ).forEach((node) => node.remove());
 
     // Source-attribution comments stay private to source; do not turn them into a byline.
