@@ -67,7 +67,7 @@ hide:
         ##### 交叉性课程 <span class="curriculum-heading-credit">至少修读 4 学分</span> { #curriculum-2026-qiushi-elective-group-1 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能<em class="curriculum-course-status">暂无资料</em></span><small>MED2084M · 2.0 学分 · 一（春夏）</small></div>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 一（春夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
@@ -212,7 +212,7 @@ hide:
         ##### <span id="curriculum-2026-strong-base-elective-group-1" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">至少修读 4 学分</span> { #curriculum-2026-qiangji-elective-group-1 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能<em class="curriculum-course-status">暂无资料</em></span><small>MED2084M · 2.0 学分 · 一（春夏）</small></div>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 一（春夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
@@ -384,7 +384,7 @@ hide:
         ##### <span id="curriculum-2026-innovation-required-group-5" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2026-zhichuang-required-group-5 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能<em class="curriculum-course-status">暂无资料</em></span><small>MED2084M · 2.0 学分 · 一（春夏）</small></div>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能（进阶）<em class="curriculum-course-status">暂无资料</em></span><small>MED2086M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能（高阶）<em class="curriculum-course-status">暂无资料</em></span><small>MED2088M · 2.0 学分 · 二（春夏）</small></div>
         </div>
@@ -516,7 +516,7 @@ hide:
         ##### 交叉性课程 <span class="curriculum-heading-credit">共 8.5 学分</span> { #curriculum-2025-qiushi-module-group-5 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能<em class="curriculum-course-status">暂无资料</em></span><small>MED2084M · 2.0 学分 · 二（秋冬）</small></div>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 二（秋冬）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
@@ -652,7 +652,7 @@ hide:
         ##### <span id="curriculum-2025-strong-base-module-group-5" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">共 8.5 学分</span> { #curriculum-2025-qiangji-module-group-5 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能<em class="curriculum-course-status">暂无资料</em></span><small>MED2084M · 2.0 学分 · 二（秋冬）</small></div>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 二（秋冬）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
