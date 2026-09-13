@@ -82,13 +82,38 @@
     return true;
   });
 
+  const formatPaperHeading = (heading) => {
+    if (heading.querySelector(":scope > .resource-title-term")) return;
+    const text = heading.firstChild;
+    if (!text || text.nodeType !== Node.TEXT_NODE) return;
+    const term = text.textContent.match(/^(\d{4}-\d{4}\s*学年(?:(?:春夏|秋冬|春|夏|秋|冬)学期)?\s*)/);
+    if (!term || !text.textContent.slice(term[0].length).trim()) return;
+    // Preserve the exact title text, permalink and anchor; CSS controls the line break.
+    const name = text.splitText(term[0].length);
+    const line = document.createElement("span");
+    line.className = "resource-title-term";
+    text.replaceWith(line);
+    line.append(text);
+    // Keep short material names intact when the course name wraps on narrow screens.
+    const kind = name.textContent.match(/(?:期中|期末|缓考)?(?:回忆卷|试卷)$|(?:小测题整理|题目整理|试题及答案|参考答案|小测合集|练习与小测|三次小测题目|线上自测合集|（回忆整理）)$/);
+    if (kind) {
+      const label = document.createElement("span");
+      label.className = "resource-title-kind";
+      const tail = name.splitText(kind.index);
+      tail.replaceWith(label);
+      label.append(tail);
+    }
+  };
+
   const addPageEntry = () => {
     const source = resourceUrl(new URL(location.pathname, location.origin));
     const article = document.querySelector("article.md-content__inner");
     // Classify reading typography before export controls can return early.
     article?.classList.toggle("reading-paper", Boolean(source));
     const heading = article?.querySelector(":scope > h1");
-    if (!source || !heading || article.querySelector(".resource-page-tools")) return;
+    if (!source || !heading) return;
+    formatPaperHeading(heading);
+    if (article.querySelector(".resource-page-tools")) return;
     const tools = document.createElement("p");
     tools.className = "resource-page-tools";
     heading.after(tools);

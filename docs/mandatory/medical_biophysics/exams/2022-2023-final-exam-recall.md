@@ -104,6 +104,10 @@ source-attribution
 
     [![第 4-2 题题图](../assets/2022-2023-final-exam-question-4-2.png){: .exam-figure .exam-figure--white width="640" }](../assets/2022-2023-final-exam-question-4-2.png "查看原图")
 
+    <div class="exam-response-table" markdown="1">
+
     | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 |
     | :--: | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
     | $\text{8 Gly}$ | | | | | | | | | | | | | | |
+
+    </div>
