@@ -8,7 +8,7 @@ comments: false
 <details class="course-catalog-guide" markdown="1">
 <summary>课程资料说明与站外参考</summary>
 
-课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请到[培养方案](../curricula/index.md)中查看。因此，本页按 2026 级建议修读学年整理，不再给课程贴固定分类；只在往届方案中出现的课程归入“历年课程”。课程名链接可进入本站或图灵班资料，站外入口标明来源；仅有其他版本或站外相关课程经验的条目标为“不同课程参考”，并单独列出链接；其余课程保留课程号并标为“暂无资料”。
+课程在不同年级、班型中可能属于必修、选修或不同模块，具体要求请查看对应年级、班型的[培养方案](../curricula/index.md)。本页按 2026 级建议修读学年排列课程；仅见于 2019—2025 级方案的课程列在“历年课程”。
 
 本站主要整理基础医学专业课程与科研学习经验。思政军体、通识课程的学习经验，可参考[图灵班学习指南](https://zju-turing.github.io/TuringCourses/)。部分数理基础课程也提供站外参考入口。阅读时请留意课程版本、任课教师和学年的差异，具体修读与考核要求以本专业培养方案和当年课程通知为准。
 
@@ -24,7 +24,7 @@ comments: false
     <input id="course-catalog-search" type="search" placeholder="输入课程名、课程号或英文名" autocomplete="off" data-course-search-input>
     <span class="course-catalog-counts">
       <span class="course-catalog-count" data-course-count>141 门课程</span>
-      <small>40 本站资料 · 4 站外同课 · 4 相关参考 · 93 暂无资料</small>
+      <small>41 本站资料 · 4 站外同课 · 4 相关参考 · 92 暂无资料</small>
     </span>
   </div>
 </div>
@@ -66,15 +66,15 @@ comments: false
     <span class="course-catalog-name">线性代数（乙）<em class="course-catalog-status">不同课程参考</em></span>
     <span class="course-catalog-meta">MATH1233G · 3.0 学分 · <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra1/" title="图灵班线性代数Ⅰ（H），与线性代数（乙）不是同一版本">图灵 H 版Ⅰ ↗</a> / <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra2/" aria-label="图灵班线性代数Ⅱ（H）学习指南（不同课程参考）" title="图灵班线性代数Ⅱ（H），与线性代数（乙）不是同一版本">Ⅱ ↗</a></span>
   </div>
+  <a class="course-catalog-item" data-course-search="医工交叉融合中的人工智能 MED2084M Artificial Intelligence in Medical-Engineering Interdisciplinary Integration MED2084M" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/">
+    <span class="course-catalog-name">医工交叉融合中的人工智能</span>
+    <span class="course-catalog-meta">MED2084M · 2.0 学分 · 课程主页</span>
+  </a>
 </div>
 
 <details class="course-catalog-unavailable" data-course-unavailable-group>
-  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>2 门</span></summary>
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>1 门</span></summary>
   <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 1">
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="医工交叉融合中的人工智能 MED2084M Artificial Intelligence in Medical-Engineering Interdisciplinary Integration MED2084M">
-    <span class="course-catalog-name">医工交叉融合中的人工智能<em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">MED2084M · 2.0 学分</span>
-  </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="演化医学理论及应用 MED1085M Principle and application of evolutionary medicine 18198090 MED1004M MED1085M">
     <span class="course-catalog-name">演化医学理论及应用<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">MED1085M · 2.5 学分</span>
