@@ -94,8 +94,8 @@ comments: false
 
 ## 是否使用 AI 整理 { #ai }
 
-AI 辅助整理目前尚未启用。计划使用 DeepSeek、OpenAI 或 Google 的 Gemini 官方 API，帮助整理投稿、定位依据并提出小范围修改。表单默认“仅人工处理”，不同意使用外部模型不影响投稿。
+你可以在表单中选择是否允许 AI 辅助整理，以及允许使用的服务：DeepSeek、OpenAI 或 Google 的 Gemini。表单默认“仅人工处理”，不同意使用外部模型不影响投稿。
 
-提交投稿只会收件。启用 AI 后，也需由维护者先查看并批准这一版材料，才会使用你选定的服务整理本次表单文字、来源行和相关现有公开页面；生成的修改仍须人工审核后才会发布。附件和链接不会自动读取，调用失败不会转交另一家服务。
+投稿先由维护者审核。如需使用 AI，维护者须先查看并批准这一版材料，再通过你选定服务的官方 API 处理本次表单文字、来源行和相关现有公开页面；生成的修改仍须人工审核后才会发布。附件和链接不会自动读取，调用失败不会转交另一家服务。
 
 提供方的数据处理方式请查阅各自说明：[DeepSeek](https://api-docs.deepseek.com/)、[OpenAI](https://platform.openai.com/docs/guides/your-data)、[Gemini](https://ai.google.dev/gemini-api/terms)。本站不承诺这些服务默认不留存数据或不用于训练。
