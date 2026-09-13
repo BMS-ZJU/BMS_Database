@@ -215,9 +215,41 @@
 }
 
 .quiz-answer summary {
-  color: var(--md-primary-fg-color);
+  color: var(--md-typeset-a-color);
   cursor: pointer;
   font-weight: 600;
+}
+
+/* 深色答案条有半透明蓝底，正文前景色保留足够对比度。 */
+@media screen {
+  [data-md-color-scheme="slate"] .quiz-answer summary {
+    color: var(--md-default-fg-color);
+  }
+
+  .md-typeset h1 > .resource-title-term {
+    display: block;
+  }
+
+  .md-typeset h1 > .resource-title-kind {
+    white-space: nowrap;
+  }
+
+  /* 作答格等宽，保留数字和三个字母的填写空间；窄屏局部滚动。 */
+  .md-typeset .exam-response-table .md-typeset__table {
+    display: block;
+  }
+
+  .md-typeset .exam-response-table table:not([class]) {
+    display: table;
+    width: 100%;
+    min-width: 51em;
+    table-layout: fixed;
+  }
+
+  .md-typeset .exam-response-table table:not([class]) :is(th, td) {
+    min-width: 0;
+    padding: 0.65em 0.2em;
+  }
 }
 
 /* 题图按原比例显示；单图 width 属性可缩窄，窄屏仍受容器宽度限制 */
@@ -646,7 +678,7 @@
 }
 
 .md-typeset .course-catalog-unavailable-label > span {
-  color: var(--md-primary-fg-color);
+  color: var(--md-typeset-a-color);
   font-size: calc(0.72 * var(--bms-reading-unit, 1rem));
 }
 
@@ -710,7 +742,7 @@
 }
 
 .md-typeset .curriculum-context strong {
-  color: var(--md-primary-fg-color);
+  color: var(--md-typeset-a-color);
   white-space: nowrap;
 }
 

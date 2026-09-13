@@ -1181,6 +1181,16 @@ body.resource-export-view [hidden] {
   overflow-wrap: anywhere;
 }
 
+/* Preserve equal writing space for numbered short-answer response tables. */
+.resource-export-view .paper-content .exam-response-table table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.resource-export-view .paper-content .exam-response-table :is(th, td) {
+  padding-inline: 0.25em;
+}
+
 /* Opt in only compact frequency tables; prose tables keep automatic columns. */
 .resource-export-view .paper-content [data-print-table="frequency"] {
   width: 100%;
