@@ -235,4 +235,4 @@ source-attribution
 
     （2）结合该膜结构的功能，分析其在维持细胞内外环境稳态中发挥的作用。
 
-    [![第 4-2 题题图](../assets/2024-2025-final-exam-question-4-2.png){: .exam-figure width="640" }](../assets/2024-2025-final-exam-question-4-2.png "查看原图")
+    [![第 4-2 题题图](../assets/2024-2025-final-exam-question-4-2.webp){: .exam-figure width="640" }](../assets/2024-2025-final-exam-question-4-2.png "查看原图")

@@ -177,9 +177,9 @@ source-attribution
 
 1. 68 岁男性，肝癌 3 年，死后大体如图，请诊断疾病（器官＋疾病），描写病理特征。这个疾病与原有肝癌有关吗？请说明理由。
 
-    [![第1道大题大体标本图1](../assets/2024-2025-final-exam-dingtalk-case-1-1.png){: .exam-figure width="420" }](../assets/2024-2025-final-exam-dingtalk-case-1-1.png "查看原图")
+    [![第1道大题大体标本图1](../assets/2024-2025-final-exam-dingtalk-case-1-1.webp){: .exam-figure width="420" }](../assets/2024-2025-final-exam-dingtalk-case-1-1.png "查看原图")
 
-    [![第1道大题大体标本图2](../assets/2024-2025-final-exam-dingtalk-case-1-2.png){: .exam-figure width="420" }](../assets/2024-2025-final-exam-dingtalk-case-1-2.png "查看原图")
+    [![第1道大题大体标本图2](../assets/2024-2025-final-exam-dingtalk-case-1-2.webp){: .exam-figure width="420" }](../assets/2024-2025-final-exam-dingtalk-case-1-2.png "查看原图")
 
 2. 阑尾炎诊断，大体特征（3 分），切片特征（3 分）。
 

@@ -255,8 +255,8 @@ source-attribution
 
     图 1：
 
-    [![案例分析第 2 题图 1](../assets/2022-2023-final-exam-case-2-1.png){: .exam-figure width="320" }](../assets/2022-2023-final-exam-case-2-1.png "查看原图")
+    [![案例分析第 2 题图 1](../assets/2022-2023-final-exam-case-2-1.webp){: .exam-figure width="320" }](../assets/2022-2023-final-exam-case-2-1.png "查看原图")
 
     图 2、3：
 
-    [![案例分析第 2 题题图，原件标注为图 2、3](../assets/2022-2023-final-exam-case-2-2-3.png){: .exam-figure width="500" }](../assets/2022-2023-final-exam-case-2-2-3.png "查看原图")
+    [![案例分析第 2 题题图，原件标注为图 2、3](../assets/2022-2023-final-exam-case-2-2-3.webp){: .exam-figure width="500" }](../assets/2022-2023-final-exam-case-2-2-3.png "查看原图")
