@@ -19,6 +19,8 @@ source-attribution
 
     本页依据考后回忆整理。选项字母按现有记录顺序补排，仅用于阅读，不代表原卷顺序。
 
+原帖发布：**一只丁嘻嘻** · [CC98 原帖](https://www.cc98.org/topic/5194338)。
+
 ---
 
 ## 一、名词解释 {: .exam-section .exam-section--short }
