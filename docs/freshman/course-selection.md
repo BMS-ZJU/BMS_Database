@@ -154,7 +154,7 @@
 
 ??? note "展开 Agent 的完整流程与提示词"
 
-    <div class="md-typeset" markdown="1">
+    <div class="md-typeset reading-details-body" markdown="1">
 
     [准备目录](#_5) · [读取资料](#_6) · [比较课表](#_7) · [继续调整](#_8)
 
@@ -252,7 +252,7 @@
 
 ??? note "展开对话式 AI 的完整流程与提示词"
 
-    <div class="md-typeset" markdown="1">
+    <div class="md-typeset reading-details-body" markdown="1">
 
     [整理培养方案](#_9) · [整理教学班](#_10) · [比较课表](#_11) · [微调与保存](#_12)
 
