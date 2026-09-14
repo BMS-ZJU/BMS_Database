@@ -19,6 +19,11 @@
     --md-text-font-family: var(--bms-reading-interface-font);
   }
 
+  /* 仓库统计图标按界面黑体的数字基线对齐。 */
+  :where(html:not([data-reading-style="original"])) .md-source__fact::before {
+    vertical-align: -0.125em;
+  }
+
   :where(html:not([data-reading-style="original"])) .md-tabs__link {
     font-size: 15px;
   }
