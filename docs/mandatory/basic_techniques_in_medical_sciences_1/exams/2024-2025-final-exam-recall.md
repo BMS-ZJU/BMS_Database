@@ -156,7 +156,7 @@ source-attribution
 
 1. 根据下图所示的桑格测序结果，写出 DNA 序列。
 
-    [![桑格测序凝胶图](../assets/2024-2025-final-exam-question-4-1.png){: .exam-figure width="420" }](../assets/2024-2025-final-exam-question-4-1.png "查看原图")
+    [![桑格测序凝胶图](../assets/2024-2025-final-exam-question-4-1.webp){: .exam-figure width="420" }](../assets/2024-2025-final-exam-question-4-1.png "查看原图")
 
 2. 研究人员发现了一种新蛋白 CasX，将其导入 HeLa 细胞，现需检测其是否表达，但市面上没有这种蛋白的特异性抗体。研究人员将 CasX 基因与表达 GFP 的基因连接后导入 HeLa 细胞。请写出检测该蛋白的 Western blot 实验步骤。
 

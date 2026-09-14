@@ -309,9 +309,9 @@ Cushing 综合征与下列哪种激素分泌亢进有关？
 
 2. （大体 3 分，切片 3 分）描述大体标本和镜下图像中观察到的病理改变。
 
-[![病例 1 大体标本](../assets/2025-2026-final-exam-question-3-1-gross.png){: .exam-figure width="420" }](../assets/2025-2026-final-exam-question-3-1-gross.png "查看原图")
+[![病例 1 大体标本](../assets/2025-2026-final-exam-question-3-1-gross.webp){: .exam-figure width="420" }](../assets/2025-2026-final-exam-question-3-1-gross.png "查看原图")
 
-[![病例 1 镜下切片](../assets/2025-2026-final-exam-question-3-1-histology.png){: .exam-figure width="640" }](../assets/2025-2026-final-exam-question-3-1-histology.png "查看原图")
+[![病例 1 镜下切片](../assets/2025-2026-final-exam-question-3-1-histology.webp){: .exam-figure width="640" }](../assets/2025-2026-final-exam-question-3-1-histology.png "查看原图")
 
 ### 病例 2
 
@@ -323,8 +323,8 @@ A 68-year-old female with a 15-year history of hypertension and a 5-year history
 
 2. 根据标本图片，列出支持该诊断的眼观及镜下特征。
 
-[![病例 2 镜下切片](../assets/2025-2026-final-exam-question-3-2-histology.png){: .exam-figure width="600" }](../assets/2025-2026-final-exam-question-3-2-histology.png "查看原图")
+[![病例 2 镜下切片](../assets/2025-2026-final-exam-question-3-2-histology.webp){: .exam-figure width="600" }](../assets/2025-2026-final-exam-question-3-2-histology.png "查看原图")
 
-[![病例 2 大体标本之一](../assets/2025-2026-final-exam-question-3-2-gross-1.png){: .exam-figure width="230" }](../assets/2025-2026-final-exam-question-3-2-gross-1.png "查看原图")
+[![病例 2 大体标本之一](../assets/2025-2026-final-exam-question-3-2-gross-1.webp){: .exam-figure width="230" }](../assets/2025-2026-final-exam-question-3-2-gross-1.png "查看原图")
 
-[![病例 2 大体标本之二](../assets/2025-2026-final-exam-question-3-2-gross-2.png){: .exam-figure width="230" }](../assets/2025-2026-final-exam-question-3-2-gross-2.png "查看原图")
+[![病例 2 大体标本之二](../assets/2025-2026-final-exam-question-3-2-gross-2.webp){: .exam-figure width="230" }](../assets/2025-2026-final-exam-question-3-2-gross-2.png "查看原图")
