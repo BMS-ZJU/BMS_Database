@@ -70,7 +70,8 @@ nav:
       - 选择投稿页面: contribute/submit.md
       - 直接修改与提交 PR: contribute/editing.md
       - 来源与使用范围: contribute/sources-and-permissions.md
-    - 后记: afterword.md
+    - 项目后记: project-afterword.md
+    - 网站后记: afterword.md
   - 紫金港速通:
     - freshman/index.md
     - 学习与教务:
