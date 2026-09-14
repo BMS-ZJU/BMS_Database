@@ -39,7 +39,7 @@ BMS Database 最初和基础医学《飞跃手册》一起被提出。我们想�
 
 这些资料免费供同学们学习参考，也请一起[保护免费共享](contribute/sources-and-permissions.md#protect-sharing)。
 
-关于网站的缘起、建设过程和一些想法，写在这篇[后记](afterword.md)里。
+项目的缘起与经历，写在何冠辰的[项目后记](project-afterword.md)里；网站的建设过程和一些想法，写在[网站后记](afterword.md)里。
 
 ## 近期更新
 

@@ -13,6 +13,12 @@ draft_docs: |
   !freshman/external-exchange.md
   !freshman/textbook-ordering.md
   !freshman/assets/exchange-credit-recognition.png
+  !freshman/assets/textbook-return-route.png
+  !freshman/assets/textbook-return-route.webp
+  !freshman/assets/textbook-return-entrance.jpg
+  !freshman/assets/textbook-return-entrance.webp
+  !freshman/assets/textbook-return-office.png
+  !freshman/assets/textbook-return-office.webp
 
 exclude_docs: |
   others/**
@@ -70,12 +76,13 @@ nav:
       - 选择投稿页面: contribute/submit.md
       - 直接修改与提交 PR: contribute/editing.md
       - 来源与使用范围: contribute/sources-and-permissions.md
-    - 后记: afterword.md
+    - 项目后记: project-afterword.md
+    - 网站后记: afterword.md
   - 紫金港速通:
     - freshman/index.md
     - 学习与教务:
       - 选课: freshman/course-selection.md
-      - 教材预订: freshman/textbook-ordering.md
+      - 教材选购与退订: freshman/textbook-ordering.md
       - 缓考: freshman/deferred-exams.md
     - 对外交流: freshman/external-exchange.md
   - 培养方案:
