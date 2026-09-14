@@ -21,6 +21,8 @@ source-attribution
 
     选择题部分只保留了能够回忆的考点，题干和选项并不完整。
 
+回忆与发布：**一只丁嘻嘻** · [CC98 原帖](https://www.cc98.org/topic/5307230)。
+
 ---
 
 ## 一、不定项选择题（20 分） {: .exam-section .exam-section--choice data-toc-label="一、不定项选择题" }
