@@ -35,6 +35,11 @@
     font-size: calc(0.64 * var(--bms-reading-small-unit));
   }
 
+  /* 长篇折叠正文跟随阅读字号, 不沿用嵌套 md-typeset 的主题字号。 */
+  :where(html:not([data-reading-style="original"])) .md-typeset .reading-details-body {
+    font-size: calc(0.8 * var(--bms-reading-unit));
+  }
+
   /* 目录状态仍是辅助信息, 但需要能直接辨认。 */
   :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(
     .course-catalog-status,

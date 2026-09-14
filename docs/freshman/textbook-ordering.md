@@ -27,7 +27,7 @@
 
 ??? note "查看退教材路线与入口"
 
-    <div class="md-typeset" markdown="1">
+    <div class="md-typeset reading-details-body" markdown="1">
 
     **1. 到东四北侧**
 
