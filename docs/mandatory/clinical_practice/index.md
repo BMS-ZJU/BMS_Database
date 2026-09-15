@@ -1,5 +1,12 @@
 # 临床实习
 
+<!--
+source-attribution
+2024-2025 学年部分课程经验：Chams。
+原始出处：https://www.cc98.org/topic/6253798。
+来源记录：RS-085、HTML-018、CONSENT-ATTRIBUTION-20260915。
+-->
+
 !!! info "嘻嘻"
 
     这课我还没上呢, 看到这个的就受着吧, 等我上了再更新, 你们就先看看试卷得了, 哦对了, Fablefq
