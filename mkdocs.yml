@@ -315,6 +315,29 @@ nav:
     - rotation/index.md
   - 飞跃专题:
     - fly/index.md
+    - 阅读说明: fly/preface.md
+    - 毕业生采访:
+      - 佚名: fly/anonymous.md
+    - 基础医学研究生采访:
+      - 蔡晨曦: fly/cai-chenxi.md
+      - 李鹏辉: fly/li-penghui.md
+      - 刘晨昕: fly/liu-chenxin.md
+      - 匿名: fly/anonymous-2019.md
+      - 朱晓晟: fly/zhu-xiaosheng.md
+      - 匿名: fly/anonymous-2020.md
+      - 赵天铭: fly/zhao-tianming.md
+      - 胡如碧: fly/hu-rubi.md
+      - 鲁杨: fly/lu-yang.md
+      - 郑妤颉: fly/zheng-yujie.md
+      - 鲍聿杨: fly/bao-yuyang.md
+    - 相关领域研究生采访:
+      - 冯佳琪: fly/feng-jiaqi.md
+    - 基础医学博士生导师采访:
+      - 高洋: fly/gao-yang.md
+      - 刘婷: fly/liu-ting.md
+      - 孙洁: fly/sun-jie.md
+      - 徐浩新: fly/xu-haoxin.md
+    - 声明与致谢: fly/about.md
 
 extra:
   social:
@@ -377,6 +400,7 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
+  - css/fly-handbook.css
   - css/contribution.css
   - assets/fonts/noto-sans-sc/font.css
   - assets/fonts/noto-serif-sc/font.css
