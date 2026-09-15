@@ -24,6 +24,6 @@ comments: false
 
 若没有对应页面，新增资料可以选择课程主页；课程也未列出时，选择“未找到课程或页面”，交由维护者定位。站点首页、培养方案或使用说明等归在“站点公共页面”。
 
-也可以直接打开 [资料与经验表单](https://github.com/BMS-ZJU/BMS_Database/issues/new?template=material-direct.yml)或[纠错表单](https://github.com/BMS-ZJU/BMS_Database/issues/new?template=correction-direct.yml)。从网站进入时，课程名称与页面地址会自动填写，无需再选。直接填写 GitHub 普通表单时，从课程下拉框选择即可。
+使用上方课程与页面选择器打开 GitHub 表单时，课程名称与页面地址会自动填写。也可以直接打开 [资料与经验表单](https://github.com/BMS-ZJU/BMS_Database/issues/new?template=material-direct.yml)或[纠错表单](https://github.com/BMS-ZJU/BMS_Database/issues/new?template=correction-direct.yml)，在 GitHub 中选择课程并填写页面地址。
 
 熟悉 GitHub 和本站结构的同学，推荐[直接修改并提交 PR](editing.md)。一次相关修改涉及多页或多门课程时，可以放在同一个 PR 中。
