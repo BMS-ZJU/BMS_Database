@@ -101,6 +101,20 @@
     font-family: var(--bms-reading-prose-font);
   }
 
+  /* 页面主标题共用字重与颜色, 长标题随可用宽度自然换行。 */
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset h1 {
+    color: var(--md-default-fg-color);
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 1.4;
+  }
+
+  :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset :is(h1, h2, h3) {
+    overflow-wrap: anywhere;
+    word-break: normal;
+    text-wrap: balance;
+  }
+
   :where(html:not([data-reading-style="original"])) .md-content__inner.md-typeset.reading-paper {
     font-family: "Times New Roman", var(--bms-reading-prose-font);
   }
