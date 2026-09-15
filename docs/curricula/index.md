@@ -1313,7 +1313,7 @@ hide:
         ##### 生物类课程 <span class="curriculum-heading-credit">共 20.5 学分</span> { #curriculum-2022-qiushi-module-group-1 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>生命科学基础<em class="curriculum-course-status">停开</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>72190040 · 1.0 学分 · 一（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
@@ -1431,7 +1431,7 @@ hide:
         ##### <span id="curriculum-2022-strong-base-module-group-1" aria-hidden="true"></span>生物类课程 <span class="curriculum-heading-credit">共 20.5 学分</span> { #curriculum-2022-qiangji-module-group-1 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>生命科学基础<em class="curriculum-course-status">停开</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>72190040 · 1.0 学分 · 一（夏）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
@@ -1521,7 +1521,7 @@ hide:
         ##### 生物类课程 <span class="curriculum-heading-credit">共 19.5 学分</span> { #curriculum-2021-qiushi-module-group-1 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>生命科学基础<em class="curriculum-course-status">停开</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
@@ -1638,7 +1638,7 @@ hide:
         ##### <span id="curriculum-2021-strong-base-module-group-1" aria-hidden="true"></span>生物类课程 <span class="curriculum-heading-credit">共 19.5 学分</span> { #curriculum-2021-qiangji-module-group-1 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>生命科学基础<em class="curriculum-course-status">停开</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
@@ -1728,7 +1728,7 @@ hide:
         ##### 生物类课程 <span class="curriculum-heading-credit">共 19.5 学分</span> { #curriculum-2020-qiushi-module-group-1 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>生命科学基础<em class="curriculum-course-status">停开</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
@@ -1844,7 +1844,7 @@ hide:
         ##### <span id="curriculum-2020-strong-base-module-group-1" aria-hidden="true"></span>生物类课程 <span class="curriculum-heading-credit">共 19.5 学分</span> { #curriculum-2020-qiangji-module-group-1 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>生命科学基础<em class="curriculum-course-status">停开</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
@@ -1932,7 +1932,7 @@ hide:
         ##### 生物类课程 <span class="curriculum-heading-credit">共 18 学分</span> { #curriculum-2019-qiushi-module-group-1 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
+          <div class="curriculum-course-item"><span>生命科学基础<em class="curriculum-course-status">停开</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
           <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>

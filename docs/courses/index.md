@@ -24,7 +24,7 @@ comments: false
     <input id="course-catalog-search" type="search" placeholder="输入课程名、课程号或英文名" autocomplete="off" data-course-search-input>
     <span class="course-catalog-counts">
       <span class="course-catalog-count" data-course-count>141 门课程</span>
-      <small>41 本站资料 · 4 站外同课 · 4 相关参考 · 92 暂无资料</small>
+      <small>42 本站资料 · 4 站外同课 · 4 相关参考 · 91 暂无资料</small>
     </span>
   </div>
 </div>
@@ -54,9 +54,9 @@ comments: false
     <span class="course-catalog-name">基础医学科学研究技能Ⅰ</span>
     <span class="course-catalog-meta">MED1028M · 1.5 学分 · 考试</span>
   </a>
-  <a class="course-catalog-item" data-course-search="医学科学英语基础 MED1005M Essential English For Medical Sciences 72190040" href="essential-english-for-medical-sciences/">
+  <a class="course-catalog-item" data-course-search="医学科学英语基础 MED1005M Essential English For Medical Sciences 考试 72190040" href="essential-english-for-medical-sciences/">
     <span class="course-catalog-name">医学科学英语基础</span>
-    <span class="course-catalog-meta">MED1005M · 1.0 学分 · 课程主页</span>
+    <span class="course-catalog-meta">MED1005M · 1.0 学分 · 考试</span>
   </a>
   <a class="course-catalog-item" data-course-search="物理化学 CHEM2001F Physical Chemistry 考试 061B9030" href="physical-chemistry/">
     <span class="course-catalog-name">物理化学</span>
@@ -567,7 +567,7 @@ comments: false
 
 <p class="course-catalog-group-note">以下课程只见于 2019—2025 级采用方案，未进入 2026 级三个班型。</p>
 
-<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 3">
+<div class="course-catalog course-catalog--available" style="--course-catalog-rows: 4">
   <a class="course-catalog-item" data-course-search="肿瘤研究策略与应用 MED3048M Strategy And Application In Cancer Research 考试 72120550" href="strategy-and-application-in-cancer-research/">
     <span class="course-catalog-name">肿瘤研究策略与应用</span>
     <span class="course-catalog-meta">MED3048M · 2.0 学分 · 考试</span>
@@ -592,11 +592,15 @@ comments: false
     <span class="course-catalog-name">神经建模与数据分析</span>
     <span class="course-catalog-meta">MED5075M · 2.0 学分 · 课程主页</span>
   </a>
+  <div class="course-catalog-item" data-course-search="生命科学基础 72120370 历史试卷 考试">
+    <span class="course-catalog-name">生命科学基础<em class="course-catalog-status">停开</em></span>
+    <span class="course-catalog-meta">72120370 · 3.0 学分 · <a href="medical-life-fundamentals/exams/">历史试卷</a></span>
+  </div>
 </div>
 
 <details class="course-catalog-unavailable" data-course-unavailable-group>
-  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>21 门</span></summary>
-  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 11">
+  <summary><span class="course-catalog-unavailable-label"><span aria-hidden="true">＋</span>暂无资料</span><span>20 门</span></summary>
+  <div class="course-catalog course-catalog--unavailable" style="--course-catalog-rows: 10">
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="教育统计与测量 03120261 03120261">
     <span class="course-catalog-name">教育统计与测量<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">03120261 · 2.0 学分</span>
@@ -624,10 +628,6 @@ comments: false
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="病原生物学 18198240 18198240">
     <span class="course-catalog-name">病原生物学<em class="course-catalog-status">暂无资料</em></span>
     <span class="course-catalog-meta">18198240 · 3.0 学分</span>
-  </div>
-  <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="生命科学基础 72120370 72120370">
-    <span class="course-catalog-name">生命科学基础<em class="course-catalog-status">停开</em><em class="course-catalog-status">暂无资料</em></span>
-    <span class="course-catalog-meta">72120370 · 3.0 学分</span>
   </div>
   <div class="course-catalog-item course-catalog-item--unavailable" data-course-search="肿瘤研究前沿 72120410 72120410">
     <span class="course-catalog-name">肿瘤研究前沿<em class="course-catalog-status">暂无资料</em></span>

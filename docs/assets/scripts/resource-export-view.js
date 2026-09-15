@@ -788,11 +788,11 @@
     try {
       const migrations = await withTimeout((async () => {
         const response = await fetch(new URL("assets/path-migrations.json", siteRoot), { credentials: "same-origin" });
-        if (!response.ok) throw new Error("资料地址索引加载失败，请刷新重试。");
+        if (!response.ok) throw new Error("暂时无法加载资料，请刷新重试。");
         return response.json();
-      })(), "资料地址索引加载超时，请刷新重试。");
+      })(), "加载资料超时，请刷新重试。");
       if (migrations.version !== 1 || !migrations.pages || typeof migrations.pages !== "object") {
-        throw new Error("资料地址索引无效，请从资料列表重新进入。");
+        throw new Error("无法打开所选资料，请返回资料列表重新进入。");
       }
       pathMigrations = migrations.pages;
       initializeRange(await resolvePapers(getSources()));
