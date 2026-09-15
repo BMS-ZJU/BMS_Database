@@ -51,7 +51,7 @@ class PageIdentityTests(unittest.TestCase):
         return "".join(template.blocks["htmltitle"](context)).strip()
 
     def test_course_title_and_short_navigation_are_independent(self):
-        path = "mandatory/medical_science_literacy_2/index.md"
+        path = "courses/medical-science-literacy-2/index.md"
         page = self.render_pages([self.real(path, "课程主页")])[0].page
         self.assertEqual(page.title, "课程主页")
         self.assertEqual(page.meta["title"], "医学科学素养Ⅱ")
@@ -63,13 +63,13 @@ class PageIdentityTests(unittest.TestCase):
 
     def test_intro_before_h1_does_not_turn_into_the_document_title(self):
         files = self.render_pages([(
-            "mandatory/example/index.md", "课程主页",
+            "courses/example/index.md", "课程主页",
             '!!! info "说明"\n\n    一段说明\n\n# 示例课程\n',
         )])
         self.assertEqual(files[0].page.meta["title"], "示例课程")
 
     def test_explicit_exam_identity_is_kept(self):
-        path = "mandatory/medical_science_literacy_2/exams/2025-2026-final-exam-recall.md"
+        path = "courses/medical-science-literacy-2/exams/2025-2026-final-exam-recall.md"
         page = self.render_pages([self.real(path, "2025-2026 秋期末回忆卷")])[0].page
         expected = "医学科学素养Ⅱ 2025-2026 学年秋学期期末回忆卷"
         self.assertEqual(page.meta["title"], expected)
@@ -78,8 +78,8 @@ class PageIdentityTests(unittest.TestCase):
 
     def test_group_and_quiz_without_explicit_title_use_complete_h1(self):
         for path, nav_title, expected in (
-            ("mandatory/medical_science_literacy_2/exams/index.md", "考试资料", "医学科学素养Ⅱ考试资料"),
-            ("mandatory/the_basis_for_human_diseases/quizzes/2025-2026-quiz-01.md", "小测 1",
+            ("courses/medical-science-literacy-2/exams/index.md", "考试资料", "医学科学素养Ⅱ考试资料"),
+            ("courses/the-basis-for-human-diseases/quizzes/2025-2026-quiz-01.md", "小测 1",
              "2025-2026 学年秋冬学期疾病基础小测 1"),
         ):
             with self.subTest(path=path):
@@ -88,8 +88,8 @@ class PageIdentityTests(unittest.TestCase):
                 self.assertEqual(page.title, nav_title)
 
     def test_anatomy_keeps_material_name_and_adds_confirmed_course(self):
-        home = "mandatory/structure_and_function_of_the_human_body/index.md"
-        source = "mandatory/structure_and_function_of_the_human_body/quizzes/2025-2026-summer-anatomy-test.md"
+        home = "courses/structure-and-function-of-the-human-body/index.md"
+        source = "courses/structure-and-function-of-the-human-body/exams/2025-2026-summer-anatomy-exam.md"
         # Child-first ordering proves this does not depend on render order.
         files = self.render_pages([self.real(source, "2025-2026 夏回忆整理"), self.real(home, "课程主页")])
         title = "人体结构与功能学 · 2025-2026 学年夏学期解剖学实验考试（回忆整理）"
@@ -99,14 +99,14 @@ class PageIdentityTests(unittest.TestCase):
         self.assertEqual(files[0].page.meta["title"], title)
 
     def test_discussion_adds_course_but_no_unknown_year(self):
-        home = "mandatory/basic_pharmacology/index.md"
-        path = "mandatory/basic_pharmacology/discussions/01-central-nervous-system.md"
+        home = "courses/basic-pharmacology/index.md"
+        path = "courses/basic-pharmacology/discussions/2025-2026-01-central-nervous-system.md"
         files = self.render_pages([self.real(path, "第一次讨论课"), self.real(home, "课程主页")])
         self.assertEqual(files[0].page.meta["title"], "基础药理学 · 第一次讨论课：中枢神经系统药理")
 
     def test_historical_independent_course_does_not_inherit_archive_course(self):
-        home = "mandatory/medical_life_fundamentals/index.md"
-        path = "mandatory/medical_life_fundamentals/exams/2020-2021-deferred-exam-recall.md"
+        home = "courses/medical-life-fundamentals/index.md"
+        path = "courses/medical-life-fundamentals/exams/2020-2021-deferred-exam-recall.md"
         files = self.render_pages([self.real(home, "课程主页"), self.real(path, "2020-2021 缓考回忆卷")])
         self.assertEqual(files[1].page.meta["title"], "生命科学基础 2020-2021 学年缓考回忆卷")
 

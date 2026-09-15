@@ -8,6 +8,7 @@ import re
 
 from mkdocs.structure.files import File
 from mkdocs.utils.meta import get_data
+from hooks.path_migrations import legacy_comment_path
 
 _aliases = []
 
@@ -57,6 +58,9 @@ def on_post_page(output, page, config):
             raise ValueError(f'Resource alias has a missing target: {source}')
         comment_script = re.search(r'<script\s+src="https://giscus.app/client.js"[\s\S]*?</script>', output)
         comment_attributes = dict(re.findall(r'([\w-]+)="([^"]*)"', comment_script[0])) if comment_script else {}
+        legacy = legacy_comment_path(source, config)
+        if legacy and comment_attributes:
+            comment_attributes.update({'data-mapping': 'specific', 'data-term': legacy})
         _aliases.append((old.dest_path, relative, alias, comment_attributes))
         if comment_attributes:
             title_match = re.search(r'<section[^>]*id="' + re.escape(alias['target']) + r'"[^>]*data-export-title="([^"]+)"', output)

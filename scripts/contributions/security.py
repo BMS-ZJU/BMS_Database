@@ -159,7 +159,8 @@ def model_input(snapshot):
 
 
 def freeze(root, target, issue, context, env, repository):
-    _, page = intake.resolve_target(root, target)
+    path, page = intake.resolve_target(root, target)
+    target = path.relative_to(root).as_posix()
     fields = intake.parse_fields(issue.get("body"))
     intake.validate_selection(root, target, fields)
     limits = policy(root)

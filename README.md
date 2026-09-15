@@ -18,9 +18,9 @@
 
 发现内容错误、链接失效，或愿意提供学习记录与资料，可以从网站的[贡献与纠错](https://bms-zju.github.io/BMS_Database/contribute/)开始。内容可以是普通文字，不必先整理成网页；请说明课程、时间、来源和仍不确定的地方。
 
-直接修改仓库时，请先阅读[贡献指南](CONTRIBUTING.md)，再按任务查阅[课程主页](COURSE_HOMEPAGE_GUIDE.md)、[试卷与小测](RECALL_PAPER_GUIDE.md)、[阅读体验](READING_EXPERIENCE_GUIDE.md)或[学期与校历参考](EXAM_SEMESTER_REFERENCE.md)等维护文档。
+直接修改仓库时，请先阅读[贡献指南](CONTRIBUTING.md)，再按任务查阅[课程主页](maintenance/course-homepages.md)、[试卷与小测](maintenance/recall-papers.md)、[阅读体验](maintenance/reading-experience.md)或[学期与校历参考](maintenance/semester-reference.md)等维护文档。
 
-接手网站维护时，先看[网站维护与交接](MAINTAINING.md)，了解源码与服务分工、发布回退、故障定位及账户和来源档案交接。
+接手网站维护时，先看[网站维护与交接](maintenance/maintaining.md)，了解源码与服务分工、发布回退、故障定位及账户和来源档案交接。
 
 公开反馈中请勿包含个人隐私，也不要上传权限不明的原件。
 
@@ -68,6 +68,8 @@ py -3.12 -m venv .venv
 
 常用位置：
 
-- [docs/](docs/)：网站页面与公开资源。
+- [docs/](docs/)：网站页面与公开资源；课程统一放在 `courses/`，全站共用图片、字体、样式与脚本放在 `assets/`。
+- [data/](data/)：课程映射、校历与路径迁移数据。
+- [maintenance/](maintenance/)：课程编辑、阅读体验、投稿处理及网站维护指南。
 - [mkdocs.yml](mkdocs.yml)：网站配置。
 - [overrides/](overrides/) 与 [hooks/](hooks/)：主题模板与构建扩展。

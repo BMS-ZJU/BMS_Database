@@ -29,7 +29,7 @@ PR 已经打开后，继续修改原来的分支即可更新同一个 PR。维�
 
 ## 页面和资料放在哪里
 
-最容易的定位方法是从目标网页点击编辑按钮。如果只有课程中文名，先查仓库中的 [COURSE_NAME_MAP.yml](https://github.com/BMS-ZJU/BMS_Database/blob/main/COURSE_NAME_MAP.yml)：<code>course_code</code> 用于区分课程，<code>path</code> 是 <code>docs/</code> 下的目录。
+最容易的定位方法是从目标网页点击编辑按钮。如果只有课程中文名，先查仓库中的 [data/courses.yml](https://github.com/BMS-ZJU/BMS_Database/blob/main/data/courses.yml)：<code>course_code</code> 用于区分课程，<code>path</code> 是 <code>docs/</code> 下的目录。
 
 | 要修改或新增的内容 | 仓库位置 |
 | --- | --- |
@@ -41,7 +41,7 @@ PR 已经打开后，继续修改原来的分支即可更新同一个 PR。维�
 | 页面专用图片 | 课程目录的 <code>assets/</code> |
 | 全站菜单和页面入口 | 根目录 <code>mkdocs.yml</code> 中的 <code>nav</code> |
 
-<code>mandatory/</code>、<code>elective/</code> 是保留的旧路径，不能据此判断某年级的必修或选修属性。不要为这次修改顺手重命名课程目录。
+课程文件统一放在 <code>docs/courses/</code>，具体目录以课程映射为准。旧 <code>mandatory/</code>、<code>elective/</code> 网址继续兼容；必修或选修属性请按对应培养方案核对。
 
 新增资料时，先找同类资料页作为格式参考，在对应目录添加文件，再补分组 <code>index.md</code> 的链接；需要出现在菜单中的页面还要更新 <code>mkdocs.yml</code>。已有链接的页面可以小范围原位修正。没有来源支持的栏目可以省略，不要套用已停用的课程主页模板。
 
@@ -54,10 +54,10 @@ PR 说明简要写“改了什么、依据在哪里、哪些仍不确定”。�
 根据修改类型，继续阅读相应规范：
 
 - [贡献指南](https://github.com/BMS-ZJU/BMS_Database/blob/main/CONTRIBUTING.md)：证据、目录、链接和提交要求
-- [课程主页维护指南](https://github.com/BMS-ZJU/BMS_Database/blob/main/COURSE_HOMEPAGE_GUIDE.md)：课程信息、经验和资料入口的组织
-- [回忆卷制作规范](https://github.com/BMS-ZJU/BMS_Database/blob/main/RECALL_PAPER_GUIDE.md)：试卷、小测、折叠答案和打印
-- [学期与校历参考](https://github.com/BMS-ZJU/BMS_Database/blob/main/EXAM_SEMESTER_REFERENCE.md)：学年和考试时间的核对
-- [阅读体验维护指南](https://github.com/BMS-ZJU/BMS_Database/blob/main/READING_EXPERIENCE_GUIDE.md)：字体、组件和屏幕／打印效果
+- [课程主页维护指南](https://github.com/BMS-ZJU/BMS_Database/blob/main/maintenance/course-homepages.md)：课程信息、经验和资料入口的组织
+- [回忆卷制作规范](https://github.com/BMS-ZJU/BMS_Database/blob/main/maintenance/recall-papers.md)：试卷、小测、折叠答案和打印
+- [学期与校历参考](https://github.com/BMS-ZJU/BMS_Database/blob/main/maintenance/semester-reference.md)：学年和考试时间的核对
+- [阅读体验维护指南](https://github.com/BMS-ZJU/BMS_Database/blob/main/maintenance/reading-experience.md)：字体、组件和屏幕／打印效果
 
 ## 需要完整预览时
 

@@ -5,7 +5,7 @@ from urllib.parse import urljoin
 
 from mkdocs.utils import get_relative_url
 
-RESOURCE = re.compile(r"^(mandatory|elective)/[^/]+/(exams|quizzes)/[^/]+\.md$")
+RESOURCE = re.compile(r"^(courses)/[^/]+/(exams|quizzes)/[^/]+\.md$")
 POLICY_SOURCE = "contribute/sources-and-permissions.md"
 
 

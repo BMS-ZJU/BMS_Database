@@ -6,28 +6,19 @@ repo_url: https://github.com/BMS-ZJU/BMS_Database
 edit_uri: edit/main/docs/
 
 draft_docs: |
-  freshman/**
-  !freshman/index.md
-  !freshman/deferred-exams.md
-  !freshman/course-selection.md
-  !freshman/external-exchange.md
-  !freshman/textbook-ordering.md
-  !freshman/assets/exchange-credit-recognition.png
-  !freshman/assets/textbook-return-route.png
-  !freshman/assets/textbook-return-route.webp
-  !freshman/assets/textbook-return-entrance.jpg
-  !freshman/assets/textbook-return-entrance.webp
-  !freshman/assets/textbook-return-office.png
-  !freshman/assets/textbook-return-office.webp
-
-exclude_docs: |
-  others/**
-  policy/**
-
-not_in_nav: |
-  mandatory/index.md
-  elective/index.md
-  error.md
+  zijingang/**
+  !zijingang/index.md
+  !zijingang/deferred-exams.md
+  !zijingang/course-selection.md
+  !zijingang/external-exchange.md
+  !zijingang/textbooks.md
+  !zijingang/assets/exchange-credit-recognition.png
+  !zijingang/assets/textbook-return-route.png
+  !zijingang/assets/textbook-return-route.webp
+  !zijingang/assets/textbook-return-entrance.jpg
+  !zijingang/assets/textbook-return-entrance.webp
+  !zijingang/assets/textbook-return-office.png
+  !zijingang/assets/textbook-return-office.webp
 
 validation:
   nav:
@@ -36,8 +27,8 @@ validation:
 theme:
   name: material
   language: zh
-  logo: images/zjubms-folded-header.svg
-  favicon: images/zjubms-folded-transparent-512.png
+  logo: assets/brand/zjubms-folded-header.svg
+  favicon: assets/brand/zjubms-folded-transparent-512.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -76,268 +67,268 @@ nav:
       - 选择投稿页面: contribute/submit.md
       - 直接修改与提交 PR: contribute/editing.md
       - 来源与使用范围: contribute/sources-and-permissions.md
-    - 项目后记: project-afterword.md
+    - 项目后记: about/project-afterword.md
     - 网站后记: afterword.md
   - 紫金港速通:
-    - freshman/index.md
+    - zijingang/index.md
     - 学习与教务:
-      - 选课: freshman/course-selection.md
-      - 教材选购与退订: freshman/textbook-ordering.md
-      - 缓考: freshman/deferred-exams.md
-    - 对外交流: freshman/external-exchange.md
+      - 选课: zijingang/course-selection.md
+      - 教材选购与退订: zijingang/textbooks.md
+      - 缓考: zijingang/deferred-exams.md
+    - 对外交流: zijingang/external-exchange.md
   - 培养方案:
     - curricula/index.md
   - 课程资料:
     - courses/index.md
     - 医学生命基础:
-      - 课程主页: mandatory/medical_life_fundamentals/index.md
+      - 课程主页: courses/medical-life-fundamentals/index.md
       - 考试资料:
-        - mandatory/medical_life_fundamentals/exams/index.md
-        - 2024-2025 期末试题: mandatory/medical_life_fundamentals/exams/2024-2025-final-exams.md
+        - courses/medical-life-fundamentals/exams/index.md
+        - 2024-2025 期末试题: courses/medical-life-fundamentals/exams/2024-2025-final-exams.md
         - 2024-2025 秋冬回忆卷 ↗: https://yangshu233-snow.github.io/Yangshu233_MkDocs/Temp/ZJU_Learning/%E8%87%AA%E5%88%B6%E5%8E%86%E5%B9%B4%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%E5%9B%9E%E5%BF%86%E5%8D%B7/24-25%E5%8C%BB%E5%AD%A6%E7%94%9F%E5%91%BD%E5%9F%BA%E7%A1%80%E5%9B%9E%E5%BF%86%E5%8D%B7.html
-        - 2022-2023 回忆卷: mandatory/medical_life_fundamentals/exams/2022-2023-exam-recall.md
-        - 2021-2022 秋冬 A/B 卷: mandatory/medical_life_fundamentals/exams/2021-2022-final-exams.md
-        - 2020-2021 缓考回忆卷: mandatory/medical_life_fundamentals/exams/2020-2021-deferred-exam-recall.md
-        - 2020-2021 秋冬回忆卷: mandatory/medical_life_fundamentals/exams/2020-2021-final-exam-recall.md
-    - 医学科学素养Ⅰ: mandatory/medical_research_literacy_1/index.md
+        - 2022-2023 回忆卷: courses/medical-life-fundamentals/exams/2022-2023-exam-recall.md
+        - 2021-2022 秋冬 A/B 卷: courses/medical-life-fundamentals/exams/2021-2022-final-exams.md
+        - 2020-2021 缓考回忆卷: courses/medical-life-fundamentals/exams/2020-2021-deferred-exam-recall.md
+        - 2020-2021 秋冬回忆卷: courses/medical-life-fundamentals/exams/2020-2021-final-exam-recall.md
+    - 医学科学素养Ⅰ: courses/medical-research-literacy-1/index.md
     - 医学科学素养Ⅱ:
-      - 课程主页: mandatory/medical_science_literacy_2/index.md
+      - 课程主页: courses/medical-science-literacy-2/index.md
       - 练习与小测:
-        - mandatory/medical_science_literacy_2/quizzes/index.md
-        - 2025-2026 秋练习与小测: mandatory/medical_science_literacy_2/quizzes/2025-2026-quizzes.md
+        - courses/medical-science-literacy-2/quizzes/index.md
+        - 2025-2026 秋练习与小测: courses/medical-science-literacy-2/quizzes/2025-2026-quizzes.md
       - 考试资料:
-        - mandatory/medical_science_literacy_2/exams/index.md
-        - 2025-2026 秋期末回忆卷: mandatory/medical_science_literacy_2/exams/2025-2026-final-exam-recall.md
-        - 2023-2024 秋期末回忆卷: mandatory/medical_science_literacy_2/exams/2023-2024-final-exam-recall.md
+        - courses/medical-science-literacy-2/exams/index.md
+        - 2025-2026 秋期末回忆卷: courses/medical-science-literacy-2/exams/2025-2026-final-exam-recall.md
+        - 2023-2024 秋期末回忆卷: courses/medical-science-literacy-2/exams/2023-2024-final-exam-recall.md
     - 基础医学科学研究技能Ⅰ:
-      - 课程主页: mandatory/basic_techniques_in_medical_sciences_1/index.md
+      - 课程主页: courses/basic-techniques-in-medical-sciences-1/index.md
       - 考试资料:
-        - mandatory/basic_techniques_in_medical_sciences_1/exams/index.md
-        - 2025-2026 春期末回忆卷: mandatory/basic_techniques_in_medical_sciences_1/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 冬期末回忆卷: mandatory/basic_techniques_in_medical_sciences_1/exams/2024-2025-final-exam-recall.md
-    - 基础医学科学研究技能Ⅱ: mandatory/basic_techniques_in_medical_sciences_2/index.md
+        - courses/basic-techniques-in-medical-sciences-1/exams/index.md
+        - 2025-2026 春期末回忆卷: courses/basic-techniques-in-medical-sciences-1/exams/2025-2026-final-exam-recall.md
+        - 2024-2025 冬期末回忆卷: courses/basic-techniques-in-medical-sciences-1/exams/2024-2025-final-exam-recall.md
+    - 基础医学科学研究技能Ⅱ: courses/basic-techniques-in-medical-sciences-2/index.md
     - 医学科学英语基础:
-      - 课程主页: mandatory/essential_english_for_medical_sciences/index.md
+      - 课程主页: courses/essential-english-for-medical-sciences/index.md
       - 考试资料:
-        - mandatory/essential_english_for_medical_sciences/exams/index.md
-        - 2024-2025 回忆卷: mandatory/essential_english_for_medical_sciences/exams/2024-2025-final-exam-recall.md
+        - courses/essential-english-for-medical-sciences/exams/index.md
+        - 2024-2025 期末回忆卷: courses/essential-english-for-medical-sciences/exams/2024-2025-final-exam-recall.md
     - 细胞与生物分子Ⅰ:
-      - 课程主页: mandatory/molecular_cell_biology_1/index.md
+      - 课程主页: courses/molecular-cell-biology-1/index.md
       - 考试资料:
-        - mandatory/molecular_cell_biology_1/exams/index.md
-        - 2025-2026 秋期末回忆卷: mandatory/molecular_cell_biology_1/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 秋期末回忆卷: mandatory/molecular_cell_biology_1/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 秋期末回忆卷: mandatory/molecular_cell_biology_1/exams/2023-2024-final-exam-recall.md
-        - 2021-2022 秋期末回忆卷: mandatory/molecular_cell_biology_1/exams/2021-2022-final-exam-recall.md
+        - courses/molecular-cell-biology-1/exams/index.md
+        - 2025-2026 秋期末回忆卷: courses/molecular-cell-biology-1/exams/2025-2026-final-exam-recall.md
+        - 2024-2025 秋期末回忆卷: courses/molecular-cell-biology-1/exams/2024-2025-final-exam-recall.md
+        - 2023-2024 秋期末回忆卷: courses/molecular-cell-biology-1/exams/2023-2024-final-exam-recall.md
+        - 2021-2022 秋期末回忆卷: courses/molecular-cell-biology-1/exams/2021-2022-final-exam-recall.md
     - 细胞与生物分子Ⅱ:
-      - 课程主页: mandatory/molecular_cell_biology_2/index.md
+      - 课程主页: courses/molecular-cell-biology-2/index.md
       - 平时小测:
-        - mandatory/molecular_cell_biology_2/quizzes/index.md
-        - 2025-2026 秋冬小测回忆: mandatory/molecular_cell_biology_2/quizzes/2025-2026-quizzes.md
-        - 2024-2025 秋冬小测回忆: mandatory/molecular_cell_biology_2/quizzes/2024-2025-quizzes.md
+        - courses/molecular-cell-biology-2/quizzes/index.md
+        - 2025-2026 秋冬小测回忆: courses/molecular-cell-biology-2/quizzes/2025-2026-quizzes.md
+        - 2024-2025 秋冬小测回忆: courses/molecular-cell-biology-2/quizzes/2024-2025-quizzes.md
       - 考试资料:
-        - mandatory/molecular_cell_biology_2/exams/index.md
-        - 2024-2025 秋冬期末回忆卷: mandatory/molecular_cell_biology_2/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 秋冬期末回忆卷: mandatory/molecular_cell_biology_2/exams/2023-2024-final-exam-recall.md
+        - courses/molecular-cell-biology-2/exams/index.md
+        - 2024-2025 秋冬期末回忆卷: courses/molecular-cell-biology-2/exams/2024-2025-final-exam-recall.md
+        - 2023-2024 秋冬期末回忆卷: courses/molecular-cell-biology-2/exams/2023-2024-final-exam-recall.md
     - 实验动物与伦理学:
-      - 课程主页: mandatory/experimental_animals_and_ethics/index.md
+      - 课程主页: courses/experimental-animals-and-ethics/index.md
       - 考试资料:
-        - mandatory/experimental_animals_and_ethics/exams/index.md
-        - 2024-2025 秋期末回忆卷: mandatory/experimental_animals_and_ethics/exams/2024-2025-final-exam-recall.md
+        - courses/experimental-animals-and-ethics/exams/index.md
+        - 2024-2025 秋期末回忆卷: courses/experimental-animals-and-ethics/exams/2024-2025-final-exam-recall.md
     - 遗传与发育Ⅰ:
-      - 课程主页: mandatory/genetics_and_developmental_biology_1/index.md
+      - 课程主页: courses/genetics-and-developmental-biology-1/index.md
       - 考试资料:
-        - mandatory/genetics_and_developmental_biology_1/exams/index.md
-        - 2024-2025 冬期末回忆卷: mandatory/genetics_and_developmental_biology_1/exams/2024-2025-final-exam-recall.md
-        - 2022-2023 冬期末回忆卷: mandatory/genetics_and_developmental_biology_1/exams/2022-2023-final-exam-recall.md
+        - courses/genetics-and-developmental-biology-1/exams/index.md
+        - 2024-2025 冬期末回忆卷: courses/genetics-and-developmental-biology-1/exams/2024-2025-final-exam-recall.md
+        - 2022-2023 冬期末回忆卷: courses/genetics-and-developmental-biology-1/exams/2022-2023-final-exam-recall.md
     - 遗传与发育Ⅱ:
-      - 课程主页: mandatory/genetics_and_developmental_biology_2/index.md
+      - 课程主页: courses/genetics-and-developmental-biology-2/index.md
       - 考试资料:
-        - mandatory/genetics_and_developmental_biology_2/exams/index.md
-        - 2024-2025 春期末试卷: mandatory/genetics_and_developmental_biology_2/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 春期末回忆卷: mandatory/genetics_and_developmental_biology_2/exams/2023-2024-final-exam-recall.md
-        - 2022-2023 春期末回忆卷: mandatory/genetics_and_developmental_biology_2/exams/2022-2023-final-exam-recall.md
+        - courses/genetics-and-developmental-biology-2/exams/index.md
+        - 2024-2025 春期末试卷: courses/genetics-and-developmental-biology-2/exams/2024-2025-final-exam.md
+        - 2023-2024 春期末回忆卷: courses/genetics-and-developmental-biology-2/exams/2023-2024-final-exam-recall.md
+        - 2022-2023 春期末回忆卷: courses/genetics-and-developmental-biology-2/exams/2022-2023-final-exam-recall.md
     - 人体结构与功能学:
-      - 课程主页: mandatory/structure_and_function_of_the_human_body/index.md
-      - 解剖学实验考试:
-        - mandatory/structure_and_function_of_the_human_body/quizzes/index.md
-        - 2025-2026 夏回忆整理: mandatory/structure_and_function_of_the_human_body/quizzes/2025-2026-summer-anatomy-test.md
-        - 2025-2026 春回忆整理: mandatory/structure_and_function_of_the_human_body/quizzes/2025-2026-spring-anatomy-test.md
-        - 2024-2025 夏实验考试: mandatory/structure_and_function_of_the_human_body/quizzes/2024-2025-summer-anatomy-test.md
-        - 2024-2025 春实验考试: mandatory/structure_and_function_of_the_human_body/quizzes/2024-2025-spring-anatomy-test.md
+      - 课程主页: courses/structure-and-function-of-the-human-body/index.md
       - 考试资料:
-        - mandatory/structure_and_function_of_the_human_body/exams/index.md
-        - 2024-2025 春夏期末回忆卷: mandatory/structure_and_function_of_the_human_body/exams/2024-2025-final-exam-recall.md
-        - 2022-2023 春夏期末回忆卷: mandatory/structure_and_function_of_the_human_body/exams/2022-2023-final-exam-recall.md
+        - courses/structure-and-function-of-the-human-body/exams/index.md
+        - 期末考试:
+          - 2024-2025 春夏期末回忆卷: courses/structure-and-function-of-the-human-body/exams/2024-2025-final-exam-recall.md
+          - 2022-2023 春夏期末回忆卷: courses/structure-and-function-of-the-human-body/exams/2022-2023-final-exam-recall.md
+        - 解剖学实验考试:
+          - 2025-2026 夏回忆整理: courses/structure-and-function-of-the-human-body/exams/2025-2026-summer-anatomy-exam.md
+          - 2025-2026 春回忆整理: courses/structure-and-function-of-the-human-body/exams/2025-2026-spring-anatomy-exam.md
+          - 2024-2025 夏实验考试: courses/structure-and-function-of-the-human-body/exams/2024-2025-summer-anatomy-exam.md
+          - 2024-2025 春实验考试: courses/structure-and-function-of-the-human-body/exams/2024-2025-spring-anatomy-exam.md
     - 医学生物物理学:
-      - 课程主页: mandatory/medical_biophysics/index.md
-      - 课程笔记: mandatory/medical_biophysics/notes/index.md
+      - 课程主页: courses/medical-biophysics/index.md
+      - 课程笔记: courses/medical-biophysics/notes/index.md
       - 考试资料:
-        - mandatory/medical_biophysics/exams/index.md
-        - 2024-2025 春期末回忆卷: mandatory/medical_biophysics/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 春期末回忆卷: mandatory/medical_biophysics/exams/2023-2024-final-exam-recall.md
-        - 2022-2023 春期末回忆卷: mandatory/medical_biophysics/exams/2022-2023-final-exam-recall.md
-        - 2021-2022 春期末回忆卷: mandatory/medical_biophysics/exams/2021-2022-final-exam-recall.md
+        - courses/medical-biophysics/exams/index.md
+        - 2024-2025 春期末回忆卷: courses/medical-biophysics/exams/2024-2025-final-exam-recall.md
+        - 2023-2024 春期末回忆卷: courses/medical-biophysics/exams/2023-2024-final-exam-recall.md
+        - 2022-2023 春期末回忆卷: courses/medical-biophysics/exams/2022-2023-final-exam-recall.md
+        - 2021-2022 春期末回忆卷: courses/medical-biophysics/exams/2021-2022-final-exam-recall.md
     - 医学大数据与应用:
-      - 课程主页: mandatory/medical_big_data_and_application/index.md
+      - 课程主页: courses/medical-big-data-and-application/index.md
       - 考试资料:
-        - mandatory/medical_big_data_and_application/exams/index.md
-        - 2024-2025 夏期末回忆卷: mandatory/medical_big_data_and_application/exams/2024-2025-final-exam-recall.md
-        - 2022-2023 夏期末回忆卷: mandatory/medical_big_data_and_application/exams/2022-2023-final-exam-recall.md
+        - courses/medical-big-data-and-application/exams/index.md
+        - 2024-2025 夏期末回忆卷: courses/medical-big-data-and-application/exams/2024-2025-final-exam-recall.md
+        - 2022-2023 夏期末回忆卷: courses/medical-big-data-and-application/exams/2022-2023-final-exam-recall.md
     - 感染与免疫学:
-      - 课程主页: mandatory/infectious_diseases_and_immunity/index.md
+      - 课程主页: courses/infectious-diseases-and-immunity/index.md
       - 平时小测:
-        - mandatory/infectious_diseases_and_immunity/quizzes/index.md
-        - 2025-2026 秋冬三次小测: mandatory/infectious_diseases_and_immunity/quizzes/quizzes.md
+        - courses/infectious-diseases-and-immunity/quizzes/index.md
+        - 2025-2026 秋冬三次小测: courses/infectious-diseases-and-immunity/quizzes/2025-2026-quizzes.md
       - 考试资料:
-        - mandatory/infectious_diseases_and_immunity/exams/index.md
-        - 2025-2026 秋冬期末回忆卷: mandatory/infectious_diseases_and_immunity/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 秋冬期末回忆卷: mandatory/infectious_diseases_and_immunity/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 秋冬期末回忆卷: mandatory/infectious_diseases_and_immunity/exams/2023-2024-final-exam-recall.md
+        - courses/infectious-diseases-and-immunity/exams/index.md
+        - 2025-2026 秋冬期末回忆卷: courses/infectious-diseases-and-immunity/exams/2025-2026-final-exam-recall.md
+        - 2024-2025 秋冬期末回忆卷: courses/infectious-diseases-and-immunity/exams/2024-2025-final-exam-recall.md
+        - 2023-2024 秋冬期末回忆卷: courses/infectious-diseases-and-immunity/exams/2023-2024-final-exam-recall.md
     - 疾病基础:
-      - 课程主页: mandatory/the_basis_for_human_diseases/index.md
+      - 课程主页: courses/the-basis-for-human-diseases/index.md
       - 平时小测:
-        - mandatory/the_basis_for_human_diseases/quizzes/index.md
-        - 2025-2026 秋冬小测合集: mandatory/the_basis_for_human_diseases/quizzes/2025-2026-quizzes.md
+        - courses/the-basis-for-human-diseases/quizzes/index.md
+        - 2025-2026 秋冬小测合集: courses/the-basis-for-human-diseases/quizzes/2025-2026-quizzes.md
       - 考试资料:
-        - mandatory/the_basis_for_human_diseases/exams/index.md
-        - 2025-2026 秋冬期末回忆卷: mandatory/the_basis_for_human_diseases/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 秋冬期末回忆卷: mandatory/the_basis_for_human_diseases/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 秋冬期末回忆卷: mandatory/the_basis_for_human_diseases/exams/2023-2024-final-exam-recall.md
-        - 2022-2023 秋冬期末回忆卷: mandatory/the_basis_for_human_diseases/exams/2022-2023-final-exam-recall.md
+        - courses/the-basis-for-human-diseases/exams/index.md
+        - 2025-2026 秋冬期末回忆卷: courses/the-basis-for-human-diseases/exams/2025-2026-final-exam-recall.md
+        - 2024-2025 秋冬期末回忆卷: courses/the-basis-for-human-diseases/exams/2024-2025-final-exam-recall.md
+        - 2023-2024 秋冬期末回忆卷: courses/the-basis-for-human-diseases/exams/2023-2024-final-exam-recall.md
+        - 2022-2023 秋冬期末回忆卷: courses/the-basis-for-human-diseases/exams/2022-2023-final-exam-recall.md
     - 基础药理学:
-      - 课程主页: mandatory/basic_pharmacology/index.md
+      - 课程主页: courses/basic-pharmacology/index.md
       - 讨论课:
-        - mandatory/basic_pharmacology/discussions/index.md
-        - 第一次：中枢神经系统药理: mandatory/basic_pharmacology/discussions/01-central-nervous-system.md
-        - 第二次：心血管药理: mandatory/basic_pharmacology/discussions/02-cardiovascular.md
-        - 第三次：抗感染药物: mandatory/basic_pharmacology/discussions/03-antimicrobial.md
+        - courses/basic-pharmacology/discussions/index.md
+        - 第一次：中枢神经系统药理: courses/basic-pharmacology/discussions/2025-2026-01-central-nervous-system.md
+        - 第二次：心血管药理: courses/basic-pharmacology/discussions/2025-2026-02-cardiovascular.md
+        - 第三次：抗感染药物: courses/basic-pharmacology/discussions/2025-2026-03-antimicrobial.md
       - 考试资料:
-        - mandatory/basic_pharmacology/exams/index.md
-        - 2025-2026 春夏期末回忆卷: mandatory/basic_pharmacology/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 春夏期末回忆卷: mandatory/basic_pharmacology/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 春夏期末回忆卷: mandatory/basic_pharmacology/exams/2023-2024-final-exam-recall.md
+        - courses/basic-pharmacology/exams/index.md
+        - 2025-2026 春夏期末回忆卷: courses/basic-pharmacology/exams/2025-2026-final-exam-recall.md
+        - 2024-2025 春夏期末回忆卷: courses/basic-pharmacology/exams/2024-2025-final-exam-recall.md
+        - 2023-2024 春夏期末回忆卷: courses/basic-pharmacology/exams/2023-2024-final-exam-recall.md
     - 神经科学:
-      - 课程主页: mandatory/neuroscience/index.md
+      - 课程主页: courses/neuroscience/index.md
       - 平时小测:
-        - mandatory/neuroscience/quizzes/index.md
-        - 2025-2026 春夏小测合集: mandatory/neuroscience/quizzes/2025-2026-quizzes.md
+        - courses/neuroscience/quizzes/index.md
+        - 2025-2026 春夏小测合集: courses/neuroscience/quizzes/2025-2026-quizzes.md
       - 考试资料:
-        - mandatory/neuroscience/exams/index.md
-        - 2025-2026 春夏期末回忆卷: mandatory/neuroscience/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 春夏期末回忆卷: mandatory/neuroscience/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 春夏期末回忆卷: mandatory/neuroscience/exams/2023-2024-final-exam-recall.md
-        - 2022-2023 春夏期末回忆卷: mandatory/neuroscience/exams/2022-2023-final-exam-recall.md
-        - 2021-2022 春夏期末回忆卷: mandatory/neuroscience/exams/2021-2022-final-exam-recall.md
+        - courses/neuroscience/exams/index.md
+        - 2025-2026 春夏期末回忆卷: courses/neuroscience/exams/2025-2026-final-exam-recall.md
+        - 2024-2025 春夏期末回忆卷: courses/neuroscience/exams/2024-2025-final-exam-recall.md
+        - 2023-2024 春夏期末回忆卷: courses/neuroscience/exams/2023-2024-final-exam-recall.md
+        - 2022-2023 春夏期末回忆卷: courses/neuroscience/exams/2022-2023-final-exam-recall.md
+        - 2021-2022 春夏期末回忆卷: courses/neuroscience/exams/2021-2022-final-exam-recall.md
     - 脑与脑机融合:
-      - 课程主页: mandatory/brain_and_brain_machine_integrated_systems/index.md
+      - 课程主页: courses/brain-and-brain-machine-integrated-systems/index.md
       - 考试资料:
-        - mandatory/brain_and_brain_machine_integrated_systems/exams/index.md
-        - 2024-2025 夏期末回忆卷: mandatory/brain_and_brain_machine_integrated_systems/exams/2024-2025-final-exam-recall.md
-        - 课堂与往年题目示例: mandatory/brain_and_brain_machine_integrated_systems/exams/examples.md
-    - 神经建模与数据分析: elective/neural-modeling-and-data-analysis/index.md
-    - 临床流行病学与循证医学: mandatory/clinical_epidemiology_and_evidence_based_medicine/index.md
-    - 基础医学科研实践: mandatory/medical_research_practice/index.md
+        - courses/brain-and-brain-machine-integrated-systems/exams/index.md
+        - 2024-2025 夏期末回忆卷: courses/brain-and-brain-machine-integrated-systems/exams/2024-2025-final-exam-recall.md
+        - 课堂与往年题目示例: courses/brain-and-brain-machine-integrated-systems/exams/examples.md
+    - 神经建模与数据分析: courses/neural-modeling-and-data-analysis/index.md
+    - 临床流行病学与循证医学: courses/clinical-epidemiology-and-evidence-based-medicine/index.md
+    - 基础医学科研实践: courses/medical-research-practice/index.md
     - 基础医学教育见习:
-      - 课程主页: mandatory/educational_probation_of_basic_medicine/index.md
-      - 见习任务总览: mandatory/educational_probation_of_basic_medicine/tasks/index.md
-      - 说课与试讲: mandatory/educational_probation_of_basic_medicine/assessment/trial-teaching.md
+      - 课程主页: courses/educational-probation-of-basic-medicine/index.md
+      - 见习任务总览: courses/educational-probation-of-basic-medicine/tasks/index.md
+      - 说课与试讲: courses/educational-probation-of-basic-medicine/assessment/trial-teaching.md
     - 重要疾病的临床与研究Ⅰ:
-      - 课程主页: mandatory/human_diseases_from_clinic_to_research_1/index.md
+      - 课程主页: courses/human-diseases-from-clinic-to-research-1/index.md
       - 考试资料:
-        - mandatory/human_diseases_from_clinic_to_research_1/exams/index.md
-        - 2025-2026 秋期末回忆卷: mandatory/human_diseases_from_clinic_to_research_1/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 秋期末回忆卷: mandatory/human_diseases_from_clinic_to_research_1/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 秋期末回忆卷: mandatory/human_diseases_from_clinic_to_research_1/exams/2023-2024-final-exam-recall.md
+        - courses/human-diseases-from-clinic-to-research-1/exams/index.md
+        - 2025-2026 秋期末回忆卷: courses/human-diseases-from-clinic-to-research-1/exams/2025-2026-final-exam-recall.md
+        - 2024-2025 秋期末回忆卷: courses/human-diseases-from-clinic-to-research-1/exams/2024-2025-final-exam-recall.md
+        - 2023-2024 秋期末回忆卷: courses/human-diseases-from-clinic-to-research-1/exams/2023-2024-final-exam-recall.md
     - 重要疾病的临床与研究Ⅱ:
-      - 课程主页: mandatory/human_diseases_from_clinic_to_research_2/index.md
+      - 课程主页: courses/human-diseases-from-clinic-to-research-2/index.md
       - 考试资料:
-        - mandatory/human_diseases_from_clinic_to_research_2/exams/index.md
-        - 2024-2025 冬期末回忆卷: mandatory/human_diseases_from_clinic_to_research_2/exams/2024-2025-final-exam-recall.md
+        - courses/human-diseases-from-clinic-to-research-2/exams/index.md
+        - 2024-2025 冬期末回忆卷: courses/human-diseases-from-clinic-to-research-2/exams/2024-2025-final-exam-recall.md
     - 重要疾病的临床与研究Ⅲ:
-      - 课程主页: mandatory/human_diseases_from_clinic_to_research_3/index.md
+      - 课程主页: courses/human-diseases-from-clinic-to-research-3/index.md
       - 平时小测:
-        - mandatory/human_diseases_from_clinic_to_research_3/quizzes/index.md
-        - 2024-2025 春小测 1—4: mandatory/human_diseases_from_clinic_to_research_3/quizzes/2024-2025-quizzes.md
+        - courses/human-diseases-from-clinic-to-research-3/quizzes/index.md
+        - 2024-2025 春小测 1—4: courses/human-diseases-from-clinic-to-research-3/quizzes/2024-2025-quizzes.md
       - 考试资料:
-        - mandatory/human_diseases_from_clinic_to_research_3/exams/index.md
-        - 2024-2025 春期末回忆卷: mandatory/human_diseases_from_clinic_to_research_3/exams/2024-2025-final-exam-recall.md
-    - 临床实习: mandatory/clinical_practice/index.md
+        - courses/human-diseases-from-clinic-to-research-3/exams/index.md
+        - 2024-2025 春期末回忆卷: courses/human-diseases-from-clinic-to-research-3/exams/2024-2025-final-exam-recall.md
+    - 临床实习: courses/clinical-practice/index.md
     - 肿瘤生物学:
-      - 课程主页: elective/cancer_biology/index.md
+      - 课程主页: courses/cancer-biology/index.md
       - 考试资料:
-        - elective/cancer_biology/exams/index.md
-        - 2025-2026 春期末回忆卷: elective/cancer_biology/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 春期末回忆卷: elective/cancer_biology/exams/2024-2025-final-exam-recall.md
-    - 临床肿瘤学概论: elective/introduction_to_clinical_oncology/index.md
+        - courses/cancer-biology/exams/index.md
+        - 2025-2026 春期末回忆卷: courses/cancer-biology/exams/2025-2026-final-exam-recall.md
+        - 2024-2025 春期末回忆卷: courses/cancer-biology/exams/2024-2025-final-exam-recall.md
+    - 临床肿瘤学概论: courses/introduction-to-clinical-oncology/index.md
     - 肿瘤研究策略与应用:
-      - 课程主页: elective/strategy_and_application_in_cancer_research/index.md
+      - 课程主页: courses/strategy-and-application-in-cancer-research/index.md
       - 考试资料:
-        - elective/strategy_and_application_in_cancer_research/exams/index.md
-        - 2024-2025 夏期末回忆卷: elective/strategy_and_application_in_cancer_research/exams/2024-2025-final-exam-recall.md
+        - courses/strategy-and-application-in-cancer-research/exams/index.md
+        - 2024-2025 夏期末回忆卷: courses/strategy-and-application-in-cancer-research/exams/2024-2025-final-exam-recall.md
     - 微生物学与免疫学前沿技术:
-      - 课程主页: elective/advanced_technology_in_microbiology_and_immunology/index.md
+      - 课程主页: courses/advanced-technology-in-microbiology-and-immunology/index.md
       - 考试资料:
-        - elective/advanced_technology_in_microbiology_and_immunology/exams/index.md
-        - 2024-2025 秋期末回忆卷: elective/advanced_technology_in_microbiology_and_immunology/exams/2024-2025-final-exam-recall.md
+        - courses/advanced-technology-in-microbiology-and-immunology/exams/index.md
+        - 2024-2025 秋期末回忆卷: courses/advanced-technology-in-microbiology-and-immunology/exams/2024-2025-final-exam-recall.md
     - 临床免疫学:
-      - 课程主页: elective/clinical_immunology/index.md
+      - 课程主页: courses/clinical-immunology/index.md
       - 考试资料:
-        - elective/clinical_immunology/exams/index.md
-        - 2024-2025 春期末回忆卷: elective/clinical_immunology/exams/2024-2025-final-exam-recall.md
+        - courses/clinical-immunology/exams/index.md
+        - 2024-2025 春期末回忆卷: courses/clinical-immunology/exams/2024-2025-final-exam-recall.md
     - 物理化学:
-      - 课程主页: elective/physical_chemistry/index.md
+      - 课程主页: courses/physical-chemistry/index.md
       - 考试资料:
-        - elective/physical_chemistry/exams/index.md
-        - 2024-2025 秋冬期中回忆卷: elective/physical_chemistry/exams/2024-2025-midterm-recall.md
-    - 组学与精准医学前沿导论: elective/introduction_to_multi_omics_and_precision_medicine/index.md
-    - 教育统计学: elective/educational_statistics/index.md
-    - 卫生事业管理: elective/health_management/index.md
-    - 医学伦理学与卫生法学: elective/medical_ethics_and_health_law/index.md
+        - courses/physical-chemistry/exams/index.md
+        - 2024-2025 秋冬期中回忆卷: courses/physical-chemistry/exams/2024-2025-midterm-recall.md
+    - 组学与精准医学前沿导论: courses/introduction-to-multi-omics-and-precision-medicine/index.md
+    - 教育统计学: courses/educational-statistics/index.md
+    - 卫生事业管理: courses/health-management/index.md
+    - 医学伦理学与卫生法学: courses/medical-ethics-and-health-law/index.md
     - 法医学:
-      - 课程主页: elective/forensic_medicine/index.md
+      - 课程主页: courses/forensic-medicine/index.md
       - 考试资料:
-        - elective/forensic_medicine/exams/index.md
-        - 2025-2026 夏期末回忆卷: elective/forensic_medicine/exams/2025-2026-final-exam-recall.md
-        - 2021-2022 夏期末回忆卷: elective/forensic_medicine/exams/2021-2022-final-exam-recall.md
-        - 2020-2021 夏期末回忆卷: elective/forensic_medicine/exams/2020-2021-final-exam-recall.md
-        - 2017-2018 回忆卷: elective/forensic_medicine/exams/2017-2018-exam-recall.md
-        - 2014-2015 回忆卷: elective/forensic_medicine/exams/2014-2015-exam-recall.md
-        - 2013-2014 回忆卷: elective/forensic_medicine/exams/2013-2014-exam-recall.md
-    - 新药研发: elective/new_drug_research_and_development/index.md
+        - courses/forensic-medicine/exams/index.md
+        - 2025-2026 夏期末回忆卷: courses/forensic-medicine/exams/2025-2026-final-exam-recall.md
+        - 2021-2022 夏期末回忆卷: courses/forensic-medicine/exams/2021-2022-final-exam-recall.md
+        - 2020-2021 夏期末回忆卷: courses/forensic-medicine/exams/2020-2021-final-exam-recall.md
+        - 2017-2018 回忆卷: courses/forensic-medicine/exams/2017-2018-exam-recall.md
+        - 2014-2015 回忆卷: courses/forensic-medicine/exams/2014-2015-exam-recall.md
+        - 2013-2014 回忆卷: courses/forensic-medicine/exams/2013-2014-exam-recall.md
+    - 新药研发: courses/new-drug-research-and-development/index.md
     - 社会医学(乙):
-      - 课程主页: elective/social_medicine_b/index.md
+      - 课程主页: courses/social-medicine-b/index.md
       - 考试资料:
-        - elective/social_medicine_b/exams/index.md
-        - 2024-2025 春期末回忆卷: elective/social_medicine_b/exams/2024-2025-final-exam-recall.md
-    - 医工交叉融合中的人工智能: elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/index.md
+        - courses/social-medicine-b/exams/index.md
+        - 2024-2025 春期末回忆卷: courses/social-medicine-b/exams/2024-2025-final-exam-recall.md
+    - 医工交叉融合中的人工智能: courses/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/index.md
   - 本科生轮转:
     - rotation/index.md
   - 飞跃专题:
-    - fly/index.md
-    - 阅读说明: fly/preface.md
+    - feiyue/index.md
+    - 阅读说明: feiyue/preface.md
     - 毕业生采访:
-      - 佚名: fly/anonymous.md
+      - 佚名: feiyue/anonymous.md
     - 基础医学研究生采访:
-      - 蔡晨曦: fly/cai-chenxi.md
-      - 李鹏辉: fly/li-penghui.md
-      - 刘晨昕: fly/liu-chenxin.md
-      - 匿名: fly/anonymous-2019.md
-      - 朱晓晟: fly/zhu-xiaosheng.md
-      - 匿名: fly/anonymous-2020.md
-      - 赵天铭: fly/zhao-tianming.md
-      - 胡如碧: fly/hu-rubi.md
-      - 鲁杨: fly/lu-yang.md
-      - 郑妤颉: fly/zheng-yujie.md
-      - 鲍聿杨: fly/bao-yuyang.md
+      - 蔡晨曦: feiyue/cai-chenxi.md
+      - 李鹏辉: feiyue/li-penghui.md
+      - 刘晨昕: feiyue/liu-chenxin.md
+      - 匿名: feiyue/anonymous-2019.md
+      - 朱晓晟: feiyue/zhu-xiaosheng.md
+      - 匿名: feiyue/anonymous-2020.md
+      - 赵天铭: feiyue/zhao-tianming.md
+      - 胡如碧: feiyue/hu-rubi.md
+      - 鲁杨: feiyue/lu-yang.md
+      - 郑妤颉: feiyue/zheng-yujie.md
+      - 鲍聿杨: feiyue/bao-yuyang.md
     - 相关领域研究生采访:
-      - 冯佳琪: fly/feng-jiaqi.md
+      - 冯佳琪: feiyue/feng-jiaqi.md
     - 基础医学博士生导师采访:
-      - 高洋: fly/gao-yang.md
-      - 刘婷: fly/liu-ting.md
-      - 孙洁: fly/sun-jie.md
-      - 徐浩新: fly/xu-haoxin.md
-    - 声明与致谢: fly/about.md
+      - 高洋: feiyue/gao-yang.md
+      - 刘婷: feiyue/liu-ting.md
+      - 孙洁: feiyue/sun-jie.md
+      - 徐浩新: feiyue/xu-haoxin.md
+    - 声明与致谢: feiyue/about.md
 
 extra:
   social:
@@ -390,21 +381,22 @@ hooks:
   - hooks/contribution_links.py
   - hooks/resource_usage.py
   - hooks/resource_aliases.py
+  - hooks/path_migrations.py
 
 extra_javascript:
-  - javascripts/contribution-picker.js
-  - javascripts/katex.js
-  - javascripts/quiz-answers.js
-  - javascripts/course-navigation.js
-  - javascripts/resource-export.js
+  - assets/scripts/contribution-picker.js
+  - assets/scripts/katex.js
+  - assets/scripts/quiz-answers.js
+  - assets/scripts/course-navigation.js
+  - assets/scripts/resource-export.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
-  - css/fly-handbook.css
-  - css/contribution.css
+  - assets/styles/feiyue.css
+  - assets/styles/contribution.css
   - assets/fonts/noto-sans-sc/font.css
   - assets/fonts/noto-serif-sc/font.css
-  - css/styles.css
-  - css/resource-export.css
-  - css/header-wordmark.css
+  - assets/styles/styles.css
+  - assets/styles/resource-export.css
+  - assets/styles/header-wordmark.css
   - https://unpkg.com/katex@0/dist/katex.min.css

@@ -13,7 +13,7 @@ on:
         description: snapshot 时填写投稿 Issue 编号
         type: string
       target_page:
-        description: snapshot 时填写一页现有课程路径, 如 docs/mandatory/neuroscience/index.md
+        description: snapshot 时填写一页现有课程路径, 如 docs/courses/neuroscience/index.md
         type: string
       snapshot_run_id:
         description: process 时填写已成功生成且亲自审阅的快照运行编号

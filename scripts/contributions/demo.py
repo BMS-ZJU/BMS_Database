@@ -52,7 +52,7 @@ class DemoSession:
                 "base": self.case.env["GITHUB_SHA"],
                 "snapshot_url": prefix + "/snapshot/snapshot.json" if self.viewed else None,
                 "review_url": prefix + "/review/review.html" if self.phase == "review" else None,
-                "preview_url": prefix + "/review/site/mandatory/example/index.html" if self.phase == "review" else None,
+                "preview_url": prefix + "/review/site/courses/example/index.html" if self.phase == "review" else None,
                 "candidate_url": prefix + "/review/candidate.md" if self.phase == "review" else None}
 
     def action(self, name, data):
