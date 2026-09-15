@@ -4,7 +4,7 @@
   --fly-muted: var(--md-default-fg-color--light);
   --fly-tint: color-mix(in srgb, var(--md-typeset-a-color) 4%, var(--md-default-bg-color));
 }
-.md-typeset .fly-handbook h1 {
+:where(html[data-reading-style="original"]) .md-typeset .fly-handbook h1 {
   margin-bottom: .55em;
   color: var(--md-default-fg-color);
   font-weight: 500;
@@ -38,7 +38,7 @@
 }
 .md-typeset .fly-reading-note p { margin: .25em 0; }
 .md-typeset .fly-reading-note strong { font-weight: 600; }
-.md-typeset .fly-directory > h2 {
+:where(html[data-reading-style="original"]) .md-typeset .fly-directory > h2 {
   margin: 1.8em 0 .55em;
   font-size: 1.35em;
   color: var(--md-default-fg-color);
@@ -66,8 +66,8 @@
 .md-typeset .fly-profile dd { margin: 0; overflow-wrap: anywhere; line-height: 1.7; }
 .md-typeset .fly-profile dd p { margin: .5em 0 0; }
 .md-typeset .fly-profile dd p:first-child { margin-top: 0; }
-.md-typeset .fly-interview > h2,
-.md-typeset .fly-notes h2 { margin: 2.1em 0 .8em; font-size: 1.3em; line-height: 1.55; color: var(--md-default-fg-color); }
+:where(html[data-reading-style="original"]) .md-typeset .fly-interview > h2,
+:where(html[data-reading-style="original"]) .md-typeset .fly-notes h2 { margin: 2.1em 0 .8em; font-size: 1.3em; line-height: 1.55; color: var(--md-default-fg-color); }
 .md-typeset .fly-interview > p,
 .md-typeset .fly-notes p { line-height: 1.8; }
 .md-typeset .fly-interview .fly-abstract {
@@ -82,7 +82,27 @@
   .md-typeset .fly-profile { column-gap: 1em; }
   .md-typeset .fly-interview .fly-abstract { padding: .9em 1em; }
 }
+/* 新版章节标题直接沿用全站层级; 副标题与页名保持紧凑。 */
+@media screen {
+  :where(html:not([data-reading-style="original"])) .md-typeset .fly-handbook > h1:has(+ .fly-kicker) {
+    margin-bottom: .55em;
+  }
+}
 @media print {
+  /* 浏览器打印保留原有手册标题排法。 */
+  .md-typeset .fly-handbook h1 {
+    margin-bottom: .55em;
+    color: var(--md-default-fg-color);
+    font-weight: 500;
+    letter-spacing: .025em;
+  }
+  .md-typeset .fly-directory > h2 {
+    margin: 1.8em 0 .55em;
+    font-size: 1.35em;
+    color: var(--md-default-fg-color);
+  }
+  .md-typeset .fly-interview > h2,
+  .md-typeset .fly-notes h2 { margin: 2.1em 0 .8em; font-size: 1.3em; line-height: 1.55; color: var(--md-default-fg-color); }
   .md-typeset .fly-handbook .fly-context { color: inherit; }
   .md-typeset .fly-abstract,
   .md-typeset .fly-reading-note { background: none; }
