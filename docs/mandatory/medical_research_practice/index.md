@@ -1,5 +1,12 @@
 # 基础医学科研实践
 
+<!--
+source-attribution
+2023-2024 学年部分课程经验：Chams。
+原始出处：https://www.cc98.org/topic/5868887。
+来源记录：RS-053、CONSENT-ATTRIBUTION-20260915。
+-->
+
 !!! info "嘻嘻"
 
     这课我还没上呢, 看到这个的就受着吧, 等我上了再更新, 哦对了, Fablefq

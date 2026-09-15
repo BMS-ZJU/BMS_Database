@@ -1,5 +1,12 @@
 # 卫生事业管理
 
+<!--
+source-attribution
+2023-2024 学年部分课程经验：Chams。
+原始出处：https://www.cc98.org/topic/5930129。
+来源记录：RS-088、HTML-022、CONSENT-ATTRIBUTION-20260915。
+-->
+
 ## 上课与考核
 
 2023-2024 学年春学期由周旭东老师主讲，考核包含一次开卷考试。

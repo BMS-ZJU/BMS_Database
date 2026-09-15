@@ -5,6 +5,10 @@ source-attribution
 群文件《复习--大体+切片.docx》整理、上传：邓焯。
 收录范围：群资料指路。
 来源记录：RESOURCE-AUDIT-FEEDBACK-20260908 / S02、CONSENT-ATTRIBUTION-20260915。
+
+2023-2024 学年部分课程经验：Chams。
+原始出处：https://www.cc98.org/topic/5804508。
+来源记录：RS-076、HTML-007、CONSENT-ATTRIBUTION-20260915。
 -->
 
 课程内容分为病理学和病理生理学两部分。

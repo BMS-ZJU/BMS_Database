@@ -5,6 +5,10 @@ source-attribution
 2025-2026学年夏学期、25级部分课程经验：Noah0142。
 原始出处：https://www.cc98.org/topic/6573693。
 来源记录：RS-057、CONSENT-ATTRIBUTION-20260915。
+
+2023-2024 学年部分课程经验：Chams。
+原始出处：https://www.cc98.org/topic/5754401。
+来源记录：RS-054、CONSENT-ATTRIBUTION-20260915。
 -->
 
 课程分为生物医学信息和生物统计两部分。前几次课学习文献与数据库检索，之后转入概率统计、研究设计和 R 语言实践。

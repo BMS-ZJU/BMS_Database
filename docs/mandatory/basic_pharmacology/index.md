@@ -4,6 +4,10 @@
 source-attribution
 部分课程经验：何冠辰。
 来源记录：CONSENT-FOLLOWUPS-20260911。
+
+2023-2024 学年部分课程经验：Chams。
+原始出处：https://www.cc98.org/topic/5930107。
+来源记录：RS-004、HTML-005、CONSENT-ATTRIBUTION-20260915。
 -->
 
 !!! info "嘻嘻"
