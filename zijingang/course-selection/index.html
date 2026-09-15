@@ -1,0 +1,2159 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="基础医学学习网站">
+      
+      
+      
+        <link rel="canonical" href="https://BMS-ZJU.github.io/BMS_Database/zijingang/course-selection/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../textbooks/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/brand/zjubms-folded-transparent-512.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>选课 - BMS Database</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/styles/feiyue.css">
+    
+      <link rel="stylesheet" href="../../assets/styles/contribution.css">
+    
+      <link rel="stylesheet" href="../../assets/fonts/noto-sans-sc/font.css">
+    
+      <link rel="stylesheet" href="../../assets/fonts/noto-serif-sc/font.css">
+    
+      <link rel="stylesheet" href="../../assets/styles/styles.css">
+    
+      <link rel="stylesheet" href="../../assets/styles/resource-export.css">
+    
+      <link rel="stylesheet" href="../../assets/styles/header-wordmark.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+  
+  <script src="../../assets/scripts/reading-style.js"></script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <a class="md-header__title" data-md-component="header-title" href="../.." aria-label="BMS Database 首页">
+      <img class="bms-header-icon" src="../../assets/brand/zjubms-folded-header.svg" width="36" height="36" alt="" aria-hidden="true">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BMS Database
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              选课
+            
+          </span>
+        </div>
+      </div>
+    </a>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到深色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到浅色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/BMS-ZJU/BMS_Database" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    BMS-ZJU/BMS_Database
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  首页
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  紫金港速通
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../curricula/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  培养方案
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../courses/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  课程资料
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../rotation/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  本科生轮转
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../feiyue/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  飞跃专题
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="BMS Database" class="md-nav__button md-logo" aria-label="BMS Database" data-md-component="logo">
+      
+  <img src="../../assets/brand/zjubms-folded-header.svg" alt="logo">
+
+    </a>
+    BMS Database
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/BMS-ZJU/BMS_Database" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    BMS-ZJU/BMS_Database
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../.." class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    紫金港速通
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    紫金港速通
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    学习与教务
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    学习与教务
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    选课
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    选课
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        查询课程归属
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credit-limits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        学分上限
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selection-rounds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        各轮选课
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="各轮选课">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rounds-one-two" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第一、二轮选课
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-three" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第三轮选课
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-four" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第四轮选课
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-credit-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        低定选课
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        选课与补选经验
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="选课与补选经验">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-round-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        首轮与退选回补
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manual-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        补选与调班
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        冲突选课与免听
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#course-withdrawal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        弃修
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI 排课
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI 排课">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#agent-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent（推荐）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chat-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        对话式 AI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        选课后核对
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../textbooks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    教材选购与退订
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../deferred-exams/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    缓考
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../external-exchange/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    对外交流
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../curricula/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    培养方案
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../courses/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    课程资料
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../rotation/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    本科生轮转
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../feiyue/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    飞跃专题
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        查询课程归属
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credit-limits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        学分上限
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selection-rounds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        各轮选课
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="各轮选课">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rounds-one-two" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第一、二轮选课
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-three" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第三轮选课
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#round-four" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第四轮选课
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-credit-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        低定选课
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        选课与补选经验
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="选课与补选经验">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#first-round-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        首轮与退选回补
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manual-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        补选与调班
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        冲突选课与免听
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#course-withdrawal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        弃修
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI 排课
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI 排课">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#agent-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agent（推荐）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chat-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        对话式 AI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        选课后核对
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+
+  <nav class="md-path" aria-label="导航栏" >
+    <ol class="md-path__list">
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    紫金港速通
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    学习与教务
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+  
+    <a href="https://github.com/BMS-ZJU/BMS_Database/edit/main/docs/zijingang/course-selection.md" title="编辑此页" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="_1">选课<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">查询课程归属<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>看到一门感兴趣的课，却不确定它面向哪个专业，可以打开<a href="https://zdbk.zju.edu.cn">本科教学管理信息服务平台</a>，在“信息查询 → 开课情况”中填写课程、学期等信息，查看开课情况及相关培养方案。</p>
+<p>是否需要修读、能够计入哪类学分，还要对照自己的年级和班型所对应的培养方案。查询时尽量使用课程号，避免同名或近似名称的课程混淆。</p>
+<h2 id="credit-limits">学分上限<a class="headerlink" href="#credit-limits" title="Permanent link">&para;</a></h2>
+<p>求是学院普通学生通常适用一般上限；竺可桢学院及辅修学生要按所处阶段区分：</p>
+<table>
+<thead>
+<tr>
+<th>修读阶段</th>
+<th>一般上限</th>
+<th>可增加至</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>新生第一学年秋冬学期</td>
+<td>30学分</td>
+<td>竺可桢学院学生为35学分</td>
+</tr>
+<tr>
+<td>之后的一般长学期</td>
+<td>35学分</td>
+<td>竺可桢学院学生，以及已注册各类辅修的学生为40学分</td>
+</tr>
+</tbody>
+</table>
+<!-- 双学位：基础医学目前未开设，暂不在正文列出；未来开设时再核对补入。现行规定中的双学位上限为首学期35学分、之后一般长学期40学分。 -->
+
+<p>首学期上限见<a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=569D011381027E3FE06329B3CA0A448F">2026级新生选课通知</a>，之后的上限见<a href="https://bksy.zju.edu.cn/_upload/article/files/b1/00/fb0e3caa4052baaceb05a3404a89/6e198549-f8a1-4596-af14-bd68ba25cbcc.pdf">本科生选课管理办法第五条</a>。选课时仍应核对当期通知和本人系统显示的上限。</p>
+<h2 id="selection-rounds">各轮选课<a class="headerlink" href="#selection-rounds" title="Permanent link">&para;</a></h2>
+<p><strong>第一、二轮及第三轮第一阶段属于“概率选课”</strong>，在截止后统一筛选。筛选有培养方案优先等规则，具体见下文。</p>
+<h3 id="rounds-one-two">第一、二轮选课<a class="headerlink" href="#rounds-one-two" title="Permanent link">&para;</a></h3>
+<p>新生首个秋冬学期单独安排选课，时间在始业教育前后；老生秋冬学期的前两轮通常在上一学年末进行。例如，2026级新生两轮分别安排在8月下旬和9月上旬，老生则在6月完成前两轮。具体安排分别见<a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=569D011381027E3FE06329B3CA0A448F">新生通知</a>和<a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=52D7480DCC55A050E0632AB3CA0ACC17">在校生秋冬选课通知</a>。</p>
+<p>春夏学期的前两轮选课通常在冬学期末进行，可参考<a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=45CB04918EC7F96EE06329B3CA0AA7E8">2025-2026学年春夏选课通知</a>。</p>
+<p>这两轮在选课截止后统一筛选。本专业培养方案建议本学期修读的课程优先，其他课程随机筛选；跨专业、跨年级课程在第一轮筛选时保留为“待定”，到第二轮再参与筛选。</p>
+<p>学校预置的课程原本不参加筛选，但改选后，包括调整志愿顺序，会重新参与筛选。第一轮已经选中的课程，改选后也需要重新筛选；考虑退课或调整时，要把这一点算进去。</p>
+<p>老生秋冬学期的前两轮选课时，大学写作、部分大学英语等新生课程可能还查不到，等新生选课阶段才能看到相应教学班。可以在那时提前查看时间和教师，再留意第三轮。</p>
+<h3 id="round-three">第三轮选课<a class="headerlink" href="#round-three" title="Permanent link">&para;</a></h3>
+<p>第三轮安排在开学初，分成三个时段，各阶段允许的操作不同。以<a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=5ADD2E8131280957E06329B3CA0AAA5B">2026-2027学年秋冬第三轮通知</a>为例：</p>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>可以做什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>9月11日9:00—9月13日12:00</td>
+<td>第一阶段为“概率选课”，在“自主选课”选课、退课；结束后统一筛选</td>
+</tr>
+<tr>
+<td>9月14日9:00—9月16日24:00</td>
+<td>低学分定点选课、提交补选申请、退课</td>
+</tr>
+<tr>
+<td>9月24日17:00—9月27日24:00</td>
+<td>仅能申请退课，每人限一门</td>
+</tr>
+</tbody>
+</table>
+<p>第一阶段选中结果要等筛选后查看；第二阶段的低学分定点和补选也各有条件，见下文。表中日期只对应这一学期，之后应查看新的轮次通知。冬学期开学初还会另行安排第四轮，不能把第三轮的日期直接沿用过去。</p>
+<p>最后一个时段通过“选课管理 → 补退选申请”提交退课申请，提交后还要查询审核结果，确认已经退课成功；需要退多门课程，应在前两个时段办理。</p>
+<h3 id="round-four">第四轮选课<a class="headerlink" href="#round-four" title="Permanent link">&para;</a></h3>
+<p>第四轮安排在冬学期或夏学期开学初。<strong>秋冬学期的第四轮只能选退冬学期课程，不能选退秋冬连开的课程；春夏学期的第四轮则只面向夏学期课程。</strong> 想停止修读长学期课程，需要另外查看<a href="#course-withdrawal">弃修</a>的条件和申请时间。</p>
+<p>按<a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=4242AA66FECE0980E06329B3CA0A32CE">2025-2026学年秋冬第四轮通知</a>和<a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=4F770CB2956E3C85E0632AB3CA0A3604">春夏第四轮通知</a>，这一轮也分阶段：先开放自主选课和退课，截止后统一筛选；随后开放补选申请和退课；最后一段仅能申请退课，每人限一门。具体日期和操作范围应查看当期通知。</p>
+<h3 id="low-credit-selection">低学分定点选课<a class="headerlink" href="#low-credit-selection" title="Permanent link">&para;</a></h3>
+<p>低学分定点选课通常简称“低定”，面向已选课程学分较少的学生，安排在第三轮第二阶段，入口为“选课管理 → 自主选课”。</p>
+<p>一般低定上限为<strong>22学分</strong>；<strong>竺可桢学院学生及有辅修等资格的学生，低定上限为27学分</strong>。统计时会计入已选上课程、待定课程和补选申请课程的学分，不能只看已经进入课表的课程。</p>
+<p><strong>本学期（2026-2027学年秋冬）按选课前的学分判断低定资格：合计不超过本人低定上限时，可以选入课程；恰好达到上限也可以再选一门，选入后超过上限才不能继续低定。</strong> 学期总学分仍需遵守前文的<a href="#credit-limits">学分上限</a>。</p>
+<p>采用这种判断方式时，<strong>在课程余量充足或能够掌握余量的情况下，先选学分低的课，把学分高的课放在最后。</strong> 例如，低定上限为27学分、当前合计24学分，想选一门2学分和一门4学分的课：先选4学分会达到28学分，无法再低定；先选2学分达到26学分，仍有低定资格，再选4学分达到30学分，就能把两门课都选入。</p>
+<div class="admonition info">
+<p class="admonition-title">另一种低定执行方式</p>
+<p>有些学期会要求<strong>选入课程后的总学分也不能超过低定上限</strong>。例如，上限为27学分、当前合计26学分时，就不能再通过低定选入一门2学分的课。</p>
+<p>在这种规则下，调整选课顺序也不能让总学分突破上限。上文“先选低学分、再选高学分”的做法，适用于按选课前学分判断资格的规则。本学期采用上文的方式，后续学期请同时核对低定上限与判断方式。</p>
+</div>
+<p><strong>智创班同学如果希望提高低定上限，可以在春学期报名一项微辅修或辅修，将低定上限提高到27学分。</strong> 报名后留意相关资格是否已录入教务系统，低定前核对本人显示的上限。</p>
+<p>这一阶段只能选择还有余量的教学班，名额用完即停止。低定选中的课程会先显示“待定”，此时已经占用名额，阶段结束后再统一确认。补选申请的学分也会计入上述合计，因此同时需要两种操作时，<strong>先进行低学分定点选课，再提交补选申请</strong>。</p>
+<p>退课产生的名额不会立即放出。按<a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=5ADD2E8131280957E06329B3CA0AAA5B">2026-2027学年秋冬第三轮通知</a>，低定期间的释放安排如下：</p>
+<ul>
+<li><strong>每天18:00前退课：</strong>余量在当天18:00—24:00随机放出。</li>
+<li><strong>第一、二天18:00后退课：</strong>余量顺延至次日18:00—24:00放出。</li>
+<li><strong>最后一天18:00后退课：</strong>余量不再向低定开放，留给补选审核使用。</li>
+</ul>
+<h2 id="_3">选课与补选经验<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="first-round-planning">首轮安排与退选回补<a class="headerlink" href="#first-round-planning" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">退选回补有风险</p>
+<p>以下是实际选课经验，不能保证每次都能补回，也不保证回到原教学班。尝试前先确认课程是本专业必修，并了解当期补选安排；如果无法接受补不回的结果，就保留已选中的课程。</p>
+</div>
+<p>部分课程竞争比较激烈，极端情况下，可能出现所选课程全部未选中的情况。为了避免无课可上，可以在第一轮选课时尽可能排满课程，合理安排志愿顺序，再根据筛选结果，在第二、三轮精细调整。</p>
+<p>如果想尽可能排满首轮课程，一种做法是先退选专业课，例如医学生命基础，用腾出的学分选择其他课程。筛选结束后，如果部分课程没有选中、学分重新空出，再回选原来的专业课，或通过补选补回。</p>
+<p>从本专业必修专业课的实际补选经验看，这类课程一般都能补上，具体教学班仍可能需要调整；选修课不能直接套用这一经验。</p>
+<h3 id="manual-selection">补选与手动调班<a class="headerlink" href="#manual-selection" title="Permanent link">&para;</a></h3>
+<p>已经超过低学分定点选课的门槛，或需要修读的专业课没有选上时，可以在补选时段进入“选课管理 → 补退选申请”提交申请。补选也允许申请容量已满的教学班；同一课程有多个班时，可优先考虑有余量或申请人数较少的班。</p>
+<p>按<a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=52D7480DCC55A050E0632AB3CA0ACC17">秋冬选课通知</a>，申请由开课学院审核，名额不足时，本学期培养方案要求必修等情况有优先顺序；原班无法扩容时，也可能调剂到同时间段的其他教学班。提交后要查看结果，确认实际加入了哪个班。</p>
+<p>老生每个秋冬或春夏学期都应留意两次主要补选机会：<strong>第二轮筛选结束后，以及第三轮的补选阶段</strong>。冬学期或夏学期课程还可以关注<a href="#round-four">第四轮</a>的补选。</p>
+<p>如果特别想上一门课，可以在每轮开放补选时继续申请。即使系统补选失败，也可以联系开课学院教学科老师，请老师协助手动选课，或手动将自己加入其他教学班名单。联系时说明课程号、教学班和遇到的问题；医学院教学科邮箱为 <a href="mailto:jiaoyu@zju.edu.cn">jiaoyu@zju.edu.cn</a>。</p>
+<h2 id="_4">冲突选课与免听<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<p>冲突补选先看课程的系统属性：<strong>每一对上课时间冲突的课程中，至少一门允许申请免听，并且没有考试时间冲突</strong>，通过系统校验后才能提交申请。这里的“允许免听”是课程条件，本人是否提交、是否获批正式免听是另一件事。</p>
+<p>从实际选课经验看，冲突选课的同学通常不会另外提交免听申请，<strong>更建议先与相关任课教师商量具体的学习和考核安排，不把正式免听作为默认选择</strong>。经教师明确同意，可以线上听课、不参加线下课堂，或只在部分时候到课。沟通时要把以下事项说清楚：</p>
+<ul>
+<li><strong>线上听课与到课：</strong>通过什么方式学习，哪些课次可以线上完成，哪些时候必须到场。</li>
+<li><strong>签到与小测：</strong>不到现场时如何记录出勤，小测在何时、以什么方式参加。</li>
+<li><strong>讨论课、作业和实验：</strong>哪些环节必须现场完成，时间冲突时能否另作安排，作业如何提交。</li>
+<li><strong>平时分与总评：</strong>线上学习、部分到课以及各项考核怎样计分，是否影响原来的成绩构成。</li>
+</ul>
+<p>先得到教师对具体安排的明确答复，再按约定参加学习和考核；不能把老师知道课程冲突，理解为已经同意所有课次都不到场。</p>
+<p><a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=5ADD2E8131280957E06329B3CA0AAA5B">本学期选课通知</a>仍要求冲突补选成功后及时办理免听。上面的做法属于实际选课经验，教师同意上课安排也不等于系统免听已经获批；沟通时应一并确认是否需要办理正式手续。</p>
+<details class="info">
+<summary>正式免听的申请要求与成绩计算</summary>
+<p>按<a href="https://meetc.zju.edu.cn/2024/0306/c79045a2885825/page.htm">本科课程成绩评定与管理办法第十六条</a>，正式申请免听还需符合个人条件：已修读课程平均学分绩点在3.5以上，或已经修读过该课程。课程是否允许免听仍需另行核对。</p>
+<p>正式办理时，在课程开课后两周内进入“选课管理 → 免听申请”，提交后由任课教师和学生所在学院审核，并在系统中查看结果；当期通知明确逾期不能补办。</p>
+<p><strong>不能默认免听后只按期末成绩计算总评。</strong> 上述办法第五、六条规定成绩构成由课程公布，第十六条要求免听学生仍完成作业、实验、研讨和课程考核，没有规定免听后一律以期末成绩作为总评。具体课程是否调整平时分或期末占比，需要向任课教师确认。</p>
+</details>
+<h2 id="course-withdrawal">弃修<a class="headerlink" href="#course-withdrawal" title="Permanent link">&para;</a></h2>
+<p>秋冬或春夏连开的长学期课程，可以在学期中期申请放弃修读，通常分别在冬学期或夏学期办理。<strong>每个长学期最多申请一门；获批后成绩记为“弃修”，不计入学分绩点统计。</strong> 弃修会留下成绩记录，也不能算作已经修完这门课；如果培养方案仍要求修读，之后还需要安排。</p>
+<p>以下依据<a href="https://zdbk.zju.edu.cn/jwglxt/xtgl/xwck_ckLoginNews.html?xwbh=4F77633541916638E06329B3CA0A84C9">2025-2026学年春夏弃修通知</a>及其<a href="https://zdbk.zju.edu.cn/jwglxt/zjdxFilemgr/file_download.html?uid=4F776249C3992F70E0632AB3CA0A52C0">操作指南</a>整理。该次申请时间为2026年4月27日至5月10日，仅供了解往期安排；办理时请查看目标学期的新通知。</p>
+<p><strong>哪些课程不能申请：</strong>已经提前结束的课程、明确规定不能弃修的课程，以及本人在过程考核中发生违纪作弊的课程，不接受弃修申请。仅在秋、冬、春或夏某一个小学期开设的课程，也不属于这里的长学期课程范围。</p>
+<p><strong>怎样申请：</strong></p>
+<ol>
+<li>登录教务系统，进入“选课管理 → 放弃修读课程申请”，点击右上角“申请”。</li>
+<li>在弹出窗口中选择课程，填写“放弃修读课程原因”，点击“确定”。</li>
+<li>返回列表核对申请记录，并在通知规定的时间查看“教务处意见”；显示“同意”才是审核通过，也可以点击“查看”了解具体意见。</li>
+</ol>
+<p>申请显示“未处理”时可以撤销，<strong>审核通过后不能撤销</strong>。提交申请后仍要跟进结果，未确认获批前继续按课程要求上课，避免因申请未通过而缺课。</p>
+<h2 id="ai">用 AI 辅助规划课表<a class="headerlink" href="#ai" title="Permanent link">&para;</a></h2>
+<p>按自己使用的工具选择一种方式，展开查看完整步骤和可直接使用的提示词。完成规划后，再做下方的<a href="#_13">选课后核对</a>。</p>
+<h3 id="agent-planning">使用 Agent（推荐）<a class="headerlink" href="#agent-planning" title="Permanent link">&para;</a></h3>
+<p>适合使用具备浏览器操作、文件读写和程序运行能力的 Agent：让它读取资料、保存数据、计算课表并持续更新。以下以 Codex 为例，其他 Agent 也可按实际具备的能力使用。</p>
+<details class="note">
+<summary>展开 Agent 的完整流程与提示词</summary>
+<div class="md-typeset reading-details-body" markdown="1">
+<p><a href="#_5">准备目录</a> · <a href="#_6">读取资料</a> · <a href="#_7">比较课表</a> · <a href="#_8">继续调整</a></p>
+<p>主修、辅修和选修需要一起安排时，可以使用能操作浏览器、读写本地文件和运行程序的 Agent，例如配置好相应工具的 Codex。把选课作为一个持续维护的项目：让它读取教务网页、保存课程资料、计算不同教学班的组合，再随选课结果调整。</p>
+<p aria-level="4" id="_5" role="heading"><strong>第一步：准备工作目录，连接教务网页</strong></p>
+<p>先建一个选课文件夹，在 Agent 中打开这个目录。已有的培养方案、课程说明和个人修读计划都可以放进去；以后查到的数据、排课程序、候选课表和已选结果也保存在这里。每次继续时，让它先读取目录里的资料和最新进度。</p>
+<p>接着让 Agent 检查能否使用浏览器。以 Codex 为例，具体连接方式取决于所用版本和已启用的工具，可参考 <a href="https://learn.chatgpt.com/docs/browser">OpenAI 浏览器说明</a>。在它能够访问的浏览器中，由自己登录教务网，再让它读取一门课程或当前课表，确认确实能看到登录后的内容。自己日常浏览器里已经登录，不代表 Agent 使用的浏览器也已登录。</p>
+<p>可以从下面这段指令开始，方括号里的内容按自己情况填写：</p>
+<blockquote>
+<p>请在当前目录帮我建立并持续维护选课项目。</p>
+<ul>
+<li>目标学年、学期：[填写]</li>
+<li>年级、专业与班型：[填写，按本人适用培养方案]</li>
+<li>辅修或其他修读计划：[没有则删除]</li>
+<li>本学期必须保留的课程：[填写]</li>
+<li>希望修读的课程及备选课：[填写]</li>
+<li>目标学分范围与本人选课学分上限：[填写]</li>
+<li>已修课程、前置知识、校区及时间偏好：[填写]</li>
+</ul>
+<p>先检查能否读取教务网页和当前目录。需要登录时，打开你能够访问的浏览器，由我自行登录。登录后先读取当前课表，核对学年学期，再按我的培养方案和选课目标查询课程与教学班。</p>
+<p>把原始资料、查询日期、整理后的课程数据、我的要求和待核对事项保存为本地文件。用程序检查时间冲突、学分和其他限制，输出推荐课表及备选方案，并保留程序供之后调整时重新运行。信息不够时，先查相关页面；仍无法确认的集中问我。</p>
+<p>本次先查询和规划。实际选课、退课或提交申请前，列明课程与教学班，由我明确确认。</p>
+</blockquote>
+<p>登录时不需要把密码、验证码或 Cookie 发到聊天里。如果当前工具确实无法连接教务网，可以先导出相关资料放进目录，让 Agent 继续整理和计算。</p>
+<p aria-level="4" id="_6" role="heading"><strong>第二步：读取课程资料，保存为可更新的数据</strong></p>
+<p>让 Agent 按用途去查对应栏目，并把课程要求与具体教学班对应起来：</p>
+<table>
+<thead>
+<tr>
+<th>要查的信息</th>
+<th>主要入口</th>
+<th>需要保留的内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>本人适用的课程要求</td>
+<td>培养方案 → 培养方案查询</td>
+<td>年级、专业或教学计划，课程类别、课程号、建议修读学期、学分及原有标记</td>
+</tr>
+<tr>
+<td>已修课程</td>
+<td>成绩管理 → 成绩查询</td>
+<td>课程号、修读及通过情况，与培养方案的对应关系</td>
+</tr>
+<tr>
+<td>课程本身的要求</td>
+<td>培养方案 → 课程信息查看</td>
+<td>学分、预修要求、是否允许申请免听、理论与实验安排，必要时导出简介和大纲</td>
+</tr>
+<tr>
+<td>目标学期的可选教学班</td>
+<td>信息查询 → 开课情况；选课管理 → 自主选课</td>
+<td>教学班、面向对象、授课语言、全部教师、每次上课的时间地点、考试时间，以及页面显示的容量和可选状态</td>
+</tr>
+<tr>
+<td>当前已选结果</td>
+<td>选课管理 → 学生课表查询</td>
+<td>已进入本人课表的课程、教学班、学期、周次、单双周及地点</td>
+</tr>
+<tr>
+<td>已公布的个人考试安排</td>
+<td>考试管理 → 考试查询</td>
+<td>期中、期末考试时间和地点，与实际选中的课程核对</td>
+</tr>
+</tbody>
+</table>
+<p>“学生课表查询”用于核对已选结果；寻找尚未选择的教学班，需要继续查开课情况和自主选课。页面在不同选课阶段可能显示不同内容，未开放或尚未公布的信息要单列，不能用往年的教学班直接代替。</p>
+<p>读取时要让 Agent 遍历分页、展开详情和需要的隐藏列；切换学年学期后，还要核对结果行，确认列表已经刷新。同一教学班的多位教师、多次上课、实验和上机安排都要保留。进入考试查询若先出现诚信考试守则，由本人阅读确认后再继续。</p>
+<p>课程数据可以保存成 CSV 等表格文件，同时留一份便于自己阅读的汇总。每项资料记录查询日期和来源栏目，未公布与待核对的内容分别标记。课程用课程号识别，教学班另列；同名课程、新旧代码和课程替代关系需要核实，不能仅凭名字合并。</p>
+<p>教师评价另记来源、年份和评分分制，缺少材料就留空。培养方案中的星号如实保留，是否提高其优先级由自己决定。课程替代或学分归属尚未确认时，也应保留问题，不能只因总学分够了就视为满足培养方案。</p>
+<p>第一次使用时，还可以让 Agent 把实际查过的栏目整理成一份简短的“教务网功能地图”：记录去哪里查什么、哪些字段容易误读、哪些信息只在开放期出现。以后遇到新页面再补充，下一轮选课前先读取并核对这份说明。个人偏好和已经确认的排课规则也放在同一目录，方便接着用。</p>
+<p aria-level="4" id="_7" role="heading"><strong>第三步：用程序检查冲突，比较课表方案</strong></p>
+<p>数据整理好后，让 Agent 编写并运行排课程序，按照自己的条件筛选教学班组合，生成课表和检查结果。课程较多、限制较复杂时，可以让它使用约束求解工具；程序采用的条件也要列出来，方便发现漏项。</p>
+<p>至少明确以下要求：</p>
+<ul>
+<li><strong>必须保留的课程、学分上限和预修条件。</strong> 同时核对教学班的面向对象及系统显示的选课限制。必需课程无法同时安排时，列出具体冲突，先找其他教学班；需要延后修读或放宽条件时交由自己决定。</li>
+<li><strong>上课时间。</strong> 同时检查小学期、起止周、单双周、星期和节次，包含实验、上机等每一次安排。周次不全时标为待核对。</li>
+<li><strong>考试时间。</strong> 已知考试时段不得重叠；未公布的单列，不能算作已经排除冲突。</li>
+<li><strong>冲突补选与上课安排。</strong> 按<a href="#_4">冲突选课条件</a>逐对检查上课时间重叠的课程，每一对至少有一门允许申请免听；教师同意调整到课不能替代这项系统条件。分别记录课程是否允许申请免听、教师已同意的线上学习或部分到课安排，以及正式免听的申请和审批状态。只按已经明确确认的课次与环节调整到场要求；尚未与教师谈妥或仍需审批的组合单列为有条件的备选，写清待办，不自动安排提交免听申请。上机、实验和小测等要求也要逐项核对。</li>
+<li><strong>跨校区通勤。</strong> 列出相邻课程之间的可用时间，按自己确认的通勤间隔检查。</li>
+<li><strong>可选状态。</strong> 使用目标学期已公布的教学班信息。容量、余量和可选状态记录查询时点，实际选课前重新查看。</li>
+</ul>
+<p>满足这些条件后，再按自己的偏好比较方案，例如少上早八、减少跨校区、保留整块空闲时间、优先某位教师，或在可接受负荷内尽量多修学分。偏好有冲突时，要说明各方案的取舍。</p>
+<p>让 Agent 生成一份推荐方案和一份备选方案：既有按周展示的课表，也有列明课程号、教学班、学分、上课及考试时间的清单，并附总学分、冲突检查结果和待确认事项。秋冬或春夏安排不同时分别展示；单双周和局部周次的区别也应看得出来。</p>
+<p aria-level="4" id="_8" role="heading"><strong>第四步：结合每轮结果继续调整</strong></p>
+<p>选课前，让 Agent 回查准备选择的教学班，核对时间、教师、地点、考试和可选状态。每轮筛选结束后，重新读取本人课表，更新“已选中、未选中、待申请”的状态，再计算下一轮方案。</p>
+<p>继续调整时，直接告诉它变化即可，例如：</p>
+<blockquote>
+<p>请读取本轮已选结果并更新项目文件。课程 A 没有选上，先比较它的其他教学班；如果都无法安排，再从我的备选课程里替换。保留已经选中的必需课程，重新运行冲突检查，并列出与上一方案的差异。</p>
+</blockquote>
+<p>或者：</p>
+<blockquote>
+<p>我想减少周三跨校区的次数。请在当前课程数据和已选结果上调整，比较更换教学班与少修一门选修课两种方案，把新的偏好和结果一起保存。</p>
+</blockquote>
+<p>每次更新都让 Agent 同步课程数据、个人要求、当前方案和待办，保留查询日期。这样下次继续时，就有文件可供核对和重新计算。</p>
+</div>
+</details>
+<h3 id="chat-planning">使用对话式 AI<a class="headerlink" href="#chat-planning" title="Permanent link">&para;</a></h3>
+<p>适合使用常规聊天工具：自己从教务网取得资料，再交给 AI 分步整理和比较课表，无需先配置 Codex 等 Agent 工具。</p>
+<details class="note">
+<summary>展开对话式 AI 的完整流程与提示词</summary>
+<div class="md-typeset reading-details-body" markdown="1">
+<p><a href="#_9">整理培养方案</a> · <a href="#_10">整理教学班</a> · <a href="#_11">比较课表</a> · <a href="#_12">微调与保存</a></p>
+<p>先准备本人适用的培养方案、已修课程、目标学期的教学班信息，以及希望保留和选修的课程。尽量在同一段对话中连续完成；每一步先核对提取结果，再进入下一步。</p>
+<p aria-level="4" id="_9" role="heading"><strong>第一步：整理培养方案与已修课程</strong></p>
+<p>从教务网复制或导出培养方案，交给 AI 整理。若使用支持图片的聊天工具，也可以提供清晰截图；材料较长时按页发送，并说明还有后续内容。可以使用下面这段提示词：</p>
+<blockquote>
+<p>请提取我提供的培养方案，整理为 Markdown 表格，包含：课程类别、课程号、课程名称、建议学年学期、学分。</p>
+<p>只使用材料中明确出现的信息。课程名称中的星号如实保留，不自行解释含义；看不清的标为“待核对”，缺失的不要补写。等我说“材料发完了”后，再汇总所有页面。</p>
+<p>我还会提供已修课程，请按课程号对应，另列修读和通过情况。遇到同名但课程号不同、新旧代码或可能替代的课程，先列出疑问，不自行视为同一门课。</p>
+</blockquote>
+<p>对照原材料核对表格，再到“培养方案 → 课程信息查看”补充预修要求、是否允许申请免听等信息。与教师谈妥的线上学习、部分到课和考核安排单独记录；如办理正式免听，再另列申请与审批状态。不能只凭课程“允许免听”，就认定可以不去上课。</p>
+<p aria-level="4" id="_10" role="heading"><strong>第二步：整理教学班与时间地点</strong></p>
+<p>把目标学期的可选教学班列表截图发给 AI。自己检查分页、详情和隐藏列，确保每个教学班的上课及考试安排都提供完整。</p>
+<blockquote>
+<p>请提取所有教学班，整理为 Markdown 表格，包含：课程号、课程名称、教学班、面向对象、授课语言、教师、学分、学期、上课时间及地点、考试时间、可选状态及查询时间。</p>
+<ol>
+<li>同一课程的不同教学班分别记录；一个教学班有多位教师时保留全部姓名。</li>
+<li>每次上课的星期、节次和地点都要保留，包括上机和实验，不能只记录第一次安排。</li>
+<li>保留小学期、起止周、单周和双周，不能仅按星期几合并。</li>
+<li>考试时间未公布的标为“未公布”，材料看不清的标为“待核对”，不要补全。考试只给出开始时间而没有结束时间的，也列入待核对项。</li>
+<li>等我说“材料发完了”后再汇总，列出可能漏页、重复或相互矛盾的内容，先不要排课。</li>
+</ol>
+</blockquote>
+<p>如需参考教师评价，再提供相应材料，并让 AI 另记来源、年份和评分分制。缺少评价时留空，评分阈值由自己决定。把已核对的两张表格另存下来，之后修改时继续更新。</p>
+<p aria-level="4" id="_11" role="heading"><strong>第三步：比较课表方案</strong></p>
+<p>把核对后的表格和个人要求一起发给 AI：</p>
+<blockquote>
+<p>请根据我提供的培养方案、已修课程和教学班表格，规划课表。</p>
+<ul>
+<li>目标学年、学期：[填写]</li>
+<li>年级、主修专业与班型：[填写]</li>
+<li>辅修或其他修读计划：[没有则删除]</li>
+<li>本学期必须保留的课程：[填写]</li>
+<li>希望修读的课程及备选课：[填写]</li>
+<li>目标学分范围与本人选课学分上限：[填写]</li>
+<li>已具备的前置知识：[填写]</li>
+<li>校区、通勤间隔与其他时间偏好：[填写]</li>
+</ul>
+<p>请按以下条件比较方案：</p>
+<ol>
+<li>保留必须修读的课程，遵守学分上限和已确认的预修要求，核对教学班的面向对象及系统显示的选课限制。无法同时安排时，列出具体冲突并寻找其他教学班，不自行删掉必需课程。</li>
+<li>检查上课冲突时，同时考虑小学期、起止周、单双周、星期和节次，包含实验和上机的每次安排。</li>
+<li>已知考试时段不能重叠；未公布或不完整的单列，不能判定为没有冲突。</li>
+<li>上课时间冲突的每一对课程，至少有一门允许申请免听；教师同意调整到课不能替代这项系统条件。默认所有教学环节均需到场。课程是否允许申请免听、教师已同意的上课安排、正式免听的申请与审批状态分别记录。只有我提供了教师明确同意的安排或正式审批结果，才按对应课次与环节调整到场要求。尚待沟通或审批的组合另列为有条件的备选，写明条件和待办，不自动建议每个冲突组合都申请免听。</li>
+<li>跨校区时列出前后课程的地点与可用通勤间隔，按我提供的最低间隔检查。</li>
+<li>教师评价、星号优先、多修学分等只按我明确提供的材料和偏好采用。资料不足时列出问题，不自行补全。</li>
+</ol>
+<p>输出推荐方案和一个备选方案，列明课程号、教学班、学分、上课时间地点、考试安排和总学分，并说明各自取舍。秋冬或春夏不同的安排分别展示，单双周与局部周次也要标明。最后逐项列出冲突检查依据和待核对事项。</p>
+</blockquote>
+<p>拿到方案后，单独再核对一次必需课程、总学分、周次、考试和跨校区安排。让 AI 把疑似冲突的两门课及各自时段并排列出，方便自己对照教务网。若聊天工具支持代码执行，也可以要求它用程序辅助检查，并说明采用了哪些条件。</p>
+<p aria-level="4" id="_12" role="heading"><strong>第四步：微调并保存当前方案</strong></p>
+<p>继续调整时，明确指出哪一项要求变了，其他已确认条件仍然保留。例如：</p>
+<blockquote>
+<p>我尚未修读课程 A，担心直接修读课程 B 负荷过大。请移除 B，在保留必需课程的前提下，比较减少学分和换成备选课两种方案，并重新检查冲突。</p>
+<p>即使部分课程已与老师商定线上听课，我仍希望减少周三的时间重叠。可以更换教学班，请说明调整后的学分、教师和时间安排有哪些变化。</p>
+<p>我愿意去 [校区] 上 [课程]。请把它加入候选，按我给出的通勤间隔重新排课，列出每次跨校区的前后课程。</p>
+</blockquote>
+<p>每轮选课结果出来后，把实际选中的课程和未选中的课程告诉 AI，再调整下一轮方案。最后让它汇总“当前要求、已核对的课程数据、推荐课表、实际已选结果和待核对事项”，自己保存一份。需要换一段新对话时，把这份汇总和相关原始材料一起提供，接着处理。</p>
+</div>
+</details>
+<h3 id="_13">选课后核对<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<p>无论采用哪种方式，最后都要回到教务系统，用实际课表与选定方案逐项比较，核对教学班、学期、周次、地点，以及与教师谈妥的到课、签到和考核安排；如办理正式免听，也要核对审批状态。使用 Agent 时可以让它重新读取；使用对话式 AI 时，可以把最新导出的课表或截图交给它核对。选课是否成功，以系统中的实际结果为准。</p>
+<p>考试安排公布后，从“考试查询”取得最新信息，再让 AI 整理考试清单：</p>
+<blockquote>
+<p>请根据我实际选中的课程和最新考试信息，生成按时间排序的考试清单，列明课程名称、学分、所属学期、期中或期末、考试起止时间和地点，并检查已知考试时段是否重叠。</p>
+<p>未公布或不完整的安排单列，不补写时间。总学分按实际选中的全部课程计算，每门课程只计一次，不因有期中、期末两次考试而重复计入；没有统一考试安排或考试尚未公布的课程，也不要漏算学分。发现课表与考试查询不一致时，列出差异让我核对。</p>
+</blockquote>
+<p>需要导入日历时，可以再让支持生成文件的 AI 工具根据这份已核对的清单生成日历文件。</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  <h2 id="__comments">评论</h2>
+  <script src="https://giscus.app/client.js"
+          data-repo="BMS-ZJU/BMS_Database"
+          data-repo-id="R_kgDOOe-BqA"
+          data-category="General"
+          data-category-id="DIC_kwDOOe-BqM4CpsoM"
+          data-mapping="specific"
+          data-term="/BMS_Database/freshman/course-selection/"
+          data-strict="1"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="https://BMS-ZJU.github.io/BMS_Database/assets/styles/giscus-light.css"
+          data-lang="zh-CN"
+          crossorigin="anonymous"
+          async>
+  </script>
+  <script>
+    (() => {
+      // The palette survives instant navigation, so resolve this page's path once.
+      const themeBase = new URL("../../assets/styles/", document.baseURI)
+      const syncTheme = () => {
+        let scheme = document.body.dataset.mdColorScheme
+        if (!document.body.hasAttribute("data-md-color-media")) {
+          const initial = Array.from(document.querySelectorAll("[data-md-component=palette] input"))
+            .find(input => input.dataset.mdColorMedia && matchMedia(input.dataset.mdColorMedia).matches)
+          if (initial) scheme = initial.dataset.mdColorScheme
+        }
+        const themeFile = scheme === "slate"
+          ? "giscus-dark.css"
+          : "giscus-light.css"
+        const theme = new URL(themeFile, themeBase).href
+        const giscus = document.querySelector('script[src="https://giscus.app/client.js"]')
+        if (giscus) giscus.setAttribute("data-theme", theme)
+
+        const frame = document.querySelector(".giscus-frame")
+        if (frame && frame.contentWindow) {
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      }
+
+      const bindPalette = () => {
+        const ref = document.querySelector("[data-md-component=palette]")
+        if (ref && !ref.hasAttribute("data-giscus-theme-bound")) {
+          ref.setAttribute("data-giscus-theme-bound", "")
+          ref.addEventListener("change", syncTheme)
+        }
+        syncTheme()
+      }
+
+      syncTheme()
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", bindPalette, { once: true })
+      } else {
+        bindPalette()
+      }
+    })()
+  </script>
+
+                
+  
+<nav class="contribution-actions" aria-label="参与完善本页">
+  <a href="../../contribute/submit/?kind=material&amp;page=zijingang%2Fcourse-selection.md">补充资料或经验</a>
+  <span aria-hidden="true"> · </span>
+  <a href="../../contribute/submit/?kind=correction&amp;page=zijingang%2Fcourse-selection.md">纠错或补充本页</a>
+  
+  <span aria-hidden="true"> · </span>
+  <a href="https://github.com/BMS-ZJU/BMS_Database/edit/main/docs/zijingang/course-selection.md">直接编辑本页</a>
+  
+</nav>
+
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="上一页: 紫金港速通">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                紫金港速通
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../textbooks/" class="md-footer__link md-footer__link--next" aria-label="下一页: 教材选购与退订">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              <div class="md-ellipsis">
+                教材选购与退订
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      
+<div class="md-copyright">
+  
+    <div class="md-copyright__highlight">Copyright &copy; 2024-2026 基础医学飞跃手册编委会</div>
+  
+  
+    <span class="resource-use-attribution-prefix">Made with</span>
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+  <span class="resource-use-footer"> · 资料免费获取 · <a href="../../contribute/sources-and-permissions/#resource-use">使用限制</a></span>
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://bms.zju.edu.cn/" target="_blank" rel="noopener" title="bms.zju.edu.cn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2 0 .37-.03.73-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10C6.47 2 2 6.5 2 12s4.5 10 10 10c.59 0 1.16-.06 1.72-.16A5.9 5.9 0 0 1 13 19c0-.29.03-.57.07-.85-.32.63-.67 1.24-1.07 1.81-.83-1.2-1.5-2.53-1.91-3.96h3.72a5.95 5.95 0 0 1 2.59-2.4c.06-.53.1-1.06.1-1.6M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2zm.82 2H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m6.34 6H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2m.25-9.56c1.84.63 3.37 1.9 4.33 3.56h-2.95a15.7 15.7 0 0 0-1.38-3.56m7.91 12.81L17.75 22 15 19l1.16-1.16 1.59 1.59 3.59-3.59z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/YangShu233-Snow/Ginkgo" target="_blank" rel="noopener" title="Ginkgo · GitHub 仓库" class="md-social__link">
+      <!-- Ginkgo logo by Yangshu233
+Source: https://raw.githubusercontent.com/YangShu233-Snow/Ginkgo/main/assets/logo.svg
+Adaptation: retain the original green path geometry, omit the white background, and use currentColor for the footer icon.
+
+MIT License
+
+Copyright (c) 2026 Yangshu233
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 764 748" aria-hidden="true"><path fill="currentColor" d="M439.1 746.2 c-6.5 -3.3 -7.6 -5.9 -7.6 -18.5 0 -6.2 0.6 -17.5 1.4 -25.2 1.6 -16.6 1 -51.7 -1.4 -72.3 -5.6 -49.7 -16.3 -95.3 -32 -137.7 -5.4 -14.4 -13.7 -33.3 -17.6 -39.9 l-2.1 -3.7 -4.7 2.7 c-6.9 4 -22.2 14.7 -30.8 21.7 -30.9 24.9 -60 58.3 -77.8 89.7 -5 8.7 -13.5 25.5 -13.5 26.6 0 0.3 -1.3 3.6 -2.9 7.2 -1.6 3.7 -3.9 11.9 -5.1 18.2 -4.6 24.5 -6.8 29.3 -14.3 31 -5 1.1 -11.5 -2.1 -13.9 -7 -3.6 -7 -1.5 -22.2 5.7 -43 4.1 -11.8 14.4 -33.8 19.9 -42.4 2 -3.1 3.6 -5.9 3.6 -6.2 0 -0.4 7 -10.5 17.5 -25.4 2.2 -3 4.6 -6.2 5.5 -7 0.8 -0.8 3.9 -4.4 6.9 -8 9.3 -11.4 31.5 -33.6 43.5 -43.5 2.7 -2.2 6.3 -5.2 8 -6.6 4.5 -3.7 18.9 -14.4 29.5 -21.7 5 -3.5 9.1 -6.8 9.1 -7.2 0 -1.4 -9.2 -12 -16.1 -18.6 -9 -8.5 -17.8 -14.5 -29.9 -20.3 -16.4 -7.9 -24.3 -9.6 -43.5 -9.5 -19.1 0.1 -27.8 2.1 -48.2 10.9 -30.9 13.3 -59.8 32.4 -87.4 57.6 -15.9 14.5 -24.8 18.6 -38.5 17.7 -11 -0.8 -17.5 -3.8 -26 -12.4 -4.4 -4.3 -8.5 -7.6 -10.1 -7.9 -7.9 -1.6 -10.9 -3 -15 -6.8 -6.2 -5.7 -9 -11 -11.8 -22.2 -1.3 -5.3 -2.9 -10.2 -3.5 -11 -0.6 -0.7 -3.4 -2.4 -6.3 -3.8 -6.3 -3 -14 -11 -16.8 -17.4 -2.9 -6.9 -3.4 -12.8 -1.5 -21.7 2.5 -12.2 2.2 -14.7 -3 -25.2 -4.2 -8.4 -4.6 -9.8 -4.5 -16 0 -4.7 0.9 -9.3 2.8 -14.5 l2.6 -7.5 -3.9 -9 c-3.7 -8.4 -3.9 -9.4 -3.9 -18.9 0.1 -12.1 1.3 -15.3 11 -28 8.7 -11.4 10.3 -14.2 11.4 -19.9 0.7 -3.9 0.5 -5.9 -1.5 -11.4 -1.3 -3.7 -2.4 -8.3 -2.4 -10.3 0 -5.8 4.3 -13.1 11.1 -18.4 7.7 -6 8.8 -7.9 10 -16 1.2 -8.8 4.3 -15.8 8.6 -19.6 2 -1.7 7.2 -4.8 11.7 -7 12.6 -6.2 14.9 -9 18.1 -21.9 3.1 -12.5 7.3 -17.3 23 -26.5 7.4 -4.4 11 -7.3 16.7 -13.8 18.8 -21.2 29.7 -30.3 41.4 -34.7 7.2 -2.6 17.3 -2.7 23.1 0 6.1 2.7 13.8 10.2 20 19.5 3 4.4 8.7 13 12.9 19 8.7 12.8 16.7 26.5 28.8 49.5 14.9 28.3 14.7 25.8 -1.3 -15.2 -14.2 -36.4 -19.1 -54.6 -19.1 -70.5 0 -14.8 3.8 -24.4 12.6 -32.2 5.6 -4.9 12.8 -7.7 22 -8.6 10.2 -1 18.5 0.7 29 6 5 2.5 10.2 4.5 11.6 4.5 1.5 0 6.6 -2.7 12.1 -6.4 11.5 -7.7 14.6 -8.4 38.7 -8.2 l16.5 0.1 6.5 3.2 c3.6 1.8 9.5 5.9 13.2 9.2 8.5 7.5 11.6 8.1 24.1 5.1 15.7 -3.8 25 -0.6 34.2 11.5 8.8 11.8 13.6 14.3 29.5 15.6 19.6 1.6 26.7 4.4 35.1 13.7 4.3 4.8 7.2 6.8 13.9 9.9 4.7 2.2 10 5.3 11.9 6.8 4.7 4 9.5 11.8 11.6 19 2.5 8.1 4.6 10.1 13.4 12.5 8.9 2.5 15.8 5.9 19.1 9.5 l2.5 2.7 12 -0.7 c11.1 -0.6 12.6 -0.5 19.7 1.8 14.8 4.7 22 11.3 29.9 27.2 4.7 9.7 7.8 12.5 13.6 12.5 9.4 0 20.7 4.6 28 11.3 11.7 10.8 15.5 22.3 11.8 36.2 -3 11.2 -10.6 21.9 -26.4 37.4 -5.8 5.7 -9.7 10 -8.6 9.6 34.3 -13.5 48.9 -16.4 61.1 -12.3 10.7 3.6 18.7 11.1 22.7 21.2 1.7 4.2 2.1 7.7 2.2 19.3 0.2 13.3 0.4 14.5 2.7 18 1.3 2.1 3.6 5.6 5.1 7.8 5.3 8.1 7 13.5 7.5 23.8 0.3 5.7 0 10.7 -0.6 12 -10.2 21.9 -10.8 24.1 -7.6 32.8 0.8 2.4 1.7 5.1 1.9 5.9 3.6 13.3 2.5 19.2 -5.6 31.7 -3.7 5.6 -4 6.7 -3.5 10.5 0.3 2.4 1.1 5.8 1.7 7.7 0.7 1.9 0.9 7 0.7 11.6 -0.6 11.9 -3.6 17.3 -16.9 30.5 -14.4 14.3 -14 13.6 -15.4 28.9 -1.1 11.9 -6.1 22 -12.9 26.2 -1.7 1 -5.4 2.6 -8.3 3.4 -4.6 1.3 -5.4 2 -8.1 6.8 -4.9 8.7 -11.9 12.7 -22.3 12.7 -5.3 0 -9.7 2.8 -13.7 8.7 -3.5 5.2 -5.8 7.1 -11.7 9.9 -5.7 2.7 -7.6 2.9 -15.4 1.3 -5.3 -1.1 -5.9 -1 -10.8 1.5 -7.2 3.6 -16.3 4.8 -22.8 2.9 -12.9 -3.9 -20.7 -13.5 -29.9 -37.3 -18.8 -47.9 -26.5 -63.6 -38.5 -78 -25.6 -30.8 -59.2 -41.7 -99.6 -32.4 -8.1 1.9 -21.3 6.3 -22 7.4 -0.6 0.9 3.3 12.2 11.9 34.9 21.8 57.4 35.6 113.2 42.7 173.5 1.4 11.9 2.2 25.4 2.4 44.6 0.6 37.4 -0.8 46.7 -7.6 53.3 -4.5 4.2 -7.5 4.7 -12.8 1.9z m6.4 -22.8 c4.2 -23.9 2.3 -69.2 -4.5 -112.4 -13 -81.6 -37.5 -151.9 -66.6 -190.8 -15.2 -20.3 -38.8 -38.4 -60.6 -46.6 -19.1 -7.2 -43.5 -8.8 -64.1 -4.1 -37.1 8.3 -75.8 28.5 -111.7 58.4 -8 6.6 -18.9 15 -24.3 18.6 -5.3 3.7 -9.5 7.1 -9.2 7.6 2.1 3.3 13.2 -2 22.6 -10.8 27.9 -26.1 48.9 -41.1 76.4 -54.4 26.2 -12.7 47.8 -18.2 71 -18.2 12.2 0.1 15.4 0.4 25.5 3.1 59.1 15.3 97.6 68.1 124 169.7 16.1 61.7 23.9 130.5 19.6 171.1 -0.9 8.3 -1.6 16.6 -1.5 18.5 0 3.2 0.1 3.2 1 1 0.5 -1.3 1.6 -6.1 2.4 -10.7z m-214.1 -85.9 c1.9 -1.9 3 -5.8 5.7 -20.5 5.5 -29.6 24.4 -65.2 53.9 -101.5 19.5 -24.1 47.7 -49.5 72.5 -65.3 13.7 -8.8 12.8 -7.8 10.8 -11.4 -1 -1.7 -2.3 -3.2 -3 -3.5 -0.6 -0.2 -4.2 1.8 -8 4.4 -3.7 2.7 -9.3 6.7 -12.3 8.8 -3 2.1 -5.9 4.2 -6.5 4.7 -0.5 0.4 -7.1 5.7 -14.5 11.6 -12.2 9.7 -35.3 31.6 -44 41.7 -36.4 42 -58.7 83.8 -63.4 118.5 -1.4 10.4 3.7 17.6 8.8 12.5z m374.9 -66.6 c4.3 -1.2 4.3 -1.3 1.8 -4 -1.1 -1.2 -3.4 -4.9 -5.2 -8.2 -3.5 -6.6 -4 -7.6 -14.1 -31.2 -17.4 -40.6 -28.5 -58 -49.7 -77.9 -7.9 -7.3 -22.4 -17.3 -30.6 -21 -16.3 -7.5 -16.9 -7.7 -32 -10.7 -9.7 -1.9 -13.1 -2.1 -28 -1.6 -9.3 0.3 -18.1 0.9 -19.5 1.3 l-2.5 0.7 2 -2.1 c3 -3 16.8 -5 32 -4.5 10.5 0.3 14.2 0.8 24.7 3.8 13.2 3.8 28.2 10.5 36.3 16.3 11.8 8.4 16.4 12.1 23.4 18.7 17 16.3 31 37.4 46.1 70 11.7 25 17.2 34.3 25.8 43.3 1.6 1.8 13.6 3.5 18.9 2.7 5 -0.7 8 -2.9 12.6 -9.4 l3.5 -4.9 -3.5 -3.3 c-5.4 -5.3 -15.5 -18.7 -29.1 -38.9 -13.6 -20.1 -24.1 -35.2 -25.1 -36 -0.4 -0.3 -2.2 -2.5 -4.1 -5 -6.5 -8.3 -12.9 -15 -26.5 -27.5 -5.6 -5.2 -20.4 -15.1 -30.2 -20.1 -14.8 -7.7 -27.9 -12.1 -43.8 -14.5 -9.3 -1.5 -35 -1.5 -41.4 0 l-4.4 1 2.4 -2.4 c2.2 -2.1 15.1 -5.8 24.5 -7 25.7 -3.4 57.1 0.7 78.4 10.2 9.3 4.2 12.2 5.7 18.8 9.6 3.4 2 6.5 3.7 6.7 3.7 0.5 0 12.8 8.4 18 12.2 11 8 31.8 28.4 45.4 44.3 23.5 27.5 35.8 38.8 50.2 46 l6.5 3.3 4 -1.8 c6.6 -3 10.3 -8 12.4 -16.8 0.7 -3 0.5 -3.4 -1.8 -4.5 -3.4 -1.5 -9.6 -5.3 -14.7 -9.2 -6.1 -4.5 -18.7 -14.7 -21.1 -17 -8.9 -8.5 -26.3 -24.4 -34.4 -31.3 -3 -2.6 -6.4 -5.5 -7.5 -6.6 -9.1 -8.3 -35.2 -25.3 -48.5 -31.4 -19.1 -8.8 -31.4 -12.6 -54.9 -16.6 -5.5 -1 -20.9 -2.1 -28.9 -2 -7.2 0 -7.2 0 -5.3 -2 1.8 -1.8 3.4 -1.9 15.8 -1.9 8.4 0 17.7 0.7 23.8 1.7 5.5 1 11.3 2 12.9 2.3 1.6 0.2 8.1 2 14.5 4 18.3 5.5 40.3 16.6 56.1 28.2 6.9 5.1 22.8 17.7 24 19.1 0.3 0.3 2.1 1.8 4 3.4 1.9 1.6 8.9 7.9 15.5 14.1 13.6 12.8 25.6 22.7 33.6 27.8 6 3.8 17 8.8 18.1 8.1 0.3 -0.2 1 -1.9 1.3 -3.7 1.2 -5.5 4.4 -10.6 9.6 -15.5 2.7 -2.5 4.6 -4.9 4.2 -5.2 -0.5 -0.4 -3 -1.5 -5.8 -2.5 -2.7 -1 -6.7 -2.9 -8.7 -4.2 -2.1 -1.2 -4 -2.3 -4.3 -2.3 -0.4 0 -2.1 -1 -3.8 -2.3 -1.8 -1.2 -4.1 -2.8 -5.2 -3.5 -6.4 -4 -21 -14.6 -21.3 -15.4 -0.2 -0.5 -1 -0.8 -1.7 -0.8 -0.7 0 -1.5 -0.4 -1.7 -0.8 -0.3 -0.9 -29.4 -21.2 -30.4 -21.2 -0.3 0 -2 -1 -3.7 -2.2 -1.8 -1.3 -4.1 -2.8 -5.2 -3.4 -15.3 -8.3 -21 -11.1 -30 -14.9 -18.1 -7.6 -44.3 -14.1 -58.7 -14.7 -5.4 -0.2 -6.5 -0.5 -5.6 -1.5 1.4 -1.7 8.1 -1.6 22 0.2 37.6 5 64.2 16.8 106.3 47 34.7 24.9 47.8 32 62.5 33.9 5.1 0.7 6.2 -0.1 9.5 -6.9 2 -4.3 3.1 -13.8 2.1 -18 -0.5 -1.9 -1.3 -2.5 -3.2 -2.5 -6.9 0 -21.6 -6.7 -49.4 -22.3 -15.2 -8.5 -21.2 -11.8 -33.5 -17.7 -25.8 -12.6 -49.7 -19.3 -81.8 -23 -9.9 -1.2 -42.5 -0.9 -48.4 0.4 -1.1 0.2 -4.3 0.8 -7 1.1 l-4.8 0.7 2 -2.1 c3.2 -3.3 20.1 -5.5 44 -5.5 11 0 21.8 0.3 24 0.6 2.2 0.3 7.2 1.1 11 1.7 12.7 2 39.3 9 42 11.1 0.6 0.4 2.8 1.3 5 2 4.5 1.4 24.9 11.2 34 16.3 3.3 1.8 9.8 5.5 14.5 8.2 23.9 13.6 33.1 17.4 46.3 19.1 2.3 0.3 2.7 0 2.7 -1.9 0 -2.6 4.1 -11 8.3 -17.2 2.5 -3.7 3.6 -8.4 2 -8.5 -13.5 -0.9 -20.3 -2.9 -44.3 -13.3 -38.9 -16.6 -47 -19.6 -66.6 -24.1 -21.5 -4.9 -38.1 -6.8 -58.9 -6.7 -8.8 0.1 -17.8 0.3 -20 0.5 -5.4 0.5 -20.3 2.5 -24 3.2 l-3 0.6 2.1 -2.1 c1.7 -1.8 3.6 -2.3 12.5 -2.8 5.7 -0.3 10.9 -0.9 11.4 -1.3 1.6 -1.3 13.9 -2.1 32 -2.2 36 -0.2 66.8 7.4 112.5 27.9 13.6 6 27.8 10 39.7 11 l7.3 0.6 -2.5 -6.9 c-2.6 -7.1 -3.4 -14 -2.1 -18.5 0.7 -2.6 0.7 -2.6 -5.8 -3.2 -3.6 -0.3 -14.8 -3.2 -24.8 -6.3 -10.1 -3.1 -19.9 -6 -21.8 -6.4 -1.9 -0.5 -8.4 -2 -14.5 -3.5 -31.4 -7.5 -62.1 -9.2 -93.5 -5 -13.6 1.8 -41.1 6.5 -42.5 7.2 -0.5 0.3 0.1 -0.5 1.5 -1.9 2.8 -2.8 8.7 -4.4 31.4 -8.3 37.7 -6.4 77.3 -4.9 112.6 4.5 35.7 9.5 42.9 11.1 52.2 11.7 l9.6 0.6 2.1 -4.7 c2.2 -4.6 3.4 -14.6 2.4 -18.6 -0.5 -1.8 -1.3 -2 -9.2 -2 -7.8 0 -15.3 -1 -42.6 -5.5 -4.9 -0.8 -12.4 -1.7 -16.5 -2.1 -4.1 -0.3 -7.8 -0.8 -8.2 -1 -2.6 -1.6 -53.6 0.2 -64.3 2.2 l-3 0.6 2 -2 c2.8 -2.9 20.5 -5.2 45 -5.9 17 -0.5 21.4 -0.2 42 2.3 21.4 2.7 37.2 3.5 47.2 2.5 l4.1 -0.5 -2 -4 c-1.1 -2.3 -3 -5.2 -4 -6.6 -2.4 -3 -4.8 -8.6 -4.8 -11.1 0 -1 -0.4 -2 -0.9 -2.3 -0.9 -0.6 -50.5 1 -62.6 2 -13 1 -30.1 3.9 -48 8.1 -10.6 2.4 -38.4 10.8 -41.5 12.4 -0.8 0.4 -5.1 2.1 -9.5 3.7 -4.4 1.7 -10.4 3.9 -13.2 5.1 -2.9 1.1 -5.3 1.7 -5.3 1.2 0 -4.7 30.1 -17 60 -24.6 35.1 -8.9 50 -11.1 94.5 -14 5 -0.3 12.6 -1.4 17 -2.4 7.5 -1.6 8 -1.9 8.5 -4.7 0.7 -3.6 -0.5 -11.5 -2.2 -15.1 -1.3 -2.7 -1.5 -2.8 -10.3 -2.9 -5 -0.1 -11.2 0.2 -14 0.6 -2.7 0.4 -7.2 1.1 -10 1.4 -12.5 1.7 -36.6 8.2 -42.7 11.6 -1 0.6 -2.7 1 -3.7 1 -1.1 0 -2.3 0.5 -2.6 1 -0.3 0.6 -1.3 1 -2.1 1 -1.2 0 -11.5 4.2 -23.9 9.9 -2.2 1 -5.8 2.6 -8 3.5 l-4 1.8 3.4 -3.6 c1.9 -2 3.8 -3.6 4.2 -3.6 0.4 0 5.3 -2.2 11 -4.9 25.5 -12.1 61.3 -23.7 82.9 -27.1 10.8 -1.6 11 -1.8 7 -4.3 -3 -1.9 -4.9 -2.2 -14 -2.2 -9.1 0 -11.9 0.5 -21 3.4 -18.7 5.9 -59 23.1 -75.3 32.1 -5.6 3.1 -13.3 7.3 -17.2 9.4 -3.8 2.1 -8.6 4.8 -10.5 6.1 -1.9 1.2 -6.9 4.1 -11 6.5 -4.1 2.4 -11.1 6.5 -15.4 9.2 -4.4 2.6 -8.2 4.6 -8.4 4.3 -1.7 -1.7 16.4 -14.3 50.3 -34.9 35.6 -21.7 51 -33.1 68 -50.1 16.8 -16.8 22.4 -29.5 19 -42.6 -2.4 -8.9 -3.5 -9.1 -9 -1.2 -13 18.3 -29 35.3 -55.6 58.8 -11 9.8 -26.8 23.1 -35.9 30.2 -15 11.6 -30.4 23.5 -33.6 25.8 -1.6 1.1 -4.4 3.4 -6.4 5.1 -5.1 4.4 -12.2 9.4 -13.4 9.4 -1.6 0 5.2 -6.6 15.2 -14.9 33.5 -27.3 47.4 -39 60.7 -50.7 5 -4.3 10.6 -9.3 12.5 -10.9 5.3 -4.5 23.7 -23.2 31 -31.6 9.7 -11 14.3 -17.4 19.5 -27.1 l4.6 -8.6 -3.3 -2.5 c-5.1 -3.7 -9.8 -5.5 -16.5 -6.3 -5.6 -0.6 -6.3 -0.4 -7 1.2 -1.5 4.1 -23.6 38.5 -31 48.4 -23.5 31.3 -36.4 46.8 -56 66.7 -3.7 3.9 -6.3 5.4 -6.3 3.7 0 -0.4 3.9 -5.1 8.8 -10.6 4.8 -5.5 9.7 -11.2 11 -12.7 26.4 -30 43.7 -54.8 57.7 -82.2 7.7 -15.2 9.3 -19.9 6.5 -19.9 -0.5 0 -3 -4.3 -5.6 -9.5 -2.6 -5.2 -5.1 -9.5 -5.5 -9.5 -0.3 0 -1.1 0.6 -1.6 1.3 -2 2.5 -15.3 29.6 -15.3 31.2 0 0.6 -4.6 11.8 -7.4 18 -3.8 8.4 -15 30.6 -17.6 35 -1.6 2.8 -3.3 5.7 -3.7 6.5 -5.5 11.7 -43 64.7 -52.3 74 -0.3 0.3 -2.7 3.2 -5.4 6.5 -6.4 7.7 -12.8 14.5 -13.8 14.5 -1.8 0 -0.5 -2.3 5.3 -8.7 5.3 -6 30.6 -39 36.9 -48.3 1.3 -1.9 2.7 -3.7 3 -4 1.5 -1.1 17 -24.9 19.9 -30.4 1.7 -3.3 3.5 -6.4 4 -7 4.8 -6.3 18.7 -37.1 25.7 -57.2 3 -8.5 7.7 -20.7 10.4 -27.1 4.9 -11.2 5 -11.6 3.3 -13.5 -2.7 -3 -10.7 -6.8 -15.8 -7.5 -4.5 -0.6 -4.5 -0.6 -6.1 3.3 -1.7 4.3 -6.1 13.9 -7.4 16.5 -0.8 1.6 -2.9 8.5 -3.5 12 -0.2 0.9 -0.8 3.3 -1.3 5.3 -0.8 2.8 -0.7 4.7 0.5 8.2 3.2 9.5 -0.1 21.6 -9.1 33.3 -2.6 3.4 -5.9 9.3 -7.5 13.8 -5.6 15.1 -15.5 35.5 -24.2 49.7 -1 1.7 -2.2 3.8 -2.6 4.6 -1.2 2.6 -20.5 30.3 -24.7 35.5 -11 13.4 -16.3 19.1 -17.1 18.3 -0.4 -0.3 2.1 -4.1 5.5 -8.3 3.3 -4.3 8 -10.5 10.2 -13.9 2.3 -3.3 4.5 -6.3 4.8 -6.6 1 -0.7 11.3 -16.9 14.8 -23.2 1.6 -2.9 4.4 -7.8 6.1 -10.8 3 -5.2 12.3 -23.9 16.9 -34.1 2.3 -5.2 3.7 -9.9 2.9 -9.9 -0.3 0 -5.6 2.7 -11.7 5.9 l-11.2 5.9 -3.3 9.8 c-6 18.4 -21.7 52.1 -29.5 63.4 -0.9 1.4 -3 4.8 -4.5 7.5 -1.5 2.8 -4.7 7.6 -7.1 10.8 -2.4 3.1 -4.4 6 -4.4 6.3 0 0.3 -0.7 1.2 -1.5 2 -0.8 0.8 -1.9 2.2 -2.3 3.1 -0.5 0.9 -1.4 1.3 -2 0.9 -0.6 -0.4 2.5 -6.3 8 -14.9 9 -14 22.8 -39.6 28.7 -53.2 5.9 -13.6 12.2 -30.6 11.9 -32 -0.2 -1.1 -2 -0.7 -7.7 1.8 -4.1 1.8 -7.8 3.9 -8.2 4.7 -0.4 0.8 -2.6 7.4 -4.9 14.7 -6.7 21.4 -16.2 43.4 -27.3 63.3 -1.7 3 -3.5 6.4 -4.1 7.5 -2.6 4.7 -18.2 28.2 -20.1 30.1 -0.5 0.6 -3 3.4 -5.4 6.2 -3.8 4.5 -7.1 6.6 -7.1 4.5 0 -0.3 2.7 -4.1 6 -8.5 3.3 -4.3 6 -8.2 6 -8.7 0 -0.5 0.4 -1.1 0.9 -1.3 1.2 -0.4 16.2 -24.2 21.3 -33.7 2.2 -4.2 4.6 -8.5 5.3 -9.6 5.4 -8.7 23.5 -56.5 23.5 -61.9 0 -1.4 -0.7 -1.3 -5.2 0.5 -2.9 1.1 -5.8 2.6 -6.4 3.2 -0.6 0.7 -1.9 4.8 -2.8 9.2 -1.7 8.5 -7.9 30.2 -9 31.2 -1.7 1.7 -1.5 -1.2 0.3 -7.5 4.4 -14.5 7.2 -31.3 5.4 -31.1 -0.5 0 -2.8 1 -5.3 2.2 l-4.4 2.2 -1.3 10.5 c-2.4 19.6 -9.3 47.7 -15.5 62.5 -1.6 3.9 -3.4 8.4 -3.9 10.1 -2.1 7.2 -14.7 29.4 -16.6 29.4 -0.7 0 -1.3 -0.2 -1.3 -0.4 0 -0.3 2.9 -6.2 6.4 -13.3 3.6 -7 7.5 -15.3 8.7 -18.3 3 -7.5 11.9 -36.1 11.9 -38.1 0 -1 0.9 -5.9 2 -11.1 3.5 -16 3.9 -18.2 4.5 -23.5 0.3 -3.3 0.1 -5.3 -0.5 -5.3 -1.7 0 -22.8 10.8 -23.6 12.1 -0.4 0.7 -0.8 6.6 -1 13.3 -0.9 44.2 -2.6 55.6 -11 75.3 -5.9 13.8 -9.7 20.3 -10.7 18.6 -0.3 -0.5 1.2 -4.6 3.3 -9.1 4.9 -10.3 10.8 -28.9 12.5 -39.6 0.7 -4.4 1.4 -15.1 1.6 -23.6 0.1 -8.5 0.3 -18.2 0.4 -21.5 0.3 -10.4 -0.5 -11.2 -6.9 -6.9 -3.7 2.6 -3.8 2.7 -3.1 7.3 1.2 7.4 2.1 21.4 1.7 23.9 -0.7 3.5 -3.2 2.7 -3.3 -1 -0.1 -1.8 -0.3 -4.2 -0.4 -5.3 -0.1 -1.1 -0.5 -5.4 -0.9 -9.5 -1 -10.3 -1.4 -10.7 -6.1 -6.7 l-3.9 3.3 1.8 8.5 c4.1 19.4 2.9 43.4 -3.1 61.6 -5.1 15.7 -15.5 33.6 -27 46.3 -8.9 10 -8.4 8.6 -6.3 16.9 1 4 2.1 7.5 2.3 7.7 0.2 0.3 5.8 -1.2 12.3 -3.1 52 -15.9 96.5 -1.1 125.3 41.5 8.8 13.1 15.1 25.9 24.5 50 2.1 5.2 5.3 13.6 7.3 18.5 11.3 29 22 38.8 37.6 34.4z m60.2 -24.3 c1.7 -0.2 4.2 -0.4 5.7 -0.5 2.8 -0.1 10.8 -6.3 10.8 -8.4 0 -0.6 0.7 -1.8 1.5 -2.7 1.3 -1.4 0.8 -2 -4.7 -6 -8.9 -6.6 -24.3 -22.2 -41.3 -42 -18.6 -21.6 -32.7 -36.4 -42.5 -44.3 -4.1 -3.4 -7.7 -6.4 -8 -6.7 -0.6 -0.7 -10.2 -7.3 -17.4 -11.8 -2.7 -1.8 -8.3 -4.8 -12.5 -6.8 -4.2 -2 -8.7 -4.2 -10.1 -4.9 -3.9 -2 -24.4 -8.4 -32.2 -10 -9 -1.9 -22.3 -2.4 -23.9 -0.8 -0.8 0.8 0.3 1.4 4.7 2.3 31.7 6.5 55.3 19.1 78.8 42.4 16.3 16.1 23.9 25.5 44 55 4.9 7.1 10.1 14.7 11.6 16.8 9.7 13.4 27.1 30 30.5 29.2 1.1 -0.3 3.4 -0.6 5 -0.8z m-585.4 -107.4 c9.4 -3.3 13.8 -6 31.9 -19.5 39.9 -29.8 62.8 -42.3 95 -52 21.4 -6.5 37 -8.8 59.4 -8.7 32.7 0 55.7 6.8 78.9 23.4 14.4 10.3 24.7 20.2 36.5 35.2 1.6 1.9 2.1 2.2 1.6 0.9 -10.3 -29.5 -12 -57.9 -5.1 -84.5 8.2 -31.4 22.2 -56.3 43.9 -78.3 15.2 -15.3 28.2 -25.1 71.8 -53.5 45 -29.4 65.9 -47.9 74.8 -65.9 1.9 -3.9 2.3 -5.6 1.5 -6.4 -1.7 -1.7 -2.7 -0.7 -11.7 11.4 -13.8 18.4 -30.2 32.8 -59.9 52.3 -27.5 18.1 -42.8 28.4 -52.7 35.8 -13.2 9.7 -38.1 34.9 -45.2 45.6 -7.6 11.4 -18 33.1 -22.2 46 -3.3 10 -6.6 27.2 -6.6 33.9 0 1.7 -0.5 3.1 -1.2 3.1 -1.8 0 -0.3 -29.9 2.2 -42 2.5 -12.4 8.2 -28.5 14.4 -40.7 15.9 -31.6 33.7 -50 89.6 -91.8 44.2 -33.1 65.2 -53.3 69.2 -66.6 2.1 -7 -2.4 -7.9 -5.6 -1.1 -7.1 14.8 -26 33.2 -63 61.5 -45.8 34.9 -66.4 53.7 -79.4 72.2 -6.9 9.8 -15.5 25.2 -20.7 37.2 -6.9 16.1 -12.6 40.3 -12.8 55.5 -0.1 4.8 -0.5 8.8 -0.8 8.8 -2.6 0 -3.5 -22.7 -1.4 -37.5 4.3 -31.8 13.5 -56.2 30.4 -81.4 15.9 -23.5 29.8 -37.5 69.6 -70 34.5 -28.1 57.9 -50.5 63.2 -60.7 5.9 -11.2 2.3 -14.7 -4 -3.9 -9.2 15.8 -23.9 30.6 -57.2 57.6 -11 8.9 -24 19.7 -29 23.9 -12.5 10.7 -30.7 29.8 -38.6 40.3 -12.9 17.3 -25.3 40.7 -31.5 59.5 -3.2 9.8 -7.1 29.3 -7.9 39.7 -0.7 8.7 -1.3 11.5 -2.3 11.5 -1.2 0 -1.4 -35.1 -0.2 -44.5 2.1 -17.7 8.5 -38.5 17.5 -57 15.3 -31.6 32 -51.8 75.6 -91.6 32 -29.2 46.7 -45.8 53.6 -60.6 3.9 -8.4 3.9 -8.5 1.3 -10.8 -1.9 -1.7 -2 -1.5 -6.8 8.6 -8.4 17.8 -15 25.5 -50 57.6 -28.6 26.4 -41.3 39.1 -50.7 50.8 -22.8 28.5 -37.8 60.7 -43 93 -2.5 15.5 -1.6 53 1.5 60 1.1 2.4 1.8 11.5 0.9 11.5 -1.1 0 -2.7 -4.6 -5.3 -15.1 -7.6 -30.8 -7.5 -66.8 0.4 -97.9 9.3 -36.8 28.4 -68.6 65.2 -108.7 36.2 -39.4 48.8 -56.6 50 -68.4 0.3 -3 0 -3.4 -2.3 -3.7 -2.2 -0.3 -2.8 0.2 -3.4 2.5 -1.3 5.3 -6.8 16.8 -11 23.3 -5.4 8.1 -13 17.1 -32 37.5 -37.5 40.4 -54.9 66.9 -66.4 101.1 -8 24.1 -11.1 48.3 -9.4 73.4 0.6 8 0.8 14.7 0.7 14.9 -1 1.1 -1.8 -1.6 -3.5 -11.1 -5.9 -32 -3.7 -71.4 5.7 -102.4 10.7 -35.6 23 -58.3 52.6 -97.3 25.4 -33.5 32.3 -43.9 37 -55.6 1.4 -3.3 2.3 -6.6 2 -7.3 -0.5 -1.6 -5.1 -1.6 -8.4 0 -2.5 1.2 -2.6 1.7 -2.1 5.5 0.4 3.3 -0.1 5.5 -2.5 10.6 -4.3 9.3 -8.3 15.3 -26.9 40 -9.2 12.2 -20 27.4 -24.2 33.7 -18.9 29.1 -31.5 60.2 -37.2 92 -1.5 8.2 -3.3 39 -3 51.3 0.2 11.6 -1.1 14.2 -2.8 5.5 -2.7 -13.5 -4.1 -28.5 -5.2 -53.8 -1.9 -44.5 0.4 -67.9 9.5 -99.7 4.9 -17 9.1 -27.9 22 -56.7 13.4 -29.7 15.6 -35.8 15.6 -43 0 -4.6 -0.3 -5.4 -2.1 -5.9 -2.3 -0.6 -2.5 -0.2 -3.4 6.8 -1.1 8.1 -5.3 20 -13.2 37.4 -16.3 36.1 -23.3 57.5 -28.8 88.1 -4.3 24.3 -5.8 60.5 -3.4 86 2.1 23.1 7 52 12.4 73.4 0.6 2.1 0.4 2.7 -0.5 2.4 -0.7 -0.2 -3.8 -6.7 -6.9 -14.3 -3.2 -7.7 -9.2 -22.2 -13.4 -32.2 -4.2 -10.1 -7.7 -18.5 -7.7 -18.8 0 -0.7 -9.8 -24.7 -20.5 -50 -24.2 -57.3 -38.2 -99.2 -42.4 -127.2 -2.3 -14.9 -1.1 -29.6 3.2 -40.2 2.1 -5.3 2.3 -6.1 0.8 -6.1 -2.4 0 -3.6 1.1 -5.7 5 -1.6 3 -1.9 5.6 -1.8 18 0.1 17.7 3.2 34.3 12.5 67 11.7 41.6 15.7 53.4 28.7 86 9.2 23 13.4 32.9 31.1 73.9 5.5 12.9 9.9 23.6 9.6 23.9 -1.2 1.2 -3.4 -1.1 -5.7 -6 -1.4 -2.9 -4.7 -9.8 -7.3 -15.3 -2.6 -5.4 -8.2 -16 -12.4 -23.5 -4.2 -7.4 -8.2 -14.7 -8.8 -16.1 -0.7 -1.5 -4.6 -8.5 -8.9 -15.5 -24.2 -40.4 -48.2 -67.3 -88.2 -99.2 -11.6 -9.2 -37.7 -26.9 -45.5 -30.8 -2.9 -1.4 -6.6 -3.7 -8.3 -5 -2.6 -1.9 -3.4 -2.1 -4.7 -1.1 -3.7 2.8 -2.5 4.7 5.4 8.1 16 7 34.7 19.7 60.8 41.4 39.5 32.9 66.8 65.5 88.6 106.2 6.7 12.4 9.4 17.3 16.8 30 1.5 2.5 2.7 4.8 2.7 5.3 0 2.3 -2.9 -1 -14.2 -16 -6.9 -9.3 -13.8 -17.9 -15.2 -19.2 -1.5 -1.4 -2.6 -3.5 -2.6 -5.1 0 -3.1 -1.4 -5.3 -9.8 -15 -26.9 -31 -55.1 -51.1 -89.7 -63.8 -13.2 -4.9 -19.4 -6.7 -43.1 -12.6 -10 -2.5 -20.6 -5.5 -23.5 -6.6 -5.9 -2.3 -19.9 -3.8 -19.9 -2.2 0 1.2 12 6.3 20 8.6 3 0.8 13 3.1 22.2 5.1 46.6 9.9 77.4 24.7 108.8 52.3 8.5 7.5 29.8 29.1 31.3 31.9 3 5.1 -6 1.3 -15.6 -6.6 -19.8 -16.3 -40.3 -29.7 -59 -38.6 -20.2 -9.5 -39.5 -14.9 -71.9 -19.9 -9.3 -1.4 -24.3 -3.8 -33.4 -5.2 -11.9 -1.8 -18.4 -2.4 -22.8 -1.9 -8.2 0.9 -12.6 2.3 -12.6 4.2 0 1.2 1 1.4 4.8 1 5.8 -0.5 31 1.7 49.7 4.4 66.2 9.6 94.1 20.5 139.6 54.5 7.4 5.6 15.1 10.9 17 11.8 1.9 0.9 5.9 4.4 8.9 7.8 13.8 15.6 39.1 50.9 36.9 51.7 -0.6 0.2 -2.3 -1.2 -3.8 -3 -14.7 -18.9 -36.5 -40.7 -52.6 -52.7 -31.2 -23.1 -75.8 -41.1 -117 -47.1 -27.8 -4.1 -67.4 -3.4 -84 1.4 -14.8 4.3 -27.5 11.5 -20.3 11.5 1.3 0 7 -1.5 12.6 -3.4 20.2 -6.8 40.4 -9.2 65.7 -7.6 50.6 3.2 91 16 128.5 40.5 26.2 17.2 45.3 36 68.7 67.5 15.1 20.3 18.8 25.8 18 26.6 -1 1 -16.3 -15.9 -25.4 -28.1 -5 -6.6 -11.5 -14.7 -14.6 -18.1 -23.2 -25.3 -68.5 -51.6 -107 -61.9 -24.8 -6.7 -55.7 -10.5 -85.9 -10.5 -19.2 0 -28.9 0.9 -38.8 3.7 -8.3 2.3 -17.5 8.2 -15.7 9.9 0.3 0.4 3.8 -0.3 7.7 -1.5 29.3 -8.9 59.8 -10.2 99 -4 50.7 7.9 90.2 26 127.4 58.1 9.5 8.2 27.6 27.1 27.6 28.8 0 1.9 -1.8 1 -8.3 -4.2 -14.8 -12 -18.6 -14.9 -27.7 -20.7 -5.2 -3.4 -18 -10.4 -28.5 -15.6 -47.3 -23.5 -90.3 -30.5 -148.7 -24.5 -32.7 3.4 -43.2 5.7 -56.3 12.2 -7.5 3.8 -17.2 10.5 -17.9 12.5 -1.8 4.6 3.2 4.3 9.7 -0.6 19 -14.2 53.9 -22.1 97.2 -22.1 34.5 0 67.7 6.3 98.6 18.6 25.9 10.3 44.2 21.5 73.4 44.8 3.9 3.1 10.2 8 14 11 11.2 8.6 31 30.5 29.2 32.3 -0.4 0.3 -4.6 -3.3 -9.4 -8.1 -10.6 -10.6 -30.9 -27 -46.9 -37.8 -12 -8.1 -36 -20.4 -48.9 -25.1 -44 -16.1 -89.9 -18.9 -141 -8.6 -13.4 2.7 -39.6 9.3 -46.9 11.8 -10.9 3.8 -24.6 12.6 -23.2 14.9 1.2 2 3.2 1.4 14.4 -4.2 20.1 -10.1 37.8 -15.6 64.6 -20.1 44.7 -7.5 87.1 -4.4 127.1 9.5 12.9 4.4 35.3 15.6 47.5 23.7 18.5 12.3 47.4 36.2 45.8 37.8 -0.4 0.4 -4.2 -1.5 -8.5 -4.2 -20.3 -12.9 -38.3 -22.5 -54.3 -28.8 -49.7 -19.6 -89.7 -24.4 -136.9 -16.4 -26 4.4 -63.1 15.2 -81.1 23.6 -10.9 5.1 -24 14.6 -24 17.4 0 3.1 2.8 2.2 12.4 -4 15.7 -10.1 29.7 -16.4 51.1 -23.1 64.7 -20.3 124.7 -16.6 187.5 11.5 21.4 9.6 57.3 32.5 54.8 35 -0.9 0.9 -2.9 -0.3 -15 -8.6 -19.9 -13.8 -41.6 -21.8 -76.9 -28.3 -13.9 -2.6 -40.9 -5 -46.3 -4.2 -1.7 0.3 -7.1 0.8 -12.1 1.1 -18.4 1.3 -45.9 7.6 -68.5 15.8 -14.9 5.4 -33.3 14 -52.7 24.6 -22.2 12.2 -27.3 15.3 -26.9 16.6 1 3.1 11.9 -1.4 31.8 -13.3 23.4 -13.9 41 -22 64.8 -29.6 40.1 -13 75.5 -14.7 119 -6 19.6 3.9 57 17.3 57 20.4 0 1.5 -0.6 1.3 -13.1 -2.9 -24.7 -8.4 -46.2 -11.7 -70.3 -10.8 -41.5 1.5 -68.6 10.6 -135.1 45 -11.3 5.8 -22.8 10.9 -31 13.6 -15 5.1 -16.3 5.8 -14.2 7.9 1.1 1 2 1.1 3.4 0.4 1 -0.6 5.7 -1.8 10.4 -2.7 10 -2 20.9 -6.9 42 -19.1 67.6 -38.6 122.7 -49.2 179.5 -34.4 18.6 4.9 45.4 15.7 49.8 20 2.2 2.2 -0.6 2 -6.4 -0.4 -9.2 -3.8 -25.9 -8.4 -39 -10.8 -9.5 -1.8 -15.2 -2.2 -32.5 -2.2 -18.7 0 -22.5 0.3 -34.9 2.8 -34.2 6.6 -65.2 20.3 -107.6 47.4 -9.1 5.8 -20.8 13 -26 16 -14 8 -16.6 11 -8.9 9.9 5.9 -0.8 12.9 -4.6 26.4 -14.2 68.9 -49.4 131.6 -67.4 188.5 -53.9 17.3 4 41 12.4 41 14.5 0 1.2 -1.1 1.1 -5.8 -0.5 -14 -5 -40.9 -7.9 -60.8 -6.6 -42.1 2.7 -83.4 19.6 -128.9 53 -17.3 12.6 -28.2 19.5 -39 24.6 -5.2 2.5 -9.5 5.1 -9.5 5.8 0 1.9 1.2 2.8 3 2.2 0.8 -0.3 4 -1.4 7.1 -2.4z m304.8 -31.2 c-0.5 -2.5 -1.2 -12.6 -1.5 -22.5 -0.5 -13.9 -0.3 -20.4 0.9 -28.5 6.3 -41.7 26.1 -71.9 65.6 -99.9 11.6 -8.3 31.7 -19.4 57.1 -31.8 37.3 -18 48.3 -24.3 59.8 -34 8.6 -7.4 13.4 -15.7 9.6 -17 -0.7 -0.2 -5.7 4.1 -11.1 9.6 -12.3 12.3 -21.7 18.4 -47.8 31.3 -42.7 21 -60.5 31 -76.3 42.8 -19.9 14.7 -40 38.6 -49.2 58.3 -7.5 16.1 -12 37.2 -12 56.8 0 9.5 2.1 32.9 3.5 38.8 1.1 4.4 2.4 0.7 1.4 -3.9z m14.1 -10.6 c18.5 -21.9 27.4 -43.5 28.7 -69.9 0.5 -9.3 -1.6 -28.9 -3.3 -31.7 -1.6 -2.6 -15.2 14.7 -21.9 27.7 -9.3 18.3 -13 36.7 -12.1 60 0.6 15 1.3 20.6 2.5 20.4 0.3 0 3.1 -2.9 6.1 -6.5z m-88 -149 c-3.8 -11.2 -10.3 -33.4 -14.1 -48.3 -1.6 -6.3 -5 -18 -7.5 -26 -2.5 -8 -7 -24.5 -9.9 -36.6 -7.2 -29.3 -9.7 -43.6 -15.1 -86.7 -2.4 -19.2 -5.3 -29.8 -8.2 -29.8 -1.8 0 -1.5 2.9 2.1 20 1.4 6.9 3.3 19 4.2 27 4.7 42 14.5 84.9 28.5 125 3.4 9.6 8.8 25.6 12.1 35.5 7.8 23.2 10.1 29.6 10.5 29.2 0.2 -0.2 -1 -4.4 -2.6 -9.3z m4.5 -15 c-3.1 -16.7 -4.6 -29.6 -5.7 -49.3 -2.5 -45.7 3.8 -85.1 21.2 -131.7 8.1 -22 10 -30.8 7.9 -37.4 -1 -3.2 -2 -4.6 -3.4 -4.8 -1.9 -0.3 -2 0.1 -1.7 6.8 0.6 10.1 -1 16.7 -9.4 40 -14.9 40.8 -19.1 66.1 -18.1 107.7 0.6 22.4 1.6 31.8 7.2 64.8 1.7 9.8 2.5 12.9 3.1 12.2 0.2 -0.2 -0.2 -3.9 -1.1 -8.3z m13 -38.4 c6.6 -34.9 11.4 -49.9 24.2 -75.4 5.4 -10.7 18.2 -32.7 28 -48.1 8.4 -13.1 15.8 -27.6 17.4 -33.9 1 -3.9 0.9 -5 -0.5 -7.1 -0.9 -1.4 -2 -2.5 -2.4 -2.5 -0.4 0 -1.8 3.7 -3 8.3 -2.8 10 -6.6 17.5 -18.6 37.1 -15.1 24.7 -16.3 26.7 -23 40.7 -10.7 22.1 -18.4 47 -23.1 74.2 -2.8 16.6 -2.9 17.5 -1.6 16.2 0.5 -0.6 1.7 -4.8 2.6 -9.5z m-67.9 -18.7 c-1.5 -3.8 -15.6 -25.7 -23.4 -36.3 -25.4 -34.4 -39.3 -48.5 -71.4 -72.8 -13.3 -10.1 -14.9 -11 -16.3 -9.6 -0.8 0.8 -1.5 2.1 -1.5 2.8 0 0.7 3.9 3.7 8.8 6.6 17.4 10.6 40.7 32.5 64.7 61 7.2 8.5 14.4 16.8 16.1 18.5 4.7 4.5 14 17 18.5 24.7 3.7 6.4 5.9 8.9 4.5 5.1z m-33.1 -11.4 c-10.4 -10.5 -25.4 -22.9 -37.2 -30.6 -12.5 -8.2 -28.5 -15.4 -52.7 -23.8 -23.4 -8.1 -35.3 -10.8 -38 -8.5 -2.5 2 -1.9 2.7 3.2 3.9 2.6 0.7 7 1.9 9.7 2.6 2.8 0.7 7.3 1.6 10 2 8.4 1.1 34.2 10.3 49.5 17.6 8 3.9 19.4 10.3 25.5 14.4 9.9 6.6 31 23.9 35.9 29.4 1.1 1.1 2.2 2.1 2.5 2.1 0.3 0 -3.5 -4.1 -8.4 -9.1z m66.7 -13.6 c-2.9 -31.1 -2.1 -59.2 2.4 -92 2.5 -18.6 2.9 -32.3 0.9 -34.2 -1.8 -1.7 -5 -1.7 -4.6 -0.1 1.3 5.8 1.2 23.7 -0.4 34 -4 26.7 -5.2 50.4 -3.5 68 1.1 11.6 5.2 37.2 5.8 36.5 0.2 -0.2 -0.1 -5.7 -0.6 -12.2z m299.8 -23.8 c0 -0.2 -1.2 -0.2 -2.7 -0.1 -1.6 0.2 -3.2 0.4 -3.8 0.5 -0.6 0.1 -1 4.6 -1 11.4 l0 11.2 3.8 -11.3 c2 -6.3 3.7 -11.5 3.7 -11.7z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "search.suggest", "search.highlight", "search.share", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../assets/scripts/contribution-picker.js"></script>
+      
+        <script src="../../assets/scripts/katex.js"></script>
+      
+        <script src="../../assets/scripts/quiz-answers.js"></script>
+      
+        <script src="../../assets/scripts/course-navigation.js"></script>
+      
+        <script src="../../assets/scripts/resource-export.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
