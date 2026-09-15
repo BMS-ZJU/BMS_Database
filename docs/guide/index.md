@@ -15,9 +15,9 @@ comments: false
 
 下面是几种已有资料入口的例子：
 
-- [医学科学素养Ⅱ练习与小测](../mandatory/medical_science_literacy_2/quizzes/index.md)：从分组页进入具体练习。
-- [基础药理学讨论课](../mandatory/basic_pharmacology/discussions/index.md)：按讨论课进入病例和问题。
-- [医学生物物理学课程笔记](../mandatory/medical_biophysics/notes/index.md)：查看现有笔记的入口与格式。
+- [医学科学素养Ⅱ练习与小测](../courses/medical-science-literacy-2/quizzes/index.md)：从分组页进入具体练习。
+- [基础药理学讨论课](../courses/basic-pharmacology/discussions/index.md)：按讨论课进入病例和问题。
+- [医学生物物理学课程笔记](../courses/medical-biophysics/notes/index.md)：查看现有笔记的入口与格式。
 
 想找某个术语或一段题目时，也可以使用网站搜索。搜索不到不代表原材料一定没有相应内容，尤其是图片、附件或只保留站外链接的资料。
 
@@ -41,9 +41,11 @@ comments: false
 
 答案显示方式以导出页实际提供的选项为准。确认范围和预览后，点击“打印 / 保存 PDF”；保存文件时，在浏览器打印窗口中选择“另存为 PDF”。
 
-## 链接打不开时
+<span id="链接打不开时"></span>
 
-如果打不开的是本站页面，可以先从[课程资料](../courses/index.md)按课程名重新进入，或用网站搜索查找页面标题。
+## 链接打不开时 {#finding-resources}
+
+如果你从旧链接进入，或打不开本站页面，可以先从[课程资料](../courses/index.md)按课程名或课程号重新进入，也可以用网站搜索查找页面标题。
 
 站外帖子或网盘资料可能需要原平台账号，也可能受到作者设定的访问范围限制。本站保留一个链接，不代表本站托管了该文件，或能够替原作者开放访问。
 

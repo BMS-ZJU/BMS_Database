@@ -56,7 +56,7 @@ def heading_title(content):
 
 
 def _archived_names(config):
-    mapping = Path(config.config_file_path).parent / "COURSE_NAME_MAP.yml"
+    mapping = Path(config.config_file_path).parent / "data/courses.yml"
     data = yaml.safe_load(mapping.read_text(encoding="utf-8"))
     # A different historical course can share a directory for archive purposes.
     # Its documented name must not acquire the current directory's course name.
@@ -79,7 +79,7 @@ def on_env(env, config, files):
         if not title:
             continue
         title = str(title)
-        match = re.match(r"^((?:mandatory|elective)/[^/]+)/", page.file.src_uri)
+        match = re.match(r"^(courses/[^/]+)/", page.file.src_uri)
         if match and page.file.src_uri != match[1] + "/index.md":
             course = headings.get(match[1] + "/index.md", "")
             historical = any(page.file.src_uri.startswith(path) and name in title

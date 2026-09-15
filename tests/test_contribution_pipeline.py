@@ -150,7 +150,7 @@ class PipelineTests(unittest.TestCase):
         self.api.issue = {**issue(value), "state": "open"}
         self.refresh_snapshot()
         self.reserve()
-        for override in ({"页面地址": "https://example.org/BMS/mandatory/other/"},
+        for override in ({"页面地址": "https://example.org/BMS/courses/other/"},
                          {"课程": fields()["课程"]}):
             self.api.issue = {**issue({**value, **override}), "state": "open"}
             self.blocked(self.execute)
@@ -324,7 +324,7 @@ class PipelineTests(unittest.TestCase):
         site = Path(self.tmp.name) / "site"
         self.assertTrue(pipeline.build_preview(self.root, self.output, site))
         self.assertEqual((self.root / self.target).read_text(encoding="utf-8"), self.original)
-        html = (site / "mandatory/example/index.html").read_text(encoding="utf-8")
+        html = (site / "courses/example/index.html").read_text(encoding="utf-8")
         self.assertIn('href="https://example.org/notes"', html)
         candidate = self.output / "candidate.md"
         candidate.write_text(candidate.read_text(encoding="utf-8") + "\n窜改", encoding="utf-8")

@@ -16,7 +16,7 @@ REPO = Path(__file__).resolve().parents[1]
 
 
 def fields():
-    return {"课程": "示例课程", "页面地址": "https://example.org/BMS/mandatory/example/",
+    return {"课程": "示例课程", "页面地址": "https://example.org/BMS/courses/example/",
             "内容": "我提供的公开链接为 https://example.org/notes",
             "来源与依据": "本人整理的学习笔记", "本站使用范围": intake.SCOPES[1],
             "允许使用的外部模型服务": "DeepSeek", "Ginkgo 使用意愿": "未同意或尚未确认",
@@ -71,13 +71,14 @@ class IntakeTests(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name) / "repo"
-        self.target = "docs/mandatory/example/index.md"
+        self.target = "docs/courses/example/index.md"
         path = self.root / self.target
         path.parent.mkdir(parents=True)
         self.original = "---\ntitle: 示例\n---\n# 示例\n\n现有资料入口。\n"
         path.write_text(self.original, encoding="utf-8")
-        (self.root / "COURSE_NAME_MAP.yml").write_text(
-            "courses:\n  - path: mandatory/example\n    chinese_name: 示例课程\n", encoding="utf-8")
+        (self.root / "data").mkdir(exist_ok=True)
+        (self.root / "data/courses.yml").write_text(
+            "courses:\n  - path: courses/example\n    chinese_name: 示例课程\n", encoding="utf-8")
         (self.root / "mkdocs.yml").write_text("site_url: https://example.org/BMS/\n", encoding="utf-8")
         rules = self.root / "scripts/contributions/rules.md"
         rules.parent.mkdir(parents=True)
@@ -124,7 +125,7 @@ class IntakeTests(unittest.TestCase):
                     for source in ("内容:L1", "来源与依据:L1", value["来源与依据"]):
                         self.assertIn(source, report)
                         self.assertIn(source, report_html)
-                    self.assertNotIn("site/mandatory/example/index.html", report_html)
+                    self.assertNotIn("site/courses/example/index.html", report_html)
                     artifacts = "".join(path.read_text(encoding="utf-8") for path in self.output.iterdir())
                     for key in ("GH_TOKEN", *(item[2] for item in models.PROVIDERS.values())):
                         self.assertNotIn(env[key], artifacts)
@@ -153,20 +154,20 @@ class IntakeTests(unittest.TestCase):
                 intake.parse_fields(issue()["body"] + extra)
 
     def test_path_traversal_configuration_and_unknown_courses_rejected(self):
-        for target in ("../mkdocs.yml", "docs/mandatory/example/../../index.md",
-                       ".github/workflows/deploy.yml", "docs/mandatory/unknown/index.md",
-                       "docs/mandatory/example/index.md/other", "C:/tmp/a.md"):
+        for target in ("../mkdocs.yml", "docs/courses/example/../../index.md",
+                       ".github/workflows/deploy.yml", "docs/courses/unknown/index.md",
+                       "docs/courses/example/index.md/other", "C:/tmp/a.md"):
             with self.subTest(target=target), self.assertRaises(ValueError):
                 intake.resolve_target(self.root, target)
 
     def test_symlink_target_rejected(self):
-        link = self.root / "docs/mandatory/example/link.md"
+        link = self.root / "docs/courses/example/link.md"
         try:
             link.symlink_to(self.root / self.target)
         except OSError:
             self.skipTest("此环境没有符号链接权限")
         with self.assertRaises(ValueError):
-            intake.resolve_target(self.root, "docs/mandatory/example/link.md")
+            intake.resolve_target(self.root, "docs/courses/example/link.md")
 
     def test_fabricated_evidence_is_rejected(self):
         for change in ({"id": "附件第3页", "quote": "原文中不存在的资料"},
@@ -373,10 +374,10 @@ class IntakeTests(unittest.TestCase):
             self.fail("错误定位不应触发模型")
         for override in (
             {"课程": "别的课程"}, {"课程": ""}, {"页面地址": ""},
-            {"页面地址": "https://evil.example/BMS/mandatory/example/"},
-            {"页面地址": "https://example.org/BMS/mandatory/example/exams/"},
-            {"页面地址": "https://example.org/BMS/mandatory/example/?redirect=elsewhere"},
-            {"页面地址": "https://example.org/BMS/mandatory/example/../other/"},
+            {"页面地址": "https://evil.example/BMS/courses/example/"},
+            {"页面地址": "https://example.org/BMS/courses/example/exams/"},
+            {"页面地址": "https://example.org/BMS/courses/example/?redirect=elsewhere"},
+            {"页面地址": "https://example.org/BMS/courses/example/../other/"},
         ):
             with self.subTest(override=override), self.assertRaises(ValueError):
                 intake.prepare(self.root, self.target, issue({**fields(), **override}),
@@ -387,12 +388,12 @@ class IntakeTests(unittest.TestCase):
 
     def test_auto_course_still_requires_the_exact_approved_page(self):
         transport = Mock(side_effect=AssertionError("自动匹配不应调用模型"))
-        for address in ("", "https://evil.example/BMS/mandatory/example/",
-                        "https://example.org/BMS/mandatory/other/",
-                        "https://example.org/BMS/mandatory/example/exams/",
-                        "https://example.org/BMS/mandatory/example/../other/",
-                        "https://example.org/BMS/mandatory/example/?redirect=elsewhere",
-                        "https://example.org@evil.example/BMS/mandatory/example/"):
+        for address in ("", "https://evil.example/BMS/courses/example/",
+                        "https://example.org/BMS/courses/other/",
+                        "https://example.org/BMS/courses/example/exams/",
+                        "https://example.org/BMS/courses/example/../other/",
+                        "https://example.org/BMS/courses/example/?redirect=elsewhere",
+                        "https://example.org@evil.example/BMS/courses/example/"):
             value = {**fields(), "课程": AUTO_COURSE, "页面地址": address}
             with self.subTest(address=address), self.assertRaises(ValueError):
                 intake.prepare(self.root, self.target, issue(value), self.output, environment(), transport)
@@ -404,9 +405,10 @@ class IntakeTests(unittest.TestCase):
                 intake.validate_selection(self.root, self.target, {**fields(), "课程": course})
 
     def test_auto_course_keeps_submission_and_course_code_boundaries(self):
-        (self.root / "COURSE_NAME_MAP.yml").write_text(
-            "courses:\n  - path: mandatory/example\n    chinese_name: 示例课程\n    course_code: MED01\n"
-            "  - path: elective/example\n    chinese_name: 示例课程\n    course_code: MED02\n", encoding="utf-8")
+        (self.root / "data").mkdir(exist_ok=True)
+        (self.root / "data/courses.yml").write_text(
+            "courses:\n  - path: courses/example\n    chinese_name: 示例课程\n    course_code: MED01\n"
+            "  - path: courses/example-alternate\n    chinese_name: 示例课程\n    course_code: MED02\n", encoding="utf-8")
         value = {**fields(), "课程": AUTO_COURSE}
         submission = issue(value)
         transport = Mock(side_effect=AssertionError("收件不应调用模型"))
@@ -417,7 +419,7 @@ class IntakeTests(unittest.TestCase):
         self.assertEqual(snapshot["fields"], value)
         self.assertEqual(snapshot["target"], self.target)
         with self.assertRaises(ValueError):
-            intake.validate_selection(self.root, "docs/elective/example/index.md", value)
+            intake.validate_selection(self.root, "docs/courses/example-alternate/index.md", value)
 
     def test_correction_fields_keep_problem_and_suggestion_as_evidence(self):
         value = fields()
@@ -564,16 +566,17 @@ class IntakeTests(unittest.TestCase):
             self.assertNotIn(b"fixture-key", request.data)
 
     def test_course_codes_disambiguate_same_name_and_html_urls(self):
-        (self.root / "COURSE_NAME_MAP.yml").write_text(
-            "courses:\n  - path: mandatory/example\n    chinese_name: 示例课程\n    course_code: MED01\n"
-            "  - path: elective/example\n    chinese_name: 示例课程\n    course_code: MED02\n", encoding="utf-8")
+        (self.root / "data").mkdir(exist_ok=True)
+        (self.root / "data/courses.yml").write_text(
+            "courses:\n  - path: courses/example\n    chinese_name: 示例课程\n    course_code: MED01\n"
+            "  - path: courses/example-alternate\n    chinese_name: 示例课程\n    course_code: MED02\n", encoding="utf-8")
         for label in ("示例课程", "示例课程 (MED02)"):
             with self.assertRaises(ValueError):
                 intake.validate_selection(self.root, self.target, {**fields(), "课程": label})
         (self.root / "mkdocs.yml").write_text(
             "site_url: https://example.org/BMS/\nuse_directory_urls: false\n", encoding="utf-8")
         value = {**fields(), "课程": "示例课程 (MED01)",
-                 "页面地址": "https://example.org/BMS/mandatory/example/index.html"}
+                 "页面地址": "https://example.org/BMS/courses/example/index.html"}
         intake.validate_selection(self.root, self.target, value)
 
 

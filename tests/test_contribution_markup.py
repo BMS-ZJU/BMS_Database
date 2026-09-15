@@ -245,9 +245,9 @@ class MarkupTests(unittest.TestCase):
 
     def test_real_course_components_and_metadata_regression(self):
         for relative in (
-            "docs/mandatory/basic_pharmacology/index.md",
-            "docs/mandatory/neuroscience/index.md",
-            "docs/elective/cancer_biology/index.md",
+            "docs/courses/basic-pharmacology/index.md",
+            "docs/courses/neuroscience/index.md",
+            "docs/courses/cancer-biology/index.md",
         ):
             with self.subTest(relative=relative):
                 original = (REPO / relative).read_text(encoding="utf-8")

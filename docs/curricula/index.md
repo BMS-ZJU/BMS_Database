@@ -27,39 +27,39 @@ hide:
         ##### 医学科研素养类课程 <span class="curriculum-heading-credit">共 10 学分</span> { #curriculum-2026-qiushi-required-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_life_fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-life-fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
         </div>
         ##### 生物类课程 <span class="curriculum-heading-credit">共 14 学分</span> { #curriculum-2026-qiushi-required-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### 基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2026-qiushi-required-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### 临床医学与预防医学类课程 <span class="curriculum-heading-credit">共 14.5 学分</span> { #curriculum-2026-qiushi-required-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
         </div>
 
         #### 专业选修课程 <span class="curriculum-heading-credit">至少修读 8 学分</span> { #curriculum-2026-qiushi-elective }
@@ -67,17 +67,17 @@ hide:
         ##### 交叉性课程 <span class="curriculum-heading-credit">至少修读 4 学分</span> { #curriculum-2026-qiushi-elective-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 一（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         ##### 其他选修课程 <span class="curriculum-heading-credit">至少修读 4 学分</span> { #curriculum-2026-qiushi-elective-group-2 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1085M · 2.5 学分 · 一（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item"><span>线性代数（乙）<em class="curriculum-course-status">不同课程参考</em></span><small>MATH1233G · 3.0 学分 · 一（春夏） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra1/" title="图灵班线性代数Ⅰ（H），与线性代数（乙）不是同一版本">图灵 H 版Ⅰ ↗</a> / <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra2/" aria-label="图灵班线性代数Ⅱ（H）学习指南（不同课程参考）" title="图灵班线性代数Ⅱ（H），与线性代数（乙）不是同一版本">Ⅱ ↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化发育生物学与医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2087M · 1.5 学分 · 二（秋）</small></div>
@@ -85,25 +85,25 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能（进阶）<em class="curriculum-course-status">暂无资料</em></span><small>MED2086M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>分析化学（乙）<em class="curriculum-course-status">暂无资料</em></span><small>CHEM1002F · 2.0 学分 · 二（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学统计学<em class="curriculum-course-status">暂无资料</em></span><small>MED2424M · 2.0 学分 · 二（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能（高阶）<em class="curriculum-course-status">暂无资料</em></span><small>MED2088M · 2.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_multi_omics_and_precision_medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-multi-omics-and-precision-medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>预防医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2425M · 2.0 学分 · 二（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>EDU2008M · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>MED2422M · 1.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>MED4067M · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>MED4405M · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>BME3016M · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4401M · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4404M · 4.0 学分 · 四（春夏）</small></div>
         </div>
@@ -111,10 +111,10 @@ hide:
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2026-qiushi-practice }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
         </div>
 
         #### 个性修读课程 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2026-qiushi-individualized }
@@ -127,7 +127,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 四（秋冬）</small></div>
-          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../courses/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞再生医学<em class="curriculum-course-status">暂无资料</em></span><small>1814071 · 2.0 学分 · 四（冬）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>1811126 · 2.0 学分 · 四（春）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 四（夏）</small></div>
@@ -162,49 +162,49 @@ hide:
         ##### <span id="curriculum-2026-strong-base-required-group-1" aria-hidden="true"></span>医学科研素养类课程 <span class="curriculum-heading-credit">共 10 学分</span> { #curriculum-2026-qiangji-required-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_life_fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-life-fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
         </div>
 
         ##### <span id="curriculum-2026-strong-base-required-group-2" aria-hidden="true"></span>生物类课程 <span class="curriculum-heading-credit">共 14 学分</span> { #curriculum-2026-qiangji-required-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2026-strong-base-required-group-3" aria-hidden="true"></span>基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2026-qiangji-required-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2026-strong-base-required-group-4" aria-hidden="true"></span>临床医学与预防医学类课程 <span class="curriculum-heading-credit">共 14.5 学分</span> { #curriculum-2026-qiangji-required-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
         </div>
 
         #### <span id="curriculum-2026-strong-base-specialization" aria-hidden="true"></span>专业方向课程 <span class="curriculum-heading-credit">至少修读 3.5 学分</span> { #curriculum-2026-qiangji-specialization }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
         </div>
 
         #### <span id="curriculum-2026-strong-base-elective" aria-hidden="true"></span>专业选修课程 <span class="curriculum-heading-credit">至少修读 8 学分</span> { #curriculum-2026-qiangji-elective }
@@ -212,17 +212,17 @@ hide:
         ##### <span id="curriculum-2026-strong-base-elective-group-1" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">至少修读 4 学分</span> { #curriculum-2026-qiangji-elective-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 一（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2026-strong-base-elective-group-2" aria-hidden="true"></span>其他选修课程 <span class="curriculum-heading-credit">至少修读 4 学分</span> { #curriculum-2026-qiangji-elective-group-2 }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1085M · 2.5 学分 · 一（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item"><span>线性代数（乙）<em class="curriculum-course-status">不同课程参考</em></span><small>MATH1233G · 3.0 学分 · 一（春夏） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra1/" title="图灵班线性代数Ⅰ（H），与线性代数（乙）不是同一版本">图灵 H 版Ⅰ ↗</a> / <a href="https://zju-turing.github.io/TuringCourses/math_phys/linear_algebra2/" aria-label="图灵班线性代数Ⅱ（H）学习指南（不同课程参考）" title="图灵班线性代数Ⅱ（H），与线性代数（乙）不是同一版本">Ⅱ ↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化发育生物学与医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2087M · 1.5 学分 · 二（秋）</small></div>
@@ -232,18 +232,18 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>分析化学（乙）<em class="curriculum-course-status">暂无资料</em></span><small>CHEM1002F · 2.0 学分 · 二（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学统计学<em class="curriculum-course-status">暂无资料</em></span><small>MED2424M · 2.0 学分 · 二（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能（高阶）<em class="curriculum-course-status">暂无资料</em></span><small>MED2088M · 2.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_multi_omics_and_precision_medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-multi-omics-and-precision-medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>预防医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2425M · 2.0 学分 · 二（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>EDU2008M · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>MED2422M · 1.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>MED4405M · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>BME3016M · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4401M · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4404M · 4.0 学分 · 四（春夏）</small></div>
         </div>
@@ -251,10 +251,10 @@ hide:
         #### <span id="curriculum-2026-strong-base-research-practice" aria-hidden="true"></span>科研实践环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2026-qiangji-research-practice }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
         </div>
 
         #### <span id="curriculum-2026-strong-base-transition-direction" aria-hidden="true"></span>转段方向课程 <span class="curriculum-heading-credit">修读 15 学分</span> { #curriculum-2026-qiangji-transition-direction }
@@ -269,7 +269,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 四（秋冬）</small></div>
-          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../courses/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞再生医学<em class="curriculum-course-status">暂无资料</em></span><small>1814071 · 2.0 学分 · 四（冬）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>1811126 · 2.0 学分 · 四（春）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 四（夏）</small></div>
@@ -346,45 +346,45 @@ hide:
         ##### <span id="curriculum-2026-innovation-required-group-1" aria-hidden="true"></span>医学科研素养类课程 <span class="curriculum-heading-credit">共 7.5 学分</span> { #curriculum-2026-zhichuang-required-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
         </div>
 
         ##### <span id="curriculum-2026-innovation-required-group-2" aria-hidden="true"></span>生物类课程 <span class="curriculum-heading-credit">共 14 学分</span> { #curriculum-2026-zhichuang-required-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2026-innovation-required-group-3" aria-hidden="true"></span>基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2026-zhichuang-required-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2026-innovation-required-group-4" aria-hidden="true"></span>临床医学与预防医学类课程 <span class="curriculum-heading-credit">共 14.5 学分</span> { #curriculum-2026-zhichuang-required-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
         </div>
 
         ##### <span id="curriculum-2026-innovation-required-group-5" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2026-zhichuang-required-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能（进阶）<em class="curriculum-course-status">暂无资料</em></span><small>MED2086M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工交叉融合中的人工智能（高阶）<em class="curriculum-course-status">暂无资料</em></span><small>MED2088M · 2.0 学分 · 二（春夏）</small></div>
         </div>
@@ -392,33 +392,33 @@ hide:
         #### <span id="curriculum-2026-innovation-elective" aria-hidden="true"></span>专业选修课程 <span class="curriculum-heading-credit">修读 4 学分</span> { #curriculum-2026-zhichuang-elective }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_life_fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-life-fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1085M · 2.5 学分 · 一（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化发育生物学与医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2087M · 1.5 学分 · 二（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>分析化学（乙）<em class="curriculum-course-status">暂无资料</em></span><small>CHEM1002F · 2.0 学分 · 二（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学统计学<em class="curriculum-course-status">暂无资料</em></span><small>MED2424M · 2.0 学分 · 二（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_multi_omics_and_precision_medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-multi-omics-and-precision-medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>预防医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2425M · 2.0 学分 · 二（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>EDU2008M · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>MED2422M · 1.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>MED4405M · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>BME3016M · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4401M · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4404M · 4.0 学分 · 四（春夏）</small></div>
         </div>
@@ -426,10 +426,10 @@ hide:
         #### <span id="curriculum-2026-innovation-practice" aria-hidden="true"></span>实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2026-zhichuang-practice }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
         </div>
         #### <span id="curriculum-2026-innovation-individualized" aria-hidden="true"></span>个性修读课程 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2026-zhichuang-individualized }
 
@@ -441,7 +441,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 四（秋冬）</small></div>
-          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../courses/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞再生医学<em class="curriculum-course-status">暂无资料</em></span><small>1814071 · 2.0 学分 · 四（冬）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>1811126 · 2.0 学分 · 四（春）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 四（夏）</small></div>
@@ -477,81 +477,81 @@ hide:
         ##### 生物类课程 <span class="curriculum-heading-credit">共 20 学分</span> { #curriculum-2025-qiushi-module-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_life_fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-life-fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### 基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2025-qiushi-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### 公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2025-qiushi-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### 临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2025-qiushi-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
         </div>
 
         ##### 交叉性课程 <span class="curriculum-heading-credit">共 8.5 学分</span> { #curriculum-2025-qiushi-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### 专业选修课程 <span class="curriculum-heading-credit">修读 7 学分</span> { #curriculum-2025-qiushi-elective }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1085M · 2.5 学分 · 一（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
           <div class="curriculum-course-item"><span>概率论与数理统计<em class="curriculum-course-status">不同课程参考</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>分析化学（乙）<em class="curriculum-course-status">暂无资料</em></span><small>CHEM1002F · 2.0 学分 · 二（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学统计学<em class="curriculum-course-status">暂无资料</em></span><small>MED2424M · 2.0 学分 · 二（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>LAW1002F · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_multi_omics_and_precision_medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-multi-omics-and-precision-medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>MGMT1001F · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>预防医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2425M · 2.0 学分 · 二（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>MED3048M · 2.0 学分 · 三（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>MED3048M · 2.0 学分 · 三（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>EDU2008M · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>MED2422M · 1.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>MED4067M · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>MED4405M · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>BME3016M · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4401M · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4404M · 4.0 学分 · 四（春夏）</small></div>
         </div>
@@ -559,10 +559,10 @@ hide:
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2025-qiushi-practice }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
         </div>
 
         #### 个性修读课程 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2025-qiushi-individualized }
@@ -577,8 +577,8 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>1811125 · 2.0 学分 · 五（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 五（秋冬）</small></div>
-          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
-          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../courses/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
+          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../courses/new-drug-research-and-development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
         </div>
@@ -600,12 +600,12 @@ hide:
         #### <span id="curriculum-2025-strong-base-specialization" aria-hidden="true"></span>专业方向课程 <span class="curriculum-heading-credit">修读 6 学分</span> { #curriculum-2025-qiangji-specialization }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>MED3048M · 2.0 学分 · 三（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>MED3048M · 2.0 学分 · 三（冬）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>MED4067M · 2.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
         </div>
 
         #### <span id="curriculum-2025-strong-base-module" aria-hidden="true"></span>专业模块课程 <span class="curriculum-heading-credit">共 70 学分</span> { #curriculum-2025-qiangji-module }
@@ -613,75 +613,75 @@ hide:
         ##### <span id="curriculum-2025-strong-base-module-group-1" aria-hidden="true"></span>生物类课程 <span class="curriculum-heading-credit">共 20 学分</span> { #curriculum-2025-qiangji-module-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_life_fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-life-fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2025-strong-base-module-group-2" aria-hidden="true"></span>基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2025-qiangji-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2025-strong-base-module-group-3" aria-hidden="true"></span>公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2025-qiangji-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2025-strong-base-module-group-4" aria-hidden="true"></span>临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2025-qiangji-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
         </div>
 
         ##### <span id="curriculum-2025-strong-base-module-group-5" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">共 8.5 学分</span> { #curriculum-2025-qiangji-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/"><span>医工交叉融合中的人工智能</span><small>MED2084M · 2.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2025-strong-base-elective" aria-hidden="true"></span>专业选修课程 <span class="curriculum-heading-credit">修读 6.5 学分</span> { #curriculum-2025-qiangji-elective }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1085M · 2.5 学分 · 一（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
           <div class="curriculum-course-item"><span>概率论与数理统计<em class="curriculum-course-status">不同课程参考</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>分析化学（乙）<em class="curriculum-course-status">暂无资料</em></span><small>CHEM1002F · 2.0 学分 · 二（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学统计学<em class="curriculum-course-status">暂无资料</em></span><small>MED2424M · 2.0 学分 · 二（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>LAW1002F · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_multi_omics_and_precision_medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-multi-omics-and-precision-medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>MGMT1001F · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>预防医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2425M · 2.0 学分 · 二（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>EDU2008M · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>MED2422M · 1.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>MED4405M · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>BME3016M · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4401M · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4404M · 4.0 学分 · 四（春夏）</small></div>
         </div>
@@ -689,10 +689,10 @@ hide:
         #### <span id="curriculum-2025-strong-base-practice" aria-hidden="true"></span>实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2025-qiangji-practice }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
         </div>
 
         #### <span id="curriculum-2025-strong-base-transition-direction" aria-hidden="true"></span>转段方向课程 <span class="curriculum-heading-credit">修读 15 学分</span> { #curriculum-2025-qiangji-transition-direction }
@@ -707,7 +707,7 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 四（秋冬）</small></div>
-          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 四（冬） · <a href="../courses/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞再生医学<em class="curriculum-course-status">暂无资料</em></span><small>1814071 · 2.0 学分 · 四（冬）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>1811126 · 2.0 学分 · 四（春）/四（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 四（夏）</small></div>
@@ -787,79 +787,79 @@ hide:
         ##### 生物类课程 <span class="curriculum-heading-credit">共 20 学分</span> { #curriculum-2024-qiushi-module-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_life_fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-life-fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### 基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2024-qiushi-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### 公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2024-qiushi-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### 临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2024-qiushi-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
         </div>
 
         ##### 交叉性课程 <span class="curriculum-heading-credit">共 6.5 学分</span> { #curriculum-2024-qiushi-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### 专业选修课程 <span class="curriculum-heading-credit">修读 7 学分</span> { #curriculum-2024-qiushi-elective }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1004M · 2.0 学分 · 一（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
           <div class="curriculum-course-item"><span>概率论与数理统计<em class="curriculum-course-status">不同课程参考</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学统计学<em class="curriculum-course-status">暂无资料</em></span><small>MED2424M · 2.0 学分 · 二（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>LAW1002F · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_multi_omics_and_precision_medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-multi-omics-and-precision-medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>MGMT1001F · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>预防医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2425M · 2.0 学分 · 二（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>MED3048M · 2.0 学分 · 三（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>MED3048M · 2.0 学分 · 三（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>EDU2008M · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>MED2422M · 1.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>MED4067M · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>MED4405M · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>BME3016M · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4401M · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4404M · 4.0 学分 · 四（春夏）</small></div>
         </div>
@@ -867,10 +867,10 @@ hide:
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2024-qiushi-practice }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
         </div>
 
         #### 个性修读课程 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2024-qiushi-individualized }
@@ -885,8 +885,8 @@ hide:
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>1811125 · 2.0 学分 · 五（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 五（秋冬）</small></div>
-          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
-          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../courses/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
+          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../courses/new-drug-research-and-development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
         </div>
@@ -910,17 +910,17 @@ hide:
         ##### <span id="curriculum-2024-strong-base-required-group-1" aria-hidden="true"></span>感染与免疫学方向 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2024-qiangji-required-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>MED4064M · 2.0 学分 · 三（秋）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>MED4067M · 2.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>MED4063M · 1.5 学分 · 四（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2024-strong-base-required-group-2" aria-hidden="true"></span>分子肿瘤学方向 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2024-qiangji-required-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>MED3048M · 2.0 学分 · 三（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>MED2040M · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>MED2012M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>MED3048M · 2.0 学分 · 三（冬）</small></a>
         </div>
 
         #### <span id="curriculum-2024-strong-base-module" aria-hidden="true"></span>专业模块课程 <span class="curriculum-heading-credit">共 68 学分</span> { #curriculum-2024-qiangji-module }
@@ -928,73 +928,73 @@ hide:
         ##### <span id="curriculum-2024-strong-base-module-group-1" aria-hidden="true"></span>生物类课程 <span class="curriculum-heading-credit">共 20 学分</span> { #curriculum-2024-qiangji-module-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_life_fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-life-fundamentals/"><span>医学生命基础</span><small>MED1001M · 2.5 学分 · 一（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>MED1003M · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>MED1028M · 1.5 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>MED1005M · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>MED2039M · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>MED2019M · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>MED2020M · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>MED2030M · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2024-strong-base-module-group-2" aria-hidden="true"></span>基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2024-qiangji-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>MED2035M · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>MED3047M · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>MED3055M · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>MED2303M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>MED3056M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2024-strong-base-module-group-3" aria-hidden="true"></span>公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2024-qiangji-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>MED2302M · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>MED3045M · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>MED4423M · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2024-strong-base-module-group-4" aria-hidden="true"></span>临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2024-qiangji-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>MED4069M · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>MED4062M · 3.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>MED4068M · 4.0 学分 · 四（冬）</small></a>
         </div>
 
         ##### <span id="curriculum-2024-strong-base-module-group-5" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">共 6.5 学分</span> { #curriculum-2024-qiangji-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>MED2031M · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>MED2010M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>MED2304M · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2024-strong-base-elective" aria-hidden="true"></span>专业选修课程 <span class="curriculum-heading-credit">修读 6.5 学分</span> { #curriculum-2024-qiangji-elective }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>MED1004M · 2.0 学分 · 一（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>CHEM2001F · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>MED1312M · 1.5 学分 · 二（秋）</small></div>
           <div class="curriculum-course-item"><span>概率论与数理统计<em class="curriculum-course-status">不同课程参考</em></span><small>MATH2432F · 2.5 学分 · 二（秋冬） · <a href="https://zju-turing.github.io/TuringCourses/math_phys/probability/" title="图灵班概率论和数理统计，与概率论与数理统计不是同一门课">图灵“概和统”↗</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医工信交叉前沿进展<em class="curriculum-course-status">暂无资料</em></span><small>MED2588M · 2.0 学分 · 二（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学统计学<em class="curriculum-course-status">暂无资料</em></span><small>MED2424M · 2.0 学分 · 二（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>LAW1002F · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_multi_omics_and_precision_medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-multi-omics-and-precision-medicine/"><span>组学与精准医学前沿导论</span><small>MED2587M · 3.0 学分 · 二（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>MGMT1001F · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>EDU2007M · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>预防医学<em class="curriculum-course-status">暂无资料</em></span><small>MED2425M · 2.0 学分 · 二（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>MED2412M · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>MED4411M · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>EDU2008M · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>MED2021M · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>MED3057M · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>MED2422M · 1.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>MED4405M · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>BME3016M · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学（乙）</span><small>MED2426M · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4401M · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>MED4404M · 4.0 学分 · 四（春夏）</small></div>
         </div>
@@ -1002,10 +1002,10 @@ hide:
         #### <span id="curriculum-2024-strong-base-practice" aria-hidden="true"></span>实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2024-qiangji-practice }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ</span><small>MED2011M · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>MED3052M · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>MED3061M · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>MED4066M · 6.0 学分 · 四（春）</small></a>
         </div>
 
         #### <span id="curriculum-2024-strong-base-transition" aria-hidden="true"></span>衔接阶段培养方案课程 <span class="curriculum-heading-credit">修读 6 学分</span> { #curriculum-2024-qiangji-transition }
@@ -1025,13 +1025,13 @@ hide:
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 五（秋冬）</small></div>
-          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../courses/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
         </div>
 
         ##### <span id="curriculum-2024-strong-base-transition-group-3" aria-hidden="true"></span>基础医学方向 · 疾病机制与精准干预 { #curriculum-2024-qiangji-transition-group-3 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
+          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../courses/new-drug-research-and-development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
         </div>
@@ -1050,79 +1050,79 @@ hide:
         ##### 生物类课程 <span class="curriculum-heading-credit">共 20 学分</span> { #curriculum-2023-qiushi-module-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_life_fundamentals/"><span>医学生命基础</span><small>18198100 · 2.5 学分 · 一（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>72190040 · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-life-fundamentals/"><span>医学生命基础</span><small>18198100 · 2.5 学分 · 一（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>72190040 · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### 基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2023-qiushi-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### 公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2023-qiushi-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### 临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2023-qiushi-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
         </div>
 
         ##### 交叉性课程 <span class="curriculum-heading-credit">共 6.5 学分</span> { #curriculum-2023-qiushi-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### 专业选修课程 <span class="curriculum-heading-credit">修读 7.5 学分</span> { #curriculum-2023-qiushi-elective }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>18198090 · 2.0 学分 · 一（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞与再生医学<em class="curriculum-course-status">暂无资料</em></span><small>72120460 · 1.5 学分 · 四（秋）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>基因、环路与行为<em class="curriculum-course-status">暂无资料</em></span><small>72120600 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>72120610 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>72120560 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>15192460 · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>72120520 · 2.0 学分 · 四（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120090 · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120100 · 4.0 学分 · 四（春夏）</small></div>
@@ -1133,10 +1133,10 @@ hide:
         <p class="curriculum-section-note">△表示创新创业类专业课程。</p>
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>72188060 · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>72188070 · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>72188060 · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>72188070 · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（春）</small></a>
         </div>
 
 
@@ -1151,17 +1151,17 @@ hide:
         ##### <span id="curriculum-2023-strong-base-required-group-1" aria-hidden="true"></span>感染与免疫学方向 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2023-qiangji-required-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2023-strong-base-required-group-2" aria-hidden="true"></span>分子肿瘤学方向 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2023-qiangji-required-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2023-strong-base-module" aria-hidden="true"></span>专业模块课程 <span class="curriculum-heading-credit">共 68 学分</span> { #curriculum-2023-qiangji-module }
@@ -1169,65 +1169,65 @@ hide:
         ##### <span id="curriculum-2023-strong-base-module-group-1" aria-hidden="true"></span>生物类课程 <span class="curriculum-heading-credit">共 20 学分</span> { #curriculum-2023-qiangji-module-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_life_fundamentals/"><span>医学生命基础</span><small>18198100 · 2.5 学分 · 一（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>72190040 · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-life-fundamentals/"><span>医学生命基础</span><small>18198100 · 2.5 学分 · 一（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>72190040 · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2023-strong-base-module-group-2" aria-hidden="true"></span>基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2023-qiangji-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2023-strong-base-module-group-3" aria-hidden="true"></span>公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2023-qiangji-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2023-strong-base-module-group-4" aria-hidden="true"></span>临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2023-qiangji-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
         </div>
 
         ##### <span id="curriculum-2023-strong-base-module-group-5" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">共 6.5 学分</span> { #curriculum-2023-qiangji-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2023-strong-base-elective" aria-hidden="true"></span>专业选修课程 <span class="curriculum-heading-credit">修读 6.5 学分</span> { #curriculum-2023-qiangji-elective }
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>演化医学理论及应用<em class="curriculum-course-status">暂无资料</em></span><small>18198090 · 2.0 学分 · 一（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>15192460 · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120090 · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120100 · 4.0 学分 · 四（春夏）</small></div>
         </div>
@@ -1237,10 +1237,10 @@ hide:
         <p class="curriculum-section-note">△表示创新创业类专业课程。</p>
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>72188060 · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>72188070 · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>72188060 · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>72188070 · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（春）</small></a>
         </div>
 
         #### <span id="curriculum-2023-strong-base-transition" aria-hidden="true"></span>衔接阶段培养方案课程 <span class="curriculum-heading-credit">修读 6 学分</span> { #curriculum-2023-qiangji-transition }
@@ -1260,13 +1260,13 @@ hide:
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>1811128 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>系统神经科学<em class="curriculum-course-status">暂无资料</em></span><small>1811127 · 2.0 学分 · 五（秋冬）</small></div>
-          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../elective/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
+          <div class="curriculum-course-item"><span>神经建模与数据分析<em class="curriculum-course-status">不同课程参考</em></span><small>1811129 · 2.0 学分 · 五（冬） · <a href="../courses/neural-modeling-and-data-analysis/#course-identity" title="MED5075M（旧课程号72120540）的资料；与研究生课程1811129是否同课或可互相替换尚未确认，请先阅读课程号说明">MED5075M 资料参考</a></small></div>
         </div>
 
         ##### <span id="curriculum-2023-strong-base-transition-group-3" aria-hidden="true"></span>基础医学 · 疾病机制与精准干预 { #curriculum-2023-qiangji-transition-group-3 }
 
         <div class="curriculum-course-list">
-          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../elective/new_drug_research_and_development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
+          <div class="curriculum-course-item"><span>新药研发<em class="curriculum-course-status">不同课程参考</em></span><small>1811130 · 2.0 学分 · 五（秋） · <a href="../courses/new-drug-research-and-development/" title="本站本科《新药研发》（MED3057M，旧课程号18198000，1.5学分）；进阶课程1811130的教学与考核要求需另行核对">本科 1.5 学分版</a></small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>高级病理生理学<em class="curriculum-course-status">暂无资料</em></span><small>1812060 · 2.0 学分 · 五（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学专题<em class="curriculum-course-status">暂无资料</em></span><small>1811008 · 2.0 学分 · 五（夏）</small></div>
         </div>
@@ -1283,8 +1283,8 @@ hide:
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 五（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 五（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 五（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 五（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 五（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>流行病学<em class="curriculum-course-status">暂无资料</em></span><small>18120381 · 5.0 学分 · 五（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生统计学<em class="curriculum-course-status">暂无资料</em></span><small>18120581 · 4.0 学分 · 五（春夏）</small></div>
         </div>
@@ -1314,77 +1314,77 @@ hide:
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>72190040 · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>72190040 · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### 基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2022-qiushi-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### 公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2022-qiushi-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
         </div>
 
         ##### 临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2022-qiushi-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
         </div>
 
         ##### 交叉性课程 <span class="curriculum-heading-credit">共 6.5 学分</span> { #curriculum-2022-qiushi-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### 专业选修课程 <span class="curriculum-heading-credit">修读 7 学分</span> { #curriculum-2022-qiushi-elective }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞与再生医学<em class="curriculum-course-status">暂无资料</em></span><small>72120460 · 1.5 学分 · 四（秋）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>基因、环路与行为<em class="curriculum-course-status">暂无资料</em></span><small>72120600 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>72120610 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>72120560 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>15192460 · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>72120520 · 2.0 学分 · 四（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120090 · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120100 · 4.0 学分 · 四（春夏）</small></div>
@@ -1395,10 +1395,10 @@ hide:
         <p class="curriculum-section-note">△表示创新创业类专业课程。</p>
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>72188060 · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>72188070 · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>72188060 · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>72188070 · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
         </div>
 
 
@@ -1413,17 +1413,17 @@ hide:
         ##### <span id="curriculum-2022-strong-base-required-group-1" aria-hidden="true"></span>感染与免疫学方向 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2022-qiangji-required-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2022-strong-base-required-group-2" aria-hidden="true"></span>分子肿瘤学方向 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2022-qiangji-required-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2022-strong-base-module" aria-hidden="true"></span>专业模块课程 <span class="curriculum-heading-credit">共 68.5 学分</span> { #curriculum-2022-qiangji-module }
@@ -1432,66 +1432,66 @@ hide:
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/essential_english_for_medical_sciences/"><span>医学科学英语基础</span><small>72190040 · 1.0 学分 · 一（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/essential-english-for-medical-sciences/"><span>医学科学英语基础</span><small>72190040 · 1.0 学分 · 一（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2022-strong-base-module-group-2" aria-hidden="true"></span>基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2022-qiangji-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2022-strong-base-module-group-3" aria-hidden="true"></span>公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2022-qiangji-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
         </div>
 
         ##### <span id="curriculum-2022-strong-base-module-group-4" aria-hidden="true"></span>临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2022-qiangji-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2022-strong-base-module-group-5" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">共 6.5 学分</span> { #curriculum-2022-qiangji-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2022-strong-base-elective" aria-hidden="true"></span>专业选修课程 <span class="curriculum-heading-credit">修读 6 学分</span> { #curriculum-2022-qiangji-elective }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>医学人工智能<em class="curriculum-course-status">暂无资料</em></span><small>15192460 · 2.0 学分 · 四（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120090 · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120100 · 4.0 学分 · 四（春夏）</small></div>
         </div>
@@ -1501,10 +1501,10 @@ hide:
         <p class="curriculum-section-note">△表示创新创业类专业课程。</p>
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_practice/"><span>基础医学科研实践</span><small>72188060 · 4.0 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/educational_probation_of_basic_medicine/"><span>基础医学教育见习</span><small>72188070 · 4.0 学分 · 三（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-practice/"><span>基础医学科研实践</span><small>72188060 · 4.0 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-probation-of-basic-medicine/"><span>基础医学教育见习</span><small>72188070 · 4.0 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
         </div>
 
 
@@ -1522,79 +1522,79 @@ hide:
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### 基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2021-qiushi-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### 公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2021-qiushi-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
         </div>
 
         ##### 临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2021-qiushi-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
         </div>
 
         ##### 交叉性课程 <span class="curriculum-heading-credit">共 6.5 学分</span> { #curriculum-2021-qiushi-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### 专业选修课程 <span class="curriculum-heading-credit">修读 7 学分</span> { #curriculum-2021-qiushi-elective }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞与再生医学<em class="curriculum-course-status">暂无资料</em></span><small>72120460 · 1.5 学分 · 四（秋）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>基因、环路与行为<em class="curriculum-course-status">暂无资料</em></span><small>72120600 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>72120610 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>72120560 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>人工智能初步<em class="curriculum-course-status">暂无资料</em></span><small>2114N001 · 2.0 学分 · 四（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>72120520 · 2.0 学分 · 四（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120090 · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120100 · 4.0 学分 · 四（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 四（夏）</small></a>
         </div>
 
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2021-qiushi-practice }
@@ -1602,10 +1602,10 @@ hide:
         <p class="curriculum-section-note">△ 为原方案标记，原文件未注明含义。</p>
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>学科轮转与教学实习Ⅰ<em class="curriculum-course-status">暂无资料</em></span><small>72188050 · 4.0 学分 · 三（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>学科轮转与教学实习Ⅱ<em class="curriculum-course-status">暂无资料</em></span><small>72188040 · 4.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
         </div>
 
 
@@ -1620,17 +1620,17 @@ hide:
         ##### <span id="curriculum-2021-strong-base-required-group-1" aria-hidden="true"></span>感染与免疫学方向 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2021-qiangji-required-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2021-strong-base-required-group-2" aria-hidden="true"></span>分子肿瘤学方向 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2021-qiangji-required-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2021-strong-base-module" aria-hidden="true"></span>专业模块课程 <span class="curriculum-heading-credit">共 67.5 学分</span> { #curriculum-2021-qiangji-module }
@@ -1639,68 +1639,68 @@ hide:
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2021-strong-base-module-group-2" aria-hidden="true"></span>基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2021-qiangji-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2021-strong-base-module-group-3" aria-hidden="true"></span>公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2021-qiangji-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>72120401 · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
         </div>
 
         ##### <span id="curriculum-2021-strong-base-module-group-4" aria-hidden="true"></span>临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2021-qiangji-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2021-strong-base-module-group-5" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">共 6.5 学分</span> { #curriculum-2021-qiangji-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2021-strong-base-elective" aria-hidden="true"></span>专业选修课程 <span class="curriculum-heading-credit">修读 6 学分</span> { #curriculum-2021-qiangji-elective }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/educational_statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/educational-statistics/"><span>教育统计学</span><small>03123590 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>专业英语阅读与写作<em class="curriculum-course-status">暂无资料</em></span><small>72190030 · 1.0 学分 · 三（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>人工智能初步<em class="curriculum-course-status">暂无资料</em></span><small>2114N001 · 2.0 学分 · 四（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120090 · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120100 · 4.0 学分 · 四（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 四（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2021-strong-base-practice" aria-hidden="true"></span>实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2021-qiangji-practice }
@@ -1708,10 +1708,10 @@ hide:
         <p class="curriculum-section-note">△ 为原方案标记，原文件未注明含义。</p>
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ△</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>学科轮转与教学实习Ⅰ<em class="curriculum-course-status">暂无资料</em></span><small>72188050 · 4.0 学分 · 三（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>学科轮转与教学实习Ⅱ<em class="curriculum-course-status">暂无资料</em></span><small>72188040 · 4.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
         </div>
 
 
@@ -1729,89 +1729,89 @@ hide:
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### 基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2020-qiushi-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### 公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2020-qiushi-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>72120400 · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>72120400 · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
         </div>
 
         ##### 临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2020-qiushi-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
         </div>
 
         ##### 交叉性课程 <span class="curriculum-heading-credit">共 6.5 学分</span> { #curriculum-2020-qiushi-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### 专业选修课程 <span class="curriculum-heading-credit">修读 10.5 学分</span> { #curriculum-2020-qiushi-elective }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育统计与测量<em class="curriculum-course-status">暂无资料</em></span><small>03120261 · 2.0 学分 · 二（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>18198020 · 1.5 学分 · 三（秋）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞与再生医学<em class="curriculum-course-status">暂无资料</em></span><small>72120460 · 1.5 学分 · 四（秋）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>基因、环路与行为<em class="curriculum-course-status">暂无资料</em></span><small>72120600 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>神经系统疾病的分子基础<em class="curriculum-course-status">暂无资料</em></span><small>72120610 · 2.0 学分 · 四（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neural-modeling-and-data-analysis/"><span>神经建模与数据分析</span><small>72120540 · 2.0 学分 · 四（冬）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生物医学工程学概论<em class="curriculum-course-status">暂无资料</em></span><small>72120560 · 2.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>人工智能初步<em class="curriculum-course-status">暂无资料</em></span><small>2114N001 · 2.0 学分 · 四（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>衰老生物学导论<em class="curriculum-course-status">暂无资料</em></span><small>72120520 · 2.0 学分 · 四（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120090 · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120100 · 4.0 学分 · 四（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 四（夏）</small></a>
         </div>
 
         #### 实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2020-qiushi-practice }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>学科轮转与教学实习Ⅰ<em class="curriculum-course-status">暂无资料</em></span><small>72188050 · 4.0 学分 · 三（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>学科轮转与教学实习Ⅱ<em class="curriculum-course-status">暂无资料</em></span><small>72188040 · 4.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
         </div>
 
 
@@ -1826,17 +1826,17 @@ hide:
         ##### <span id="curriculum-2020-strong-base-required-group-1" aria-hidden="true"></span>感染与免疫学方向 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2020-qiangji-required-group-1 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/advanced_technology_in_microbiology_and_immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/advanced-technology-in-microbiology-and-immunology/"><span>微生物学与免疫学前沿技术</span><small>72120590 · 2.0 学分 · 四（秋）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>重要传染病的防治基础<em class="curriculum-course-status">暂无资料</em></span><small>72120570 · 2.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/clinical_immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-immunology/"><span>临床免疫学</span><small>18197061 · 1.5 学分 · 四（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2020-strong-base-required-group-2" aria-hidden="true"></span>分子肿瘤学方向 <span class="curriculum-heading-credit">共 6 学分</span> { #curriculum-2020-qiangji-required-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/cancer_biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/strategy_and_application_in_cancer_research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/introduction_to_clinical_oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/cancer-biology/"><span>肿瘤生物学</span><small>72120530 · 2.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/strategy-and-application-in-cancer-research/"><span>肿瘤研究策略与应用</span><small>72120550 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/introduction-to-clinical-oncology/"><span>临床肿瘤学概论</span><small>72120580 · 2.0 学分 · 二（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2020-strong-base-module" aria-hidden="true"></span>专业模块课程 <span class="curriculum-heading-credit">共 67.5 学分</span> { #curriculum-2020-qiangji-module }
@@ -1845,77 +1845,77 @@ hide:
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 一（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2020-strong-base-module-group-2" aria-hidden="true"></span>基础医学类课程 <span class="curriculum-heading-credit">共 23 学分</span> { #curriculum-2020-qiangji-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-pharmacology/"><span>基础药理学</span><small>18122940 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
         </div>
 
         ##### <span id="curriculum-2020-strong-base-module-group-3" aria-hidden="true"></span>公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2020-qiangji-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>72120400 · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>72120400 · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
         </div>
 
         ##### <span id="curriculum-2020-strong-base-module-group-4" aria-hidden="true"></span>临床医学类课程 <span class="curriculum-heading-credit">共 11.5 学分</span> { #curriculum-2020-qiangji-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>18122921 · 3.0 学分 · 四（春）</small></a>
         </div>
 
         ##### <span id="curriculum-2020-strong-base-module-group-5" aria-hidden="true"></span>交叉性课程 <span class="curriculum-heading-credit">共 6.5 学分</span> { #curriculum-2020-qiangji-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2020-strong-base-elective" aria-hidden="true"></span>专业选修课程 <span class="curriculum-heading-credit">修读 4.5 学分</span> { #curriculum-2020-qiangji-elective }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育统计与测量<em class="curriculum-course-status">暂无资料</em></span><small>03120261 · 2.0 学分 · 二（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>18198020 · 1.5 学分 · 三（秋）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/new_drug_research_and_development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/new-drug-research-and-development/"><span>新药研发</span><small>18198000 · 1.5 学分 · 三（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>人工智能初步<em class="curriculum-course-status">暂无资料</em></span><small>2114N001 · 2.0 学分 · 四（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120090 · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120100 · 4.0 学分 · 四（春夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 四（夏）</small></a>
         </div>
 
         #### <span id="curriculum-2020-strong-base-practice" aria-hidden="true"></span>实践教学环节 <span class="curriculum-heading-credit">共 15 学分</span> { #curriculum-2020-qiangji-practice }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>学科轮转与教学实习Ⅰ<em class="curriculum-course-status">暂无资料</em></span><small>72188050 · 4.0 学分 · 三（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>学科轮转与教学实习Ⅱ<em class="curriculum-course-status">暂无资料</em></span><small>72188040 · 4.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
         </div>
 
 
@@ -1933,65 +1933,65 @@ hide:
 
         <div class="curriculum-course-list">
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>生命科学基础<em class="curriculum-course-status">暂无资料</em></span><small>72120370 · 3.0 学分 · 一（秋冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/molecular_cell_biology_2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/genetics_and_developmental_biology_2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_research_literacy_1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-1/"><span>细胞与生物分子Ⅰ</span><small>18122790 · 3.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/molecular-cell-biology-2/"><span>细胞与生物分子Ⅱ</span><small>18122800 · 5.0 学分 · 二（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-1/"><span>遗传与发育Ⅰ</span><small>18122810 · 3.0 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/genetics-and-developmental-biology-2/"><span>遗传与发育Ⅱ</span><small>18122820 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-research-literacy-1/"><span>医学科学素养Ⅰ</span><small>72120380 · 1.0 学分 · 二（春）</small></a>
         </div>
 
         ##### 基础医学类课程 <span class="curriculum-heading-credit">共 24 学分</span> { #curriculum-2019-qiushi-module-group-2 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/structure_and_function_of_the_human_body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/infectious_diseases_and_immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/the_basis_for_human_diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/structure-and-function-of-the-human-body/"><span>人体结构与功能学</span><small>18122830 · 6.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/infectious-diseases-and-immunity/"><span>感染与免疫学</span><small>18122840 · 5.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/the-basis-for-human-diseases/"><span>疾病基础</span><small>18122930 · 6.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/neuroscience/"><span>神经科学</span><small>72120420 · 3.0 学分 · 三（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>药理学与新药研发<em class="curriculum-course-status">暂无资料</em></span><small>72120470 · 4.0 学分 · 三（春夏）</small></div>
         </div>
 
         ##### 公共卫生与预防医学类课程 <span class="curriculum-heading-credit">共 7 学分</span> { #curriculum-2019-qiushi-module-group-3 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/experimental_animals_and_ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_science_literacy_2/"><span>医学科学素养Ⅱ</span><small>72120400 · 2.0 学分 · 三（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_epidemiology_and_evidence_based_medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/experimental-animals-and-ethics/"><span>实验动物与伦理学</span><small>72120450 · 2.0 学分 · 二（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-science-literacy-2/"><span>医学科学素养Ⅱ</span><small>72120400 · 2.0 学分 · 三（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-epidemiology-and-evidence-based-medicine/"><span>临床流行病学与循证医学</span><small>73120120 · 3.0 学分 · 三（秋冬）</small></a>
         </div>
 
         ##### 临床医学类课程 <span class="curriculum-heading-credit">共 12.5 学分</span> { #curriculum-2019-qiushi-module-group-4 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/human_diseases_from_clinic_to_research_3/"><span>重要疾病的临床与研究Ⅲ</span><small>72120500 · 4.0 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-1/"><span>重要疾病的临床与研究Ⅰ</span><small>72120480 · 4.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-2/"><span>重要疾病的临床与研究Ⅱ</span><small>72120510 · 4.0 学分 · 四（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/human-diseases-from-clinic-to-research-3/"><span>重要疾病的临床与研究Ⅲ</span><small>72120500 · 4.0 学分 · 四（春）</small></a>
         </div>
 
         ##### 交叉性课程 <span class="curriculum-heading-credit">共 9.5 学分</span> { #curriculum-2019-qiushi-module-group-5 }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/medical_big_data_and_application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-biophysics/"><span>医学生物物理学</span><small>72120390 · 3.0 学分 · 二（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-big-data-and-application/"><span>医学大数据与应用</span><small>72120440 · 2.0 学分 · 二（夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>干细胞与再生医学<em class="curriculum-course-status">暂无资料</em></span><small>72120460 · 1.5 学分 · 三（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>肿瘤研究前沿<em class="curriculum-course-status">暂无资料</em></span><small>72120410 · 1.5 学分 · 三（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/brain_and_brain_machine_integrated_systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/brain-and-brain-machine-integrated-systems/"><span>脑与脑机融合</span><small>72120430 · 1.5 学分 · 三（夏）</small></a>
         </div>
 
         #### 专业选修课程 <span class="curriculum-heading-credit">修读 4.5 学分</span> { #curriculum-2019-qiushi-elective }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/physical_chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/physical-chemistry/"><span>物理化学</span><small>061B9030 · 4.0 学分 · 一（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>法理学<em class="curriculum-course-status">暂无资料</em></span><small>021A0010 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>管理学<em class="curriculum-course-status">暂无资料</em></span><small>201A0020 · 3.0 学分 · 二（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育统计与测量<em class="curriculum-course-status">暂无资料</em></span><small>03120261 · 2.0 学分 · 二（夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生学<em class="curriculum-course-status">已停开</em></span><small>18120590 · 2.0 学分 · 二（夏） · 可选预防医学（MED2425M）替换</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>科学写作与表达<em class="curriculum-course-status">暂无资料</em></span><small>18198020 · 1.5 学分 · 三（秋）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>教育心理学<em class="curriculum-course-status">暂无资料</em></span><small>03120281 · 2.0 学分 · 三（春）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/health_management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/medical_ethics_and_health_law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/forensic_medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 四（秋）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/health-management/"><span>卫生事业管理</span><small>18120571 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/medical-ethics-and-health-law/"><span>医学伦理学与卫生法学</span><small>73120070 · 1.5 学分 · 三（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/forensic-medicine/"><span>法医学</span><small>18121850 · 1.5 学分 · 四（秋）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>卫生毒理学<em class="curriculum-course-status">暂无资料</em></span><small>18120542 · 3.5 学分 · 四（秋冬）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>全球环境改变与人类健康<em class="curriculum-course-status">暂无资料</em></span><small>18122030 · 1.5 学分 · 四（冬）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../elective/social_medicine_b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/social-medicine-b/"><span>社会医学(乙)</span><small>18120444 · 1.5 学分 · 四（春）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>人工智能初步<em class="curriculum-course-status">暂无资料</em></span><small>2114N001 · 2.0 学分 · 四（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>环境卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120090 · 4.0 学分 · 四（春夏）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>营养与食品卫生学<em class="curriculum-course-status">暂无资料</em></span><small>73120100 · 4.0 学分 · 四（春夏）</small></div>
@@ -2000,11 +2000,11 @@ hide:
         #### 实践教学环节 <span class="curriculum-heading-credit">共 16.5 学分</span> { #curriculum-2019-qiushi-practice }
 
         <div class="curriculum-course-list">
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/basic_techniques_in_medical_sciences_2/"><span>基础医学科学研究技能Ⅱ</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-1/"><span>基础医学科学研究技能Ⅰ</span><small>18122950 · 1.5 学分 · 二（冬）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/basic-techniques-in-medical-sciences-2/"><span>基础医学科学研究技能Ⅱ</span><small>72120490 · 1.0 学分 · 二（春夏）</small></a>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>学科轮转与教学实习Ⅰ<em class="curriculum-course-status">暂无资料</em></span><small>72188050 · 4.0 学分 · 三（春）</small></div>
           <div class="curriculum-course-item curriculum-course-item--unavailable"><span>学科轮转与教学实习Ⅱ<em class="curriculum-course-status">暂无资料</em></span><small>72188040 · 4.0 学分 · 三（夏）</small></div>
-          <a class="curriculum-course-item curriculum-course-item--available" href="../mandatory/clinical_practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
+          <a class="curriculum-course-item curriculum-course-item--available" href="../courses/clinical-practice/"><span>临床实习</span><small>72188030 · 6.0 学分 · 四（夏）</small></a>
         </div>
 
 

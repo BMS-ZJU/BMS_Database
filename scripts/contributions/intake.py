@@ -14,9 +14,9 @@ from urllib.request import HTTPRedirectHandler, Request, build_opener
 import yaml
 
 try:
-    from .catalog import AUTO_COURSE, courses
+    from .catalog import AUTO_COURSE, courses, normalize_page_path, page_migrations
 except ImportError:
-    from catalog import AUTO_COURSE, courses
+    from catalog import AUTO_COURSE, courses, normalize_page_path, page_migrations
 
 LABELS = ("课程", "页面地址", "适用范围", "内容", "来源与依据", "网页署名",
           "本站使用范围", "允许使用的外部模型服务", "Ginkgo 使用意愿", "公开确认",
@@ -61,17 +61,24 @@ def parse_fields(body):
     return fields
 
 
-def resolve_target(root, target):
-    if not re.fullmatch(r"docs/(mandatory|elective)/[a-z0-9_/-]+\.md", target):
+def canonical_target(root, target):
+    if not isinstance(target, str) or not re.fullmatch(
+            r"docs/(?:courses|mandatory|elective)/[a-z0-9_-]+(?:/[a-z0-9_-]+)*\.md", target):
         raise ValueError("只能选择已登记课程中的现有 Markdown 页面")
+    source = normalize_page_path(root, target.removeprefix("docs/")).split("#", 1)[0]
+    if not source.startswith("courses/"):
+        raise ValueError("旧课程路径未在迁移映射中登记")
+    return "docs/" + source
+
+
+def resolve_target(root, target):
+    target = canonical_target(root, target)
     candidate = root / target
     if any(part.is_symlink() for part in [candidate, *candidate.parents]):
         raise ValueError("目标路径不能经过符号链接")
     if not candidate.resolve().is_relative_to((root / "docs").resolve()):
         raise ValueError("目标超出课程目录")
-    courses = yaml.safe_load((root / "COURSE_NAME_MAP.yml").read_text(encoding="utf-8"))["courses"]
-    if not any(target.startswith("docs/" + item["path"] + "/")
-               for item in courses if item.get("path")):
+    if not any(target.startswith("docs/" + item["id"] + "/") for item in courses(root)):
         raise ValueError("目标课程未在课程映射中登记")
     if not candidate.is_file() or candidate.stat().st_size > 240000:
         raise ValueError("目标不存在或超过处理上限")
@@ -81,25 +88,41 @@ def resolve_target(root, target):
     return candidate, content
 
 
-def validate_selection(root, target, fields):
-    course = next(item for item in courses(root) if target.startswith("docs/" + item["id"] + "/"))
-    # Auto matching still requires the exact page URL below; it never chooses a target.
-    if fields.get("课程") not in (AUTO_COURSE, course["label"]):
-        raise ValueError("表单课程与目标页面不匹配, 请人工核对")
-    # Read scalar configuration without executing the YAML Python-tag extensions.
-    config = yaml.load((root / "mkdocs.yml").read_text(encoding="utf-8"), Loader=yaml.BaseLoader)
-    site = urlsplit(config["site_url"])
-    page = urlsplit(fields.get("页面地址", ""))
-    relative = target.removeprefix("docs/").removesuffix(".md")
-    if config.get("use_directory_urls", "true").lower() == "false":
+def _page_url_path(source, site_path, directory_urls):
+    relative = source.removesuffix(".md")
+    if not directory_urls:
         relative += ".html"
     elif relative.endswith("/index"):
         relative = relative[:-5]
     else:
         relative += "/"
-    expected_path = site.path.rstrip("/") + "/" + relative
+    return site_path.rstrip("/") + "/" + relative
+
+
+def validate_selection(root, target, fields):
+    target = canonical_target(root, target)
+    course = next((item for item in courses(root)
+                   if target.startswith("docs/" + item["id"] + "/")), None)
+    if course is None or fields.get("课程") not in (AUTO_COURSE, course["label"]):
+        raise ValueError("表单课程与目标页面不匹配, 请人工核对")
+    # Only exact URLs on this configured site can name a page. A migration adds
+    # explicit alternate spellings; it does not accept arbitrary redirects.
+    config = yaml.load((root / "mkdocs.yml").read_text(encoding="utf-8"), Loader=yaml.BaseLoader)
+    site = urlsplit(config["site_url"])
+    address = fields.get("页面地址", "")
+    if not isinstance(address, str) or any(ord(char) < 32 or ord(char) == 127 for char in address):
+        raise ValueError("页面地址含无效字符")
+    page = urlsplit(address)
     if (page.scheme != site.scheme or page.netloc.lower() != site.netloc.lower()
-            or page.path != expected_path or page.query or page.username or page.password):
+            or page.query or page.username or page.password):
+        raise ValueError("表单页面地址与本次修改目标不匹配, 请从网站重新选择")
+    source = target.removeprefix("docs/")
+    aliases = page_migrations(root)
+    allowed_sources = [source, *(old for old, new in aliases.items()
+                                 if new.split("#", 1)[0] == source)]
+    directory_urls = config.get("use_directory_urls", "true").lower() != "false"
+    allowed_paths = {_page_url_path(old, site.path, directory_urls) for old in allowed_sources}
+    if page.path not in allowed_paths:
         raise ValueError("表单页面地址与本次修改目标不匹配, 请从网站重新选择")
 
 
@@ -312,6 +335,7 @@ def review_html(snapshot, proposal, status, preview_url, changed):
 
 def prepare(root, target, issue, out, env, transport=request_json):
     path, original = resolve_target(root, target)
+    target = path.relative_to(root).as_posix()
     fields = parse_fields(issue.get("body"))
     validate_selection(root, target, fields)
     units = evidence_units(fields)

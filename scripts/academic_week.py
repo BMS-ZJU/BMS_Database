@@ -14,7 +14,7 @@ import re
 import sys
 from typing import Any
 
-DEFAULT_CALENDAR = Path(__file__).resolve().parents[1] / "ACADEMIC_CALENDAR.json"
+DEFAULT_CALENDAR = Path(__file__).resolve().parents[1] / "data/academic-calendars.json"
 TERMS = ("秋", "冬", "春", "夏")
 SEMESTERS = {"秋": ("秋",), "冬": ("冬",), "春": ("春",), "夏": ("夏",),
              "秋冬": ("秋", "冬"), "春夏": ("春", "夏")}
