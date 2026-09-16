@@ -2,7 +2,20 @@
 
 第一版使用 GitHub Issue 表单接收公开文字、附件和线索。投稿者不需要修改仓库。资料表单填写新材料或经验, 纠错表单分别填写“问题位置与现状”“建议修改”; 后续共用受限处理流程。熟悉项目的人可按[直接修改教程](../docs/contribute/editing.md)提交 PR, 多页相关修改不必拆成多个 PR。
 
-当前功能状态: 投稿入口、人工审批、持久账本、三家官方模型服务适配与审阅产物代码已具备, **真实调用默认关闭, 累计额度为零**。完整 GitHub 审批、账本和模型链路尚未完成云端验收。收件和人工修改无需模型配置。
+当前功能状态: 投稿入口、人工审批、持久账本、三家官方模型服务适配与审阅产物代码已具备, **真实调用默认关闭, 累计额度为零**。独立私有测试库已走通一次明确批准的 DeepSeek 云端调用、记账和审阅预览; 正式公开仓库仍需单独配置并验收。收件和人工修改无需模型配置。
+
+## 正式环境接入顺序
+
+代码进入正式仓库不等于启用付费处理。首次接入按以下顺序完成, 各项配置名称和用途见下文:
+
+1. 保持 `scripts/contributions/repository.json` 的 `real_calls_enabled: false`、三个累计额度为 0, 仓库 Variable `CONTRIBUTION_AI_ENABLED` 为 false 或未设置。先通过 PR 的“投稿链路检查”和严格构建; 回归测试只使用模拟响应, 不需要模型密钥。
+2. 配置仅允许 main 的 `contribution-model` Environment、默认分支的更新限制和 `contribution-ledger` 的防删除/强推规则。账本保护不设置 bypass, 不修改既有 Pages 部署流程。
+3. 在正式 Environment 新建 `CONTRIBUTION_LEDGER_KEY`, 用 `initialize` 创建正式账本并保存首次 `CONTRIBUTION_LEDGER_ANCHOR`。不用测试库的账目、锚点或认证密钥; 不把重复 initialize 返回的当前提交当作新锚点。
+4. 首先选择已实测的 DeepSeek: 仓库 Variable `CONTRIBUTION_MODEL_SERVICE=DeepSeek`、`CONTRIBUTION_MODEL_NAME=deepseek-flash`。在正式 Environment 设置 `CONTRIBUTION_DEEPSEEK_API_KEY`, 使用由正式维护者管理的密钥; 不从测试产物复制密钥, 无需配置另外两家服务。
+5. 仍保持开关关闭, 使用允许公开且同意 DeepSeek 整理的材料验证 `snapshot` 与产物下载。正式工作流没有测试库的 mock 模式; 不发请求的完整逐步演示使用下文的本机演示, 云端模拟保留在独立测试库。
+6. 准备真实试运行时, 再审阅一次调用的额度和源码开关变更, 最后启用仓库 Variable。配置或 main 版本改变后重新生成快照, 维护者读过材料后才提交 `process`。测试库的批准不能用于正式仓库, 本次接入也不授予任何具体投稿的付费批准。
+
+已有三家官方适配继续保留。测试课程、合成投稿、测试专属工作流和账本不迁入正式网站; 正式候选仍只输出供人工审阅的文件, 不自动创建 PR 或发布。
 
 ## 课程与页面选择
 
@@ -165,9 +178,11 @@ python -m scripts.contributions.demo --data-dir ../contribution-demo --port 8977
 
 ## 验证范围
 
-既有验证记录: 独立测试中的 DeepSeek 本地真实调用曾通过一次; OpenAI 与 Gemini 仅有模拟响应验证。上述记录不代表完整 GitHub 审批、持久账本和模型链路已通过云端验收。
+2026-09-16, 独立私有测试库完成 GitHub 托管 runner 上的人工快照批准、额度预留、一次 DeepSeek / deepseek-flash 请求、限定候选、审阅预览和持久结账。接口返回输入 986、生成 1610、合计 2596 tokens, 请求与返回模型字段均为 deepseek-flash; 未返回更细的底层版本号。该次运行的 154 项自动化检查通过, 测试后关闭真实开关, 一次额度保留为已消耗。模型、账本、输出检查和官方适配与正式实现共用, 私有仓库身份和模拟模式等部署差异单独保留。
 
-运行 python -m unittest discover -s tests -p "test_contribution*.py"。测试使用模拟 GitHub Git 图、原子引用更新和三家模拟响应, 校验未获准的模型请求次数为零、材料变化、重复运行、并发额度、未知状态、恶意输出和合法预览。模型适配测试不等于真实服务验证。
+上述实测使用维护者身份和合成材料, 不能代表正式公开环境、普通成员或外部 PR 身份已验收。OpenAI、Gemini、真实服务故障和供应商金额账单仍未实测; 没有自动 PR、合并或部署的验收结论。正式运行仍须使用自己的身份配置、Secret、账本、额度和新快照。
+
+运行 python -m unittest discover -s tests -p "test_contribution*.py"。测试使用模拟 GitHub Git 图、原子引用更新和三家模拟响应, 校验未获准的模型请求次数为零、材料变化、重复运行、并发额度、未知状态、恶意输出和合法预览。模型适配测试不等于真实服务验证。相关修改的 PR 和 main 推送由“投稿链路检查”自动执行这组测试, 该 job 只有 contents: read, 不引用 Secrets 或模型 Environment。测试使用独立合成额度, 不要求部署配置永远保持零额度; 缺失开关、关闭开关和额度不足仍分别验证请求次数为零。
 
 本地还应运行严格构建并检查已有投稿页面交互。首次云端启用前先保持付费开关关闭, 验证 snapshot、维护者权限、账本初始化和产物下载; 再按明确授权做合成公开样例的最小真实调用。账户角色、分支保护、Actions 权限、实际 API 用量结构、延迟和账单均需在真实环境中确认。
 

@@ -77,8 +77,12 @@ class PipelineTests(unittest.TestCase):
         self.addCleanup(guard.stop)
         (self.root / "scripts/contributions/rules.md").write_text(
             (REPO / "scripts/contributions/rules.md").read_text(encoding="utf-8"), encoding="utf-8")
-        limits = sec.policy(REPO)
-        limits.update(cumulative_calls=3, cumulative_input_chars=300000, cumulative_output_tokens=18000)
+        # Synthetic test budget is independent of the deployment's approved budget.
+        limits = {"version": 1, "max_submission_chars": 10000, "max_page_chars": 30000,
+                  "max_input_chars": 50000, "max_output_tokens": 4096,
+                  "max_calls_per_approval": 1, "max_in_flight": 1,
+                  "cumulative_calls": 3, "cumulative_input_chars": 300000,
+                  "cumulative_output_tokens": 18000}
         pipeline.write_json(self.root / sec.POLICY_PATH, limits)
         pipeline.write_json(self.root / runtime.CONFIG, {"repository": WorkflowAPI.repository, "real_calls_enabled": True})
         self.api = WorkflowAPI(self.root, self.target)
@@ -215,7 +219,7 @@ class PipelineTests(unittest.TestCase):
     def test_zero_missing_and_oversized_limits_never_call(self):
         configured = sec.policy(self.root)
         for limits in ({**configured, "cumulative_calls": 0}, {**configured, "cumulative_output_tokens": 0},
-                       {**configured, "max_input_chars": 100}):
+                       {**configured, "cumulative_input_chars": 0}, {**configured, "max_input_chars": 100}):
             pipeline.write_json(self.root / sec.POLICY_PATH, limits)
             try:
                 self.refresh_snapshot()

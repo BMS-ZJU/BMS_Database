@@ -1,4 +1,5 @@
 name: 整理公开投稿
+run-name: "${{ inputs.operation }} / issue ${{ inputs.issue_number }} / snapshot ${{ inputs.snapshot_run_id }}"
 
 on:
   workflow_dispatch:

@@ -309,6 +309,29 @@ class IntakeTests(unittest.TestCase):
                 self.assertEqual(checkouts[0]["with"]["ref"], "${{ github.sha }}")
                 self.assertEqual(checkouts[0]["with"]["persist-credentials"], "false")
 
+    def test_automatic_checks_cannot_enter_paid_workflow(self):
+        checks = yaml.load((REPO / ".github/workflows/contribution-checks.yml").read_text(encoding="utf-8"),
+                           Loader=yaml.BaseLoader)
+        self.assertEqual(set(checks["on"]), {"push", "pull_request"})
+        self.assertEqual(checks["permissions"], {"contents": "read"})
+        self.assertEqual(set(checks["jobs"]), {"tests"})
+        job = checks["jobs"]["tests"]
+        self.assertNotIn("environment", job)
+        self.assertNotIn("permissions", job)
+        self.assertNotIn("uses", job)  # Cannot call a privileged reusable workflow.
+        text = json.dumps(checks)
+        self.assertNotIn("secrets.", text)
+        self.assertNotIn("github.token", text)
+        self.assertNotIn("scripts.contributions.pipeline", text)
+        self.assertNotIn("workflow_dispatch", text)
+        checkout = next(step for step in job["steps"] if step.get("uses", "").startswith("actions/checkout@"))
+        self.assertEqual(checkout["with"]["persist-credentials"], "false")
+        runs = [step["run"] for step in job["steps"] if "run" in step]
+        self.assertEqual(runs, ["python -m pip install -r requirements.txt",
+                               'python -m unittest discover -s tests -p "test_contribution*.py"'])
+        # The separate paid entry still has no push, PR, issue or comment trigger.
+        self.assertEqual(set(load_workflow()["on"]), {"workflow_dispatch"})
+
     def test_workflow_model_secrets_are_confined_to_three_exclusive_steps(self):
         workflow = load_workflow()
         self.assertNotRegex(json.dumps({key: value for key, value in workflow.items() if key != "jobs"}),

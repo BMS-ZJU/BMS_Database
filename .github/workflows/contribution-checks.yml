@@ -1,0 +1,56 @@
+name: 投稿链路检查
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/contribution-*.yml'
+      - '.github/ISSUE_TEMPLATE/**'
+      - 'scripts/contributions/**'
+      - 'tests/test_contribution*.py'
+      - 'hooks/**'
+      - 'data/**'
+      - 'docs/contribute/**'
+      - 'docs/assets/scripts/contribution-picker.js'
+      - 'docs/assets/styles/contribution.css'
+      - 'overrides/partials/contribution-actions.html'
+      - 'mkdocs.yml'
+      - 'requirements.txt'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/contribution-*.yml'
+      - '.github/ISSUE_TEMPLATE/**'
+      - 'scripts/contributions/**'
+      - 'tests/test_contribution*.py'
+      - 'hooks/**'
+      - 'data/**'
+      - 'docs/contribute/**'
+      - 'docs/assets/scripts/contribution-picker.js'
+      - 'docs/assets/styles/contribution.css'
+      - 'overrides/partials/contribution-actions.html'
+      - 'mkdocs.yml'
+      - 'requirements.txt'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contribution-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      # Only local fixtures, no model Secrets or production pipeline invocation.
+      - name: 验证投稿授权、账本与限定输出
+        run: python -m unittest discover -s tests -p "test_contribution*.py"
