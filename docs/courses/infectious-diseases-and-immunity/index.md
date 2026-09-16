@@ -15,21 +15,40 @@ source-attribution
 
 ## 上课与平时任务
 
-2025-2026 学年秋冬学期的现有记录包括：
+**2026-2027 学年秋冬学期：**周一、周三第 1—2 节上课，秋、冬偶数周的周五第 6—9 节安排实验或讨论。全学期有 6 次讨论课，其中 5 次围绕免疫学，另有 1 次讨论病毒跨种传播；4 次实验课中，免疫学和病原微生物学各 2 次。冬学期第 1 周安排期中考试；期末考试在考试周进行。
 
-| 环节 | 数量 | 记录中的形式 |
-| --- | ---: | --- |
-| 线上小测 | 3 次 | 选择题 |
-| 免疫学实验 | 3 次 | 实验 |
-| 病原微生物学实验 | 2 次 | 实验 |
-| 小组讨论展示 | 5 次 | 小组展示 |
-| 期末考试 | 1 次 | 题型见下方 |
+**2025-2026 学年秋冬学期：**有 3 次线上选择题小测、3 次免疫学实验、2 次病原微生物学实验和 5 次小组讨论展示，另有期末考试。该学年的完整分数比例目前没有可靠记录。
 
-目前没有可靠的完整分数比例。
+## 分数构成
 
-## 近年期末考试
+2026-2027 学年秋冬学期：
 
-三份回忆卷显示，题型框架大体相近，但题量、选答规则和每题分值会变化：
+<div class="course-score">
+  <div class="course-score__items" role="list" aria-label="感染与免疫学 2026-2027 学年秋冬学期分数构成">
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">20<span>%</span></div>
+      <div class="course-score__body"><strong>讨论课</strong><p>共六次评分</p></div>
+    </div>
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">20<span>%</span></div>
+      <div class="course-score__body"><strong>实验课</strong><p>四次实验操作与报告</p></div>
+    </div>
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">30<span>%</span></div>
+      <div class="course-score__body"><strong>期中考试</strong><p>1.5 小时闭卷</p></div>
+    </div>
+    <div class="course-score__item" role="listitem">
+      <div class="course-score__number">30<span>%</span></div>
+      <div class="course-score__body"><strong>期末考试</strong><p>2 小时闭卷</p></div>
+    </div>
+  </div>
+</div>
+
+## 考试安排与历年题型 { #_4 }
+
+2026-2027 学年新增期中考试，为 1.5 小时闭卷考试，范围为前八周已讲授内容；期末为 2 小时闭卷考试。
+
+此前三份期末回忆卷显示，题型框架大体相近，但题量、选答规则和每题分值会变化：
 
 | 学年 | 回忆记录 |
 | --- | --- |
