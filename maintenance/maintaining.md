@@ -122,7 +122,7 @@ python -m unittest discover -s tests -p "test_academic_week.py"
 python -m unittest discover -s tests -p "test_contribution*.py"
 ```
 
-`Deploy documentation` 的 PR 检查目前只执行严格构建，不能代替投稿脚本测试和浏览器检查。新改动、失败或未覆盖的实际影响才需要扩大验证。提交前核对 `git diff --stat` 和目标路径差异，仅用 `git add -- <明确路径>` 暂存已审内容。
+`Deploy documentation` 的 PR 检查执行严格构建; `投稿链路检查` 在相关代码、表单或构建依赖改变时, 自动运行本地模拟回归测试, 不持有模型密钥、不启动付费处理。两者均不能代替浏览器检查或正式模型链路验收。新改动、失败或未覆盖的实际影响才需要扩大验证。提交前核对 `git diff --stat` 和目标路径差异，仅用 `git add -- <明确路径>` 暂存已审内容。
 
 ## 发布与回退
 

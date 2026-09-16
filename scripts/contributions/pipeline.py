@@ -235,7 +235,7 @@ def main():
         anchor = initialize(api, env.get("BMS_LEDGER_KEY", ""))
         if env.get("GITHUB_STEP_SUMMARY"):
             Path(env["GITHUB_STEP_SUMMARY"]).write_text(
-                f"账本已初始化, 将 CONTRIBUTION_LEDGER_ANCHOR 设置为 `{anchor}`。额度仍默认关闭。\n", encoding="utf-8")
+                f"账本检查完成, 当前提交: `{anchor}`。仅首次创建时将此根提交填入 CONTRIBUTION_LEDGER_ANCHOR; 已有账本保留原锚点, 不用当前提交替换。\n", encoding="utf-8")
         return
     ledger = Ledger(api, env.get("BMS_LEDGER_ANCHOR", ""), env.get("BMS_LEDGER_KEY", "")) if args.operation in ("settle", "reconcile") else None
     if args.operation == "reconcile":
