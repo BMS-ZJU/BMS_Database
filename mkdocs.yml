@@ -12,6 +12,8 @@ draft_docs: |
   !zijingang/course-selection.md
   !zijingang/external-exchange.md
   !zijingang/textbooks.md
+  !zijingang/useful-tools.md
+  !zijingang/assets/edge-zjuers-homepage.png
   !zijingang/assets/exchange-credit-recognition.png
   !zijingang/assets/textbook-return-route.png
   !zijingang/assets/textbook-return-route.webp
@@ -75,6 +77,7 @@ nav:
       - 选课: zijingang/course-selection.md
       - 教材选购与退订: zijingang/textbooks.md
       - 缓考: zijingang/deferred-exams.md
+    - 常用工具与网站: zijingang/useful-tools.md
     - 对外交流: zijingang/external-exchange.md
   - 培养方案:
     - curricula/index.md
