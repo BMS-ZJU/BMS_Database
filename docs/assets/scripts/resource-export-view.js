@@ -13,6 +13,9 @@
   let revision = 0;
   let preparing = false;
 
+  const yieldToBrowser = () => window.scheduler?.yield ? window.scheduler.yield() :
+    new Promise((resolve) => setTimeout(resolve, 0));
+
   const withTimeout = (promise, message, duration = 20000) => {
     let timer;
     return Promise.race([
@@ -78,8 +81,10 @@
   const getInitialSelection = (units) => {
     const params = new URL(location.href).searchParams;
     if (params.get("select") === "none") return new Set();
-    if (!params.has("selected")) {
-      return new Set(units.filter((unit) => unit.selected).map((unit) => unit.sourceUrl.href));
+    if (params.get("select") === "first" || !params.has("selected")) {
+      const defaults = units.filter((unit) => unit.selected);
+      const initial = params.get("select") === "first" ? defaults.slice(0, 1) : defaults;
+      return new Set(initial.map((unit) => unit.sourceUrl.href));
     }
     const selected = new Set(params.getAll("selected").map((value) => validateSource(value).href));
     const available = new Set(units.map((unit) => unit.sourceUrl.href));
@@ -230,7 +235,19 @@
   };
 
   const cleanArticle = (sourceArticle, sourceUrl, paperTitle) => {
-    const result = sourceArticle.cloneNode(true);
+    // Copy only this material, not the entire collection for every selected item.
+    const section = sourceUrl.hash && Array.from(sourceArticle.querySelectorAll('section[id][data-export-title]'))
+      .find((node) => node.id === sourceUrl.hash.slice(1));
+    const result = sourceArticle.cloneNode(!section);
+    if (section) {
+      const nodes = [sourceArticle.querySelector(':scope > h1'),
+        sourceArticle.querySelector(':scope > .resource-use-notice'),
+        sourceArticle.querySelector(':scope > blockquote'), section.closest('.tabbed-block') || section,
+        ...Array.from(sourceArticle.querySelectorAll('[data-answer-summary]'))
+          .filter((node) => node.dataset.exportGroup === section.id),
+        sourceArticle.querySelector(':scope > .resource-use-source')];
+      result.append(...nodes.filter(Boolean).map((node) => node.cloneNode(true)));
+    }
     result.querySelector("h1").textContent = paperTitle;
     const collection = result.querySelector(".resource-collection-marker + .tabbed-set");
     result.querySelectorAll(
@@ -512,6 +529,16 @@
       errorCallback: () => { mathFailed = true; },
     });
     if (mathFailed || article.querySelector(".katex-error")) throw new Error("部分公式未能正确排版，请返回原文核对。");
+    // Warm only the formula fonts actually used, without laying out the full paper.
+    const probe = document.createElement("div");
+    probe.className = "export-measure";
+    probe.setAttribute("aria-hidden", "true");
+    probe.append(...Array.from(article.querySelectorAll(".katex"), (math) => math.cloneNode(true)));
+    try {
+      document.body.append(probe);
+      probe.getBoundingClientRect();
+      await withTimeout(document.fonts.ready, "字体加载超时，请刷新重试。");
+    } finally { probe.remove(); }
   };
 
   const groupShortQuestions = (article) => {
@@ -528,16 +555,15 @@
     document.body.append(measuring);
     const originals = article.querySelectorAll("li");
     const measuredItems = new Map();
+    // Read all heights before changing the live document's pagination classes.
     copy.querySelectorAll("li").forEach((item, index) => {
-      originals[index].classList.remove("paper-keep-next-question");
       const written = !!item.closest(".paper-question-list, .paper-case-questions");
       const multipart = item.classList.contains("paper-written-question") &&
         !!item.querySelector("ol, ul, img, table, blockquote, .paper-subquestion");
       // Keep small text questions/subquestions together; let multipart case material flow.
       const limit = written ? 190 : 340;
       const keep = !multipart && item.getBoundingClientRect().height < limit;
-      originals[index].classList.toggle("keep-together", keep);
-      measuredItems.set(item, { original: originals[index], keep });
+      measuredItems.set(item, { original: originals[index], keep, keepNext: false });
     });
     copy.querySelectorAll(".paper-question-list--short").forEach((list) => {
       const items = Array.from(list.children).filter((node) => node.matches("li"));
@@ -546,10 +572,14 @@
       if (!previous || !measuredItems.get(previous)?.keep || !measuredItems.get(last)?.keep) return;
       // Avoid a lone final question without locking a long pair or an entire section together.
       if (last.getBoundingClientRect().bottom - previous.getBoundingClientRect().top < 110) {
-        measuredItems.get(previous).original.classList.add("paper-keep-next-question");
+        measuredItems.get(previous).keepNext = true;
       }
     });
     measuring.remove();
+    measuredItems.forEach(({ original, keep, keepNext }) => {
+      original.classList.toggle("keep-together", keep);
+      original.classList.toggle("paper-keep-next-question", keepNext);
+    });
   };
 
   const updateAnswers = () => {
@@ -561,7 +591,6 @@
         summary.hidden = answerMode.value !== 'answers';
       });
       if (answerKey) answerKey.hidden = answerMode.value !== "end";
-      groupShortQuestions(article);
     });
     const labels = { questions: "仅题目", answers: papers.some((entry) => entry.answerSections.length) ? "含答案" : "答案随题", end: "答案附后" };
     const suffix = papers.some((entry) => entry.answers.length || entry.answerSections.length) ? `（${labels[answerMode.value]}）` : "";
@@ -660,6 +689,7 @@
 
       // Each selected material uses the existing independent-paper pipeline.
       for (const [index, { sourceUrl, parsed, original }] of units.entries()) {
+        await yieldToBrowser();
         if (version !== revision) return;
         const requestedUrl = sourceUrl;
         currentIndex = index + 1;
@@ -670,7 +700,6 @@
         article.className = "paper-content";
         if (cleaned.id) article.id = cleaned.id;
         article.append(...cleaned.childNodes);
-        paper.append(article);
         currentLabel = article.querySelector("h1").textContent.trim();
         const entry = { article, sourceUrl, title: currentLabel,
           answers: Array.from(article.querySelectorAll(".quiz-answer")),
@@ -683,13 +712,12 @@
             "题图加载超时，请检查网络后刷新重试。"),
         ]);
         if (version !== revision) return;
-        // Flush layout so fonts used by this paper enter the font-loading set.
-        article.getBoundingClientRect();
-        await withTimeout(document.fonts.ready, "字体加载超时，请刷新重试。");
-        if (version !== revision) return;
         formatQuestions(entry);
         entry.supportsEndAnswers = buildAnswerKey(entry);
         if (batch) namespaceReferences(article, sourceUrl, `export-paper-${currentIndex}-`);
+        // Assets are ready; leave offscreen text layout to the browser until needed.
+        article.dataset.previewReady = '';
+        paper.append(article);
         papers.push(entry);
         completed += 1;
       }
@@ -805,8 +833,9 @@
     document.querySelector('.export-range-summary').hidden = false;
     document.querySelector('#source-link').href = units[0].sourceUrl.pathname;
     update(false);
-    // Empty entry points must expose the next step; later changes keep the user's panel state.
-    setRangeExpanded(!selection.length);
+    // Collection cards expose the remaining choices, even when only the first is selected.
+    const firstEntry = new URL(location.href).searchParams.get('select') === 'first';
+    setRangeExpanded(!selection.length || (units.length > 1 && (firstEntry || selection.length === units.length)));
   };
 
   const initialize = async () => {
@@ -831,6 +860,14 @@
 
   answerMode.addEventListener("change", () => { if (ready) updateAnswers(); });
   printButton.addEventListener("click", () => { if (ready) window.print(); });
-  window.addEventListener("beforeprint", () => { if (ready) papers.forEach(({ article }) => groupShortQuestions(article)); });
+  window.addEventListener("beforeprint", () => {
+    if (!ready) return;
+    papers.forEach((entry) => {
+      // Pagination is needed for printing only; reuse it while the answer mode is unchanged.
+      if (entry.groupedAnswerMode === answerMode.value) return;
+      groupShortQuestions(entry.article);
+      entry.groupedAnswerMode = answerMode.value;
+    });
+  });
   initialize();
 })();
