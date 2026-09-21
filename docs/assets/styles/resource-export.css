@@ -732,6 +732,11 @@ body.resource-export-view [hidden] {
 }
 
 @media screen {
+  /* Keep every material in the document; only defer offscreen layout and paint. */
+  .resource-export-view main.paper > .paper-content[data-preview-ready] {
+    content-visibility: auto;
+    contain-intrinsic-block-size: auto 1800px;
+  }
   .resource-export-batch main.paper > .paper-content + .paper-content {
     margin-top: 20mm;
     padding-top: 20mm;

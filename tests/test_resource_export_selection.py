@@ -106,6 +106,22 @@ openExport(sources, [["selected", sources[0].pathname], ["selected", sources[0].
 assert.deepEqual(Array.from(getInitialSelection(units)), [sources[0].href], "duplicate spellings must select once");
 """)
 
+    def test_first_selection_keeps_collection_available_and_allows_reselection(self):
+        self.run_javascript("""
+const collection = new URL("courses/example-course/quizzes/2025-2026-quizzes/", siteRoot);
+const units = ["one", "two", "three"].map((key) => unit(new URL(`#${key}`, collection)));
+openExport([collection], [["select", "first"]]);
+assert.deepEqual(Array.from(getInitialSelection(units)), [units[0].sourceUrl.href]);
+assert.deepEqual(hrefs(getSources()), [collection.href]);
+location = new URL(selectionUrl(getSources(), [units[1], units[2]]));
+assert.equal(location.searchParams.has("select"), false);
+assert.deepEqual(hrefs(getSources()), [collection.href]);
+assert.deepEqual(sorted(getInitialSelection(units)), sorted([units[1].sourceUrl.href, units[2].sourceUrl.href]));
+openExport([collection], [["select", "first"]]);
+units[0].selected = false;
+assert.deepEqual(Array.from(getInitialSelection(units)), [units[1].sourceUrl.href], "first must respect an explicit source group's defaults");
+""")
+
     def test_regular_paper_anchor_survives_empty_and_reselected_states(self):
         self.run_javascript("""
 const request = new URL("#section-one", source("paper-a"));
