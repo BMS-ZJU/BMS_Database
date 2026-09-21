@@ -75,6 +75,30 @@
     return sources;
   };
 
+  const getInitialSelection = (units) => {
+    const params = new URL(location.href).searchParams;
+    if (params.get("select") === "none") return new Set();
+    if (!params.has("selected")) {
+      return new Set(units.filter((unit) => unit.selected).map((unit) => unit.sourceUrl.href));
+    }
+    const selected = new Set(params.getAll("selected").map((value) => validateSource(value).href));
+    const available = new Set(units.map((unit) => unit.sourceUrl.href));
+    if (Array.from(selected).some((source) => !available.has(source))) {
+      throw new Error("所选资料不在当前可选范围内，请返回资料列表重新选择。");
+    }
+    return selected;
+  };
+
+  const selectionUrl = (sources, selectedUnits) => {
+    const url = new URL(location.href);
+    ["source", "selected", "select"].forEach((key) => url.searchParams.delete(key));
+    // Keep the original available sources separate from the current selection.
+    sources.forEach((source) => url.searchParams.append("source", source.pathname + source.hash));
+    selectedUnits.forEach(({ sourceUrl }) => url.searchParams.append("selected", sourceUrl.pathname + sourceUrl.hash));
+    if (!selectedUnits.length) url.searchParams.set("select", "none");
+    return url;
+  };
+
   const namespaceReferences = (content, sourceUrl, prefix) => {
     const nodes = [content, ...content.querySelectorAll("*")];
     const id = (value) => `${prefix}${value}`;
@@ -530,16 +554,17 @@
 
   const updateAnswers = () => {
     if (answerMode.value === "end" && !supportsEndAnswers) answerMode.value = "answers";
-    papers.forEach(({ article, answers, answerKey }) => {
+    papers.forEach(({ article, answers, answerSections, answerKey }) => {
       answers.forEach((answer) => { answer.hidden = answerMode.value !== "answers"; });
+      answerSections.forEach((section) => { section.hidden = answerMode.value === "questions"; });
       article.querySelectorAll('[data-answer-summary]').forEach((summary) => {
         summary.hidden = answerMode.value !== 'answers';
       });
       if (answerKey) answerKey.hidden = answerMode.value !== "end";
       groupShortQuestions(article);
     });
-    const labels = { questions: "仅题目", answers: "答案随题", end: "答案附后" };
-    const suffix = papers.some((entry) => entry.answers.length) ? `（${labels[answerMode.value]}）` : "";
+    const labels = { questions: "仅题目", answers: papers.some((entry) => entry.answerSections.length) ? "含答案" : "答案随题", end: "答案附后" };
+    const suffix = papers.some((entry) => entry.answers.length || entry.answerSections.length) ? `（${labels[answerMode.value]}）` : "";
     document.title = `${title}${suffix}`;
   };
 
@@ -647,7 +672,9 @@
         article.append(...cleaned.childNodes);
         paper.append(article);
         currentLabel = article.querySelector("h1").textContent.trim();
-        const entry = { article, sourceUrl, title: currentLabel, answers: Array.from(article.querySelectorAll(".quiz-answer")), answerKey: null };
+        const entry = { article, sourceUrl, title: currentLabel,
+          answers: Array.from(article.querySelectorAll(".quiz-answer")),
+          answerSections: Array.from(article.querySelectorAll("[data-export-answers]")), answerKey: null };
         if (!batch) title = entry.title;
 
         await Promise.all([
@@ -667,7 +694,9 @@
         completed += 1;
       }
 
-      const hasAnswers = papers.some((entry) => entry.answers.length);
+      const hasStaticAnswers = papers.some((entry) => entry.answerSections.length);
+      const hasAnswers = hasStaticAnswers || papers.some((entry) => entry.answers.length);
+      answerMode.querySelector("option[value='answers']").textContent = hasStaticAnswers ? "保留原有答案" : "答案随题";
       supportsEndAnswers = hasAnswers && papers.every((entry) => !entry.answers.length || entry.supportsEndAnswers);
       const endOption = answerMode.querySelector("option[value='end']");
       endOption.textContent = batch ? "答案集中在每份资料后" : "答案集中卷末";
@@ -717,14 +746,14 @@
     renderSelection();
   };
 
-  const initializeRange = (units) => {
+  const initializeRange = (units, sources) => {
     const panel = document.querySelector('#range-selection');
     const groups = document.querySelector('#range-groups');
     const all = document.querySelector('#range-all');
     const change = document.querySelector('#change-range');
     const summary = document.querySelector('#range-summary');
     const count = document.querySelector('#range-count');
-    const empty = new URL(location.href).searchParams.get('select') === 'none';
+    const initialSelection = getInitialSelection(units);
     const categories = new Map();
     const choices = units.map((unit) => {
       if (!categories.has(unit.category)) {
@@ -745,7 +774,7 @@
       const checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
       checkbox.value = unit.sourceUrl.pathname + unit.sourceUrl.hash;
-      checkbox.checked = !empty && unit.selected;
+      checkbox.checked = initialSelection.has(unit.sourceUrl.href);
       label.append(checkbox, unit.label);
       categories.get(unit.category).append(label);
       return { checkbox, unit };
@@ -758,14 +787,7 @@
       summary.textContent = '打印范围：' + (selection.length === 1 ? selection[0].label :
         selection.length ? `共 ${selection.length} 份${all.checked ? '（全部）' : ''}` : `未选择（共 ${units.length} 份可选）`);
       if (persist) {
-        const url = new URL(location.href);
-        url.searchParams.delete('source');
-        url.searchParams.delete('select');
-        const sources = selection.length ? selection.map(({ sourceUrl }) => sourceUrl.pathname + sourceUrl.hash) :
-          Array.from(new Set(units.map(({ sourceUrl }) => sourceUrl.pathname)));
-        sources.forEach((source) => url.searchParams.append('source', source));
-        if (!selection.length) url.searchParams.set('select', 'none');
-        history.replaceState(history.state, '', url);
+        history.replaceState(history.state, '', selectionUrl(sources, selection));
       }
       refreshSelection();
     };
@@ -774,14 +796,17 @@
       choices.forEach(({ checkbox }) => { checkbox.checked = all.checked; });
       update();
     });
-    change.addEventListener('click', () => {
-      panel.hidden = !panel.hidden;
-      change.setAttribute('aria-expanded', String(!panel.hidden));
-      change.textContent = panel.hidden ? '更改' : '收起';
-    });
+    const setRangeExpanded = (expanded) => {
+      panel.hidden = !expanded;
+      change.setAttribute('aria-expanded', String(expanded));
+      change.textContent = expanded ? '收起选择' : '选择资料';
+    };
+    change.addEventListener('click', () => setRangeExpanded(panel.hidden));
     document.querySelector('.export-range-summary').hidden = false;
     document.querySelector('#source-link').href = units[0].sourceUrl.pathname;
     update(false);
+    // Empty entry points must expose the next step; later changes keep the user's panel state.
+    setRangeExpanded(!selection.length);
   };
 
   const initialize = async () => {
@@ -795,7 +820,8 @@
         throw new Error("无法打开所选资料，请返回资料列表重新进入。");
       }
       pathMigrations = migrations.pages;
-      initializeRange(await resolvePapers(getSources()));
+      const sources = getSources();
+      initializeRange(await resolvePapers(sources), sources);
     } catch (error) {
       paper.setAttribute('aria-busy', 'false');
       status.setAttribute('role', 'alert');

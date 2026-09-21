@@ -691,12 +691,6 @@ body.resource-export-view [hidden] {
 }
 .resource-export-view .export-range-summary { gap: 4px 8px; }
 .resource-export-view #range-summary { overflow-wrap: anywhere; }
-.resource-export-view #change-range {
-  padding-inline: 4px;
-  border-color: transparent;
-  text-decoration: underline;
-  text-underline-offset: 0.2em;
-}
 .resource-export-view #range-selection { flex-basis: 100%; min-width: 0; }
 .resource-export-view #range-groups { display: grid; gap: 8px; margin-top: 6px; }
 .resource-export-view .export-range-group { border: 0; margin: 0; padding: 0; min-width: 0; }

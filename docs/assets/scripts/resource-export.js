@@ -293,11 +293,6 @@
 
       const link = exportLink([target.pathname], "打印 / 导出");
       link.className = "resource-export-link";
-      if (primary.classList.contains("resource-collection-link")) {
-        const selection = new URL(link.href);
-        selection.searchParams.set("select", "none");
-        link.href = selection.href;
-      }
       const title = actions.parentElement.querySelector("p:first-child strong")?.textContent.trim();
       link.setAttribute("aria-label", `${title || "此资料"}：打印 / 导出（新标签页）`);
       actions.classList.add("resource-export-actions", "link-divider");

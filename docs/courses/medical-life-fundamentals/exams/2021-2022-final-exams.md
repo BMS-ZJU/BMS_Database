@@ -172,6 +172,8 @@ Summarize the role of endosymbiosis in eukaryotic evolution.
 
 ---
 
+<div data-export-answers markdown="1">
+
 ## 参考答案
 
 ## A 卷参考答案
@@ -321,3 +323,5 @@ Summarize the role of endosymbiosis in eukaryotic evolution.
 
 </li>
 </ol>
+
+</div>
