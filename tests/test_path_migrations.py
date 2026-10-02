@@ -84,7 +84,7 @@ class PathMigrationTests(unittest.TestCase):
         original = "# Example\n\nAuthor's text."
         self.assertEqual(migrations.on_page_markdown(original, page, self.config, None), original)
         self.assertEqual(page.meta["legacy_comment_path"],
-                         "/BMS_Database/mandatory/example/")
+                         "BMS_Database/mandatory/example/")
         self.assertIsNone(migrations.legacy_comment_path("courses/index.md", self.config))
         self.assertIsNone(migrations.legacy_comment_path("guide/index.md", self.config))
 
@@ -93,7 +93,7 @@ class PathMigrationTests(unittest.TestCase):
         migrations._migrations = None
         self.assertEqual(
             migrations.legacy_comment_path("courses/course/quizzes/quiz-01.md", self.config),
-            "/BMS_Database/mandatory/course/quizzes/quiz-01/",
+            "BMS_Database/mandatory/course/quizzes/quiz-01/",
         )
 
     def test_flat_html_urls_are_supported(self):
@@ -104,7 +104,7 @@ class PathMigrationTests(unittest.TestCase):
         html = self.output("old/index.md").read_text(encoding="utf-8")
         self.assertIn('content="../courses/example/index.html"', html)
         self.assertEqual(migrations.legacy_comment_path("courses/example/index.md", self.config),
-                         "/BMS_Database/old/index.html")
+                         "BMS_Database/old/index")
 
     def test_existing_generated_literacy_quiz_urls_are_in_the_real_manifest(self):
         # These three URLs came from resource_aliases, so git ls-files alone
@@ -121,8 +121,57 @@ class PathMigrationTests(unittest.TestCase):
                 self.assertEqual(data["pages"].get(old), current)
                 self.assertEqual(
                     migrations.legacy_comment_path(current, config),
-                    f"/BMS_Database/mandatory/medical_science_literacy_2/quizzes/{name}/",
+                    f"BMS_Database/mandatory/medical_science_literacy_2/quizzes/{name}/",
                 )
+
+    def test_existing_discussion_91_keeps_its_exact_search_term(self):
+        # Existing Giscus discussion title; strict matching also hashes this term.
+        # https://github.com/BMS-ZJU/BMS_Database/discussions/91
+        root = Path(__file__).resolve().parents[1]
+        config = SimpleNamespace(**vars(self.config))
+        config.config_file_path = str(root / "mkdocs.yml")
+        self.assertEqual(
+            migrations.legacy_comment_path("courses/molecular-cell-biology-2/index.md", config),
+            "BMS_Database/mandatory/molecular_cell_biology_2/",
+        )
+
+    def test_root_homepage_uses_giscus_index_term(self):
+        self.config.site_url = "https://example.test/"
+        self.mapping({"index.md": "home/index.md"})
+        self.assertEqual(migrations.legacy_comment_path("home/index.md", self.config), "index")
+
+    def test_earlier_discussion_identity_is_not_replaced_by_a_later_move(self):
+        from mkdocs.utils.meta import get_data
+
+        # Discussion #33 predates both the July resource move and September rename.
+        root = Path(__file__).resolve().parents[1]
+        source = "courses/medical-big-data-and-application/exams/2024-2025-final-exam-recall.md"
+        original, meta = get_data((root / "docs" / source).read_text(encoding="utf-8"))
+        self.mapping({"mandatory/medical_big_data_and_application/exams/2024-2025-final-exam-recall.md": source})
+        page = SimpleNamespace(file=SimpleNamespace(src_uri=source), meta=meta)
+        self.assertEqual(migrations.on_page_markdown(original, page, self.config, None), original)
+        self.assertEqual(
+            page.meta["legacy_comment_path"],
+            "BMS_Database/mandatory/medical_big_data_and_application/preview/2024_to_2025/final_exam/",
+        )
+
+    def test_resource_alias_uses_the_original_discussion_term(self):
+        from hooks import resource_aliases
+
+        self.mapping({"mandatory/course/quizzes/quiz-01.md": "courses/course/quizzes/quiz-01.md"})
+        page = SimpleNamespace(
+            file=self.built("courses/course/quizzes/collection.md"),
+            meta={"resource_aliases": [{"path": "quiz-01.md", "target": "quiz-1", "export": "quiz-1"}]},
+        )
+        html = ('<section id="quiz-1"></section><h2 id="__comments">Comments</h2>'
+                '<script src="https://giscus.app/client.js" data-mapping="pathname"></script>')
+        resource_aliases.on_pre_build(self.config)
+        self.addCleanup(resource_aliases.on_pre_build, self.config)
+        resource_aliases.on_post_page(html, page, self.config)
+        resource_aliases.on_post_build(self.config)
+        alias = self.output("courses/course/quizzes/quiz-01.md").read_text(encoding="utf-8")
+        self.assertIn('"data-mapping": "specific"', alias)
+        self.assertIn('"data-term": "BMS_Database/mandatory/course/quizzes/quiz-01/"', alias)
 
     def test_generated_resource_alias_can_be_a_migration_target(self):
         self.mapping({"mandatory/course/quizzes/quiz-01.md": "courses/course/quizzes/quiz-01.md"})

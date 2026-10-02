@@ -645,8 +645,9 @@
       const sections = Array.from(document.original.querySelectorAll('section[id][data-export-title]'));
       const heading = document.original.querySelector('h1').cloneNode(true);
       heading.querySelectorAll('.headerlink').forEach((node) => node.remove());
+      const sourceTitle = heading.textContent.trim();
       if (!sections.length) {
-        units.push({ ...document, label: heading.textContent.trim(), category: '', selected: true });
+        units.push({ ...document, sourceTitle, label: '整份资料', category: '', selected: true });
         continue;
       }
       for (const key of document.keys) {
@@ -661,7 +662,7 @@
         const sourceUrl = new URL(document.sourceUrl);
         sourceUrl.hash = section.id;
         const categoryIndex = categoryBlocks.findIndex((block) => block.contains(section));
-        units.push({ ...document, sourceUrl, label: section.dataset.exportTitle,
+        units.push({ ...document, sourceUrl, sourceTitle, label: section.dataset.exportTitle,
           category: categoryLabels?.[categoryIndex]?.textContent.trim() || '',
           selected: document.keys.has('') || document.keys.has(section.id) || document.keys.has(section.dataset.exportGroup) });
       });
@@ -782,9 +783,21 @@
     const summary = document.querySelector('#range-summary');
     const count = document.querySelector('#range-count');
     const initialSelection = getInitialSelection(units);
+    const sourceGroups = new Map();
     const categories = new Map();
     const choices = units.map((unit) => {
-      if (!categories.has(unit.category)) {
+      const sourceKey = unit.sourceUrl.pathname;
+      if (!sourceGroups.has(sourceKey)) {
+        const group = document.createElement('div');
+        group.className = 'export-range-source';
+        const heading = document.createElement('h3');
+        heading.textContent = unit.sourceTitle;
+        group.append(heading);
+        groups.append(group);
+        sourceGroups.set(sourceKey, group);
+      }
+      const categoryKey = JSON.stringify([sourceKey, unit.category]);
+      if (!categories.has(categoryKey)) {
         const fieldset = document.createElement('fieldset');
         fieldset.className = 'export-range-group';
         if (unit.category) {
@@ -795,8 +808,8 @@
         const list = document.createElement('div');
         list.className = 'export-range-choices';
         fieldset.append(list);
-        groups.append(fieldset);
-        categories.set(unit.category, list);
+        sourceGroups.get(sourceKey).append(fieldset);
+        categories.set(categoryKey, list);
       }
       const label = document.createElement('label');
       const checkbox = document.createElement('input');
@@ -804,7 +817,7 @@
       checkbox.value = unit.sourceUrl.pathname + unit.sourceUrl.hash;
       checkbox.checked = initialSelection.has(unit.sourceUrl.href);
       label.append(checkbox, unit.label);
-      categories.get(unit.category).append(label);
+      categories.get(categoryKey).append(label);
       return { checkbox, unit };
     });
     const update = (persist = true) => {
@@ -812,7 +825,7 @@
       all.checked = selection.length === units.length;
       all.indeterminate = selection.length > 0 && selection.length < units.length;
       count.textContent = `已选 ${selection.length} / ${units.length} 份`;
-      summary.textContent = '打印范围：' + (selection.length === 1 ? selection[0].label :
+      summary.textContent = '打印范围：' + (selection.length === 1 ? `${selection[0].sourceTitle} · ${selection[0].label}` :
         selection.length ? `共 ${selection.length} 份${all.checked ? '（全部）' : ''}` : `未选择（共 ${units.length} 份可选）`);
       if (persist) {
         history.replaceState(history.state, '', selectionUrl(sources, selection));
@@ -833,9 +846,7 @@
     document.querySelector('.export-range-summary').hidden = false;
     document.querySelector('#source-link').href = units[0].sourceUrl.pathname;
     update(false);
-    // Collection cards expose the remaining choices, even when only the first is selected.
-    const firstEntry = new URL(location.href).searchParams.get('select') === 'first';
-    setRangeExpanded(!selection.length || (units.length > 1 && (firstEntry || selection.length === units.length)));
+    setRangeExpanded(true);
   };
 
   const initialize = async () => {

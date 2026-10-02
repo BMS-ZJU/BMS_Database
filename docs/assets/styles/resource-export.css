@@ -33,6 +33,12 @@
 .resource-use-source a {
   overflow-wrap: anywhere;
 }
+/* Reading keeps the short usage entry; full addresses remain in print/export. */
+@media screen {
+  body:not(.resource-export-view) .md-typeset .resource-use-source > p + p {
+    display: none;
+  }
+}
 .resource-export-view .paper-content .resource-use-notice {
   margin: 0.2em 0 0.45em;
   color: #444;
@@ -120,17 +126,20 @@
 }
 
 .md-typeset .course-resource-grid.resource-export-index .resource-index-title {
-  color: var(--md-typeset-a-color);
+  color: var(--md-default-fg-color);
   text-decoration: none;
 }
 
-.md-typeset .course-resource-grid.resource-export-index .resource-index-title:hover {
+.md-typeset .course-resource-grid.resource-export-index .resource-index-title:is(:hover, :focus-visible) {
+  color: var(--md-typeset-a-color);
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }
 
 .md-typeset .course-resource-grid.resource-export-index .course-resource-detail {
+  color: var(--md-default-fg-color--light);
   font-size: calc(0.58 * var(--bms-reading-small-unit, 1rem));
+  font-weight: 400;
   line-height: 1.45;
 }
 
@@ -167,11 +176,6 @@
   white-space: normal;
 }
 
-.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-export-actions.link-divider {
-  flex-wrap: nowrap;
-  gap: 0;
-}
-
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a {
   position: relative;
   display: inline-flex;
@@ -194,10 +198,15 @@
   margin-inline-start: -4px;
 }
 
-.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > .resource-export-link {
-  gap: 0.22rem;
-  color: var(--resource-control-color);
-  font-weight: 400;
+.md-typeset :is(.resource-index-actions, .resource-index-print).link-divider > .divider {
+  flex: 0 0 auto;
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  transition: transform 0.3s, color 0.3s;
+}
+
+.md-typeset :is(.resource-index-actions, .resource-index-print).link-divider:focus-within > .divider {
+  transform: rotate(360deg);
 }
 
 .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a::before,
@@ -206,7 +215,6 @@
   content: none;
 }
 
-.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a.resource-export-link::before,
 .md-typeset .resource-page-tools > :is(a, button).resource-export-link::before {
   content: "";
   display: inline-block;
@@ -229,30 +237,7 @@
   outline-offset: 2px;
 }
 
-/* Practice cards keep the title as the reading entry after index enhancement. */
-.md-typeset .course-resource-grid.resource-export-index > ul > li:has(.resource-practice-link) .resource-index-title {
-  color: var(--md-default-fg-color);
-}
-
-.md-typeset .course-resource-grid.resource-export-index > ul > li:has(.resource-practice-link) .resource-index-title:is(:hover, :focus-visible) {
-  color: var(--md-typeset-a-color);
-}
-
-.md-typeset .course-resource-grid.resource-export-index > ul > li:has(.resource-practice-link):has(.resource-index-title) > p.resource-index-actions > .resource-read-link {
-  display: none;
-}
-
-.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > .resource-practice-link {
-  margin-inline-start: -4px;
-  color: var(--resource-control-color);
-  font-weight: 500;
-}
-
-.md-typeset .course-resource-grid.resource-export-index > ul > li.resource-export-card:has(.resource-practice-link) > p.resource-index-actions > .resource-export-link {
-  color: var(--md-default-fg-color--light);
-}
-
-.md-typeset .course-resource-grid.resource-export-index > ul > li.resource-export-card:has(.resource-practice-link) > p.resource-index-actions > .resource-export-link:is(:hover, :focus-visible) {
+.md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a:is(:hover, :focus-visible) {
   color: var(--resource-control-color);
 }
 
@@ -264,6 +249,7 @@
   margin: 0;
   color: var(--md-default-fg-color--light);
   font-size: calc(0.58 * var(--bms-reading-small-unit, 1rem));
+  font-weight: 400;
   line-height: 1.45;
   text-align: start;
   white-space: normal;
@@ -286,24 +272,6 @@
   content: none;
 }
 
-.md-typeset .resource-export-actions.link-divider > .divider {
-  display: inline-block;
-  flex: 0 0 auto;
-  margin: 0 8px;
-  color: var(--md-default-fg-color--light, #666);
-  font: inherit;
-  line-height: 1;
-  transform: rotate(0deg);
-  transform-origin: center;
-  transition: transform 0.3s ease;
-}
-
-.md-typeset .resource-export-actions.link-divider:hover > .divider,
-.md-typeset .resource-export-actions.link-divider:focus-within > .divider {
-  color: var(--md-default-fg-color--light, #666);
-  transform: rotate(360deg);
-}
-
 @media screen and (max-width: 59.984375em) {
   .md-typeset .grid.cards.course-resource-grid.resource-export-index {
     grid-template-columns: minmax(0, 1fr);
@@ -311,22 +279,25 @@
 }
 
 @media (pointer: coarse) {
+  .md-typeset .resource-batch-choice {
+    min-height: 44px;
+  }
+
   .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a {
     min-height: 32px;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .md-typeset :is(.resource-index-actions, .resource-index-print).link-divider > .divider {
+    transition: none;
+    transform: none;
+  }
+
   .md-typeset .grid.cards.course-resource-grid.resource-export-index > ul > li {
     transition: none;
   }
 
-  .md-typeset .resource-export-actions.link-divider > .divider,
-  .md-typeset .resource-export-actions.link-divider:hover > .divider,
-  .md-typeset .resource-export-actions.link-divider:focus-within > .divider {
-    transform: none;
-    transition: none;
-  }
 }
 
 /* On-page entry and batch selection keep the ordinary resource list lightweight. */
@@ -461,6 +432,32 @@
   flex: 0 0 15px;
   background: currentColor;
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* Keep print entries secondary without changing controls reused by contribution forms. */
+.md-typeset .resource-batch-toolbar.resource-index-print {
+  justify-content: flex-end;
+  margin-top: 0.4rem;
+}
+
+.md-typeset .resource-index-print > :is(a, button),
+.md-typeset .resource-page-tools > a.resource-export-link {
+  color: var(--md-default-fg-color--light);
+  border-color: transparent;
+  font-weight: 400;
+}
+
+.md-typeset .resource-page-tools > a.resource-export-link {
+  padding-inline: 0;
+}
+
+.md-typeset .resource-index-print > a::before {
+  mask: var(--resource-print-icon) center / contain no-repeat;
+}
+
+.md-typeset .resource-index-print > :is(a, button):is(:hover, :focus-visible),
+.md-typeset .resource-page-tools > a.resource-export-link:is(:hover, :focus-visible) {
+  color: var(--md-typeset-a-color);
 }
 
 .md-typeset .resource-batch-selection {
@@ -693,6 +690,10 @@ body.resource-export-view [hidden] {
 .resource-export-view #range-summary { overflow-wrap: anywhere; }
 .resource-export-view #range-selection { flex-basis: 100%; min-width: 0; }
 .resource-export-view #range-groups { display: grid; gap: 8px; margin-top: 6px; }
+.resource-export-view .export-range-source { min-width: 0; }
+.resource-export-view .export-range-source + .export-range-source { border-top: 1px solid #d8dadd; padding-top: 10px; }
+.resource-export-view .export-range-source > h3 { margin: 0 0 4px; font-size: 1em; font-weight: 650; overflow-wrap: anywhere; }
+.resource-export-view .export-range-group + .export-range-group { margin-top: 6px; }
 .resource-export-view .export-range-group { border: 0; margin: 0; padding: 0; min-width: 0; }
 .resource-export-view .export-range-group legend { padding: 0; font-weight: 600; }
 .resource-export-view .export-range-choices { display: flex; flex-wrap: wrap; gap: 2px 18px; }

@@ -1,0 +1,67 @@
+{# Page-end destinations are selected at build time; brand information is shared. #}
+<footer class="md-footer bms-footer">
+  {% set footer_nav = bms_footer | default({}) %}
+  {% if "navigation.footer" in features %}
+    {% if footer_nav.return_to %}
+      <nav class="bms-footer-return md-grid" aria-label="资料导航">
+        <a class="bms-footer-return__link" href="{{ footer_nav.return_to.url | url }}">
+          <span class="md-icon" aria-hidden="true">{% include ".icons/material/arrow-left.svg" %}</span>
+          <span>返回{{ footer_nav.return_to.title | e }}</span>
+        </a>
+      </nav>
+    {% elif footer_nav.previous or footer_nav.next %}
+      <nav class="md-footer__inner md-grid" aria-label="{{ lang.t('footer') }}">
+        {% if footer_nav.previous %}
+          {% set direction = lang.t("footer.previous") %}
+          <a href="{{ footer_nav.previous.url | url }}" class="md-footer__link md-footer__link--prev" aria-label="{{ direction }}: {{ footer_nav.previous.title | e }}">
+            <div class="md-footer__button md-icon">
+              {% set icon = config.theme.icon.previous or "material/arrow-left" %}
+              {% include ".icons/" ~ icon ~ ".svg" %}
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">{{ direction }}</span>
+              <div class="md-ellipsis">{{ footer_nav.previous.title }}</div>
+            </div>
+          </a>
+        {% endif %}
+        {% if footer_nav.next %}
+          {% set direction = lang.t("footer.next") %}
+          <a href="{{ footer_nav.next.url | url }}" class="md-footer__link md-footer__link--next" aria-label="{{ direction }}: {{ footer_nav.next.title | e }}">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">{{ direction }}</span>
+              <div class="md-ellipsis">{{ footer_nav.next.title }}</div>
+            </div>
+            <div class="md-footer__button md-icon">
+              {% set icon = config.theme.icon.next or "material/arrow-right" %}
+              {% include ".icons/" ~ icon ~ ".svg" %}
+            </div>
+          </a>
+        {% endif %}
+      </nav>
+    {% endif %}
+  {% endif %}
+  <div class="bms-footer-meta">
+    <div class="md-grid bms-footer-meta__inner">
+      <a class="bms-footer-brand" href="{{ nav.homepage.url | url }}" aria-label="{{ config.site_name | e }} 首页">{{ config.site_name }}</a>
+      <nav class="bms-footer-links" aria-label="网站与相关链接">
+        {% if config.repo_url %}
+          <a href="{{ config.repo_url }}" target="_blank" rel="noopener" title="{{ config.repo_name | e }} · GitHub 仓库">
+            <span class="md-icon" aria-hidden="true">{% include ".icons/material/github.svg" %}</span>
+            <span>GitHub</span>
+          </a>
+        {% endif %}
+        <a href="{{ 'contribute/' | url }}">
+          <span class="md-icon" aria-hidden="true">{% include ".icons/material/pencil-plus-outline.svg" %}</span>
+          <span>贡献与纠错</span>
+        </a>
+        {% for social in config.extra.social %}
+          <a href="{{ social.link }}" target="_blank" rel="noopener" title="{{ social.name | e }}">
+            <span class="md-icon" aria-hidden="true">{% include ".icons/" ~ social.icon ~ ".svg" %}</span>
+            <span>{{ social.label or social.name }}</span>
+          </a>
+        {% endfor %}
+      </nav>
+      {% include "partials/copyright.html" %}
+    </div>
+  </div>
+</footer>

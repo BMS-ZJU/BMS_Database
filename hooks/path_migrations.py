@@ -110,11 +110,15 @@ def _comment_path(source, config, migrations):
                  if target == source]
     if len(originals) != 1:
         return None
-    return urlsplit(urljoin(config.site_url, _file(originals[0], config).url)).path
+    pathname = urlsplit(urljoin(config.site_url, _file(originals[0], config).url)).path
+    # Match Giscus client.js pathname mapping exactly: omit the leading slash
+    # and final extension, retain trailing slashes, and use "index" for root.
+    # With strict matching, a different term cannot find the original discussion.
+    return "index" if len(pathname) < 2 else re.sub(r"\.\w+$", "", pathname[1:], flags=re.ASCII)
 
 
 def legacy_comment_path(source_uri, config):
-    """Return a moved page's old pathname, including the configured site prefix.
+    """Return a moved page's original Giscus pathname search term.
 
     Load independently so other hooks can import this helper even when MkDocs
     loaded this file under a different module name.
@@ -152,7 +156,7 @@ def on_files(files, config):
 def on_page_markdown(markdown, page, config, files):
     old_path = _comment_path(page.file.src_uri, config, _migrations)
     if old_path:
-        page.meta["legacy_comment_path"] = old_path
+        page.meta.setdefault("legacy_comment_path", old_path)
     return markdown
 
 

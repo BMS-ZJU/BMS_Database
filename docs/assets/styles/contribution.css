@@ -1,9 +1,60 @@
 /* Contribution controls reuse the course search and resource toolbars. */
 .md-typeset .contribution-choices { display: flex; flex-wrap: wrap; gap: .4rem; }
-.md-typeset .contribution-actions {
+.md-typeset details.contribution-actions {
   margin-block: 1.5em 1em;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  color: var(--md-default-fg-color--light);
   font-family: var(--md-text-font-family);
-  font-size: .85em;
+  font-size: calc(.72 * var(--bms-reading-unit, 1rem));
+}
+.md-typeset details.contribution-actions > summary {
+  display: list-item;
+  width: fit-content;
+  margin: 0;
+  padding: .25rem 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font-weight: 400;
+  list-style: disclosure-closed inside;
+  cursor: pointer;
+}
+.md-typeset details.contribution-actions[open] > summary {
+  list-style-type: disclosure-open;
+}
+.md-typeset details.contribution-actions > summary::before,
+.md-typeset details.contribution-actions > summary::after {
+  content: none;
+}
+.md-typeset .contribution-actions > nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem 1rem;
+  margin: 0;
+  padding: .2rem 0;
+}
+.md-typeset .contribution-actions a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--md-default-fg-color--lighter);
+  text-underline-offset: .2em;
+}
+.md-typeset .contribution-actions :is(summary, a):hover {
+  color: var(--md-typeset-a-color);
+}
+.md-typeset .contribution-actions :is(summary, a):focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+@media (pointer: coarse) {
+  .md-typeset .contribution-actions :is(summary, a) {
+    min-height: 44px;
+    align-content: center;
+  }
 }
 @media print { .contribution-actions { display: none !important; } }
 

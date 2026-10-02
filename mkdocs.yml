@@ -98,6 +98,8 @@ nav:
       - 课程主页: courses/medical-science-literacy-2/index.md
       - 练习与小测:
         - courses/medical-science-literacy-2/quizzes/index.md
+        - 2026-2027 秋小测: courses/medical-science-literacy-2/quizzes/2026-2027-autumn-quizzes.md
+        - 2025-2026 夏小测: courses/medical-science-literacy-2/quizzes/2025-2026-summer-quiz.md
         - 2025-2026 秋练习与小测: courses/medical-science-literacy-2/quizzes/2025-2026-quizzes.md
       - 考试资料:
         - courses/medical-science-literacy-2/exams/index.md
@@ -335,11 +337,14 @@ nav:
 
 extra:
   social:
-    - icon: material/web-check
+    - icon: material/bank-outline
       link: https://bms.zju.edu.cn/
+      name: 浙江大学基础医学院
+      label: 基础医学院
     - icon: ginkgo
       link: https://github.com/YangShu233-Snow/Ginkgo
       name: Ginkgo · GitHub 仓库
+      label: Ginkgo
 
 copyright: Copyright &copy; 2024-2026 基础医学飞跃手册编委会
 
@@ -381,6 +386,7 @@ markdown_extensions:
 
 hooks:
   - hooks/page_identity.py
+  - hooks/footer_navigation.py
   - hooks/contribution_links.py
   - hooks/resource_usage.py
   - hooks/resource_aliases.py
@@ -392,6 +398,7 @@ extra_javascript:
   - assets/scripts/quiz-answers.js
   - assets/scripts/course-navigation.js
   - assets/scripts/resource-export.js
+  - assets/scripts/page-help.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
@@ -402,4 +409,6 @@ extra_css:
   - assets/styles/styles.css
   - assets/styles/resource-export.css
   - assets/styles/header-wordmark.css
+  - assets/styles/page-help.css
+  - assets/styles/footer.css
   - https://unpkg.com/katex@0/dist/katex.min.css
