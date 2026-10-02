@@ -32,6 +32,14 @@
     return link;
   };
 
+  const rotatingDivider = () => {
+    const divider = document.createElement("span");
+    divider.className = "divider";
+    divider.textContent = "|";
+    divider.setAttribute("aria-hidden", "true");
+    return divider;
+  };
+
   // Native selection controls for resource directory cards.
   const selectionControls = (choices, id) => {
     const controls = document.createElement("div");
@@ -44,7 +52,7 @@
     const count = document.createElement("span");
     count.setAttribute("role", "status");
     count.setAttribute("aria-live", "polite");
-    const selected = exportLink([], "导出所选");
+    const selected = exportLink([], "打印所选");
     const help = document.createElement("small");
     help.textContent = "按资料原有顺序合并，每份资料另起一页。";
     selected.title = help.textContent;
@@ -69,19 +77,6 @@
     update();
     return { controls, update };
   };
-
-  const currentResource = (sections) => sections.find((section) => {
-    let block = section.closest(".tabbed-block");
-    if (!block) return sections.length === 1;
-    while (block) {
-      const set = block.parentElement.closest(".tabbed-set");
-      const blocks = Array.from(set.querySelectorAll(":scope > .tabbed-content > .tabbed-block"));
-      const input = set.querySelectorAll(':scope > input[type="radio"]')[blocks.indexOf(block)];
-      if (!input?.checked) return false;
-      block = set.parentElement.closest(".tabbed-block");
-    }
-    return true;
-  });
 
   const formatPaperHeading = (heading) => {
     if (heading.querySelector(":scope > .resource-title-term")) return;
@@ -118,31 +113,20 @@
     const tools = document.createElement("p");
     tools.className = "resource-page-tools";
     heading.after(tools);
-    const sections = Array.from(article.querySelectorAll('section[id][data-export-title]'));
-    const link = exportLink([source.pathname], "打印 / 导出");
+    const link = exportLink([source.pathname], "打印 / 保存 PDF");
+    const target = new URL(link.href);
+    target.searchParams.set("select", "first");
+    link.href = target.href;
     link.className = "resource-export-link";
     link.title = "打开打印预览，可通过浏览器保存为 PDF";
     const title = heading.cloneNode(true);
     title.querySelectorAll(".headerlink").forEach((anchor) => anchor.remove());
-    link.setAttribute("aria-label", `${title.textContent.trim()}：打印 / 导出（新标签页）`);
+    link.setAttribute("aria-label", `${title.textContent.trim()}：打印 / 保存 PDF（新标签页）`);
     tools.append(link);
-    if (sections.length) {
-      const updateTarget = () => {
-        const current = currentResource(sections);
-        const target = new URL(exportUrl([source.pathname + (current ? "#" + current.id : "")]));
-        if (!current) target.searchParams.set("select", "none");
-        link.href = target.href;
-        link.setAttribute("aria-label", `${current?.dataset.exportTitle || '合集'}：打印 / 导出（新标签页）`);
-      };
-      article.addEventListener("change", updateTarget);
-      link.addEventListener("click", updateTarget);
-      link.addEventListener("contextmenu", updateTarget);
-      updateTarget();
-    }
   };
 
-  const addBatchControls = () => {
-    if (document.querySelector(".resource-batch-toolbar")) return;
+  const addIndexPrintEntry = () => {
+    if (document.querySelector(".resource-index-print")) return;
     const seen = new Set();
     const cards = Array.from(document.querySelectorAll(".resource-export-index > ul > li[data-export-source]"))
       .filter((card) => {
@@ -151,20 +135,18 @@
         seen.add(source);
         return true;
       });
-    if (!cards.length) return;
+    if (cards.length < 2) return;
     const grids = document.querySelectorAll(".resource-export-index");
     const toolbar = document.createElement("div");
-    toolbar.className = "resource-batch-toolbar";
+    toolbar.className = "resource-batch-toolbar resource-index-print link-divider";
+    const link = exportLink(cards.map((card) => card.dataset.exportSource), "合并打印");
+    link.title = "在打印预览中选择资料，再打印或保存为 PDF";
+    link.setAttribute("aria-label", "合并打印（新标签页）");
     toolbar.setAttribute("role", "group");
-    toolbar.setAttribute("aria-label", "批量导出资料");
-    const total = document.createElement("span");
-    total.className = "resource-batch-total";
-    total.textContent = `${cards.length} 份站内资料`;
-    const all = exportLink(cards.map((card) => card.dataset.exportSource), "导出全部");
-    all.title = "合并为一份打印稿，再保存为 PDF";
+    toolbar.setAttribute("aria-label", "资料打印");
     const toggle = document.createElement("button");
     toggle.type = "button";
-    toggle.textContent = "勾选导出";
+    toggle.textContent = "勾选打印";
     toggle.setAttribute("aria-expanded", "false");
     toggle.setAttribute("aria-controls", "resource-batch-selection");
     const choices = cards.map((card) => {
@@ -174,8 +156,7 @@
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
       const heading = card.querySelector("p:first-child strong");
-      const title = heading?.textContent.trim() || "此资料";
-      checkbox.setAttribute("aria-label", `选择${title}`);
+      checkbox.setAttribute("aria-label", `选择${heading?.textContent.trim() || "此资料"}`);
       label.append(checkbox);
       if (heading) heading.before(label);
       else card.append(label);
@@ -183,12 +164,14 @@
     });
     const { controls, update } = selectionControls(choices, "resource-batch-selection");
     controls.hidden = true;
-    toolbar.append(total, all, controls, toggle);
+    const divider = rotatingDivider();
+    toolbar.append(link, divider, controls, toggle);
     toggle.addEventListener("click", () => {
       const active = controls.hidden;
       controls.hidden = !active;
+      divider.hidden = active;
       toggle.setAttribute("aria-expanded", String(active));
-      toggle.textContent = active ? "取消" : "勾选导出";
+      toggle.textContent = active ? "取消" : "勾选打印";
       grids.forEach((grid) => grid.classList.toggle("resource-selecting", active));
       choices.forEach(({ checkbox, label }) => {
         label.hidden = !active;
@@ -196,9 +179,7 @@
       });
       update();
     });
-    update();
-    // The toolbar counts every group on this index, so place it before the
-    // first group heading when the index contains several resource grids.
+    // These controls cover every group on the current directory.
     let toolbarAnchor = grids[0];
     if (grids.length > 1) {
       let previous = grids[0].previousElementSibling;
@@ -224,7 +205,7 @@
           // Source notes can follow the links; identify actions by their contents.
           const isAction = paragraph.querySelector(":scope > a[href]") &&
             Array.from(paragraph.childNodes).every((node) => {
-              if (node.nodeType === Node.TEXT_NODE) return !node.textContent.trim();
+              if (node.nodeType === Node.TEXT_NODE) return /^[\s·|]*$/.test(node.textContent);
               if (node.nodeType === Node.COMMENT_NODE) return true;
               return node.nodeType === Node.ELEMENT_NODE && node.matches("a[href], .divider");
             });
@@ -233,7 +214,7 @@
         });
 
         // Markdown may put reading and practice links in separate paragraphs.
-        // Keep one action row so the export divider follows the visible links.
+        // Keep any additional reading and practice links in one action row.
         const rows = Array.from(card.querySelectorAll(":scope > p.resource-index-actions"));
         if (rows.length > 1) {
           rows.slice(1).forEach((row) => {
@@ -243,12 +224,20 @@
         }
         const actions = rows[0];
         if (actions) {
+          // Normalize literal Markdown separators as well as generated dividers.
+          Array.from(actions.childNodes).filter((node) => node.nodeType === Node.TEXT_NODE)
+            .forEach((node) => node.remove());
           const practice = actions.querySelector(":scope > .resource-practice-link");
           const read = actions.querySelector(":scope > .resource-read-link");
           if (practice && read) {
             actions.prepend(read);
             read.after(practice);
           }
+          // Rebuild separators after merging/reordering links; instant navigation may repeat this.
+          actions.querySelectorAll(":scope > .divider").forEach((divider) => divider.remove());
+          const links = Array.from(actions.querySelectorAll(":scope > a[href]"));
+          actions.classList.toggle("link-divider", links.length > 1);
+          links.slice(1).forEach((link) => link.before(rotatingDivider()));
         }
 
         // Match the catalog: the resource name itself is the primary entry.
@@ -273,38 +262,18 @@
       });
     });
 
-    document.querySelectorAll(".course-resource-grid.resource-export-index > ul > li > p.resource-index-actions").forEach((actions) => {
-      const links = Array.from(actions.parentElement.querySelectorAll(":scope > p.resource-index-actions > a[href]:not(.resource-export-link)"));
+    // Index export belongs to the shared toolbar; cards retain reading and practice.
+    document.querySelectorAll(".course-resource-grid.resource-export-index > ul > li").forEach((card) => {
+      const links = Array.from(card.querySelectorAll(":scope > p.resource-index-actions > a[href]"));
       // An original-post reference does not prevent exporting the local paper.
       const targets = links.map((link) => resourceUrl(link.href))
         .filter((url) => url && url.pathname.startsWith(section[1]));
       const unique = new Map(targets.map((url) => [url.pathname, url]));
       if (unique.size !== 1) return;
       const target = unique.values().next().value;
-      const primary = links.find((link) => resourceUrl(link.href)?.pathname === target.pathname);
-      if (primary.parentElement !== actions) return;
-      actions.parentElement.dataset.exportSource = target.pathname;
-      if (actions.classList.contains("resource-export-actions")) return;
-
-      const divider = document.createElement("span");
-      divider.className = "divider";
-      divider.textContent = "|";
-      divider.setAttribute("aria-hidden", "true");
-
-      const link = exportLink([target.pathname], "打印 / 导出");
-      link.className = "resource-export-link";
-      if (primary.classList.contains("resource-collection-link")) {
-        const selection = new URL(link.href);
-        selection.searchParams.set("select", "first");
-        link.href = selection.href;
-      }
-      const title = actions.parentElement.querySelector("p:first-child strong")?.textContent.trim();
-      link.setAttribute("aria-label", `${title || "此资料"}：打印 / 导出（新标签页）`);
-      actions.classList.add("resource-export-actions", "link-divider");
-      actions.parentElement.classList.add("resource-export-card");
-      actions.append(divider, link);
+      card.dataset.exportSource = target.pathname;
     });
-    addBatchControls();
+    addIndexPrintEntry();
   };
 
   if (typeof document$ !== "undefined") document$.subscribe(initialize);

@@ -36,6 +36,9 @@ git worktree add -b update/site-maintenance ../bms-site-maintenance origin/main
 | 试卷、小测、合集、来源与打印边界 | [maintenance/recall-papers.md](recall-papers.md) |
 | 学年学期、校历日期与周次 | [maintenance/semester-reference.md](semester-reference.md)、[data/academic-calendars.json](../data/academic-calendars.json)、[scripts/academic_week.py](../scripts/academic_week.py) |
 | 阅读样式、主题和字体 | [maintenance/reading-experience.md](reading-experience.md)、[docs/assets/styles/](../docs/assets/styles/)、[overrides/](../overrides/) |
+| 快速上手、手机菜单入口与页头帮助 | [使用说明](../docs/guide/index.md)、[page-help.js](../docs/assets/scripts/page-help.js)、[page-help.css](../docs/assets/styles/page-help.css)、[header.html](../overrides/partials/header.html)、[nav.html](../overrides/partials/nav.html) |
+| 页底返回目录、专题前后篇与品牌页脚 | [footer_navigation.py](../hooks/footer_navigation.py)、[footer.html](../overrides/partials/footer.html)、[footer.css](../docs/assets/styles/footer.css)；链接与图标在 `mkdocs.yml` 的 `extra.social` |
+| 页底“完善本页”折叠入口 | [contribution-actions.html](../overrides/partials/contribution-actions.html)、[contribution.css](../docs/assets/styles/contribution.css)，当前页面目标由 `hooks/contribution_links.py` 提供 |
 | 页面标题与资料独立身份 | [hooks/page_identity.py](../hooks/page_identity.py) |
 | 资料使用提示、原文与使用范围链接 | [hooks/resource_usage.py](../hooks/resource_usage.py) |
 | 页面与公开资源迁移 | [data/path-migrations.json](../data/path-migrations.json)、[hooks/path_migrations.py](../hooks/path_migrations.py) |
@@ -60,7 +63,7 @@ git worktree add -b update/site-maintenance ../bms-site-maintenance origin/main
 
 改动涉及使用方式时，同时查阅 [使用说明](../docs/guide/index.md)、[贡献与纠错](../docs/contribute/index.md) 及相关维护指南，只更新受影响的说明。旧页面若仍可访问，应保留有效入口并指向当前说明，避免继续承诺已经停用的人工服务。长期规则更新现有条目，当前工作状态通过对应 Issue、PR 或私有交接记录保存，不连续追加多份现行规则。
 
-首页的[近期更新](../docs/index.md)只保留最近 3–5 条影响读者使用的变化，如新增资料、重要更正和功能变化。日期按实际上线时间记录，尚未发布的候选不列入；调整排版或技术实现不能写成“内容已复核”。发布时更新或替换已有条目，旧记录通过 Git 历史追溯，不把首页变成提交日志。
+首页的[近期更新](../docs/index.md)是人工维护的列表，只保留最近 3–5 条影响读者使用的变化，如新增资料、重要更正和功能变化，按日期从新到旧排列。日期按实际上线时间记录，未纳入本次发布的候选不列入；调整排版或技术实现不能写成“内容已复核”。新增条目与对应内容放在同一发布范围中，补记遗漏时保留内容原来的上线日期。旧记录通过 Git 历史追溯，不把首页变成提交日志。
 
 ### 署名变更
 
@@ -83,6 +86,8 @@ git worktree add -b update/site-maintenance ../bms-site-maintenance origin/main
 
 ## 图片体积与压缩
 
+先区分可公开题图与仅用于提取、核对的原件。整页照片、扫描件及课程通知截图不因完成转录就自动进入网站；仅供核对的原件保存在外部来源档案。以下正文版与原图入口规则适用于已确认公开展示的图片，附件下载同样按已确认用途处理。
+
 新增、替换或集中检查图片时，先记录文件体积、像素尺寸、格式、透明度和实际引用页面。默认从不小于 **250 KiB** 的图片开始排查，优先处理超过 **1 MiB** 的文件；这是筛选起点，不是每张图片的硬性上限。体积已经合适的图片、SVG 和图标不为统一格式反复转码。
 
 - **先做无损优化。** 原 PNG 可以重新编码，采用前逐张比较解码像素、尺寸、透明度和元数据，确认完全一致；体积没有实际收益时保留原文件。文件哈希用于核对备份和构建产物，不能用压缩前后文件哈希不同来判断像素是否改变。
@@ -101,6 +106,12 @@ git worktree add -b update/site-maintenance ../bms-site-maintenance origin/main
 移动页面前先检索引用、现有锚点和评论关联，并在 [data/path-migrations.json](../data/path-migrations.json) 登记旧路径与当前路径。`pages` 和 `assets` 使用 `docs/` 下的相对路径，分别生成旧页面跳转和旧资源副本；`source_files` 使用仓库相对路径，记录维护文档及数据文件的位置变化，不生成网站入口。页面迁移目标可带章节锚点，旧链接已有查询参数或锚点时继续保留；没有旧锚点时使用登记的目标位置。兼容页不加入导航或搜索，正文只维护当前页面。
 
 Giscus 原来按网址路径关联讨论。单页改名后，迁移逻辑让当前页沿用旧评论路径；多个旧页合并、带章节目标或已有合集讨论时，仍需单独核对讨论归属。小测并入合集继续按 `resource_aliases` 保留旧阅读位置、导出分组和原页评论，再由路径迁移衔接旧目录。已登记 `preserved_source_sha256` 的原文件变化会使构建停止，先核对原文与合集，不能直接改哈希绕过差异。
+
+切换为 Giscus 的 `specific` 映射时，`data-term` 必须与原 `pathname` 映射生成的检索词一致：去掉路径开头的 `/` 和末尾文件扩展名，保留末尾 `/`，根路径使用 `index`。例如旧地址 `/BMS_Database/mandatory/molecular_cell_biology_2/` 对应的检索词是 `BMS_Database/mandatory/molecular_cell_biology_2/`。评论迁移验收必须选有历史评论的页面，对照 GitHub Discussions 核对评论数量、作者和正文；只检查 iframe 地址不能确认原评论已接回。
+
+若讨论对应的是更早一轮迁移之前的地址，可在确认页面从属关系后，用页面元数据 `legacy_comment_path` 指定上述完整检索词；后续路径迁移保留该值，不覆盖为较新的地址。依据应包含原讨论与 Git 历史，不能仅按相似课程名关联。
+
+评论内容与自定义主题分别验收。保留明暗评论样式中隐藏赞同箭头的规则及表情回应；本地预览的主题地址若无法由 Giscus 加载，不能凭截图认定正式主题已经改变或通过验收。记录实际加载的讨论与主题状态，发布后在正式地址复核箭头隐藏、表情回应以及跨目录切换明暗主题。
 
 核对兼容入口时，至少从旧页面网址、带锚点的分享链接、旧题图或下载地址和独立导出入口各走通一处，并确认当前页面的原讨论仍可找到。不要仅凭新页面能够打开就移除迁移记录。
 
@@ -127,6 +138,10 @@ python -m unittest discover -s tests -p "test_contribution*.py"
 ## 发布与回退
 
 多项任务合并发布时，记录各候选的来源工作树、基线提交和实际文件版本，针对共享文件合并各自差异，不整份覆盖较新的主线。原任务在汇总后继续更新时，重新核对变化、累计范围和相关验证；旧候选的构建或截图不能作为更新后版本的验收依据。
+
+整合连续对话时，以最后明确采用的决定和当前文件为准，记录被撤回或替代的试验。先保存目标文件的实际内容与来源校验，再按文件或区块合入；合并后指定唯一继续编辑的候选，并在该候选上集中验证。原任务目录保留证据，旧脚本不能重跑覆盖后续更正。整合完成与提交、推送、创建 PR、发布分别记录；尚未获得相应授权时保留未提交状态。
+
+准备 PR 时，按[PR 模板](../.github/pull_request_template.md)核对本次是否有需要告知读者的变化：有则同步更新首页条目并检查入口，无则在 PR 中简述原因。合并前由发布者复核条目日期与本次发布范围；发布延期跨日时同步修正日期。部署后核对首页显示的条目及其目标页面，不能只检查被修改的资料页。
 
 正常发布入口是合并到 `main` 的 PR。`Deploy documentation` 在 PR 中仅构建；`main` 收到推送后先严格构建，通过后由 `deploy` job 执行 `python -m mkdocs gh-deploy --force`，使用 GitHub 自动提供的 token 写入 `gh-pages`。该工作流不需要维护者新增 PAT。仓库 Settings → Pages 应与这条发布方式对应，来源为 `gh-pages` 分支根目录；接手或迁移时由管理员核对实际设置。
 
@@ -169,6 +184,7 @@ python -m unittest discover -s tests -p "test_contribution*.py"
 | 标题仍显示“课程主页”或无法区分材料 | 核对目标 Markdown、课程映射、标题 hook 的生效顺序和构建后的 `<title>`，再检查导出所选范围 |
 | 导出失败、乱码或题图缺失 | 从资料目录进入独立导出页；检查浏览器控制台和网络请求、原文/图片/字体加载及范围锚点。使用 HTTP 本地服务预览，应用内浏览器问题先换系统浏览器 |
 | 公式或评论单独不显示 | 公式依赖配置中的 KaTeX 资源，评论依赖 Giscus 与 GitHub Discussions；分别检查网络请求、评论 App/分类权限、路径关联与主题，不把服务问题当作题文丢失 |
+| 帮助提示重复、找不到快速上手或页底跳往其他课程 | 分别检查 `page-help.js` 的即时导航初始化、手机 `nav.html` 固定入口及 `footer_navigation.py` 的课程边界；同步使用说明与阅读指南。页底导航可运行 `test_footer_navigation.py`，交互仍需浏览器核对 |
 | 投稿模型步骤停止 | 根据失败 job 和 `receipt.json` 定位，按投稿指南核对开关、权限、快照、额度与账本。超时或未知用量不点击 Re-run jobs，也不删除账本来“恢复” |
 
 遇到隐私或凭据泄露，先停止相关投稿处理并限制继续传播，通过适当的非公开渠道联系有权限的人处理公开内容与相关记录。删除源码或关闭 Issue 不代表历史、附件和已发布副本已经消失。具体处置范围和结果应单独记录，不把敏感证据贴回公开反馈。

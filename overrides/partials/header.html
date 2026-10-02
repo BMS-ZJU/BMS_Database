@@ -43,6 +43,7 @@
     {% if config.extra.alternate %}
       {% include "partials/alternate.html" %}
     {% endif %}
+    <a class="bms-help-toggle" data-page-help href="{{ 'guide/' | url }}#quick-start" title="查看使用说明">帮助</a>
     {% if "material/search" in config.plugins %}
       {% set search = config.plugins["material/search"] | attr("config") %}
       {% if search.enabled %}

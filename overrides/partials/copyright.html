@@ -1,13 +1,12 @@
-{# Keep the theme attribution and existing copyright alongside the resource-use entry. #}
-<div class="md-copyright">
+{# Keep copyright, resource-use terms and theme attribution readable at narrow widths. #}
+<div class="md-copyright bms-footer-copyright">
   {% if config.copyright %}
     <div class="md-copyright__highlight">{{ config.copyright }}</div>
   {% endif %}
-  {% if not config.extra.generator == false %}
-    <span class="resource-use-attribution-prefix">Made with</span>
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  {% endif %}
-  <span class="resource-use-footer">{% if not config.extra.generator == false %} · {% endif %}资料免费获取 · <a href="{{ 'contribute/sources-and-permissions/' | url }}#resource-use">使用限制</a></span>
+  <div class="bms-footer-fineprint">
+    <span class="resource-use-footer">资料免费获取 · <a href="{{ 'contribute/sources-and-permissions/' | url }}#resource-use">使用限制</a></span>
+    {% if not config.extra.generator == false %}
+      <span class="bms-footer-attribution">Made with <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a></span>
+    {% endif %}
+  </div>
 </div>

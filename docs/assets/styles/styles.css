@@ -1057,3 +1057,49 @@
   }
   .resource-collection .resource-panel-title { margin: .8em 0 .4em; }
 }
+
+.bms-nav-help:focus-visible {
+  outline: 2px solid var(--md-typeset-a-color);
+  outline-offset: 2px;
+}
+
+.bms-nav-help {
+  display: none;
+}
+
+/* Reserve a row above every drawer level; nested panels keep their own back buttons. */
+@media screen and (max-width: 76.234375em) {
+  .bms-nav-help {
+    position: absolute;
+    inset: 0 0 auto;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    height: 2.4rem;
+    padding: 0 0.8rem;
+    background: var(--md-default-bg-color);
+    color: var(--md-typeset-a-color);
+    border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .bms-nav-help .md-icon svg {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .bms-nav-help:hover {
+    background: var(--md-accent-fg-color--transparent);
+  }
+
+  .bms-nav-help:focus-visible {
+    outline-offset: -3px;
+  }
+
+  .md-sidebar--primary .md-nav--primary {
+    top: 2.4rem;
+    height: calc(100% - 2.4rem);
+  }
+}

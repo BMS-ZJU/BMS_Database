@@ -22,6 +22,9 @@ def on_page_content(html, page, config, files):
         raise ValueError(f"{page.file.src_uri}: unknown resource_usage {mode!r}")
     if mode and is_index:
         raise ValueError(f"{page.file.src_uri}: set resource_usage on individual resources")
+    if is_index:
+        # Directory pages already expose the policy in the shared site footer.
+        return html
 
     if mode == "site-policy":
         label = "<strong>欢迎分享本站链接 · 全文转载、文件重传须经许可 · 禁止商业使用</strong>"
@@ -45,9 +48,6 @@ def on_page_content(html, page, config, files):
     if not heading:
         raise ValueError(f"{page.file.src_uri}: resource page needs an H1")
     html = html[:heading.end()] + "\n" + notice + html[heading.end():]
-    if is_index:
-        return html
-
     original_url = escape(page.canonical_url or urljoin(config.site_url, page.url), quote=True)
     policy_url = escape(urljoin(config.site_url, policy_path), quote=True)
     footer = (
