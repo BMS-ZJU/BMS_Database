@@ -1,0 +1,96 @@
+/* Optional page help; existing content and controls remain usable. */
+.bms-help-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  min-width: 44px;
+  min-height: 44px;
+  margin: 0 .15rem;
+  border-radius: .2rem;
+  color: inherit;
+  font-size: .7rem;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.bms-help-toggle[aria-pressed="true"] {
+  background: var(--md-primary-bg-color);
+  color: var(--md-primary-fg-color);
+}
+.bms-help-toggle:focus-visible,
+.bms-help-toolbar :is(a, button):focus-visible,
+.bms-help-invite button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.md-typeset .bms-help-toolbar,
+.md-typeset .bms-help-invite {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .15rem .55rem;
+  color: var(--md-default-fg-color--light);
+  font-family: var(--md-text-font-family);
+  font-size: .65rem;
+  line-height: 1.5;
+}
+.md-typeset .bms-help-toolbar {
+  margin: 0 0 .8rem;
+  padding: .1rem 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset .bms-help-invite { margin: -.4rem 0 .65rem; }
+.bms-help-invite > span { flex: 1; }
+.bms-help-toolbar button,
+.bms-help-invite button {
+  min-height: 36px;
+  min-width: 36px;
+  padding: .2rem;
+  color: var(--md-typeset-a-color);
+  cursor: pointer;
+}
+.bms-help-toolbar button { margin-inline-start: auto; }
+.bms-help-invite button { font-size: 1rem; }
+.md-typeset .bms-context-hint,
+.md-search__scrollwrap > .bms-context-hint {
+  margin: .45rem 0 .75rem;
+  padding: .45rem .65rem;
+  border-inline-start: 2px solid var(--md-typeset-a-color);
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-default-fg-color);
+  font-size: .7rem;
+  line-height: 1.6;
+  font-family: var(--md-text-font-family);
+}
+.md-search__scrollwrap > .bms-context-hint { margin: .5rem .7rem; }
+.bms-help-open .bms-help-target {
+  outline: 1px dashed var(--md-typeset-a-color);
+  outline-offset: 4px;
+}
+.bms-help-open .md-header__inner > label[for="__search"] {
+  outline: 1px dashed currentColor;
+  outline-offset: -4px;
+}
+/* Fit the text help button beside existing tools without adding a header row. */
+@media screen and (max-width: 599px) {
+  .md-header__inner { padding-inline: 4px; }
+  .md-header__inner > .md-header__button,
+  .md-header__inner [data-md-component="palette"] > .md-header__button {
+    margin: 0;
+    padding: 6px;
+    width: 32px;
+    height: 44px;
+    flex: 0 0 32px;
+  }
+  .md-header__inner .md-header__button svg { width: 20px; height: 20px; }
+  .md-header__inner .md-header__title { margin-inline: 2px 4px; gap: 4px; }
+  .bms-help-toggle { margin: 0; }
+}
+@media print {
+  .bms-help-toggle,
+  .bms-help-toolbar,
+  .bms-help-invite,
+  .bms-context-hint { display: none !important; }
+  .bms-help-target { outline: none !important; }
+}
