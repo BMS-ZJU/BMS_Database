@@ -12,9 +12,9 @@ BMS Database 最初和基础医学《飞跃手册》一起被提出。我们想�
 ## 你想找什么
 
 <div class="course-links">
+  <a class="course-link" href="guide/#quick-start"><strong>快速上手</strong><small>第一次来？了解怎样查找、阅读和保存资料。</small></a>
   <a class="course-link" href="courses/"><strong>课程资料</strong><small>按课程名或课程号查找，再进入已有资料。</small></a>
   <a class="course-link" href="curricula/"><strong>培养方案</strong><small>先选择入学年级和班型，再核对课程号、学分与建议学期。</small></a>
-  <a class="course-link" href="guide/"><strong>使用说明</strong><small>了解怎样找资料，以及学年、回忆卷和站外链接该怎么看。</small></a>
   <a class="course-link" href="contribute/"><strong>贡献与纠错</strong><small>反馈内容或页面问题，补充允许公开的学习记录与资料。</small></a>
 </div>
 
@@ -35,14 +35,14 @@ BMS Database 最初和基础医学《飞跃手册》一起被提出。我们想�
 
 ## 一起把资料留下来
 
-发现错误、链接打不开，或者愿意补充自己的学习记录，可以从[贡献与纠错](contribute/index.md)开始。转发或提供资料前，请先看[来源与使用范围](contribute/sources-and-permissions.md)。
-
-这些资料免费供同学们学习参考，也请一起[保护免费共享](contribute/sources-and-permissions.md#protect-sharing)。
+这些资料免费供同学们学习参考。欢迎补充允许公开的资料与学习经验，也欢迎反馈错误或失效链接；转发或提供材料前，请查看[来源与使用范围](contribute/sources-and-permissions.md)。
 
 项目的缘起与经历，写在何冠辰的[项目后记](about/project-afterword.md)里；网站的建设过程和一些想法，写在[网站后记](afterword.md)里。
 
 ## 近期更新
 
-- **2026-09-13**：新增[投稿入口](contribute/submit.md)，可选择课程与页面，登录 GitHub 后提交资料、学习经验或纠错。
-- **2026-09-12**：补充[神经建模与数据分析（MED5075M）](courses/neural-modeling-and-data-analysis/index.md)的课程内容、考核与学习经验。
-- **2026-09-11**：小测合集支持[按次、组合或全选打印](guide/index.md#pdf)，每份材料从新页开始。
+- **2026-10-03**：补充[医学科学素养Ⅱ小测](courses/medical-science-literacy-2/quizzes/index.md)，接入对应 Ginkgo 练习并修复旧入口。
+- **2026-10-03**：完善[快速上手](guide/index.md#quick-start)与页面帮助，统一资料目录和页脚导航，调整导出选择与学年分组，恢复历史评论关联。
+- **2026-09-21**：改进[资料导出](guide/index.md#pdf)，修复选择范围与答案显示问题，改善长篇资料的预览流畅度。
+- **2026-09-16**：补充[感染与免疫学](courses/infectious-diseases-and-immunity/index.md)与[医工交叉融合中的人工智能](courses/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/index.md)的 2026-2027 学年秋冬课程安排与考核要求。
+- **2026-09-16**：完善[紫金港速通](zijingang/index.md)中的选课、教材与缓考说明，新增[常用工具与网站](zijingang/useful-tools.md)。

@@ -1,5 +1,6 @@
 ---
 resource_usage: site-policy
+legacy_comment_path: BMS_Database/mandatory/medical_big_data_and_application/preview/2024_to_2025/final_exam/
 title: 医学大数据与应用 2024-2025 学年夏学期期末回忆卷
 ---
 

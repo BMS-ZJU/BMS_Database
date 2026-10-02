@@ -2,6 +2,9 @@
 
 <!--
 source-attribution
+2026-2027 秋学期课程安排与考核：课程安排、分数构成和周测通知截图。
+来源记录：MSL2-INBOX-20261003。
+
 2025-2026学年夏学期、25级部分课程经验：Noah0142。
 原始出处：https://www.cc98.org/topic/6573693。
 来源记录：RS-057、CONSENT-ATTRIBUTION-20260915。
@@ -11,7 +14,7 @@ source-attribution
 来源记录：RS-054、CONSENT-ATTRIBUTION-20260915。
 -->
 
-课程分为生物医学信息和生物统计两部分。前几次课学习文献与数据库检索，之后转入概率统计、研究设计和 R 语言实践。
+课程分为生物医学信息和生物统计两部分，学习文献与数据库检索、概率统计、研究设计和 R 语言实践。
 
 ## 课程学习内容
 
@@ -26,6 +29,10 @@ source-attribution
 
 ## 上课与平时任务
 
+**2026-2027 秋学期**
+
+教学日历中标注的实践课有小测，需要分组。周测成绩取独立完成课堂测验的得分与小组讨论得分的平均分。周测可能安排补测，但未提前请假者不予补测。
+
 **2025-2026 夏学期（25 级）**
 
 小测包括纸质和线上编程两种形式，和期末考试共同构成总评。
@@ -35,6 +42,25 @@ source-attribution
 三次线上计分小测、两次线下计分小测，以及不计分的课堂练习。线上小测均为 60 分钟、两次机会；线下小测为纸质大题。各次开放时间、补测记录和题目见[练习与小测](quizzes/)。
 
 ## 分数构成
+
+=== "2026-2027 秋学期"
+
+    <div class="course-score">
+      <div class="course-score__items" role="list" aria-label="医学科学素养Ⅱ 2026-2027 秋学期分数构成">
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">40<span>%</span></div>
+          <div class="course-score__body"><strong>平时周测</strong><p>独立测验与小组讨论成绩取平均</p></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">10<span>%</span></div>
+          <div class="course-score__body"><strong>签到</strong></div>
+        </div>
+        <div class="course-score__item" role="listitem">
+          <div class="course-score__number">50<span>%</span></div>
+          <div class="course-score__body"><strong>期末考试</strong></div>
+        </div>
+      </div>
+    </div>
 
 === "2025-2026 夏学期（25 级）"
 
@@ -83,6 +109,8 @@ source-attribution
 
 ## 期末考试
 
+**2026-2027 秋学期：**期末为闭卷考试。
+
 **2025-2026 夏学期（25 级）：**期末主要考查英文概率论与数理统计。该班的小测形式和秋学期不同，复习时要留意自己班次的安排。
 
 **2025-2026 秋学期（23 级）：**闭卷，主要为英文，可携带计算器。考试时会提供部分公式和分布表。文献检索部分使用中文，生物统计部分使用英文。考试共 20 道选择题，每题 2.5 分；另有 5 道简答题，共 50 分，需要写出统计计算和结论。
@@ -116,7 +144,7 @@ R 语言属于授课与实践内容，但现有期末考试不考查 R 语言操
 <nav class="course-links" aria-label="课程资料">
   <a class="course-link" href="quizzes/">
     <strong>练习与小测</strong>
-    <small>2025-2026 秋学期练习、三次线上小测和两次线下小测，并保留各次开放时间</small>
+    <small>2026-2027 秋学期小测、2025-2026 夏学期小测及秋学期练习与小测</small>
   </a>
   <a class="course-link" href="exams/">
     <strong>考试资料</strong>
