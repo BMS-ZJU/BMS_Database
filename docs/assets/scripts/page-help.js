@@ -106,7 +106,7 @@
 
     const batchTools = article.querySelector('.resource-index-print');
     if (batchTools && article.querySelector('.resource-export-index')) {
-      addHint(batchTools, '点标题或「查看资料」阅读；「合并打印」打开全部站内资料，「勾选打印」可先选一份或多份。打印前请在预览中核对范围。');
+      addHint(batchTools, '点标题或「查看资料」阅读；点「打印 / 保存 PDF」进入预览，默认只选第一份，可在展开的选择区改选或全选。');
     }
 
     const search = document.querySelector('[data-md-component="search-query"]');

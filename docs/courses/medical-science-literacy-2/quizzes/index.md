@@ -8,7 +8,7 @@ hide:
 
 <div class="grid cards course-resource-grid" markdown>
 
--   **2026-2027 学年秋学期小测**
+-   **2026-2027 学年秋学期（24级）小测**
 
     ---
 

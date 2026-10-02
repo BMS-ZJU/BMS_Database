@@ -2,7 +2,7 @@
 
 <!--
 source-attribution
-2026-2027 秋学期课程安排与考核：课程安排、分数构成和周测通知截图。
+2026-2027 秋学期（24级）课程安排与考核：课程安排、分数构成和周测通知截图。
 来源记录：MSL2-INBOX-20261003。
 
 2025-2026学年夏学期、25级部分课程经验：Noah0142。
@@ -29,7 +29,7 @@ source-attribution
 
 ## 上课与平时任务
 
-**2026-2027 秋学期**
+**2026-2027 秋学期（24级）**
 
 教学日历中标注的实践课有小测，需要分组。周测成绩取独立完成课堂测验的得分与小组讨论得分的平均分。周测可能安排补测，但未提前请假者不予补测。
 
@@ -43,10 +43,10 @@ source-attribution
 
 ## 分数构成
 
-=== "2026-2027 秋学期"
+=== "2026-2027 秋学期（24级）"
 
     <div class="course-score">
-      <div class="course-score__items" role="list" aria-label="医学科学素养Ⅱ 2026-2027 秋学期分数构成">
+      <div class="course-score__items" role="list" aria-label="医学科学素养Ⅱ 2026-2027 秋学期（24级）分数构成">
         <div class="course-score__item" role="listitem">
           <div class="course-score__number">40<span>%</span></div>
           <div class="course-score__body"><strong>平时周测</strong><p>独立测验与小组讨论成绩取平均</p></div>
@@ -109,7 +109,7 @@ source-attribution
 
 ## 期末考试
 
-**2026-2027 秋学期：**期末为闭卷考试。
+**2026-2027 秋学期（24级）：**期末为闭卷考试。
 
 **2025-2026 夏学期（25 级）：**期末主要考查英文概率论与数理统计。该班的小测形式和秋学期不同，复习时要留意自己班次的安排。
 
@@ -144,7 +144,7 @@ R 语言属于授课与实践内容，但现有期末考试不考查 R 语言操
 <nav class="course-links" aria-label="课程资料">
   <a class="course-link" href="quizzes/">
     <strong>练习与小测</strong>
-    <small>2026-2027 秋学期小测、2025-2026 夏学期小测及秋学期练习与小测</small>
+    <small>2026-2027 秋学期（24级）小测、2025-2026 夏学期小测及秋学期练习与小测</small>
   </a>
   <a class="course-link" href="exams/">
     <strong>考试资料</strong>

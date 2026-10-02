@@ -40,44 +40,6 @@
     return divider;
   };
 
-  // Native selection controls for resource directory cards.
-  const selectionControls = (choices, id) => {
-    const controls = document.createElement("div");
-    controls.id = id;
-    controls.className = "resource-batch-selection";
-    const allLabel = document.createElement("label");
-    const all = document.createElement("input");
-    all.type = "checkbox";
-    allLabel.append(all, "全选");
-    const count = document.createElement("span");
-    count.setAttribute("role", "status");
-    count.setAttribute("aria-live", "polite");
-    const selected = exportLink([], "打印所选");
-    const help = document.createElement("small");
-    help.textContent = "按资料原有顺序合并，每份资料另起一页。";
-    selected.title = help.textContent;
-    controls.append(allLabel, count, selected, help);
-    const update = () => {
-      const sources = choices.filter((choice) => choice.checkbox.checked).map((choice) => choice.source);
-      count.textContent = `已选 ${sources.length} / ${choices.length} 份`;
-      all.checked = sources.length === choices.length;
-      all.indeterminate = sources.length > 0 && sources.length < choices.length;
-      selected.setAttribute("aria-disabled", String(!sources.length));
-      if (sources.length) selected.href = exportUrl(sources);
-      else selected.removeAttribute("href");
-    };
-    choices.forEach(({ checkbox }) => checkbox.addEventListener("change", update));
-    all.addEventListener("change", () => {
-      choices.forEach(({ checkbox }) => { checkbox.checked = all.checked; });
-      update();
-    });
-    selected.addEventListener("click", (event) => {
-      if (selected.getAttribute("aria-disabled") === "true") event.preventDefault();
-    });
-    update();
-    return { controls, update };
-  };
-
   const formatPaperHeading = (heading) => {
     if (heading.querySelector(":scope > .resource-title-term")) return;
     const text = heading.firstChild;
@@ -135,50 +97,19 @@
         seen.add(source);
         return true;
       });
-    if (cards.length < 2) return;
+    if (!cards.length) return;
     const grids = document.querySelectorAll(".resource-export-index");
     const toolbar = document.createElement("div");
-    toolbar.className = "resource-batch-toolbar resource-index-print link-divider";
-    const link = exportLink(cards.map((card) => card.dataset.exportSource), "合并打印");
+    toolbar.className = "resource-batch-toolbar resource-index-print";
+    const link = exportLink(cards.map((card) => card.dataset.exportSource), "打印 / 保存 PDF");
     link.title = "在打印预览中选择资料，再打印或保存为 PDF";
-    link.setAttribute("aria-label", "合并打印（新标签页）");
+    link.setAttribute("aria-label", "打印 / 保存 PDF（新标签页）");
     toolbar.setAttribute("role", "group");
     toolbar.setAttribute("aria-label", "资料打印");
-    const toggle = document.createElement("button");
-    toggle.type = "button";
-    toggle.textContent = "勾选打印";
-    toggle.setAttribute("aria-expanded", "false");
-    toggle.setAttribute("aria-controls", "resource-batch-selection");
-    const choices = cards.map((card) => {
-      const label = document.createElement("label");
-      label.className = "resource-batch-choice";
-      label.hidden = true;
-      const checkbox = document.createElement("input");
-      checkbox.type = "checkbox";
-      const heading = card.querySelector("p:first-child strong");
-      checkbox.setAttribute("aria-label", `选择${heading?.textContent.trim() || "此资料"}`);
-      label.append(checkbox);
-      if (heading) heading.before(label);
-      else card.append(label);
-      return { label, checkbox, source: card.dataset.exportSource };
-    });
-    const { controls, update } = selectionControls(choices, "resource-batch-selection");
-    controls.hidden = true;
-    const divider = rotatingDivider();
-    toolbar.append(link, divider, controls, toggle);
-    toggle.addEventListener("click", () => {
-      const active = controls.hidden;
-      controls.hidden = !active;
-      divider.hidden = active;
-      toggle.setAttribute("aria-expanded", String(active));
-      toggle.textContent = active ? "取消" : "勾选打印";
-      grids.forEach((grid) => grid.classList.toggle("resource-selecting", active));
-      choices.forEach(({ checkbox, label }) => {
-        label.hidden = !active;
-        if (!active) checkbox.checked = false;
-      });
-      update();
-    });
+    const target = new URL(link.href);
+    target.searchParams.set("select", "first");
+    link.href = target.href;
+    toolbar.append(link);
     // These controls cover every group on the current directory.
     let toolbarAnchor = grids[0];
     if (grids.length > 1) {
