@@ -41,8 +41,8 @@ BMS Database 最初和基础医学《飞跃手册》一起被提出。我们想�
 
 ## 近期更新
 
+- **2026-10-04**：优化[打印预览](guide/index.md#pdf)，调整资料选择布局，纸质稿直接显示使用说明。
 - **2026-10-03**：补充[医学科学素养Ⅱ小测](courses/medical-science-literacy-2/quizzes/index.md)，接入对应 Ginkgo 练习并修复旧入口。
 - **2026-10-03**：完善[快速上手](guide/index.md#quick-start)与页面帮助，统一资料目录和页脚导航，调整导出选择与学年分组，恢复历史评论关联。
 - **2026-09-21**：改进[资料导出](guide/index.md#pdf)，修复选择范围与答案显示问题，改善长篇资料的预览流畅度。
 - **2026-09-16**：补充[感染与免疫学](courses/infectious-diseases-and-immunity/index.md)与[医工交叉融合中的人工智能](courses/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/index.md)的 2026-2027 学年秋冬课程安排与考核要求。
-- **2026-09-16**：完善[紫金港速通](zijingang/index.md)中的选课、教材与缓考说明，新增[常用工具与网站](zijingang/useful-tools.md)。

@@ -42,6 +42,32 @@ assert.equal(location.searchParams.get("view"), "compact");
 assert.equal(location.searchParams.has("select"), false);
 """)
 
+    def test_range_title_separates_only_explicit_time_information(self):
+        self.run_javascript("""
+assert.deepEqual(rangeTitleParts('2026-2027 学年秋学期（24级）医学科学素养Ⅱ小测'), {
+  title: '医学科学素养Ⅱ小测', metadata: ['2026-2027', '秋学期', '24级']
+});
+assert.deepEqual(rangeTitleParts('2025-2026学年夏学期医学科学素养Ⅱ小测'), {
+  title: '医学科学素养Ⅱ小测', metadata: ['2025-2026', '夏学期']
+});
+assert.deepEqual(rangeTitleParts('疾病基础 2022-2023 学年秋冬学期期末回忆卷'), {
+  title: '疾病基础 期末回忆卷', metadata: ['2022-2023', '秋冬学期']
+});
+assert.deepEqual(rangeTitleParts('2024-2025学年物理化学期中回忆卷'), {
+  title: '物理化学期中回忆卷', metadata: ['2024-2025']
+});
+""")
+
+    def test_ambiguous_range_title_stays_complete(self):
+        self.run_javascript("""
+for (const title of ['往年小测', '2025年期末回忆卷', '2024-2026汇编', '2024-2025与2025-2026小测', '2025-2026 学年秋学期']) {
+  assert.deepEqual(rangeTitleParts(title), { title, metadata: [] });
+}
+assert.deepEqual(rangeTitleParts('2025-2026学年课程小测（A卷）'), {
+  title: '课程小测（A卷）', metadata: ['2025-2026']
+});
+""")
+
     def test_empty_selection_and_select_all_round_trip(self):
         self.run_javascript("""
 const sources = [source("paper-a"), source("paper-b"), source("paper-c")];

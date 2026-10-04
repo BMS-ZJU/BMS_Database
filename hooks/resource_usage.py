@@ -39,9 +39,16 @@ def on_page_content(html, page, config, files):
         label = "资料免费获取 · 欢迎分享本站链接"
         scope = '<span class="resource-use-scope">具体资料请遵守原有署名、许可与使用限制。</span>'
 
+    # Paper readers need the applicable text, without having to open a link.
+    # Keep source-specific restrictions intact and do not assign a shared licence.
+    print_label = label if mode else (
+        "资料免费获取，欢迎分享本站链接。请保留原有署名、来源和使用说明；"
+        "转载全文或重新上传文件前，请核对具体材料的许可。本站不提供商业使用授权。"
+    )
     notice = (
         '<div class="resource-use-notice" role="note" aria-label="资料使用说明">'
-        f'<p>{label} · <a href="{policy_link}">使用限制</a></p></div>'
+        f'<p class="resource-use-reading">{label} · <a href="{policy_link}">使用限制</a></p>'
+        f'<p class="resource-use-print">{print_label}</p></div>'
     )
     # Match only the generated top-level heading, leaving source comments untouched.
     heading = re.search(r"</h1>", html, flags=re.IGNORECASE)

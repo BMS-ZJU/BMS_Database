@@ -11,6 +11,15 @@
 .resource-use-notice strong {
   font-weight: 500;
 }
+.resource-use-notice .resource-use-print {
+  display: none;
+}
+.resource-export-view .resource-use-notice .resource-use-reading {
+  display: none;
+}
+.resource-export-view .resource-use-notice .resource-use-print {
+  display: block;
+}
 .resource-use-scope {
   display: inline;
 }
@@ -62,6 +71,12 @@
   margin: 0.15em 0;
 }
 @media print {
+  .resource-use-notice .resource-use-reading {
+    display: none;
+  }
+  .resource-use-notice .resource-use-print {
+    display: block;
+  }
   .md-typeset .resource-use-notice,
   .md-typeset .resource-use-source {
     color: #333;
@@ -596,14 +611,14 @@ body.resource-export-view [hidden] {
 }
 
 .resource-export-view .export-toolbar {
-  position: sticky;
+  position: relative;
   z-index: 10;
-  top: 0;
+  flex: 0 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 10px 18px;
-  padding: 12px max(20px, calc((100% - 210mm) / 2));
+  padding: 10px 20px;
   border-bottom: 1px solid #d8dadd;
   background: #fff;
   color: #30343a;
@@ -657,7 +672,7 @@ body.resource-export-view [hidden] {
   opacity: 0.55;
 }
 
-.resource-export-view .export-toolbar label {
+.resource-export-view :is(.export-toolbar, #range-selection) label {
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
@@ -665,15 +680,19 @@ body.resource-export-view [hidden] {
   max-width: 100%;
 }
 
-.resource-export-view .export-toolbar :is(a, button, select, input):focus-visible {
+.resource-export-view :is(.export-toolbar, #range-selection) :is(a, button, select, input, summary):focus-visible,
+.resource-export-view :is(#range-groups, .export-preview):focus-visible {
   outline: 2px solid #374d66;
   outline-offset: 3px;
 }
 
 .resource-export-view #export-status {
-  flex-basis: 100%;
+  flex: 0 0 auto;
   margin: 0;
+  padding: 6px 20px;
+  background: #fff;
   color: #555b63;
+  font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
   font-size: 13px;
   overflow-wrap: anywhere;
 }
@@ -687,26 +706,132 @@ body.resource-export-view [hidden] {
   min-width: 0;
 }
 .resource-export-view .export-range-summary { gap: 4px 8px; }
-.resource-export-view #range-summary { overflow-wrap: anywhere; }
-.resource-export-view #range-selection { flex-basis: 100%; min-width: 0; }
-.resource-export-view #range-groups { display: grid; gap: 8px; margin-top: 6px; }
+.resource-export-view #range-summary { white-space: nowrap; }
+.resource-export-view #range-selection {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 300px;
+  min-width: 0;
+  min-height: 0;
+  border-right: 1px solid #d8dadd;
+  background: #fff;
+  color: #30343a;
+  font: 14px/1.5 system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+}
+.resource-export-view .export-range-actions {
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 6px 20px;
+  border-bottom: 1px solid #e6e7e9;
+}
+.resource-export-view #range-count { margin-left: auto; color: #62666c; font-size: 12px; }
+.resource-export-view #range-groups {
+  display: grid;
+  align-content: start;
+  gap: 14px;
+  min-height: 0;
+  padding: 12px 20px 20px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
 .resource-export-view .export-range-source { min-width: 0; }
 .resource-export-view .export-range-source + .export-range-source { border-top: 1px solid #d8dadd; padding-top: 10px; }
-.resource-export-view .export-range-source > h3 { margin: 0 0 4px; font-size: 1em; font-weight: 650; overflow-wrap: anywhere; }
+.resource-export-view .export-range-source > h3 { margin: 0 0 8px; font-size: 14px; line-height: 1.45; font-weight: 600; overflow-wrap: anywhere; }
+.resource-export-view .export-range-source > h3:has(+ .export-range-meta) { margin-bottom: 2px; }
+.resource-export-view .export-range-meta { margin: 0 0 8px; font-size: 12px; color: #62666c; }
 .resource-export-view .export-range-group + .export-range-group { margin-top: 6px; }
 .resource-export-view .export-range-group { border: 0; margin: 0; padding: 0; min-width: 0; }
-.resource-export-view .export-range-group legend { padding: 0; font-weight: 600; }
-.resource-export-view .export-range-choices { display: flex; flex-wrap: wrap; gap: 2px 18px; }
-.resource-export-view #range-selection label { min-height: 40px; flex-wrap: nowrap; cursor: pointer; }
+.resource-export-view .export-range-group legend { padding: 0; font-size: 12px; font-weight: 600; color: #62666c; }
+.resource-export-view .export-range-choices { display: flex; flex-direction: column; gap: 2px 18px; }
+.resource-export-view .export-range-group legend + .export-range-choices { padding-inline-start: 8px; }
+.resource-export-view #range-selection label { min-height: 40px; flex-wrap: nowrap; cursor: pointer; overflow-wrap: anywhere; }
+.resource-export-view #range-groups label { min-height: 32px; }
 .resource-export-view #range-selection input { margin: 0; flex: 0 0 auto; }
+@media screen and (min-width: 1200px) {
+  .resource-export-view .export-range-choices {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, max(7.5em, calc(50% - 6px))), 1fr));
+    gap: 2px 12px;
+  }
+  .resource-export-view .export-range-choice-wide { grid-column: 1 / -1; }
+}
 .resource-export-view main.paper:empty { display: none; }
 .resource-export-view main.paper[aria-busy="true"] { visibility: hidden; }
 
 .resource-export-view .export-help {
-  flex-basis: 100%;
+  margin-left: auto;
+}
+
+.resource-export-view .export-help > summary {
+  padding: 8px 0;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.resource-export-view .export-help-content {
+  position: absolute;
+  top: 100%;
+  right: 16px;
+  width: min(460px, calc(100vw - 32px));
+  max-height: 50vh;
+  max-height: 50dvh;
+  overflow-y: auto;
+  padding: 4px 16px;
+  border: 1px solid #d8dadd;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 4px 12px #0002;
+  color: #555b63;
+  font-size: 13px;
+}
+
+.resource-export-view .export-layout {
+  display: flex;
+  flex: 1 1 0;
+  min-height: 0;
+}
+
+.resource-export-view .export-preview {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 0;
+  overflow: auto;
+  scrollbar-gutter: stable;
+}
+
+@media screen {
+  body.resource-export-view {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+  }
+}
+
+/* Keep the A4 preview usable when the window cannot fit both columns. */
+@media screen and (max-width: 1199px) {
+  .resource-export-view .export-layout { flex-direction: column; }
+  .resource-export-view #range-selection {
+    flex: 0 1 auto;
+    max-height: 30vh;
+    max-height: 30dvh;
+    border-right: 0;
+    border-bottom: 1px solid #d8dadd;
+  }
+  .resource-export-view #range-groups { gap: 10px; padding-top: 8px; padding-bottom: 12px; }
+  .resource-export-view .export-range-choices { flex-direction: row; flex-wrap: wrap; }
+  .resource-export-view #range-groups label { min-height: 36px; }
+}
+
+@media screen and (max-height: 650px) and (max-width: 1199px) {
+  .resource-export-view #range-selection { max-height: 25vh; max-height: 25dvh; }
+}
+
+.resource-export-view > noscript {
   margin: 0;
-  color: #62666c;
-  font-size: 12px;
+  padding: 12px 20px;
 }
 
 .resource-export-view .export-measure {
@@ -1353,9 +1478,20 @@ body.resource-export-view [hidden] {
     padding: 10px 16px;
   }
 
+  .resource-export-view #export-status { padding: 4px 16px; }
+  .resource-export-view .export-range-actions { padding: 2px 16px; }
+  .resource-export-view #range-groups { padding-left: 16px; padding-right: 16px; }
+
   .resource-export-view main.paper {
     width: calc(100% - 20px);
     min-height: 0;
+    margin: 14px auto 28px;
+    padding: 24px clamp(16px, 5vw, 36px);
+  }
+}
+
+@media screen and (max-height: 500px) and (max-width: 1199px) {
+  .resource-export-view main.paper {
     margin: 14px auto 28px;
     padding: 24px clamp(16px, 5vw, 36px);
   }
@@ -1369,14 +1505,27 @@ body.resource-export-view [hidden] {
 
 @media print {
   body.resource-export-view {
+    display: block;
+    height: auto;
+    overflow: visible;
     margin: 0;
     background: #fff;
     color: #000;
   }
 
-  body.resource-export-view > :not(main.paper),
-  .resource-export-view .export-toolbar {
+  body.resource-export-view > :not(.export-layout),
+  .resource-export-view #range-selection {
     display: none !important;
+  }
+
+  .resource-export-view :is(.export-layout, .export-preview) {
+    display: block;
+    width: auto;
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    overflow: visible;
+    scrollbar-gutter: auto;
   }
 
   .resource-export-view main.paper {
