@@ -389,6 +389,7 @@ hooks:
   - hooks/footer_navigation.py
   - hooks/contribution_links.py
   - hooks/resource_usage.py
+  - hooks/resource_indexes.py
   - hooks/resource_aliases.py
   - hooks/path_migrations.py
 

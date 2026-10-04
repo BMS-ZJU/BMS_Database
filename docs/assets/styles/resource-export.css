@@ -23,11 +23,7 @@
 .resource-use-scope {
   display: inline;
 }
-@media screen and (max-width: 22.5em) {
-  .resource-use-attribution-prefix {
-    display: none;
-  }
-}
+
 .md-typeset .resource-use-source {
   margin-top: 1.5rem;
   padding-top: 0.55rem;
@@ -91,11 +87,10 @@
   .resource-legacy-comments { display: none !important; }
 }
 
-/* Exam and quiz indexes share the site's two-column resource lists. */
+/* All course resource directories share this static, responsive layout. */
 .md-typeset :is(.resource-export-index, .resource-batch-toolbar, .resource-page-tools) {
   --resource-control-color: var(--md-typeset-a-color);
   --resource-control-line: var(--md-default-fg-color--lightest);
-  --resource-control-tint: color-mix(in srgb, var(--md-typeset-a-color) 6%, transparent);
   --resource-control-hover: color-mix(in srgb, var(--md-typeset-a-color) 10%, transparent);
   --resource-print-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round'%3E%3Cpath d='M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6zM17 11h1'/%3E%3C/svg%3E");
 }
@@ -106,6 +101,15 @@
   gap: 0 0.9rem;
   margin: 0.7rem 0;
   border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul,
+.md-typeset .course-resource-grid.resource-export-index > ul > li > p {
+  margin: 0;
+}
+
+.md-typeset .course-resource-grid.resource-export-index > ul > li > hr {
+  display: none;
 }
 
 .md-typeset .grid.cards.course-resource-grid.resource-export-index > ul > li {
@@ -294,10 +298,6 @@
 }
 
 @media (pointer: coarse) {
-  .md-typeset .resource-batch-choice {
-    min-height: 44px;
-  }
-
   .md-typeset .course-resource-grid.resource-export-index > ul > li > p.resource-index-actions > a {
     min-height: 32px;
   }
@@ -315,7 +315,7 @@
 
 }
 
-/* On-page entry and batch selection keep the ordinary resource list lightweight. */
+/* Print entries and the shared contribution controls. */
 .md-typeset h1:has(+ .resource-page-tools) {
   margin-bottom: 0.35rem;
 }
@@ -385,14 +385,12 @@
 }
 
 .md-typeset .resource-page-tools :is(a, button):focus-visible,
-.md-typeset .resource-batch-toolbar :is(a, button, input):focus-visible,
-.md-typeset .resource-batch-choice input:focus-visible {
+.md-typeset .resource-batch-toolbar :is(a, button, input):focus-visible {
   outline: 2px solid var(--md-accent-fg-color, currentColor);
   outline-offset: 2px;
 }
 
-.md-typeset .resource-batch-toolbar,
-.md-typeset .resource-batch-selection {
+.md-typeset .resource-batch-toolbar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -405,13 +403,6 @@
 .md-typeset .resource-batch-toolbar {
   gap: 0.3rem 0.45rem;
   margin: 0.8rem 0 0;
-}
-
-.md-typeset .resource-batch-total {
-  margin-inline-end: auto;
-  color: var(--md-default-fg-color--light);
-  font-size: calc(0.62 * var(--bms-reading-small-unit, 1rem));
-  white-space: nowrap;
 }
 
 .md-typeset .resource-batch-toolbar :is(a, button) {
@@ -431,13 +422,6 @@
 
 .md-typeset .resource-batch-toolbar > button {
   color: var(--md-default-fg-color--light);
-}
-
-.md-typeset .resource-batch-toolbar > button[aria-expanded="true"] {
-  order: 2;
-  padding-inline: 0.22rem;
-  color: var(--md-default-fg-color--light);
-  background: none;
 }
 
 .md-typeset .resource-batch-toolbar > a::before {
@@ -475,57 +459,6 @@
   color: var(--md-typeset-a-color);
 }
 
-.md-typeset .resource-batch-selection {
-  flex-basis: 100%;
-}
-
-.md-typeset .resource-batch-selection:not([hidden]) {
-  display: contents;
-}
-
-.md-typeset .resource-batch-toolbar:has(> button[aria-expanded="true"]) {
-  gap: 0.2rem 0.6rem;
-  padding: 0.28rem 0.4rem;
-  border: 1px solid var(--resource-control-line);
-  border-radius: 4px;
-  background: var(--resource-control-tint);
-}
-
-.md-typeset .resource-batch-toolbar:has(> button[aria-expanded="true"]) > :is(.resource-batch-total, a) {
-  display: none;
-}
-
-.md-typeset .resource-batch-selection > a {
-  order: 1;
-  margin-inline-start: auto;
-  border-color: color-mix(in srgb, var(--resource-control-color) 40%, transparent);
-  color: var(--resource-control-color);
-  font-weight: 500;
-}
-
-.md-typeset .resource-batch-selection label,
-.md-typeset .resource-batch-choice {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.35rem;
-  min-height: 32px;
-  cursor: pointer;
-}
-
-.md-typeset .resource-batch-selection input,
-.md-typeset .resource-batch-choice input {
-  width: 16px;
-  height: 16px;
-  margin: 0;
-  accent-color: var(--md-typeset-a-color);
-  cursor: pointer;
-}
-
-.md-typeset .resource-batch-selection small {
-  display: none;
-}
-
 .md-typeset .resource-batch-toolbar a[aria-disabled="true"] {
   border-color: var(--resource-control-line);
   color: var(--md-default-fg-color--light);
@@ -535,42 +468,11 @@
   text-decoration: none;
 }
 
-.md-typeset .grid.cards.course-resource-grid.resource-selecting > ul > li[data-export-source] {
-  padding-left: 1.6rem;
-}
-
-.md-typeset .grid.cards.course-resource-grid.resource-export-index.resource-selecting > ul > li:has(.resource-batch-choice input:checked) {
-  background: var(--resource-control-tint);
-}
-
-.md-typeset .resource-batch-choice {
-  position: absolute;
-  top: 0.25rem;
-  left: 0;
-  width: 28px;
-}
-
-.md-typeset .resource-batch-selection[hidden],
-.md-typeset .resource-batch-choice[hidden] {
-  display: none;
-}
-
 @media screen and (max-width: 600px) {
-  .md-typeset .resource-batch-total {
-    flex-basis: 100%;
-    margin-bottom: 0.15rem;
-  }
-
   .md-typeset .resource-batch-toolbar > a {
     margin-inline-start: -0.45rem;
   }
 
-}
-
-@media screen and (max-width: 380px) {
-  .md-typeset .resource-batch-toolbar:has(> button[aria-expanded="true"]) {
-    gap: 0.15rem 0.3rem;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -581,7 +483,7 @@
 }
 
 @media print {
-  .md-typeset :is(.resource-page-tools, .resource-batch-toolbar, .resource-batch-choice) {
+  .md-typeset :is(.resource-page-tools, .resource-batch-toolbar) {
     display: none !important;
   }
 }

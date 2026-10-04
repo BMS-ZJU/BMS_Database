@@ -38,11 +38,3 @@ BMS Database 最初和基础医学《飞跃手册》一起被提出。我们想�
 这些资料免费供同学们学习参考。欢迎补充允许公开的资料与学习经验，也欢迎反馈错误或失效链接；转发或提供材料前，请查看[来源与使用范围](contribute/sources-and-permissions.md)。
 
 项目的缘起与经历，写在何冠辰的[项目后记](about/project-afterword.md)里；网站的建设过程和一些想法，写在[网站后记](afterword.md)里。
-
-## 近期更新
-
-- **2026-10-04**：优化[打印预览](guide/index.md#pdf)，调整资料选择布局，纸质稿直接显示使用说明。
-- **2026-10-03**：补充[医学科学素养Ⅱ小测](courses/medical-science-literacy-2/quizzes/index.md)，接入对应 Ginkgo 练习并修复旧入口。
-- **2026-10-03**：完善[快速上手](guide/index.md#quick-start)与页面帮助，统一资料目录和页脚导航，调整导出选择与学年分组，恢复历史评论关联。
-- **2026-09-21**：改进[资料导出](guide/index.md#pdf)，修复选择范围与答案显示问题，改善长篇资料的预览流畅度。
-- **2026-09-16**：补充[感染与免疫学](courses/infectious-diseases-and-immunity/index.md)与[医工交叉融合中的人工智能](courses/artificial-intelligence-in-medical-engineering-interdisciplinary-integration/index.md)的 2026-2027 学年秋冬课程安排与考核要求。
