@@ -104,6 +104,19 @@
     return url;
   };
 
+  const rangeTitleParts = (title) => {
+    const unchanged = { title, metadata: [] };
+    const years = Array.from(title.matchAll(/\b((?:19|20)\d{2})\s*[-–—]\s*((?:19|20)\d{2})(?!\d)(?:\s*学年)?/g));
+    if (years.length !== 1 || Number(years[0][2]) !== Number(years[0][1]) + 1) return unchanged;
+    const year = years[0];
+    const end = year.index + year[0].length;
+    // Only move explicit information immediately following this academic year.
+    const extra = title.slice(end).match(/^\s*((?:春夏|秋冬|春|夏|秋|冬)学期)?\s*(?:[（(]\s*((?:\d{2}|\d{4})\s*级)\s*[）)])?/);
+    const name = (title.slice(0, year.index) + ' ' + title.slice(end + extra[0].length)).trim().replace(/\s+/g, ' ');
+    if (!name) return unchanged;
+    return { title: name, metadata: [`${year[1]}-${year[2]}`, extra[1], extra[2]?.replace(/\s+/g, '')].filter(Boolean) };
+  };
+
   const namespaceReferences = (content, sourceUrl, prefix) => {
     const nodes = [content, ...content.querySelectorAll("*")];
     const id = (value) => `${prefix}${value}`;
@@ -736,8 +749,7 @@
       paper.setAttribute("aria-busy", "false");
       printButton.disabled = false;
       ready = true;
-      status.textContent = batch ? `已准备 ${completed}/${sources.length} 份资料。可直接打印，或在打印窗口中保存 PDF。` :
-        "已就绪。可直接打印，或在打印窗口中保存 PDF。";
+      status.textContent = batch ? `已准备 ${completed}/${sources.length} 份资料，可以打印。` : "已就绪，可以打印。";
     } catch (error) {
       if (version !== revision) return;
       ready = false;
@@ -785,14 +797,25 @@
     const initialSelection = getInitialSelection(units);
     const sourceGroups = new Map();
     const categories = new Map();
+    const textMeasure = document.createElement('canvas').getContext('2d');
+    const choiceFont = getComputedStyle(panel);
+    textMeasure.font = choiceFont.font;
     const choices = units.map((unit) => {
       const sourceKey = unit.sourceUrl.pathname;
       if (!sourceGroups.has(sourceKey)) {
         const group = document.createElement('div');
         group.className = 'export-range-source';
         const heading = document.createElement('h3');
-        heading.textContent = unit.sourceTitle;
+        const titleParts = rangeTitleParts(unit.sourceTitle);
+        heading.textContent = titleParts.title;
+        heading.title = unit.sourceTitle;
         group.append(heading);
+        if (titleParts.metadata.length) {
+          const metadata = document.createElement('p');
+          metadata.className = 'export-range-meta';
+          metadata.textContent = titleParts.metadata.join(' · ');
+          group.append(metadata);
+        }
         groups.append(group);
         sourceGroups.set(sourceKey, group);
       }
@@ -812,6 +835,9 @@
         categories.set(categoryKey, list);
       }
       const label = document.createElement('label');
+      if (textMeasure.measureText(unit.label).width > parseFloat(choiceFont.fontSize) * 5.5) {
+        label.className = 'export-range-choice-wide';
+      }
       const checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
       checkbox.value = unit.sourceUrl.pathname + unit.sourceUrl.hash;
@@ -825,8 +851,7 @@
       all.checked = selection.length === units.length;
       all.indeterminate = selection.length > 0 && selection.length < units.length;
       count.textContent = `已选 ${selection.length} / ${units.length} 份`;
-      summary.textContent = '打印范围：' + (selection.length === 1 ? `${selection[0].sourceTitle} · ${selection[0].label}` :
-        selection.length ? `共 ${selection.length} 份${all.checked ? '（全部）' : ''}` : `未选择（共 ${units.length} 份可选）`);
+      summary.textContent = count.textContent;
       if (persist) {
         history.replaceState(history.state, '', selectionUrl(sources, selection));
       }
@@ -870,6 +895,12 @@
   };
 
   answerMode.addEventListener("change", () => { if (ready) updateAnswers(); });
+  const help = document.querySelector('.export-help');
+  help.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || !help.open) return;
+    help.open = false;
+    help.querySelector('summary').focus();
+  });
   printButton.addEventListener("click", () => { if (ready) window.print(); });
   window.addEventListener("beforeprint", () => {
     if (!ready) return;
