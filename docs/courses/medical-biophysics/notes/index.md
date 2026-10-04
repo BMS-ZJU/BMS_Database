@@ -6,7 +6,7 @@ hide:
 
 # 医学生物物理学笔记
 
-三份笔记均由往届同学整理，作者姓名按原文件名保留。使用时请结合当年课件核对。
+三份笔记均由往届同学整理。使用时请结合当年课件核对。
 
 <div class="grid cards course-resource-grid" markdown>
 

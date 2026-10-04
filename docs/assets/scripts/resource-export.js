@@ -32,14 +32,6 @@
     return link;
   };
 
-  const rotatingDivider = () => {
-    const divider = document.createElement("span");
-    divider.className = "divider";
-    divider.textContent = "|";
-    divider.setAttribute("aria-hidden", "true");
-    return divider;
-  };
-
   const formatPaperHeading = (heading) => {
     if (heading.querySelector(":scope > .resource-title-term")) return;
     const text = heading.firstChild;
@@ -87,125 +79,8 @@
     tools.append(link);
   };
 
-  const addIndexPrintEntry = () => {
-    if (document.querySelector(".resource-index-print")) return;
-    const seen = new Set();
-    const cards = Array.from(document.querySelectorAll(".resource-export-index > ul > li[data-export-source]"))
-      .filter((card) => {
-        const source = card.dataset.exportSource;
-        if (seen.has(source)) return false;
-        seen.add(source);
-        return true;
-      });
-    if (!cards.length) return;
-    const grids = document.querySelectorAll(".resource-export-index");
-    const toolbar = document.createElement("div");
-    toolbar.className = "resource-batch-toolbar resource-index-print";
-    const link = exportLink(cards.map((card) => card.dataset.exportSource), "打印 / 保存 PDF");
-    link.title = "在打印预览中选择资料，再打印或保存为 PDF";
-    link.setAttribute("aria-label", "打印 / 保存 PDF（新标签页）");
-    toolbar.setAttribute("role", "group");
-    toolbar.setAttribute("aria-label", "资料打印");
-    const target = new URL(link.href);
-    target.searchParams.set("select", "first");
-    link.href = target.href;
-    toolbar.append(link);
-    // These controls cover every group on the current directory.
-    let toolbarAnchor = grids[0];
-    if (grids.length > 1) {
-      let previous = grids[0].previousElementSibling;
-      while (previous && !/^H[12]$/.test(previous.tagName)) previous = previous.previousElementSibling;
-      if (previous?.tagName === "H2") toolbarAnchor = previous;
-    }
-    toolbarAnchor.before(toolbar);
-  };
-
-  const initialize = () => {
-    // A direct paper can itself be named exams or quizzes; classify it before an index.
-    addPageEntry();
-    if (resourceUrl(new URL(location.pathname, location.origin))) return;
-    const section = location.pathname.match(/^(.*\/(?:exams|quizzes)\/)(?:index\.html)?$/);
-    if (!section) return;
-
-    // Give every resource in an exam/quiz index the same appearance, including external links.
-    document.querySelectorAll(".course-resource-grid").forEach((grid) => {
-      grid.classList.add("resource-export-index");
-      grid.querySelectorAll(":scope > ul > li").forEach((card) => {
-        const paragraphs = Array.from(card.querySelectorAll(":scope > p"));
-        paragraphs.forEach((paragraph, index) => {
-          // Source notes can follow the links; identify actions by their contents.
-          const isAction = paragraph.querySelector(":scope > a[href]") &&
-            Array.from(paragraph.childNodes).every((node) => {
-              if (node.nodeType === Node.TEXT_NODE) return /^[\s·|]*$/.test(node.textContent);
-              if (node.nodeType === Node.COMMENT_NODE) return true;
-              return node.nodeType === Node.ELEMENT_NODE && node.matches("a[href], .divider");
-            });
-          paragraph.classList.toggle("resource-index-actions", Boolean(isAction));
-          paragraph.classList.toggle("resource-index-note", index > 0 && !isAction);
-        });
-
-        // Markdown may put reading and practice links in separate paragraphs.
-        // Keep any additional reading and practice links in one action row.
-        const rows = Array.from(card.querySelectorAll(":scope > p.resource-index-actions"));
-        if (rows.length > 1) {
-          rows.slice(1).forEach((row) => {
-            rows[0].append(...row.childNodes);
-            row.remove();
-          });
-        }
-        const actions = rows[0];
-        if (actions) {
-          // Normalize literal Markdown separators as well as generated dividers.
-          Array.from(actions.childNodes).filter((node) => node.nodeType === Node.TEXT_NODE)
-            .forEach((node) => node.remove());
-          const practice = actions.querySelector(":scope > .resource-practice-link");
-          const read = actions.querySelector(":scope > .resource-read-link");
-          if (practice && read) {
-            actions.prepend(read);
-            read.after(practice);
-          }
-          // Rebuild separators after merging/reordering links; instant navigation may repeat this.
-          actions.querySelectorAll(":scope > .divider").forEach((divider) => divider.remove());
-          const links = Array.from(actions.querySelectorAll(":scope > a[href]"));
-          actions.classList.toggle("link-divider", links.length > 1);
-          links.slice(1).forEach((link) => link.before(rotatingDivider()));
-        }
-
-        // Match the catalog: the resource name itself is the primary entry.
-        const title = card.querySelector(":scope > p:first-child > strong");
-        const source = card.querySelector(":scope > p.resource-index-actions > a[href]:not(.resource-export-link)");
-        if (title && source && !title.querySelector("a")) {
-          const titleLink = source.cloneNode(false);
-          titleLink.className = "resource-index-title";
-          titleLink.removeAttribute("id");
-          titleLink.removeAttribute("aria-label");
-          titleLink.append(...title.childNodes);
-          title.append(titleLink);
-        }
-
-        // Keep actions under their title; existing badges and descriptions follow them.
-        const heading = card.querySelector(":scope > p:first-child");
-        if (heading?.querySelector(":scope > strong")) {
-          const metadata = heading.querySelectorAll(":scope > .exam-resource-tag, :scope > .course-resource-detail");
-          const notes = card.querySelectorAll(":scope > p.resource-index-note");
-          card.append(...metadata, ...notes);
-        }
-      });
-    });
-
-    // Index export belongs to the shared toolbar; cards retain reading and practice.
-    document.querySelectorAll(".course-resource-grid.resource-export-index > ul > li").forEach((card) => {
-      const links = Array.from(card.querySelectorAll(":scope > p.resource-index-actions > a[href]"));
-      // An original-post reference does not prevent exporting the local paper.
-      const targets = links.map((link) => resourceUrl(link.href))
-        .filter((url) => url && url.pathname.startsWith(section[1]));
-      const unique = new Map(targets.map((url) => [url.pathname, url]));
-      if (unique.size !== 1) return;
-      const target = unique.values().next().value;
-      card.dataset.exportSource = target.pathname;
-    });
-    addIndexPrintEntry();
-  };
+  // Directory cards and their print entry are rendered by hooks/resource_indexes.py.
+  const initialize = addPageEntry;
 
   if (typeof document$ !== "undefined") document$.subscribe(initialize);
   else if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initialize);
