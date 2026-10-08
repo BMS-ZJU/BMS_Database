@@ -1,0 +1,7 @@
+@import url("https://giscus.app/themes/light.css");
+
+/* GitHub app tokens cannot upvote yet. Remove this rule when supported.
+ * https://github.com/orgs/community/discussions/3968 */
+.gsc-upvote-button {
+  display: none;
+}

@@ -1,0 +1,171 @@
+/* Page-end navigation and shared site information follow the reading theme. */
+@media screen {
+  .md-footer.bms-footer {
+    --bms-footer-link-color: var(--md-default-fg-color--light);
+    --bms-footer-link-hover: var(--md-typeset-a-color);
+    --md-footer-fg-color: var(--md-default-fg-color);
+    --md-footer-fg-color--light: var(--md-default-fg-color--light);
+    --md-footer-fg-color--lighter: var(--md-default-fg-color--light);
+    color: var(--md-default-fg-color);
+    background: var(--md-default-bg-color);
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+    font-family: var(--md-text-font-family);
+  }
+
+  [data-md-color-scheme="slate"] .md-footer.bms-footer {
+    --bms-footer-link-hover: color-mix(in srgb, var(--md-typeset-a-color) 60%, var(--md-default-fg-color));
+  }
+
+  .bms-footer .md-footer__inner {
+    padding-block: 0;
+  }
+
+  .bms-footer .md-footer__link {
+    margin-block: 0;
+    padding-block: 16px;
+  }
+
+  .bms-footer .md-footer__direction {
+    color: var(--md-default-fg-color--light);
+  }
+
+  .bms-footer .md-footer__link:hover {
+    color: var(--bms-footer-link-hover);
+    opacity: 1;
+  }
+
+  .bms-footer-return {
+    padding: 4px 16px;
+  }
+
+  .bms-footer-return__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    max-width: 100%;
+    padding-block: 8px;
+    color: var(--bms-footer-link-color);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .bms-footer-return__link .md-icon {
+    flex: 0 0 20px;
+  }
+
+  .bms-footer-return__link svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .bms-footer-return__link:is(:hover, :focus-visible) {
+    color: var(--bms-footer-link-hover);
+  }
+
+  .bms-footer-meta {
+    padding: 20px 16px 16px;
+    background: var(--md-code-bg-color);
+  }
+
+  .bms-footer-meta__inner {
+    text-align: center;
+  }
+
+  .bms-footer-brand {
+    display: inline-block;
+    color: var(--md-default-fg-color);
+    font-family: "BMS Brand Serif", Georgia, serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .bms-footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4px 12px;
+    max-width: 620px;
+    margin: 8px auto 12px;
+  }
+
+  .bms-footer-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 0;
+    min-height: 44px;
+    padding: 8px;
+    border-radius: 4px;
+    color: var(--bms-footer-link-color);
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+
+  .bms-footer-links .md-icon {
+    flex: 0 0 20px;
+  }
+
+  .bms-footer-links svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .bms-footer-links a:is(:hover, :focus-visible) {
+    background: var(--md-accent-fg-color--transparent);
+    color: var(--bms-footer-link-hover);
+  }
+
+  .bms-footer .bms-footer-copyright {
+    max-width: 760px;
+    margin-inline: auto;
+    padding: 12px 0 0;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+    color: var(--md-default-fg-color--light);
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .bms-footer .md-copyright__highlight {
+    color: var(--md-default-fg-color);
+    word-break: keep-all;
+  }
+
+  .bms-footer-fineprint {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px 20px;
+    margin-top: 3px;
+  }
+
+  .bms-footer-fineprint > span,
+  .bms-footer-fineprint a {
+    white-space: nowrap;
+  }
+
+  .bms-footer .md-copyright a {
+    color: var(--bms-footer-link-color);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .bms-footer a:focus-visible {
+    outline: 2px solid var(--bms-footer-link-hover);
+    outline-offset: 3px;
+  }
+
+  .bms-footer .md-copyright a:is(:hover, :focus-visible) {
+    color: var(--bms-footer-link-hover);
+  }
+
+  @media (max-width: 599px) {
+    .bms-footer-links {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: 360px;
+      column-gap: 8px;
+    }
+  }
+}
