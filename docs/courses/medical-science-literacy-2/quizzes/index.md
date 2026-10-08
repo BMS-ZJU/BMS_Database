@@ -14,14 +14,16 @@ hide:
 
     [查看小测](2026-2027-autumn-quizzes.md){ .resource-collection-link }
 
--   **2025-2026 学年夏学期小测**
+    [Ginkgo 在线练习 ↗](https://yangshu233-snow.github.io/ZJUBMS-Ginkgo/%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%B4%A0%E5%85%BB%20II/2026-2027%E7%A7%8B%E5%B0%8F%E6%B5%8B%E5%8D%B7%203.html){ .resource-practice-link target="_blank" rel="noopener" }
+
+-   **2025-2026 学年夏学期（25级）小测**
 
     ---
 
-    [查看小测](2025-2026-summer-quiz.md)
+    [查看小测](2025-2026-summer-quiz.md){ .resource-collection-link }
 
 
--   **2025-2026 学年秋学期练习与小测**
+-   **2025-2026 学年秋学期（23级）练习与小测**
 
     ---
 
