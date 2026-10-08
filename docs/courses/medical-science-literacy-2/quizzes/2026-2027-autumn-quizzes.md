@@ -294,3 +294,125 @@ hide:
 
     </section>
 
+=== "小测 3"
+
+    <section id="quiz-3" data-export-title="小测 3" markdown="1">
+
+    <!--
+    source-attribution
+    贡献者：黄浩旸（资料提供）。
+    原始材料：医学科学素养Ⅱ课堂测验3。
+    资料性质：2026-2027 学年秋学期（24级）课堂测验原始试题照片。
+    整理说明：按原卷录入，保留原题号、题目与分值。
+    来源记录：MSL2-QUIZZES-20261008。
+    -->
+
+    > **日期：** 2026.10.08  
+    > **周次：** 秋第 4 周周四
+
+    原卷大题题号为 1、3、4。
+
+    #### 计算题（共 100 分） {.exam-section .exam-section--analysis data-toc-label="计算题"}
+
+    1. An experiment is designed to test the potency of a drug on 20 rats. Previous animal studies have shown that a 10-mg dose of the drug is lethal 5% of the time within the first 4 hours; of the animals alive at 4 hours, 10% will die in the next 4 hours.
+
+        1. (10 points) What is the probability that 3 or more rats will die in the first 4 hours?
+
+        2. (10 points) Suppose 2 rats die in the first 4 hours. What is the probability that 2 or fewer rats will die in the next 4 hours?
+
+        3. (10 points) What is the probability that 0 rats will die in the 8-hour period?
+
+        4. (10 points) What is the probability that 1 rat will die in the 8-hour period?
+
+    <ol start="3" class="exam-question-list exam-question-list--analysis" markdown="1">
+
+    <li markdown="1">
+
+    An important issue in assessing nuclear energy is whether excess disease risks exist in the communities surrounding nuclear-power plants. A study undertaken in the community surrounding Hanford, Washington, looked at the prevalence of selected congenital malformations in the counties surrounding the nuclear-test facility.
+
+    1. (10 points) Suppose 27 cases of Down's syndrome are found and only 19 are expected based on Birth Defects Monitoring Program prevalence estimates in the states of Washington, Idaho, and Oregon. Are there significant excess cases in the area around the nuclear-power plant?
+
+    2. (10 points) If the distribution be approximated by a normal distribution, what's the probability of observing 27 cases?
+
+    3. (10 points) Suppose 12 cases of cleft palate are observed, whereas only 7 are expected based on Birth Defects Monitoring Program estimates. What is the probability of observing exactly 12 cases of cleft palate if there is no excess risk of cleft palate in the study area?
+
+    </li>
+
+    <li markdown="1">
+
+    Serum cholesterol is an important risk factor for coronary disease. We can show that serum cholesterol is approximately normally distributed, with mean = 219 mg/dL and standard deviation = 50 mg/dL.
+
+    1. (10 points) If the clinically desirable range for cholesterol is < 200 mg/dL, what proportion of people have clinically desirable levels of cholesterol?
+
+    2. (10 points) Some investigators believe that only cholesterol levels over 250 mg/dL indicate a high-enough risk for heart disease to warrant treatment. What proportion of the population does this group represent?
+
+    3. (10 points) What proportion of the general population has borderline high-cholesterol levels—that is, > 200 but < 250 mg/dL?
+
+    </li>
+
+    </ol>
+
+    </section>
+
+=== "小测 4"
+
+    <section id="quiz-4" data-export-title="小测 4" markdown="1">
+
+    <!--
+    source-attribution
+    贡献者：黄浩旸（资料提供）。
+    原始材料：医学科学素养Ⅱ课堂测验4。
+    资料性质：2026-2027 学年秋学期（24级）课堂测验原始试题照片。
+    整理说明：按原卷录入，保留题目、选项与分值。
+    来源记录：MSL2-QUIZZES-20261008。
+    -->
+
+    > **日期：** 2026.10.08  
+    > **周次：** 秋第 4 周周四
+
+    #### 一、选择题（共 40 分） {.exam-section .exam-section--choice data-toc-label="一、选择题"}
+
+    *选最合理的选项。*
+
+    1. A clinical study measures the mean systolic blood pressure reduction after a new antihypertensive drug in a sample of 100 patients. The sample mean reduction is 12 mmHg with a standard deviation of 20 mmHg. Which of the following is the correct interpretation of the 95% confidence interval (CI) for the mean reduction?
+
+        **A.** There is a 95% chance that the true population mean reduction lies between 8.08 mmHg and 15.92 mmHg.  
+        **B.** 95% of all patients in the population will have a blood pressure reduction between 8.08 mmHg and 15.92 mmHg.  
+        **C.** If we repeated this study 100 times, 95 of the calculated CIs would contain the true population mean reduction.  
+        **D.** The probability that the null hypothesis (mean reduction = 0) is false is 95%.
+
+    2. In a randomized controlled trial comparing a new analgesic to placebo for postoperative pain, the p-value for the difference in mean pain scores is **p = 0.04**. Using a significance level $\alpha = 0.05$, which of the following statements is **most accurate**?
+
+        **A.** There is a 4% probability that the null hypothesis (no difference between groups) is true.  
+        **B.** The observed difference is statistically significant, and the probability of observing such an extreme (or more extreme) difference due to chance alone is 4% (assuming the null hypothesis is true).  
+        **C.** The new analgesic is clinically superior to placebo with 95% certainty.  
+        **D.** If the study were repeated, 4% of the time the results would be the same.
+
+    3. A 95% confidence interval for the odds ratio (OR) of developing hypertension comparing a high-sodium diet to a low-sodium diet is (1.10, 2.50). Which of the following conclusions is **correct**?
+
+        **A.** The null value (OR = 1) is included in the interval, so the result is not statistically significant at $\alpha = 0.05$.  
+        **B.** The point estimate of the odds ratio is 2.50.  
+        **C.** Because the interval does not contain 1, the p-value for testing OR = 1 will be less than 0.05.  
+        **D.** There is a 95% probability that the true odds ratio lies between 1.10 and 2.50.
+
+    4. In a hypothesis test comparing two treatment groups, the calculated p-value is 0.07, and the pre-specified alpha level is 0.05. Which of the following actions is **most appropriate**?
+
+        **A.** Reject the null hypothesis because the result is clinically important.  
+        **B.** Conclude that there is no difference between the two treatments.  
+        **C.** Accept the null hypothesis as true because the p-value is greater than 0.05.  
+        **D.** Fail to reject the null hypothesis and interpret the result as not statistically significant, while acknowledging the possibility of a Type II error.
+
+    #### 二、计算题（共 60 分） {.exam-section .exam-section--analysis data-toc-label="二、计算题"}
+
+    1. (20 points) A vaccine is expected to have a **protective efficacy** (proportion protected) of **90%**. The **null hypothesis** is that the true protection rate is **85%** (the standard for an acceptable vaccine). The investigators want to detect a **difference from 85% (two-sided test)** with $\alpha = 0.05$ and **power = 90%**.
+
+        **Calculate the required sample size.**
+
+    2. (20 points) A drug company claims that their new antihypertensive drug reduces systolic blood pressure by an average of **15 mmHg**. In an independent study, 16 patients receive the drug, and the mean reduction is **12 mmHg** with a standard deviation of **6 mmHg**.
+
+        **Test whether the true mean reduction is different from the claimed 15 mmHg. Use $\alpha = 0.05$.**
+
+    3. (20 points) A study measures the systolic blood pressure (SBP) in 50 healthy medical students. The sample mean SBP is 118 mmHg, and the sample standard deviation is 12 mmHg. Calculate the 95% confidence interval for the true mean SBP in the population of healthy medical students is from ____ to ____. If you use the normal (z) approximation, the 95% CI is from ____ to ____. **(keep two decimal places)**
+
+    </section>
+
