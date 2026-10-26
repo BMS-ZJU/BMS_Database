@@ -5,6 +5,14 @@ repo_name: BMS-ZJU/BMS_Database
 repo_url: https://github.com/BMS-ZJU/BMS_Database
 edit_uri: edit/main/docs/
 
+exclude_docs: |
+  courses/human-diseases-from-clinic-to-research-1/**
+  !courses/human-diseases-from-clinic-to-research-1/index.md
+  courses/human-diseases-from-clinic-to-research-2/**
+  !courses/human-diseases-from-clinic-to-research-2/index.md
+  courses/human-diseases-from-clinic-to-research-3/**
+  !courses/human-diseases-from-clinic-to-research-3/index.md
+
 draft_docs: |
   zijingang/**
   !zijingang/index.md
@@ -240,24 +248,10 @@ nav:
       - 说课与试讲: courses/educational-probation-of-basic-medicine/assessment/trial-teaching.md
     - 重要疾病的临床与研究Ⅰ:
       - 课程主页: courses/human-diseases-from-clinic-to-research-1/index.md
-      - 考试资料:
-        - courses/human-diseases-from-clinic-to-research-1/exams/index.md
-        - 2025-2026 秋期末回忆卷: courses/human-diseases-from-clinic-to-research-1/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 秋期末回忆卷: courses/human-diseases-from-clinic-to-research-1/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 秋期末回忆卷: courses/human-diseases-from-clinic-to-research-1/exams/2023-2024-final-exam-recall.md
     - 重要疾病的临床与研究Ⅱ:
       - 课程主页: courses/human-diseases-from-clinic-to-research-2/index.md
-      - 考试资料:
-        - courses/human-diseases-from-clinic-to-research-2/exams/index.md
-        - 2024-2025 冬期末回忆卷: courses/human-diseases-from-clinic-to-research-2/exams/2024-2025-final-exam-recall.md
     - 重要疾病的临床与研究Ⅲ:
       - 课程主页: courses/human-diseases-from-clinic-to-research-3/index.md
-      - 平时小测:
-        - courses/human-diseases-from-clinic-to-research-3/quizzes/index.md
-        - 2024-2025 春小测 1—4: courses/human-diseases-from-clinic-to-research-3/quizzes/2024-2025-quizzes.md
-      - 考试资料:
-        - courses/human-diseases-from-clinic-to-research-3/exams/index.md
-        - 2024-2025 春期末回忆卷: courses/human-diseases-from-clinic-to-research-3/exams/2024-2025-final-exam-recall.md
     - 临床实习: courses/clinical-practice/index.md
     - 肿瘤生物学:
       - 课程主页: courses/cancer-biology/index.md
