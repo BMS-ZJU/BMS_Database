@@ -26,7 +26,6 @@ comments: false
 下面是几种已有资料入口的例子：
 
 - [医学科学素养Ⅱ练习与小测](../courses/medical-science-literacy-2/quizzes/index.md)：从分组页进入具体练习。
-- [基础药理学讨论课](../courses/basic-pharmacology/discussions/index.md)：按讨论课进入病例和问题。
 - [医学生物物理学课程笔记](../courses/medical-biophysics/notes/index.md)：查看三份往届同学整理的PDF笔记。
 
 想找某个术语或一段题目时，也可以使用网站搜索。搜索不到不代表原材料一定没有相应内容，尤其是图片、附件或只保留站外链接的资料。
