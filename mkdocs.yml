@@ -12,6 +12,16 @@ exclude_docs: |
   !courses/human-diseases-from-clinic-to-research-2/index.md
   courses/human-diseases-from-clinic-to-research-3/**
   !courses/human-diseases-from-clinic-to-research-3/index.md
+  courses/infectious-diseases-and-immunity/**
+  !courses/infectious-diseases-and-immunity/index.md
+  courses/basic-pharmacology/**
+  !courses/basic-pharmacology/index.md
+  courses/clinical-epidemiology-and-evidence-based-medicine/**
+  !courses/clinical-epidemiology-and-evidence-based-medicine/index.md
+  courses/advanced-technology-in-microbiology-and-immunology/**
+  !courses/advanced-technology-in-microbiology-and-immunology/index.md
+  courses/strategy-and-application-in-cancer-research/**
+  !courses/strategy-and-application-in-cancer-research/index.md
 
 draft_docs: |
   zijingang/**
@@ -190,14 +200,6 @@ nav:
         - 2022-2023 夏期末回忆卷: courses/medical-big-data-and-application/exams/2022-2023-final-exam-recall.md
     - 感染与免疫学:
       - 课程主页: courses/infectious-diseases-and-immunity/index.md
-      - 平时小测:
-        - courses/infectious-diseases-and-immunity/quizzes/index.md
-        - 2025-2026 秋冬三次小测: courses/infectious-diseases-and-immunity/quizzes/2025-2026-quizzes.md
-      - 考试资料:
-        - courses/infectious-diseases-and-immunity/exams/index.md
-        - 2025-2026 秋冬期末回忆卷: courses/infectious-diseases-and-immunity/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 秋冬期末回忆卷: courses/infectious-diseases-and-immunity/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 秋冬期末回忆卷: courses/infectious-diseases-and-immunity/exams/2023-2024-final-exam-recall.md
     - 疾病基础:
       - 课程主页: courses/the-basis-for-human-diseases/index.md
       - 平时小测:
@@ -211,16 +213,6 @@ nav:
         - 2022-2023 秋冬期末回忆卷: courses/the-basis-for-human-diseases/exams/2022-2023-final-exam-recall.md
     - 基础药理学:
       - 课程主页: courses/basic-pharmacology/index.md
-      - 讨论课:
-        - courses/basic-pharmacology/discussions/index.md
-        - 第一次：中枢神经系统药理: courses/basic-pharmacology/discussions/2025-2026-01-central-nervous-system.md
-        - 第二次：心血管药理: courses/basic-pharmacology/discussions/2025-2026-02-cardiovascular.md
-        - 第三次：抗感染药物: courses/basic-pharmacology/discussions/2025-2026-03-antimicrobial.md
-      - 考试资料:
-        - courses/basic-pharmacology/exams/index.md
-        - 2025-2026 春夏期末回忆卷: courses/basic-pharmacology/exams/2025-2026-final-exam-recall.md
-        - 2024-2025 春夏期末回忆卷: courses/basic-pharmacology/exams/2024-2025-final-exam-recall.md
-        - 2023-2024 春夏期末回忆卷: courses/basic-pharmacology/exams/2023-2024-final-exam-recall.md
     - 神经科学:
       - 课程主页: courses/neuroscience/index.md
       - 平时小测:
@@ -262,14 +254,8 @@ nav:
     - 临床肿瘤学概论: courses/introduction-to-clinical-oncology/index.md
     - 肿瘤研究策略与应用:
       - 课程主页: courses/strategy-and-application-in-cancer-research/index.md
-      - 考试资料:
-        - courses/strategy-and-application-in-cancer-research/exams/index.md
-        - 2024-2025 夏期末回忆卷: courses/strategy-and-application-in-cancer-research/exams/2024-2025-final-exam-recall.md
     - 微生物学与免疫学前沿技术:
       - 课程主页: courses/advanced-technology-in-microbiology-and-immunology/index.md
-      - 考试资料:
-        - courses/advanced-technology-in-microbiology-and-immunology/exams/index.md
-        - 2024-2025 秋期末回忆卷: courses/advanced-technology-in-microbiology-and-immunology/exams/2024-2025-final-exam-recall.md
     - 临床免疫学:
       - 课程主页: courses/clinical-immunology/index.md
       - 考试资料:
