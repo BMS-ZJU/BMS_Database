@@ -8,11 +8,11 @@ hide:
 
 <div class="grid cards course-resource-grid" markdown>
 
--   **2026-2027 学年秋学期（24级）小测**
+-   **2026-2027 学年秋学期（24级）练习与小测**
 
     ---
 
-    [查看小测](2026-2027-autumn-quizzes.md){ .resource-collection-link }
+    [查看练习与小测](2026-2027-autumn-quizzes.md){ .resource-collection-link }
 
     [Ginkgo 在线练习 ↗](https://yangshu233-snow.github.io/ZJUBMS-Ginkgo/%E5%8C%BB%E5%AD%A6%E7%A7%91%E5%AD%A6%E7%B4%A0%E5%85%BB%20II/2026-2027%E7%A7%8B%E5%B0%8F%E6%B5%8B%E5%8D%B7%203.html){ .resource-practice-link target="_blank" rel="noopener" }
 
